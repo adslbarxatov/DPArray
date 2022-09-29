@@ -1,0 +1,426 @@
+﻿DPArray: changes log
+
+Version 5.0:
+• 
+
+
+
+***
+
+DPModule: changes log
+
+Version 14.0:
+• Packages viewer now has more suitable appearance;
+• Implemented the ability to check missing requirements (.NET, C++ RTL, etc.) and download some of
+  them or redirect user to the needed webpage;
+• Improved the parser of the packages list;
+• Implemented the deployment package v 14 that supports multilanguage descriptions, extendable flags
+  sections and sets of controllable requirements;
+• The fast deployment has been unlocked. But it can be overridden by the app when one of the default
+  requirements is not satisfied;
+• Added the ability to lock the fast deployment for DPModule itself (for further updates)
+
+Version 13.7:
+• Implemented the ability to open localized ADP, SCP and Welcome pages;
+• Required framework version updated from 4.0 to 4.8
+
+Version 13.6m:
+• Temporarily disabled the ability to skip the screen with the requirements: we’ve upgraded our C-based
+  apps from MSVC RTL v 100 to v 142. Therefore, some users will need to install these redistributables
+  on their PCs. This is a library package from Microsoft that is probably installed on most machines
+  (because it is part of most modern games and apps). But we must be sure of it
+
+Version 13.6.5:
+• Some code refactoring has been applied;
+• Current improvements and updates have been accepted;
+• Some tips have been updated
+
+Version 13.6.1:
+• Found and fixed the bug that affected the file association method: right after the deployment (if “start
+  after deployment” flag is set) this method created corresponding icons in the DPModule’s directory. This
+  misplacement caused them to be invisible for users. The bug will not appear in versions of applications
+  created after July 10, 2022;
+• Fixed the text color of the modes list
+
+Version 13.6:
+• Implemented the ability to create shortcuts in the Start menu (in addition to desktop shortcuts);
+• Some improvements and code refactoring applied
+
+Version 13.5.4:
+• Update packages are now able to create shortcuts
+
+Version 13.5.3:
+• App will show updates availability (or “all packages are up to date” status), if no server messages have been received;
+• Parsing methods for ADP and projects descriptions have been upgraded
+
+Version 13.5.1:
+• The “App about” interface has been updated
+
+Version 13.5:
+• The packages manager now has its tray icon. Its menu now contains “App about”, “Change UI language” and “Last server
+  messages” options. The last one replaces the green rectangle used earlier for our alert messages;
+• Some fixes applied to the “App about” interface
+
+Version 13.4.3:
+• Updated the formatting of packages list
+
+Version 13.4.2:
+• DPModule now supports different types of packages versioning
+
+Version 13.4.1:
+• DPModule will ignore its own updates when using dp:// call;
+• Packages list has been eased
+
+Version 13.4:
+• Fixed extraction bug for 7z archives when using dp:// call;
+• Previously deployed (up-to-date) packages will not be grayed anymore;
+• Added filter for deployed (up-to-date) packages
+
+Version 13.3.1:
+• Some improvements applied to the user interface
+
+Version 13.3:
+• Implemented the support for reserve list of packages on VK.com (for urgent cases);
+• Improved the algorithm of an unzipper selection
+
+Version 13.2.1:
+• Adjusted notifications appearance;
+• Updated “App about” interface;
+• Adjusted packages downloading method
+
+Version 13.2:
+• Exit and deploy actions now have different buttons;
+• Implemented the protocol processing for “dp://” alias. F.e., the call “dp://TextToKKT” will start downloading
+  of the corresponding package. Association for this alias will be added to OS settings automatically;
+• Implemented the ability to download non-deployable files (i.e., the ability to skip deployment): .exe, .apk, etc.;
+• App will not show requirements window on second, third and subsequent deployments, if “close on success” flag is set;
+• App now able to display alerts if they described in the packages list
+
+Version 13.1.37:
+• Implemented the updates downloading directly from the “About the app” interface (for other projects). This function
+  requires DPModule. It allows you to download DPModule if it was not previously installed;
+• Removed self-update function from the “About the app” interface
+
+Version 13.1.1:
+• Upgraded Policy and Version info loaders
+
+Version 13.1:
+• Fixed some automation bugs in the fast deployment mode
+
+Version 13.0.7:
+• Fixed some bugs in the “App about” interface;
+• Splash screen now is definitely scalable;
+• Restored links support for older versions
+
+Version 13.0.5:
+• Fast deployment is allowed for all project that have been previously deployed
+
+Version 13.0:
+• Implemented the fast deployment mode. It allows you to skip manual deployment steps and use previously
+  specified path and flags by default (or set default values for new packages). Mode may be useful
+  for current updates. Some packages don’t support it;
+• Request for changelogs about GitHub-based projects now works properly;
+• Some text tips have been updated;
+• Some interface and core improvements applied
+
+Version 12.10:
+• Required redistributables will now be highlighted on the last page of the app;
+• Added more remarkable reminder about the list of changes for the new or current app version;
+• Added new mechanism of access rights checking: it will display warnings when Windows registry is unavailable;
+• Changed appearance of locked buttons in the main interface;
+• Banners have been updated;
+• New identity has been applied, new splash screen implemented
+
+Version 12.9:
+• Added non-system message boxes for emergency alerts;
+• Implemented .dp – the unified packages format with internal versioning;
+• Removed some potential bugs in the packages downloader;
+• Fixed some other interface bugs;
+• App will now fix the missing registry entries properly
+
+Version 12.8.4:
+• Applied some updates for core assemblies;
+• Stopped support for versions older than 12.0
+
+Version 12.8.3:
+• When progress bars are not required to be “always on top”, they will not use this feature anymore;
+• Updated some interface tips
+
+Version 12.8.2:
+• Updated the rest icons;
+• Fixed bug in the self-cleaning algorithm
+
+Version 12.8.1:
+• Updated users videoguide;
+• App will now remove its old versions during the update;
+• Fixed appearance of some buttons
+
+Version 12.8:
+• Downloadable version of DPModule now presented as an SFX-archive. It will properly configure app
+  for the first start;
+• DPModule got the scalable icon and the digital signature (only self-signed for now);
+• Fixed some minor bugs
+
+Version 12.7:
+• App now able to filter packages by “all – new – update” and “all – apps – mods – games” attributes
+
+Version 12.6:
+• App will now automatically override deployment path in case of its absence (instead of blocking the deployment);
+• Fixed some interface inconveniences and tips;
+• Added protection against interrupted downloads: packages “shreds” will be removed automatically
+
+Version 12.5:
+• Implemented ability to save specified deployment flags (creating shortcuts, kill process, etc.);
+• Implemented package flags that allow to properly update deployed versions in registry;
+• Some interface adjustments applied;
+• Added new links for FDL
+
+Version 12.4:
+• App now able to add versions of successfully deployed packages to the registry. It allows you to
+  skip deployment package in the next DPModule start without starting the deployed project (was required
+  in previous version). Also, this option allows you to track versions of those projects that cannot
+  check them on their own (KeyboardSwitcher, ESHQ, etc.);
+• DPModule now able to filter packages with “only new” and “only updates” flags
+
+Version 12.3.1:
+• Updated internal mechanism of checking for updates (applied compatibility with new GitHub theme);
+• Removed obsolete code fragments
+
+Version 12.3:
+• Added the registry access checker: it will show recommended actions for the executable file
+  when Windows doesn’t allow saving settings;
+• Updated the link to video guide for users;
+• Applied new elements in user interface;
+• Fixed a bug when updating DPModule required clearing the cache
+
+Version 12.2:
+• AboutForm and HardWorkExecutor universal classes have been upgraded and improved;
+• Fixed some interface bugs
+
+Version 12.1:
+• Improved tray icon’s behavior; improved its context menu;
+• Fixed tips about double-clicking on the tray icon
+
+Version 12.0.3:
+• Fixed self-update failure;
+• Fixed some minor interface bugs
+
+Version 12.0.2:
+• Updated packages and ADP links;
+• Fixed some interface bugs
+
+Version 12.0.1:
+• Disabled the post-deployment relocation for packages; “Deployed” directory is no longer used;
+• Disabled support for .dp9 packages format;
+• Fixed some interface bugs
+
+Version 12.0:
+• Interface of the packages manager has been completely rebuilt. Now it has obviously display
+  actual and installed versions for packages, load project descriptions and correctly process
+  user selection for further deployment;
+• DPModule now allows users to skip creation of desktop shortcuts
+
+Version 11.7:
+• Now DPModule has its own type for deinstallation scripts. These files (.dpd) are copies of
+  deployment packages (.dp0) that contain only the header (without product data)
+
+Version 11.6:
+• Updated link and text presenter for ADP;
+• Updated banners set
+
+Version 11.5b:
+• Fixed false triggering of some antivirus software;
+• Removed unused logo scenes and images
+
+Version 11.5:
+• Uninstallation scripts will now be created in package deployment directories (instead of DPModule’s startup path);
+  also shortcuts for these scripts will be created on the desktop
+
+Version 11.4:
+• Some interface adjustments applied;
+• Added support for new ESHQ mod’s engine version;
+• Added support for WinRAR utility;
+• Improved downloading algorithm for ModDB
+
+Version 11.3.2:
+• Fixed icons applied;
+• Added keyboard control for “about” interface;
+• Added autoclose function for deinstallation mode;
+• Logo intro now more compatible with large screens
+
+Version 11.3.1:
+• Added new identity for other interfaces;
+• Added “autoclose on success” flag;
+• DPModule now unable to kill its own process
+
+Version 11.3:
+• New identity applied;
+• New links to RD AAOW FDL added;
+• Added ability to access app info from packages manager;
+• Added direct lab link
+
+Version 11.2.2:
+• Fixed critical bug with downloaded packages interface: it may fail when no packages have been previously deployed;
+• Banners section has been updated
+
+Version 11.2:
+• Added ability to finish all processes of the previous app version before its updating / deinstallation;
+• Added ability to start application after installation / update;
+• Some tips have been updated
+
+Version 11.1:
+• Now application will check the activity of executables being updated or deleted. If it’s running, DPModule
+  will interrupt deployment process;
+• Some fixes applied to application interface
+
+Version 11.0.3:
+• Some fixes applied to application interface
+
+Version 11.0.2:
+• Updated tabstop order in packages manager’s interface;
+• Downloading, checking and re-deployment are now available with double clicking and Enter key pressing;
+• Application will now wait for finishing unzipper’s process (for correct lists updating);
+• Manual lists update has been added;
+• Video presentation for the product has been updated
+
+Version 11:
+• Packages manager’s interface has been completely rebuilt; now it’s able to:
+  - download packages, as before (packages statuses will be shown by icons);
+  - clearly select packages for deploying (without “open file” window);
+  - display downloaded and previously deployed packages;
+  - select packages for re-deployment;
+  - clear cache, as before;
+• Removed multiple warnings about custom installation path; only one message will be shown for every app
+
+Version 10.6:
+• Removed some artifacts of old versions;
+• Added ability to “ask developer” via E-mail for help, or send wish, advice or bug report;
+  the same functionality has been removed from the main window;
+• Incorrect behavior of “always on top” function has been fixed;
+• Fixed bug with dropping deinstalled packages from “Deployed” subdirectory;
+• Added “Clear cache” function that removes all files from “Downloaded” and “Deployed” subdirectories;
+• Added ability to create deinstallation scripts for installation (not an update) packages;
+  scripts will be placed in “Uninstallers” subdirectory
+
+Version 10.5.3:
+• Improved packages building algorithm;
+• Some tips has been replaced / updated;
+• Removed unnecessary message about directory creation
+
+Version 10.5.2:
+• Updated video manual and link to it;
+• Removed stub for old command line keys;
+• Fixed previously downloaded packages detection sign;
+• Fixed some background colors of tool windows
+
+Version 10.5.1:
+• Split messages for info link and required additional installations
+
+Version 10.5:
+• Added ability to display post-deployment messages and starting links for external installations;
+• Updated laboratory links
+
+Version 10.4.4:
+• Fixed hidden bug in paths processing algorithm
+
+Version 10.4.3:
+• Fixed bug in Policy acceptation interface that disallowed to accept it in offline mode at first start
+
+Version 10.4.2:
+• Fixed bug that disallowed old deployed packages overwriting;
+• Packages will be now downloaded into “Downloaded” subdirectory;
+• Successfully deployed packages will be moved from “Downloaded” to “Deployed” subdirectory;
+• Packages extensions will be re-registered on every DPModule update to avoid side effects;
+• Added stand-alone icon for .dp9 packages
+
+Version 10.4:
+• Added ability to check installed versions of utilities:
+  - “new” will be added to packages names that have never been installed;
+  - “update” will be added to packages names that are newer than installed;
+• ADP loader has been rebuilt:
+  - Policy accepting will not be requested for every utility;
+  - Policy accepting will be requested only once at first start of some utility or on new Policy review;
+  - Policy text now formatted properly;
+• App about and Policy windows are now fully expandaple
+
+Version 10.3.2:
+• Added ability to register file associations;
+• Added protection against multiple launch;
+• Some code improvements applied
+
+Version 10.3:
+• Updates for DPModule now will be processed in stand-alone algorithm; updates for module are required now
+  (downloading of other packages will not be available without them)
+
+Version 10.2.3:
+• Some improvements applied to packages download interface;
+• Some improvements applied to building algorithm;
+• Updated feedback links
+
+Version 10.2.2:
+• Applied some fixes in packages building algorithm;
+• Path to the package now can be passed as command line parameter;
+• “Improve” link has been removed from the first page
+
+Version 10.2:
+• Some code fixes applied;
+• Removed old DPModule updates checking method; updates may be found in “about” window;
+• Fixed names of some buttons;
+• Updated user manual link;
+• Application will move successfully deployed packages to “Deployed” subdirectory;
+  it will allow user to organize them and simplify access to downloading mode;
+• Added link for list of projects and developments in packages download interface;
+• Added name of currently downloading package in packages download interface;
+• Packages download mode can now be called from the tray context menu;
+• Interface language can now be changed from the tray context menu;
+• Deployment path can be restored from the tray context menu
+
+Version 10.1:
+• Fixed names of some buttons and menu items;
+• Fixed incorrect behavior of ModDB download algorithm;
+• Improved packages downloading interface;
+• Utilities and mods have been moved to different lists;
+• Some code fixes applied
+
+Version 10.0:
+• Deployment module now can download deployment packages; function available when there are no .dp? files
+  in the same directory with DPModule or with -p key;
+• Deployment module now allows to manually select all packages that are needed to be deployed;
+• Internal text encoding changed to UTF8; russian descriptions for old (.dp9) packages will not be available;
+• Removed support for old package formats (.dpp, .dpm, .dpu, .dpx);
+• Fixed paths bug on x64 platforms
+
+Version 9.6:
+• Application info interface now able to get last release’s changes log;
+• Added precaution for existing files overwriting;
+• Some code artifacts removed;
+• Fixed “only C:\” bug in path suggestion code
+
+Version 9.5i:
+• Found and fixed hidden bug that caused an error when starting the application from local network;
+• Fixed bug that caused the web page request method to fail if server disconnected;
+• Added user manual link
+
+Version 9.4:
+• Added ability to accept/decline ADP at first start to the application info interface;
+• Other code improvements applied
+
+Version 9.3p:
+• ADP link added to the banner carousel
+
+Version 9.2:
+• Some bugs in packages building algorithm fixed;
+• Some bugs in logo drawing algorithm fixed;
+• Some improvements applied in user interface
+
+Version 9.1:
+• DPModule now can check its own updates at GitHub;
+• Some code improvements applied
+
+Version 9.0:
+• First publication on GitHub;
+• Application namespace, icon and development environment have been unified;
+• Completely new packages and links processing implemented; packages operating have been unified for all projects;
+• Backward compatibility for v8 packages has been preserved;
+• Definitely new interface behavior applied;
+• New version of packages has been implemented; it allows multitarget deployment of... almost everything

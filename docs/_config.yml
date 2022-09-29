@@ -1,0 +1,11 @@
+# theme: jekyll-theme-cayman
+markdown: GFM
+plugins:
+  - jemoji
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /img/DP.png
