@@ -6,7 +6,7 @@ DPArray						5.0		DEFSTORAGE/DPArray.dp						DPArray.dp					0x0009E05C	1
 #Apps
 Batch image convertor		3.0		DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x00059B93	1
 BExplorer					3.0		DEFSTORAGE/BExplorer.dp						BExplorer.dp				0x0016E76B	1
-ConcurrentDraw				2.7.142		DEFSTORAGE/ConcurrentDraw.dp				ConcurrentDraw.dp			0x000CA2C3	1
+ConcurrentDraw				3.0		DEFSTORAGE/ConcurrentDraw.dp				ConcurrentDraw.dp			0x0009F4A8	1
 Dates difference			2.6		DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x0003C818	0
 File extensions manager		1.8.2	DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x0007BE2B	0
 Font finder					2.15.2	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x000633D2	0
