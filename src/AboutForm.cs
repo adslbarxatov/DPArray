@@ -349,7 +349,6 @@ namespace RD_AAOW
 		// Метод получает Политику разработки
 		private void PolicyLoader (object sender, DoWorkEventArgs e)
 			{
-			/*string html = GetHTML (RDGenerics.ADPLink + (al == SupportedLanguages.ru_ru ? "/ru" : ""));*/
 			string html = GetHTML (RDGenerics.GetADPLink (al == SupportedLanguages.ru_ru));
 			int textLeft, textRight;
 
@@ -480,7 +479,7 @@ namespace RD_AAOW
 
 			// Контроль наличия DPModule
 			string dpmv = RDGenerics.GetAppSettingsValue (LastShownVersionKey, ADPRevisionPath);
-			string downloadLink /*= RDGenerics.DPArrayStorageLink*/;
+			string downloadLink;
 			string packagePath = Environment.GetFolderPath (Environment.SpecialFolder.Desktop) + "\\";
 
 			if (string.IsNullOrWhiteSpace (dpmv))
@@ -509,8 +508,6 @@ namespace RD_AAOW
 					MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes)
 					return;
 
-				/*downloadLink += ("/raw/master/Packages/" + ProgramDescription.AssemblyMainName + ".dp");
-				packagePath += (ProgramDescription.AssemblyMainName + ".dp");*/
 				downloadLink = RDGenerics.DPArrayPackageLink;
 				}
 

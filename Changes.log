@@ -1,5 +1,8 @@
 ﻿DPArray: changes log
 
+Version 5.0.2:
+• Adjusted the interface behavior
+
 Version 5.0:
 • DPArray is now the main deployment tool:
   - DPModule will perform self-replacement with the new app;
