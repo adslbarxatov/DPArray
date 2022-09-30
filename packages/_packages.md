@@ -11,9 +11,9 @@ Dates difference			2.6		DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x
 File extensions manager		1.8.2	DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x0007BE2B	0
 Font finder					2.15.2	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x000633D2	0
 Geomag data drawer			4.21	DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x0012CC6E	1
-Keyboard switcher			1.4.142		DEFSTORAGE/KeyboardSwitcher.dp				KeyboardSwitcher.dp			0x0002BC61	1
+Keyboard switcher			1.5		DEFSTORAGE/KeyboardSwitcher.dp				KeyboardSwitcher.dp			0x0002BE43	1
 Make CST					1.6.37	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000117CC	0
-OS macros executor			2.10.142	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x00071984	1
+OS macros executor			3.0		DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x0005DB65	1
 Screen shooter				1.9		DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x000419FC	0
 Sudoku solver				2.5		DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x0003D7D4	0
 Tables merger				1.8		DEFSTORAGE/TablesMerger.dp					TablesMerger.dp				0x00060E07	0
