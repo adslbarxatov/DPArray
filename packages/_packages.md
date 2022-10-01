@@ -12,10 +12,10 @@ File extensions manager		2.0		DEFSTORAGE/FileExtensionsManager.dp			FileExtensio
 Font finder					3.0		DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x000497E4	0
 Geomag data drawer			5.0		DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x0012CEB4	1
 Keyboard switcher			1.5		DEFSTORAGE/KeyboardSwitcher.dp				KeyboardSwitcher.dp			0x0002BE43	1
-Make CST					1.6.37	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000117CC	0
+Make CST					2.0		DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x00012BC6	0
 OS macros executor			3.0		DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x0005DB65	1
-Screen shooter				1.9		DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x000419FC	0
-Sudoku solver				2.5		DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x0003D7D4	0
+Screen shooter				2.0		DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x000351D0	0
+Sudoku solver				3.0		DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x000309B4	0
 Tables merger				1.8		DEFSTORAGE/TablesMerger.dp					TablesMerger.dp				0x00060E07	0
 Text to KKT					9.6		DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x00121463	1
 uNot						5.1		DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x00046F6F	0
