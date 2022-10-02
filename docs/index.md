@@ -63,7 +63,7 @@ A general list of mods is available [here](https://moddb.com/members/rd-aaow-fdl
 
 ### DPArray :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/DPArray)
-● [:film_projector: Guide](https://youtube.com/watch?v=RdQoc4tnZsk)
+● [:film_projector: Guide](https://youtube.com/watch?v=I_sXoDxPQQ0)
 ● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/DPArray/releases/latest) ●
 
 The deployment tool for laboratory projects. The tool installs, removes, checks updates, loads packages and their requirements.

@@ -5,15 +5,15 @@
 
 
 
-DPArray is our old deployment tool with a new name. It was creates to manage installations of Laboratory’s products.
-DPArray performs installation, deinstallation, check for updates, download of packages and their requirements.
+DPArray is our old deployment tool with a new name. It was created to manage installations of Laboratory’s products.
+DPArray performs installation, uninstallation, check for updates, download of packages and their requirements.
 This tool is the only thing you need to start working with all of our projects
 
 #
 
 DPArray – наш старый инструмент развёртывания с новым именем. Он был создан для управления установками продуктов Лаборатории.
 DPArray выполняет установку, удаление, проверку обновлений, загрузку пакетов и их зависимостей.
-Этот инструмент – единственное, что вам нужно, чтобы начать работать со всеми нашими проектами
+Этот инструмент – единственное, что Вам нужно, чтобы начать работать со всеми нашими проектами
 
 &nbsp;
 

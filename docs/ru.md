@@ -60,8 +60,8 @@
 &nbsp;
 
 ### DPArray :gb: :ru:
-● [:earth_africa: About](https://github.com/adslbarxatov/DPArray)
-● [:film_projector: Guide](https://youtube.com/watch?v=RdQoc4tnZsk)
+● [:earth_africa: About](https://github.com/adslbarxatov/DPArray/ru)
+● [:film_projector: Guide](https://youtube.com/watch?v=I_sXoDxPQQ0)
 ● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/DPArray/releases/latest) ●
 
 Инструмент развёртки проектов лаборатории. Инструмент выполняет установку, удаление, проверку обновлений, загрузку пакетов и их зависимостей.
