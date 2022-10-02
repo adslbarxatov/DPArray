@@ -42,7 +42,8 @@ namespace RD_AAOW
 		/// <param name="ShortcutFileName">Имя файла ярлыка</param>
 		/// <param name="TargetFile">Файл, для которого создаётся ярлык</param>
 		/// <returns>Возвращает 0 в случае успеха</returns>
-		public static int CreateDesktopShortcut (string TargetFile, string ShortcutFileName, string ShortcutArguments)
+		public static int CreateDesktopShortcut (string TargetFile, string ShortcutFileName,
+			string ShortcutArguments)
 			{
 			return CreateShortcut (TargetFile, ShortcutFileName, Environment.GetFolderPath (Environment.SpecialFolder.Desktop),
 				ShortcutArguments);
@@ -55,7 +56,8 @@ namespace RD_AAOW
 		/// <param name="ShortcutFileName">Имя файла ярлыка</param>
 		/// <param name="TargetFile">Файл, для которого создаётся ярлык</param>
 		/// <returns>Возвращает 0 в случае успеха</returns>
-		public static int CreateStartupShortcut (string TargetFile, string ShortcutFileName, string ShortcutArguments)
+		public static int CreateStartupShortcut (string TargetFile, string ShortcutFileName,
+			string ShortcutArguments)
 			{
 			return CreateShortcut (TargetFile, ShortcutFileName, Environment.GetFolderPath (Environment.SpecialFolder.CommonStartup),
 				ShortcutArguments);
@@ -71,7 +73,8 @@ namespace RD_AAOW
 		/// <returns>Возвращает 0 в случае успеха;
 		/// -1, если переданы пустые строки в качестве путей;
 		/// -2, если файл, для которого создаётся ярлык, недоступен;
-		/// -3, если ярлык с заданными параметрами не может быть создан (целевой путь некорректен или недоступен)</returns>
+		/// -3, если ярлык с заданными параметрами не может быть создан (целевой путь некорректен 
+		/// или недоступен)</returns>
 		public static int CreateShortcut (string TargetFile, string ShortcutFileName, string ShortcutFilePath,
 			string ShortcutArguments)
 			{

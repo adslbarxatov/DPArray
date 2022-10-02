@@ -1,4 +1,8 @@
-_Changes for v 5.0.2_:
+_Changes for v 5.0.5_:
+- Adjusted the requirements control;
+- Adjusted the logo behavior;
+- Updates the user manual link;
+- Removed some obsolete code;
 - Adjusted the interface behavior;
 - DPArray is now the main deployment tool:
     - DPModule will perform self-replacement with the new app;

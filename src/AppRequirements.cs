@@ -151,7 +151,7 @@
 				default:
 					downloadLink = "https://go.microsoft.com/fwlink/?linkid=2088631";
 					description = "Microsoft .NET Framework 4.8";
-					fileName = "DotNETfx48.exe";	// Автозагрузка
+					fileName = "DotNETfx48.exe";    // Автозагрузка
 					fileSize = "121307088";
 
 					defaultType = AppDefaultRequirements.DotNETFramework;
@@ -187,7 +187,7 @@
 					downloadLink = "https://microsoft.com/en-us/download/details.aspx?id=20914";
 					description = "Microsoft XNA Framework Redistributable 4.0";
 					// Автозагрузка не предусмотрена
-					/*fileName = "XNAfx40.msi";*/
+					// fileName = "XNAfx40.msi";
 
 					s = RDGenerics.GetAppSettingsValue ("ProductVersion",
 						"HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\XNA\\Framework\\v4.0");
@@ -198,7 +198,7 @@
 				case AppDefaultRequirements.SQLCE:
 					downloadLink = "https://microsoft.com/en-us/download/details.aspx?id=30709";
 					description = "Microsoft SQL Server Compact 4.0 SP1";
-					/*fileName = "SSCE40.exe";*/
+					// fileName = "SSCE40.exe";
 
 					s = RDGenerics.GetAppSettingsValue ("Version",
 						"HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Microsoft SQL Server Compact Edition\\v4.0");
