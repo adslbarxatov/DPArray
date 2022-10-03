@@ -1,7 +1,7 @@
 ```
 Packages, available for download:
 
-DPArray						5.0.5	DEFSTORAGE/DPArray.dp						DPArray.dp					0x000AD65A	1
+DPArray						5.0.19	DEFSTORAGE/DPArray.dp						DPArray.dp					0x000ADA5E	1
 
 #Apps
 Batch image convertor		3.0		DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x00059B93	1
@@ -31,9 +31,9 @@ ESHQ, backward compatibility    12.4	MODSTORAGE/234414?MOD_REFmods%2Feshq		ESHQ_
 ESHQ, russian localization      12		MODSTORAGE/222522?MOD_REFmods%2Feshq		ESHQ_x_ru.7z			595342		2
 
 #Games
-Races						1.6.15		DEFSTORAGE/Races.dp0					Races.dp0					0x008DC27E	1
-Snake						1.16.15		DEFSTORAGE/Snake.dp0					Snake.dp0					0x00A3F3C2	1
-Turtle						1.7.15		DEFSTORAGE/Turtle.dp0					Turtle.dp0					0x00A933F1	1
+Races						2.0			DEFSTORAGE/Races.7z						Races.7z					0x01D7F715	1
+Snake						2.0			DEFSTORAGE/Snake.7z						Snake.7z					0x02344C58	1
+Turtle						2.0			DEFSTORAGE/Turtle.7z					Turtle.7z					0x023E8743	1
 
 #Android apps
 Make decision for Android	2.14		GIT_LINK/MakeDecision/releases/latest/download/MakeDecision.apk			MakeDecision.apk	31790208	3

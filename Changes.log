@@ -1,5 +1,11 @@
 ﻿DPArray: changes log
 
+Version 5.0.19:
+• Fixed bug with processing of long packages sets;
+• Adjusted the initialization of deployment flags;
+• Adjusted the interface behavior;
+• Adjusted the requirements control
+
 Version 5.0.5:
 • Adjusted the requirements control;
 • Adjusted the logo behavior;

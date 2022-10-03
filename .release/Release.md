@@ -1,9 +1,11 @@
-_Changes for v 5.0.5_:
+_Changes for v 5.0.19_:
+- Fixed bug with processing of long packages sets;
+- Adjusted the initialization of deployment flags;
+- Adjusted the interface behavior;
 - Adjusted the requirements control;
 - Adjusted the logo behavior;
 - Updates the user manual link;
 - Removed some obsolete code;
-- Adjusted the interface behavior;
 - DPArray is now the main deployment tool:
     - DPModule will perform self-replacement with the new app;
     - DPArray 5.0 is almost an equivalent of DPModule 14.0.5;

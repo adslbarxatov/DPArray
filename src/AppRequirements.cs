@@ -1,4 +1,7 @@
-﻿namespace RD_AAOW
+﻿using System;
+using System.IO;
+
+namespace RD_AAOW
 	{
 	/// <summary>
 	/// Варианты стандартных зависимостей для пакетов
@@ -6,29 +9,39 @@
 	public enum AppDefaultRequirements
 		{
 		/// <summary>
-		/// Microsoft Visual C++ Runtime Libraries
+		/// Microsoft .NET Framework 4.8
 		/// </summary>
-		VC_RTL,
+		DotNETFramework = 0,
 
 		/// <summary>
-		/// Microsoft .NET Framework
+		/// Microsoft Visual C++ Runtime Libraries
 		/// </summary>
-		DotNETFramework,
+		VC_RTL = 1,
 
 		/// <summary>
 		/// Microsoft XNA Framework
 		/// </summary>
-		XNAFramework,
+		XNAFramework = 2,
 
 		/// <summary>
 		/// Microsoft SQL Compact edition
 		/// </summary>
-		SQLCE,
+		SQLCE = 3,
+
+		/// <summary>
+		/// Microsoft .NET Framework 6.0
+		/// </summary>
+		DotNet6 = 4,
+
+		/// <summary>
+		/// Microsoft DirectX update
+		/// </summary>
+		DirectX = 5,
 
 		/// <summary>
 		/// Не является стандартной зависимостью
 		/// </summary>
-		None
+		None = -1
 		}
 
 	/// <summary>
@@ -151,7 +164,7 @@
 				default:
 					downloadLink = "https://go.microsoft.com/fwlink/?linkid=2088631";
 					description = "Microsoft .NET Framework 4.8";
-					fileName = "DotNETfx48.exe";    // Автозагрузка
+					fileName = "DotNETFramework48.exe";    // Автозагрузка
 					fileSize = "121307088";
 
 					defaultType = AppDefaultRequirements.DotNETFramework;
@@ -173,7 +186,7 @@
 				case AppDefaultRequirements.VC_RTL:
 					downloadLink = "https://aka.ms/vs/17/release/vc_redist.x86.exe";
 					description = "Microsoft Visual C++ 2015 – 2022 redistributable";
-					fileName = "VCRedist143.exe";
+					fileName = "VCRedistributables143.exe";
 					fileSize = "13730768";
 
 					s = RDGenerics.GetAppSettingsValue ("Version",
@@ -198,12 +211,34 @@
 				case AppDefaultRequirements.SQLCE:
 					downloadLink = "https://microsoft.com/en-us/download/details.aspx?id=30709";
 					description = "Microsoft SQL Server Compact 4.0 SP1";
-					// fileName = "SSCE40.exe";
 
 					s = RDGenerics.GetAppSettingsValue ("Version",
 						"HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Microsoft SQL Server Compact Edition\\v4.0");
 
 					alreadyInstalled = s.StartsWith ("4.0");
+					break;
+
+				case AppDefaultRequirements.DotNet6:
+					downloadLink = "https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/" +
+						"runtime-desktop-6.0.9-windows-x86-installer";
+					description = "Microsoft .NET Framework 6.0";
+
+					s = RDGenerics.GetAppSettingsValue ("Version",
+						"HKEY_LOCAL_MACHINE\\SOFTWARE\\dotnet\\Setup\\InstalledVersions\\x86\\hostfxr");
+
+					alreadyInstalled = (s.StartsWith ("6.0"));
+					break;
+
+				case AppDefaultRequirements.DirectX:
+					downloadLink = "https://microsoft.com/en-us/download/confirmation.aspx?id=35";
+					description = "Microsoft DirectX 9 updates";
+
+					try
+						{
+						alreadyInstalled = File.Exists (Environment.GetFolderPath (Environment.SpecialFolder.SystemX86) +
+							"\\XAudio2_7.dll");
+						}
+					catch { }
 					break;
 				}
 			}
@@ -225,5 +260,42 @@
 			else
 				downloadLink = URL;
 			}
+
+		/// <summary>
+		/// Метод возвращает псевдоним зависимости для скрипта развёртки
+		/// </summary>
+		/// <param name="ReqType">Тип зависимости</param>
+		public static string GetRequirementAlias (AppDefaultRequirements ReqType)
+			{
+			switch (ReqType)
+				{
+				// Всякое бывает
+				default:
+					return "";
+
+				case AppDefaultRequirements.DirectX:
+					return "DX+";
+
+				case AppDefaultRequirements.DotNet6:
+					return "NF6+";
+
+				case AppDefaultRequirements.DotNETFramework:
+					return "CS+";
+
+				case AppDefaultRequirements.SQLCE:
+					return "SQL+";
+
+				case AppDefaultRequirements.VC_RTL:
+					return "CPP+";
+
+				case AppDefaultRequirements.XNAFramework:
+					return "XNA+";
+				}
+			}
+
+		/// <summary>
+		/// Возвращает количество доступных стандартных зависимостей
+		/// </summary>
+		public const uint DefaultRequirementsCount = 6;
 		}
 	}

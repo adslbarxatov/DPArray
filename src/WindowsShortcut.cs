@@ -45,7 +45,8 @@ namespace RD_AAOW
 		public static int CreateDesktopShortcut (string TargetFile, string ShortcutFileName,
 			string ShortcutArguments)
 			{
-			return CreateShortcut (TargetFile, ShortcutFileName, Environment.GetFolderPath (Environment.SpecialFolder.Desktop),
+			return CreateShortcut (TargetFile, ShortcutFileName, 
+				Environment.GetFolderPath (Environment.SpecialFolder.Desktop),
 				ShortcutArguments);
 			}
 
@@ -59,7 +60,8 @@ namespace RD_AAOW
 		public static int CreateStartupShortcut (string TargetFile, string ShortcutFileName,
 			string ShortcutArguments)
 			{
-			return CreateShortcut (TargetFile, ShortcutFileName, Environment.GetFolderPath (Environment.SpecialFolder.CommonStartup),
+			return CreateShortcut (TargetFile, ShortcutFileName, 
+				Environment.GetFolderPath (Environment.SpecialFolder.CommonStartup),
 				ShortcutArguments);
 			}
 
@@ -79,7 +81,8 @@ namespace RD_AAOW
 			string ShortcutArguments)
 			{
 			// Контроль
-			if (string.IsNullOrEmpty (TargetFile) || string.IsNullOrEmpty (ShortcutFileName) || string.IsNullOrEmpty (ShortcutFilePath))
+			if (string.IsNullOrEmpty (TargetFile) || string.IsNullOrEmpty (ShortcutFileName) || 
+				string.IsNullOrEmpty (ShortcutFilePath))
 				return -1;
 
 			if (!System.IO.File.Exists (TargetFile))
