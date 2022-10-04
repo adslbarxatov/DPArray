@@ -57,26 +57,28 @@
 Полный список программных продуктов доступен [здесь](https://github.com/adslbarxatov?tab=repositories).
 Общий список модов доступен [здесь](https://moddb.com/members/rd-aaow-fdl/mods)
 
+### Зависимости программных продуктов
+
+:large_blue_circle: [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631)
+
+:orange_circle: [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
+
+:green_circle: [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709)
+
+:purple_circle: [Microsoft .NET Framework 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.9-windows-x86-installer)
+
+:yellow_circle: [Microsoft DirectX 9 updates](https://microsoft.com/en-us/download/confirmation.aspx?id=35)
+
 &nbsp;
 
-
-
-## Возможные зависимости программных продуктов для ОС Windows
-
-- :large_blue_circle: [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631)
-- :orange_circle: [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
-- :green_circle: [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709)
-- :purple_circle: [Microsoft .NET Framework 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.9-windows-x86-installer)
-- :yellow_circle: [Microsoft DirectX 9 updates](https://microsoft.com/en-us/download/confirmation.aspx?id=35)
-
-&nbsp;
-
-
+#
 
 ### DPArray
-:gb: :ru: &#x3000; :large_blue_circle: &#x3000; [:earth_africa: About](https://github.com/adslbarxatov/DPArray/ru) &#x3000;
-[:film_projector: Guide](https://youtube.com/watch?v=I_sXoDxPQQ0) &#x3000;
-[:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/DPArray/releases/latest)
+:gb: :ru: &#x3000;
+:large_blue_circle: &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/DPArray/ru) &#x3000;
+:film_projector: [Guide](https://youtube.com/watch?v=I_sXoDxPQQ0) &#x3000;
+:envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/DPArray/releases/latest)
 
 Инструмент развёртки проектов лаборатории. Инструмент выполняет установку, удаление, проверку обновлений, загрузку пакетов и их зависимостей.
 Через это приложение доступны все остальные продукты лаборатории (включая APK для Android). Вы сейчас находитесь на его приветственной странице.
@@ -85,28 +87,32 @@
 
 &nbsp;
 
-### ConcurrentDraw :gb: :ru:
-● [:earth_africa: About](https://github.com/adslbarxatov/concurrentdraw)
-● [:film_projector: Guide](https://youtube.com/watch?v=MMsf7CA5cSE)
-● [:tv: Live](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc)
-● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/concurrentdraw/releases/latest)
-● [:package: Get on DPArray](dp://ConcurrentDraw) ●
+### ConcurrentDraw 
+:gb: :ru: &#x3000;
+:large_blue_circle: :orange_circle: &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/concurrentdraw) &#x3000;
+:film_projector: [Guide](https://youtube.com/watch?v=MMsf7CA5cSE) &#x3000;
+:tv: [Live](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc) &#x3000;
+:envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/concurrentdraw/releases/latest) &#x3000;
+:package: [Get on DPArray](dp://ConcurrentDraw)
 
 Инструмент визуализации звука и музыки (самостоятельная обложка для WMP). Работает без дополнительных кодеков и драйверов,
 т. к. использует выбираемый пользователем системный аудиовыход
 
 &nbsp;
 
-### uNot (UniNotifier) :gb: :ru:
-● [:earth_africa: About](https://github.com/adslbarxatov/uninotifier)
-● [:film_projector: User guide](https://youtube.com/watch?v=HPq88MW3jF8)
-● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/uninotifier/releases/latest)
-● [:package: Get on DPArray](dp://UniNotifier)
-● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier)
-● [:iphone: Get on GetApps](https://global.app.mi.com/details?id=uninotifier.xiaomi)
-● [:iphone: Get on AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C102838121?channelId=GitHub&id=34da22c3478e4601b33a6ec854592895&s=DB4BF2118E523FEF437C11C7FAB0DE5D24080C18F860F60311E2B5919F1B568A&detailType=0&v=&callType=AGDLINK&installType=0000)
-● [:package: Get APK](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.apk)
-● [:iphone: Get Tablepedia](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) ●
+### uNot (UniNotifier) 
+:gb: :ru: &#x3000;
+:large_blue_circle: &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/uninotifier) &#x3000;
+:film_projector: [User guide](https://youtube.com/watch?v=HPq88MW3jF8) &#x3000;
+:envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/uninotifier/releases/latest) &#x3000;
+:package: [Get on DPArray](dp://UniNotifier) &#x3000;
+:iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) &#x3000;
+:iphone: [Get on GetApps](https://global.app.mi.com/details?id=uninotifier.xiaomi) &#x3000;
+:iphone: [Get on AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C102838121?channelId=GitHub&id=34da22c3478e4601b33a6ec854592895&s=DB4BF2118E523FEF437C11C7FAB0DE5D24080C18F860F60311E2B5919F1B568A&detailType=0&v=&callType=AGDLINK&installType=0000) &#x3000;
+:package: [Get APK](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.apk) &#x3000;
+:iphone: [Get Tablepedia](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier)
 
 Эта утилита предоставляет возможность получать уведомления об изменении состояния заданных пользователем сайтов и их веб-страниц
 (иными словами – об обновлениях и новостях) в виде текстового журнала. При этом загружается только то, что указал пользователь –
