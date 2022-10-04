@@ -40,7 +40,7 @@
 - Мы также беспокоимся об идейных ценностях наших сообществ. Поэтому существует [Политика разработки приложений](https://adslbarxatov.github.io/ADP/ru),
 которая гарантирует их соблюдение для всех публикуемых продуктов и разработок.
 
-Оба документа обязательны к ознакомлению для наиболее полного понимания целей и задач лаборатории.
+Оба документа обязательны к ознакомлению для наиболее полного понимания целей и задач лаборатории
 
 &nbsp;
 
@@ -55,7 +55,7 @@
 Знак :no_entry_sign: указывает на проекты, снятые с поддержки.
 
 Полный список программных продуктов доступен [здесь](https://github.com/adslbarxatov?tab=repositories).
-Общий список модов доступен [здесь](https://moddb.com/members/rd-aaow-fdl/mods).
+Общий список модов доступен [здесь](https://moddb.com/members/rd-aaow-fdl/mods)
 
 &nbsp;
 
@@ -65,7 +65,9 @@
 ● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/DPArray/releases/latest) ●
 
 Инструмент развёртки проектов лаборатории. Инструмент выполняет установку, удаление, проверку обновлений, загрузку пакетов и их зависимостей.
-Через это приложение доступны все остальные продукты лаборатории (включая APK для Android). Вы сейчас находитесь на его приветственной странице
+Через это приложение доступны все остальные продукты лаборатории (включая APK для Android). Вы сейчас находитесь на его приветственной странице.
+
+*Warning*: Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631) обязателен для этого приложения
 
 &nbsp;
 
@@ -165,7 +167,9 @@
 ● [:iphone: Get on AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C104441189?channelId=GitHub&id=981952b9902a490ebfb1b8c5d11f8eef&s=A8B622B12555EE34769CFFF6303E49EF4841788E101068082F7EAF51DE3D7C24&detailType=0&v=&callType=AGDLINK&installType=0000)
 ● [:package: Get APK](https://github.com/adslbarxatov/EnchantIt/releases/latest/download/PADetector.apk) ●
 
-Инструмент поиска паранормальной активности. Его задача – обнаружить и математически подтвердить какую-либо паранормальную активность. Перед началом использования рекомендуется ознакомиться с видеопрезентацией проекта, а также полным описанием метода
+Инструмент поиска паранормальной активности. Его задача – обнаружить и математически подтвердить какую-либо
+паранормальную активность. Перед началом использования рекомендуется ознакомиться с видеопрезентацией проекта,
+а также полным описанием метода
 
 &nbsp;
 
@@ -180,7 +184,9 @@
 ● [:iphone: Get on AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C102663035?channelId=GitHub&id=f4e62031e4b84ebb937a8b75c08fc543&s=E90E5D1DB649783589F6F3EA42475CFECAABFFF996E407E61BACB2268DB9867C&detailType=0&v=&callType=AGDLINK&installType=0000)
 ● [:package: Get APK](https://github.com/adslbarxatov/TextToKKT/releases/latest/download/TextToKKT_KitKat.apk) ●
 
-Утилита сервис-инженера контрольно-кассовой техники. Первый проект лаборатории, доступный одновременно на платформах Windows и Android (Google play и AppGallery). С недавнего времени FNReader, модуль чтения и анализа данных фискального накопителя (54-ФЗ) входит в состав TextToKKT
+Утилита сервис-инженера контрольно-кассовой техники. Первый проект лаборатории, доступный одновременно
+на платформах Windows и Android (Google play и AppGallery). С недавнего времени FNReader, модуль чтения
+и анализа данных фискального накопителя (54-ФЗ) входит в состав TextToKKT
 
 &nbsp;
 
@@ -203,7 +209,10 @@
 ● [:iphone: Get on AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C102653919?channelId=GitHub&id=9e294f4fc1f84e00af29183d5a706fd3&s=9380BD335AB35872FB993207DE1DD83650FABF7D6FF81F9AF4810E8C14BA254E&detailType=0&v=&callType=AGDLINK&installType=0000)
 ● [:package: Get APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.apk) ●
 
-Программа иллюстрирует математический метод, позволяющий сравнивать некоторые объекты, явления или исходы событий на основе набора критериев и выбирать наиболее «подходящий» из них. Пользователю предлагается самостоятельно задать варианты и критерии для их сравнения, а также оценить значимость каждого критерия и варианта. Результатом будет ответ на вопрос: «какой выбор наиболее удачный»
+Программа иллюстрирует математический метод, позволяющий сравнивать некоторые объекты, явления или исходы
+событий на основе набора критериев и выбирать наиболее «подходящий» из них. Пользователю предлагается
+самостоятельно задать варианты и критерии для их сравнения, а также оценить значимость каждого критерия
+и варианта. Результатом будет ответ на вопрос: «какой выбор наиболее удачный»
 
 &nbsp;
 
@@ -246,7 +255,7 @@
 ● [:tv: Demo](https://youtube.com/watch?v=pUTJrnyPRm8) ●
 
 ES: Randomaze – генератор карт для одноимённого субмода.
-Инструмент является частью мода ESHQ для Half-Life часть 1.
+Инструмент является частью мода ESHQ для Half-Life часть 1
 
 &nbsp;
 
@@ -320,7 +329,8 @@ API для работы с файлами сохранений GTA Vice City и 
 ● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/keyboardswitcher/releases/latest)
 ● [:package: Get on DPArray](dp://KeyboardSwitcher) ●
 
-Инструмент быстрого исправления текста, введённого на неправильной раскладке клавиатуры (клавиатуры RU_ru и EN_us). Кроме того, позволяет преобразовывать HEX-данные в двоичные и обратно
+Инструмент быстрого исправления текста, введённого на неправильной раскладке клавиатуры (клавиатуры RU_ru
+и EN_us). Кроме того, позволяет преобразовывать HEX-данные в двоичные и обратно
 
 &nbsp;
 
@@ -356,7 +366,8 @@ API для работы с файлами сохранений GTA Vice City и 
 ● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/tablesmerger/releases/latest)
 ● [:package: Get on DPArray](dp://TablesMerger) ●
 
-Побочный продукт проекта Geomag data drawer. Этот инструмент выполняет «склеивание» таблиц данных с одинаковым и разным числом строк
+Побочный продукт проекта Geomag data drawer. Этот инструмент выполняет «склеивание» таблиц данных
+с одинаковым и разным числом строк
 
 &nbsp;
 
@@ -365,11 +376,12 @@ API для работы с файлами сохранений GTA Vice City и 
 ● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/vectorimagegenerator/releases/latest)
 ● [:package: Get on DPArray](dp://VectorImageGenerator) ●
 
-Побочный продукт проекта Geomag data drawer. Этот инструмент выполняет генерацию векторных изображений с помощью сценариев
+Побочный продукт проекта Geomag data drawer. Этот инструмент выполняет генерацию векторных
+изображений с помощью сценариев
 
 &nbsp;
 
-&nbsp;
+#
 
 ### FullSilence, CodeShow :gb: :ru: :no_entry_sign:
 ● [:earth_africa: About](https://github.com/adslbarxatov/fullsilence)
@@ -394,7 +406,7 @@ API для работы с файлами сохранений GTA Vice City и 
 ● [:earth_africa: Races](https://github.com/adslbarxatov/races)
 ● [:package: Get on DPArray](dp://Races) ●
 
-«Гонки» – классическая игра для Тетриса. Из учебного набора игр для XNA game studio
+«Гонки» – классическая игра для Тетриса. Из учебного набора игр для [MonoGame Framework](https://monogame.net)
 
 &nbsp;
 
@@ -402,7 +414,7 @@ API для работы с файлами сохранений GTA Vice City и 
 ● [:earth_africa: Snake](https://github.com/adslbarxatov/snake)
 ● [:package: Get on DPArray](dp://Snake) ●
 
-«Змейка» – классическая игра для Тетриса. Из учебного набора игр для XNA game studio
+«Змейка» – классическая игра для Тетриса. Из учебного набора игр для [MonoGame Framework](https://monogame.net)
 
 &nbsp;
 
@@ -410,7 +422,7 @@ API для работы с файлами сохранений GTA Vice City и 
 ● [:earth_africa: Turtle](https://github.com/adslbarxatov/turtle)
 ● [:package: Get on DPArray](dp://Turtle) ●
 
-«Черепашка» – классическая игра для Тетриса. Из учебного набора игр для XNA game studio
+«Черепашка» – классическая игра для Тетриса. Из учебного набора игр для [MonoGame Framework](https://monogame.net)
 
 &nbsp;
 

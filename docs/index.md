@@ -42,7 +42,7 @@ and not restrictive nature.
 published products and developments.
 
 Both documents are required for familiarization for the most complete understanding of the goals
-and objectives of the laboratory.
+and objectives of the laboratory
 
 &nbsp;
 
@@ -57,7 +57,7 @@ It also includes video (:film_projector:), presentation playlists (:tv:) and oth
 The :no_entry_sign: marks projects that are no longer supported.
 
 A complete list of software products is available [here](https://github.com/adslbarxatov?tab=repositories).
-A general list of mods is available [here](https://moddb.com/members/rd-aaow-fdl/mods).
+A general list of mods is available [here](https://moddb.com/members/rd-aaow-fdl/mods)
 
 &nbsp;
 
@@ -68,6 +68,8 @@ A general list of mods is available [here](https://moddb.com/members/rd-aaow-fdl
 
 The deployment tool for laboratory projects. The tool installs, removes, checks updates, loads packages and their requirements.
 You can get all our products through this application (including APKs for Android). You are now on the welcome page of it.
+
+*Warning*: Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631) is required for this application
 
 &nbsp;
 
@@ -136,7 +138,8 @@ project! And welcome to Upsilon one!
 ● [:iphone: Get on AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C104441189?channelId=GitHub&id=981952b9902a490ebfb1b8c5d11f8eef&s=A8B622B12555EE34769CFFF6303E49EF4841788E101068082F7EAF51DE3D7C24&detailType=0&v=&callType=AGDLINK&installType=0000)
 ● [:package: Get APK](https://github.com/adslbarxatov/EnchantIt/releases/latest/download/PADetector.apk) ●
 
-The paranormal activity search tool. Its task is to discover and mathematically confirm some paranormal activity. Before starting the experiment take a look at the project presentation and complete method description
+The paranormal activity search tool. Its task is to discover and mathematically confirm some paranormal
+activity. Before starting the experiment take a look at the project presentation and complete method description
 
 &nbsp;
 
@@ -159,7 +162,10 @@ Stand-alone tool for building and designing data diagrams based on tabular data
 ● [:iphone: Get on AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C102653919?channelId=GitHub&id=9e294f4fc1f84e00af29183d5a706fd3&s=9380BD335AB35872FB993207DE1DD83650FABF7D6FF81F9AF4810E8C14BA254E&detailType=0&v=&callType=AGDLINK&installType=0000)
 ● [:package: Get APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.apk) ●
 
-This application illustrates a math method that allows comparing some objects or events based on a set of criteria and choosing the most “correct” one. User is invited to independently select variants and criteria for their comparison, as well as specify significance of each criterion and each element. As a result, you’ll get the answer for the next question: “what way is the best”
+This application illustrates a math method that allows comparing some objects or events based on a set
+of criteria and choosing the most “correct” one. User is invited to independently select variants
+and criteria for their comparison, as well as specify significance of each criterion and each element.
+As a result, you’ll get the answer for the next question: “what way is the best”
 
 &nbsp;
 
@@ -202,7 +208,7 @@ for those who have not yet had time to try it live
 ● [:tv: Demo](https://youtube.com/watch?v=pUTJrnyPRm8) ●
 
 ES: Randomaze is the maps generator for the sub-mod with the same name.
-This tool is the part of the ESHQ mod for Half-Life part 1.
+This tool is the part of the ESHQ mod for Half-Life part 1
 
 &nbsp;
 
@@ -219,8 +225,8 @@ An adaptation of Xash3D engine for ESHQ mod for Half-Life 1
 ● [:package: Get on DPArray](dp://CCM) ●
 
 A modification for GTA Vice City, preserving the original plot and gameplay, but fixing a number of known problems,
-as well as expanding the already great capabilities of Tommy Vercetti. A short presentation of additions and corrections
-is available here
+as well as expanding the already great capabilities of Tommy Vercetti. A short presentation of additions
+and corrections is available here
 
 &nbsp;
 
@@ -268,7 +274,8 @@ A tool for managing the custom file extensions in Windows operating system
 ● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/keyboardswitcher/releases/latest)
 ● [:package: Get on DPArray](dp://KeyboardSwitcher) ●
 
-Quick correction tool for text entered on wrong keyboard layout (RU_ru and EN_us keyboards). Also allows you to translate HEX data to binary and backward
+Quick correction tool for text entered on wrong keyboard layout (RU_ru and EN_us keyboards).
+Also allows you to translate HEX data to binary and backward
 
 &nbsp;
 
@@ -304,7 +311,8 @@ A tool for solving sudoku
 ● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/tablesmerger/releases/latest)
 ● [:package: Get on DPArray](dp://TablesMerger) ●
 
-Byproduct of Geomag data drawer project. This tool performs “gluing” of data tables with equal and different rows quantities
+Byproduct of Geomag data drawer project. This tool performs “gluing” of data tables with equal
+and different rows quantities
 
 &nbsp;
 
@@ -317,7 +325,7 @@ Byproduct of Geomag data drawer project. This tool performs generation of vector
 
 &nbsp;
 
-&nbsp;
+#
 
 ### FullSilence, CodeShow :gb: :ru: :no_entry_sign:
 ● [:earth_africa: About](https://github.com/adslbarxatov/fullsilence)
@@ -342,7 +350,7 @@ Our first maps done in the Hammer editor. Not sure about the balance, but locati
 ● [:earth_africa: Races](https://github.com/adslbarxatov/races)
 ● [:package: Get on DPArray](dp://Races) ●
 
-“Races”, the classic Tetris game. It is the sample project for XNA game studio
+“Races”, the classic Tetris game. It is the sample project for [MonoGame Framework](https://monogame.net)
 
 &nbsp;
 
@@ -350,7 +358,7 @@ Our first maps done in the Hammer editor. Not sure about the balance, but locati
 ● [:earth_africa: Snake](https://github.com/adslbarxatov/snake)
 ● [:package: Get on DPArray](dp://Snake) ●
 
-“Snake”, the classic Tetris game. It is the sample project for XNA game studio
+“Snake”, the classic Tetris game. It is the sample project for [MonoGame Framework](https://monogame.net)
 
 &nbsp;
 
@@ -358,7 +366,7 @@ Our first maps done in the Hammer editor. Not sure about the balance, but locati
 ● [:earth_africa: Turtle](https://github.com/adslbarxatov/turtle)
 ● [:package: Get on DPArray](dp://Turtle) ●
 
-“Turtle”, the classic Tetris game. It is the sample project for XNA game studio
+“Turtle”, the classic Tetris game. It is the sample project for [MonoGame Framework](https://monogame.net)
 
 &nbsp;
 
