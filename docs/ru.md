@@ -119,7 +119,7 @@
 :ru: &#x3000;
 :earth_africa: [VK](https://vk.com/grammarmustjoy) &#x3000;
 :earth_asia: [Telegram](https://t.me/grammarmustjoy) &#x3000;
-:iphone: [Get GMJ client](https://adslbarxatov.github.io/DPArray/ru#unot-uninotifier-gb-ru)
+:iphone: [Get GMJ client](https://adslbarxatov.github.io/DPArray/ru#unot-uninotifier)
 
 Существует огромное количество групп и сообществ, коллекционирующих юмор во всех его формах. Но вряд ли многие из них могут
 похвастаться грамотностью текстов и подписей. И речь не о случаях, когда именно её отсутствие есть основа для шутки.
@@ -146,7 +146,7 @@
 ### Upsilon one
 :ru: :gb: &#x3000;
 :earth_africa: [VK](https://vk.com/upsilon_one) &#x3000;
-:iphone: [Get &#X03A5;1 client](https://adslbarxatov.github.io/DPArray/ru#unot-uninotifier-gb-ru)
+:iphone: [Get &#X03A5;1 client](https://adslbarxatov.github.io/DPArray/ru#unot-uninotifier)
 
 **Сообщество &#X03A5;1** – это условный город (в будущем – может быть, и что-то бо́льшее). Каждый пост в нём – самостоятельный житель
 (персонаж, сущность, entity) или объект (постройка, building). Необязательно абсолютно уникальный, но весьма вероятно имеющий
