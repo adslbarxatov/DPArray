@@ -293,17 +293,20 @@ ES: Randomaze – генератор карт для одноимённого с
 
 &nbsp;
 
-### Xash3D for ESHQ :gb:
-● [:earth_africa: About](https://github.com/adslbarxatov/xash3d-for-eshq) ●
+### Xash3D for ESHQ
+:gb: &#x3000;
+![2](/img/VC.png) &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/xash3d-for-eshq)
 
 Адаптация движка Xash3D для мода ESHQ для Half-Life 1
 
 &nbsp;
 
-### Crazy cheater’s mod :gb:
-● [:earth_africa: Summary](https://moddb.com/mods/ccm)
-● [:film_projector: Demo](https://youtube.com/watch?v=tpgKd91QYP4)
-● [:package: Get on DPArray](dp://CCM) ●
+### Crazy cheater’s mod
+:gb: &#x3000;
+:earth_africa: [Summary](https://moddb.com/mods/ccm) &#x3000;
+:film_projector: [Demo](https://youtube.com/watch?v=tpgKd91QYP4) &#x3000;
+:package: [Get on DPArray](dp://CCM) ●
 
 Модификация для GTA Vice City, сохраняющая оригинальный сюжет и геймплей, но исправляющая ряд известных проблем,
 а также расширяющая и без того большие возможности Томми Версетти. Здесь доступна короткая презентация вносимых
@@ -311,104 +314,126 @@ ES: Randomaze – генератор карт для одноимённого с
 
 &nbsp;
 
-### Accounts manager :ru:
-● [:earth_africa: About](https://github.com/adslbarxatov/accountsmanager) ●
+### Accounts manager
+:ru: &#x3000;
+![1](/img/NF48.png) ![3](/img/SQL.png) &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/accountsmanager)
 
 Инструмент управления бюджетными счетами. Программа предназначена для накопления, хранения, обработки и выдачи по запросу
-сведений о контрактах и бюджетных обязательствах предприятия.
+сведений о контрактах и бюджетных обязательствах предприятия
 
 &nbsp;
 
-### BExplorer :gb: :ru:
-● [:earth_africa: About](https://github.com/adslbarxatov/bexplorer)
-● [:film_projector: Demo](https://youtube.com/watch?v=RdLt-dTz8vU)
-● [:page_with_curl: Guide](https://github.com/adslbarxatov/BExplorer/blob/master/UserManual.md)
-● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/bexplorer/releases/latest)
-● [:package: Get on DPArray](dp://BExplorer) ●
+### BExplorer
+:gb: :ru: &#x3000;
+![1](/img/NF48.png) ![2](/img/VC.png) &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/bexplorer) &#x3000;
+:film_projector: [Demo](https://youtube.com/watch?v=RdLt-dTz8vU) &#x3000;
+:page_with_curl: [Guide](https://github.com/adslbarxatov/BExplorer/blob/master/UserManual.md) &#x3000;
+:envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/bexplorer/releases/latest) &#x3000;
+:package: [Get on DPArray](dp://BExplorer)
 
 API для работы с файлами сохранений GTA Vice City и приложение, реализующее часть функционала
 
 &nbsp;
 
-### Make CST :gb:
-● [:earth_africa: About](https://github.com/adslbarxatov/makecst)
-● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/makecst/releases/latest)
-● [:package: Get on DPArray](dp://MakeCST) ●
+### Make CST
+:gb: &#x3000;
+![1](/img/NF48.png) &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/makecst) &#x3000;
+:envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/makecst/releases/latest) &#x3000;
+:package: [Get on DPArray](dp://MakeCST)
 
 Инструмент преобразования моделей DFF и объектов QHullOFF в скрипты столкновений GTA
 
 &nbsp;
 
-### OS macros executor :gb: :ru:
-● [:earth_africa: About](https://github.com/adslbarxatov/osmacrosexecutor)
-● [:film_projector: Guide](https://youtube.com/watch?v=a9yjvx7Cy3M)
-● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/osmacrosexecutor/releases/latest)
-● [:package: Get on DPArray](dp://OSMacrosExecutor) ●
+### OS macros executor
+:gb: :ru: &#x3000;
+![1](/img/NF48.png) ![2](/img/VC.png) &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/osmacrosexecutor) &#x3000;
+:film_projector: [Guide](https://youtube.com/watch?v=a9yjvx7Cy3M) &#x3000;
+:envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/osmacrosexecutor/releases/latest) &#x3000;
+:package: [Get on DPArray](dp://OSMacrosExecutor)
 
 Инструмент автоматизации действий пользователя в операционной системе Windows
 
 &nbsp;
 
-### File extensions manager :gb: :ru:
-● [:earth_africa: About](https://github.com/adslbarxatov/fileextensionsmanager)
-● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/fileextensionsmanager/releases/latest)
-● [:package: Get on DPArray](dp://FileExtensionsManager) ●
+### File extensions manager
+:gb: :ru: &#x3000;
+![1](/img/NF48.png) &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/fileextensionsmanager) &#x3000;
+:envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/fileextensionsmanager/releases/latest) &#x3000;
+:package: [Get on DPArray](dp://FileExtensionsManager)
 
 Инструмент управления пользовательскими настройками расширений файлов в операционной системе Windows
 
 &nbsp;
 
-### Keyboard switcher :gb:
-● [:earth_africa: About](https://github.com/adslbarxatov/keyboardswitcher)
-● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/keyboardswitcher/releases/latest)
-● [:package: Get on DPArray](dp://KeyboardSwitcher) ●
+### Keyboard switcher
+:gb: &#x3000;
+![2](/img/VC.png) &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/keyboardswitcher) &#x3000;
+:envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/keyboardswitcher/releases/latest) &#x3000;
+:package: [Get on DPArray](dp://KeyboardSwitcher)
 
 Инструмент быстрого исправления текста, введённого на неправильной раскладке клавиатуры (клавиатуры RU_ru
 и EN_us). Кроме того, позволяет преобразовывать HEX-данные в двоичные и обратно
 
 &nbsp;
 
-### Screen shooter :gb: :ru:
-● [:earth_africa: About](https://github.com/adslbarxatov/screenshooter)
-● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/screenshooter/releases/latest)
-● [:package: Get on DPArray](dp://ScreenShooter) ●
+### Screen shooter
+:gb: :ru: &#x3000;
+![1](/img/NF48.png) &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/screenshooter) &#x3000;
+:envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/screenshooter/releases/latest) &#x3000;
+:package: [Get on DPArray](dp://ScreenShooter)
 
 Утилита для создания скриншотов. Поддерживает снимки экрана, окон и элементов приложений
 
 &nbsp;
 
-### Dates difference :gb: :ru:
-● [:earth_africa: About](https://github.com/adslbarxatov/datesdifference)
-● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/datesdifference/releases/latest)
-● [:package: Get on DPArray](dp://DatesDifference) ●
+### Dates difference
+:gb: :ru: &#x3000;
+![1](/img/NF48.png) &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/datesdifference) &#x3000;
+:envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/datesdifference/releases/latest) &#x3000;
+:package: [Get on DPArray](dp://DatesDifference)
 
 Маленький инструмент, определяющий разницу между двумя датами в различных представлениях
 
 &nbsp;
 
-### Sudoku solver :gb: :ru:
-● [:earth_africa: About](https://github.com/adslbarxatov/sudokusolver)
-● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/sudokusolver/releases/latest)
-● [:package: Get on DPArray](dp://SudokuSolver) ●
+### Sudoku solver
+:gb: :ru: &#x3000;
+![1](/img/NF48.png) &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/sudokusolver) &#x3000;
+:envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/sudokusolver/releases/latest) &#x3000;
+:package: [Get on DPArray](dp://SudokuSolver)
 
 Инструмент для решения судоку
 
 &nbsp;
 
-### Tables merger :gb: :ru:
-● [:earth_africa: About](https://github.com/adslbarxatov/tablesmerger)
-● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/tablesmerger/releases/latest)
-● [:package: Get on DPArray](dp://TablesMerger) ●
+### Tables merger
+:gb: :ru: &#x3000;
+![1](/img/NF48.png) &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/tablesmerger) &#x3000;
+:envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/tablesmerger/releases/latest) &#x3000;
+:package: [Get on DPArray](dp://TablesMerger)
 
 Побочный продукт проекта Geomag data drawer. Этот инструмент выполняет «склеивание» таблиц данных
 с одинаковым и разным числом строк
 
 &nbsp;
 
-### Vector image generator :gb: :ru:
-● [:earth_africa: About](https://github.com/adslbarxatov/vectorimagegenerator)
-● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/vectorimagegenerator/releases/latest)
-● [:package: Get on DPArray](dp://VectorImageGenerator) ●
+### Vector image generator
+:gb: :ru: &#x3000;
+![1](/img/NF48.png) &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/vectorimagegenerator) &#x3000;
+:envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/vectorimagegenerator/releases/latest) &#x3000;
+:package: [Get on DPArray](dp://VectorImageGenerator)
 
 Побочный продукт проекта Geomag data drawer. Этот инструмент выполняет генерацию векторных
 изображений с помощью сценариев
