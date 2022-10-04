@@ -60,10 +60,10 @@
 ### Зависимости программных продуктов
 
 - ![1](/img/NF48.png) [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631)
-- :orange_square: [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
-- :green_square: [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709)
-- :purple_square: [Microsoft .NET Framework 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.9-windows-x86-installer)
-- :yellow_square: [Microsoft DirectX 9 updates](https://microsoft.com/en-us/download/confirmation.aspx?id=35)
+- ![2](/img/VC.png) [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
+- ![3](/img/SQL.png) [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709)
+- ![4](/img/NF60.png) [Microsoft .NET Framework 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.9-windows-x86-installer)
+- ![5](/img/DX.png) [Microsoft DirectX 9 updates](https://microsoft.com/en-us/download/confirmation.aspx?id=35)
 
 &nbsp;
 
