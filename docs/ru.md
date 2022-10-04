@@ -4,6 +4,10 @@
 
 #
 
+
+:warning: ***На странице ведутся технические работы*** :warning:
+
+
 ### Содержание страницы
 
 - [Здравствуйте, уважаемый пользователь!](#section-3)
@@ -224,12 +228,12 @@
 
 ### Make decision
 :gb: :ru: &#x3000;
-● :earth_africa: [About](https://github.com/adslbarxatov/makedecision) &#x3000;
-● :film_projector: [Guide](https://youtube.com/watch?v=40Lvq0Q1we0) &#x3000;
-● :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) &#x3000;
-● :iphone: [Get on GetApps](https://global.app.mi.com/details?id=makedecision.xiaomi) &#x3000;
-● :iphone: [Get on AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C102653919?channelId=GitHub&id=9e294f4fc1f84e00af29183d5a706fd3&s=9380BD335AB35872FB993207DE1DD83650FABF7D6FF81F9AF4810E8C14BA254E&detailType=0&v=&callType=AGDLINK&installType=0000) &#x3000;
-● :package: [Get APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.apk)
+:earth_africa: [About](https://github.com/adslbarxatov/makedecision) &#x3000;
+:film_projector: [Guide](https://youtube.com/watch?v=40Lvq0Q1we0) &#x3000;
+:iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) &#x3000;
+:iphone: [Get on GetApps](https://global.app.mi.com/details?id=makedecision.xiaomi) &#x3000;
+:iphone: [Get on AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C102653919?channelId=GitHub&id=9e294f4fc1f84e00af29183d5a706fd3&s=9380BD335AB35872FB993207DE1DD83650FABF7D6FF81F9AF4810E8C14BA254E&detailType=0&v=&callType=AGDLINK&installType=0000) &#x3000;
+:package: [Get APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.apk)
 
 Программа иллюстрирует математический метод, позволяющий сравнивать некоторые объекты, явления или исходы
 событий на основе набора критериев и выбирать наиболее «подходящий» из них. Пользователю предлагается
@@ -238,31 +242,37 @@
 
 &nbsp;
 
-### Batch image convertor :gb: :ru:
-● [:earth_africa: About](https://github.com/adslbarxatov/batchimageconvertor)
-● [:film_projector: Guide](https://youtube.com/watch?v=bejx-r1C6j0)
-● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/batchimageconvertor/releases/latest)
-● [:package: Get on DPArray](dp://BatchImageConvertor) ●
+### Batch image convertor
+:gb: :ru: &#x3000;
+![1](/img/NF48.png) ![2](/img/VC.png) &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/batchimageconvertor) &#x3000;
+:film_projector: [Guide](https://youtube.com/watch?v=bejx-r1C6j0) &#x3000;
+:envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/batchimageconvertor/releases/latest) &#x3000;
+:package: [Get on DPArray](dp://BatchImageConvertor)
 
 Небольшой инструмент для автоматической обработки групп изображений
 
 &nbsp;
 
-### Font finder :gb: :ru:
-● [:earth_africa: About](https://github.com/adslbarxatov/fontfinder)
-● [:film_projector: Guide](https://youtube.com/watch?v=zK-6pfEMCbA)
-● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/fontfinder/releases/latest)
-● [:package: Get on DPArray](dp://FontFinder) ●
+### Font finder
+:gb: :ru: &#x3000;
+![1](/img/NF48.png) &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/fontfinder) &#x3000;
+:film_projector: [Guide](https://youtube.com/watch?v=zK-6pfEMCbA) &#x3000;
+:envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/fontfinder/releases/latest) &#x3000;
+:package: [Get on DPArray](dp://FontFinder)
 
 Инструмент для поиска шрифта по его изображению
 
 &nbsp;
 
-### ESHQ :gb:
-● [:earth_africa: Summary](https://moddb.com/mods/eshq)
-● [:tv: Demos](https://youtube.com/playlist?list=PLe7qKwHNkZTuYevg6QyszASeD7S1XgpG_)
-● [:package: Get on DPArray](dp://ESHQ)
-● [:package: Get the last update](dp://ESHQ_update) ●
+### ESHQ
+:gb: &#x3000;
+![2](/img/VC.png) &#x3000;
+:earth_africa: Summary](https://moddb.com/mods/eshq) &#x3000;
+:tv: [Demos](https://youtube.com/playlist?list=PLe7qKwHNkZTuYevg6QyszASeD7S1XgpG_) &#x3000;
+:package: [Get on DPArray](dp://ESHQ) &#x3000;
+:package: [Get the last update](dp://ESHQ_update)
 
 Мод для Half-Life 1 с собственной сюжетной линией (не из вселенной Half-Life). Неизвестный правительственный
 шпион должен выкрасть секретные файлы из здания, называемого «Evil scientists headquarters». Но его работа
@@ -271,10 +281,12 @@
 
 &nbsp;
 
-### ES: Randomaze :gb:
-● [:earth_africa: Summary](https://github.com/adslbarxatov/randomaze)
-● [:earth_asia: Parent project](https://moddb.com/mods/eshq)
-● [:tv: Demo](https://youtube.com/watch?v=pUTJrnyPRm8) ●
+### ES: Randomaze
+:gb: &#x3000;
+![1](/img/NF48.png) ![2](/img/VC.png) &#x3000;
+:earth_africa: [Summary](https://github.com/adslbarxatov/randomaze) &#x3000;
+:earth_asia: [Parent project](https://moddb.com/mods/eshq) &#x3000;
+:tv: [Demo](https://youtube.com/watch?v=pUTJrnyPRm8)
 
 ES: Randomaze – генератор карт для одноимённого субмода.
 Инструмент является частью мода ESHQ для Half-Life часть 1
