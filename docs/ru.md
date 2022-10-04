@@ -59,15 +59,11 @@
 
 ### Зависимости программных продуктов
 
-:large_blue_circle: [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631)
-
-:large_orange_circle: [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
-
-:large_green_circle: [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709)
-
-:large_purple_circle: [Microsoft .NET Framework 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.9-windows-x86-installer)
-
-:large_yellow_circle: [Microsoft DirectX 9 updates](https://microsoft.com/en-us/download/confirmation.aspx?id=35)
+- :large_blue_circle: [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631)
+- :orange_circle: [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
+- :green_circle: [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709)
+- :purple_circle: [Microsoft .NET Framework 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.9-windows-x86-installer)
+- :yellow_circle: [Microsoft DirectX 9 updates](https://microsoft.com/en-us/download/confirmation.aspx?id=35)
 
 &nbsp;
 
@@ -83,13 +79,11 @@
 Инструмент развёртки проектов лаборатории. Инструмент выполняет установку, удаление, проверку обновлений, загрузку пакетов и их зависимостей.
 Через это приложение доступны все остальные продукты лаборатории (включая APK для Android). Вы сейчас находитесь на его приветственной странице.
 
-*Warning*: [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631) обязателен для этого приложения
-
 &nbsp;
 
-### ConcurrentDraw 
+### ConcurrentDraw
 :gb: :ru: &#x3000;
-[:large_blue_circle: :large_orange_circle:](#section-5) &#x3000;
+[:large_blue_circle: :orange_circle:](#section-5) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/concurrentdraw) &#x3000;
 :film_projector: [Guide](https://youtube.com/watch?v=MMsf7CA5cSE) &#x3000;
 :tv: [Live](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc) &#x3000;
@@ -121,10 +115,11 @@
 
 &nbsp;
 
-### Grammar must joy :ru:
-● [:earth_africa: VK](https://vk.com/grammarmustjoy)
-● [:earth_asia: Telegram](https://t.me/grammarmustjoy)
-● [:iphone: Get GMJ client](#unot-uninotifier-gb-ru) ●
+### Grammar must joy
+:ru: &#x3000;
+:earth_africa: [VK](https://vk.com/grammarmustjoy) &#x3000;
+:earth_asia: [Telegram](https://t.me/grammarmustjoy) &#x3000;
+:iphone: [Get GMJ client](https://adslbarxatov.github.io/DPArray/ru#unot-uninotifier-gb-ru)
 
 Существует огромное количество групп и сообществ, коллекционирующих юмор во всех его формах. Но вряд ли многие из них могут
 похвастаться грамотностью текстов и подписей. И речь не о случаях, когда именно её отсутствие есть основа для шутки.
@@ -148,9 +143,10 @@
 
 &nbsp;
 
-### Upsilon one :ru: :gb:
-● [:earth_africa: VK](https://vk.com/upsilon_one)
-● [:iphone: Get &#X03A5;1 client](https://adslbarxatov.github.io/DPArray/ru#unot-uninotifier-gb-ru) ●
+### Upsilon one
+:ru: :gb: &#x3000;
+:earth_africa: [VK](https://vk.com/upsilon_one) &#x3000;
+:iphone: [Get &#X03A5;1 client](https://adslbarxatov.github.io/DPArray/ru#unot-uninotifier-gb-ru)
 
 **Сообщество &#X03A5;1** – это условный город (в будущем – может быть, и что-то бо́льшее). Каждый пост в нём – самостоятельный житель
 (персонаж, сущность, entity) или объект (постройка, building). Необязательно абсолютно уникальный, но весьма вероятно имеющий
@@ -178,14 +174,15 @@
 
 &nbsp;
 
-### PA detector (Enchant it) :gb: :ru:
-● [:earth_africa: About](https://github.com/adslbarxatov/enchantit)
-● [:film_projector: Guide](https://youtube.com/watch?v=hTnDR89VR8w)
-● [:page_with_curl: Description](https://vk.com/@rd_aaow_fdl-pad)
-● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt)
-● [:iphone: Get on GetApps](https://global.app.mi.com/details?id=enchantit.xiaomi)
-● [:iphone: Get on AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C104441189?channelId=GitHub&id=981952b9902a490ebfb1b8c5d11f8eef&s=A8B622B12555EE34769CFFF6303E49EF4841788E101068082F7EAF51DE3D7C24&detailType=0&v=&callType=AGDLINK&installType=0000)
-● [:package: Get APK](https://github.com/adslbarxatov/EnchantIt/releases/latest/download/PADetector.apk) ●
+### PA detector (Enchant it)
+:gb: :ru: &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/enchantit) &#x3000;
+:film_projector: [Guide](https://youtube.com/watch?v=hTnDR89VR8w) &#x3000;
+:page_with_curl: [Description](https://vk.com/@rd_aaow_fdl-pad) &#x3000;
+:iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) &#x3000;
+:iphone: [Get on GetApps](https://global.app.mi.com/details?id=enchantit.xiaomi) &#x3000;
+:iphone: [Get on AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C104441189?channelId=GitHub&id=981952b9902a490ebfb1b8c5d11f8eef&s=A8B622B12555EE34769CFFF6303E49EF4841788E101068082F7EAF51DE3D7C24&detailType=0&v=&callType=AGDLINK&installType=0000) &#x3000;
+:package: [Get APK](https://github.com/adslbarxatov/EnchantIt/releases/latest/download/PADetector.apk)
 
 Инструмент поиска паранормальной активности. Его задача – обнаружить и математически подтвердить какую-либо
 паранормальную активность. Перед началом использования рекомендуется ознакомиться с видеопрезентацией проекта,
