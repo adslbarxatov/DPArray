@@ -59,7 +59,7 @@
 
 ### Зависимости программных продуктов
 
-- :NF48: [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631)
+- ![1](\img\NF48.png) [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631)
 - :orange_square: [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
 - :green_square: [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709)
 - :purple_square: [Microsoft .NET Framework 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.9-windows-x86-installer)
