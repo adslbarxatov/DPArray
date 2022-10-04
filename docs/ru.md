@@ -9,7 +9,7 @@
 - [Здравствуйте, уважаемый пользователь!](#section-3)
 - [Контакты](https://adslbarxatov.github.io/DPArray/contacts)
 - [Актуальные проекты и разработки](#section-4)
-- [Облако ссылок](#section-5)
+- [Облако ссылок](#section-6)
 - [English version :gb:](https://adslbarxatov.github.io/DPArray)
 
 &nbsp;
@@ -61,13 +61,13 @@
 
 :large_blue_circle: [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631)
 
-:orange_circle: [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
+:large_orange_circle: [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
 
-:green_circle: [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709)
+:large_green_circle: [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709)
 
-:purple_circle: [Microsoft .NET Framework 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.9-windows-x86-installer)
+:large_purple_circle: [Microsoft .NET Framework 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.9-windows-x86-installer)
 
-:yellow_circle: [Microsoft DirectX 9 updates](https://microsoft.com/en-us/download/confirmation.aspx?id=35)
+:large_yellow_circle: [Microsoft DirectX 9 updates](https://microsoft.com/en-us/download/confirmation.aspx?id=35)
 
 &nbsp;
 
@@ -75,7 +75,7 @@
 
 ### DPArray
 :gb: :ru: &#x3000;
-:large_blue_circle: &#x3000;
+[:large_blue_circle:](#section-5) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/DPArray/ru) &#x3000;
 :film_projector: [Guide](https://youtube.com/watch?v=I_sXoDxPQQ0) &#x3000;
 :envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/DPArray/releases/latest)
@@ -89,7 +89,7 @@
 
 ### ConcurrentDraw 
 :gb: :ru: &#x3000;
-:large_blue_circle: :orange_circle: &#x3000;
+[:large_blue_circle: :large_orange_circle:](#section-5) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/concurrentdraw) &#x3000;
 :film_projector: [Guide](https://youtube.com/watch?v=MMsf7CA5cSE) &#x3000;
 :tv: [Live](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc) &#x3000;
@@ -101,9 +101,9 @@
 
 &nbsp;
 
-### uNot (UniNotifier) 
+### uNot (UniNotifier)
 :gb: :ru: &#x3000;
-:large_blue_circle: &#x3000;
+[:large_blue_circle:](#section-5) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/uninotifier) &#x3000;
 :film_projector: [User guide](https://youtube.com/watch?v=HPq88MW3jF8) &#x3000;
 :envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/uninotifier/releases/latest) &#x3000;
@@ -124,7 +124,7 @@
 ### Grammar must joy :ru:
 ● [:earth_africa: VK](https://vk.com/grammarmustjoy)
 ● [:earth_asia: Telegram](https://t.me/grammarmustjoy)
-● [:iphone: Get GMJ client](https://adslbarxatov.github.io/DPArray/ru#unot-uninotifier-gb-ru) ●
+● [:iphone: Get GMJ client](#unot-uninotifier-gb-ru) ●
 
 Существует огромное количество групп и сообществ, коллекционирующих юмор во всех его формах. Но вряд ли многие из них могут
 похвастаться грамотностью текстов и подписей. И речь не о случаях, когда именно её отсутствие есть основа для шутки.
