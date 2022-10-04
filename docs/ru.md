@@ -71,7 +71,7 @@
 
 ### DPArray
 :gb: :ru: &#x3000;
-[:blue_square:](#section-5) &#x3000;
+![1](/img/NF48.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/DPArray) &#x3000;
 :film_projector: [Guide](https://youtube.com/watch?v=I_sXoDxPQQ0) &#x3000;
 :envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/DPArray/releases/latest)
@@ -83,7 +83,7 @@
 
 ### ConcurrentDraw
 :gb: :ru: &#x3000;
-[:blue_square: :orange_square:](#section-5) &#x3000;
+![1](/img/NF48.png) ![2](/img/VC.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/concurrentdraw) &#x3000;
 :film_projector: [Guide](https://youtube.com/watch?v=MMsf7CA5cSE) &#x3000;
 :tv: [Live](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc) &#x3000;
@@ -97,7 +97,7 @@
 
 ### uNot (UniNotifier)
 :gb: :ru: &#x3000;
-[:blue_square:](#section-5) &#x3000;
+![1](/img/NF48.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/uninotifier) &#x3000;
 :film_projector: [User guide](https://youtube.com/watch?v=HPq88MW3jF8) &#x3000;
 :envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/uninotifier/releases/latest) &#x3000;
@@ -192,7 +192,7 @@
 
 ### Text to KKT
 :ru: &#x3000;
-[:blue_square: :orange_square:](#section-5) &#x3000;
+![1](/img/NF48.png) ![2](/img/VC.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/texttokkt) &#x3000;
 :film_projector: [Guide](https://youtube.com/watch?v=akcWsDnyWcQ) &#x3000;
 :page_with_curl: [FNReader](https://github.com/adslbarxatov/TextToKKT/blob/master/FNReader.md) &#x3000;
@@ -209,9 +209,9 @@
 
 &nbsp;
 
-### Geomag data drawer 
+### Geomag data drawer
 :gb: :ru: &#x3000;
-[:blue_square:](#section-5) &#x3000;
+![1](/img/NF48.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/geomagdatadrawer) &#x3000;
 :page_with_curl: [Guide](https://github.com/adslbarxatov/GeomagDataDrawer/blob/master/UserGuide.md) &#x3000;
 :tv: [Guide](https://youtube.com/playlist?list=PLe7qKwHNkZTuAATdj1asHQ6nUxlR9qUZO) &#x3000;
@@ -222,13 +222,14 @@
 
 &nbsp;
 
-### Make decision :gb: :ru:
-● [:earth_africa: About](https://github.com/adslbarxatov/makedecision)
-● [:film_projector: Guide](https://youtube.com/watch?v=40Lvq0Q1we0)
-● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision)
-● [:iphone: Get on GetApps](https://global.app.mi.com/details?id=makedecision.xiaomi)
-● [:iphone: Get on AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C102653919?channelId=GitHub&id=9e294f4fc1f84e00af29183d5a706fd3&s=9380BD335AB35872FB993207DE1DD83650FABF7D6FF81F9AF4810E8C14BA254E&detailType=0&v=&callType=AGDLINK&installType=0000)
-● [:package: Get APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.apk) ●
+### Make decision
+:gb: :ru: &#x3000;
+● :earth_africa: [About](https://github.com/adslbarxatov/makedecision) &#x3000;
+● :film_projector: [Guide](https://youtube.com/watch?v=40Lvq0Q1we0) &#x3000;
+● :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) &#x3000;
+● :iphone: [Get on GetApps](https://global.app.mi.com/details?id=makedecision.xiaomi) &#x3000;
+● :iphone: [Get on AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C102653919?channelId=GitHub&id=9e294f4fc1f84e00af29183d5a706fd3&s=9380BD335AB35872FB993207DE1DD83650FABF7D6FF81F9AF4810E8C14BA254E&detailType=0&v=&callType=AGDLINK&installType=0000) &#x3000;
+● :package: [Get APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.apk)
 
 Программа иллюстрирует математический метод, позволяющий сравнивать некоторые объекты, явления или исходы
 событий на основе набора критериев и выбирать наиболее «подходящий» из них. Пользователю предлагается
