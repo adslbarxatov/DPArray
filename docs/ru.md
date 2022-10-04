@@ -59,11 +59,11 @@
 
 ### Зависимости программных продуктов
 
-- :large_blue_circle: [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631)
-- :orange_circle: [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
-- :green_circle: [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709)
-- :purple_circle: [Microsoft .NET Framework 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.9-windows-x86-installer)
-- :yellow_circle: [Microsoft DirectX 9 updates](https://microsoft.com/en-us/download/confirmation.aspx?id=35)
+- :blue_square: [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631)
+- :orange_square: [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
+- :green_square: [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709)
+- :purple_square: [Microsoft .NET Framework 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.9-windows-x86-installer)
+- :yellow_square: [Microsoft DirectX 9 updates](https://microsoft.com/en-us/download/confirmation.aspx?id=35)
 
 &nbsp;
 
@@ -71,8 +71,8 @@
 
 ### DPArray
 :gb: :ru: &#x3000;
-[:large_blue_circle:](#section-5) &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/DPArray/ru) &#x3000;
+[:blue_square:](#section-5) &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/DPArray) &#x3000;
 :film_projector: [Guide](https://youtube.com/watch?v=I_sXoDxPQQ0) &#x3000;
 :envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/DPArray/releases/latest)
 
@@ -83,7 +83,7 @@
 
 ### ConcurrentDraw
 :gb: :ru: &#x3000;
-[:large_blue_circle: :orange_circle:](#section-5) &#x3000;
+[:blue_square: :orange_square:](#section-5) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/concurrentdraw) &#x3000;
 :film_projector: [Guide](https://youtube.com/watch?v=MMsf7CA5cSE) &#x3000;
 :tv: [Live](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc) &#x3000;
@@ -97,7 +97,7 @@
 
 ### uNot (UniNotifier)
 :gb: :ru: &#x3000;
-[:large_blue_circle:](#section-5) &#x3000;
+[:blue_square:](#section-5) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/uninotifier) &#x3000;
 :film_projector: [User guide](https://youtube.com/watch?v=HPq88MW3jF8) &#x3000;
 :envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/uninotifier/releases/latest) &#x3000;
@@ -190,16 +190,18 @@
 
 &nbsp;
 
-### Text to KKT :ru:
-● [:earth_africa: About](https://github.com/adslbarxatov/texttokkt)
-● [:film_projector: Guide](https://youtube.com/watch?v=akcWsDnyWcQ)
-● [:page_with_curl: FNReader](https://github.com/adslbarxatov/TextToKKT/blob/master/FNReader.md)
-● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/texttokkt/releases/latest)
-● [:package: Get on DPArray](dp://TextToKKT)
-● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT)
-● [:iphone: Get on GetApps](https://global.app.mi.com/details?id=texttokkt.xiaomi)
-● [:iphone: Get on AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C102663035?channelId=GitHub&id=f4e62031e4b84ebb937a8b75c08fc543&s=E90E5D1DB649783589F6F3EA42475CFECAABFFF996E407E61BACB2268DB9867C&detailType=0&v=&callType=AGDLINK&installType=0000)
-● [:package: Get APK](https://github.com/adslbarxatov/TextToKKT/releases/latest/download/TextToKKT_KitKat.apk) ●
+### Text to KKT
+:ru: &#x3000;
+[:blue_square: :orange_square:](#section-5) &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/texttokkt) &#x3000;
+:film_projector: [Guide](https://youtube.com/watch?v=akcWsDnyWcQ) &#x3000;
+:page_with_curl: [FNReader](https://github.com/adslbarxatov/TextToKKT/blob/master/FNReader.md) &#x3000;
+:envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/texttokkt/releases/latest) &#x3000;
+:package: [Get on DPArray](dp://TextToKKT) &#x3000;
+:iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT) &#x3000;
+:iphone: [Get on GetApps](https://global.app.mi.com/details?id=texttokkt.xiaomi) &#x3000;
+:iphone: [Get on AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C102663035?channelId=GitHub&id=f4e62031e4b84ebb937a8b75c08fc543&s=E90E5D1DB649783589F6F3EA42475CFECAABFFF996E407E61BACB2268DB9867C&detailType=0&v=&callType=AGDLINK&installType=0000) &#x3000;
+:package: [Get APK](https://github.com/adslbarxatov/TextToKKT/releases/latest/download/TextToKKT_KitKat.apk)
 
 Утилита сервис-инженера контрольно-кассовой техники. Первый проект лаборатории, доступный одновременно
 на платформах Windows и Android (Google play и AppGallery). С недавнего времени FNReader, модуль чтения
@@ -207,12 +209,14 @@
 
 &nbsp;
 
-### Geomag data drawer :gb: :ru:
-● [:earth_africa: About](https://github.com/adslbarxatov/geomagdatadrawer)
-● [:page_with_curl: Guide](https://github.com/adslbarxatov/GeomagDataDrawer/blob/master/UserGuide.md)
-● [:tv: Guide](https://youtube.com/playlist?list=PLe7qKwHNkZTuAATdj1asHQ6nUxlR9qUZO)
-● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/geomagdatadrawer/releases/latest)
-● [:package: Get on DPArray](dp://GeomagDataDrawer) ●
+### Geomag data drawer 
+:gb: :ru: &#x3000;
+[:blue_square:](#section-5) &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/geomagdatadrawer) &#x3000;
+:page_with_curl: [Guide](https://github.com/adslbarxatov/GeomagDataDrawer/blob/master/UserGuide.md) &#x3000;
+:tv: [Guide](https://youtube.com/playlist?list=PLe7qKwHNkZTuAATdj1asHQ6nUxlR9qUZO) &#x3000;
+:envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/geomagdatadrawer/releases/latest) &#x3000;
+:package: [Get on DPArray](dp://GeomagDataDrawer)
 
 Автономный инструмент построения и оформления диаграмм данных на основе табличных данных
 
