@@ -57,12 +57,16 @@
 Полный список программных продуктов доступен [здесь](https://github.com/adslbarxatov?tab=repositories).
 Общий список модов доступен [здесь](https://moddb.com/members/rd-aaow-fdl/mods)
 
-**Возможные зависимости программных продуктов для ОС Windows:**
+&nbsp;
 
-- :large_blue_circle: [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631);
-- :orange_circle: [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe);
-- :green_circle: [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709);
-- :purple_circle: [Microsoft .NET Framework 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.9-windows-x86-installer);
+
+
+## Возможные зависимости программных продуктов для ОС Windows
+
+- :large_blue_circle: [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631)
+- :orange_circle: [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
+- :green_circle: [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709)
+- :purple_circle: [Microsoft .NET Framework 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.9-windows-x86-installer)
 - :yellow_circle: [Microsoft DirectX 9 updates](https://microsoft.com/en-us/download/confirmation.aspx?id=35)
 
 &nbsp;
@@ -70,11 +74,9 @@
 
 
 ### DPArray
-● :gb: :ru: ● :large_blue_circle: ●
-
-● [:earth_africa: About](https://github.com/adslbarxatov/DPArray/ru)
-● [:film_projector: Guide](https://youtube.com/watch?v=I_sXoDxPQQ0)
-● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/DPArray/releases/latest) ●
+:gb: :ru: &#x3000; :large_blue_circle: &#x3000; [:earth_africa: About](https://github.com/adslbarxatov/DPArray/ru) &#x3000;
+[:film_projector: Guide](https://youtube.com/watch?v=I_sXoDxPQQ0) &#x3000;
+[:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/DPArray/releases/latest)
 
 Инструмент развёртки проектов лаборатории. Инструмент выполняет установку, удаление, проверку обновлений, загрузку пакетов и их зависимостей.
 Через это приложение доступны все остальные продукты лаборатории (включая APK для Android). Вы сейчас находитесь на его приветственной странице.
