@@ -4,6 +4,9 @@ plugins:
   - jemoji
   - jekyll-seo-tag
 
+emoji:
+  src: "/img"
+
 defaults:
   - scope:
       path: ""
