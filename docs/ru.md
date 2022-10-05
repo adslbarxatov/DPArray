@@ -4,10 +4,6 @@
 
 #
 
-
-:warning: ***На странице ведутся технические работы*** :warning:
-
-
 ### Содержание страницы
 
 - [Здравствуйте, уважаемый пользователь!](#section-3)
@@ -108,7 +104,8 @@
 
 ### uNot (UniNotifier)
 :gb: :ru: &#x3000;
-![11](/img/Win.png) ![1](/img/NF48.png) ![15](/img/And5.png) &#x3000;
+![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
+![12](/img/And.png) ![15](/img/And5.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/uninotifier) &#x3000;
 :film_projector: [User guide](https://youtube.com/watch?v=HPq88MW3jF8) &#x3000;
 :envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/uninotifier/releases/latest) &#x3000;
@@ -187,7 +184,7 @@
 
 ### PA detector (Enchant it)
 :gb: :ru: &#x3000;
-![16](/img/And6.png) &#x3000;
+![12](/img/And.png) ![16](/img/And6.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/enchantit) &#x3000;
 :film_projector: [Guide](https://youtube.com/watch?v=hTnDR89VR8w) &#x3000;
 :page_with_curl: [Description](https://vk.com/@rd_aaow_fdl-pad) &#x3000;
@@ -204,7 +201,8 @@
 
 ### Text to KKT
 :ru: &#x3000;
-![11](/img/Win.png) ![1](/img/NF48.png) ![2](/img/VC.png) ![14](/img/And4.png) ![15](/img/And5.png) &#x3000;
+![11](/img/Win.png) ![1](/img/NF48.png) ![2](/img/VC.png) &#x3000;
+![12](/img/And.png) ![14](/img/And4.png) ![15](/img/And5.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/texttokkt) &#x3000;
 :film_projector: [Guide](https://youtube.com/watch?v=akcWsDnyWcQ) &#x3000;
 :page_with_curl: [FNReader](https://github.com/adslbarxatov/TextToKKT/blob/master/FNReader.md) &#x3000;
@@ -236,7 +234,7 @@
 
 ### Make decision
 :gb: :ru: &#x3000;
-![15](/img/And5.png) &#x3000;
+![12](/img/And.png) ![15](/img/And5.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/makedecision) &#x3000;
 :film_projector: [Guide](https://youtube.com/watch?v=40Lvq0Q1we0) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) &#x3000;
@@ -486,7 +484,7 @@ API для работы с файлами сохранений GTA Vice City и 
 &nbsp;
 
 ### Snake
-:ru:
+:ru: &#x3000;
 ![11](/img/Win.png) ![4](/img/NF60.png) ![5](/img/DX.png) :no_entry_sign: &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/snake) &#x3000;
 :package: [Get on DPArray](dp://Snake)
@@ -496,7 +494,7 @@ API для работы с файлами сохранений GTA Vice City и 
 &nbsp;
 
 ### Turtle
-:ru:
+:ru: &#x3000;
 ![11](/img/Win.png) ![4](/img/NF60.png) ![5](/img/DX.png) :no_entry_sign: &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/turtle) &#x3000;
 :package: [Get on DPArray](dp://Turtle)
