@@ -276,8 +276,8 @@
 ### ESHQ
 :gb: &#x3000;
 ![11](/img/Win.png) ![2](/img/VC.png) &#x3000;
-:earth_africa: Summary](https://moddb.com/mods/eshq) &#x3000;
-:tv: [Demos](https://youtube.com/playlist?list=PLe7qKwHNkZTuYevg6QyszASeD7S1XgpG_) &#x3000;
+:earth_africa: [Summary](https://moddb.com/mods/eshq) &#x3000;
+:tv: [Demo](https://youtube.com/playlist?list=PLe7qKwHNkZTuYevg6QyszASeD7S1XgpG_) &#x3000;
 :package: [Get on DPArray](dp://ESHQ) &#x3000;
 :package: [Get the last update](dp://ESHQ_update)
 
@@ -479,7 +479,7 @@ API для работы с файлами сохранений GTA Vice City и 
 :earth_africa: [About](https://github.com/adslbarxatov/races) &#x3000;
 :package: [Get on DPArray](dp://Races)
 
-«Гонки» – классическая игра для Тетриса. Из учебного набора игр для [MonoGame Framework](https://monogame.net)
+«Гонки» – классическая игра для Тетриса. Из учебного набора игр для MonoGame Framework
 
 &nbsp;
 
@@ -489,7 +489,7 @@ API для работы с файлами сохранений GTA Vice City и 
 :earth_africa: [About](https://github.com/adslbarxatov/snake) &#x3000;
 :package: [Get on DPArray](dp://Snake)
 
-«Змейка» – классическая игра для Тетриса. Из учебного набора игр для [MonoGame Framework](https://monogame.net)
+«Змейка» – классическая игра для Тетриса. Из учебного набора игр для MonoGame Framework
 
 &nbsp;
 
@@ -499,7 +499,7 @@ API для работы с файлами сохранений GTA Vice City и 
 :earth_africa: [About](https://github.com/adslbarxatov/turtle) &#x3000;
 :package: [Get on DPArray](dp://Turtle)
 
-«Черепашка» – классическая игра для Тетриса. Из учебного набора игр для [MonoGame Framework](https://monogame.net)
+«Черепашка» – классическая игра для Тетриса. Из учебного набора игр для MonoGame Framework
 
 &nbsp;
 
