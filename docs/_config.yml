@@ -8,4 +8,4 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /img/DP.png
+      image: /img/DPBack.png

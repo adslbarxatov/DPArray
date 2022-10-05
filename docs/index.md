@@ -99,7 +99,7 @@ You can get all our products through this application (including APKs for Androi
 :film_projector: [Video guide](https://youtube.com/watch?v=MMsf7CA5cSE) &#x3000;
 :tv: [ConcurrentDraw live](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/concurrentdraw/releases/latest) &#x3000;
-:package: [Get on DPArray](dp://ConcurrentDraw)
+![21](/img/DP.png) [Get on DPArray](dp://ConcurrentDraw)
 
 A sound and music visualization tool (stand-alone cover for WMP). It works without additional codecs and drivers,
 since it uses a user-selected system audio output
@@ -113,7 +113,7 @@ since it uses a user-selected system audio output
 :earth_africa: [About](https://github.com/adslbarxatov/uninotifier) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=HPq88MW3jF8) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/uninotifier/releases/latest) &#x3000;
-:package: [Get on DPArray](dp://UniNotifier) &#x3000;
+![21](/img/DP.png) [Get on DPArray](dp://UniNotifier) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) &#x3000;
 :iphone: [Get on GetApps](https://global.app.mi.com/details?id=uninotifier.xiaomi) &#x3000;
 :iphone: [Get on AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C102838121?channelId=GitHub&id=34da22c3478e4601b33a6ec854592895&s=DB4BF2118E523FEF437C11C7FAB0DE5D24080C18F860F60311E2B5919F1B568A&detailType=0&v=&callType=AGDLINK&installType=0000) &#x3000;
@@ -179,7 +179,7 @@ activity. Before starting the experiment take a look at the project presentation
 :page_with_curl: [User guide](https://github.com/adslbarxatov/GeomagDataDrawer/blob/master/UserGuide.md) &#x3000;
 :tv: [Video guide](https://youtube.com/playlist?list=PLe7qKwHNkZTuAATdj1asHQ6nUxlR9qUZO) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/geomagdatadrawer/releases/latest) &#x3000;
-:package: [Get on DPArray](dp://GeomagDataDrawer)
+![21](/img/DP.png) [Get on DPArray](dp://GeomagDataDrawer)
 
 Stand-alone tool for building and designing data diagrams based on tabular data
 
@@ -208,7 +208,7 @@ As a result, you’ll get the answer for the next question: “what way is the b
 :earth_africa: [About](https://github.com/adslbarxatov/batchimageconvertor) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=bejx-r1C6j0) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/batchimageconvertor/releases/latest) &#x3000;
-:package: [Get on DPArray](dp://BatchImageConvertor)
+![21](/img/DP.png) [Get on DPArray](dp://BatchImageConvertor)
 
 A small tool for batch images processing
 
@@ -220,7 +220,7 @@ A small tool for batch images processing
 :earth_africa: [About](https://github.com/adslbarxatov/fontfinder) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=zK-6pfEMCbA) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/fontfinder/releases/latest) &#x3000;
-:package: [Get on DPArray](dp://FontFinder)
+![21](/img/DP.png) [Get on DPArray](dp://FontFinder)
 
 A tool for finding a font by its image
 
@@ -231,8 +231,8 @@ A tool for finding a font by its image
 ![11](/img/Win.png) ![2](/img/VC.png) &#x3000;
 :earth_africa: [Summary](https://moddb.com/mods/eshq) &#x3000;
 :tv: [Video demo](https://youtube.com/playlist?list=PLe7qKwHNkZTuYevg6QyszASeD7S1XgpG_) &#x3000;
-:package: [Get on DPArray](dp://ESHQ) &#x3000;
-:package: [Get the last update](dp://ESHQ_update)
+![21](/img/DP.png) [Get on DPArray](dp://ESHQ) &#x3000;
+![21](/img/DP.png) [Get the last update](dp://ESHQ_update)
 
 A mod for Half-Life 1 with its own storyline (not from the Half-Life universe). An unknown government spy must
 steal classified files from a building called the “Evil scientists headquarters”. But his work will turn out
@@ -267,7 +267,7 @@ An adaptation of Xash3D engine for ESHQ mod for Half-Life 1
 ![11](/img/Win.png) &#x3000;
 :earth_africa: [Summary](https://moddb.com/mods/ccm) &#x3000;
 :film_projector: [Video demo](https://youtube.com/watch?v=tpgKd91QYP4) &#x3000;
-:package: [Get on DPArray](dp://CCM)
+![21](/img/DP.png) [Get on DPArray](dp://CCM)
 
 A modification for GTA Vice City, preserving the original plot and gameplay, but fixing a number of known problems,
 as well as expanding the already great capabilities of Tommy Vercetti. A short presentation of additions
@@ -282,7 +282,7 @@ and corrections is available here
 :film_projector: [Video demo](https://youtube.com/watch?v=RdLt-dTz8vU) &#x3000;
 :page_with_curl: [User guide](https://github.com/adslbarxatov/BExplorer/blob/master/UserManual.md) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/bexplorer/releases/latest) &#x3000;
-:package: [Get on DPArray](dp://BExplorer)
+![21](/img/DP.png) [Get on DPArray](dp://BExplorer)
 
 An API for working with save files for GTA Vice City and an application that implements a part of functionality
 
@@ -293,7 +293,7 @@ An API for working with save files for GTA Vice City and an application that imp
 ![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/makecst) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/makecst/releases/latest) &#x3000;
-:package: [Get on DPArray](dp://MakeCST)
+![21](/img/DP.png) [Get on DPArray](dp://MakeCST)
 
 A tool for converting DFF models and QHullOFF objects to GTA collision scripts
 
@@ -305,7 +305,7 @@ A tool for converting DFF models and QHullOFF objects to GTA collision scripts
 :earth_africa: [About](https://github.com/adslbarxatov/osmacrosexecutor) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=a9yjvx7Cy3M) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/osmacrosexecutor/releases/latest) &#x3000;
-:package: [Get on DPArray](dp://OSMacrosExecutor)
+![21](/img/DP.png) [Get on DPArray](dp://OSMacrosExecutor)
 
 A tool for automation of user actions in Windows operating system
 
@@ -316,7 +316,7 @@ A tool for automation of user actions in Windows operating system
 ![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/fileextensionsmanager) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/fileextensionsmanager/releases/latest) &#x3000;
-:package: [Get on DPArray](dp://FileExtensionsManager)
+![21](/img/DP.png) [Get on DPArray](dp://FileExtensionsManager)
 
 A tool for managing the custom file extensions in Windows operating system
 
@@ -327,7 +327,7 @@ A tool for managing the custom file extensions in Windows operating system
 ![11](/img/Win.png) ![2](/img/VC.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/keyboardswitcher) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/keyboardswitcher/releases/latest) &#x3000;
-:package: [Get on DPArray](dp://KeyboardSwitcher)
+![21](/img/DP.png) [Get on DPArray](dp://KeyboardSwitcher)
 
 Quick correction tool for text entered on wrong keyboard layout (RU_ru and EN_us keyboards).
 Also allows you to translate HEX data to binary and backward
@@ -339,7 +339,7 @@ Also allows you to translate HEX data to binary and backward
 ![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/screenshooter) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/screenshooter/releases/latest) &#x3000;
-:package: [Get on DPArray](dp://ScreenShooter)
+![21](/img/DP.png) [Get on DPArray](dp://ScreenShooter)
 
 An utility for creating screenshots. Supports shooting of screen, windows and elements of applications
 
@@ -350,7 +350,7 @@ An utility for creating screenshots. Supports shooting of screen, windows and el
 ![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/datesdifference) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/datesdifference/releases/latest) &#x3000;
-:package: [Get on DPArray](dp://DatesDifference)
+![21](/img/DP.png) [Get on DPArray](dp://DatesDifference)
 
 A small tool that can tell the difference between two dates in different views
 
@@ -361,7 +361,7 @@ A small tool that can tell the difference between two dates in different views
 ![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/sudokusolver) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/sudokusolver/releases/latest) &#x3000;
-:package: [Get on DPArray](dp://SudokuSolver)
+![21](/img/DP.png) [Get on DPArray](dp://SudokuSolver)
 
 A tool for solving sudoku
 
@@ -372,7 +372,7 @@ A tool for solving sudoku
 ![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/tablesmerger) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/tablesmerger/releases/latest) &#x3000;
-:package: [Get on DPArray](dp://TablesMerger)
+![21](/img/DP.png) [Get on DPArray](dp://TablesMerger)
 
 Byproduct of Geomag data drawer project. This tool performs “gluing” of data tables with equal
 and different rows quantities
@@ -384,7 +384,7 @@ and different rows quantities
 ![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/vectorimagegenerator) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/vectorimagegenerator/releases/latest) &#x3000;
-:package: [Get on DPArray](dp://VectorImageGenerator)
+![21](/img/DP.png) [Get on DPArray](dp://VectorImageGenerator)
 
 Byproduct of Geomag data drawer project. This tool performs generation of vector images using text scripts
 
@@ -409,7 +409,7 @@ Code fragments used in video projects of the same names in text visualization.
 :gb: &#x3000;
 ![11](/img/Win.png) :no_entry_sign: &#x3000;
 :earth_africa: [Summary](https://moddb.com/games/counter-strike/addons/rdaaow-counter-strike-16-maps) &#x3000;
-:package: [Get on DPArray](dp://CSMaps)
+![21](/img/DP.png) [Get on DPArray](dp://CSMaps)
 
 Our first maps done in the Hammer editor. Not sure about the balance, but locations are quite playable
 
@@ -419,7 +419,7 @@ Our first maps done in the Hammer editor. Not sure about the balance, but locati
 :ru: &#x3000;
 ![11](/img/Win.png) ![4](/img/NF60.png) ![5](/img/DX.png) :no_entry_sign: &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/races) &#x3000;
-:package: [Get on DPArray](dp://Races)
+![21](/img/DP.png) [Get on DPArray](dp://Races)
 
 “Races”, the classic Tetris game. It is the sample project for MonoGame Framework
 
@@ -429,7 +429,7 @@ Our first maps done in the Hammer editor. Not sure about the balance, but locati
 :ru: &#x3000;
 ![11](/img/Win.png) ![4](/img/NF60.png) ![5](/img/DX.png) :no_entry_sign: &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/snake) &#x3000;
-:package: [Get on DPArray](dp://Snake)
+![21](/img/DP.png) [Get on DPArray](dp://Snake)
 
 “Snake”, the classic Tetris game. It is the sample project for MonoGame Framework
 
@@ -439,7 +439,7 @@ Our first maps done in the Hammer editor. Not sure about the balance, but locati
 :ru: &#x3000;
 ![11](/img/Win.png) ![4](/img/NF60.png) ![5](/img/DX.png) :no_entry_sign: &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/turtle) &#x3000;
-:package: [Get on DPArray](dp://Turtle)
+![21](/img/DP.png) [Get on DPArray](dp://Turtle)
 
 “Turtle”, the classic Tetris game. It is the sample project for MonoGame Framework
 
