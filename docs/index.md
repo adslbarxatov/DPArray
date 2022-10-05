@@ -61,7 +61,7 @@ The :no_entry_sign: marks projects that are no longer supported.
 A complete list of software products is available [here](https://github.com/adslbarxatov?tab=repositories).
 A general list of mods is available [here](https://moddb.com/members/rd-aaow-fdl/mods)
 
-### Зависимости программных продуктов
+### Dependencies of app products
 
 If any product doesn’t work or doesn’t start correctly, check this list of requirements.
 
