@@ -1,4 +1,4 @@
-_Changes for v 5.0.21_: 
+_Changes for v 5.0.21_:
 - Updated the descriptions link;
 - Fixed bug with processing of long packages sets;
 - Adjusted the initialization of deployment flags;
