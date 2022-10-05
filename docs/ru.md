@@ -293,7 +293,7 @@
 ![11](/img/Win.png) ![1](/img/NF48.png) ![2](/img/VC.png) &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/randomaze) &#x3000;
 :earth_asia: [Материнский проект](https://moddb.com/mods/eshq) &#x3000;
-:tv: [Демо видео](https://youtube.com/watch?v=pUTJrnyPRm8)
+:film_projector: [Демо видео](https://youtube.com/watch?v=pUTJrnyPRm8)
 
 ES: Randomaze – генератор карт для одноимённого субмода.
 Инструмент является частью мода ESHQ для Half-Life часть 1
