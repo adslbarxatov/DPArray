@@ -63,11 +63,18 @@
 
 ### Зависимости программных продуктов
 
-- ![1](/img/NF48.png) [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631)
-- ![2](/img/VC.png) [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
-- ![3](/img/SQL.png) [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709)
-- ![4](/img/NF60.png) [Microsoft .NET Framework 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.9-windows-x86-installer)
-- ![5](/img/DX.png) [Microsoft DirectX 9 updates](https://microsoft.com/en-us/download/confirmation.aspx?id=35)
+Если какой-либо продукт не работает или работает неправильно, проверьте этот список требований.
+
+- Для приложений и продуктов, работающих в ОС Windows (![11](/img/Win.png)):
+    - ![1](/img/NF48.png) [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631)
+    - ![2](/img/VC.png) [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
+    - ![3](/img/SQL.png) [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709)
+    - ![4](/img/NF60.png) [Microsoft .NET Framework 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.9-windows-x86-installer)
+    - ![5](/img/DX.png) [Microsoft DirectX 9 updates](https://microsoft.com/en-us/download/confirmation.aspx?id=35)
+- Для приложений и продуктов, работающих в ОС Android (![12](/img/And.png)):
+    - ![14](/img/And4.png) Версия Android 4.2 или новее
+    - ![15](/img/And5.png) Версия Android 5.0 или новее
+    - ![16](/img/And6.png) Версия Android 6.0 или новее
 
 &nbsp;
 
@@ -75,7 +82,7 @@
 
 ### DPArray
 :gb: :ru: &#x3000;
-![1](/img/NF48.png) &#x3000;
+![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/DPArray) &#x3000;
 :film_projector: [Guide](https://youtube.com/watch?v=I_sXoDxPQQ0) &#x3000;
 :envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/DPArray/releases/latest)
@@ -87,7 +94,7 @@
 
 ### ConcurrentDraw
 :gb: :ru: &#x3000;
-![1](/img/NF48.png) ![2](/img/VC.png) &#x3000;
+![11](/img/Win.png) ![1](/img/NF48.png) ![2](/img/VC.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/concurrentdraw) &#x3000;
 :film_projector: [Guide](https://youtube.com/watch?v=MMsf7CA5cSE) &#x3000;
 :tv: [Live](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc) &#x3000;
@@ -101,7 +108,7 @@
 
 ### uNot (UniNotifier)
 :gb: :ru: &#x3000;
-![1](/img/NF48.png) &#x3000;
+![11](/img/Win.png) ![1](/img/NF48.png) ![15](/img/And5.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/uninotifier) &#x3000;
 :film_projector: [User guide](https://youtube.com/watch?v=HPq88MW3jF8) &#x3000;
 :envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/uninotifier/releases/latest) &#x3000;
@@ -180,6 +187,7 @@
 
 ### PA detector (Enchant it)
 :gb: :ru: &#x3000;
+![16](/img/And6.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/enchantit) &#x3000;
 :film_projector: [Guide](https://youtube.com/watch?v=hTnDR89VR8w) &#x3000;
 :page_with_curl: [Description](https://vk.com/@rd_aaow_fdl-pad) &#x3000;
@@ -196,7 +204,7 @@
 
 ### Text to KKT
 :ru: &#x3000;
-![1](/img/NF48.png) ![2](/img/VC.png) &#x3000;
+![11](/img/Win.png) ![1](/img/NF48.png) ![2](/img/VC.png) ![14](/img/And4.png) ![15](/img/And5.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/texttokkt) &#x3000;
 :film_projector: [Guide](https://youtube.com/watch?v=akcWsDnyWcQ) &#x3000;
 :page_with_curl: [FNReader](https://github.com/adslbarxatov/TextToKKT/blob/master/FNReader.md) &#x3000;
@@ -215,7 +223,7 @@
 
 ### Geomag data drawer
 :gb: :ru: &#x3000;
-![1](/img/NF48.png) &#x3000;
+![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/geomagdatadrawer) &#x3000;
 :page_with_curl: [Guide](https://github.com/adslbarxatov/GeomagDataDrawer/blob/master/UserGuide.md) &#x3000;
 :tv: [Guide](https://youtube.com/playlist?list=PLe7qKwHNkZTuAATdj1asHQ6nUxlR9qUZO) &#x3000;
@@ -228,6 +236,7 @@
 
 ### Make decision
 :gb: :ru: &#x3000;
+![15](/img/And5.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/makedecision) &#x3000;
 :film_projector: [Guide](https://youtube.com/watch?v=40Lvq0Q1we0) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) &#x3000;
@@ -244,7 +253,7 @@
 
 ### Batch image convertor
 :gb: :ru: &#x3000;
-![1](/img/NF48.png) ![2](/img/VC.png) &#x3000;
+![11](/img/Win.png) ![1](/img/NF48.png) ![2](/img/VC.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/batchimageconvertor) &#x3000;
 :film_projector: [Guide](https://youtube.com/watch?v=bejx-r1C6j0) &#x3000;
 :envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/batchimageconvertor/releases/latest) &#x3000;
@@ -256,7 +265,7 @@
 
 ### Font finder
 :gb: :ru: &#x3000;
-![1](/img/NF48.png) &#x3000;
+![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/fontfinder) &#x3000;
 :film_projector: [Guide](https://youtube.com/watch?v=zK-6pfEMCbA) &#x3000;
 :envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/fontfinder/releases/latest) &#x3000;
@@ -268,7 +277,7 @@
 
 ### ESHQ
 :gb: &#x3000;
-![2](/img/VC.png) &#x3000;
+![11](/img/Win.png) ![2](/img/VC.png) &#x3000;
 :earth_africa: Summary](https://moddb.com/mods/eshq) &#x3000;
 :tv: [Demos](https://youtube.com/playlist?list=PLe7qKwHNkZTuYevg6QyszASeD7S1XgpG_) &#x3000;
 :package: [Get on DPArray](dp://ESHQ) &#x3000;
@@ -283,7 +292,7 @@
 
 ### ES: Randomaze
 :gb: &#x3000;
-![1](/img/NF48.png) ![2](/img/VC.png) &#x3000;
+![11](/img/Win.png) ![1](/img/NF48.png) ![2](/img/VC.png) &#x3000;
 :earth_africa: [Summary](https://github.com/adslbarxatov/randomaze) &#x3000;
 :earth_asia: [Parent project](https://moddb.com/mods/eshq) &#x3000;
 :tv: [Demo](https://youtube.com/watch?v=pUTJrnyPRm8)
@@ -295,7 +304,7 @@ ES: Randomaze – генератор карт для одноимённого с
 
 ### Xash3D for ESHQ
 :gb: &#x3000;
-![2](/img/VC.png) &#x3000;
+![11](/img/Win.png) ![2](/img/VC.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/xash3d-for-eshq)
 
 Адаптация движка Xash3D для мода ESHQ для Half-Life 1
@@ -304,9 +313,10 @@ ES: Randomaze – генератор карт для одноимённого с
 
 ### Crazy cheater’s mod
 :gb: &#x3000;
+![11](/img/Win.png) &#x3000;
 :earth_africa: [Summary](https://moddb.com/mods/ccm) &#x3000;
 :film_projector: [Demo](https://youtube.com/watch?v=tpgKd91QYP4) &#x3000;
-:package: [Get on DPArray](dp://CCM) ●
+:package: [Get on DPArray](dp://CCM)
 
 Модификация для GTA Vice City, сохраняющая оригинальный сюжет и геймплей, но исправляющая ряд известных проблем,
 а также расширяющая и без того большие возможности Томми Версетти. Здесь доступна короткая презентация вносимых
@@ -316,7 +326,7 @@ ES: Randomaze – генератор карт для одноимённого с
 
 ### Accounts manager
 :ru: &#x3000;
-![1](/img/NF48.png) ![3](/img/SQL.png) &#x3000;
+![11](/img/Win.png) ![1](/img/NF48.png) ![3](/img/SQL.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/accountsmanager)
 
 Инструмент управления бюджетными счетами. Программа предназначена для накопления, хранения, обработки и выдачи по запросу
@@ -326,7 +336,7 @@ ES: Randomaze – генератор карт для одноимённого с
 
 ### BExplorer
 :gb: :ru: &#x3000;
-![1](/img/NF48.png) ![2](/img/VC.png) &#x3000;
+![11](/img/Win.png) ![1](/img/NF48.png) ![2](/img/VC.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/bexplorer) &#x3000;
 :film_projector: [Demo](https://youtube.com/watch?v=RdLt-dTz8vU) &#x3000;
 :page_with_curl: [Guide](https://github.com/adslbarxatov/BExplorer/blob/master/UserManual.md) &#x3000;
@@ -339,7 +349,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### Make CST
 :gb: &#x3000;
-![1](/img/NF48.png) &#x3000;
+![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/makecst) &#x3000;
 :envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/makecst/releases/latest) &#x3000;
 :package: [Get on DPArray](dp://MakeCST)
@@ -350,7 +360,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### OS macros executor
 :gb: :ru: &#x3000;
-![1](/img/NF48.png) ![2](/img/VC.png) &#x3000;
+![11](/img/Win.png) ![1](/img/NF48.png) ![2](/img/VC.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/osmacrosexecutor) &#x3000;
 :film_projector: [Guide](https://youtube.com/watch?v=a9yjvx7Cy3M) &#x3000;
 :envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/osmacrosexecutor/releases/latest) &#x3000;
@@ -362,7 +372,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### File extensions manager
 :gb: :ru: &#x3000;
-![1](/img/NF48.png) &#x3000;
+![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/fileextensionsmanager) &#x3000;
 :envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/fileextensionsmanager/releases/latest) &#x3000;
 :package: [Get on DPArray](dp://FileExtensionsManager)
@@ -373,7 +383,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### Keyboard switcher
 :gb: &#x3000;
-![2](/img/VC.png) &#x3000;
+![11](/img/Win.png) ![2](/img/VC.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/keyboardswitcher) &#x3000;
 :envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/keyboardswitcher/releases/latest) &#x3000;
 :package: [Get on DPArray](dp://KeyboardSwitcher)
@@ -385,7 +395,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### Screen shooter
 :gb: :ru: &#x3000;
-![1](/img/NF48.png) &#x3000;
+![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/screenshooter) &#x3000;
 :envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/screenshooter/releases/latest) &#x3000;
 :package: [Get on DPArray](dp://ScreenShooter)
@@ -396,7 +406,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### Dates difference
 :gb: :ru: &#x3000;
-![1](/img/NF48.png) &#x3000;
+![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/datesdifference) &#x3000;
 :envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/datesdifference/releases/latest) &#x3000;
 :package: [Get on DPArray](dp://DatesDifference)
@@ -407,7 +417,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### Sudoku solver
 :gb: :ru: &#x3000;
-![1](/img/NF48.png) &#x3000;
+![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/sudokusolver) &#x3000;
 :envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/sudokusolver/releases/latest) &#x3000;
 :package: [Get on DPArray](dp://SudokuSolver)
@@ -418,7 +428,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### Tables merger
 :gb: :ru: &#x3000;
-![1](/img/NF48.png) &#x3000;
+![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/tablesmerger) &#x3000;
 :envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/tablesmerger/releases/latest) &#x3000;
 :package: [Get on DPArray](dp://TablesMerger)
@@ -430,7 +440,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### Vector image generator
 :gb: :ru: &#x3000;
-![1](/img/NF48.png) &#x3000;
+![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/vectorimagegenerator) &#x3000;
 :envelope_with_arrow: [Get for Windows](https://github.com/adslbarxatov/vectorimagegenerator/releases/latest) &#x3000;
 :package: [Get on DPArray](dp://VectorImageGenerator)
@@ -442,10 +452,12 @@ API для работы с файлами сохранений GTA Vice City и 
 
 #
 
-### FullSilence, CodeShow :gb: :ru: :no_entry_sign:
-● [:earth_africa: About](https://github.com/adslbarxatov/fullsilence)
-● [:tv: FullSilence live](https://youtube.com/playlist?list=PLe7qKwHNkZTsreIEQFedftXv3iQG-5LOA)
-● [:tv: CodeShow live](https://youtube.com/playlist?list=PLe7qKwHNkZTuZiVfiX1EhD4G7EPcReaA5) ●
+### FullSilence, CodeShow
+:gb: :ru: &#x3000;
+![11](/img/Win.png) :no_entry_sign: &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/fullsilence) &#x3000;
+:tv: [FullSilence live](https://youtube.com/playlist?list=PLe7qKwHNkZTsreIEQFedftXv3iQG-5LOA) &#x3000;
+:tv: [CodeShow live](https://youtube.com/playlist?list=PLe7qKwHNkZTuZiVfiX1EhD4G7EPcReaA5)
 
 Фрагменты кода, используемые в рамках одноимённых проектов при визуализации текста.
 *FullSilence* – визуализатор стихотворений и песен, использующий комбинации графических примитивов.
@@ -453,40 +465,50 @@ API для работы с файлами сохранений GTA Vice City и 
 
 &nbsp;
 
-### Counter-strike 1.6 maps :gb: :no_entry_sign:
-● [:earth_africa: Summary](https://moddb.com/games/counter-strike/addons/rdaaow-counter-strike-16-maps)
-● [:package: Get on DPArray](dp://CSMaps) ●
+### Counter-strike 1.6 maps
+:gb: &#x3000;
+![11](/img/Win.png) :no_entry_sign: &#x3000;
+:earth_africa: [Summary](https://moddb.com/games/counter-strike/addons/rdaaow-counter-strike-16-maps) &#x3000;
+:package: [Get on DPArray](dp://CSMaps)
 
 Наши первые карты, выполненные в Hammer editor. Не уверены насчёт баланса, но локации вполне играбельные
 
 &nbsp;
 
-### Races :ru: :no_entry_sign:
-● [:earth_africa: Races](https://github.com/adslbarxatov/races)
-● [:package: Get on DPArray](dp://Races) ●
+### Races
+:ru: &#x3000;
+![11](/img/Win.png) ![4](/img/NF60.png) ![5](/img/DX.png) :no_entry_sign: &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/races) &#x3000;
+:package: [Get on DPArray](dp://Races)
 
 «Гонки» – классическая игра для Тетриса. Из учебного набора игр для [MonoGame Framework](https://monogame.net)
 
 &nbsp;
 
-### Snake :ru: :no_entry_sign:
-● [:earth_africa: Snake](https://github.com/adslbarxatov/snake)
-● [:package: Get on DPArray](dp://Snake) ●
+### Snake
+:ru:
+![11](/img/Win.png) ![4](/img/NF60.png) ![5](/img/DX.png) :no_entry_sign: &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/snake) &#x3000;
+:package: [Get on DPArray](dp://Snake)
 
 «Змейка» – классическая игра для Тетриса. Из учебного набора игр для [MonoGame Framework](https://monogame.net)
 
 &nbsp;
 
-### Turtle :ru: :no_entry_sign:
-● [:earth_africa: Turtle](https://github.com/adslbarxatov/turtle)
-● [:package: Get on DPArray](dp://Turtle) ●
+### Turtle
+:ru:
+![11](/img/Win.png) ![4](/img/NF60.png) ![5](/img/DX.png) :no_entry_sign: &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/turtle) &#x3000;
+:package: [Get on DPArray](dp://Turtle)
 
 «Черепашка» – классическая игра для Тетриса. Из учебного набора игр для [MonoGame Framework](https://monogame.net)
 
 &nbsp;
 
-### GIATester :ru: :no_entry_sign:
-● [:earth_africa: About](https://github.com/adslbarxatov/giatester) ●
+### GIATester
+:ru: &#x3000;
+![11](/img/Win.png) ![1](/img/NF48.png) :no_entry_sign: &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/giatester)
 
 Инструмент для автоматизированной подготовки, проведения и оценки тестовых заданий (ГИА/ЕГЭ)
 
@@ -496,36 +518,36 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ## Облако ссылок
 
-● [Accounts manager](#accounts-manager-ru)
-● [Batch image convertor](#batch-image-convertor-gb-ru)
-● [BExplorer](#bexplorer-gb-ru)
-● [CodeShow](#fullsilence-codeshow-gb-ru-noentrysign)
-● [ConcurrentDraw](#concurrentdraw-gb-ru)
-● [Counter-strike 1.6 maps](#counter-strike-16-maps-gb-noentrysign)
-● [Crazy cheater’s mod](#crazy-cheaters-mod-gb)
-● [Dates difference](#dates-difference-gb-ru)
-● [**DPArray**](#dparray-gb-ru)
-● [ESHQ](#eshq-gb)
-● [ES: Randomaze](#es-randomaze-gb)
-● [File extensions manager](#file-extensions-manager-gb-ru)
-● [Font finder](#font-finder-gb-ru)
-● [FullSilence](#fullsilence-codeshow-gb-ru-noentrysign)
-● [Geomag data drawer](#geomag-data-drawer-gb-ru)
-● [GIA tester](#giatester-ru-noentrysign)
-● [Grammar must joy](#grammar-must-joy-ru)
-● [Keyboard switcher](#keyboard-switcher-gb)
-● [Make CST](#make-cst-gb)
-● [Make decision](#make-decision-gb-ru)
-● [OS macros executor](#os-macros-executor-gb-ru)
-● [PA detector (Enchant it)](#pa-detector-enchant-it-gb-ru)
-● [Races](#races-ru-noentrysign)
-● [Screen shooter](#screen-shooter-gb-ru)
-● [Snake](#snake-ru-noentrysign)
-● [Sudoku solver](#sudoku-solver-gb-ru)
-● [Text to KKT](#text-to-kkt-ru)
-● [Turtle](#turtle-ru-noentrysign)
-● [Tables merger](#tables-merger-gb-ru)
-● [uNot (UniNotifier)](#unot-uninotifier-gb-ru)
-● [Upsilon one](#upsilon-one-ru-gb)
-● [Vector image generator](#vector-image-generator-gb-ru)
-● [Xash3D for ESHQ](#xash3d-for-eshq-gb) ●
+[Accounts manager](#accounts-manager) &#x3000;
+[Batch image convertor](#batch-image-convertor) &#x3000;
+[BExplorer](#bexplorer) &#x3000;
+[CodeShow](#fullsilence-codeshow) &#x3000;
+[ConcurrentDraw](#concurrentdraw) &#x3000;
+[Counter-strike 1.6 maps](#counter-strike-16-maps) &#x3000;
+[Crazy cheater’s mod](#crazy-cheaters-mod) &#x3000;
+[Dates difference](#dates-difference) &#x3000;
+[**DPArray**](#dparray) &#x3000;
+[ESHQ](#eshq) &#x3000;
+[ES: Randomaze](#es-randomaze) &#x3000;
+[File extensions manager](#file-extensions-manager) &#x3000;
+[Font finder](#font-finder) &#x3000;
+[FullSilence](#fullsilence-codeshow) &#x3000;
+[Geomag data drawer](#geomag-data-drawer) &#x3000;
+[GIA tester](#giatester) &#x3000;
+[Grammar must joy](#grammar-must-joy) &#x3000;
+[Keyboard switcher](#keyboard-switcher) &#x3000;
+[Make CST](#make-cst) &#x3000;
+[Make decision](#make-decision) &#x3000;
+[OS macros executor](#os-macros-executor) &#x3000;
+[PA detector (Enchant it)](#pa-detector-enchant-it) &#x3000;
+[Races](#races) &#x3000;
+[Screen shooter](#screen-shooter) &#x3000;
+[Snake](#snake) &#x3000;
+[Sudoku solver](#sudoku-solver) &#x3000;
+[Text to KKT](#text-to-kkt) &#x3000;
+[Turtle](#turtle) &#x3000;
+[Tables merger](#tables-merger) &#x3000;
+[uNot (UniNotifier)](#unot-uninotifier) &#x3000;
+[Upsilon one](#upsilon-one) &#x3000;
+[Vector image generator](#vector-image-generator) &#x3000;
+[Xash3D for ESHQ](#xash3d-for-eshq)
