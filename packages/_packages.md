@@ -17,8 +17,8 @@ OS macros executor			3.0		DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp	
 Screen shooter				2.0		DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x000351D0	0
 Sudoku solver				3.0		DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x000309B4	0
 Tables merger				2.0		DEFSTORAGE/TablesMerger.dp					TablesMerger.dp				0x00061BCD	0
-Text to KKT					9.6		DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x00121463	1
-uNot						5.1.8	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000471BD	0
+Text to KKT					9.6.5	DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x00122E5D	1
+uNot						5.2		DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x00047DBB	0
 Vector image generator		2.0		DEFSTORAGE/VectorImageGenerator.dp			VectorImageGenerator.dp		0x0003DA3B	0
 
 #Mods
@@ -36,16 +36,16 @@ Snake						2.0			DEFSTORAGE/Snake.7z						Snake.7z					0x02344C58	1
 Turtle						2.0			DEFSTORAGE/Turtle.7z					Turtle.7z					0x023E8743	1
 
 #Android apps
-Make decision for Android	2.14		GIT_LINK/MakeDecision/releases/latest/download/MakeDecision.apk			MakeDecision.apk	31790208	3
-PA detector for Android		2.10		GIT_LINK/EnchantIt/releases/latest/download/PADetector.apk				PADetector.apk		39240076	3
-Text to KKT for Android		9.5.243		GIT_LINK/TextToKKT/releases/latest/download/TextToKKT_KitKat.apk		TextToKKT.apk		32514170	3
-uNot for Android			5.1			GIT_LINK/UniNotifier/releases/latest/download/UniNotifier.apk			UniNotifier.apk		32294351	3
+Make decision for Android	2.14.2		GIT_LINK/MakeDecision/releases/latest/download/MakeDecision.apk			MakeDecision.apk	31806592	3
+PA detector for Android		2.10.2		GIT_LINK/EnchantIt/releases/latest/download/PADetector.apk				PADetector.apk		39256460	3
+Text to KKT for Android		9.6.5		GIT_LINK/TextToKKT/releases/latest/download/TextToKKT_KitKat.apk		TextToKKT.apk		32522362	3
+uNot for Android			5.2			GIT_LINK/UniNotifier/releases/latest/download/UniNotifier.apk			UniNotifier.apk		32302543	3
 
 
 
 #ALERT: Some of our apps got new requirements. Please, read annotation from the last deployment step carefully!||
 #ALERT: Некоторые приложения получили новые требования. Пожалуйста, внимательно прочитайте аннотацию к последнему шагу развёртывания!
 
-Flags: 1 = unused, 2 = disable the version control
+Flags: 1 = disallow the fast deployment, 2 = disable the version control
 
 ```
