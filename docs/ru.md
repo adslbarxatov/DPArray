@@ -49,9 +49,20 @@
 ## Актуальные проекты и разработки
 
 Далее описаны актуальные проекты лаборатории.
-Описания содержат все необходимые ссылки (:earth_africa:), а также релизы проектов (:iphone: и / или :package:).
-Для каждого обозначен набор доступных языков интерфейса (:gb: и / или :ru:).
-Также в нём имеются видео (:film_projector:), презентационные плейлисты (:tv:) и другие инструкции (:page_with_curl:) для программных продуктов.
+Описания содержат:
+
+:earth_africa: все необходимые ссылки;
+
+:iphone: :package: релизы проектов;
+
+:gb: :ru: набор доступных языков интерфейса;
+
+:film_projector: видеоруководства;
+
+:tv: презентационные плейлисты;
+
+:page_with_curl: прочие инструкции.
+
 Знак :no_entry_sign: указывает на проекты, снятые с поддержки.
 
 Полный список программных продуктов доступен [здесь](https://github.com/adslbarxatov?tab=repositories).
@@ -61,16 +72,25 @@
 
 Если какой-либо продукт не работает или работает неправильно, проверьте этот список требований.
 
-- Для приложений и продуктов, работающих в ОС Windows (![11](/img/Win.png)):
-    - <img src="/DPArray/img/NF48.png" width="16"> [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631)
-    - ![2](/img/VC.png) [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
-    - ![3](/img/SQL.png) [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709)
-    - ![4](/img/NF60.png) [Microsoft .NET Framework 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.9-windows-x86-installer)
-    - ![5](/img/DX.png) [Обновления для Microsoft DirectX 9](https://microsoft.com/en-us/download/confirmation.aspx?id=35)
-- Для приложений и продуктов, работающих в ОС Android (![12](/img/And.png)):
-    - ![14](/img/And4.png) Версия Android 4.2 или новее
-    - ![15](/img/And5.png) Версия Android 5.0 или новее
-    - ![16](/img/And6.png) Версия Android 6.0 или новее
+Для приложений и продуктов, работающих в ОС Windows (<img src="/DPArray/img/Win.png" width="16">):
+
+<img src="/DPArray/img/NF48.png" width="16"> [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631)
+
+<img src="/DPArray/img/VC.png" width="16"> [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
+
+<img src="/DPArray/img/SQL.png" width="16"> [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709)
+
+<img src="/DPArray/img/NF60.png" width="16"> [Microsoft .NET Framework 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.9-windows-x86-installer)
+
+<img src="/DPArray/img/DX.png" width="16"> [Обновления для Microsoft DirectX 9](https://microsoft.com/en-us/download/confirmation.aspx?id=35)
+
+Для приложений и продуктов, работающих в ОС Android (<img src="/DPArray/img/And.png" width="16">):
+
+<img src="/DPArray/img/And4.png" width="16"> Версия Android 4.2 или новее
+
+<img src="/DPArray/img/And5.png" width="16"> Версия Android 5.0 или новее
+
+<img src="/DPArray/img/And6.png" width="16"> Версия Android 6.0 или новее
 
 &nbsp;
 
@@ -78,7 +98,7 @@
 
 ### DPArray
 :gb: :ru: &#x3000;
-![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/DPArray) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=I_sXoDxPQQ0) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/DPArray/releases/latest)
@@ -90,12 +110,12 @@
 
 ### ConcurrentDraw
 :gb: :ru: &#x3000;
-![11](/img/Win.png) ![1](/img/NF48.png) ![2](/img/VC.png) &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/concurrentdraw) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=MMsf7CA5cSE) &#x3000;
 :tv: [ConcurrentDraw live](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/concurrentdraw/releases/latest) &#x3000;
-![21](/img/DP.png) [На DPArray](dp://ConcurrentDraw)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ConcurrentDraw)
 
 Инструмент визуализации звука и музыки (самостоятельная обложка для WMP). Работает без дополнительных кодеков и драйверов,
 т. к. использует выбираемый пользователем системный аудиовыход
@@ -104,12 +124,12 @@
 
 ### uNot (UniNotifier)
 :gb: :ru: &#x3000;
-![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
-![12](/img/And.png) ![15](/img/And5.png) &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
+<img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/uninotifier) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=HPq88MW3jF8) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/uninotifier/releases/latest) &#x3000;
-![21](/img/DP.png) [На DPArray](dp://UniNotifier) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://UniNotifier) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) &#x3000;
 :iphone: [На GetApps](https://global.app.mi.com/details?id=uninotifier.xiaomi) &#x3000;
 :iphone: [На AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C102838121?channelId=GitHub&id=34da22c3478e4601b33a6ec854592895&s=DB4BF2118E523FEF437C11C7FAB0DE5D24080C18F860F60311E2B5919F1B568A&detailType=0&v=&callType=AGDLINK&installType=0000) &#x3000;
@@ -184,13 +204,12 @@
 
 ### PA detector (Enchant it)
 :gb: :ru: &#x3000;
-![12](/img/And.png) ![16](/img/And6.png) &#x3000;
+<img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And6.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/enchantit) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=hTnDR89VR8w) &#x3000;
 :page_with_curl: [Полное описание](https://vk.com/@rd_aaow_fdl-pad) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) &#x3000;
 :iphone: [На GetApps](https://global.app.mi.com/details?id=enchantit.xiaomi) &#x3000;
-:iphone: [На AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C104441189?channelId=GitHub&id=981952b9902a490ebfb1b8c5d11f8eef&s=A8B622B12555EE34769CFFF6303E49EF4841788E101068082F7EAF51DE3D7C24&detailType=0&v=&callType=AGDLINK&installType=0000) &#x3000;
 :package: [В виде APK](https://github.com/adslbarxatov/EnchantIt/releases/latest/download/PADetector.apk)
 
 Инструмент поиска паранормальной активности. Его задача – обнаружить и математически подтвердить какую-либо
@@ -201,13 +220,13 @@
 
 ### Text to KKT
 :ru: &#x3000;
-![11](/img/Win.png) ![1](/img/NF48.png) ![2](/img/VC.png) &#x3000;
-![12](/img/And.png) ![14](/img/And4.png) ![15](/img/And5.png) &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
+<img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And4.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/texttokkt) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=akcWsDnyWcQ) &#x3000;
 :page_with_curl: [Руководство по FNReader](https://github.com/adslbarxatov/TextToKKT/blob/master/FNReader.md) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/texttokkt/releases/latest) &#x3000;
-![21](/img/DP.png) [На DPArray](dp://TextToKKT) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://TextToKKT) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT) &#x3000;
 :iphone: [На GetApps](https://global.app.mi.com/details?id=texttokkt.xiaomi) &#x3000;
 :iphone: [На AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C102663035?channelId=GitHub&id=f4e62031e4b84ebb937a8b75c08fc543&s=E90E5D1DB649783589F6F3EA42475CFECAABFFF996E407E61BACB2268DB9867C&detailType=0&v=&callType=AGDLINK&installType=0000) &#x3000;
@@ -221,12 +240,12 @@
 
 ### Geomag data drawer
 :gb: :ru: &#x3000;
-![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/geomagdatadrawer) &#x3000;
 :page_with_curl: [Руководство](https://github.com/adslbarxatov/GeomagDataDrawer/blob/master/UserGuide.md) &#x3000;
 :tv: [Видеоруководство](https://youtube.com/playlist?list=PLe7qKwHNkZTuAATdj1asHQ6nUxlR9qUZO) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/geomagdatadrawer/releases/latest) &#x3000;
-![21](/img/DP.png) [На DPArray](dp://GeomagDataDrawer)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://GeomagDataDrawer)
 
 Автономный инструмент построения и оформления диаграмм данных на основе табличных данных
 
@@ -234,12 +253,11 @@
 
 ### Make decision
 :gb: :ru: &#x3000;
-![12](/img/And.png) ![15](/img/And5.png) &#x3000;
+<img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/makedecision) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=40Lvq0Q1we0) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) &#x3000;
 :iphone: [На GetApps](https://global.app.mi.com/details?id=makedecision.xiaomi) &#x3000;
-:iphone: [На AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C102653919?channelId=GitHub&id=9e294f4fc1f84e00af29183d5a706fd3&s=9380BD335AB35872FB993207DE1DD83650FABF7D6FF81F9AF4810E8C14BA254E&detailType=0&v=&callType=AGDLINK&installType=0000) &#x3000;
 :package: [В виде APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.apk)
 
 Программа иллюстрирует математический метод, позволяющий сравнивать некоторые объекты, явления или исходы
@@ -251,11 +269,11 @@
 
 ### Batch image convertor
 :gb: :ru: &#x3000;
-![11](/img/Win.png) ![1](/img/NF48.png) ![2](/img/VC.png) &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/batchimageconvertor) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=bejx-r1C6j0) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/batchimageconvertor/releases/latest) &#x3000;
-![21](/img/DP.png) [На DPArray](dp://BatchImageConvertor)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://BatchImageConvertor)
 
 Небольшой инструмент для автоматической обработки групп изображений
 
@@ -263,11 +281,11 @@
 
 ### Font finder
 :gb: :ru: &#x3000;
-![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/fontfinder) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=zK-6pfEMCbA) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/fontfinder/releases/latest) &#x3000;
-![21](/img/DP.png) [На DPArray](dp://FontFinder)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://FontFinder)
 
 Инструмент для поиска шрифта по его изображению
 
@@ -275,11 +293,11 @@
 
 ### ESHQ
 :gb: &#x3000;
-![11](/img/Win.png) ![2](/img/VC.png) &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [Полное описание](https://moddb.com/mods/eshq) &#x3000;
 :tv: [Демо видео](https://youtube.com/playlist?list=PLe7qKwHNkZTuYevg6QyszASeD7S1XgpG_) &#x3000;
-![21](/img/DP.png) [На DPArray](dp://ESHQ) &#x3000;
-![21](/img/DP.png) [Последнее обновление](dp://ESHQ_update)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ESHQ) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [Последнее обновление](dp://ESHQ_update)
 
 Мод для Half-Life 1 с собственной сюжетной линией (не из вселенной Half-Life). Неизвестный правительственный
 шпион должен выкрасть секретные файлы из здания, называемого «Evil scientists headquarters». Но его работа
@@ -290,7 +308,7 @@
 
 ### ES: Randomaze
 :gb: &#x3000;
-![11](/img/Win.png) ![1](/img/NF48.png) ![2](/img/VC.png) &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/randomaze) &#x3000;
 :earth_asia: [Материнский проект](https://moddb.com/mods/eshq) &#x3000;
 :film_projector: [Демо видео](https://youtube.com/watch?v=pUTJrnyPRm8)
@@ -302,7 +320,7 @@ ES: Randomaze – генератор карт для одноимённого с
 
 ### Xash3D for ESHQ
 :gb: &#x3000;
-![11](/img/Win.png) ![2](/img/VC.png) &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/xash3d-for-eshq)
 
 Адаптация движка Xash3D для мода ESHQ для Half-Life 1
@@ -311,10 +329,10 @@ ES: Randomaze – генератор карт для одноимённого с
 
 ### Crazy cheater’s mod
 :gb: &#x3000;
-![11](/img/Win.png) &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> &#x3000;
 :earth_africa: [Полное описание](https://moddb.com/mods/ccm) &#x3000;
 :film_projector: [Демо видео](https://youtube.com/watch?v=tpgKd91QYP4) &#x3000;
-![21](/img/DP.png) [На DPArray](dp://CCM)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://CCM)
 
 Модификация для GTA Vice City, сохраняющая оригинальный сюжет и геймплей, но исправляющая ряд известных проблем,
 а также расширяющая и без того большие возможности Томми Версетти. Здесь доступна короткая презентация вносимых
@@ -324,7 +342,7 @@ ES: Randomaze – генератор карт для одноимённого с
 
 ### Accounts manager
 :ru: &#x3000;
-![11](/img/Win.png) ![1](/img/NF48.png) ![3](/img/SQL.png) &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/SQL.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/accountsmanager)
 
 Инструмент управления бюджетными счетами. Программа предназначена для накопления, хранения, обработки и выдачи по запросу
@@ -334,12 +352,12 @@ ES: Randomaze – генератор карт для одноимённого с
 
 ### BExplorer
 :gb: :ru: &#x3000;
-![11](/img/Win.png) ![1](/img/NF48.png) ![2](/img/VC.png) &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/bexplorer) &#x3000;
 :film_projector: [Демо видео](https://youtube.com/watch?v=RdLt-dTz8vU) &#x3000;
 :page_with_curl: [Руководство](https://github.com/adslbarxatov/BExplorer/blob/master/UserManual.md) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/bexplorer/releases/latest) &#x3000;
-![21](/img/DP.png) [На DPArray](dp://BExplorer)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://BExplorer)
 
 API для работы с файлами сохранений GTA Vice City и приложение, реализующее часть функционала
 
@@ -347,10 +365,10 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### Make CST
 :gb: &#x3000;
-![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/makecst) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/makecst/releases/latest) &#x3000;
-![21](/img/DP.png) [На DPArray](dp://MakeCST)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://MakeCST)
 
 Инструмент преобразования моделей DFF и объектов QHullOFF в скрипты столкновений GTA
 
@@ -358,11 +376,11 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### OS macros executor
 :gb: :ru: &#x3000;
-![11](/img/Win.png) ![1](/img/NF48.png) ![2](/img/VC.png) &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/osmacrosexecutor) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=a9yjvx7Cy3M) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/osmacrosexecutor/releases/latest) &#x3000;
-![21](/img/DP.png) [На DPArray](dp://OSMacrosExecutor)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://OSMacrosExecutor)
 
 Инструмент автоматизации действий пользователя в операционной системе Windows
 
@@ -370,10 +388,10 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### File extensions manager
 :gb: :ru: &#x3000;
-![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/fileextensionsmanager) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/fileextensionsmanager/releases/latest) &#x3000;
-![21](/img/DP.png) [На DPArray](dp://FileExtensionsManager)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://FileExtensionsManager)
 
 Инструмент управления пользовательскими настройками расширений файлов в операционной системе Windows
 
@@ -381,10 +399,10 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### Keyboard switcher
 :gb: &#x3000;
-![11](/img/Win.png) ![2](/img/VC.png) &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/keyboardswitcher) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/keyboardswitcher/releases/latest) &#x3000;
-![21](/img/DP.png) [На DPArray](dp://KeyboardSwitcher)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KeyboardSwitcher)
 
 Инструмент быстрого исправления текста, введённого на неправильной раскладке клавиатуры (клавиатуры RU_ru
 и EN_us). Кроме того, позволяет преобразовывать HEX-данные в двоичные и обратно
@@ -393,10 +411,10 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### Screen shooter
 :gb: :ru: &#x3000;
-![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/screenshooter) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/screenshooter/releases/latest) &#x3000;
-![21](/img/DP.png) [На DPArray](dp://ScreenShooter)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ScreenShooter)
 
 Утилита для создания скриншотов. Поддерживает снимки экрана, окон и элементов приложений
 
@@ -404,10 +422,10 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### Dates difference
 :gb: :ru: &#x3000;
-![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/datesdifference) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/datesdifference/releases/latest) &#x3000;
-![21](/img/DP.png) [На DPArray](dp://DatesDifference)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://DatesDifference)
 
 Маленький инструмент, определяющий разницу между двумя датами в различных представлениях
 
@@ -415,10 +433,10 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### Sudoku solver
 :gb: :ru: &#x3000;
-![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/sudokusolver) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/sudokusolver/releases/latest) &#x3000;
-![21](/img/DP.png) [На DPArray](dp://SudokuSolver)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://SudokuSolver)
 
 Инструмент для решения судоку
 
@@ -426,10 +444,10 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### Tables merger
 :gb: :ru: &#x3000;
-![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/tablesmerger) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/tablesmerger/releases/latest) &#x3000;
-![21](/img/DP.png) [На DPArray](dp://TablesMerger)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://TablesMerger)
 
 Побочный продукт проекта Geomag data drawer. Этот инструмент выполняет «склеивание» таблиц данных
 с одинаковым и разным числом строк
@@ -438,10 +456,10 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### Vector image generator
 :gb: :ru: &#x3000;
-![11](/img/Win.png) ![1](/img/NF48.png) &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/vectorimagegenerator) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/vectorimagegenerator/releases/latest) &#x3000;
-![21](/img/DP.png) [На DPArray](dp://VectorImageGenerator)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://VectorImageGenerator)
 
 Побочный продукт проекта Geomag data drawer. Этот инструмент выполняет генерацию векторных
 изображений с помощью сценариев
@@ -452,7 +470,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### FullSilence, CodeShow
 :gb: :ru: &#x3000;
-![11](/img/Win.png) :no_entry_sign: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> :no_entry_sign: &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/fullsilence) &#x3000;
 :tv: [FullSilence live](https://youtube.com/playlist?list=PLe7qKwHNkZTsreIEQFedftXv3iQG-5LOA) &#x3000;
 :tv: [CodeShow live](https://youtube.com/playlist?list=PLe7qKwHNkZTuZiVfiX1EhD4G7EPcReaA5)
@@ -465,9 +483,9 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### Counter-strike 1.6 maps
 :gb: &#x3000;
-![11](/img/Win.png) :no_entry_sign: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> :no_entry_sign: &#x3000;
 :earth_africa: [Полное описание](https://moddb.com/games/counter-strike/addons/rdaaow-counter-strike-16-maps) &#x3000;
-![21](/img/DP.png) [На DPArray](dp://CSMaps)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://CSMaps)
 
 Наши первые карты, выполненные в Hammer editor. Не уверены насчёт баланса, но локации вполне играбельные
 
@@ -475,9 +493,9 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### Races
 :ru: &#x3000;
-![11](/img/Win.png) ![4](/img/NF60.png) ![5](/img/DX.png) :no_entry_sign: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> :no_entry_sign: &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/races) &#x3000;
-![21](/img/DP.png) [На DPArray](dp://Races)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Races)
 
 «Гонки» – классическая игра для Тетриса. Из учебного набора игр для MonoGame Framework
 
@@ -485,9 +503,9 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### Snake
 :ru: &#x3000;
-![11](/img/Win.png) ![4](/img/NF60.png) ![5](/img/DX.png) :no_entry_sign: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> :no_entry_sign: &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/snake) &#x3000;
-![21](/img/DP.png) [На DPArray](dp://Snake)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Snake)
 
 «Змейка» – классическая игра для Тетриса. Из учебного набора игр для MonoGame Framework
 
@@ -495,9 +513,9 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### Turtle
 :ru: &#x3000;
-![11](/img/Win.png) ![4](/img/NF60.png) ![5](/img/DX.png) :no_entry_sign: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> :no_entry_sign: &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/turtle) &#x3000;
-![21](/img/DP.png) [На DPArray](dp://Turtle)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Turtle)
 
 «Черепашка» – классическая игра для Тетриса. Из учебного набора игр для MonoGame Framework
 
@@ -505,7 +523,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### GIATester
 :ru: &#x3000;
-![11](/img/Win.png) ![1](/img/NF48.png) :no_entry_sign: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> :no_entry_sign: &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/giatester)
 
 Инструмент для автоматизированной подготовки, проведения и оценки тестовых заданий (ГИА/ЕГЭ)
