@@ -1,10 +1,10 @@
-# Welcome to laboratory!
+# Laboratory: contacts
 
-# :gb: Contacts
+# :gb: Our contacts
 
 You can find us using set of popular platforms listed below (supported languages are also indicated):
 
-# :ru: Контакты
+# :ru: Наши контакты
 
 Вы можете найти нас, используя перечень популярных платформ, перечисленных ниже (вместе с поддерживаемыми языками):
 

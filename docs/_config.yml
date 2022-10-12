@@ -1,6 +1,5 @@
-# theme: jekyll-theme-cayman
 markdown: GFM
-theme: minima
+theme: slate
 plugins:
   - jemoji
   - jekyll-seo-tag
