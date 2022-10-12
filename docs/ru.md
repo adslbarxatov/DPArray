@@ -62,7 +62,7 @@
 Если какой-либо продукт не работает или работает неправильно, проверьте этот список требований.
 
 - Для приложений и продуктов, работающих в ОС Windows (![11](/img/Win.png)):
-    - ![[/img/NF48.png|width=25%]] [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631)
+    - <img src="/img/NF48.png" width=25%> ![1](/img/NF48.png) [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631)
     - ![2](/img/VC.png) [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
     - ![3](/img/SQL.png) [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709)
     - ![4](/img/NF60.png) [Microsoft .NET Framework 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.9-windows-x86-installer)
