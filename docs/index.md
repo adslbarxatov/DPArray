@@ -2,7 +2,9 @@
 
 [**DPArray ● Direct download link**](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.sfx.exe)
 
-#
+&nbsp;
+
+
 
 ### Page contents
 
@@ -10,7 +12,7 @@
 - [Contacts](https://adslbarxatov.github.io/DPArray/contacts)
 - [Actual projects and developments](#actual-projects-and-developments)
 - [Links cloud](#links-cloud)
-- [Русская версия :ru:](https://adslbarxatov.github.io/DPArray/ru)
+- [Русская версия](https://adslbarxatov.github.io/DPArray/ru)
 
 &nbsp;
 
@@ -48,37 +50,61 @@ and objectives of the laboratory
 
 
 
-#
-
 ## Actual projects and developments
 
 Current laboratory’s projects are described below.
-Description contains all the necessary links (:earth_africa:) as well as project releases (:iphone: and / or :package:).
-For each, a set of available interface languages is indicated (:gb: and / or :ru:).
-It also includes video (:film_projector:), presentation playlists (:tv:) and other guides (:page_with_curl:) for software products.
+Descriptions contain:
+
+:earth_africa: all the necessary links;
+
+:iphone: :package: :envelope_with_arrow: projects releases;
+
+:gb: :ru: set of available interface languages;
+
+:film_projector: videomanuals;
+
+:tv: presentation playlists;
+
+:page_with_curl: other guides.
+
 The :no_entry_sign: marks projects that are no longer supported.
 
 A complete list of software products is available [here](https://github.com/adslbarxatov?tab=repositories).
 A general list of mods is available [here](https://moddb.com/members/rd-aaow-fdl/mods)
 
+&nbsp;
+
+
+
 ### Dependencies of app products
 
 If any product doesn’t work or doesn’t start correctly, check this list of requirements.
 
-- For apps and products running on Windows (![11](/img/Win.png)):
-    - ![1](/img/NF48.png) [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631)
-    - ![2](/img/VC.png) [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
-    - ![3](/img/SQL.png) [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709)
-    - ![4](/img/NF60.png) [Microsoft .NET Framework 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.9-windows-x86-installer)
-    - ![5](/img/DX.png) [Microsoft DirectX 9 updates](https://microsoft.com/en-us/download/confirmation.aspx?id=35)
-- For applications and products running on Android (![12](/img/And.png)):
-    - ![14](/img/And4.png) Android 4.2 or newer
-    - ![15](/img/And5.png) Android 5.0 or newer
-    - ![16](/img/And6.png) Android 6.0 or newer
+For apps and products running on Windows (![11](/img/Win.png)):
+
+![1](/img/NF48.png) [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631)
+
+![2](/img/VC.png) [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
+
+![3](/img/SQL.png) [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709)
+
+![4](/img/NF60.png) [Microsoft .NET Framework 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.9-windows-x86-installer)
+
+![5](/img/DX.png) [Microsoft DirectX 9 updates](https://microsoft.com/en-us/download/confirmation.aspx?id=35)
+
+For applications and products running on Android (![12](/img/And.png)):
+
+![14](/img/And4.png) Android 4.2 or newer
+
+![15](/img/And5.png) Android 5.0 or newer
+
+![16](/img/And6.png) Android 6.0 or newer
 
 &nbsp;
 
-#
+---
+
+&nbsp;
 
 ### DPArray
 :gb: :ru: &#x3000;
@@ -390,7 +416,9 @@ Byproduct of Geomag data drawer project. This tool performs generation of vector
 
 &nbsp;
 
-#
+---
+
+&nbsp;
 
 ### FullSilence, CodeShow
 :gb: :ru: &#x3000;
