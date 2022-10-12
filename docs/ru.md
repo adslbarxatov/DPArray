@@ -2,7 +2,9 @@
 
 [**DPArray ● Прямая ссылка для загрузки**](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.sfx.exe)
 
-#
+&nbsp;
+
+
 
 ### Содержание страницы
 
@@ -53,7 +55,7 @@
 
 :earth_africa: все необходимые ссылки;
 
-:iphone: :package: релизы проектов;
+:iphone: :package: :envelope_with_arrow: релизы проектов;
 
 :gb: :ru: набор доступных языков интерфейса;
 
@@ -67,6 +69,10 @@
 
 Полный список программных продуктов доступен [здесь](https://github.com/adslbarxatov?tab=repositories).
 Общий список модов доступен [здесь](https://moddb.com/members/rd-aaow-fdl/mods)
+
+&nbsp;
+
+
 
 ### Зависимости программных продуктов
 
@@ -94,7 +100,7 @@
 
 &nbsp;
 
-#
+
 
 ### DPArray
 :gb: :ru: &#x3000;
@@ -466,7 +472,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 &nbsp;
 
-#
+---
 
 ### FullSilence, CodeShow
 :gb: :ru: &#x3000;
