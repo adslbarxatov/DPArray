@@ -12,7 +12,7 @@
 - [Контакты](https://adslbarxatov.github.io/DPArray/contacts)
 - [Актуальные проекты и разработки](#section-4)
 - [Облако ссылок](#section-6)
-- [English version :gb:](https://adslbarxatov.github.io/DPArray)
+- [English version](https://adslbarxatov.github.io/DPArray)
 
 &nbsp;
 
@@ -100,7 +100,9 @@
 
 &nbsp;
 
+---
 
+&nbsp;
 
 ### DPArray
 :gb: :ru: &#x3000;
@@ -473,6 +475,8 @@ API для работы с файлами сохранений GTA Vice City и 
 &nbsp;
 
 ---
+
+&nbsp;
 
 ### FullSilence, CodeShow
 :gb: :ru: &#x3000;
