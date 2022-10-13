@@ -450,30 +450,6 @@ API для работы с файлами сохранений GTA Vice City и 
 
 &nbsp;
 
-### Tables merger
-:gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/tablesmerger) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/tablesmerger/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://TablesMerger)
-
-Побочный продукт проекта Geomag data drawer. Этот инструмент выполняет «склеивание» таблиц данных
-с одинаковым и разным числом строк
-
-&nbsp;
-
-### Vector image generator
-:gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/vectorimagegenerator) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/vectorimagegenerator/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://VectorImageGenerator)
-
-Побочный продукт проекта Geomag data drawer. Этот инструмент выполняет генерацию векторных
-изображений с помощью сценариев
-
-&nbsp;
-
 ---
 
 &nbsp;
@@ -528,6 +504,26 @@ API для работы с файлами сохранений GTA Vice City и 
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Turtle)
 
 «Черепашка» – классическая игра для Тетриса. Из учебного набора игр для MonoGame Framework
+
+&nbsp;
+
+### Tables merger
+:gb: :ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> :no_entry_sign: &#x3000;
+:earth_africa: [О продукте](https://github.com/adslbarxatov/tablesmerger)
+
+Инструмент был побочным продуктом проекта Geomag data drawer. Он выполнял «склеивание» таблиц данных
+с одинаковым и разным числом строк. Теперь он является частью [Geomag data drawer](#geomag-data-drawer)
+
+&nbsp;
+
+### Vector image generator
+:gb: :ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> :no_entry_sign: &#x3000;
+:earth_africa: [О продукте](https://github.com/adslbarxatov/vectorimagegenerator)
+
+Инструмент был побочным продуктом проекта Geomag data drawer. Он выполнял генерацию векторных
+изображений с помощью скриптов. Теперь он является частью [Geomag data drawer](#geomag-data-drawer)
 
 &nbsp;
 

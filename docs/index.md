@@ -391,29 +391,6 @@ A tool for solving sudoku
 
 &nbsp;
 
-### Tables merger
-:gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/tablesmerger) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/tablesmerger/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://TablesMerger)
-
-Byproduct of Geomag data drawer project. This tool performs “gluing” of data tables with equal
-and different rows quantities
-
-&nbsp;
-
-### Vector image generator
-:gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/vectorimagegenerator) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/vectorimagegenerator/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://VectorImageGenerator)
-
-Byproduct of Geomag data drawer project. This tool performs generation of vector images using text scripts
-
-&nbsp;
-
 ---
 
 &nbsp;
@@ -468,6 +445,26 @@ Our first maps done in the Hammer editor. Not sure about the balance, but locati
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://Turtle)
 
 “Turtle”, the classic Tetris game. It is the sample project for MonoGame Framework
+
+&nbsp;
+
+### Tables merger
+:gb: :ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> :no_entry_sign: &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/tablesmerger)
+
+This tool was the byproduct of Geomag data drawer project. It performs “gluing” of data tables with equal
+and different rows quantities. Now it is a part of [Geomag data drawer](#geomag-data-drawer)
+
+&nbsp;
+
+### Vector image generator
+:gb: :ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> :no_entry_sign: &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/vectorimagegenerator)
+
+This tool was the byproduct of Geomag data drawer project. It performs generation of vector images using text scripts.
+Now it is a part of [Geomag data drawer](#geomag-data-drawer)
 
 &nbsp;
 
