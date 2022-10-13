@@ -10,9 +10,9 @@ ConcurrentDraw				3.0.2	DEFSTORAGE/ConcurrentDraw.dp				ConcurrentDraw.dp			0x00
 Dates difference			3.0.2	DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x00032DD6	0
 File extensions manager		2.1		DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x00056C21	0
 Font finder					3.0.2	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x0004A3DD	0
-Geomag data drawer			5.0		DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x0012CEB4	1
+Geomag data drawer			5.1		DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x001418A3	1
 Keyboard switcher			1.5		DEFSTORAGE/KeyboardSwitcher.dp				KeyboardSwitcher.dp			0x0002BE43	1
-Make CST					2.0		DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x00012BC6	0
+Make CST					2.0.2	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000147BF	0
 OS macros executor			3.0		DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x0005DB65	1
 Screen shooter				2.0		DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x000351D0	0
 Sudoku solver				3.0		DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x000309B4	0
