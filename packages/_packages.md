@@ -14,8 +14,8 @@ Geomag data drawer			5.1		DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp	
 Keyboard switcher			1.5		DEFSTORAGE/KeyboardSwitcher.dp				KeyboardSwitcher.dp			0x0002BE43	1
 Make CST					2.0.2	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000147BF	0
 OS macros executor			3.0		DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x0005DB65	1
-Screen shooter				2.0		DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x000351D0	0
-Sudoku solver				3.0		DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x000309B4	0
+Screen shooter				2.0.2	DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x00035DC1	0
+Sudoku solver				3.1		DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x0003159B	0
 Text to KKT					9.6.7	DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x0011FA5C	1
 uNot						5.2		DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x00047DBB	0
 
