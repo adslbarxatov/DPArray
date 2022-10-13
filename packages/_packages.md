@@ -16,10 +16,8 @@ Make CST					2.0.2	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000147BF	0
 OS macros executor			3.0		DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x0005DB65	1
 Screen shooter				2.0		DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x000351D0	0
 Sudoku solver				3.0		DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x000309B4	0
-Tables merger				2.0		DEFSTORAGE/TablesMerger.dp					TablesMerger.dp				0x00061BCD	0
 Text to KKT					9.6.7	DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x0011FA5C	1
 uNot						5.2		DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x00047DBB	0
-Vector image generator		2.0		DEFSTORAGE/VectorImageGenerator.dp			VectorImageGenerator.dp		0x0003DA3B	0
 
 #Mods
 ESHQ							12.4	MODSTORAGE/234416?MOD_REFmods%2Feshq		ESHQ.7z					222674964	3
