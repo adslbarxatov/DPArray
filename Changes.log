@@ -1,5 +1,9 @@
 ﻿DPArray: changes log
 
+Version 5.2:
+• Packages versions older than 13 (.dp0) are now out of support;
+• Removed some obsolete code
+
 Version 5.1:
 • XPR control has been implemented;
 • Adjusted the control of single active copy

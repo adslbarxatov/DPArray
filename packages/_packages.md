@@ -1,14 +1,14 @@
 ```
 Packages, available for download:
 
-DPArray						5.1		DEFSTORAGE/DPArray.dp						DPArray.dp					0x000AE454	1
+DPArray						5.2		DEFSTORAGE/DPArray.dp						DPArray.dp					0x000AE45C	1
 
 #Apps
 Batch image convertor		3.0.2	DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x0005AD7C	1
 BExplorer					3.0.2	DEFSTORAGE/BExplorer.dp						BExplorer.dp				0x0016F35C	1
 ConcurrentDraw				3.0.2	DEFSTORAGE/ConcurrentDraw.dp				ConcurrentDraw.dp			0x000A00B0	1
 Dates difference			3.0.2	DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x00032DD6	0
-File extensions manager		2.1		DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x00056C21	0
+File extensions manager		2.1.2	DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x00056C23	0
 Font finder					3.0.2	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x0004A3DD	0
 Geomag data drawer			5.1		DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x001418A3	1
 Keyboard switcher			1.5		DEFSTORAGE/KeyboardSwitcher.dp				KeyboardSwitcher.dp			0x0002BE43	1
@@ -17,7 +17,7 @@ OS macros executor			3.0.2	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp
 Screen shooter				2.0.2	DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x00035DC1	0
 Sudoku solver				3.1		DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x0003159B	0
 Text to KKT					9.6.7	DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x0011FA5C	1
-uNot						5.2		DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x00047DBB	0
+uNot						5.3		DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000493AA	0
 
 #Mods
 ESHQ							12.4	MODSTORAGE/234416?MOD_REFmods%2Feshq		ESHQ.7z					222674964	3

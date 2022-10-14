@@ -1,13 +1,6 @@
-_Changes for v 5.1_:
+_Changes for v 5.2_:
+- Packages versions older than 13 (`.dp0`) are now out of support;
+- Removed some obsolete code;
 - XPR control has been implemented;
 - Adjusted the control of single active copy;
-- Updated the descriptions link;
-- Fixed bug with processing of long packages sets;
-- Adjusted the initialization of deployment flags;
-- Adjusted the requirements control;
-- Updates the user manual link;
-- DPArray is now the main deployment tool:
-    - DPModule will perform self-replacement with the new app;
-    - DPArray 5.0 is almost an equivalent of DPModule 14.0.5;
-    - All DPModule settings will be used and saved by DPArray;
-- Deployed app will now start only after the exit from the DPArray
+- Updated the descriptions link
