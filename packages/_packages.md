@@ -24,9 +24,7 @@ ESHQ							12.4	MODSTORAGE/234416?MOD_REFmods%2Feshq		ESHQ.7z					222674964	3
 ESHQ, actual update				12.7b	MODSTORAGE/238642?MOD_REFmods%2Feshq		ESHQ_update.7z			48005813		1
 ES:Randomaze					3.7		MODSTORAGE/236625?MOD_REFmods%2Feshq		ESRM.7z					10233824		3
 Crazy cheater’s mod				1.2d	MODSTORAGE/220117?MOD_REFmods%2Fccm			CCM.7z					165320673	2
-Counter-strike 1.6 maps			1.0d	https://moddb.com/addons/start/193826?MOD_REF	CSMaps.7z			28781237	2
 ESHQ, backward compatibility    12.4	MODSTORAGE/234414?MOD_REFmods%2Feshq		ESHQ_backward.7z		83018595	2
-ESHQ, russian localization      12		MODSTORAGE/222522?MOD_REFmods%2Feshq		ESHQ_x_ru.7z			595342		2
 
 #Games
 Races						2.0			DEFSTORAGE/Races.7z						Races.7z					14557158	1

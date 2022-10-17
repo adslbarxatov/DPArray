@@ -408,16 +408,6 @@ Code fragments used in video projects of the same names in text visualization.
 
 &nbsp;
 
-### Counter-strike 1.6 maps
-:gb: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> :no_entry_sign: &#x3000;
-:earth_africa: [Summary](https://moddb.com/games/counter-strike/addons/rdaaow-counter-strike-16-maps) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://CSMaps)
-
-Our first maps done in the Hammer editor. Not sure about the balance, but locations are quite playable
-
-&nbsp;
-
 ### Races
 :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> :no_entry_sign: &#x3000;
@@ -477,7 +467,6 @@ Now it is a part of [Geomag data drawer](#geomag-data-drawer)
 [BExplorer](#bexplorer) &#x3000;
 [CodeShow](#fullsilence-codeshow) &#x3000;
 [ConcurrentDraw](#concurrentdraw) &#x3000;
-[Counter-strike 1.6 maps](#counter-strike-16-maps) &#x3000;
 [Crazy cheater’s mod](#crazy-cheaters-mod) &#x3000;
 [Dates difference](#dates-difference) &#x3000;
 [**DPArray**](#dparray) &#x3000;

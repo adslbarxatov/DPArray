@@ -467,16 +467,6 @@ API для работы с файлами сохранений GTA Vice City и 
 
 &nbsp;
 
-### Counter-strike 1.6 maps
-:gb: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> :no_entry_sign: &#x3000;
-:earth_africa: [Полное описание](https://moddb.com/games/counter-strike/addons/rdaaow-counter-strike-16-maps) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://CSMaps)
-
-Наши первые карты, выполненные в Hammer editor. Не уверены насчёт баланса, но локации вполне играбельные
-
-&nbsp;
-
 ### Races
 :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> :no_entry_sign: &#x3000;
@@ -545,7 +535,6 @@ API для работы с файлами сохранений GTA Vice City и 
 [BExplorer](#bexplorer) &#x3000;
 [CodeShow](#fullsilence-codeshow) &#x3000;
 [ConcurrentDraw](#concurrentdraw) &#x3000;
-[Counter-strike 1.6 maps](#counter-strike-16-maps) &#x3000;
 [Crazy cheater’s mod](#crazy-cheaters-mod) &#x3000;
 [Dates difference](#dates-difference) &#x3000;
 [**DPArray**](#dparray) &#x3000;
