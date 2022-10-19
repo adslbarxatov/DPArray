@@ -21,8 +21,8 @@ uNot						5.3		DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000493AA	0
 
 #Mods
 ESHQ							12.4	MODSTORAGE/234416?MOD_REFmods%2Feshq		ESHQ.7z					222674964	3
-ESHQ, actual update				12.7b	MODSTORAGE/238642?MOD_REFmods%2Feshq		ESHQ_update.7z			48005813		1
-ES:Randomaze					3.7		MODSTORAGE/236625?MOD_REFmods%2Feshq		ESRM.7z					10233824		3
+ESHQ, actual update				12.8	MODSTORAGE/239904?MOD_REFmods%2Feshq		ESHQ_update.7z			50624070	0
+ES:Randomaze					3.8		MODSTORAGE/236625?MOD_REFmods%2Feshq		ESRM.7z					195538		2
 Crazy cheater’s mod				1.2d	MODSTORAGE/220117?MOD_REFmods%2Fccm			CCM.7z					165320673	2
 ESHQ, backward compatibility    12.4	MODSTORAGE/234414?MOD_REFmods%2Feshq		ESHQ_backward.7z		83018595	2
 
