@@ -326,12 +326,12 @@ ES: Randomaze – генератор карт для одноимённого с
 
 &nbsp;
 
-### Xash3D for ESHQ
+### Xash3D FWGS Engine adaptation for ESHQ
 :gb: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/xash3d-for-eshq)
+:earth_africa: [О продукте](https://github.com/adslbarxatov/Xash3d-FWGS-for-ESHQ)
 
-Адаптация движка Xash3D для мода ESHQ для Half-Life 1
+Адаптация движка [Xash3d FWGS](https://github.com/FWGS/xash3d-fwgs) для мода ESHQ для Half-Life 1
 
 &nbsp;
 

@@ -277,12 +277,12 @@ This tool is the part of the ESHQ mod for Half-Life part 1
 
 &nbsp;
 
-### Xash3D for ESHQ
+### Xash3D FWGS Engine adaptation for ESHQ
 :gb: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/xash3d-for-eshq)
+:earth_africa: [About](https://github.com/adslbarxatov/Xash3d-FWGS-for-ESHQ)
 
-An adaptation of Xash3D engine for ESHQ mod for Half-Life 1
+An adaptation of [Xash3d FWGS engine](https://github.com/FWGS/xash3d-fwgs) for ESHQ mod for Half-Life 1
 
 &nbsp;
 
