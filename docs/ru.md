@@ -561,4 +561,4 @@ API для работы с файлами сохранений GTA Vice City и 
 [uNot (UniNotifier)](#unot-uninotifier) &#x3000;
 [Upsilon one](#upsilon-one) &#x3000;
 [Vector image generator](#vector-image-generator) &#x3000;
-[Xash3D for ESHQ](#xash3d-for-eshq)
+[Xash3D FWGS for ESHQ](#xash3d-fwgs-engine-adaptation-for-eshq)
