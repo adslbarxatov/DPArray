@@ -20,11 +20,11 @@ Text to KKT					9.6.7	DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x0011FA5C	1
 uNot						5.3		DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000493AA	0
 
 #Mods
-ESHQ							13.0    MODSTORAGE/xxxxxx?MOD_REFmods%2Feshq		ESHQ.7z					230251732	3
-ESHQ, actual update				13.0a   MODSTORAGE/xxxxxx?MOD_REFmods%2Feshq		ESHQ_update.7z			222119		0
+ESHQ							13.0	MODSTORAGE/240086?MOD_REFmods%2Feshq		ESHQ.7z					230251732	3
+ESHQ, actual update				13.0a	MODSTORAGE/240087?MOD_REFmods%2Feshq		ESHQ_update.7z			222119		0
 ES:Randomaze					3.8		MODSTORAGE/236625?MOD_REFmods%2Feshq		ESRM.7z					195538		2
 Crazy cheater’s mod				1.3		MODSTORAGE/240088?MOD_REFmods%2Fccm			GTAViceCity.7z			165319082	2
-ESHQ, backward compatibility	13.0    MODSTORAGE/xxxxxx?MOD_REFmods%2Feshq		ESHQ_backward.7z		59848593	2
+ESHQ, backward compatibility	13.0	MODSTORAGE/240085?MOD_REFmods%2Feshq		ESHQ_backward.7z		59848593	2
 
 #Games
 Races						2.0			DEFSTORAGE/Races.7z						Races.7z					14557158	1
