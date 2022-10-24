@@ -1,7 +1,7 @@
 ```
 Packages, available for download:
 
-DPArray						5.2		DEFSTORAGE/DPArray.dp						DPArray.dp					0x000AE45C	1
+DPArray						5.2		DEFSTORAGE/DPArray.dp						DPArray.dp					0x000AE45C	0
 
 #Apps
 Batch image convertor		3.0.2	DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x0005AD7C	1
@@ -20,11 +20,11 @@ Text to KKT					9.6.7	DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x0011FA5C	1
 uNot						5.3		DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000493AA	0
 
 #Mods
-ESHQ							12.4	MODSTORAGE/234416?MOD_REFmods%2Feshq		ESHQ.7z					222674964	3
-ESHQ, actual update				12.8	MODSTORAGE/239904?MOD_REFmods%2Feshq		ESHQ_update.7z			50624070	0
+ESHQ							13.0    MODSTORAGE/xxxxxx?MOD_REFmods%2Feshq		ESHQ.7z					230251732	3
+ESHQ, actual update				13.0a   MODSTORAGE/xxxxxx?MOD_REFmods%2Feshq		ESHQ_update.7z			222119		0
 ES:Randomaze					3.8		MODSTORAGE/236625?MOD_REFmods%2Feshq		ESRM.7z					195538		2
 Crazy cheater’s mod				1.2d	MODSTORAGE/220117?MOD_REFmods%2Fccm			CCM.7z					165320673	2
-ESHQ, backward compatibility    12.4	MODSTORAGE/234414?MOD_REFmods%2Feshq		ESHQ_backward.7z		83018595	2
+ESHQ, backward compatibility	13.0    MODSTORAGE/xxxxxx?MOD_REFmods%2Feshq		ESHQ_backward.7z		59848593	2
 
 #Games
 Races						2.0			DEFSTORAGE/Races.7z						Races.7z					14557158	1
