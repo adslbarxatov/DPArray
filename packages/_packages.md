@@ -16,7 +16,7 @@ Make CST					2.0.2	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000147BF	0
 OS macros executor			3.0.2	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x0005E74E	1
 Screen shooter				2.0.2	DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x00035DC1	0
 Sudoku solver				3.1		DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x0003159B	0
-Text to KKT					9.6.7	DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x0011FA5C	1
+Text to KKT					9.6.9	DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x0011FC54	1
 uNot						5.3		DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000493AA	0
 
 #Mods
