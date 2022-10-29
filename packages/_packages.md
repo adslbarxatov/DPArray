@@ -16,7 +16,7 @@ Make CST					2.0.2	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000147BF	0
 OS macros executor			3.0.2	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x0005E74E	1
 Screen shooter				2.0.2	DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x00035DC1	0
 Sudoku solver				3.1		DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x0003159B	0
-Text to KKT					9.6.9	DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x0011FC54	1
+Text to KKT					9.7		DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x0011FC52	1
 uNot						5.3		DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000493AA	0
 
 #Mods
@@ -34,7 +34,7 @@ Turtle						2.0			DEFSTORAGE/Turtle.7z					Turtle.7z					14708666	1
 #Android apps
 Make decision for Android	2.14.2		GIT_LINK/MakeDecision/releases/latest/download/MakeDecision.apk			MakeDecision.apk	31806592	3
 PA detector for Android		2.10.2		GIT_LINK/EnchantIt/releases/latest/download/PADetector.apk				PADetector.apk		39256460	3
-Text to KKT for Android		9.6.7		GIT_LINK/TextToKKT/releases/latest/download/TextToKKT_KitKat.apk		TextToKKT.apk		32518266	3
+Text to KKT for Android		9.7			GIT_LINK/TextToKKT/releases/latest/download/TextToKKT_KitKat.apk		TextToKKT.apk		33489501	3
 uNot for Android			5.2			GIT_LINK/UniNotifier/releases/latest/download/UniNotifier.apk			UniNotifier.apk		32302543	3
 
 
