@@ -226,23 +226,23 @@
 
 &nbsp;
 
-### Text to KKT
+### KassArray
 :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And4.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/texttokkt) &#x3000;
-:film_projector: [Видеоруководство](https://youtube.com/watch?v=akcWsDnyWcQ) &#x3000;
-:page_with_curl: [Руководство по FNReader](https://github.com/adslbarxatov/TextToKKT/blob/master/FNReader.md) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/texttokkt/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://TextToKKT) &#x3000;
+:earth_africa: [О продукте](https://github.com/adslbarxatov/kassarray) &#x3000;
+:film_projector: [Видеоруководство](https://youtube.com/watch?v=m14E3O72yU0) &#x3000;
+:page_with_curl: [Работа с ФН](https://github.com/adslbarxatov/KassArray/blob/master/FN.md) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/kassarray/releases/latest) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KassArray) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT) &#x3000;
 :iphone: [На GetApps](https://global.app.mi.com/details?id=texttokkt.xiaomi) &#x3000;
 :iphone: [На AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C102663035?channelId=GitHub&id=f4e62031e4b84ebb937a8b75c08fc543&s=E90E5D1DB649783589F6F3EA42475CFECAABFFF996E407E61BACB2268DB9867C&detailType=0&v=&callType=AGDLINK&installType=0000) &#x3000;
-:package: [В виде APK](https://github.com/adslbarxatov/TextToKKT/releases/latest/download/TextToKKT_KitKat.apk)
+:package: [В виде APK](https://github.com/adslbarxatov/KassArray/releases/latest/download/KassArray_KitKat.apk)
 
-Утилита сервис-инженера контрольно-кассовой техники. Первый проект лаборатории, доступный одновременно
-на платформах Windows и Android (Google play и AppGallery). С недавнего времени FNReader, модуль чтения
-и анализа данных фискального накопителя (54-ФЗ) входит в состав TextToKKT
+Инструмент сервис-инженера контрольно-кассовой техники. Первый проект лаборатории, доступный одновременно
+на платформах Windows и Android (Google play и AppGallery). Реализует справочный функционал, а также обеспечивает
+чтение и обработку данных фискальных накопителей
 
 &nbsp;
 
@@ -546,6 +546,7 @@ API для работы с файлами сохранений GTA Vice City и 
 [Geomag data drawer](#geomag-data-drawer) &#x3000;
 [GIA tester](#giatester) &#x3000;
 [Grammar must joy](#grammar-must-joy) &#x3000;
+[KassArray](#kassarray) &#x3000;
 [Keyboard switcher](#keyboard-switcher) &#x3000;
 [Make CST](#make-cst) &#x3000;
 [Make decision](#make-decision) &#x3000;
@@ -555,7 +556,6 @@ API для работы с файлами сохранений GTA Vice City и 
 [Screen shooter](#screen-shooter) &#x3000;
 [Snake](#snake) &#x3000;
 [Sudoku solver](#sudoku-solver) &#x3000;
-[Text to KKT](#text-to-kkt) &#x3000;
 [Turtle](#turtle) &#x3000;
 [Tables merger](#tables-merger) &#x3000;
 [uNot (UniNotifier)](#unot-uninotifier) &#x3000;

@@ -478,6 +478,7 @@ Now it is a part of [Geomag data drawer](#geomag-data-drawer)
 [Geomag data drawer](#geomag-data-drawer) &#x3000;
 [GIA tester](https://adslbarxatov.github.io/DPArray/ru#giatester) &#x3000;
 [Grammar must joy](https://adslbarxatov.github.io/DPArray/ru#grammar-must-joy) &#x3000;
+[KassArray](https://adslbarxatov.github.io/DPArray/ru#kassarray) &#x3000;
 [Keyboard switcher](#keyboard-switcher) &#x3000;
 [Make CST](#make-cst) &#x3000;
 [Make decision](#make-decision) &#x3000;
@@ -487,7 +488,6 @@ Now it is a part of [Geomag data drawer](#geomag-data-drawer)
 [Screen shooter](#screen-shooter) &#x3000;
 [Snake](#snake) &#x3000;
 [Sudoku solver](#sudoku-solver) &#x3000;
-[Text to KKT](https://adslbarxatov.github.io/DPArray/ru#text-to-kkt) &#x3000;
 [Turtle](#turtle) &#x3000;
 [Tables merger](#tables-merger) &#x3000;
 [uNot (UniNotifier)](#unot-uninotifier) &#x3000;
