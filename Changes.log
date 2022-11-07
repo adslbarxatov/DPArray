@@ -1,5 +1,8 @@
 ﻿DPArray: changes log
 
+Version 5.2.9:
+• Fixed the inability to close active apps during their uninstallation
+
 Version 5.2.5:
 • Added the “Check / uncheck all” buttons. They allow you to check or uncheck all visible
   items in the table of packages. Items hidden by filters will save their state
