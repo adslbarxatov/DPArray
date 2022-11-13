@@ -269,11 +269,11 @@ for those who have not yet had time to try it live
 :gb: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/randomaze) &#x3000;
-:earth_asia: [Parent project](https://moddb.com/mods/eshq) &#x3000;
-:film_projector: [Video demo](https://youtube.com/watch?v=pUTJrnyPRm8)
+:earth_asia: [Parent project](https://moddb.com/mods/esrm) &#x3000;
+:film_projector: [Video demo](https://youtube.com/watch?v=M9VqCIH6OUo)
 
-ES: Randomaze is the maps generator for the sub-mod with the same name.
-This tool is the part of the ESHQ mod for Half-Life part 1
+ES: Randomaze is the maps generator for the mod with the same name.
+This tool was the part of the ESHQ mod for Half-Life part 1. Now it is a stand-alone project
 
 &nbsp;
 

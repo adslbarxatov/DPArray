@@ -318,11 +318,11 @@
 :gb: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/randomaze) &#x3000;
-:earth_asia: [Материнский проект](https://moddb.com/mods/eshq) &#x3000;
-:film_projector: [Демо видео](https://youtube.com/watch?v=pUTJrnyPRm8)
+:earth_asia: [Материнский проект](https://moddb.com/mods/esrm) &#x3000;
+:film_projector: [Демо видео](https://youtube.com/watch?v=M9VqCIH6OUo)
 
-ES: Randomaze – генератор карт для одноимённого субмода.
-Инструмент является частью мода ESHQ для Half-Life часть 1
+ES: Randomaze – генератор карт для одноимённого мода.
+Инструмент являлся частью мода ESHQ для Half-Life часть 1. Теперь это самостоятельный проект
 
 &nbsp;
 
