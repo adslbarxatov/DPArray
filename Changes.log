@@ -1,5 +1,9 @@
 ﻿DPArray: changes log
 
+Version 5.2.11:
+• Fixed the inability to autostart (if specified) the product after the deployment
+  in the fast mode
+
 Version 5.2.9:
 • Fixed the inability to close active apps during their uninstallation
 
