@@ -1,5 +1,8 @@
 ﻿DPArray: changes log
 
+Version 5.2.12:
+• Updated links for other lab projects
+
 Version 5.2.11:
 • Fixed the inability to autostart (if specified) the product after the deployment
   in the fast mode
