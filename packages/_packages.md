@@ -11,7 +11,7 @@ Dates difference			3.0.2	DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0
 File extensions manager		2.1.2	DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x00056C23	0
 Font finder					3.0.2	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x0004A3DD	0
 Geomag data drawer			5.2		DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x001424B0	1
-KassArray					3.2.2	DEFSTORAGE/KassArray.dp						KassArray.dp				0x00125A18	1
+KassArray					3.2.5	DEFSTORAGE/KassArray.dp						KassArray.dp				0x00125C10	1
 Keyboard switcher			1.5		DEFSTORAGE/KeyboardSwitcher.dp				KeyboardSwitcher.dp			0x0002BE43	1
 Make CST					2.0.2	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000147BF	0
 OS macros executor			3.0.2	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x0005E74E	1
@@ -33,7 +33,7 @@ Snake						2.0			DEFSTORAGE/Snake.7z						Snake.7z					16062515	1
 Turtle						2.0			DEFSTORAGE/Turtle.7z					Turtle.7z					14708666	1
 
 #Android apps
-KassArray for Android		3.0			GIT_LINK/KassArray/releases/latest/download/KassArray_KitKat.apk		KassArray.apk		33524167	3
+KassArray for Android		3.2.5		GIT_LINK/KassArray/releases/latest/download/KassArray_KitKat.apk		KassArray.apk		33534374	3
 Make decision for Android	2.14.2		GIT_LINK/MakeDecision/releases/latest/download/MakeDecision.apk			MakeDecision.apk	31806592	3
 PA detector for Android		2.10.2		GIT_LINK/EnchantIt/releases/latest/download/PADetector.apk				PADetector.apk		39256460	3
 uNot for Android			5.2			GIT_LINK/UniNotifier/releases/latest/download/UniNotifier.apk			UniNotifier.apk		32302543	3
