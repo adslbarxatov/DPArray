@@ -251,11 +251,10 @@
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/geomagdatadrawer) &#x3000;
 :page_with_curl: [Руководство](https://github.com/adslbarxatov/GeomagDataDrawer/blob/master/UserGuide.md) &#x3000;
-:tv: [Видеоруководство](https://youtube.com/playlist?list=PLe7qKwHNkZTuAATdj1asHQ6nUxlR9qUZO) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/geomagdatadrawer/releases/latest) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://GeomagDataDrawer)
 
-Автономный инструмент построения и оформления диаграмм данных на основе табличных данных
+Автономный инструмент построения и оформления диаграмм на основе табличных данных
 
 &nbsp;
 

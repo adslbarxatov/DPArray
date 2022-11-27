@@ -201,12 +201,11 @@ activity. Before starting the experiment take a look at the project presentation
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/geomagdatadrawer) &#x3000;
-:page_with_curl: [User guide](https://github.com/adslbarxatov/GeomagDataDrawer/blob/master/UserGuide.md) &#x3000;
-:tv: [Video guide](https://youtube.com/playlist?list=PLe7qKwHNkZTuAATdj1asHQ6nUxlR9qUZO) &#x3000;
+:film_projector: [Video guide](https://youtube.com/watch?v=uYtQJX5BgvU) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/geomagdatadrawer/releases/latest) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://GeomagDataDrawer)
 
-Stand-alone tool for building and designing data diagrams based on tabular data
+Stand-alone tool for building and designing diagrams based on tabular data
 
 &nbsp;
 

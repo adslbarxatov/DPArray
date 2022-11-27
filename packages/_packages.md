@@ -10,7 +10,7 @@ ConcurrentDraw				3.0.2	DEFSTORAGE/ConcurrentDraw.dp				ConcurrentDraw.dp			0x00
 Dates difference			3.0.2	DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x00032DD6	0
 File extensions manager		2.1.2	DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x00056C23	0
 Font finder					3.0.2	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x0004A3DD	0
-Geomag data drawer			5.1		DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x001418A3	1
+Geomag data drawer			5.2		DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x001424B0	1
 KassArray					3.2.2	DEFSTORAGE/KassArray.dp						KassArray.dp				0x00125A18	1
 Keyboard switcher			1.5		DEFSTORAGE/KeyboardSwitcher.dp				KeyboardSwitcher.dp			0x0002BE43	1
 Make CST					2.0.2	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000147BF	0
