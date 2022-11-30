@@ -21,10 +21,10 @@ uNot						5.3		DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000493AA	0
 
 #Mods
 ESHQ							13.0	MODSTORAGE/240086?MOD_REFmods%2Feshq		ESHQ_setup.7z			230251732	3
-ESHQ, actual update				13.1	MODSTORAGE/240349?MOD_REFmods%2Feshq		ESHQ_update.7z			7212144		0
+ESHQ, actual update				13.1.5	MODSTORAGE/241947?MOD_REFmods%2Feshq		ESHQ_update.7z			7404305		0
 ESHQ, backward compatibility	13.0	MODSTORAGE/240085?MOD_REFmods%2Feshq		ESHQ_backward.7z		59848593	2
 ES: Randomaze					4.0		MODSTORAGE/241102?MOD_REFmods%2Feshq		ESRM_setup.7z			56050065	3
-ES:RM, actual update			4.3		MODSTORAGE/241850?MOD_REFmods%2Feshq		ESRM_update.7z			3153865		0
+ES:RM, actual update			4.3.5	MODSTORAGE/241949?MOD_REFmods%2Feshq		ESRM_update.7z			3151900		0
 Crazy cheater’s mod				1.3		MODSTORAGE/240088?MOD_REFmods%2Fccm			GTAViceCity.7z			165319082	2
 
 #Games
@@ -40,8 +40,8 @@ uNot for Android			5.2			GIT_LINK/UniNotifier/releases/latest/download/UniNotifi
 
 
 
-#ALERT: Some of our apps got new requirements. Please, read annotation from the last deployment step carefully!||
-#ALERT: Некоторые приложения получили новые требования. Пожалуйста, внимательно прочитайте аннотацию к последнему шагу развёртывания!
+#ALERT: ES: Randomaze v 4.3.5 (with gravity control) is out now!||
+#ALERT: ES: Randomaze v 4.3.5 (с контролем гравитации) уже доступен в DPArray!
 
 Flags: 1 = disallow the fast deployment, 2 = disable the version control
 
