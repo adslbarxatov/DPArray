@@ -11,7 +11,7 @@ Dates difference			3.0.2	DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0
 File extensions manager		2.1.2	DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x00056C23	0
 Font finder					3.0.2	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x0004A3DD	0
 Geomag data drawer			5.2		DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x001424B0	1
-KassArray					3.3		DEFSTORAGE/KassArray.dp						KassArray.dp				0x0012720E	1
+KassArray					3.3.5	DEFSTORAGE/KassArray.dp						KassArray.dp				0x00131818	1
 Keyboard switcher			1.5		DEFSTORAGE/KeyboardSwitcher.dp				KeyboardSwitcher.dp			0x0002BE43	1
 Make CST					2.0.2	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000147BF	0
 OS macros executor			3.0.2	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x0005E74E	1
