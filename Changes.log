@@ -1,10 +1,14 @@
 ﻿DPArray: changes log
 
+Version 5.3.2:
+• Some adjustments applied to the new style elements;
+• Removed the extraneous graphics methods: all windows have been unified
+
 Version 5.3:
 • Fixed the inability to load the ADP text;
 • Some support code for the interface units have been rebuilt and simplified;
 • DPArray now has its own style for message boxes;
-• App about window has been re-unified for all projects: now it will be properly 
+• App about window has been re-unified for all projects: now it will be properly
   started and destroyed at every call
 
 Version 5.2.12:

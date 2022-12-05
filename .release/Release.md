@@ -1,4 +1,6 @@
-_Changes for v 5.3_:
+_Changes for v 5.3.2_:
+- Some adjustments applied to the new style elements;
+- Removed the extraneous graphics methods: all windows have been unified;
 - Fixed the inability to load the ADP text;
 - Some support code for the interface units have been rebuilt and simplified;
 - DPArray now has its own style for message boxes;
