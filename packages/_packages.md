@@ -4,14 +4,14 @@ Packages, available for download:
 DPArray						5.3.5	DEFSTORAGE/DPArray.dp						DPArray.dp					0x000B045A	0
 
 #Apps
-Batch image convertor		3.1		DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x0005FB82	1
-BExplorer					3.1		DEFSTORAGE/BExplorer.dp						BExplorer.dp				0x00174167	1
+Batch image convertor		3.1.2	DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x00061399	1
+BExplorer					3.1.2	DEFSTORAGE/BExplorer.dp						BExplorer.dp				0x00175771	1
 ConcurrentDraw				3.1		DEFSTORAGE/ConcurrentDraw.dp				ConcurrentDraw.dp			0x000A4CC3	1
 Dates difference			3.0.2	DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x00032DD6	0
 File extensions manager		2.1.2	DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x00056C23	0
 Font finder					3.0.2	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x0004A3DD	0
 Geomag data drawer			5.2		DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x001424B0	1
-KassArray					3.3.25	DEFSTORAGE/KassArray.dp						KassArray.dp				0x00131A11	1
+KassArray					3.3.29	DEFSTORAGE/KassArray.dp						KassArray.dp				0x00134411	1
 Keyboard switcher			1.5		DEFSTORAGE/KeyboardSwitcher.dp				KeyboardSwitcher.dp			0x0002BE43	1
 Make CST					2.0.2	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000147BF	0
 OS macros executor			3.1		DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x00063569	1
