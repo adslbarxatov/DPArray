@@ -1,11 +1,11 @@
-_Changes for v 5.3.2_:
+_Changes for v 5.3.5_:
+- The app now uses a new, secure method for setting the size and position of windows;
+- Implemented support for HypeHelp mechanics;
+- App will now show the version of the package in the deployment window;
+- It is simplier now to leave the startup logo;
 - Some adjustments applied to the new style elements;
 - Removed the extraneous graphics methods: all windows have been unified;
 - Fixed the inability to load the ADP text;
 - Some support code for the interface units have been rebuilt and simplified;
 - DPArray now has its own style for message boxes;
-- App about window has been re-unified for all projects: now it will be properly started and destroyed at every call;
-- Updated links for other lab projects;
-- Fixed the inability to autostart (if specified) the product after the deployment in the fast mode;
-- Fixed the inability to close active apps during their uninstallation;
-- Added the “Check / uncheck all” buttons. They allow you to check or uncheck all visible items in the table of packages. Items hidden by filters will save their state
+- App about window has been re-unified for all projects: now it will be properly started and destroyed at every call

@@ -1,5 +1,11 @@
 ﻿DPArray: changes log
 
+Version 5.3.5:
+• The app now uses a new, secure method for setting the size and position of windows;
+• Implemented support for HypeHelp mechanics;
+• App will now show the version of the package in the deployment window;
+• It is simplier now to leave the startup logo
+
 Version 5.3.2:
 • Some adjustments applied to the new style elements;
 • Removed the extraneous graphics methods: all windows have been unified
