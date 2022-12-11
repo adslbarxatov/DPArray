@@ -16,8 +16,8 @@ Keyboard switcher			1.5		DEFSTORAGE/KeyboardSwitcher.dp				KeyboardSwitcher.dp		
 Make CST					2.0.2	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000147BF	0
 OS macros executor			3.1.2	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x00064B6B	1
 Screen shooter				2.1		DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x000389DC	0
-Sudoku solver				3.1		DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x0003159B	0
-uNot						5.3		DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000493AA	0
+Sudoku solver				3.2		DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x000383B8	0
+uNot						5.3.2	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x0004E5C9	0
 
 #Mods
 ESHQ							13.0	MODSTORAGE/240086?MOD_REFmods%2Feshq		ESHQ_setup.7z			230251732	3
