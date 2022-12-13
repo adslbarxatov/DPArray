@@ -24,7 +24,7 @@ ESHQ							13.0	MODSTORAGE/240086?MOD_REFmods%2Feshq		ESHQ_setup.7z			230251732	
 ESHQ, actual update				13.1.5	MODSTORAGE/241947?MOD_REFmods%2Feshq		ESHQ_update.7z			7404305		0
 ESHQ, backward compatibility	13.0	MODSTORAGE/240085?MOD_REFmods%2Feshq		ESHQ_backward.7z		59848593	2
 ES: Randomaze					4.0		MODSTORAGE/241102?MOD_REFmods%2Feshq		ESRM_setup.7z			56050065	3
-ES:RM, actual update			4.3.5	MODSTORAGE/241949?MOD_REFmods%2Feshq		ESRM_update.7z			3151900		0
+ES:RM, actual update			4.4		MODSTORAGE/242530?MOD_REFmods%2Feshq		ESRM_update.7z			3175946		0
 Crazy cheater’s mod				1.3		MODSTORAGE/240088?MOD_REFmods%2Fccm			GTAViceCity.7z			165319082	2
 
 #Games
