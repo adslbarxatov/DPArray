@@ -1,5 +1,9 @@
 ﻿DPArray: changes log
 
+Version 5.3.8:
+• Some interface adjustments applied;
+• Removed some obsolete code
+
 Version 5.3.5:
 • The app now uses a new, secure method for setting the size and position of windows;
 • Implemented support for HypeHelp mechanics;

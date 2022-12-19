@@ -1,7 +1,7 @@
 ```
 Packages, available for download:
 
-DPArray						5.3.5	DEFSTORAGE/DPArray.dp						DPArray.dp					0x000B045A	0
+DPArray						5.3.8	DEFSTORAGE/DPArray.dp						DPArray.dp					0x000B0062	0
 
 #Apps
 Batch image convertor		3.2		DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x00061D97	1
@@ -11,7 +11,7 @@ Dates difference			3.1		DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x
 File extensions manager		2.2		DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x0005D236	0
 Font finder					3.1		DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x000507D3	0
 Geomag data drawer			5.2.2	DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x00147CB2	1
-KassArray					3.5		DEFSTORAGE/KassArray.dp						KassArray.dp				0x0012520E	1
+KassArray					3.5.2	DEFSTORAGE/KassArray.dp						KassArray.dp				0x00125610	1
 Keyboard switcher			1.5		DEFSTORAGE/KeyboardSwitcher.dp				KeyboardSwitcher.dp			0x0002BE43	1
 Make CST					2.0.2	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000147BF	0
 OS macros executor			3.1.2	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x00064B6B	1
