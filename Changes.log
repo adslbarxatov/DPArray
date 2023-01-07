@@ -1,5 +1,13 @@
 ﻿DPArray: changes log
 
+Version 5.4:
+• Implemented the ability to restart the app in case of failure of the packages list downloading;
+• Adjusted the behavior of app exiting method;
+• Removed some obsolete script flags;
+• Added some new characters to the server messages parser;
+• Updated the parser of the master packages list;
+• Applied current fixes and improvements
+
 Version 5.3.8:
 • Some interface adjustments applied;
 • Removed some obsolete code
