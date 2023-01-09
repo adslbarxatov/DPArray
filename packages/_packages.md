@@ -21,7 +21,7 @@ uNot						5.3.2	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x0004E5C9	0
 
 #Mods
 ESHQ						13.0	MODSTORAGE/240086?MOD_REFmods%2Feshq		ESHQ_setup.7z				230251732	3
-ESHQ, actual update			13.2c	MODSTORAGE/243751?MOD_REFmods%2Feshq		ESHQ_update.7z				48005328	0
+ESHQ, actual update			13.3	MODSTORAGE/243866?MOD_REFmods%2Feshq		ESHQ_update.7z				56747537	0
 ES: Randomaze				4.0		MODSTORAGE/241102?MOD_REFmods%2Feshq		ESRM_setup.7z				56050065	3
 ES:RM, actual update		4.5		MODSTORAGE/243463?MOD_REFmods%2Feshq		ESRM_update.7z				3286006		0
 Crazy cheater’s mod			1.3		MODSTORAGE/240088?MOD_REFmods%2Fccm			GTAViceCity.7z				165319082	2
