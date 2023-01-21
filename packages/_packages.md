@@ -11,13 +11,13 @@ Dates difference			3.1		DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x
 File extensions manager		2.2		DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x0005D236	0
 Font finder					3.1		DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x000507D3	0
 Geomag data drawer			5.2.2	DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x00147CB2	1
-KassArray					3.6.6	DEFSTORAGE/KassArray.dp						KassArray.dp				0x00127E1F	1
+KassArray					3.7		DEFSTORAGE/KassArray.dp						KassArray.dp				0x00127E15	1
 Keyboard switcher			1.5		DEFSTORAGE/KeyboardSwitcher.dp				KeyboardSwitcher.dp			0x0002BE43	1
 Make CST					2.0.2	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000147BF	0
 OS macros executor			3.1.2	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x00064B6B	1
 Screen shooter				2.1		DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x000389DC	0
 Sudoku solver				3.2		DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x000383B8	0
-uNot						5.3.2	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x0004E5C9	0
+uNot						5.4		DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x0004E7C6	0
 
 #Mods
 ESHQ						13.0	MODSTORAGE/240086?MOD_REFmods%2Feshq		ESHQ_setup.7z				230251732	3
@@ -33,10 +33,10 @@ Snake						2.0			DEFSTORAGE/Snake.7z						Snake.7z					16062515	1
 Turtle						2.0			DEFSTORAGE/Turtle.7z					Turtle.7z					14708666	1
 
 #Android apps
-KassArray for Android		3.6.5		GIT_LINK/KassArray/GIT_PATH/KassArray_Lollipop.apk		KassArray.apk		33318770	3
+KassArray for Android		3.7			GIT_LINK/KassArray/GIT_PATH/KassArray_Lollipop.apk		KassArray.apk		33415590	3
 Make decision for Android	2.14.2		GIT_LINK/MakeDecision/GIT_PATH/MakeDecision.apk			MakeDecision.apk	31806592	3
 PA detector for Android		2.10.2		GIT_LINK/EnchantIt/GIT_PATH/PADetector.apk				PADetector.apk		39256460	3
-uNot for Android			5.2			GIT_LINK/UniNotifier/GIT_PATH/UniNotifier.apk			UniNotifier.apk		32302543	3
+uNot for Android			5.4			GIT_LINK/UniNotifier/GIT_PATH/UniNotifier.apk			UniNotifier.apk		33380195	3
 
 
 
