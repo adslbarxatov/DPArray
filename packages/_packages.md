@@ -34,8 +34,8 @@ Turtle						2.0			DEFSTORAGE/Turtle.7z					Turtle.7z					14708666	1
 
 #Android apps
 KassArray for Android		3.7.3		GIT_LINK/KassArray/GIT_PATH/KassArray_Lollipop.apk		KassArray.apk		33304998	3
-Make decision for Android	2.14.2		GIT_LINK/MakeDecision/GIT_PATH/MakeDecision.apk			MakeDecision.apk	31806592	3
-PA detector for Android		2.10.2		GIT_LINK/EnchantIt/GIT_PATH/PADetector.apk				PADetector.apk		39256460	3
+Make decision for Android	2.15		GIT_LINK/MakeDecision/GIT_PATH/MakeDecision.apk			MakeDecision.apk	32818708	3
+PA detector for Android		2.11		GIT_LINK/EnchantIt/GIT_PATH/PADetector.apk				PADetector.apk		40268576	3
 uNot for Android			5.4.1		GIT_LINK/UniNotifier/GIT_PATH/UniNotifier.apk			UniNotifier.apk		33384291	3
 
 
