@@ -137,7 +137,7 @@ since it uses a user-selected system audio output
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/uninotifier) &#x3000;
-:film_projector: [Video guide](https://youtube.com/watch?v=HPq88MW3jF8) &#x3000;
+:film_projector: [Video guide](https://youtube.com/watch?v=seFfQkfL6Sk) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/uninotifier/releases/latest) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://UniNotifier) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) &#x3000;
