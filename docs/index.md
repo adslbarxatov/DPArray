@@ -145,10 +145,9 @@ since it uses a user-selected system audio output
 :iphone: [Get on AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C102838121?channelId=GitHub&id=34da22c3478e4601b33a6ec854592895&s=DB4BF2118E523FEF437C11C7FAB0DE5D24080C18F860F60311E2B5919F1B568A&detailType=0&v=&callType=AGDLINK&installType=0000) &#x3000;
 :package: [Get APK](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.apk)
 
-This utility provides the ability to receive notifications about changes in the state of user-specified sites
-and their webpages (in other words, updates and news) in the form of a text log. In this case, only what the user
-specified is loaded – all other objects (including advertisement) are ignored. Before starting work, it is recommended
-that you view its video presentation
+This app provides the ability to be notified when the status of user-specified websites changes.
+In other words, about their updates, which will be presented in the form of a text log. Only what the user
+has specified is loaded – all other objects (including ads) are ignored
 
 &nbsp;
 
