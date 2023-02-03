@@ -17,7 +17,7 @@ Make CST					2.0.2	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000147BF	0
 OS macros executor			3.1.2	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x00064B6B	1
 Screen shooter				2.1		DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x000389DC	0
 Sudoku solver				3.2		DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x000383B8	0
-uNot						5.4.1	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x0004E7C8	0
+uNot						5.4.2	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x0004E7D7	0
 
 #Mods
 ESHQ						13.0	MODSTORAGE/240086?MOD_REFmods%2Feshq		ESHQ_setup.7z				230251732	3
@@ -36,7 +36,7 @@ Turtle						2.0			DEFSTORAGE/Turtle.7z					Turtle.7z					14708666	1
 KassArray for Android		3.7.3		GIT_LINK/KassArray/GIT_PATH/KassArray_Lollipop.apk		KassArray.apk		33304998	3
 Make decision for Android	2.15		GIT_LINK/MakeDecision/GIT_PATH/MakeDecision.apk			MakeDecision.apk	32818708	3
 PA detector for Android		2.11		GIT_LINK/EnchantIt/GIT_PATH/PADetector.apk				PADetector.apk		40268576	3
-uNot for Android			5.4.1		GIT_LINK/UniNotifier/GIT_PATH/UniNotifier.apk			UniNotifier.apk		33384291	3
+uNot for Android			5.4.2		GIT_LINK/UniNotifier/GIT_PATH/UniNotifier.apk			UniNotifier.apk		33384291	3
 
 
 
