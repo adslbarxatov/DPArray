@@ -33,8 +33,8 @@ Snake						2.0			DEFSTORAGE/Snake.7z						Snake.7z					16062515	1
 Turtle						2.0			DEFSTORAGE/Turtle.7z					Turtle.7z					14708666	1
 
 #Android apps
-KassArray for Android		3.7.3		GIT_LINK/KassArray/GIT_PATH/KassArray_Lollipop.apk		KassArray.apk		33304998	3
-Make decision for Android	2.15		GIT_LINK/MakeDecision/GIT_PATH/MakeDecision.apk			MakeDecision.apk	32818708	3
+KassArray for Android		3.8.1		GIT_LINK/KassArray/GIT_PATH/KassArray_Lollipop.apk		KassArray.apk		33304998	3
+Make decision for Android	3.0			GIT_LINK/MakeDecision/GIT_PATH/MakeDecision.apk			MakeDecision.apk	32818708	3
 PA detector for Android		2.11		GIT_LINK/EnchantIt/GIT_PATH/PADetector.apk				PADetector.apk		40268576	3
 uNot for Android			5.4.2		GIT_LINK/UniNotifier/GIT_PATH/UniNotifier.apk			UniNotifier.apk		33384291	3
 
