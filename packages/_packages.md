@@ -1,7 +1,7 @@
 ```
 Packages, available for download:
 
-DPArray						5.4		DEFSTORAGE/DPArray.dp						DPArray.dp					0x000B025B	0
+DPArray						5.4.1	DEFSTORAGE/DPArray.dp						DPArray.dp					0x000B0259	0
 
 #Apps
 Batch image convertor		3.2		DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x00061D97	1

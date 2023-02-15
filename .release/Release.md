@@ -1,10 +1,7 @@
-_Changes for v 5.4_:
+_Changes for v 5.4.1_:
+- Implemented the ability to erase the last deployed version of the package when uninstalling it. This feature allows us to properly treat the removed product as new for the current PC;
 - Implemented the ability to restart the app in case of failure of the packages list downloading;
-- Adjusted the behavior of app exiting method;
+- Adjusted the behavior of an app exiting method;
 - Removed some obsolete script flags;
 - Added some new characters to the server messages parser;
-- Updated the parser of the master packages list;
-- Applied current fixes and improvements;
-- The app now uses a new, secure method for setting the size and position of windows;
-- Implemented support for HypeHelp mechanics;
-- App will now show the version of the package in the deployment window
+- Updated the parser of the master packages list
