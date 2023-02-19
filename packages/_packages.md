@@ -9,15 +9,15 @@ BExplorer					3.1.7	DEFSTORAGE/BExplorer.dp						BExplorer.dp				0x00175768	1
 ConcurrentDraw				3.1.7	DEFSTORAGE/ConcurrentDraw.dp				ConcurrentDraw.dp			0x000A62CC	1
 Dates difference			3.1.7	DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x000393F2	0
 File extensions manager		2.2.7	DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x0005D237	0
-Font finder					3.1.7	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x000507D3	0
-Geomag data drawer			5.2.7	DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x00147CB2	1
-KassArray					3.9.7	DEFSTORAGE/KassArray.dp						KassArray.dp				0x0012944C	1
+Font finder					3.1.7	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x000507E5	0
+Geomag data drawer			5.2.7	DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x001476B1	1
+KassArray					3.9.7	DEFSTORAGE/KassArray.dp						KassArray.dp				0x0012904C	1
 Keyboard switcher			1.5		DEFSTORAGE/KeyboardSwitcher.dp				KeyboardSwitcher.dp			0x0002BE43	1
-Make CST					2.0.7	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000147BF	0
-OS macros executor			3.1.7	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x00064B6B	1
-Screen shooter				2.1.7	DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x000389DC	0
-Sudoku solver				3.2.7	DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x000383B8	0
-uNot						5.4.7	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x0004E7D7	0
+Make CST					2.0.7	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000125D3	0
+OS macros executor			3.1.7	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x00064D6A	1
+Screen shooter				2.1.7	DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x000389DD	0
+Sudoku solver				3.2.7	DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x000383B9	0
+uNot						5.4.7	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x0004E5D7	0
 
 #Mods
 ESHQ						13.0	MODSTORAGE/240086?MOD_REFmods%2Feshq		ESHQ_setup.7z				230251732	3
