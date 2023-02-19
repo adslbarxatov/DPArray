@@ -1,5 +1,8 @@
 ﻿DPArray: changes log
 
+Version 5.4.7:
+• Updated the HypeHelp mechanics
+
 Version 5.4.1:
 • Implemented the ability to erase the last deployed version of the package when uninstalling it.
   This feature allows us to properly treat the removed product as new for the current PC

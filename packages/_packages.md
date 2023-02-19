@@ -1,29 +1,29 @@
 ```
 Packages, available for download:
 
-DPArray						5.4.1	DEFSTORAGE/DPArray.dp						DPArray.dp					0x000B0259	0
+DPArray						5.4.7	DEFSTORAGE/DPArray.dp						DPArray.dp					0x000B029D	0
 
 #Apps
-Batch image convertor		3.2		DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x00061D97	1
-BExplorer					3.1.2	DEFSTORAGE/BExplorer.dp						BExplorer.dp				0x00175771	1
-ConcurrentDraw				3.1.2	DEFSTORAGE/ConcurrentDraw.dp				ConcurrentDraw.dp			0x000A62CD	1
-Dates difference			3.1		DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x000393E9	0
-File extensions manager		2.2		DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x0005D236	0
-Font finder					3.1		DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x000507D3	0
-Geomag data drawer			5.2.2	DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x00147CB2	1
-KassArray					3.9.1	DEFSTORAGE/KassArray.dp						KassArray.dp				0x0012944C	1
+Batch image convertor		3.2.7	DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x00061D97	1
+BExplorer					3.1.7	DEFSTORAGE/BExplorer.dp						BExplorer.dp				0x00175771	1
+ConcurrentDraw				3.1.7	DEFSTORAGE/ConcurrentDraw.dp				ConcurrentDraw.dp			0x000A62CD	1
+Dates difference			3.1.7	DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x000393E9	0
+File extensions manager		2.2.7	DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x0005D236	0
+Font finder					3.1.7	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x000507D3	0
+Geomag data drawer			5.2.7	DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x00147CB2	1
+KassArray					3.9.7	DEFSTORAGE/KassArray.dp						KassArray.dp				0x0012944C	1
 Keyboard switcher			1.5		DEFSTORAGE/KeyboardSwitcher.dp				KeyboardSwitcher.dp			0x0002BE43	1
-Make CST					2.0.2	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000147BF	0
-OS macros executor			3.1.2	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x00064B6B	1
-Screen shooter				2.1		DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x000389DC	0
-Sudoku solver				3.2		DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x000383B8	0
-uNot						5.4.2	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x0004E7D7	0
+Make CST					2.0.7	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000147BF	0
+OS macros executor			3.1.7	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x00064B6B	1
+Screen shooter				2.1.7	DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x000389DC	0
+Sudoku solver				3.2.7	DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x000383B8	0
+uNot						5.4.7	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x0004E7D7	0
 
 #Mods
 ESHQ						13.0	MODSTORAGE/240086?MOD_REFmods%2Feshq		ESHQ_setup.7z				230251732	3
 ESHQ, actual update			13.3	MODSTORAGE/243866?MOD_REFmods%2Feshq		ESHQ_update.7z				56747537	0
 ES: Randomaze				4.0		MODSTORAGE/241102?MOD_REFmods%2Feshq		ESRM_setup.7z				56050065	3
-ES:RM, actual update		4.7		MODSTORAGE/244858?MOD_REFmods%2Feshq		ESRM_update.7z				3311663		0
+ES:RM, actual update		4.7.7	MODSTORAGE/244858?MOD_REFmods%2Feshq		ESRM_update.7z				3311663		0
 Crazy cheater’s mod			1.3		MODSTORAGE/240088?MOD_REFmods%2Fccm			GTAViceCity.7z				165319082	2
 ESHQ, bkwd compatibility    13.0	MODSTORAGE/240085?MOD_REFmods%2Feshq		ESHQ_backward.7z			59848593	2
 
