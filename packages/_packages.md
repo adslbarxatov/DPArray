@@ -23,7 +23,7 @@ uNot						5.4.7	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x0004E5D7	0
 ESHQ						13.0	MODSTORAGE/240086?MOD_REFmods%2Feshq		ESHQ_setup.7z				230251732	3
 ESHQ, actual update			13.3	MODSTORAGE/243866?MOD_REFmods%2Feshq		ESHQ_update.7z				56747537	0
 ES: Randomaze				4.0		MODSTORAGE/241102?MOD_REFmods%2Feshq		ESRM_setup.7z				56050065	3
-ES:RM, actual update		4.7.7	MODSTORAGE/244858?MOD_REFmods%2Feshq		ESRM_update.7z				3311663		0
+ES:RM, actual update		4.7.7	MODSTORAGE/245818?MOD_REFmods%2Feshq		ESRM_update.7z				3309083		0
 Crazy cheater’s mod			1.3		MODSTORAGE/240088?MOD_REFmods%2Fccm			GTAViceCity.7z				165319082	2
 ESHQ, bkwd compatibility    13.0	MODSTORAGE/240085?MOD_REFmods%2Feshq		ESHQ_backward.7z			59848593	2
 
@@ -40,9 +40,9 @@ uNot for Android			5.4.2		GIT_LINK/UniNotifier/GIT_PATH/UniNotifier.apk			UniNot
 
 
 
-#ALERT: KassArray теперь поддерживает преобразование систем счисления 
-#ALERT: и просмотр символов Unicode. Кроме того, теперь доступны инструкции 
-#ALERT: по тестированию связи с ОФД почти для всех ККТ
+#ALERT: All apps got fix for HypeHelp mechanics: it will not constantly show its tip|
+#ALERT: Все приложения получили исправление для механики HypeHelp: она больше 
+#ALERT: не будет постоянно отображать начальную подсказку
 
 Flags: 1 = disallow the fast deployment, 2 = disable the version control
 
