@@ -40,7 +40,7 @@ uNot for Android			5.4.2		GIT_LINK/UniNotifier/GIT_PATH/UniNotifier.apk			UniNot
 
 
 
-#ALERT: All apps got fix for HypeHelp mechanics: it will not constantly show its tip|
+#ALERT: All apps got fix for HypeHelp mechanics: it will not constantly show its tip||
 #ALERT: Все приложения получили исправление для механики HypeHelp: она больше 
 #ALERT: не будет постоянно отображать начальную подсказку
 
