@@ -4,11 +4,11 @@ Packages, available for download:
 DPArray						5.4.7	DEFSTORAGE/DPArray.dp						DPArray.dp					0x000B029D	0
 
 #Apps
-Batch image convertor		3.2.7	DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x00061D97	1
-BExplorer					3.1.7	DEFSTORAGE/BExplorer.dp						BExplorer.dp				0x00175771	1
-ConcurrentDraw				3.1.7	DEFSTORAGE/ConcurrentDraw.dp				ConcurrentDraw.dp			0x000A62CD	1
-Dates difference			3.1.7	DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x000393E9	0
-File extensions manager		2.2.7	DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x0005D236	0
+Batch image convertor		3.2.7	DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x00061D98	1
+BExplorer					3.1.7	DEFSTORAGE/BExplorer.dp						BExplorer.dp				0x00175768	1
+ConcurrentDraw				3.1.7	DEFSTORAGE/ConcurrentDraw.dp				ConcurrentDraw.dp			0x000A62CC	1
+Dates difference			3.1.7	DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x000393F2	0
+File extensions manager		2.2.7	DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x0005D237	0
 Font finder					3.1.7	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x000507D3	0
 Geomag data drawer			5.2.7	DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x00147CB2	1
 KassArray					3.9.7	DEFSTORAGE/KassArray.dp						KassArray.dp				0x0012944C	1
