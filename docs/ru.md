@@ -237,7 +237,7 @@
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT) &#x3000;
 :iphone: [На GetApps](https://global.app.mi.com/details?id=texttokkt.xiaomi) &#x3000;
 :iphone: [На AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C102663035?channelId=GitHub&id=f4e62031e4b84ebb937a8b75c08fc543&s=E90E5D1DB649783589F6F3EA42475CFECAABFFF996E407E61BACB2268DB9867C&detailType=0&v=&callType=AGDLINK&installType=0000) &#x3000;
-:package: [В виде APK](https://github.com/adslbarxatov/KassArray/releases/latest/download/KassArray_Lollipop.apk)
+:package: [В виде APK](https://github.com/adslbarxatov/KassArray/releases/latest/download/KassArray_KitKat.apk)
 
 Инструмент сервис-инженера контрольно-кассовой техники. Первый проект лаборатории, доступный одновременно
 на платформах Windows и Android (Google play и AppGallery). Реализует справочный функционал, а также обеспечивает
