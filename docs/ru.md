@@ -140,7 +140,7 @@
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://UniNotifier) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) &#x3000;
 :iphone: [На GetApps](https://global.app.mi.com/details?id=uninotifier.xiaomi) &#x3000;
-:iphone: [На AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C102838121?channelId=GitHub&id=34da22c3478e4601b33a6ec854592895&s=DB4BF2118E523FEF437C11C7FAB0DE5D24080C18F860F60311E2B5919F1B568A&detailType=0&v=&callType=AGDLINK&installType=0000) &#x3000;
+:iphone: [На AppGallery](https://url.cloud.huawei.com/kOns67WJJ6?shareTo=qrcode) &#x3000;
 :package: [В виде APK](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.apk) &#x3000;
 :iphone: [Проект Tablepedia](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier)
 
@@ -217,6 +217,7 @@
 :page_with_curl: [Полное описание](https://vk.com/@rd_aaow_fdl-pad) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) &#x3000;
 :iphone: [На GetApps](https://global.app.mi.com/details?id=enchantit.xiaomi) &#x3000;
+:iphone: [На AppGallery](https://url.cloud.huawei.com/kOnbnDnG12?shareTo=qrcode) &#x3000;
 :package: [В виде APK](https://github.com/adslbarxatov/EnchantIt/releases/latest/download/PADetector.apk)
 
 Инструмент поиска паранормальной активности. Его задача – обнаружить и математически подтвердить какую-либо
@@ -236,7 +237,7 @@
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KassArray) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT) &#x3000;
 :iphone: [На GetApps](https://global.app.mi.com/details?id=texttokkt.xiaomi) &#x3000;
-:iphone: [На AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C102663035?channelId=GitHub&id=f4e62031e4b84ebb937a8b75c08fc543&s=E90E5D1DB649783589F6F3EA42475CFECAABFFF996E407E61BACB2268DB9867C&detailType=0&v=&callType=AGDLINK&installType=0000) &#x3000;
+:iphone: [На AppGallery](https://url.cloud.huawei.com/kOnu2dYlNu?shareTo=qrcode) &#x3000;
 :package: [В виде APK](https://github.com/adslbarxatov/KassArray/releases/latest/download/KassArray_KitKat.apk)
 
 Инструмент сервис-инженера контрольно-кассовой техники. Первый проект лаборатории, доступный одновременно
@@ -264,6 +265,7 @@
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=40Lvq0Q1we0) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) &#x3000;
 :iphone: [На GetApps](https://global.app.mi.com/details?id=makedecision.xiaomi) &#x3000;
+:iphone: [На AppGallery](https://url.cloud.huawei.com/kOnqdCKeek?shareTo=qrcode) &#x3000;
 :package: [В виде APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.apk)
 
 Программа иллюстрирует математический метод, позволяющий сравнивать некоторые объекты, явления или исходы

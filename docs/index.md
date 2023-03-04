@@ -142,7 +142,7 @@ since it uses a user-selected system audio output
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://UniNotifier) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) &#x3000;
 :iphone: [Get on GetApps](https://global.app.mi.com/details?id=uninotifier.xiaomi) &#x3000;
-:iphone: [Get on AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C102838121?channelId=GitHub&id=34da22c3478e4601b33a6ec854592895&s=DB4BF2118E523FEF437C11C7FAB0DE5D24080C18F860F60311E2B5919F1B568A&detailType=0&v=&callType=AGDLINK&installType=0000) &#x3000;
+:iphone: [Get on AppGallery](https://url.cloud.huawei.com/kOns67WJJ6?shareTo=qrcode) &#x3000;
 :package: [Get APK](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.apk)
 
 This app provides the ability to be notified when the status of user-specified websites changes.
@@ -189,6 +189,7 @@ project! And welcome to Upsilon one!
 :page_with_curl: [Description](https://vk.com/@rd_aaow_fdl-pad) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) &#x3000;
 :iphone: [Get on GetApps](https://global.app.mi.com/details?id=enchantit.xiaomi) &#x3000;
+:iphone: [Get on AppGallery](https://url.cloud.huawei.com/kOnbnDnG12?shareTo=qrcode) &#x3000;
 :package: [Get APK](https://github.com/adslbarxatov/EnchantIt/releases/latest/download/PADetector.apk)
 
 The paranormal activity search tool. Its task is to discover and mathematically confirm some paranormal
@@ -215,6 +216,7 @@ Stand-alone tool for building and designing diagrams based on tabular data
 :film_projector: [Video guide](https://youtube.com/watch?v=40Lvq0Q1we0) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) &#x3000;
 :iphone: [Get on GetApps](https://global.app.mi.com/details?id=makedecision.xiaomi) &#x3000;
+:iphone: [На AppGallery](https://url.cloud.huawei.com/kOnqdCKeek?shareTo=qrcode) &#x3000;
 :package: [Get APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.apk)
 
 This application illustrates a math method that allows comparing some objects or events based on a set
