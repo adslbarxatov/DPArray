@@ -17,7 +17,7 @@ Make CST					2.0.7	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000125D3	0
 OS macros executor			3.1.7	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x00064D6A	1
 Screen shooter				2.1.7	DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x000389DD	0
 Sudoku solver				3.2.7	DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x000383B9	0
-uNot						5.4.7	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x0004E5D7	0
+uNot						6.0		DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x0004E5CD	0
 
 #Mods
 ESHQ						13.0	MODSTORAGE/240086?MOD_REFmods%2Feshq		ESHQ_setup.7z				230251732	3
@@ -36,13 +36,11 @@ Turtle						2.0			DEFSTORAGE/Turtle.7z					Turtle.7z					14708666	1
 KassArray for Android		4.0			GIT_LINK/KassArray/GIT_PATH/KassArray_KitKat.apk		KassArray.apk		33284701	3
 Make decision for Android	3.0.2		GIT_LINK/MakeDecision/GIT_PATH/MakeDecision.apk			MakeDecision.apk	32826900	3
 PA detector for Android		2.11.2		GIT_LINK/EnchantIt/GIT_PATH/PADetector.apk				PADetector.apk		40272672	3
-uNot for Android			5.4.9		GIT_LINK/UniNotifier/GIT_PATH/UniNotifier.apk			UniNotifier.apk		33388387	3
+uNot for Android			6.0			GIT_LINK/UniNotifier/GIT_PATH/UniNotifier.apk			UniNotifier.apk		33388387	3
 
 
 
-#ALERT: All apps got fix for HypeHelp mechanics: it will not constantly show its tip||
-#ALERT: Все приложения получили исправление для механики HypeHelp: она больше 
-#ALERT: не будет постоянно отображать начальную подсказку
+#ALERT: uNot for Android has been seriously updated. Check it out now!
 
 Flags: 1 = disallow the fast deployment, 2 = disable the version control
 
