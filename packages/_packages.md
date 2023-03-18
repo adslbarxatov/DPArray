@@ -11,12 +11,12 @@ Dates difference			3.1.7	DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0
 File extensions manager		2.2.7	DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x0005D237	0
 Font finder					3.1.7	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x000507E5	0
 Geomag data drawer			5.2.7	DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x001476B1	1
-KassArray					4.1.5	DEFSTORAGE/KassArray.dp						KassArray.dp				0x0013204C	1
+KassArray					4.1.6	DEFSTORAGE/KassArray.dp						KassArray.dp				0x00132454	1
 Make CST					2.0.7	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000125D3	0
 OS macros executor			3.1.7	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x00064D6A	1
 Screen shooter				2.1.7	DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x000389DD	0
 Sudoku solver				3.2.7	DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x000383B9	0
-uNot						6.0		DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x0004E5CD	0
+uNot						6.0.7	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x0004E5D7	0
 
 #Mods
 ESHQ						13.0	MODSTORAGE/240086?MOD_REFmods%2Feshq		ESHQ_setup.7z				230251732	3
@@ -32,10 +32,10 @@ Snake						2.0			DEFSTORAGE/Snake.7z						Snake.7z					16062515	1
 Turtle						2.0			DEFSTORAGE/Turtle.7z					Turtle.7z					14708666	1
 
 #Android apps
-KassArray for Android		4.1.5		GIT_LINK/KassArray/GIT_PATH/KassArray_KitKat.apk		KassArray.apk		33292893	3
-Make decision for Android	3.1			GIT_LINK/MakeDecision/GIT_PATH/MakeDecision.apk			MakeDecision.apk	32822804	3
-PA detector for Android		3.0			GIT_LINK/EnchantIt/GIT_PATH/PADetector.apk				PADetector.apk		39907557	3
-uNot for Android			6.0.6		GIT_LINK/UniNotifier/GIT_PATH/UniNotifier.apk			UniNotifier.apk		33388387	3
+KassArray for Android		4.1.6		GIT_LINK/KassArray/GIT_PATH/KassArray_KitKat.apk		KassArray.apk		33292893	3
+Make decision for Android	3.1.2		GIT_LINK/MakeDecision/GIT_PATH/MakeDecision.apk			MakeDecision.apk	32826900	3
+PA detector for Android		3.0.2		GIT_LINK/EnchantIt/GIT_PATH/PADetector.apk				PADetector.apk		40166176	3
+uNot for Android			6.0.7		GIT_LINK/UniNotifier/GIT_PATH/UniNotifier.apk			UniNotifier.apk		33384291	3
 
 
 
