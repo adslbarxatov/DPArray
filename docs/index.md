@@ -346,18 +346,6 @@ A tool for managing the custom file extensions in Windows operating system
 
 &nbsp;
 
-### Keyboard switcher
-:gb: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/keyboardswitcher) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/keyboardswitcher/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://KeyboardSwitcher)
-
-Quick correction tool for text entered on wrong keyboard layout (RU_ru and EN_us keyboards).
-Also allows you to translate HEX data to binary and backward
-
-&nbsp;
-
 ### Screen shooter
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
@@ -376,7 +364,7 @@ An utility for creating screenshots. Supports shooting of screen, windows and el
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/datesdifference/releases/latest) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://DatesDifference)
 
-A small tool that can tell the difference between two dates in different views
+A simple tool that can tell the difference between two dates in different views
 
 &nbsp;
 
@@ -387,11 +375,21 @@ A small tool that can tell the difference between two dates in different views
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/sudokusolver/releases/latest) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://SudokuSolver)
 
-A tool for solving sudoku
+A simple tool for solving sudoku
 
 &nbsp;
 
 ---
+
+&nbsp;
+
+### Keyboard switcher
+:gb: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> :no_entry_sign: &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/keyboardswitcher)
+
+Quick correction tool for text entered on wrong keyboard layout (RU_ru and EN_us keyboards).
+Also allows you to translate HEX data to binary and backward
 
 &nbsp;
 

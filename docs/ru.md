@@ -405,18 +405,6 @@ API для работы с файлами сохранений GTA Vice City и 
 
 &nbsp;
 
-### Keyboard switcher
-:gb: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/keyboardswitcher) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/keyboardswitcher/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KeyboardSwitcher)
-
-Инструмент быстрого исправления текста, введённого на неправильной раскладке клавиатуры (клавиатуры RU_ru
-и EN_us). Кроме того, позволяет преобразовывать HEX-данные в двоичные и обратно
-
-&nbsp;
-
 ### Screen shooter
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
@@ -435,7 +423,7 @@ API для работы с файлами сохранений GTA Vice City и 
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/datesdifference/releases/latest) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://DatesDifference)
 
-Маленький инструмент, определяющий разницу между двумя датами в различных представлениях
+Простой инструмент, определяющий разницу между двумя датами в различных представлениях
 
 &nbsp;
 
@@ -446,11 +434,21 @@ API для работы с файлами сохранений GTA Vice City и 
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/sudokusolver/releases/latest) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://SudokuSolver)
 
-Инструмент для решения судоку
+Простой инструмент для решения судоку
 
 &nbsp;
 
 ---
+
+&nbsp;
+
+### Keyboard switcher
+:gb: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> :no_entry_sign: &#x3000;
+:earth_africa: [О продукте](https://github.com/adslbarxatov/keyboardswitcher)
+
+Инструмент быстрого исправления текста, введённого на неправильной раскладке клавиатуры (клавиатуры RU_ru
+и EN_us). Кроме того, позволяет преобразовывать HEX-данные в двоичные и обратно
 
 &nbsp;
 
