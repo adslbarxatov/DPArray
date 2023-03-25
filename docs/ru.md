@@ -152,7 +152,7 @@
 
 ### Grammar must joy
 :ru: &#x3000;
-:earth_america: [О проекте](https://adslbarxatov.github.io/UniNotifier/GMJ) &#x3000;
+:earth_americas: [О проекте](https://adslbarxatov.github.io/UniNotifier/GMJ) &#x3000;
 :earth_africa: [Канал ВКонтакте](https://vk.com/grammarmustjoy) &#x3000;
 :earth_asia: [Канал Telegram](https://t.me/grammarmustjoy) &#x3000;
 :iphone: [Клиент GMJ](https://adslbarxatov.github.io/DPArray/ru#unot-uninotifier)
