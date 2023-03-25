@@ -152,7 +152,7 @@
 
 ### Grammar must joy
 :ru: &#x3000;
-:earth_america: [О проекте](https://adslbarxatov.github.io/UniNotifier/GMJ) &#x3000;
+:earth_americas: [О проекте](https://adslbarxatov.github.io/UniNotifier/GMJ) &#x3000;
 :earth_africa: [Канал ВКонтакте](https://vk.com/grammarmustjoy) &#x3000;
 :earth_asia: [Канал Telegram](https://t.me/grammarmustjoy) &#x3000;
 :iphone: [Клиент GMJ](https://adslbarxatov.github.io/DPArray/ru#unot-uninotifier)
@@ -200,9 +200,8 @@
 :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And4.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
-:earth_africa: [О продукте](https://adslbarxatov.github.io/kassarray) &#x3000;
+:earth_africa: [О продукте](https://adslbarxatov.github.io/KassArray) &#x3000;
 :film_projector: [Видеопрезентация](https://youtube.com/watch?v=fdH4SKFdTCI) &#x3000;
-:page_with_curl: [Полное руководство](https://adslbarxatov.github.io/KassArray) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/kassarray/releases/latest) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KassArray) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT) &#x3000;
@@ -288,7 +287,6 @@
 :gb: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/randomaze) &#x3000;
-:earth_asia: [Материнский проект](https://moddb.com/mods/esrm) &#x3000;
 :tv: [Демо видео](https://youtube.com/playlist?list=PLe7qKwHNkZTu8VJPLFEGCFsB4zqiJP7fh) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ESRM_setup) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Последнее обновление](dp://ESRM_update)
