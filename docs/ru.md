@@ -134,7 +134,7 @@
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/uninotifier) &#x3000;
+:earth_africa: [О продукте](https://adslbarxatov.github.io/UniNotifier) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=seFfQkfL6Sk) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/uninotifier/releases/latest) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://UniNotifier) &#x3000;
@@ -152,6 +152,7 @@
 
 ### Grammar must joy
 :ru: &#x3000;
+:earth_america: [О проекте](https://adslbarxatov.github.io/UniNotifier/GMJ) &#x3000;
 :earth_africa: [Канал ВКонтакте](https://vk.com/grammarmustjoy) &#x3000;
 :earth_asia: [Канал Telegram](https://t.me/grammarmustjoy) &#x3000;
 :iphone: [Клиент GMJ](https://adslbarxatov.github.io/DPArray/ru#unot-uninotifier)
@@ -178,41 +179,10 @@
 
 &nbsp;
 
-### Upsilon one
-:ru: :gb: &#x3000;
-:earth_africa: [Канал ВКонтакте](https://vk.com/upsilon_one) &#x3000;
-:iphone: [Клиент &#X03A5;1](https://adslbarxatov.github.io/DPArray/ru#unot-uninotifier)
-
-**Сообщество &#X03A5;1** – это условный город (в будущем – может быть, и что-то бо́льшее). Каждый пост в нём – самостоятельный житель
-(персонаж, сущность, entity) или объект (постройка, building). Необязательно абсолютно уникальный, но весьма вероятно имеющий
-какие-либо неповторимые особенности.
-
-У каждого поста предполагается наличие:
-- Имени, клички или названия. Не факт, что все жители будут живыми или даже материальными, а объекты – наземными.
-- Как минимум, двух универсальных характеристик – принадлежности (в играх её называют расой; у объектов это называется классом)
-и специализации (профессии, способности, решаемой задачи). Будучи двумя текстовыми строками в начале описания,
-они могут быть заполнены как угодно, в зависимости от природы описания.
-- Собственно, описания: по возможности, сжатого, но включающего наиболее яркие особенности.
-
-Универсальные характеристики нужны для обеспечения возможности текстового поиска по городу, если он станет достаточно большим.
-Кроме того, они могут пригодиться при миграции в сообщество второго уровня в Telegram.
-
-Третьим уровнем, к слову, станет возможность «гулять по улице, встречая жителей и проходя мимо случайных зданий». Для этого уже
-создана специальная версия приложения UniNotifier, готовая принимать персонажей из Upsilon one. Каждое нажатие специальной кнопки
-позволит ознакомиться со случайно выбранным описанием.
-
-Мы предполагаем, что данная идея будет иметь ценность, прежде всего, для писателей и копирайтеров. Но она же может быть полезна
-и гейм-дизайнерам, и художникам, и простым игрокам и читателям.
-
-Надеемся, что совместными усилиями (мы принимаем публикации пользователей) нам удастся создать достаточно объёмный и интересный
-проект! И добро пожаловать в Upsilon one!
-
-&nbsp;
-
 ### PA detector (Enchant it)
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And6.png" width="16"> &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/enchantit) &#x3000;
+:earth_africa: [О продукте](https://adslbarxatov.github.io/EnchantIt) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=hTnDR89VR8w) &#x3000;
 :page_with_curl: [Полное описание](https://vk.com/@rd_aaow_fdl-pad) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) &#x3000;
@@ -230,7 +200,7 @@
 :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And4.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/kassarray) &#x3000;
+:earth_africa: [О продукте](https://adslbarxatov.github.io/kassarray) &#x3000;
 :film_projector: [Видеопрезентация](https://youtube.com/watch?v=fdH4SKFdTCI) &#x3000;
 :page_with_curl: [Полное руководство](https://adslbarxatov.github.io/KassArray) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/kassarray/releases/latest) &#x3000;
@@ -261,7 +231,7 @@
 ### Make decision
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/makedecision) &#x3000;
+:earth_africa: [О продукте](https://adslbarxatov.github.io/MakeDecision) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=40Lvq0Q1we0) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) &#x3000;
 :iphone: [На GetApps](https://global.app.mi.com/details?id=makedecision.xiaomi) &#x3000;
@@ -304,7 +274,7 @@
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [Полное описание](https://moddb.com/mods/eshq) &#x3000;
 :tv: [Демо видео](https://youtube.com/playlist?list=PLe7qKwHNkZTuYevg6QyszASeD7S1XgpG_) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ESHQ) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ESHQ_setup) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Последнее обновление](dp://ESHQ_update)
 
 Мод для Half-Life 1 с собственной сюжетной линией (не из вселенной Half-Life). Неизвестный правительственный
@@ -319,7 +289,9 @@
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/randomaze) &#x3000;
 :earth_asia: [Материнский проект](https://moddb.com/mods/esrm) &#x3000;
-:film_projector: [Демо видео](https://youtube.com/watch?v=M9VqCIH6OUo)
+:tv: [Демо видео](https://youtube.com/playlist?list=PLe7qKwHNkZTu8VJPLFEGCFsB4zqiJP7fh) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ESRM_setup) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [Последнее обновление](dp://ESRM_update)
 
 ES: Randomaze – генератор карт для одноимённого мода.
 Инструмент являлся частью мода ESHQ для Half-Life часть 1. Теперь это самостоятельный проект
@@ -442,16 +414,6 @@ API для работы с файлами сохранений GTA Vice City и 
 
 &nbsp;
 
-### Keyboard switcher
-:gb: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> :no_entry_sign: &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/keyboardswitcher)
-
-Инструмент быстрого исправления текста, введённого на неправильной раскладке клавиатуры (клавиатуры RU_ru
-и EN_us). Кроме того, позволяет преобразовывать HEX-данные в двоичные и обратно
-
-&nbsp;
-
 ### FullSilence, CodeShow
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> :no_entry_sign: &#x3000;
@@ -492,6 +454,16 @@ API для работы с файлами сохранений GTA Vice City и 
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Turtle)
 
 «Черепашка» – классическая игра для Тетриса. Из учебного набора игр для MonoGame Framework
+
+&nbsp;
+
+### Keyboard switcher
+:gb: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> :no_entry_sign: &#x3000;
+:earth_africa: [О продукте](https://github.com/adslbarxatov/keyboardswitcher)
+
+Инструмент быстрого исправления текста, введённого на неправильной раскладке клавиатуры (клавиатуры RU_ru
+и EN_us). Кроме того, позволяет преобразовывать HEX-данные в двоичные и обратно
 
 &nbsp;
 
@@ -557,6 +529,5 @@ API для работы с файлами сохранений GTA Vice City и 
 [Turtle](#turtle) &#x3000;
 [Tables merger](#tables-merger) &#x3000;
 [uNot (UniNotifier)](#unot-uninotifier) &#x3000;
-[Upsilon one](#upsilon-one) &#x3000;
 [Vector image generator](#vector-image-generator) &#x3000;
 [Xash3D FWGS for ESHQ](#xash3d-fwgs-engine-adaptation-for-eshq)

@@ -136,7 +136,7 @@ since it uses a user-selected system audio output
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/uninotifier) &#x3000;
+:earth_africa: [About](https://adslbarxatov.github.io/UniNotifier) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=seFfQkfL6Sk) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/uninotifier/releases/latest) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://UniNotifier) &#x3000;
@@ -151,40 +151,10 @@ has specified is loaded – all other objects (including ads) are ignored
 
 &nbsp;
 
-### Upsilon one
-:ru: :gb: &#x3000;
-:earth_africa: [VK](https://vk.com/upsilon_one) &#x3000;
-:iphone: [Get &#X03A5;1 client](#unot-uninotifier)
-
-The **&#X03A5;1 community** is a conditional city (in the future, maybe something more). Each post in it is an independent resident
-(character, entity) or object (building). Not necessarily completely unique, but very likely to have some unique features.
-
-Each post is expected to have:
-- Names, nicknames or titles. It is not a fact that all the inhabitants will be alive or even material, and the objects will be terrestrial.
-- At least two universal characteristics – belonging (in games it is called a race; for objects it is called a class)
-and specialization (profession, ability, task being solved). Being two text lines at the beginning of the description,
-they can be filled with anything, depending on the nature of the description.
-- Actually, descriptions: as concise as possible, but including the most striking features.
-
-Universal characteristics are needed to enable text search in the city if it becomes large enough. In addition,
-they can be useful when migrating to the second-level community in Telegram.
-
-The third level, by the way, will be the ability to “walk along the street, meeting residents and passing by random buildings”.
-For this, a special version of the UniNotifier application has already been created, ready to accept characters from
-Upsilon one. Each press of a special button will allow you to familiarize yourself with a randomly selected description.
-
-We assume that this idea will be of value primarily to writers and copywriters. But it can also be useful for game designers,
-artists, and ordinary players and readers.
-
-We hope that by joint efforts (we accept user publications) we will be able to create a fairly voluminous and interesting
-project! And welcome to Upsilon one!
-
-&nbsp;
-
 ### PA detector (Enchant it)
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And6.png" width="16"> &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/enchantit) &#x3000;
+:earth_africa: [About](https://adslbarxatov.github.io/EnchantIt) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=hTnDR89VR8w) &#x3000;
 :page_with_curl: [Description](https://vk.com/@rd_aaow_fdl-pad) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) &#x3000;
@@ -212,7 +182,7 @@ Stand-alone tool for building and designing diagrams based on tabular data
 ### Make decision
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/makedecision) &#x3000;
+:earth_africa: [About](https://adslbarxatov.github.io/MakeDecision) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=40Lvq0Q1we0) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) &#x3000;
 :iphone: [Get on GetApps](https://global.app.mi.com/details?id=makedecision.xiaomi) &#x3000;
@@ -255,7 +225,7 @@ A tool for finding a font by its image
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [Summary](https://moddb.com/mods/eshq) &#x3000;
 :tv: [Video demo](https://youtube.com/playlist?list=PLe7qKwHNkZTuYevg6QyszASeD7S1XgpG_) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ESHQ) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ESHQ_setup) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get the last update](dp://ESHQ_update)
 
 A mod for Half-Life 1 with its own storyline (not from the Half-Life universe). An unknown government spy must
@@ -269,8 +239,9 @@ for those who have not yet had time to try it live
 :gb: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/randomaze) &#x3000;
-:earth_asia: [Parent project](https://moddb.com/mods/esrm) &#x3000;
-:film_projector: [Video demo](https://youtube.com/watch?v=M9VqCIH6OUo)
+:tv: [Video demo](https://youtube.com/playlist?list=PLe7qKwHNkZTu8VJPLFEGCFsB4zqiJP7fh) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ESRM_setup) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [Get the last update](dp://ESRM_update)
 
 ES: Randomaze is the maps generator for the mod with the same name.
 This tool was the part of the ESHQ mod for Half-Life part 1. Now it is a stand-alone project
@@ -383,16 +354,6 @@ A simple tool for solving sudoku
 
 &nbsp;
 
-### Keyboard switcher
-:gb: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> :no_entry_sign: &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/keyboardswitcher)
-
-Quick correction tool for text entered on wrong keyboard layout (RU_ru and EN_us keyboards).
-Also allows you to translate HEX data to binary and backward
-
-&nbsp;
-
 ### FullSilence, CodeShow
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> :no_entry_sign: &#x3000;
@@ -433,6 +394,16 @@ Code fragments used in video projects of the same names in text visualization.
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://Turtle)
 
 “Turtle”, the classic Tetris game. It is the sample project for MonoGame Framework
+
+&nbsp;
+
+### Keyboard switcher
+:gb: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> :no_entry_sign: &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/keyboardswitcher)
+
+Quick correction tool for text entered on wrong keyboard layout (RU_ru and EN_us keyboards).
+Also allows you to translate HEX data to binary and backward
 
 &nbsp;
 
@@ -489,6 +460,5 @@ Now it is a part of [Geomag data drawer](#geomag-data-drawer)
 [Turtle](#turtle) &#x3000;
 [Tables merger](#tables-merger) &#x3000;
 [uNot (UniNotifier)](#unot-uninotifier) &#x3000;
-[Upsilon one](#upsilon-one) &#x3000;
 [Vector image generator](#vector-image-generator) &#x3000;
 [Xash3D FWGS for ESHQ](#xash3d-fwgs-engine-adaptation-for-eshq)
