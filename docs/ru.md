@@ -287,7 +287,6 @@
 :gb: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/randomaze) &#x3000;
-:earth_asia: [Материнский проект](https://moddb.com/mods/esrm) &#x3000;
 :tv: [Демо видео](https://youtube.com/playlist?list=PLe7qKwHNkZTu8VJPLFEGCFsB4zqiJP7fh) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ESRM_setup) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Последнее обновление](dp://ESRM_update)
