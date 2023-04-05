@@ -9,7 +9,7 @@ BExplorer					3.1.7	DEFSTORAGE/BExplorer.dp						BExplorer.dp				0x00175768	1
 ConcurrentDraw				3.1.7	DEFSTORAGE/ConcurrentDraw.dp				ConcurrentDraw.dp			0x000A62CC	1
 Dates difference			3.1.7	DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x000393F2	0
 File extensions manager		2.2.7	DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x0005D237	0
-Font finder					3.1.7	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x000507E5	0
+Font finder					3.2		DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x00050BEB	0
 Geomag data drawer			5.2.7	DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x001476B1	1
 KassArray					4.1.9	DEFSTORAGE/KassArray.dp						KassArray.dp				0x0013243C	1
 Make CST					2.0.7	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000125D3	0
