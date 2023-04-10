@@ -1,7 +1,7 @@
 ```
 Packages, available for download:
 
-DPArray						5.4.7	DEFSTORAGE/DPArray.dp						DPArray.dp					0x000B029D	0
+DPArray						5.5		DEFSTORAGE/DPArray.dp						DPArray.dp					0x000B0697	0
 
 #Apps
 Batch image convertor		3.2.7	DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x00061D98	1
@@ -33,8 +33,8 @@ Turtle						2.0			DEFSTORAGE/Turtle.7z					Turtle.7z					14708666	1
 
 #Android apps
 KassArray for Android		4.2			GIT_LINK/KassArray/GIT_PATH/KassArray_KitKat.apk		KassArray.apk		33038260	3
-Make decision for Android	3.1.2		GIT_LINK/MakeDecision/GIT_PATH/MakeDecision.apk			MakeDecision.apk	32826900	3
-PA detector for Android		3.0.2		GIT_LINK/EnchantIt/GIT_PATH/PADetector.apk				PADetector.apk		40166176	3
+Make decision for Android	3.2			GIT_LINK/MakeDecision/GIT_PATH/MakeDecision.apk			MakeDecision.apk	32826900	3
+PA detector for Android		3.1			GIT_LINK/EnchantIt/GIT_PATH/PADetector.apk				PADetector.apk		40166176	3
 uNot for Android			6.1			GIT_LINK/UniNotifier/GIT_PATH/UniNotifier.apk			UniNotifier.apk		33121572	3
 
 

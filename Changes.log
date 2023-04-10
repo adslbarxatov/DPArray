@@ -3,6 +3,12 @@ DPArray: changes log
 ToDo:
 - Implement the AppLauncher
 
+Version 5.5:
+• Some tips and captions have been replaced or updated;
+• The text tips processing code has been refactored, some methods have been unified
+  and simplified;
+• Removed some redundant code
+
 Version 5.4.7:
 • Updated the HypeHelp mechanics
 
