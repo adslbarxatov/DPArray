@@ -11,11 +11,11 @@ Dates difference			3.2		DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x
 File extensions manager		2.3		DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x0005D03D	0
 Font finder					3.2.2	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x00050DED	0
 Geomag data drawer			5.3		DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x001478B7	1
-KassArray					4.2		DEFSTORAGE/KassArray.dp						KassArray.dp				0x00132A42	1
+KassArray					4.2.5	DEFSTORAGE/KassArray.dp						KassArray.dp				0x00132C4C	1
 Make CST					2.0.7	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000125D3	0
 OS macros executor			3.2		DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x00065168	1
-Screen shooter				2.1.7	DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x000389DD	0
-Sudoku solver				3.2.7	DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x000383B9	0
+Screen shooter				2.2		DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x00038DDB	0
+Sudoku solver				3.3		DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x000389AF	0
 uNot						6.1		DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x0004E3CD	0
 
 #Mods
