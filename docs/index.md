@@ -136,7 +136,7 @@ since it uses a user-selected system audio output
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
-:earth_africa: [About](https://adslbarxatov.github.io/UniNotifier) &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/UniNotifier) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=seFfQkfL6Sk) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/uninotifier/releases/latest) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://UniNotifier) &#x3000;
@@ -154,7 +154,7 @@ has specified is loaded – all other objects (including ads) are ignored
 ### PA detector (Enchant it)
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And6.png" width="16"> &#x3000;
-:earth_africa: [About](https://adslbarxatov.github.io/EnchantIt) &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/EnchantIt) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=hTnDR89VR8w) &#x3000;
 :page_with_curl: [Description](https://vk.com/@rd_aaow_fdl-pad) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) &#x3000;
@@ -182,7 +182,7 @@ Stand-alone tool for building and designing diagrams based on tabular data
 ### Make decision
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
-:earth_africa: [About](https://adslbarxatov.github.io/MakeDecision) &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/MakeDecision) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=40Lvq0Q1we0) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) &#x3000;
 :iphone: [Get on GetApps](https://global.app.mi.com/details?id=makedecision.xiaomi) &#x3000;
@@ -273,9 +273,8 @@ and corrections is available here
 ### BExplorer
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/bexplorer) &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/BExplorer) &#x3000;
 :film_projector: [Video demo](https://youtube.com/watch?v=RdLt-dTz8vU) &#x3000;
-:page_with_curl: [User guide](https://github.com/adslbarxatov/BExplorer/blob/master/UserManual.md) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/bexplorer/releases/latest) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://BExplorer)
 

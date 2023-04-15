@@ -134,7 +134,7 @@
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
-:earth_africa: [О продукте](https://adslbarxatov.github.io/UniNotifier) &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/UniNotifier) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=seFfQkfL6Sk) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/uninotifier/releases/latest) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://UniNotifier) &#x3000;
@@ -152,7 +152,7 @@
 
 ### Grammar must joy
 :ru: &#x3000;
-:earth_americas: [О проекте](https://adslbarxatov.github.io/UniNotifier/GMJ) &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/UniNotifier/GMJ) &#x3000;
 :earth_africa: [Канал ВКонтакте](https://vk.com/grammarmustjoy) &#x3000;
 :earth_asia: [Канал Telegram](https://t.me/grammarmustjoy) &#x3000;
 :iphone: [Клиент GMJ](https://adslbarxatov.github.io/DPArray/ru#unot-uninotifier)
@@ -182,7 +182,7 @@
 ### PA detector (Enchant it)
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And6.png" width="16"> &#x3000;
-:earth_africa: [О продукте](https://adslbarxatov.github.io/EnchantIt) &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/EnchantIt/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=hTnDR89VR8w) &#x3000;
 :page_with_curl: [Полное описание](https://vk.com/@rd_aaow_fdl-pad) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) &#x3000;
@@ -200,7 +200,7 @@
 :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And4.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
-:earth_africa: [О продукте](https://adslbarxatov.github.io/KassArray) &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/KassArray) &#x3000;
 :film_projector: [Видеопрезентация](https://youtube.com/watch?v=fdH4SKFdTCI) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/kassarray/releases/latest) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KassArray) &#x3000;
@@ -230,7 +230,7 @@
 ### Make decision
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
-:earth_africa: [О продукте](https://adslbarxatov.github.io/MakeDecision) &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/MakeDecision/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=40Lvq0Q1we0) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) &#x3000;
 :iphone: [На GetApps](https://global.app.mi.com/details?id=makedecision.xiaomi) &#x3000;
@@ -331,9 +331,8 @@ ES: Randomaze – генератор карт для одноимённого м
 ### BExplorer
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/bexplorer) &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/BExplorer/ru) &#x3000;
 :film_projector: [Демо видео](https://youtube.com/watch?v=RdLt-dTz8vU) &#x3000;
-:page_with_curl: [Руководство](https://github.com/adslbarxatov/BExplorer/blob/master/UserManual.md) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/bexplorer/releases/latest) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://BExplorer)
 
