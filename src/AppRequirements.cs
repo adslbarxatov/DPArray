@@ -18,25 +18,25 @@ namespace RD_AAOW
 		/// </summary>
 		VC_RTL = 1,
 
-		/// <summary>
+		/*/// <summary>
 		/// Microsoft XNA Framework
 		/// </summary>
-		XNAFramework = 2,
+		XNAFramework = 2,*/
 
 		/// <summary>
 		/// Microsoft SQL Compact edition
 		/// </summary>
-		SQLCE = 3,
+		SQLCE = 2,
 
 		/// <summary>
 		/// Microsoft .NET Framework 6.0
 		/// </summary>
-		DotNet6 = 4,
+		DotNet6 = 3,
 
 		/// <summary>
 		/// Microsoft DirectX update
 		/// </summary>
-		DirectX = 5,
+		DirectX = 4,
 
 		/// <summary>
 		/// Не является стандартной зависимостью
@@ -196,7 +196,7 @@ namespace RD_AAOW
 					alreadyInstalled = s.StartsWith ("14.3");
 					break;
 
-				case AppDefaultRequirements.XNAFramework:
+				/*case AppDefaultRequirements.XNAFramework:
 					downloadLink = "https://microsoft.com/en-us/download/details.aspx?id=20914";
 					description = "Microsoft XNA Framework Redistributable 4.0";
 					// Автозагрузка не предусмотрена
@@ -206,7 +206,7 @@ namespace RD_AAOW
 						"HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\XNA\\Framework\\v4.0");
 
 					alreadyInstalled = s.StartsWith ("4.0");
-					break;
+					break;*/
 
 				case AppDefaultRequirements.SQLCE:
 					downloadLink = "https://microsoft.com/en-us/download/details.aspx?id=30709";
@@ -221,12 +221,18 @@ namespace RD_AAOW
 				case AppDefaultRequirements.DotNet6:
 					downloadLink = "https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/" +
 						"runtime-desktop-6.0.9-windows-x86-installer";
-					description = "Microsoft .NET Framework 6.0";
+					description = "Microsoft .NET Framework 6.0 (or newer)";
 
 					s = RDGenerics.GetAppSettingsValue ("Version",
 						"HKEY_LOCAL_MACHINE\\SOFTWARE\\dotnet\\Setup\\InstalledVersions\\x86\\hostfxr");
+					v = 0;
+					try
+						{
+						v = uint.Parse (s.Substring (0, 1));
+						}
+					catch { }
 
-					alreadyInstalled = (s.StartsWith ("6.0"));
+					alreadyInstalled = (v >= 6);
 					break;
 
 				case AppDefaultRequirements.DirectX:
@@ -288,14 +294,14 @@ namespace RD_AAOW
 				case AppDefaultRequirements.VC_RTL:
 					return "CPP+";
 
-				case AppDefaultRequirements.XNAFramework:
-					return "XNA+";
+					/*case AppDefaultRequirements.XNAFramework:
+						return "XNA+";*/
 				}
 			}
 
 		/// <summary>
 		/// Возвращает количество доступных стандартных зависимостей
 		/// </summary>
-		public const uint DefaultRequirementsCount = 6;
+		public const uint DefaultRequirementsCount = 5;
 		}
 	}

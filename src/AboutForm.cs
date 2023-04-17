@@ -1,6 +1,5 @@
 ﻿using System;
 using System.ComponentModel;
-using System.Diagnostics;
 using System.Drawing;
 using System.Globalization;
 using System.IO;
@@ -473,15 +472,11 @@ namespace RD_AAOW
 		/// если указан null, запускается ссылка на релизы продукта</param>
 		public AboutForm (string Link)
 			{
-			try
-				{
-				if (string.IsNullOrWhiteSpace (Link))
-					Process.Start (RDGenerics.DefaultGitLink + ProgramDescription.AssemblyMainName +
+			if (string.IsNullOrWhiteSpace (Link))
+				RDGenerics.RunURL (RDGenerics.DefaultGitLink + ProgramDescription.AssemblyMainName +
 						RDGenerics.GitUpdatesSublink + "/latest");
-				else
-					Process.Start (Link);
-				}
-			catch { }
+			else
+				RDGenerics.RunURL (Link);
 			}
 
 		// Закрытие окна
@@ -505,29 +500,17 @@ namespace RD_AAOW
 		// Запуск ссылок
 		private void UserManualButton_Click (object sender, EventArgs e)
 			{
-			try
-				{
-				Process.Start (userManualLink);
-				}
-			catch { }
+			RDGenerics.RunURL (userManualLink);
 			}
 
 		private void ProjectPageButton_Click (object sender, EventArgs e)
 			{
-			try
-				{
-				Process.Start (projectLink);
-				}
-			catch { }
+			RDGenerics.RunURL (projectLink);
 			}
 
 		private void ADP_Click (object sender, EventArgs e)
 			{
-			try
-				{
-				Process.Start (RDGenerics.ADPLink);
-				}
-			catch { }
+			RDGenerics.RunURL (RDGenerics.ADPLink);
 			}
 
 		private void ToLaboratory_Click (object sender, EventArgs e)
@@ -548,21 +531,13 @@ namespace RD_AAOW
 					break;
 				}
 
-			try
-				{
-				Process.Start (link);
-				}
-			catch { }
+			RDGenerics.RunURL (link);
 			}
 
 		private void AskDeveloper_Click (object sender, EventArgs e)
 			{
-			try
-				{
-				Process.Start (RDGenerics.LabMailLink + ("?subject=" +
+			RDGenerics.RunURL (RDGenerics.LabMailLink + ("?subject=" +
 					RDGenerics.LabMailCaption).Replace (" ", "%20"));
-				}
-			catch { }
 			}
 
 		// Загрузка пакета обновления изнутри приложения
@@ -570,7 +545,7 @@ namespace RD_AAOW
 			{
 #if !DPMODULE
 
-			// Контроль наличия DPModule
+			// Контроль наличия DPArray
 			string dpmv = RDGenerics.GetAppSettingsValue (LastShownVersionKey, ADPRevisionPath);
 			string downloadLink, packagePath;
 
@@ -587,11 +562,7 @@ namespace RD_AAOW
 						return;
 
 					case RDMessageButtons.ButtonTwo:
-						try
-							{
-							Process.Start (RDGenerics.DPArrayUserManualLink);
-							}
-						catch { }
+						RDGenerics.RunURL (RDGenerics.DPArrayUserManualLink);
 						return;
 					}
 
@@ -606,12 +577,18 @@ namespace RD_AAOW
 					RDMessageButtons.ButtonOne)
 					return;
 
+#if MONOGAME
+				downloadLink = packagePath = "";
+				RDGenerics.RunURL (RDGenerics.DPArrayProtocolPrefix + ProgramDescription.AssemblyMainName);
+				return;
+#else
 				downloadLink = RDGenerics.DPArrayPackageLink;
 
 				packagePath = RDGenerics.GetAppSettingsValue (toolName, ADPRevisionPath);
 				if ((l = packagePath.IndexOf ('\t')) >= 0)
 					packagePath = packagePath.Substring (0, l);
 				packagePath += "\\Downloaded\\";
+#endif
 				}
 
 			l = downloadLink.LastIndexOf ('/');
@@ -652,11 +629,7 @@ namespace RD_AAOW
 				}
 
 			// Запуск пакета
-			try
-				{
-				Process.Start (packagePath);
-				}
-			catch { }
+			RDGenerics.RunURL (packagePath);
 
 #endif
 			}
@@ -1092,7 +1065,7 @@ policy:
 		/// <summary>
 		/// Метод выполняет регистрацию указанного протокола и привязывает его к текущему приложению
 		/// </summary>
-		/// <param name="ProtocolCode">Имя протокола; если передаётся расширение, точка отсекается</param>
+		/// <param name="ProtocolCode">Имя протокола</param>
 		/// <param name="ProtocolName">Название протокола</param>
 		/// <param name="ShowWarning">Флаг указывает, что необходимо отобразить предупреждение 
 		/// перед регистрацией</param>
@@ -1102,7 +1075,7 @@ policy:
 			bool ShowWarning)
 			{
 			// Подготовка
-			string protocol = ProtocolCode.ToLower ().Replace (".", "");
+			string protocol = ProtocolCode.ToLower ();
 
 			// Контроль
 			if (ShowWarning && (RDGenerics.MessageBox (RDMessageTypes.Warning,
