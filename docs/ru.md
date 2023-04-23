@@ -327,26 +327,16 @@ ES: Randomaze – генератор карт для одноимённого м
 
 &nbsp;
 
-### BExplorer
+### Vice city toolset
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
-:page_with_curl: [Руководство](https://adslbarxatov.github.io/BExplorer/ru) &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/ViceCityToolset/ru) &#x3000;
 :film_projector: [Демо видео](https://youtube.com/watch?v=RdLt-dTz8vU) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/bexplorer/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://BExplorer)
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/ViceCityToolset/releases/latest) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ViceCityToolset)
 
-API для работы с файлами сохранений GTA Vice City и приложение, реализующее часть функционала
-
-&nbsp;
-
-### Make CST
-:gb: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/makecst) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/makecst/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://MakeCST)
-
-Инструмент преобразования моделей DFF и объектов QHullOFF в скрипты столкновений GTA
+Набор инструментов моддера для GTA Vice city, поддерживающий некоторые полезные функции и операции.
+А именно: редактирование файлов сохранений, редактирование параметров транспорта, преобразование моделей в скрипты коллизий и т.п.
 
 &nbsp;
 
@@ -406,7 +396,57 @@ API для работы с файлами сохранений GTA Vice City и 
 
 &nbsp;
 
+### Races
+:ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
+:earth_africa: [О продукте](https://github.com/adslbarxatov/races) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Races)
+
+«Гонки» – классическая игра для Тетриса. Из учебного набора игр для MonoGame Framework
+
+&nbsp;
+
+### Snake
+:ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
+:earth_africa: [О продукте](https://github.com/adslbarxatov/snake) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Snake)
+
+«Змейка» – классическая игра для Тетриса. Из учебного набора игр для MonoGame Framework
+
+&nbsp;
+
+### Turtle
+:ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
+:earth_africa: [О продукте](https://github.com/adslbarxatov/turtle) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Turtle)
+
+«Черепашка» – классическая игра для Тетриса. Из учебного набора игр для MonoGame Framework
+
+&nbsp;
+
 ---
+
+&nbsp;
+
+### BExplorer
+:gb: :ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> :no_entry_sign: &#x3000;
+:earth_africa: [О продукте](https://github.com/adslbarxatov/bexplorer)
+
+API для работы с файлами сохранений GTA Vice City и приложение, реализующее часть функционала.
+Теперь он является частью [Vice city toolset](#vice-city-toolset)
+
+&nbsp;
+
+### Make CST
+:gb: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> :no_entry_sign: &#x3000;
+:earth_africa: [О продукте](https://github.com/adslbarxatov/makecst)
+
+Инструмент преобразования моделей DFF и объектов QHullOFF в скрипты столкновений GTA.
+Теперь он является частью [Vice city toolset](#vice-city-toolset)
 
 &nbsp;
 
@@ -420,36 +460,6 @@ API для работы с файлами сохранений GTA Vice City и 
 Фрагменты кода, используемые в рамках одноимённых проектов при визуализации текста.
 *FullSilence* – визуализатор стихотворений и песен, использующий комбинации графических примитивов.
 *CodeShow* – конструктор видеоуроков, ориентированный на представление исходных кодов
-
-&nbsp;
-
-### Races
-:ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> :no_entry_sign: &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/races) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Races)
-
-«Гонки» – классическая игра для Тетриса. Из учебного набора игр для MonoGame Framework
-
-&nbsp;
-
-### Snake
-:ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> :no_entry_sign: &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/snake) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Snake)
-
-«Змейка» – классическая игра для Тетриса. Из учебного набора игр для MonoGame Framework
-
-&nbsp;
-
-### Turtle
-:ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> :no_entry_sign: &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/turtle) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Turtle)
-
-«Черепашка» – классическая игра для Тетриса. Из учебного набора игр для MonoGame Framework
 
 &nbsp;
 
@@ -526,4 +536,5 @@ API для работы с файлами сохранений GTA Vice City и 
 [Tables merger](#tables-merger) &#x3000;
 [uNot (UniNotifier)](#unot-uninotifier) &#x3000;
 [Vector image generator](#vector-image-generator) &#x3000;
+[Vice city toolset](#vice-city-toolset) &#x3000;
 [Xash3D FWGS for ESHQ](#xash3d-fwgs-engine-adaptation-for-eshq)

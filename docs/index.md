@@ -270,26 +270,16 @@ and corrections is available here
 
 &nbsp;
 
-### BExplorer
+### Vice city toolset
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
-:page_with_curl: [User guide](https://adslbarxatov.github.io/BExplorer) &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/ViceCityToolset) &#x3000;
 :film_projector: [Video demo](https://youtube.com/watch?v=RdLt-dTz8vU) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/bexplorer/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://BExplorer)
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/ViceCityToolset/releases/latest) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ViceCityToolset)
 
-An API for working with save files for GTA Vice City and an application that implements a part of functionality
-
-&nbsp;
-
-### Make CST
-:gb: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/makecst) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/makecst/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://MakeCST)
-
-A tool for converting DFF models and QHullOFF objects to GTA collision scripts
+A set of modder tools for GTA Vice city that supports some useful functions and operations.
+Namely: editing game saves, editing transport parameters, converting models to collision scripts, etc.
 
 &nbsp;
 
@@ -349,7 +339,55 @@ A simple tool for solving sudoku
 
 &nbsp;
 
+### Races
+:ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/races) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://Races)
+
+“Races”, the classic Tetris game. It is the sample project for MonoGame Framework
+
+&nbsp;
+
+### Snake
+:ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/snake) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://Snake)
+
+“Snake”, the classic Tetris game. It is the sample project for MonoGame Framework
+
+&nbsp;
+
+### Turtle
+:ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/turtle) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://Turtle)
+
+“Turtle”, the classic Tetris game. It is the sample project for MonoGame Framework
+
+&nbsp;
+
 ---
+
+### BExplorer
+:gb: :ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> :no_entry_sign: &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/bexplorer)
+
+An API for working with save files for GTA Vice City and an application that implements a part of functionality.
+Now it is a part of [Vice city toolset](#vice-city-toolset)
+
+&nbsp;
+
+### Make CST
+:gb: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> :no_entry_sign: &#x3000;
+:earth_africa: [About](https://github.com/adslbarxatov/makecst)
+
+A tool for converting DFF models and QHullOFF objects to GTA collision scripts.
+Now it is a part of [Vice city toolset](#vice-city-toolset)
 
 &nbsp;
 
@@ -363,36 +401,6 @@ A simple tool for solving sudoku
 Code fragments used in video projects of the same names in text visualization.
 *FullSilence* is a poems visualizer that uses combinations of graphic primitives.
 *CodeShow* is a video tutorials builder focused on the presentation of source codes
-
-&nbsp;
-
-### Races
-:ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> :no_entry_sign: &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/races) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://Races)
-
-“Races”, the classic Tetris game. It is the sample project for MonoGame Framework
-
-&nbsp;
-
-### Snake
-:ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> :no_entry_sign: &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/snake) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://Snake)
-
-“Snake”, the classic Tetris game. It is the sample project for MonoGame Framework
-
-&nbsp;
-
-### Turtle
-:ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> :no_entry_sign: &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/turtle) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://Turtle)
-
-“Turtle”, the classic Tetris game. It is the sample project for MonoGame Framework
 
 &nbsp;
 
@@ -460,4 +468,5 @@ Now it is a part of [Geomag data drawer](#geomag-data-drawer)
 [Tables merger](#tables-merger) &#x3000;
 [uNot (UniNotifier)](#unot-uninotifier) &#x3000;
 [Vector image generator](#vector-image-generator) &#x3000;
+[Vice city toolset](#vice-city-toolset) &#x3000;
 [Xash3D FWGS for ESHQ](#xash3d-fwgs-engine-adaptation-for-eshq)
