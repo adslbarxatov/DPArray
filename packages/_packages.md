@@ -5,18 +5,17 @@ DPArray						5.6		DEFSTORAGE/DPArray.dp						DPArray.dp					0x000B088F	0
 
 #Apps
 Batch image convertor		3.3		DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x0006218E	1
-BExplorer					3.2		DEFSTORAGE/BExplorer.dp						BExplorer.dp				0x00175F5E	1
 ConcurrentDraw				3.2		DEFSTORAGE/ConcurrentDraw.dp				ConcurrentDraw.dp			0x000A66C2	1
 Dates difference			3.2		DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x000399E8	0
 File extensions manager		2.3		DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x0005D03D	0
 Font finder					3.2.2	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x00050DED	0
 Geomag data drawer			5.3		DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x001478B7	1
 KassArray					4.2.5	DEFSTORAGE/KassArray.dp						KassArray.dp				0x00132C4C	1
-Make CST					2.0.7	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000125D3	0
 OS macros executor			3.2		DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x00065168	1
 Screen shooter				2.2		DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x00038DDB	0
 Sudoku solver				3.3		DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x000389AF	0
 uNot						6.1		DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x0004E3CD	0
+Vice city toolset			4.0		DEFSTORAGE/ViceCityToolset.dp				ViceCityToolset.dp			0x0019D1B7	1
 
 #Mods
 ESHQ						13.0	MODSTORAGE/240086?MOD_REFmods%2Feshq		ESHQ_setup.7z				230251732	3
@@ -39,7 +38,7 @@ uNot for Android			6.1			GIT_LINK/UniNotifier/GIT_PATH/UniNotifier.apk			UniNoti
 
 
 
-#ALERT: uNot for Android has been seriously updated. Check it out now!
+#ALERT: United Vice city toolset is out now!
 
 Flags: 1 = disallow the fast deployment, 2 = disable the version control
 
