@@ -4,7 +4,7 @@ Packages, available for download:
 DPArray						5.6		DEFSTORAGE/DPArray.dp						DPArray.dp					0x000B088F	0
 
 #Apps
-Batch image convertor		3.3		DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x0006218E	1
+Batch image convertor		3.3.2	DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x00058D98	1
 ConcurrentDraw				3.2		DEFSTORAGE/ConcurrentDraw.dp				ConcurrentDraw.dp			0x000A66C2	1
 Dates difference			3.2		DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x000399E8	0
 File extensions manager		2.3		DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x0005D03D	0
