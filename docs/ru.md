@@ -67,6 +67,8 @@
 
 Знак :no_entry_sign: указывает на проекты, снятые с поддержки.
 
+Знаком :snowflake: помечены замороженные проекты, которые впоследствии могут быть возобновлены.
+
 Полный список программных продуктов доступен [здесь](https://github.com/adslbarxatov?tab=repositories).
 Общий список модов доступен [здесь](https://moddb.com/members/rd-aaow-fdl/mods)
 
@@ -422,7 +424,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 ### Accounts manager
 :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/SQL.png" width="16"> :snow: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/SQL.png" width="16"> :snowflake: &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/accountsmanager)
 
 Инструмент управления бюджетными счетами. Программа предназначена для накопления, хранения, обработки и выдачи по запросу
@@ -452,7 +454,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### FullSilence, CodeShow
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> :no_entry_sign: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> :snowflake: &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/fullsilence) &#x3000;
 :tv: [FullSilence live](https://youtube.com/playlist?list=PLe7qKwHNkZTsreIEQFedftXv3iQG-5LOA) &#x3000;
 :tv: [CodeShow live](https://youtube.com/playlist?list=PLe7qKwHNkZTuZiVfiX1EhD4G7EPcReaA5)
@@ -495,7 +497,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### GIATester
 :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> :no_entry_sign: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> :snowflake: &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/giatester)
 
 Инструмент для автоматизированной подготовки, проведения и оценки тестовых заданий (ГИА/ЕГЭ)
