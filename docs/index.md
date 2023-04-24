@@ -69,6 +69,8 @@ Descriptions contain:
 
 The :no_entry_sign: marks projects that are no longer supported.
 
+The :snowflake: sign marks frozen projects that can later be resumed.
+
 A complete list of software products is available [here](https://github.com/adslbarxatov?tab=repositories).
 A general list of mods is available [here](https://moddb.com/members/rd-aaow-fdl/mods)
 
@@ -395,7 +397,7 @@ Now it is a part of [Vice city toolset](#vice-city-toolset)
 
 ### FullSilence, CodeShow
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> :no_entry_sign: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> :snowflake: &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/fullsilence) &#x3000;
 :tv: [FullSilence live](https://youtube.com/playlist?list=PLe7qKwHNkZTsreIEQFedftXv3iQG-5LOA) &#x3000;
 :tv: [CodeShow live](https://youtube.com/playlist?list=PLe7qKwHNkZTuZiVfiX1EhD4G7EPcReaA5)
