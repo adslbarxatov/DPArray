@@ -342,7 +342,7 @@ A simple tool for solving sudoku
 &nbsp;
 
 ### Races
-:ru: &#x3000;
+:gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/races) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://Races)
@@ -352,7 +352,7 @@ A simple tool for solving sudoku
 &nbsp;
 
 ### Snake
-:ru: &#x3000;
+:gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/snake) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://Snake)
@@ -362,7 +362,7 @@ A simple tool for solving sudoku
 &nbsp;
 
 ### Turtle
-:ru: &#x3000;
+:gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/turtle) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://Turtle)

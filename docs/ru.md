@@ -389,7 +389,7 @@ ES: Randomaze – генератор карт для одноимённого м
 &nbsp;
 
 ### Races
-:ru: &#x3000;
+:gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/races) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Races)
@@ -399,7 +399,7 @@ ES: Randomaze – генератор карт для одноимённого м
 &nbsp;
 
 ### Snake
-:ru: &#x3000;
+:gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/snake) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Snake)
@@ -409,7 +409,7 @@ ES: Randomaze – генератор карт для одноимённого м
 &nbsp;
 
 ### Turtle
-:ru: &#x3000;
+:gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/turtle) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Turtle)
