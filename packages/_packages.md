@@ -10,11 +10,11 @@ Dates difference			3.2		DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x
 File extensions manager		2.3		DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x0005D03D	0
 Font finder					3.2.2	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x00050DED	0
 Geomag data drawer			5.3		DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x001478B7	1
-KassArray					4.2.5	DEFSTORAGE/KassArray.dp						KassArray.dp				0x00132C4C	1
+KassArray					4.2.7	DEFSTORAGE/KassArray.dp						KassArray.dp				0x00120C54	1
 OS macros executor			3.2.2	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x0005B76A	1
 Screen shooter				2.2		DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x00038DDB	0
 Sudoku solver				3.3		DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x000389AF	0
-uNot						6.1		DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x0004E3CD	0
+uNot						6.1.2	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000467D7	0
 Vice city toolset			4.0		DEFSTORAGE/ViceCityToolset.dp				ViceCityToolset.dp			0x0019D1B7	1
 
 #Mods

@@ -317,16 +317,6 @@ ES: Randomaze – генератор карт для одноимённого м
 
 &nbsp;
 
-### Accounts manager
-:ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/SQL.png" width="16"> &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/accountsmanager)
-
-Инструмент управления бюджетными счетами. Программа предназначена для накопления, хранения, обработки и выдачи по запросу
-сведений о контрактах и бюджетных обязательствах предприятия
-
-&nbsp;
-
 ### Vice city toolset
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
@@ -427,6 +417,16 @@ ES: Randomaze – генератор карт для одноимённого м
 &nbsp;
 
 ---
+
+&nbsp;
+
+### Accounts manager
+:ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/SQL.png" width="16"> :snow: &#x3000;
+:earth_africa: [О продукте](https://github.com/adslbarxatov/accountsmanager)
+
+Инструмент управления бюджетными счетами. Программа предназначена для накопления, хранения, обработки и выдачи по запросу
+сведений о контрактах и бюджетных обязательствах предприятия
 
 &nbsp;
 
