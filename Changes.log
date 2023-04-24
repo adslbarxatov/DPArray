@@ -3,6 +3,11 @@ DPArray: changes log
 ToDo:
 - Implement the AppLauncher
 
+Version 5.6.2:
+• App about form has been upgraded;
+• Links list for HypeHelp has been updated;
+• Fixed the updates downloader behavior in some rare conditions
+
 Version 5.6a:
 • Removed support for XNA GS installation;
 • Updated support for .NET Framework 6 and newer;

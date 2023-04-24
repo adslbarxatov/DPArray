@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
 using System.Globalization;
@@ -28,7 +29,7 @@ namespace RD_AAOW
 			"",
 			"",
 			"Поиск обновлений...",
-			"Открыть в &браузере",		// 03
+			"Открыть в браузере",		// 03
 			"",
 			"",
 			"",
@@ -55,7 +56,7 @@ namespace RD_AAOW
 			"Начать загрузку пакета?\n\nПосле завершения пакет развёртки будет запущен автоматически",	// 16
 
 			"Политика разработки и соглашение пользователя",
-			"О приложении",
+			"",
 			"Версия актуальна",
 			"[Версия актуальна, см. описание в конце]",		// 20
 			"&Доступна {0:S}",
@@ -95,7 +96,7 @@ namespace RD_AAOW
 			"",
 			"",
 			"Checking updates...",
-			"Open in &browser",			// 03
+			"Open in browser",			// 03
 			"",
 			"",
 			"",
@@ -123,7 +124,7 @@ namespace RD_AAOW
 			"Download the package?\n\nThe deployment package will be started automatically after completion",	// 16
 
 			"Development policy and user agreement",
-			"About the application",
+			"",
 			"App is up-to-date",
 			"[Version is up to date, see description below]",	// 20
 			"{0:S} a&vailable",
@@ -176,9 +177,14 @@ namespace RD_AAOW
 		private string[] hypeHelpLinks = new string[] {
 			"https://vk.com/rd_aaow_fdl",
 			"https://vk.com/grammarmustjoy",
-			"https://vk.com/upsilon_one",
+			"https://t.me/rd_aaow_fdl",
+			"https://t.me/grammarmustjoy",
 
 			"https://youtube.com/c/rdaaowfdl",
+			"https://youtu.be/seFfQkfL6Sk",
+			"https://youtu.be/fdH4SKFdTCI",
+			"https://youtu.be/I_sXoDxPQQ0",
+			"https://youtu.be/hTnDR89VR8w",
 
 			"https://moddb.com/mods/esrm",
 			"https://moddb.com/mods/eshq",
@@ -213,13 +219,26 @@ namespace RD_AAOW
 			new string[] { "&bull;", "•" }
 			};
 
+		// Доступные варианты перехода к ресурсам Лаборатории
+		private enum LinkTypes
+			{
+			UserManual,
+			ProjectPage,
+			ADP,
+			AskDeveloper,
+			ToLabMain,
+			ToLabVK,
+			ToLabTG,
+			}
+		private List<LinkTypes> linkTypes = new List<LinkTypes> ();
+
 		/// <summary>
 		/// Конструктор. Инициализирует форму
 		/// </summary>
 		/// <param name="UserManualLink">Ссылка на страницу руководства пользователя;
 		/// кнопка отключается, если это значение не задано</param>
-		/// <param name="AppIcon">Значок приложения</param>
-		public AboutForm (string UserManualLink, Icon AppIcon)
+		/// <param name="AppLogo">Лого приложения</param>
+		public AboutForm (string UserManualLink, Bitmap AppLogo)
 			{
 			// Инициализация
 			InitializeComponent ();
@@ -235,19 +254,8 @@ namespace RD_AAOW
 
 			// Загрузка окружения
 			AboutLabel.Text = RDGenerics.AppAboutLabelText;
-			if (AppIcon != null)
-				{
-				IconBox.BackgroundImage = AppIcon.ToBitmap ();
-				OtherIconBox.BackgroundImage = this.Icon.ToBitmap ();
-				}
-			else
-				{
-				IconBox.BackgroundImage = this.Icon.ToBitmap ();
-				}
-
-			// Завершение
-			UserManualButton.Enabled = !string.IsNullOrWhiteSpace (userManualLink);
-			ProjectPageButton.Enabled = !string.IsNullOrWhiteSpace (projectLink);
+			if (AppLogo != null)
+				IconBox.BackgroundImage = AppLogo;
 			}
 
 		/// <summary>
@@ -315,7 +323,7 @@ namespace RD_AAOW
 				// Если поле пустое, устанавливается минимальное значение
 				if (adpRevision == "")
 					{
-					adpRevision = "rev. 8!";
+					adpRevision = "rev. 10!";
 					RDGenerics.SetAppSettingsValue (ADPRevisionKey, adpRevision, ADPRevisionPath);
 					}
 				}
@@ -328,14 +336,11 @@ namespace RD_AAOW
 			// Настройка контролов
 			int al = (int)Localization.CurrentLanguage;
 
-			UserManualButton.Text = Localization.GetDefaultText (LzDefaultTextValues.Control_UserManual);
-			ProjectPageButton.Text = Localization.GetDefaultText (LzDefaultTextValues.Control_ProjectWebpage);
 			UpdatesPageButton.Text = locale[al][2];
-			ADPButton.Text = AcceptMode ? locale[al][3] :
-				Localization.GetDefaultText (LzDefaultTextValues.Control_PolicyEULA);
+
 			ExitButton.Text = Localization.GetDefaultText (AcceptMode ? LzDefaultTextValues.Button_Accept :
 				LzDefaultTextValues.Button_OK);
-			AskDeveloper.Text = Localization.GetDefaultText (LzDefaultTextValues.Control_AskDeveloper);
+
 			MisacceptButton.Text = locale[al][8];
 
 			if (!desciptionHasBeenUpdated)
@@ -348,11 +353,37 @@ namespace RD_AAOW
 			fileWriteFail = locale[al][15];
 			startDownload = locale[al][16];
 
+			// Загрузка списка доступных переходов к ресурсам Лаборатории
 			if (ToLaboratoryCombo.Items.Count < 1)
+				{
+				if (!AcceptMode)
+					{
+					if (!string.IsNullOrWhiteSpace (userManualLink))
+						{
+						linkTypes.Add (LinkTypes.UserManual);
+						ToLaboratoryCombo.Items.Add (Localization.GetDefaultText (LzDefaultTextValues.Control_UserManual));
+						}
+
+					linkTypes.Add (LinkTypes.ProjectPage);
+					ToLaboratoryCombo.Items.Add (Localization.GetDefaultText (LzDefaultTextValues.Control_ProjectWebpage));
+
+					linkTypes.Add (LinkTypes.AskDeveloper);
+					ToLaboratoryCombo.Items.Add (Localization.GetDefaultText (LzDefaultTextValues.Control_AskDeveloper));
+					}
+
+				linkTypes.Add (LinkTypes.ADP);
+				ToLaboratoryCombo.Items.Add (AcceptMode ? locale[al][3] :
+					Localization.GetDefaultText (LzDefaultTextValues.Control_PolicyEULA));
+
+				linkTypes.Add (LinkTypes.ToLabMain);
+				linkTypes.Add (LinkTypes.ToLabTG);
+				linkTypes.Add (LinkTypes.ToLabVK);
 				ToLaboratoryCombo.Items.AddRange (RDGenerics.CommunitiesNames);
+				}
 			ToLaboratoryCombo.SelectedIndex = 0;
 
-			this.Text = locale[al][AcceptMode ? 17 : 18];
+			this.Text = AcceptMode ? locale[al][17] :
+				Localization.GetDefaultText (LzDefaultTextValues.Control_AppAbout);
 
 			// Запуск проверки обновлений
 			if (!AcceptMode)
@@ -388,8 +419,7 @@ namespace RD_AAOW
 				}
 
 			// Настройка контролов
-			UserManualButton.Visible = ProjectPageButton.Visible =
-				AskDeveloper.Visible = HypeHelpFlag.Visible = !AcceptMode;
+			HypeHelpFlag.Visible = !AcceptMode;
 
 #if DPMODULE
 			UpdatesPageButton.Visible = false;
@@ -498,46 +528,43 @@ namespace RD_AAOW
 			}
 
 		// Запуск ссылок
-		private void UserManualButton_Click (object sender, EventArgs e)
-			{
-			RDGenerics.RunURL (userManualLink);
-			}
-
-		private void ProjectPageButton_Click (object sender, EventArgs e)
-			{
-			RDGenerics.RunURL (projectLink);
-			}
-
-		private void ADP_Click (object sender, EventArgs e)
-			{
-			RDGenerics.RunURL (RDGenerics.ADPLink);
-			}
-
 		private void ToLaboratory_Click (object sender, EventArgs e)
 			{
 			string link;
-			switch (ToLaboratoryCombo.SelectedIndex)
+			switch (linkTypes[ToLaboratoryCombo.SelectedIndex])
 				{
-				default:
-					link = RDGenerics.DPArrayLink;
+				case LinkTypes.ADP:
+					link = RDGenerics.ADPLink;
 					break;
 
-				case 1:
+				case LinkTypes.AskDeveloper:
+					link = RDGenerics.LabMailLink + ("?subject=" +
+						RDGenerics.LabMailCaption).Replace (" ", "%20");
+					break;
+
+				case LinkTypes.ProjectPage:
+					link = projectLink;
+					break;
+
+				case LinkTypes.ToLabTG:
 					link = RDGenerics.LabTGLink;
 					break;
 
-				case 2:
+				case LinkTypes.ToLabVK:
 					link = RDGenerics.LabVKLink;
+					break;
+
+				case LinkTypes.UserManual:
+					link = userManualLink;
+					break;
+
+				default:
+				case LinkTypes.ToLabMain:
+					link = RDGenerics.DPArrayLink;
 					break;
 				}
 
 			RDGenerics.RunURL (link);
-			}
-
-		private void AskDeveloper_Click (object sender, EventArgs e)
-			{
-			RDGenerics.RunURL (RDGenerics.LabMailLink + ("?subject=" +
-					RDGenerics.LabMailCaption).Replace (" ", "%20"));
 			}
 
 		// Загрузка пакета обновления изнутри приложения
@@ -585,9 +612,16 @@ namespace RD_AAOW
 				downloadLink = RDGenerics.DPArrayPackageLink;
 
 				packagePath = RDGenerics.GetAppSettingsValue (toolName, ADPRevisionPath);
-				if ((l = packagePath.IndexOf ('\t')) >= 0)
-					packagePath = packagePath.Substring (0, l);
-				packagePath += "\\Downloaded\\";
+				if (string.IsNullOrWhiteSpace (packagePath))    // Такое может быть, если DPArray ни разу не обновлялся
+					{
+					packagePath = Environment.GetFolderPath (Environment.SpecialFolder.Desktop) + "\\";
+					}
+				else
+					{
+					if ((l = packagePath.IndexOf ('\t')) >= 0)
+						packagePath = packagePath.Substring (0, l);
+					packagePath += "\\Downloaded\\";
+					}
 #endif
 				}
 

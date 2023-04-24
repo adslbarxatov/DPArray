@@ -1,4 +1,10 @@
-_Changes for v 5.6_:
+_Changes for v 5.6.2_:
+- App about form has been upgraded;
+- Links list for HypeHelp has been updated;
+- Fixed the updates downloader behavior in some rare conditions;
+- Removed support for XNA GS installation;
+- Updated support for .NET Framework 6 and newer;
+- Fixed the URL for the list of packages;
 - Implemented the new version of the requirements control: it will properly enumerate and display unsatisfied dependencies, run their installation or open their webpages;
 - Removed support for WinRAR: some old archiver’s versions are unable to properly unzip .7z format;
 - Unified the simplified some parts of code for file names and protocols processing;

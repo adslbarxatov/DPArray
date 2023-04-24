@@ -1,17 +1,17 @@
 ```
 Packages, available for download:
 
-DPArray						5.6		DEFSTORAGE/DPArray.dp						DPArray.dp					0x000B088F	0
+DPArray						5.6.2	DEFSTORAGE/DPArray.dp						DPArray.dp					0x0009F495	0
 
 #Apps
 Batch image convertor		3.3.2	DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x00058D98	1
-ConcurrentDraw				3.2		DEFSTORAGE/ConcurrentDraw.dp				ConcurrentDraw.dp			0x000A66C2	1
+ConcurrentDraw				3.2.2	DEFSTORAGE/ConcurrentDraw.dp				ConcurrentDraw.dp			0x0009E4CC	1
 Dates difference			3.2		DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x000399E8	0
 File extensions manager		2.3		DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x0005D03D	0
 Font finder					3.2.2	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x00050DED	0
 Geomag data drawer			5.3		DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x001478B7	1
 KassArray					4.2.5	DEFSTORAGE/KassArray.dp						KassArray.dp				0x00132C4C	1
-OS macros executor			3.2		DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x00065168	1
+OS macros executor			3.2.2	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x0005B76A	1
 Screen shooter				2.2		DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x00038DDB	0
 Sudoku solver				3.3		DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x000389AF	0
 uNot						6.1		DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x0004E3CD	0
