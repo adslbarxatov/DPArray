@@ -26,9 +26,9 @@ Crazy cheater’s mod			1.3		MODSTORAGE/240088?MOD_REFmods%2Fccm			GTAViceCity.7
 ESHQ, bkwd compatibility    13.0	MODSTORAGE/240085?MOD_REFmods%2Feshq		ESHQ_backward.7z			59848593	2
 
 #Games
-Races						2.1			DEFSTORAGE/Races.7z						Races.7z					14649414	1
-Snake						2.1			DEFSTORAGE/Snake.7z						Snake.7z					16117094	1
-Turtle						2.1			DEFSTORAGE/Turtle.7z					Turtle.7z					14755598	1
+Races						2.1.2		DEFSTORAGE/Races.7z						Races.7z					14687232	1
+Snake						2.1.2		DEFSTORAGE/Snake.7z						Snake.7z					16122393	1
+Turtle						2.1.2		DEFSTORAGE/Turtle.7z					Turtle.7z					14775272	1
 
 #Android apps
 KassArray for Android		4.2			GIT_LINK/KassArray/GIT_PATH/KassArray_KitKat.apk		KassArray.apk		33038260	3
