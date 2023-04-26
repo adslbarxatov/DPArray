@@ -6,8 +6,8 @@ DPArray						5.6.2	DEFSTORAGE/DPArray.dp						DPArray.dp					0x0009F495	0
 #Apps
 Batch image convertor		3.3.2	DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x00058D98	1
 ConcurrentDraw				3.2.2	DEFSTORAGE/ConcurrentDraw.dp				ConcurrentDraw.dp			0x0009E4CC	1
-Dates difference			3.2		DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x000399E8	0
-File extensions manager		2.3		DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x0005D03D	0
+Dates difference			3.2.2	DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x000301EA	0
+File extensions manager		2.3.2	DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x00053A3F	0
 Font finder					3.2.2	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x00050DED	0
 Geomag data drawer			5.3		DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x001478B7	1
 KassArray					4.2.7	DEFSTORAGE/KassArray.dp						KassArray.dp				0x00120C54	1

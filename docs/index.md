@@ -300,7 +300,7 @@ A tool for automation of user actions in Windows operating system
 ### File extensions manager
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/fileextensionsmanager) &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/FileExtensionsManager) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/fileextensionsmanager/releases/latest) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://FileExtensionsManager)
 
