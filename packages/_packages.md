@@ -15,7 +15,7 @@ OS macros executor			3.2.2	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp
 Screen shooter				2.2.2	DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x0002F5DD	0
 Sudoku solver				3.3.2	DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x0002F5B1	0
 uNot						6.1.2	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000467D7	0
-Vice city toolset			4.1		DEFSTORAGE/ViceCityToolset.dp				ViceCityToolset.dp			0x0019A1E7	1
+Vice city toolset			4.2		DEFSTORAGE/ViceCityToolset.dp				ViceCityToolset.dp			0x0019F9EF	1
 
 #Mods
 ESHQ						13.0	MODSTORAGE/240086?MOD_REFmods%2Feshq		ESHQ_setup.7z				230251732	3
