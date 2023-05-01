@@ -14,7 +14,7 @@ KassArray					4.2.7	DEFSTORAGE/KassArray.dp						KassArray.dp				0x00120C54	1
 OS macros executor			3.2.2	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x0005B76A	1
 Screen shooter				2.2.2	DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x0002F5DD	0
 Sudoku solver				3.3.2	DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x0002F5B1	0
-uNot						6.1.2	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000467D7	0
+uNot						6.2		DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000523CD	0
 Vice city toolset			4.2		DEFSTORAGE/ViceCityToolset.dp				ViceCityToolset.dp			0x0019F9EF	1
 
 #Mods
@@ -34,7 +34,7 @@ Turtle						2.1.2		DEFSTORAGE/Turtle.7z					Turtle.7z					14775272	1
 KassArray for Android		4.2			GIT_LINK/KassArray/GIT_PATH/KassArray_KitKat.apk		KassArray.apk		33038260	3
 Make decision for Android	3.2			GIT_LINK/MakeDecision/GIT_PATH/MakeDecision.apk			MakeDecision.apk	32732692	3
 PA detector for Android		3.1			GIT_LINK/EnchantIt/GIT_PATH/PADetector.apk				PADetector.apk		40166176	3
-uNot for Android			6.1			GIT_LINK/UniNotifier/GIT_PATH/UniNotifier.apk			UniNotifier.apk		33121572	3
+uNot for Android			6.2			GIT_LINK/UniNotifier/GIT_PATH/UniNotifier.apk			UniNotifier.apk		33412963	3
 
 
 
