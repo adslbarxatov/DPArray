@@ -388,6 +388,17 @@ ES: Randomaze – генератор карт для одноимённого м
 
 &nbsp;
 
+### One hundred and one
+:gb: :ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/OneHundredOne/ru) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/OneHundredOne/releases/latest) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://OneHundredOne)
+
+Это приложение имитирует игру «Сто одно» для двух игроков
+
+&nbsp;
+
 ### Races
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
