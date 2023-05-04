@@ -26,6 +26,7 @@ Crazy cheater’s mod			1.3		MODSTORAGE/240088?MOD_REFmods%2Fccm			GTAViceCity.7
 ESHQ, bkwd compatibility    13.0	MODSTORAGE/240085?MOD_REFmods%2Feshq		ESHQ_backward.7z			59848593	2
 
 #Games
+One hundred and one			2.0			DEFSTORAGE/OneHundredOne.dp				OneHundredOne.dp			0x000333A2	1
 Races						2.1.2		DEFSTORAGE/Races.7z						Races.7z					14687232	1
 Snake						2.1.2		DEFSTORAGE/Snake.7z						Snake.7z					16122393	1
 Turtle						2.1.2		DEFSTORAGE/Turtle.7z					Turtle.7z					14775272	1
