@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ArchiveAccessError" xml:space="preserve">
+    <value>Cannot create or access package file</value>
+  </data>
+  <data name="ArchiveDamagedError" xml:space="preserve">
+    <value>Package file is missing, damaged or incorrect</value>
+  </data>
+  <data name="ArchiveReadError" xml:space="preserve">
+    <value>Cannot access package file</value>
+  </data>
+  <data name="ArchiveReadError_Update" xml:space="preserve">
+    <value> (contains installation script)</value>
+  </data>
+  <data name="CompletedSuccessfully" xml:space="preserve">
+    <value>Operation completed successfully</value>
+  </data>
+  <data name="CompletedUnsuccessfully" xml:space="preserve">
+    <value>Operation completed unsuccessfully</value>
+  </data>
+  <data name="CorrectPackage" xml:space="preserve">
+    <value>Your deployment package is correct and up to date</value>
+  </data>
+  <data name="DisclaimerMainText" xml:space="preserve">
+    <value>You can improve the app or view our other projects
+(just click the banner of interest).
+If you have any wishes, advices or troubles with this utility, remind us, using “Ask developer” button in the “About” window
+(available in tray icon’s menu)</value>
+  </data>
+  <data name="FilesAccessError" xml:space="preserve">
+    <value>Cannot access one or more source file(s)</value>
+  </data>
+  <data name="FilesCreationError" xml:space="preserve">
+    <value>Cannot create or access one or more file(s) or directory(ies)</value>
+  </data>
+  <data name="FilesSizeError" xml:space="preserve">
+    <value>One or more source file(s) is/are too large</value>
+  </data>
+  <data name="IncorrectPackage" xml:space="preserve">
+    <value>Your deployment package is not original! We strongly recommend against using it!
+
+Launch this managed again and download the original package</value>
+  </data>
+  <data name="InstallRadioText_Main" xml:space="preserve">
+    <value>Install: the app installation or recovery</value>
+  </data>
+  <data name="InstallRadioText_Update" xml:space="preserve">
+    <value>Install: the app update</value>
+  </data>
+  <data name="ExitMessage" xml:space="preserve">
+    <value>Do you want to interrupt operation?</value>
+  </data>
+  <data name="LogCreationError" xml:space="preserve">
+    <value>Failed to create installation log</value>
+  </data>
+  <data name="ModDBIsNotFullyAvailable" xml:space="preserve">
+    <value>Project webpage is not fully available for now. Try again later</value>
+  </data>
+  <data name="ModDBIsUnavailable" xml:space="preserve">
+    <value>Project webpage is unavailable for now. Try again later</value>
+  </data>
+  <data name="ModeLabelText_Main" xml:space="preserve">
+    <value>Select the deployment mode:</value>
+  </data>
+  <data name="ModPath" xml:space="preserve">
+    <value>App deployment path:</value>
+  </data>
+  <data name="OperationInterrupted" xml:space="preserve">
+    <value>Operation interrupted by user</value>
+  </data>
+  <data name="PackageChecking" xml:space="preserve">
+    <value>Checking the deployment package. Please, wait...</value>
+  </data>
+  <data name="PathChanged" xml:space="preserve">
+    <value>This is a stand-alone application. No pre-installed software is required for work.
+
+Therefore, it is strongly recommended to keep the suggested installation path.
+
+If possible, don’t overwrite or supplement existing installations. Deployment module can handle this case (backup and restore original files). But it cannot deal with unforeseen consequences.
+
+Continue with specified path?</value>
+  </data>
+  <data name="PathDoesntExist" xml:space="preserve">
+    <value>The specified directory doesn’t exist.
+
+You may be trying to update or uninstall a product that has never been installed or has already been removed</value>
+  </data>
+  <data name="ReadyMessage1" xml:space="preserve">
+    <value>We are ready for </value>
+  </data>
+  <data name="ReadyMessage2_Install" xml:space="preserve">
+    <value>application deployment at
+“{0:S}”</value>
+  </data>
+  <data name="ReadyMessage2_Rebuild" xml:space="preserve">
+    <value>package rebuilding.</value>
+  </data>
+  <data name="ReadyMessage2_Uninstall" xml:space="preserve">
+    <value>application removing from
+“{0:S}”</value>
+  </data>
+  <data name="ReadyMessage2_Update" xml:space="preserve">
+    <value>updating installation at
+“{0:S}”</value>
+  </data>
+  <data name="ReadyMessage3" xml:space="preserve">
+    <value>
+Press “Next” to continue</value>
+  </data>
+  <data name="RegistryKeyNotFound" xml:space="preserve">
+    <value>The app deployment path not found in registry.
+
+Most likely this product has not been installed on this PC before. If this is not the case, use “Restore package’s deployment path” option in tray icon’s menu</value>
+  </data>
+  <data name="SpecifyModPath" xml:space="preserve">
+    <value>Specify the deployment path:</value>
+  </data>
+  <data name="UninstallRadioText" xml:space="preserve">
+    <value>Uninstall: the app uninstallation</value>
+  </data>
+  <data name="UpdateMessage1_Update" xml:space="preserve">
+    <value>Update to v {0:S}</value>
+  </data>
+  <data name="UpdateMessage2" xml:space="preserve">
+    <value> available for download.
+
+Launch this manager again to download it</value>
+  </data>
+  <data name="UpdatesChecking" xml:space="preserve">
+    <value>Checking for updates...</value>
+  </data>
+  <data name="VersionUnavailable" xml:space="preserve">
+    <value>&lt;unavailable&gt;</value>
+  </data>
+  <data name="PathRestoreText" xml:space="preserve">
+    <value>This function will restore registry entry required by deployment tool. You must specify correct path to application’s installation directory in the next window (f. e., {0:S}\{1:S}\).
+
+NOTE: if you’ll set incorrect path, updater and installer may damage valuable files!</value>
+  </data>
+  <data name="SelectPackage" xml:space="preserve">
+    <value>Select all packages that you want to deploy</value>
+  </data>
+  <data name="IconMenuShowAbout" xml:space="preserve">
+    <value>Actual package’s version info</value>
+  </data>
+  <data name="IconMenuWebpage" xml:space="preserve">
+    <value>Open package’s webpage...</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>DPArray is a tool for managing Laboratory’s products on your PC.
+
+DPArray performs installation, deinstallation, check for updates, download of packages and their requirements. This tool is the only thing you need to start working with all of our projects</value>
+  </data>
+  <data name="PackageSelectorForm_Label01" xml:space="preserve">
+    <value>Deployment packages manager</value>
+  </data>
+  <data name="PackagesListUnavailable" xml:space="preserve">
+    <value>The list of deployment packages is unavailable. Check your internet connection.
+
+Retry the list downloading?</value>
+  </data>
+  <data name="PackagesListChecking" xml:space="preserve">
+    <value>Downloading the packages list...</value>
+  </data>
+  <data name="PackageDownload" xml:space="preserve">
+    <value>Downloading the deployment package:
+</value>
+  </data>
+  <data name="PackageFailure" xml:space="preserve">
+    <value>Failed to download the deployment package. Check your internet connection</value>
+  </data>
+  <data name="PackageSuccess" xml:space="preserve">
+    <value>Success!</value>
+  </data>
+  <data name="PackageUnzipFailure" xml:space="preserve">
+    <value>Cannot unpack the downloaded archive automatically. Open it for manual extracting?</value>
+  </data>
+  <data name="IconAbout" xml:space="preserve">
+    <value>About {0:S}...</value>
+  </data>
+  <data name="PackageSelectorForm_AbortButton" xml:space="preserve">
+    <value>&amp;Deploy</value>
+  </data>
+  <data name="PackageSelectorForm_ListOfProjects" xml:space="preserve">
+    <value>Packages &amp;list</value>
+  </data>
+  <data name="LanguageChanged" xml:space="preserve">
+    <value>Interface language will be changed when processing the next package</value>
+  </data>
+  <data name="IconChangeLanguage" xml:space="preserve">
+    <value>Change interface language</value>
+  </data>
+  <data name="IconRestorePath" xml:space="preserve">
+    <value>Restore package’s deployment path</value>
+  </data>
+  <data name="dp0file" xml:space="preserve">
+    <value>Deployment package v 10 – 12</value>
+  </data>
+  <data name="IconRegisterExt" xml:space="preserve">
+    <value>Register file associations</value>
+  </data>
+  <data name="NotInstalledMessage" xml:space="preserve">
+    <value> (new)</value>
+  </data>
+  <data name="UpdatableMessage" xml:space="preserve">
+    <value> (update)</value>
+  </data>
+  <data name="ReqMessageFail" xml:space="preserve">
+    <value>Failed to download {0:S}. If this product is already installed, no further action is required. Otherwise, the app may not work properly</value>
+  </data>
+  <data name="ReqMessageDefault" xml:space="preserve">
+    <value>This app requires the following prerequisites to work:
+{0:S}
+If app starts properly, you don’t need to do anything here. Otherwise, press “Go to” button to open their webpages for manual downloading</value>
+  </data>
+  <data name="PackageSelectorForm_ClearCache" xml:space="preserve">
+    <value>Clear cac&amp;he</value>
+  </data>
+  <data name="ClearCacheMessage" xml:space="preserve">
+    <value>All previously downloaded package files will be removed. Installed apps will not be affected. Continue?</value>
+  </data>
+  <data name="UninstScriptNotCreated" xml:space="preserve">
+    <value>Failed to create a script to remove the product.The deployment package will be required for product uninstallation</value>
+  </data>
+  <data name="PackageSelectorForm_UpdateLists" xml:space="preserve">
+    <value>Upd&amp;ate lists</value>
+  </data>
+  <data name="DisclaimerMainTextPre" xml:space="preserve">
+    <value>Right-click tray icon for details and package info. For continue deployment press “Next” button</value>
+  </data>
+  <data name="AppIsNotClosed" xml:space="preserve">
+    <value>The application being updated / deleted is running. Finish this app and try again</value>
+  </data>
+  <data name="KillProcessFlagText" xml:space="preserve">
+    <value>Stop application if it’s running</value>
+  </data>
+  <data name="StartProcessFlagText" xml:space="preserve">
+    <value>Start application after completion</value>
+  </data>
+  <data name="PackageSelectorForm_BAbout" xml:space="preserve">
+    <value>A&amp;bout the app</value>
+  </data>
+  <data name="CloseOnSuccessFlagText" xml:space="preserve">
+    <value>Exit if completed successfully</value>
+  </data>
+  <data name="dpdfile" xml:space="preserve">
+    <value>Package uninstallation script</value>
+  </data>
+  <data name="PSF_NewPackage" xml:space="preserve">
+    <value>New package</value>
+  </data>
+  <data name="PSF_NoInfo" xml:space="preserve">
+    <value>No info</value>
+  </data>
+  <data name="PSF_TableHeader00" xml:space="preserve">
+    <value>Deploy</value>
+  </data>
+  <data name="PSF_TableHeader02" xml:space="preserve">
+    <value>Package name</value>
+  </data>
+  <data name="PSF_TableHeader03" xml:space="preserve">
+    <value>Act. ver.</value>
+  </data>
+  <data name="PSF_TableHeader04" xml:space="preserve">
+    <value>Inst. ver.</value>
+  </data>
+  <data name="PSF_TableHeader05" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="AllowDesktopShortcutsFlagText" xml:space="preserve">
+    <value>Create shortcuts on the desktop</value>
+  </data>
+  <data name="RequiredUpdate" xml:space="preserve">
+    <value>Necessary update for the deployment module</value>
+  </data>
+  <data name="PackageSelectorForm_AllPackagesRadio" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="PackageSelectorForm_NewPackagesRadio" xml:space="preserve">
+    <value>Only new</value>
+  </data>
+  <data name="PackageSelectorForm_UpdatablePackagesRadio" xml:space="preserve">
+    <value>Only updates</value>
+  </data>
+  <data name="RegistryKeyNotFoundAllow" xml:space="preserve">
+    <value>The app deployment path not found in registry.
+
+The app will use default path for this product. If it’s not correct, use “Restore package’s deployment path” option in tray icon’s menu</value>
+  </data>
+  <data name="dpfile" xml:space="preserve">
+    <value>Unified deployment package</value>
+  </data>
+  <data name="AdditionalButton" xml:space="preserve">
+    <value>&amp;Go to</value>
+  </data>
+  <data name="PSF_TableHeader01" xml:space="preserve">
+    <value>Fast</value>
+  </data>
+  <data name="ProtocolCallFailure" xml:space="preserve">
+    <value>Specified package ({0:S}) not found</value>
+  </data>
+  <data name="PackageSelectorForm_ExitButton" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="dpprotocol" xml:space="preserve">
+    <value>URL: Deployment packages processing protocol</value>
+  </data>
+  <data name="NoPackagesSelected" xml:space="preserve">
+    <value>No packages selected for deployment</value>
+  </data>
+  <data name="PackagesListAlternative" xml:space="preserve">
+    <value>Downloading the alternative packages list...</value>
+  </data>
+  <data name="PackageSelectorForm_DeployedPackagesRadio" xml:space="preserve">
+    <value>Only deployed</value>
+  </data>
+  <data name="IconLastServerMessages" xml:space="preserve">
+    <value>View last server messages</value>
+  </data>
+  <data name="HasNoUpdates" xml:space="preserve">
+    <value>All previously deployed packages are up to date</value>
+  </data>
+  <data name="HasUpdates" xml:space="preserve">
+    <value>Updates are available for previously deployed packages.
+
+Updates are highlighted in light emerald in the packages list. At the top of the window, filtering is also available on the basis of “updates only”</value>
+  </data>
+  <data name="AllowMenuShortcutsFlagText" xml:space="preserve">
+    <value>Create shortcuts in the Start menu</value>
+  </data>
+  <data name="VersionLine" xml:space="preserve">
+    <value>App version: {0:S}; package version: {1:S}</value>
+  </data>
+  <data name="ReqMessageFirst" xml:space="preserve">
+    <value>This app requires the following prerequisites to work:
+{0:S}
+If possible, they will be installed automatically in the next step. Otherwise, their web pages will be opened with manual download option.
+
+* Opened web pages that don’t offer automatic download of installation packages are for informational purposes only</value>
+  </data>
+</root>

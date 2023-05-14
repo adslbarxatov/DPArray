@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ArchiveAccessError" xml:space="preserve">
+    <value>Не удалось создать или прочитать установочный пакет</value>
+  </data>
+  <data name="ArchiveDamagedError" xml:space="preserve">
+    <value>Установочный пакет недоступен, повреждён или некорректен</value>
+  </data>
+  <data name="ArchiveReadError" xml:space="preserve">
+    <value>Не удалось прочитать установочный пакет</value>
+  </data>
+  <data name="ArchiveReadError_Update" xml:space="preserve">
+    <value> (содержит сценарий установки)</value>
+  </data>
+  <data name="CompletedSuccessfully" xml:space="preserve">
+    <value>Операция успешно завершена</value>
+  </data>
+  <data name="CompletedUnsuccessfully" xml:space="preserve">
+    <value>Операция завершена с ошибкой</value>
+  </data>
+  <data name="CorrectPackage" xml:space="preserve">
+    <value>Ваш установочный пакет корректен и актуален</value>
+  </data>
+  <data name="DisclaimerMainText" xml:space="preserve">
+    <value>Вы можете улучшить программу или ознакомиться с другими проектами (нажмите на интересующий баннер).
+При возникновении проблем с утилитой сообщите нам, используя кнопку «Спросить разработчика» окна «О приложении»
+(доступно из меню иконки в трее)</value>
+  </data>
+  <data name="FilesAccessError" xml:space="preserve">
+    <value>Не удалось прочитать один или несколько исходных файлов</value>
+  </data>
+  <data name="FilesCreationError" xml:space="preserve">
+    <value>Не удалось создать один или несколько файлов или директорий</value>
+  </data>
+  <data name="FilesSizeError" xml:space="preserve">
+    <value>Один или несколько исходных файлов слишком велики</value>
+  </data>
+  <data name="IncorrectPackage" xml:space="preserve">
+    <value>Ваш установочный пакет не является оригинальным! Мы настоятельно не рекомендуем его использовать!
+
+Запустите этот менеджер ещё раз и загрузите оригинальный пакет</value>
+  </data>
+  <data name="InstallRadioText_Main" xml:space="preserve">
+    <value>Установка: развёртка / восстановление программы</value>
+  </data>
+  <data name="InstallRadioText_Update" xml:space="preserve">
+    <value>Установка: применение пакета обновлений</value>
+  </data>
+  <data name="ExitMessage" xml:space="preserve">
+    <value>Прервать операцию?</value>
+  </data>
+  <data name="LogCreationError" xml:space="preserve">
+    <value>Не удалось создать журнал установки</value>
+  </data>
+  <data name="ModDBIsNotFullyAvailable" xml:space="preserve">
+    <value>Сервер в настоящий момент доступен неполностью. Повторите попытку позже</value>
+  </data>
+  <data name="ModDBIsUnavailable" xml:space="preserve">
+    <value>Сервер в настоящий момент недоступен. Повторите попытку позже</value>
+  </data>
+  <data name="ModeLabelText_Main" xml:space="preserve">
+    <value>Выберите режим развёртки:</value>
+  </data>
+  <data name="ModPath" xml:space="preserve">
+    <value>Путь развёртки программы:</value>
+  </data>
+  <data name="OperationInterrupted" xml:space="preserve">
+    <value>Операция прервана пользователем</value>
+  </data>
+  <data name="PackageChecking" xml:space="preserve">
+    <value>Проверка установочного пакета. Пожалуйста, подождите...</value>
+  </data>
+  <data name="PathChanged" xml:space="preserve">
+    <value>Это – отдельное приложение. Для его работы не требуется предустановленного программного обеспечения.
+
+Поэтому настоятельно рекомендуется сохранить предложенный путь установки.
+
+По возможности, не перезаписывайте и не дополняйте существующие установки. Модуль развёртывания способен обрабатывать такие ситуации (выполнять резервное копирование и восстановление исходных файлов). Но он может быть не готов к непредвиденными последствиями.
+
+Продолжить развёртку по указанному пути?</value>
+  </data>
+  <data name="PathDoesntExist" xml:space="preserve">
+    <value>Указанная директория не существует.
+
+Возможно, Вы пытаетесь обновить или удалить продукт, который никогда не устанавливался или уже был удалён</value>
+  </data>
+  <data name="ReadyMessage1" xml:space="preserve">
+    <value>Мы готовы к </value>
+  </data>
+  <data name="ReadyMessage2_Install" xml:space="preserve">
+    <value>развёртке программы в
+«{0:S}»</value>
+  </data>
+  <data name="ReadyMessage2_Rebuild" xml:space="preserve">
+    <value>перестроению пакета.</value>
+  </data>
+  <data name="ReadyMessage2_Uninstall" xml:space="preserve">
+    <value>удалению программы из
+«{0:S}»</value>
+  </data>
+  <data name="ReadyMessage2_Update" xml:space="preserve">
+    <value>обновлению программы в
+«{0:S}»</value>
+  </data>
+  <data name="ReadyMessage3" xml:space="preserve">
+    <value>
+Нажмите «Далее» для продолжения</value>
+  </data>
+  <data name="RegistryKeyNotFound" xml:space="preserve">
+    <value>Путь развёртки программы не найден в реестре.
+
+Скорее всего, этот продукт ранее не устанавливался на этот ПК. Если же это не так, воспользуйтесь пунктом «Восстановить путь установки пакета» из контекстного меню значка в трее</value>
+  </data>
+  <data name="SpecifyModPath" xml:space="preserve">
+    <value>Укажите путь развёртки:</value>
+  </data>
+  <data name="UninstallRadioText" xml:space="preserve">
+    <value>Удаление: деинсталляция программы</value>
+  </data>
+  <data name="UpdateMessage1_Update" xml:space="preserve">
+    <value>Обновление до версии {0:S} доступно</value>
+  </data>
+  <data name="UpdateMessage2" xml:space="preserve">
+    <value> для загрузки.
+
+Запустите этот менеджер ещё раз, чтобы загрузить его</value>
+  </data>
+  <data name="UpdatesChecking" xml:space="preserve">
+    <value>Проверка обновлений...</value>
+  </data>
+  <data name="VersionUnavailable" xml:space="preserve">
+    <value>&lt;недоступна&gt;</value>
+  </data>
+  <data name="PathRestoreText" xml:space="preserve">
+    <value>Эта функция восстановит запись в реестре, требующуюся для работы инструмента развёртки. Необходимо указать корректный путь к директории, в которую была установлена программа, в следующем окне (f. e., {0:S}\{1:S}\).
+
+ВНИМАНИЕ: указание некорректного пути может привести к повреждению важных файлов!</value>
+  </data>
+  <data name="SelectPackage" xml:space="preserve">
+    <value>Выберите все пакеты, которые необходимо развернуть</value>
+  </data>
+  <data name="IconMenuShowAbout" xml:space="preserve">
+    <value>Информация об актуальной версии пакета</value>
+  </data>
+  <data name="IconMenuWebpage" xml:space="preserve">
+    <value>Открыть веб-страницу пакета...</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>DPArray – инструмент для управления продуктами Лаборатории на вашем ПК.
+
+DPArray выполняет установку, удаление, проверку обновлений, загрузку пакетов и их требований. Этот инструмент – единственное, что Вам нужно, чтобы начать работать со всеми нашими проектами</value>
+  </data>
+  <data name="PackageSelectorForm_Label01" xml:space="preserve">
+    <value>Менеджер пакетов развёртки</value>
+  </data>
+  <data name="PackagesListUnavailable" xml:space="preserve">
+    <value>Список установочных пакетов недоступен. Проверьте интернет-подключение.
+
+Если причиной является блокировка платформы GitHub в Вашей стране, обратитесь к официальным каналам Лаборатории для получения дополнительной информации (вызовите меню иконки в трее, нажмите «О приложении», выберите удобный канал и нажмите «▶»).
+
+Хотите повторить загрузку списка?</value>
+  </data>
+  <data name="PackagesListChecking" xml:space="preserve">
+    <value>Загрузка списка пакетов...</value>
+  </data>
+  <data name="PackageDownload" xml:space="preserve">
+    <value>Загрузка установочного пакета:
+</value>
+  </data>
+  <data name="PackageFailure" xml:space="preserve">
+    <value>Не удалось загрузить установочный пакет. Проверьте ваше интернет-подключение</value>
+  </data>
+  <data name="PackageSuccess" xml:space="preserve">
+    <value>Успешно!</value>
+  </data>
+  <data name="PackageUnzipFailure" xml:space="preserve">
+    <value>Не удалось автоматически распаковать загруженный архив. Открыть его для ручного извлечения?</value>
+  </data>
+  <data name="IconAbout" xml:space="preserve">
+    <value>О программе {0:S}...</value>
+  </data>
+  <data name="PackageSelectorForm_AbortButton" xml:space="preserve">
+    <value>&amp;Развернуть</value>
+  </data>
+  <data name="PackageSelectorForm_ListOfProjects" xml:space="preserve">
+    <value>&amp;Список пакетов</value>
+  </data>
+  <data name="LanguageChanged" xml:space="preserve">
+    <value>Язык интерфейса будет изменён при обработке следующего пакета</value>
+  </data>
+  <data name="IconChangeLanguage" xml:space="preserve">
+    <value>Изменить язык интерфейса</value>
+  </data>
+  <data name="IconRestorePath" xml:space="preserve">
+    <value>Восстановить путь установки пакета</value>
+  </data>
+  <data name="dp0file" xml:space="preserve">
+    <value>Пакет развёртки версий 10 – 12</value>
+  </data>
+  <data name="IconRegisterExt" xml:space="preserve">
+    <value>Зарегистрировать ассоц. файлов</value>
+  </data>
+  <data name="NotInstalledMessage" xml:space="preserve">
+    <value> (новое)</value>
+  </data>
+  <data name="UpdatableMessage" xml:space="preserve">
+    <value> (обновление)</value>
+  </data>
+  <data name="ReqMessageFail" xml:space="preserve">
+    <value>Не удалось загрузить {0:S}. Если этот продукт уже установлен, дополнительных действий не требуется. В противном случае приложение может работать неправильно</value>
+  </data>
+  <data name="ReqMessageDefault" xml:space="preserve">
+    <value>Это приложение требует следующих предустановок для работы:
+{0:S}
+Если приложение запускается корректно, здесь ничего делать не нужно. В противном случае нажмите кнопку «Перейти», чтобы открыть их веб-страницы для ручной загрузки</value>
+  </data>
+  <data name="ClearCacheMessage" xml:space="preserve">
+    <value>Все ранее загруженные файлы пакетов будут удалены. Установленные приложения затронуты не будут. Продолжить?</value>
+  </data>
+  <data name="PackageSelectorForm_ClearCache" xml:space="preserve">
+    <value>О&amp;чистить кэш</value>
+  </data>
+  <data name="UninstScriptNotCreated" xml:space="preserve">
+    <value>Не удалось создать скрипт для удаления продукта. Для удаления продукта потребуется установочный пакет</value>
+  </data>
+  <data name="PackageSelectorForm_UpdateLists" xml:space="preserve">
+    <value>О&amp;бновить списки</value>
+  </data>
+  <data name="DisclaimerMainTextPre" xml:space="preserve">
+    <value>Щёлкните правой кнопкой значок в трее для запроса описания. Для продолжения нажмите кнопку «Далее»</value>
+  </data>
+  <data name="AppIsNotClosed" xml:space="preserve">
+    <value>Обновляемое / удаляемое приложение активно. Завершите работу с ним и повторите попытку</value>
+  </data>
+  <data name="KillProcessFlagText" xml:space="preserve">
+    <value>Остановить приложение, если оно запущено</value>
+  </data>
+  <data name="StartProcessFlagText" xml:space="preserve">
+    <value>Запустить приложение после завершения</value>
+  </data>
+  <data name="PackageSelectorForm_BAbout" xml:space="preserve">
+    <value>&amp;О приложении</value>
+  </data>
+  <data name="CloseOnSuccessFlagText" xml:space="preserve">
+    <value>Выйти при успешном завершении</value>
+  </data>
+  <data name="dpdfile" xml:space="preserve">
+    <value>Скрипт деинсталляции пакета</value>
+  </data>
+  <data name="PSF_NewPackage" xml:space="preserve">
+    <value>Новый пакет</value>
+  </data>
+  <data name="PSF_NoInfo" xml:space="preserve">
+    <value>Не хранится</value>
+  </data>
+  <data name="PSF_TableHeader00" xml:space="preserve">
+    <value>Разв.</value>
+  </data>
+  <data name="PSF_TableHeader02" xml:space="preserve">
+    <value>Название пакета</value>
+  </data>
+  <data name="PSF_TableHeader03" xml:space="preserve">
+    <value>Акт. вер.</value>
+  </data>
+  <data name="PSF_TableHeader04" xml:space="preserve">
+    <value>Уст. вер.</value>
+  </data>
+  <data name="PSF_TableHeader05" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="AllowDesktopShortcutsFlagText" xml:space="preserve">
+    <value>Создать ярлыки на рабочем столе</value>
+  </data>
+  <data name="RequiredUpdate" xml:space="preserve">
+    <value>Необходимое обновление для модуля развёртки</value>
+  </data>
+  <data name="PackageSelectorForm_AllPackagesRadio" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="PackageSelectorForm_NewPackagesRadio" xml:space="preserve">
+    <value>Только новые</value>
+  </data>
+  <data name="PackageSelectorForm_UpdatablePackagesRadio" xml:space="preserve">
+    <value>Только обновления</value>
+  </data>
+  <data name="RegistryKeyNotFoundAllow" xml:space="preserve">
+    <value>Путь развёртки программы не найден в реестре.
+
+Программа использует стандартный путь для этого продукта. Если он не соответствует действительности, воспользуйтесь пунктом «Восстановить путь установки пакета» из контекстного меню значка в трее</value>
+  </data>
+  <data name="dpfile" xml:space="preserve">
+    <value>Унифицированный пакет развёртки</value>
+  </data>
+  <data name="AdditionalButton" xml:space="preserve">
+    <value>&amp;Перейти</value>
+  </data>
+  <data name="PSF_TableHeader01" xml:space="preserve">
+    <value>Быстро</value>
+  </data>
+  <data name="ProtocolCallFailure" xml:space="preserve">
+    <value>Указанный пакет ({0:S}) не найден</value>
+  </data>
+  <data name="PackageSelectorForm_ExitButton" xml:space="preserve">
+    <value>В&amp;ыход</value>
+  </data>
+  <data name="dpprotocol" xml:space="preserve">
+    <value>URL: Протокол обработки пакетов развёртки</value>
+  </data>
+  <data name="NoPackagesSelected" xml:space="preserve">
+    <value>Не выбраны пакеты для развёртки</value>
+  </data>
+  <data name="PackagesListAlternative" xml:space="preserve">
+    <value>Загрузка альтернативного списка пакетов...</value>
+  </data>
+  <data name="PackageSelectorForm_DeployedPackagesRadio" xml:space="preserve">
+    <value>Только развёрнутые</value>
+  </data>
+  <data name="IconLastServerMessages" xml:space="preserve">
+    <value>Посмотреть последние сообщения сервера</value>
+  </data>
+  <data name="HasNoUpdates" xml:space="preserve">
+    <value>Все ранее развёрнутые пакеты актуальны</value>
+  </data>
+  <data name="HasUpdates" xml:space="preserve">
+    <value>Доступны обновления для ранее развёрнутых пакетов.
+
+В списке пакетов обновления выделены светло-изумрудным цветом. В верхней части окна также доступна фильтрация по признаку «только обновления»</value>
+  </data>
+  <data name="AllowMenuShortcutsFlagText" xml:space="preserve">
+    <value>Создать ярлыки в меню Пуск</value>
+  </data>
+  <data name="VersionLine" xml:space="preserve">
+    <value>Версия приложения: {0:S}; версия пакета: {1:S}</value>
+  </data>
+  <data name="ReqMessageFirst" xml:space="preserve">
+    <value>Это приложение требует следующих предустановок для работы:
+{0:S}
+Если это возможно, они будут установлены автоматически на следующем шаге. В противном случае будут открыты их веб-страницы с возможностью ручной загрузки.
+
+* Открывшиеся веб-страницы, не предлагающие автоматическую загрузку установочных пакетов, носят информационно-ознакомительный характер</value>
+  </data>
+</root>

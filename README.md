@@ -1,12 +1,12 @@
-﻿# DPArray v 5.6.2
-> PCC: 0009F495DAB75977
+﻿# DPArray v 5.6.3
+> PCC: 0009F29D0C6AEDEF
 
-> CRC32: 87E2AF53
+> CRC32: D87AD8FF
 
 
 
-DPArray is the deployment tool that was created to manage Laboratory’s products.
-DPArray performs installation, uninstallation, check for updates, download of packages and their requirements.
+DPArray is a tool for managing Laboratory’s products on your PC.
+DPArray performs installation, deinstallation, check for updates, download of packages and their requirements. This tool is the only thing you need to start working with all of our projects
 This tool is the only thing you need to start working with all of our projects
 
 #

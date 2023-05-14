@@ -1,4 +1,4 @@
-# Welcome to laboratory!
+# Welcome to Laboratory!
 
 [**DPArray ● Direct download link**](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.sfx.exe)
 
@@ -44,7 +44,7 @@ and not restrictive nature.
 published products and developments.
 
 Both documents are required for familiarization for the most complete understanding of the goals
-and objectives of the laboratory
+and objectives of the Laboratory
 
 &nbsp;
 
@@ -52,7 +52,7 @@ and objectives of the laboratory
 
 ## Actual projects and developments
 
-Current laboratory’s projects are described below.
+Current Laboratory’s projects are described below.
 Descriptions contain:
 
 :earth_africa: all the necessary links;
@@ -115,7 +115,7 @@ For applications and products running on Android (<img src="/DPArray/img/And.png
 :film_projector: [Video guide](https://youtube.com/watch?v=I_sXoDxPQQ0) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/DPArray/releases/latest)
 
-The deployment tool for laboratory projects. The tool installs, removes, checks updates, loads packages and their requirements.
+The deployment tool for Laboratory products. This tool installs, removes, checks updates, loads packages and their requirements.
 You can get all our products through this application (including APKs for Android). You are now on the welcome page of it
 
 &nbsp;
