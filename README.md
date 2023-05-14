@@ -1,4 +1,4 @@
-﻿# DPArray v 5.6.3
+# DPArray v 5.6.3
 > PCC: 0009F29D0C6AEDEF
 
 > CRC32: D87AD8FF
