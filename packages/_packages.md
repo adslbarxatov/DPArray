@@ -18,12 +18,13 @@ uNot						6.3		DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000523CD	0
 Vice city toolset			4.2		DEFSTORAGE/ViceCityToolset.dp				ViceCityToolset.dp			0x0019F9EF	1
 
 #Mods
-ESHQ						13.0	MODSTORAGE/240086?MOD_REFmods%2Feshq		ESHQ_setup.7z				230251732	3
- ◤ Actual update			13.4	MODSTORAGE/250101?MOD_REFmods%2Feshq		ESHQ_update.7z				58559285	0
-ES: Randomaze				4.0		MODSTORAGE/241102?MOD_REFmods%2Fesrm		ESRM_setup.7z				56050065	3
- ◤ Actual update			4.12	MODSTORAGE/250336?MOD_REFmods%2Fesrm		ESRM_update.7z				8863712		0
+ESHQ						13.5	MODSTORAGE/250593?MOD_REFmods%2Feshq		ESHQ_setup.7z				232218407	3
+ ◤ ESHQ, bkwd. compat.		13.5	MODSTORAGE/250592?MOD_REFmods%2Feshq		ESHQ_bkwd.7z				58580499	2
+ ◤ Actual update			13.5a	MODSTORAGE/250594?MOD_REFmods%2Feshq		ESHQ_update.7z				986			0
+ES: Randomaze				4.13	MODSTORAGE/250598?MOD_REFmods%2Fesrm		ESRM_setup.7z				60254979	3
+ ◤ ESHQ, bkwd. compat.		4.13	MODSTORAGE/250596?MOD_REFmods%2Feshq		ESHQ_bkwd.7z				8901893		2
+ ◤ Actual update			4.13a	MODSTORAGE/250600?MOD_REFmods%2Fesrm		ESRM_update.7z				192033		0
 Crazy cheater’s mod			1.3		MODSTORAGE/240088?MOD_REFmods%2Fccm			GTAViceCity.7z				165319082	2
-ESHQ, bkwd compatibility    13.0	MODSTORAGE/240085?MOD_REFmods%2Feshq		ESHQ_backward.7z			59848593	2
 
 #Games
 One hundred and one			2.0			DEFSTORAGE/OneHundredOne.dp				OneHundredOne.dp			0x000333A2	0
