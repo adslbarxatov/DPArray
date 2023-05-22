@@ -10,7 +10,7 @@ Dates difference			3.2.2	DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0
 File extensions manager		2.3.2	DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x00053A3F	0
 Font finder					3.2.4	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x000483E5	0
 Geomag data drawer			5.3.2	DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x00132CB1	1
-KassArray					4.3		DEFSTORAGE/KassArray.dp						KassArray.dp				0x00121A42	1
+KassArray					4.3.1	DEFSTORAGE/KassArray.dp						KassArray.dp				0x00121A3C	1
 OS macros executor			3.2.2	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x0005B76A	1
 Screen shooter				2.2.2	DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x0002F5DD	0
 Sudoku solver				3.3.2	DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x0002F5B1	0
