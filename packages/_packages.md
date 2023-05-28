@@ -20,7 +20,7 @@ Vice city toolset			4.2		DEFSTORAGE/ViceCityToolset.dp				ViceCityToolset.dp			0
 #Mods
 ESHQ						13.5	MODSTORAGE/250593?MOD_REFmods%2Feshq		ESHQ_setup.7z				232218407	3
  ◤ ESHQ, bkwd. compat.		13.5	MODSTORAGE/250592?MOD_REFmods%2Feshq		ESHQ_bkwd.7z				58580499	2
- ◤ Actual update			13.5a	MODSTORAGE/250594?MOD_REFmods%2Feshq		ESHQ_update.7z				986			0
+ ◤ Actual update			13.6	MODSTORAGE/250911?MOD_REFmods%2Feshq		ESHQ_update.7z				22548982	0
 ES: Randomaze				4.13	MODSTORAGE/250598?MOD_REFmods%2Fesrm		ESRM_setup.7z				60254979	3
  ◤ ESHQ, bkwd. compat.		4.13	MODSTORAGE/250596?MOD_REFmods%2Feshq		ESRM_bkwd.7z				8901893		2
  ◤ Actual update			4.13a	MODSTORAGE/250600?MOD_REFmods%2Fesrm		ESRM_update.7z				192033		0
