@@ -19,11 +19,11 @@ Vice city toolset			4.2		DEFSTORAGE/ViceCityToolset.dp				ViceCityToolset.dp			0
 
 #Mods
 ESHQ						13.5	MODSTORAGE/250593?MOD_REFmods%2Feshq		ESHQ_setup.7z				232218407	3
+ ◤ ESHQ, actual update		13.6	MODSTORAGE/250911?MOD_REFmods%2Feshq		ESHQ_update.7z				22548982	0
  ◤ ESHQ, bkwd. compat.		13.5	MODSTORAGE/250592?MOD_REFmods%2Feshq		ESHQ_bkwd.7z				58580499	2
- ◤ Actual update			13.6	MODSTORAGE/250911?MOD_REFmods%2Feshq		ESHQ_update.7z				22548982	0
 ES: Randomaze				4.13	MODSTORAGE/250598?MOD_REFmods%2Fesrm		ESRM_setup.7z				60254979	3
- ◤ ESHQ, bkwd. compat.		4.13	MODSTORAGE/250596?MOD_REFmods%2Feshq		ESRM_bkwd.7z				8901893		2
- ◤ Actual update			4.13a	MODSTORAGE/250600?MOD_REFmods%2Fesrm		ESRM_update.7z				192033		0
+ ◤ ES: Randomaze, actual update		4.13a	MODSTORAGE/250600?MOD_REFmods%2Fesrm		ESRM_update.7z				192033		0
+ ◤ ES: Randomaze, bkwd. compat.		4.13	MODSTORAGE/250596?MOD_REFmods%2Feshq		ESRM_bkwd.7z				8901893		2
 Crazy cheater’s mod			1.3		MODSTORAGE/240088?MOD_REFmods%2Fccm			GTAViceCity.7z				165319082	2
 
 #Games
@@ -34,8 +34,8 @@ Turtle						2.1.2		DEFSTORAGE/Turtle.7z					Turtle.7z					14775272	1
 
 #Android apps
 KassArray for Android		4.4			GIT_LINK/KassArray/GIT_PATH/KassArray_KitKat.apk		KassArray.apk		33403485	3
-Make decision for Android	3.2			GIT_LINK/MakeDecision/GIT_PATH/MakeDecision.apk			MakeDecision.apk	32732692	3
-PA detector for Android		3.1			GIT_LINK/EnchantIt/GIT_PATH/PADetector.apk				PADetector.apk		40166176	3
+Make decision for Android	3.2.2		GIT_LINK/MakeDecision/GIT_PATH/MakeDecision.apk			MakeDecision.apk	32986665	3
+PA detector for Android		3.1.2		GIT_LINK/EnchantIt/GIT_PATH/PADetector.apk				PADetector.apk		40538912	3
 uNot for Android			6.4			GIT_LINK/UniNotifier/GIT_PATH/UniNotifier.apk			UniNotifier.apk		33089400	3
 
 
