@@ -2,7 +2,11 @@ DPArray: changes log
 
 ToDo:
 - Implement the AppLauncher
-- Implement the graphic interface
+
+Version 6.0:
+• Implemented the direct info URLs for the packages manager (without their downloading);
+• Packages manager now has new interface with faster data downloader;
+• Alternative downloading server (VK) has been disabled;
 
 Version 5.6.3:
 • XPUN control conditions have been updated
