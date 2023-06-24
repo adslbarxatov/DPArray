@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
-using System.Globalization;
 using System.IO;
-using System.Net;
 using System.Security.Principal;
 using System.Windows.Forms;
 
@@ -64,8 +62,8 @@ namespace RD_AAOW
 			"Сервер" + "\xA0" + "недоступен",
 			"[Страница обновлений недоступна]",		// 24
 
-			"Загрузка установочного пакета:",
-			"Успешно",
+			"",
+			"",
 
 			"Предупреждение: необходимые расширения файлов будут зарегистрированы с использованием " +
 			"текущего местоположения приложения.\n\nУбедитесь, что вы не будете менять расположение " +
@@ -132,8 +130,8 @@ namespace RD_AAOW
 			"Not" + "\xA0" + "available",
 			"[Updates page is unavailable]",	// 24
 
-			"Downloading deployment package:",
-			"Success",
+			"",
+			"",
 
 			"Warning: required file extensions will be registered using current app location.\n\n" +
 			"Make sure you will not change location of this application before using this feature.\n\n" +
@@ -470,7 +468,7 @@ namespace RD_AAOW
 		// Метод получает Политику разработки
 		private void PolicyLoader (object sender, DoWorkEventArgs e)
 			{
-			string html = GetHTML (RDGenerics.ADPLink);
+			string html = RDGenerics.GetHTML (RDGenerics.ADPLink);
 			int textLeft, textRight;
 
 			if (((textLeft = html.IndexOf ("code\">")) >= 0) &&
@@ -629,7 +627,7 @@ namespace RD_AAOW
 			packagePath += downloadLink.Substring (l + 1);
 
 			// Запуск загрузки
-			HardWorkExecutor hwe = new HardWorkExecutor (PackageLoader, downloadLink, packagePath, "0");
+			HardWorkExecutor hwe = new HardWorkExecutor (RDGenerics.PackageLoader, downloadLink, packagePath, "0");
 
 			// Разбор ответа
 			string msg = "";
@@ -701,7 +699,7 @@ namespace RD_AAOW
 			{
 			// Запрос обновлений пакета
 			int al = (int)Localization.CurrentLanguage;
-			string html = GetHTML (projectLink);
+			string html = RDGenerics.GetHTML (projectLink);
 			bool htmlError = true;  // Сбрасывается при успешной загрузке
 
 			// Разбор ответа (извлечение версии)
@@ -725,7 +723,7 @@ namespace RD_AAOW
 			string version = html.Substring (i, j - i).Trim ();
 
 			// Запрос описания пакета
-			html = GetHTML (updatesLink);
+			html = RDGenerics.GetHTML (updatesLink);
 
 			// Разбор ответа (извлечение версии)
 			i = html.IndexOf (htmlMarkers[2]);
@@ -756,7 +754,7 @@ namespace RD_AAOW
 
 // Получение обновлений Политики (ошибки игнорируются)
 policy:
-			html = GetHTML (RDGenerics.ADPLink);
+			html = RDGenerics.GetHTML (RDGenerics.ADPLink);
 			if (((i = html.IndexOf ("<title")) >= 0) && ((j = html.IndexOf ("</title", i)) >= 0))
 				{
 				// Обрезка
@@ -790,132 +788,8 @@ policy:
 		// Метод выполняет фоновую проверку обновлений
 		private void HypeHelper (object sender, DoWorkEventArgs e)
 			{
-			GetHTML (hypeHelpLinks[rnd.Next (hypeHelpLinks.Length)]);
+			RDGenerics.GetHTML (hypeHelpLinks[rnd.Next (hypeHelpLinks.Length)]);
 			e.Result = 0;
-			}
-
-		/// <summary>
-		/// Метод-исполнитель загрузки пакета обновлений
-		/// </summary>
-		public static void PackageLoader (object sender, DoWorkEventArgs e)
-			{
-			// Разбор аргументов
-			string[] paths = (string[])e.Argument;
-
-			// Инициализация полосы загрузки
-			int al = (int)Localization.CurrentLanguage;
-			string downloadMessage = locale[al][25];
-			string downloadSuccess = locale[al][26];
-
-			string report = downloadMessage + "\n" + Path.GetFileName (paths[1]);
-			((BackgroundWorker)sender).ReportProgress ((int)HardWorkExecutor.ProgressBarSize, report);
-
-			// Отдельная обработка ModDB
-			if (paths[0].Contains ("www.moddb.com"))
-				{
-				string html = GetHTML (paths[0]);
-
-				int left, right;
-				if ((html == "") || ((left = html.IndexOf ("<a href=\"")) < 0) ||
-					((right = html.IndexOf ("/?", left)) < 0))
-					{
-					e.Result = -1;
-					return;
-					}
-
-				paths[0] = "https://www.moddb.com" + html.Substring (left + 9, right - left - 9);
-				}
-
-			// Настройка безопасности соединения
-			ServicePointManager.SecurityProtocol = (SecurityProtocolType)0xFC0;
-			// Принудительно открывает TLS1.0, TLS1.1 и TLS1.2; блокирует SSL3
-
-			// Запрос файла
-			HttpWebRequest rq;
-			try
-				{
-				rq = (HttpWebRequest)WebRequest.Create (paths[0]);
-				}
-			catch
-				{
-				e.Result = -1;
-				return;
-				}
-			rq.Method = "GET";
-			rq.KeepAlive = false;
-			rq.Timeout = 10000;
-
-			// Отправка запроса
-			HttpWebResponse resp = null;
-			try
-				{
-				resp = (HttpWebResponse)rq.GetResponse ();
-				}
-			catch
-				{
-				// Любая ошибка здесь будет означать необходимость прекращения проверки
-				e.Result = -2;
-				return;
-				}
-
-			// Создание файла
-			FileStream FS = null;
-			try
-				{
-				FS = new FileStream (paths[1], FileMode.Create);
-				}
-			catch
-				{
-				resp.Close ();
-				e.Result = -3;
-				return;
-				}
-
-			// Чтение ответа
-			Stream SR = resp.GetResponseStream ();
-
-			int b;
-
-			long length = 0, current = 0;
-			try
-				{
-				if (paths[2].StartsWith ("0x"))
-					length = long.Parse (paths[2].Substring (2), NumberStyles.AllowHexSpecifier);
-				else
-					length = long.Parse (paths[2]);
-				}
-			catch { }
-
-			while ((b = SR.ReadByte ()) >= 0)
-				{
-				FS.WriteByte ((byte)b);
-
-				if ((length != 0) && (current++ % 0x1000 == 0))
-					((BackgroundWorker)sender).ReportProgress ((int)(HardWorkExecutor.ProgressBarSize *
-						current / length), report);  // Возврат прогресса
-
-				// Завершение работы, если получено требование от диалога
-				if (((BackgroundWorker)sender).CancellationPending)
-					{
-					SR.Close ();
-					FS.Close ();
-					resp.Close ();
-
-					e.Result = 1;
-					e.Cancel = true;
-					return;
-					}
-				}
-
-			SR.Close ();
-			FS.Close ();
-			resp.Close ();
-
-			// Завершено. Отображение сообщения
-			((BackgroundWorker)sender).ReportProgress (-1, downloadSuccess);
-
-			e.Result = 0;
-			return;
 			}
 
 		// Контроль сообщения об обновлении
@@ -972,61 +846,6 @@ policy:
 				{
 				UpdatesPageButton.Text = "";
 				}
-			}
-
-		/// <summary>
-		/// Метод загружает веб-страницу по указанной ссылке
-		/// </summary>
-		/// <param name="PageLink">Ссылка на страницу</param>
-		/// <returns>HTML-разметка страницы или пустая строка в случае ошибки</returns>
-		public static string GetHTML (string PageLink)
-			{
-			// Настройка безопасности соединения
-			ServicePointManager.SecurityProtocol = (SecurityProtocolType)0xFC0;
-			// Принудительно открывает TLS1.0, TLS1.1 и TLS1.2; блокирует SSL3
-
-			// Запрос обновлений
-			HttpWebRequest rq;
-			string html = "";
-			try
-				{
-				rq = (HttpWebRequest)WebRequest.Create (PageLink);
-				}
-			catch
-				{
-				return html;
-				}
-			rq.Method = "GET";
-			rq.KeepAlive = false;
-			rq.Timeout = 10000;
-
-			// Отправка запроса
-			HttpWebResponse resp = null;
-			try
-				{
-				resp = (HttpWebResponse)rq.GetResponse ();
-				}
-			catch //(Exception e)
-				{
-				// Любая ошибка здесь будет означать необходимость прекращения проверки
-				return html;
-				}
-
-			// Чтение ответа
-			StreamReader SR = new StreamReader (resp.GetResponseStream (), true);
-			try
-				{
-				html = SR.ReadToEnd ();
-				}
-			catch
-				{
-				html = "";  // Почему-то иногда исполнение обрывается на этом месте
-				}
-			SR.Close ();
-			resp.Close ();
-
-			// Завершено
-			return html;
 			}
 
 		// Непринятие Политики

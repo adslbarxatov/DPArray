@@ -364,24 +364,24 @@ If app starts properly, you don’t need to do anything here. Otherwise, press �
     <value>Package uninstallation script</value>
   </data>
   <data name="PSF_NewPackage" xml:space="preserve">
-    <value>New package</value>
+    <value>(new)</value>
   </data>
   <data name="PSF_NoInfo" xml:space="preserve">
-    <value>No info</value>
+    <value>(no info)</value>
   </data>
   <data name="PSF_TableHeader00" xml:space="preserve">
-    <value>Deploy</value>
+    <value>Deployment</value>
   </data>
-  <data name="PSF_TableHeader02" xml:space="preserve">
+  <data name="PSF_TableHeader01" xml:space="preserve">
     <value>Package name</value>
   </data>
-  <data name="PSF_TableHeader03" xml:space="preserve">
+  <data name="PSF_TableHeader02" xml:space="preserve">
     <value>Act. ver.</value>
   </data>
-  <data name="PSF_TableHeader04" xml:space="preserve">
+  <data name="PSF_TableHeader03" xml:space="preserve">
     <value>Inst. ver.</value>
   </data>
-  <data name="PSF_TableHeader05" xml:space="preserve">
+  <data name="PSF_TableHeader04" xml:space="preserve">
     <value>Description</value>
   </data>
   <data name="AllowDesktopShortcutsFlagText" xml:space="preserve">
@@ -410,9 +410,6 @@ The app will use default path for this product. If it’s not correct, use “Re
   <data name="AdditionalButton" xml:space="preserve">
     <value>&amp;Go to</value>
   </data>
-  <data name="PSF_TableHeader01" xml:space="preserve">
-    <value>Fast</value>
-  </data>
   <data name="ProtocolCallFailure" xml:space="preserve">
     <value>Specified package ({0:S}) not found</value>
   </data>
@@ -440,7 +437,7 @@ The app will use default path for this product. If it’s not correct, use “Re
   <data name="HasUpdates" xml:space="preserve">
     <value>Updates are available for previously deployed packages.
 
-Updates are highlighted in light emerald in the packages list. At the top of the window, filtering is also available on the basis of “updates only”</value>
+Updates are highlighted in yellow in the packages list. At the top of the window, filtering is also available on the basis of “updates only”</value>
   </data>
   <data name="AllowMenuShortcutsFlagText" xml:space="preserve">
     <value>Create shortcuts in the Start menu</value>
@@ -454,5 +451,31 @@ Updates are highlighted in light emerald in the packages list. At the top of the
 If possible, they will be installed automatically in the next step. Otherwise, their web pages will be opened with manual download option.
 
 * Opened web pages that don’t offer automatic download of installation packages are for informational purposes only</value>
+  </data>
+  <data name="PSF_Context00" xml:space="preserve">
+    <value>More info</value>
+  </data>
+  <data name="PSF_Context01" xml:space="preserve">
+    <value>Deploy</value>
+  </data>
+  <data name="PSF_Context02" xml:space="preserve">
+    <value>Fast deployment</value>
+  </data>
+  <data name="PSF_Default" xml:space="preserve">
+    <value>(deploy)</value>
+  </data>
+  <data name="PSF_Fast" xml:space="preserve">
+    <value>(fast)</value>
+  </data>
+  <data name="PSF_URLAvailable" xml:space="preserve">
+    <value>
+
+Do you want to open the webpage with additional project info?</value>
+  </data>
+  <data name="PSF_Context07" xml:space="preserve">
+    <value>Deselect all</value>
+  </data>
+  <data name="PSF_Context03" xml:space="preserve">
+    <value>Deselect</value>
   </data>
 </root>

@@ -5,8 +5,10 @@ ToDo:
 
 Version 6.0:
 • Implemented the direct info URLs for the packages manager (without their downloading);
-• Packages manager now has new interface with faster data downloader;
+• Packages manager now has new interface with faster data downloader and automatic grouping;
+• All options for packages in the list are now available through the context menu (use right mouse button);
 • Alternative downloading server (VK) has been disabled;
+• Some minor bugs have been fixed
 
 Version 5.6.3:
 • XPUN control conditions have been updated
