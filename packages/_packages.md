@@ -24,7 +24,7 @@ ESHQ, bkwd. compat.			13.5	MODSTORAGE/250592?MOD_REFmods%2Feshq		ESHQ_bkwd.7z			
 ES: Randomaze				4.13	MODSTORAGE/250598?MOD_REFmods%2Fesrm		ESRM_setup.7z				60254979	3	MODSHOST/esrm
 ES: Randomaze, actual update	4.13a	MODSTORAGE/250600?MOD_REFmods%2Fesrm		ESRM_update.7z			192033		0	MODSHOST/esrm
 ES: Randomaze, bkwd. compat.	4.13	MODSTORAGE/250596?MOD_REFmods%2Feshq		ESRM_bkwd.7z			8901893		2	MODSHOST/esrm
-Crazy cheater’s mod			1.3		MODSTORAGE/240088?MOD_REFmods%2Fccm			CCM.7z						165319082	2	MODSHOST/ccm
+Crazy cheater’s mod			1.3		MODSTORAGE/240088?MOD_REFmods%2Fccm			CCM.7z						165319082	2	MODSHOST/ccm	GTAViceCity.1.3.dp
 
 #Minigames
 One hundred and one			2.0		DEFSTORAGE/DEFFILE		OneHundredOne.dp			0x000333A2	0	INFOLINK
