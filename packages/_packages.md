@@ -27,10 +27,10 @@ ES: Randomaze, bkwd. compat.	4.13	MODSTORAGE/250596?MOD_REFmods%2Feshq	ESRM_bkwd
 Crazy cheater’s mod				1.3		MODSTORAGE/240088?MOD_REFmods%2Fccm		CCM.7z				165319082	2	MODSHOST/ccm	GTAViceCity.1.3.dp
 
 #Minigames
-One hundred and one			2.0.5	DEFSTORAGE/DEFFILE		OneHundredOne.dp			0x000333AC	0	INFOLINK
-Races						2.1.2	DEFSTORAGE/DEFFILE		Races.7z					14687232	1	INFOLINK
-Snake						2.1.2	DEFSTORAGE/DEFFILE		Snake.7z					16122393	1	INFOLINK
-Turtle						2.1.2	DEFSTORAGE/DEFFILE		Turtle.7z					14775272	1	INFOLINK
+One hundred and one			2.0.5	DEFSTORAGE/DEFFILE		OneHundredOne.dp			0x000333AC	0	INFOPAGE
+Races						2.1.5	DEFSTORAGE/DEFFILE		Races.7z					14686703	1	INFOLINK
+Snake						2.1.5	DEFSTORAGE/DEFFILE		Snake.7z					16123850	1	INFOLINK
+Turtle						2.1.5	DEFSTORAGE/DEFFILE		Turtle.7z					14774674	1	INFOLINK
 
 #Android apps
 KassArray for Android		4.4			GIT_LINK/KassArray/GIT_PATH/DEFFILE				KassArray.apk		33403485	3	INFOPAGE
