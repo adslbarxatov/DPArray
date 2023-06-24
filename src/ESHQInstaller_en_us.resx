@@ -266,7 +266,9 @@ NOTE: if you’ll set incorrect path, updater and installer may damage valuable 
   <data name="HelpText" xml:space="preserve">
     <value>DPArray is a tool for managing Laboratory’s products on your PC.
 
-DPArray performs installation, deinstallation, check for updates, download of packages and their requirements. This tool is the only thing you need to start working with all of our projects</value>
+DPArray performs installation, deinstallation, check for updates, download of packages and their requirements. This tool is the only thing you need to start working with all of our projects.
+
+Use right mouse button to manage packages, double left click for retrieving packages info</value>
   </data>
   <data name="PackageSelectorForm_Label01" xml:space="preserve">
     <value>Deployment packages manager</value>

@@ -1,7 +1,7 @@
 ```
 Packages, available for download:
 
-DPArray						6.0		DEFSTORAGE/DPArray.dp	DPArray.dp					0x0009F88F	0
+DPArray						6.0.2	DEFSTORAGE/DPArray.dp	DPArray.dp					0x0009FA95	0
 
 #Apps
 Batch image convertor		3.3.2	DEFSTORAGE/DEFFILE		BatchImageConvertor.dp		0x00058D98	1	INFOLINK
@@ -18,13 +18,13 @@ uNot						6.4		DEFSTORAGE/DEFFILE		UniNotifier.dp				0x000527D5	0	INFOPAGE
 Vice city toolset			4.2		DEFSTORAGE/DEFFILE		ViceCityToolset.dp			0x0019F9EF	1	INFOPAGE
 
 #Mods
-ESHQ						13.5	MODSTORAGE/250593?MOD_REFmods%2Feshq		ESHQ_setup.7z				232218407	3	MODSHOST/eshq
-ESHQ, actual update			13.6	MODSTORAGE/250911?MOD_REFmods%2Feshq		ESHQ_update.7z				22548982	0	MODSHOST/eshq
-ESHQ, bkwd. compat.			13.5	MODSTORAGE/250592?MOD_REFmods%2Feshq		ESHQ_bkwd.7z				58580499	2	MODSHOST/eshq
-ES: Randomaze				4.13	MODSTORAGE/250598?MOD_REFmods%2Fesrm		ESRM_setup.7z				60254979	3	MODSHOST/esrm
-ES: Randomaze, actual update	4.13a	MODSTORAGE/250600?MOD_REFmods%2Fesrm		ESRM_update.7z			192033		0	MODSHOST/esrm
-ES: Randomaze, bkwd. compat.	4.13	MODSTORAGE/250596?MOD_REFmods%2Feshq		ESRM_bkwd.7z			8901893		2	MODSHOST/esrm
-Crazy cheater’s mod			1.3		MODSTORAGE/240088?MOD_REFmods%2Fccm			CCM.7z						165319082	2	MODSHOST/ccm	GTAViceCity.1.2.dp
+ESHQ							13.5	MODSTORAGE/250593?MOD_REFmods%2Feshq	ESHQ_setup.7z		232218407	3	MODSHOST/eshq
+ESHQ, actual update				13.6	MODSTORAGE/250911?MOD_REFmods%2Feshq	ESHQ_update.7z		22548982	0	MODSHOST/eshq
+ESHQ, bkwd. compat.				13.5	MODSTORAGE/250592?MOD_REFmods%2Feshq	ESHQ_bkwd.7z		58580499	2	MODSHOST/eshq
+ES: Randomaze					4.13	MODSTORAGE/250598?MOD_REFmods%2Fesrm	ESRM_setup.7z		60254979	3	MODSHOST/esrm
+ES: Randomaze, actual update	4.13a	MODSTORAGE/250600?MOD_REFmods%2Fesrm	ESRM_update.7z		192033		0	MODSHOST/esrm
+ES: Randomaze, bkwd. compat.	4.13	MODSTORAGE/250596?MOD_REFmods%2Feshq	ESRM_bkwd.7z		8901893		2	MODSHOST/esrm
+Crazy cheater’s mod				1.3		MODSTORAGE/240088?MOD_REFmods%2Fccm		CCM.7z				165319082	2	MODSHOST/ccm	GTAViceCity.1.3.dp
 
 #Minigames
 One hundred and one			2.0		DEFSTORAGE/DEFFILE		OneHundredOne.dp			0x000333A2	0	INFOLINK

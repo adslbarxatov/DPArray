@@ -3,6 +3,9 @@ DPArray: changes log
 ToDo:
 - Implement the AppLauncher
 
+Version 6.0.2:
+• Added special processing methods for non-standard conditions
+
 Version 6.0:
 • Implemented the direct info URLs for the packages manager (without their downloading);
 • Packages manager now has new interface with faster data downloader and automatic grouping;
