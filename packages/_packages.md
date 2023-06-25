@@ -15,7 +15,7 @@ OS macros executor			3.2.5	DEFSTORAGE/DEFFILE		OSMacrosExecutor.dp			0x0005B76A	
 Screen shooter				2.2.5	DEFSTORAGE/DEFFILE		ScreenShooter.dp			0x0002F5D5	0	INFOLINK
 Sudoku solver				3.3.5	DEFSTORAGE/DEFFILE		SudokuSolver.dp				0x0002F5B1	0	INFOLINK
 uNot						6.4		DEFSTORAGE/DEFFILE		UniNotifier.dp				0x000527D5	0	INFOPAGE
-Vice city toolset			4.2		DEFSTORAGE/DEFFILE		ViceCityToolset.dp			0x0019F9EF	1	INFOPAGE
+Vice city toolset			4.2.5	DEFSTORAGE/DEFFILE		ViceCityToolset.dp			0x0019F3E9	1	INFOPAGE
 
 #Mods
 ESHQ							13.5	MODSTORAGE/250593?MOD_REFmods%2Feshq	ESHQ_setup.7z		232218407	3	MODSHOST/eshq
