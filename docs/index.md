@@ -352,6 +352,17 @@ This app imitates the “One hundred and one” game for two players
 
 &nbsp;
 
+### Thousand
+:gb: :ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/Thousand) &#x3000;
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/Thousand/releases/latest) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://Thousand)
+
+This app imitates the “Thousand” game for three players
+
+&nbsp;
+
 ### Races
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
