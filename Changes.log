@@ -3,6 +3,10 @@ DPArray: changes log
 ToDo:
 - Implement the AppLauncher
 
+Version 6.0.5:
+• Updated the Policy window;
+• XPUN control now able to send user to the webpage with its description
+
 Version 6.0.2:
 • Added special processing methods for non-standard conditions
 

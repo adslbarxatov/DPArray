@@ -16,9 +16,9 @@ namespace RD_AAOW
 		// Переменные
 		private string projectLink, updatesLink, userManualLink;
 		private string updatesMessage = "", updatesMessageForText = "", description = "",
-			policyLoaderCaption = "", registryFail = "", dpModuleAbsence = "",
-			startDownload = "", packageFail = "", fileWriteFail = "", versionDescription = "",
-			adpRevision = "";
+			policyLoaderCaption = "", registryFail = "",
+			dpModuleAbsence = "", startDownload = "", packageFail = "", fileWriteFail = "",
+			versionDescription = "", adpRevision = "";
 		private bool accepted = false;              // Флаг принятия Политики
 		private const string toolName = "DPArray";
 
@@ -34,7 +34,7 @@ namespace RD_AAOW
 			"",	// 07
 			"От&клонить",
 
-			"Не удалось получить текст Политики. Попробуйте использовать кнопку перехода в браузер",
+			"Не удалось получить текст Политики. Нажмите кнопку ▶ для её открытия в веб-браузере",
 			"[Проверка обновлений...]\r\n\r\n",
 			"Подготовка к запуску...",	// 11
 
@@ -101,7 +101,7 @@ namespace RD_AAOW
 			"",		// 07
 			"De&cline",
 
-			"Failed to get Policy text. Try button to open it in browser",
+			"Failed to get the Policy text. Press ▶ button to open it in web browser",
 			"[Checking for updates...]\r\n\r\n",
 			"Preparing for launch...",	// 11
 		
@@ -478,10 +478,22 @@ namespace RD_AAOW
 				textLeft += 6;
 				html = html.Substring (textLeft, textRight - textLeft);
 
-				// Формирование
+				// Формирование текста
 				html = ApplyReplacements (html);
-				html = html.Replace ("\r\n\n\r\n", "\r\n");
-				html = html.Substring (0, html.Length - 12);
+
+				while (html.Contains ("\x0A\x0A"))
+					html = html.Replace ("\x0A\x0A", "\x0A");   // Лишние Unix-абзацы
+				html = html.Replace ("\xA0\x0D", "\x0D");       // Скрытые неразрывные пробелы
+				html = html.Replace ("\x0A\x20", "\x0A     ");  // Отступы в строках Положений
+
+				html = html.Replace ("\x0D\x0A", "\x01");       // Устранение оставшихся задвоений Unix-абзацев
+				html = html.Replace ("\x0A", "\x20");
+				html = html.Replace ("\x01", "\x0D\x0A");
+				html = html.Replace (" \x0D\x0A", "\x0D\x0A");  // Устранение оставшихся лишних пробелов
+
+				//File.WriteAllText (RDGenerics.AppStartupPath + "Policy.dmp", html,
+				//	System.Text.Encoding.GetEncoding (1251));
+				html = html.Substring (1, html.Length - 48);    // Финальная обрезка
 				}
 			else
 				{
