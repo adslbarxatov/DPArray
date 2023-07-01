@@ -14,7 +14,7 @@ KassArray					4.4.4	DEFSTORAGE/DEFFILE		KassArray.dp				0x001225F4	1	INFOPAGE
 OS macros executor			3.2.5	DEFSTORAGE/DEFFILE		OSMacrosExecutor.dp			0x0005B76A	1	INFOLINK
 Screen shooter				2.2.5	DEFSTORAGE/DEFFILE		ScreenShooter.dp			0x0002F5D5	0	INFOLINK
 Sudoku solver				3.3.5	DEFSTORAGE/DEFFILE		SudokuSolver.dp				0x0002F9B1	0	INFOLINK
-uNot						6.4		DEFSTORAGE/DEFFILE		UniNotifier.dp				0x000527D5	0	INFOPAGE
+uNot						6.4.2	DEFSTORAGE/DEFFILE		UniNotifier.dp				0x00052FB7	0	INFOPAGE
 Vice city toolset			4.2.5	DEFSTORAGE/DEFFILE		ViceCityToolset.dp			0x0019F3E9	1	INFOPAGE
 
 #Mods
