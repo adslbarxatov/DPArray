@@ -254,6 +254,8 @@ namespace RD_AAOW
 			AboutLabel.Text = RDGenerics.AppAboutLabelText;
 			if (AppLogo != null)
 				IconBox.BackgroundImage = AppLogo;
+
+			AboutForm_Resize (null, null);
 			}
 
 		/// <summary>
@@ -530,11 +532,15 @@ namespace RD_AAOW
 		// Изменение размера окна
 		private void AboutForm_Resize (object sender, EventArgs e)
 			{
-			DescriptionBox.Width = this.Width - 31;
-			ExitButton.Left = this.Width - 120;
+			DescriptionBox.Width = this.ClientSize.Width - 28;
+			ExitButton.Left = this.ClientSize.Width - 120;
 
-			DescriptionBox.Height = this.Height - 225;
-			ExitButton.Top = MisacceptButton.Top = HypeHelpFlag.Top = this.Height - 63;
+			DescriptionBox.Height = this.ClientSize.Height - 195;
+			ExitButton.Top = MisacceptButton.Top = HypeHelpFlag.Top = this.ClientSize.Height - 33;
+
+			UpdatesPageButton.Left = DescriptionBox.Left + DescriptionBox.Width - UpdatesPageButton.Width;
+			AboutLabel.Left = DescriptionBox.Left + DescriptionBox.Width - AboutLabel.Width;
+			ExitButton.Left = DescriptionBox.Left + DescriptionBox.Width - ExitButton.Width;
 			}
 
 		// Запуск ссылок

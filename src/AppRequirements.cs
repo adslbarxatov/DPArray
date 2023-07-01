@@ -18,11 +18,6 @@ namespace RD_AAOW
 		/// </summary>
 		VC_RTL = 1,
 
-		/*/// <summary>
-		/// Microsoft XNA Framework
-		/// </summary>
-		XNAFramework = 2,*/
-
 		/// <summary>
 		/// Microsoft SQL Compact edition
 		/// </summary>
@@ -196,18 +191,6 @@ namespace RD_AAOW
 					alreadyInstalled = s.StartsWith ("14.3");
 					break;
 
-				/*case AppDefaultRequirements.XNAFramework:
-					downloadLink = "https://microsoft.com/en-us/download/details.aspx?id=20914";
-					description = "Microsoft XNA Framework Redistributable 4.0";
-					// Автозагрузка не предусмотрена
-					// fileName = "XNAfx40.msi";
-
-					s = RDGenerics.GetAppSettingsValue ("ProductVersion",
-						"HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\XNA\\Framework\\v4.0");
-
-					alreadyInstalled = s.StartsWith ("4.0");
-					break;*/
-
 				case AppDefaultRequirements.SQLCE:
 					downloadLink = "https://microsoft.com/en-us/download/details.aspx?id=30709";
 					description = "Microsoft SQL Server Compact 4.0 SP1";
@@ -293,9 +276,6 @@ namespace RD_AAOW
 
 				case AppDefaultRequirements.VC_RTL:
 					return "CPP+";
-
-					/*case AppDefaultRequirements.XNAFramework:
-						return "XNA+";*/
 				}
 			}
 

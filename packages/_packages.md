@@ -1,7 +1,7 @@
 ```
 Packages, available for download:
 
-DPArray						6.0.5	DEFSTORAGE/DPArray.dp	DPArray.dp					0x0009FC95	0
+DPArray						6.0.7	DEFSTORAGE/DPArray.dp	DPArray.dp					0x000A007D	0
 
 #Apps
 Batch image convertor		3.3.5	DEFSTORAGE/DEFFILE		BatchImageConvertor.dp		0x00058990	1	INFOLINK
@@ -10,7 +10,7 @@ Dates difference			3.2.5	DEFSTORAGE/DEFFILE		DatesDifference.dp			0x000303EA	0	I
 File extensions manager		2.3.5	DEFSTORAGE/DEFFILE		FileExtensionsManager.dp	0x00053A37	0	INFOPAGE
 Font finder					3.2.5	DEFSTORAGE/DEFFILE		FontFinder.dp				0x000483E5	0	INFOLINK
 Geomag data drawer			5.3.5	DEFSTORAGE/DEFFILE		GeomagDataDrawer.dp			0x00132AB9	1	INFOPAGE
-KassArray					4.4.3	DEFSTORAGE/DEFFILE		KassArray.dp				0x001223F4	1	INFOPAGE
+KassArray					4.4.4	DEFSTORAGE/DEFFILE		KassArray.dp				0x001225F4	1	INFOPAGE
 OS macros executor			3.2.5	DEFSTORAGE/DEFFILE		OSMacrosExecutor.dp			0x0005B76A	1	INFOLINK
 Screen shooter				2.2.5	DEFSTORAGE/DEFFILE		ScreenShooter.dp			0x0002F5D5	0	INFOLINK
 Sudoku solver				3.3.5	DEFSTORAGE/DEFFILE		SudokuSolver.dp				0x0002F9B1	0	INFOLINK
