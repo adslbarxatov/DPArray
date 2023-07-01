@@ -4,7 +4,7 @@ ToDo:
 - Implement the AppLauncher
 
 Version 6.0.7:
-• Added UTF32 encoding
+• Added UTF32 encoding;
 • The interface was adapted to Windows 10, incorrect window borders were fixed
 
 Version 6.0.5:
