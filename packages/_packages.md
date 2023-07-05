@@ -29,9 +29,9 @@ Crazy cheater’s mod				1.3		MODSTORAGE/240088?MOD_REFmods%2Fccm		CCM.7z				165
 #Minigames
 One hundred and one			2.0.7	DEFSTORAGE/DEFFILE		OneHundredOne.dp			0x0003398C	0	INFOPAGE
 Races						2.1.7	DEFSTORAGE/DEFFILE		Races.7z					14690492	1	INFOLINK
-Snake						2.1.7	DEFSTORAGE/DEFFILE		Snake.7z					0x0235EC65	1	INFOLINK
+Snake						2.1.7	DEFSTORAGE/DEFFILE		Snake.7z					16125335	1	INFOLINK
 Thousand					2.0.7	DEFSTORAGE/DEFFILE		Thousand.dp					0x0003835A	0	INFOPAGE
-Turtle						2.1.5	DEFSTORAGE/DEFFILE		Turtle.7z					14774674	1	INFOLINK	Turtle.dp
+Turtle						2.1.7	DEFSTORAGE/DEFFILE		Turtle.7z					14774234	1	INFOLINK
 
 #Android apps
 KassArray for Android		4.4.2		GIT_LINK/KassArray/GIT_PATH/DEFFILE				KassArray.apk		33407581	3	INFOPAGE
