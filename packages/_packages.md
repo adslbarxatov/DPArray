@@ -12,7 +12,7 @@ Font finder					3.2.7	DEFSTORAGE/DEFFILE		FontFinder.dp				0x000489CD	0	INFOLINK
 Geomag data drawer			5.3.7	DEFSTORAGE/DEFFILE		GeomagDataDrawer.dp			0x00132C99	1	INFOPAGE
 KassArray					4.4.4	DEFSTORAGE/DEFFILE		KassArray.dp				0x001225F4	1	INFOPAGE
 OS macros executor			3.2.7	DEFSTORAGE/DEFFILE		OSMacrosExecutor.dp			0x0005BD32	1	INFOLINK
-Screen shooter				2.2.7	DEFSTORAGE/DEFFILE		ScreenShooter.dp			0x0002FBBD	0	INFOLINK
+Screen shooter				2.3		DEFSTORAGE/DEFFILE		ScreenShooter.dp			0x0002FBBB	0	INFOLINK
 Sudoku solver				3.3.7	DEFSTORAGE/DEFFILE		SudokuSolver.dp				0x0002FB99	0	INFOLINK
 uNot						6.4.2	DEFSTORAGE/DEFFILE		UniNotifier.dp				0x00052FB7	0	INFOPAGE
 Vice city toolset			4.2.7	DEFSTORAGE/DEFFILE		ViceCityToolset.dp			0x0019F9B1	1	INFOPAGE
