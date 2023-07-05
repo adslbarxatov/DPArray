@@ -493,8 +493,7 @@ namespace RD_AAOW
 				html = html.Replace ("\x01", "\x0D\x0A");
 				html = html.Replace (" \x0D\x0A", "\x0D\x0A");  // Устранение оставшихся лишних пробелов
 
-				//File.WriteAllText (RDGenerics.AppStartupPath + "Policy.dmp", html,
-				//	System.Text.Encoding.GetEncoding (1251));
+				//File.WriteAllText (RDGenerics.AppStartupPath + "Policy.dmp", html);
 				html = html.Substring (1, html.Length - 48);    // Финальная обрезка
 				}
 			else
@@ -533,7 +532,6 @@ namespace RD_AAOW
 		private void AboutForm_Resize (object sender, EventArgs e)
 			{
 			DescriptionBox.Width = this.ClientSize.Width - 28;
-			ExitButton.Left = this.ClientSize.Width - 120;
 
 			DescriptionBox.Height = this.ClientSize.Height - 195;
 			ExitButton.Top = MisacceptButton.Top = HypeHelpFlag.Top = this.ClientSize.Height - 33;

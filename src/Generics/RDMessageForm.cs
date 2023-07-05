@@ -104,9 +104,10 @@ namespace RD_AAOW
 		/// </summary>
 		/// <param name="Message">Сообщение для пользователя</param>
 		/// <param name="Type">Тип создаваемого окна</param>
-		/// <param name="Timeout">Таймаут (в миллисекундах), по истечении которого 
+		/// <param name="Timeout">Таймаут (в миллисекундах), по истечении которого
 		/// сообщение автоматически закроется (от 100 до 60000 мс)</param>
-		public RDMessageForm (RDMessageTypes Type, string Message, uint Timeout)
+		/// <param name="CenterText">Флаг размещения текста по центру</param>
+		public RDMessageForm (RDMessageTypes Type, string Message, uint Timeout, bool CenterText)
 			{
 			uint to = Timeout;
 			if (to < 100)
@@ -114,7 +115,7 @@ namespace RD_AAOW
 			if (to > 60000)
 				to = 60000;
 
-			RDMessageFormInit (Type, Message, "-", null, null, SupportedLanguages.en_us, to);
+			RDMessageFormInit (Type, Message, "-", null, null, SupportedLanguages.en_us, to, CenterText);
 			}
 
 		/// <summary>
@@ -127,7 +128,7 @@ namespace RD_AAOW
 				Localization.GetDefaultText (LzDefaultTextValues.Message_LanguageSelection),
 				Localization.GetDefaultText (LzDefaultTextValues.Button_Apply),
 				Localization.GetDefaultText (LzDefaultTextValues.Button_Cancel),
-				null, CurrentInterfaceLanguage, 0);
+				null, CurrentInterfaceLanguage, 0, false);
 			}
 
 		/// <summary>
@@ -138,7 +139,7 @@ namespace RD_AAOW
 		public RDMessageForm (RDMessageTypes Type, string Message)
 			{
 			RDMessageFormInit (Type, Message, Localization.GetDefaultText (LzDefaultTextValues.Button_OK),
-				null, null, SupportedLanguages.en_us, 0);
+				null, null, SupportedLanguages.en_us, 0, false);
 			}
 
 		/// <summary>
@@ -149,7 +150,8 @@ namespace RD_AAOW
 		/// <param name="Type">Тип создаваемого окна</param>
 		public RDMessageForm (RDMessageTypes Type, string Message, string ButtonOneName)
 			{
-			RDMessageFormInit (Type, Message, ButtonOneName, null, null, SupportedLanguages.en_us, 0);
+			RDMessageFormInit (Type, Message, ButtonOneName, null, null, SupportedLanguages.en_us,
+				0, false);
 			}
 
 		/// <summary>
@@ -161,7 +163,8 @@ namespace RD_AAOW
 		/// <param name="Type">Тип создаваемого окна</param>
 		public RDMessageForm (RDMessageTypes Type, string Message, string ButtonOneName, string ButtonTwoName)
 			{
-			RDMessageFormInit (Type, Message, ButtonOneName, ButtonTwoName, null, SupportedLanguages.en_us, 0);
+			RDMessageFormInit (Type, Message, ButtonOneName, ButtonTwoName, null, SupportedLanguages.en_us,
+				0, false);
 			}
 
 		/// <summary>
@@ -176,12 +179,12 @@ namespace RD_AAOW
 			string ButtonThreeName)
 			{
 			RDMessageFormInit (Type, Message, ButtonOneName, ButtonTwoName, ButtonThreeName,
-				SupportedLanguages.en_us, 0);
+				SupportedLanguages.en_us, 0, false);
 			}
 
 		// Основная инициализация формы
 		private void RDMessageFormInit (RDMessageTypes Type, string Message, string ButtonOneName, string ButtonTwoName,
-			string ButtonThreeName, SupportedLanguages CurrentInterfaceLanguage, uint Timeout)
+			string ButtonThreeName, SupportedLanguages CurrentInterfaceLanguage, uint Timeout, bool CenterText)
 			{
 			// Инициализация
 			InitializeComponent ();
@@ -204,10 +207,13 @@ namespace RD_AAOW
 
 			this.Text = ProgramDescription.AssemblyTitle;
 
+			// Обработка текста
 			if (!string.IsNullOrWhiteSpace (Message))
 				{
 				Label01.Text = Message.Replace ("\n", "\r\n").Replace ("\r\r", "\r");
 				Label01.SelectionLength = 0;
+				if (CenterText)
+					Label01.TextAlign = HorizontalAlignment.Center;
 
 				if (windowType != RDMessageTypes.LanguageSelector)
 					{
@@ -236,6 +242,7 @@ namespace RD_AAOW
 					}
 				}
 
+			// Настройка кнопок
 			if (!string.IsNullOrWhiteSpace (ButtonOneName))
 				{
 				Button01.Text = ButtonOneName;
@@ -270,6 +277,7 @@ namespace RD_AAOW
 					}
 				}
 
+			// Системный звук
 			switch (windowType)
 				{
 				case RDMessageTypes.Information:
@@ -303,6 +311,7 @@ namespace RD_AAOW
 					break;
 				}
 
+			// Окончательное выравнивание элементов, применение цветовой схемы
 			AlignButtons ();
 			Label01.ForeColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.DefaultText);
 			Label01.BackColor = this.BackColor;
@@ -313,12 +322,18 @@ namespace RD_AAOW
 				LanguagesCombo.BackColor = this.BackColor;
 				}
 
+			// Запуск
 			if (Timeout > 0)
 				MainTimer.Interval = (int)Timeout;
 
-			// Запуск
 			this.StartPosition = FormStartPosition.CenterParent;
 			this.ShowDialog ();
+			}
+
+		private void RDMessageForm_Load (object sender, EventArgs e)
+			{
+			// Запуск отрисовки
+			CreateBackground (this);
 			}
 
 		private void RDMessageForm_Shown (object sender, EventArgs e)
@@ -326,9 +341,6 @@ namespace RD_AAOW
 			// Отмена центрирования на родительское окно, если это невозможно
 			if (this.Left == 0)
 				this.CenterToScreen ();
-
-			// Запуск отрисовки
-			CreateBackground (this);
 
 			// Запуск таймера, если предусмотрен
 			if (MainTimer.Interval > 75)
