@@ -450,7 +450,7 @@ namespace RD_AAOW
 					WindowsPrincipal principal = new WindowsPrincipal (identity);
 
 					if (!principal.IsInRole (WindowsBuiltInRole.Administrator))
-						RDGenerics.MessageBox (RDMessageTypes.Warning, registryFail);
+						RDGenerics.MessageBox (RDMessageTypes.Warning_Center, registryFail);
 					}
 
 				// В случае невозможности загрузки Политики признак необходимости принятия до этого момента
@@ -460,7 +460,7 @@ namespace RD_AAOW
 				}
 			catch
 				{
-				RDGenerics.MessageBox (RDMessageTypes.Warning, registryFail);
+				RDGenerics.MessageBox (RDMessageTypes.Warning_Center, registryFail);
 				}
 
 			// Завершение
@@ -686,7 +686,7 @@ namespace RD_AAOW
 		private void HypeHelpFlag_CheckedChanged (object sender, EventArgs e)
 			{
 			if (HypeHelpFlag.Checked)
-				RDGenerics.MessageBox (RDMessageTypes.Success, locale[(int)Localization.CurrentLanguage][30]);
+				RDGenerics.MessageBox (RDMessageTypes.Success_Left, locale[(int)Localization.CurrentLanguage][30]);
 			}
 
 		/// <summary>
@@ -888,7 +888,7 @@ policy:
 			string fileExt = FileExtension.ToLower ().Replace (".", "");
 
 			// Контроль
-			if (ShowWarning && (RDGenerics.MessageBox (RDMessageTypes.Warning,
+			if (ShowWarning && (RDGenerics.MessageBox (RDMessageTypes.Warning_Left,
 				locale[(int)Localization.CurrentLanguage][27],
 				Localization.GetDefaultText (LzDefaultTextValues.Button_Yes),
 				Localization.GetDefaultText (LzDefaultTextValues.Button_Cancel)) ==
@@ -947,7 +947,7 @@ policy:
 			string protocol = ProtocolCode.ToLower ();
 
 			// Контроль
-			if (ShowWarning && (RDGenerics.MessageBox (RDMessageTypes.Warning,
+			if (ShowWarning && (RDGenerics.MessageBox (RDMessageTypes.Warning_Left,
 				locale[(int)Localization.CurrentLanguage][28],
 				Localization.GetDefaultText (LzDefaultTextValues.Button_Yes),
 				Localization.GetDefaultText (LzDefaultTextValues.Button_Cancel)) ==

@@ -208,10 +208,12 @@ namespace RD_AAOW
 		/// <param name="Length">Размер пакета</param>
 		/// <param name="TargetPath">Путь создаваемого файла</param>
 		/// <param name="URL">Ссылка для загрузки</param>
-		public HardWorkExecutor (DoWorkEventHandler HardWorkProcess, string URL, string TargetPath, string Length)
+		/// <param name="PackagesList">Флаг, указывающий на загрузку списка пакетов</param>
+		public HardWorkExecutor (DoWorkEventHandler HardWorkProcess, string URL, string TargetPath,
+			string Length, bool PackagesList)
 			{
 			// Инициализация
-			string[] arguments = new string[] { URL, TargetPath, Length };
+			string[] arguments = new string[] { URL, TargetPath, Length, PackagesList ? "1" : "0" };
 			HardWorkExecutor_Init (HardWorkProcess, arguments, " ", true, true);
 			}
 

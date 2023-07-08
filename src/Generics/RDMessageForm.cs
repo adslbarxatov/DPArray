@@ -11,29 +11,54 @@ namespace RD_AAOW
 	public enum RDMessageTypes
 		{
 		/// <summary>
-		/// Информационное (обычное)
+		/// Информационное (обычное) с текстом слева
 		/// </summary>
-		Information,
+		Information_Left,
 
 		/// <summary>
-		/// Вопрос к пользователю
+		/// Вопрос к пользователю с текстом слева
 		/// </summary>
-		Question,
+		Question_Left,
 
 		/// <summary>
-		/// Предупреждение
+		/// Предупреждение с текстом слева
 		/// </summary>
-		Warning,
+		Warning_Left,
 
 		/// <summary>
-		/// Ошибка
+		/// Ошибка с текстом слева
 		/// </summary>
-		Error,
+		Error_Left,
 
 		/// <summary>
-		/// Сообщение об успешном результате
+		/// Сообщение об успешном результате с текстом слева
 		/// </summary>
-		Success,
+		Success_Left,
+
+		/// <summary>
+		/// Информационное (обычное) с текстом по центру
+		/// </summary>
+		Information_Center,
+
+		/// <summary>
+		/// Вопрос к пользователю с текстом по центру
+		/// </summary>
+		Question_Center,
+
+		/// <summary>
+		/// Предупреждение с текстом по центру
+		/// </summary>
+		Warning_Center,
+
+		/// <summary>
+		/// Ошибка с текстом по центру
+		/// </summary>
+		Error_Center,
+
+		/// <summary>
+		/// Сообщение об успешном результате с текстом по центру
+		/// </summary>
+		Success_Center,
 
 		/// <summary>
 		/// Окно выбора языка интерфейса
@@ -85,7 +110,7 @@ namespace RD_AAOW
 				return windowType;
 				}
 			}
-		private RDMessageTypes windowType = RDMessageTypes.Information;
+		private RDMessageTypes windowType = RDMessageTypes.Information_Left;
 
 		/// <summary>
 		/// Возвращает выбранную кнопку в сообщении
@@ -106,8 +131,7 @@ namespace RD_AAOW
 		/// <param name="Type">Тип создаваемого окна</param>
 		/// <param name="Timeout">Таймаут (в миллисекундах), по истечении которого
 		/// сообщение автоматически закроется (от 100 до 60000 мс)</param>
-		/// <param name="CenterText">Флаг размещения текста по центру</param>
-		public RDMessageForm (RDMessageTypes Type, string Message, uint Timeout, bool CenterText)
+		public RDMessageForm (RDMessageTypes Type, string Message, uint Timeout)
 			{
 			uint to = Timeout;
 			if (to < 100)
@@ -115,7 +139,7 @@ namespace RD_AAOW
 			if (to > 60000)
 				to = 60000;
 
-			RDMessageFormInit (Type, Message, "-", null, null, SupportedLanguages.en_us, to, CenterText);
+			RDMessageFormInit (Type, Message, "-", null, null, SupportedLanguages.en_us, to);
 			}
 
 		/// <summary>
@@ -128,7 +152,7 @@ namespace RD_AAOW
 				Localization.GetDefaultText (LzDefaultTextValues.Message_LanguageSelection),
 				Localization.GetDefaultText (LzDefaultTextValues.Button_Apply),
 				Localization.GetDefaultText (LzDefaultTextValues.Button_Cancel),
-				null, CurrentInterfaceLanguage, 0, false);
+				null, CurrentInterfaceLanguage, 0);
 			}
 
 		/// <summary>
@@ -139,7 +163,7 @@ namespace RD_AAOW
 		public RDMessageForm (RDMessageTypes Type, string Message)
 			{
 			RDMessageFormInit (Type, Message, Localization.GetDefaultText (LzDefaultTextValues.Button_OK),
-				null, null, SupportedLanguages.en_us, 0, false);
+				null, null, SupportedLanguages.en_us, 0);
 			}
 
 		/// <summary>
@@ -150,8 +174,7 @@ namespace RD_AAOW
 		/// <param name="Type">Тип создаваемого окна</param>
 		public RDMessageForm (RDMessageTypes Type, string Message, string ButtonOneName)
 			{
-			RDMessageFormInit (Type, Message, ButtonOneName, null, null, SupportedLanguages.en_us,
-				0, false);
+			RDMessageFormInit (Type, Message, ButtonOneName, null, null, SupportedLanguages.en_us, 0);
 			}
 
 		/// <summary>
@@ -163,8 +186,7 @@ namespace RD_AAOW
 		/// <param name="Type">Тип создаваемого окна</param>
 		public RDMessageForm (RDMessageTypes Type, string Message, string ButtonOneName, string ButtonTwoName)
 			{
-			RDMessageFormInit (Type, Message, ButtonOneName, ButtonTwoName, null, SupportedLanguages.en_us,
-				0, false);
+			RDMessageFormInit (Type, Message, ButtonOneName, ButtonTwoName, null, SupportedLanguages.en_us, 0);
 			}
 
 		/// <summary>
@@ -179,12 +201,12 @@ namespace RD_AAOW
 			string ButtonThreeName)
 			{
 			RDMessageFormInit (Type, Message, ButtonOneName, ButtonTwoName, ButtonThreeName,
-				SupportedLanguages.en_us, 0, false);
+				SupportedLanguages.en_us, 0);
 			}
 
 		// Основная инициализация формы
 		private void RDMessageFormInit (RDMessageTypes Type, string Message, string ButtonOneName, string ButtonTwoName,
-			string ButtonThreeName, SupportedLanguages CurrentInterfaceLanguage, uint Timeout, bool CenterText)
+			string ButtonThreeName, SupportedLanguages CurrentInterfaceLanguage, uint Timeout)
 			{
 			// Инициализация
 			InitializeComponent ();
@@ -212,8 +234,17 @@ namespace RD_AAOW
 				{
 				Label01.Text = Message.Replace ("\n", "\r\n").Replace ("\r\r", "\r");
 				Label01.SelectionLength = 0;
-				if (CenterText)
-					Label01.TextAlign = HorizontalAlignment.Center;
+
+				switch (Type)
+					{
+					case RDMessageTypes.Information_Center:
+					case RDMessageTypes.Question_Center:
+					case RDMessageTypes.Success_Center:
+					case RDMessageTypes.Warning_Center:
+					case RDMessageTypes.Error_Center:
+						Label01.TextAlign = HorizontalAlignment.Center;
+						break;
+					}
 
 				if (windowType != RDMessageTypes.LanguageSelector)
 					{
@@ -280,7 +311,8 @@ namespace RD_AAOW
 			// Системный звук
 			switch (windowType)
 				{
-				case RDMessageTypes.Information:
+				case RDMessageTypes.Information_Left:
+				case RDMessageTypes.Information_Center:
 				default:
 					SystemSounds.Asterisk.Play ();
 					this.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.DefaultBackground);
@@ -290,22 +322,26 @@ namespace RD_AAOW
 					this.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.DefaultBackground);
 					break;
 
-				case RDMessageTypes.Question:
+				case RDMessageTypes.Question_Left:
+				case RDMessageTypes.Question_Center:
 					SystemSounds.Question.Play ();
 					this.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.QuestionMessage);
 					break;
 
-				case RDMessageTypes.Warning:
+				case RDMessageTypes.Warning_Left:
+				case RDMessageTypes.Warning_Center:
 					SystemSounds.Exclamation.Play ();
 					this.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.WarningMessage);
 					break;
 
-				case RDMessageTypes.Error:
+				case RDMessageTypes.Error_Left:
+				case RDMessageTypes.Error_Center:
 					SystemSounds.Hand.Play ();
 					this.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.ErrorMessage);
 					break;
 
-				case RDMessageTypes.Success:
+				case RDMessageTypes.Success_Left:
+				case RDMessageTypes.Success_Center:
 					SystemSounds.Asterisk.Play ();
 					this.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.SuccessMessage);
 					break;
