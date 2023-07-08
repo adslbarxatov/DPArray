@@ -41,9 +41,8 @@ uNot for Android			6.4.3		GIT_LINK/UniNotifier/GIT_PATH/DEFFILE			UniNotifier.ap
 
 
 
-#ALERT: DPArray 6 is ready! Meet our new interface with new abilities!||
-#ALERT: Now you can use right mouse button to manage packages, double left click for retrieving packages info.|
-#ALERT: Also new color system and automated groups will help you to navigate the packages list
+#ALERT: DPArray 6.1 with important update is available!||
+#ALERT: Update is required to fix the unavailability of the packages list
 
 Flags: 1 = disallow the FD, 2 = disable the VC
 
