@@ -262,8 +262,9 @@
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/fontfinder) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=zK-6pfEMCbA) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/fontfinder/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://FontFinder)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://FontFinder) &#x3000;
+:envelope_with_arrow: [На Microsoft Store](https://microsoft.com/store/apps/9MXDR4BXP8R4) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/fontfinder/releases/latest)
 
 Инструмент для поиска шрифта по его изображению
 
