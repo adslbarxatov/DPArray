@@ -216,7 +216,7 @@ A small tool for batch images processing
 :earth_africa: [About](https://github.com/adslbarxatov/fontfinder) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=zK-6pfEMCbA) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://FontFinder) &#x3000;
-:blue_square: [Get on Microsoft Store](https://microsoft.com/store/apps/9MXDR4BXP8R4) &#x3000;
+:black_large_square: :black_medium_small_square: :black_small_square: [Get on Microsoft Store](https://microsoft.com/store/apps/9MXDR4BXP8R4) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/fontfinder/releases/latest)
 
 A tool for finding a font by its image
@@ -229,7 +229,7 @@ A tool for finding a font by its image
 :earth_africa: [Summary](https://moddb.com/mods/eshq) &#x3000;
 :tv: [Video demo](https://youtube.com/playlist?list=PLe7qKwHNkZTuYevg6QyszASeD7S1XgpG_) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ESHQ_setup) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get the last update](dp://ESHQ_update)
+<img src="/DPArray/img/DP.png" width="16"> [Get the latest update](dp://ESHQ_update)
 
 A mod for Half-Life 1 with its own storyline (not from the Half-Life universe). An unknown government spy must
 steal classified files from a building called the “Evil scientists headquarters”. But his work will turn out
@@ -244,7 +244,7 @@ for those who have not yet had time to try it live
 :earth_africa: [About](https://github.com/adslbarxatov/randomaze) &#x3000;
 :tv: [Video demo](https://youtube.com/playlist?list=PLe7qKwHNkZTu8VJPLFEGCFsB4zqiJP7fh) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ESRM_setup) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get the last update](dp://ESRM_update)
+<img src="/DPArray/img/DP.png" width="16"> [Get the latest update](dp://ESRM_update)
 
 ES: Randomaze is the maps generator for the mod with the same name.
 This tool was the part of the ESHQ mod for Half-Life part 1. Now it is a stand-alone project
