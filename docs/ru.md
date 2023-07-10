@@ -67,7 +67,7 @@
 
 Знак :no_entry_sign: указывает на проекты, снятые с поддержки.
 
-Знаком :snowflake: помечены замороженные проекты, которые впоследствии могут быть возобновлены.
+Знаком :hourglass_flowing_sand: помечены замороженные проекты, которые впоследствии могут быть возобновлены.
 
 Полный список программных продуктов доступен [здесь](https://github.com/adslbarxatov?tab=repositories).
 Общий список модов доступен [здесь](https://moddb.com/members/rd-aaow-fdl/mods)
@@ -263,7 +263,7 @@
 :earth_africa: [О продукте](https://github.com/adslbarxatov/fontfinder) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=zK-6pfEMCbA) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://FontFinder) &#x3000;
-:envelope_with_arrow: [На Microsoft Store](https://microsoft.com/store/apps/9MXDR4BXP8R4) &#x3000;
+:window: [На Microsoft Store](https://microsoft.com/store/apps/9MXDR4BXP8R4) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/fontfinder/releases/latest)
 
 Инструмент для поиска шрифта по его изображению
@@ -447,7 +447,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 ### Accounts manager
 :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/SQL.png" width="16"> :snowflake: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/SQL.png" width="16"> :hourglass_flowing_sand: &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/accountsmanager)
 
 Инструмент управления бюджетными счетами. Программа предназначена для накопления, хранения, обработки и выдачи по запросу
@@ -477,7 +477,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### FullSilence, CodeShow
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> :snowflake: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> :hourglass_flowing_sand: &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/fullsilence) &#x3000;
 :tv: [FullSilence live](https://youtube.com/playlist?list=PLe7qKwHNkZTsreIEQFedftXv3iQG-5LOA) &#x3000;
 :tv: [CodeShow live](https://youtube.com/playlist?list=PLe7qKwHNkZTuZiVfiX1EhD4G7EPcReaA5)
@@ -520,7 +520,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### GIATester
 :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> :snowflake: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> :hourglass_flowing_sand: &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/giatester)
 
 Инструмент для автоматизированной подготовки, проведения и оценки тестовых заданий (ГИА/ЕГЭ)
