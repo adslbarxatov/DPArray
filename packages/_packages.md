@@ -10,7 +10,7 @@ Dates difference			3.2.7	DEFSTORAGE/DEFFILE		DatesDifference.dp			0x000307D2	0	I
 File extensions manager		2.3.7	DEFSTORAGE/DEFFILE		FileExtensionsManager.dp	0x0005441F	0	INFOPAGE
 Font finder					3.2.7	DEFSTORAGE/DEFFILE		FontFinder.dp				0x000489CD	0	INFOLINK
 Geomag data drawer			5.3.7	DEFSTORAGE/DEFFILE		GeomagDataDrawer.dp			0x00132C99	1	INFOPAGE
-KassArray					4.4.4	DEFSTORAGE/DEFFILE		KassArray.dp				0x001225F4	1	INFOPAGE
+KassArray					4.4.5	DEFSTORAGE/DEFFILE		KassArray.dp				0x00122BF4	1	INFOPAGE
 OS macros executor			3.2.7	DEFSTORAGE/DEFFILE		OSMacrosExecutor.dp			0x0005BD32	1	INFOLINK
 Screen shooter				2.3		DEFSTORAGE/DEFFILE		ScreenShooter.dp			0x0002FBBB	0	INFOLINK
 Sudoku solver				4.0		DEFSTORAGE/DEFFILE		SudokuSolver.dp				0x00032197	0	INFOLINK
