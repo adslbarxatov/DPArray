@@ -69,7 +69,7 @@ Descriptions contain:
 
 The :no_entry_sign: marks projects that are no longer supported.
 
-The :snowflake: sign marks frozen projects that can later be resumed.
+The :hourglass_flowing_sand: sign marks frozen projects that can later be resumed.
 
 A complete list of software products is available [here](https://github.com/adslbarxatov?tab=repositories).
 A general list of mods is available [here](https://moddb.com/members/rd-aaow-fdl/mods)
@@ -216,7 +216,7 @@ A small tool for batch images processing
 :earth_africa: [About](https://github.com/adslbarxatov/fontfinder) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=zK-6pfEMCbA) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://FontFinder) &#x3000;
-:envelope_with_arrow: [Get on Microsoft Store](https://microsoft.com/store/apps/9MXDR4BXP8R4) &#x3000;
+:window: [Get on Microsoft Store](https://microsoft.com/store/apps/9MXDR4BXP8R4) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/fontfinder/releases/latest)
 
 A tool for finding a font by its image
@@ -420,7 +420,7 @@ Now it is a part of [Vice city toolset](#vice-city-toolset)
 
 ### FullSilence, CodeShow
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> :snowflake: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> :hourglass_flowing_sand: &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/fullsilence) &#x3000;
 :tv: [FullSilence live](https://youtube.com/playlist?list=PLe7qKwHNkZTsreIEQFedftXv3iQG-5LOA) &#x3000;
 :tv: [CodeShow live](https://youtube.com/playlist?list=PLe7qKwHNkZTuZiVfiX1EhD4G7EPcReaA5)
