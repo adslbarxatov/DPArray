@@ -140,8 +140,9 @@ since it uses a user-selected system audio output
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/UniNotifier) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=seFfQkfL6Sk) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/uninotifier/releases/latest) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://UniNotifier) &#x3000;
+:black_large_square: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NVZ51RL54K4) &#x3000;
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/uninotifier/releases/latest) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) &#x3000;
 :iphone: [Get on GetApps](https://global.app.mi.com/details?id=uninotifier.xiaomi) &#x3000;
 :iphone: [Get on AppGallery](https://url.cloud.huawei.com/kOns67WJJ6?shareTo=qrcode) &#x3000;
@@ -174,8 +175,9 @@ activity. Before starting the experiment take a look at the project presentation
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/geomagdatadrawer) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=uYtQJX5BgvU) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/geomagdatadrawer/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://GeomagDataDrawer)
+<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://GeomagDataDrawer) &#x3000;
+:black_large_square: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9PG19ZZ3NH47) &#x3000;
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/geomagdatadrawer/releases/latest)
 
 Stand-alone tool for building and designing diagrams based on tabular data
 

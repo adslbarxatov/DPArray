@@ -138,8 +138,9 @@
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/UniNotifier) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=seFfQkfL6Sk) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/uninotifier/releases/latest) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://UniNotifier) &#x3000;
+:black_large_square: [На Microsoft Store](ms-windows-store://pdp/?productid=9NVZ51RL54K4) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/uninotifier/releases/latest) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) &#x3000;
 :iphone: [На GetApps](https://global.app.mi.com/details?id=uninotifier.xiaomi) &#x3000;
 :iphone: [На AppGallery](https://url.cloud.huawei.com/kOns67WJJ6?shareTo=qrcode) &#x3000;
@@ -205,8 +206,8 @@
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/KassArray) &#x3000;
 :film_projector: [Видеопрезентация](https://youtube.com/watch?v=fdH4SKFdTCI) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KassArray) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/kassarray/releases/latest) &#x3000;
 :black_large_square: [На Microsoft Store](ms-windows-store://pdp/?productid=9ND98F4C4Q60) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/kassarray/releases/latest) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT) &#x3000;
 :iphone: [На GetApps](https://global.app.mi.com/details?id=texttokkt.xiaomi) &#x3000;
 :iphone: [На AppGallery](https://url.cloud.huawei.com/kOnu2dYlNu?shareTo=qrcode) &#x3000;
@@ -222,8 +223,9 @@
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/GeomagDataDrawer/ru) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/geomagdatadrawer/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://GeomagDataDrawer)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://GeomagDataDrawer) &#x3000;
+:black_large_square: [На Microsoft Store](ms-windows-store://pdp/?productid=9PG19ZZ3NH47) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/geomagdatadrawer/releases/latest)
 
 Автономный инструмент построения и оформления диаграмм на основе табличных данных
 
