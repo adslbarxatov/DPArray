@@ -8,13 +8,13 @@ Batch image convertor		3.3.7	DEFSTORAGE/DEFFILE		BatchImageConvertor.dp		0x00058
 ConcurrentDraw				3.2.7	DEFSTORAGE/DEFFILE		ConcurrentDraw.dp			0x0009EA94	1	INFOLINK
 Dates difference			3.2.7	DEFSTORAGE/DEFFILE		DatesDifference.dp			0x000307D2	0	INFOLINK
 File extensions manager		2.3.7	DEFSTORAGE/DEFFILE		FileExtensionsManager.dp	0x0005441F	0	INFOPAGE
-Font finder					3.3		DEFSTORAGE/DEFFILE		FontFinder.dp				0x00048DCB	0	INFOLINK
-Geomag data drawer			5.3.8	DEFSTORAGE/DEFFILE		GeomagDataDrawer.dp			0x00133099	1	INFOPAGE
-KassArray					4.4.5	DEFSTORAGE/DEFFILE		KassArray.dp				0x00122BF4	1	INFOPAGE
+Font finder					3.3.1	DEFSTORAGE/DEFFILE		FontFinder.dp				0x000487CD	0	INFOLINK
+Geomag data drawer			5.4		DEFSTORAGE/DEFFILE		GeomagDataDrawer.dp			0x00132C97	1	INFOPAGE
+KassArray					4.4.6	DEFSTORAGE/DEFFILE		KassArray.dp				0x001225F4	1	INFOPAGE
 OS macros executor			3.2.7	DEFSTORAGE/DEFFILE		OSMacrosExecutor.dp			0x0005BD32	1	INFOLINK
 Screen shooter				2.3		DEFSTORAGE/DEFFILE		ScreenShooter.dp			0x0002FBBB	0	INFOLINK
 Sudoku solver				4.0		DEFSTORAGE/DEFFILE		SudokuSolver.dp				0x00032197	0	INFOLINK
-uNot						6.4.4	DEFSTORAGE/DEFFILE		UniNotifier.dp				0x000531B7	0	INFOPAGE
+uNot						6.4.5	DEFSTORAGE/DEFFILE		UniNotifier.dp				0x00052DB7	0	INFOPAGE
 Vice city toolset			4.2.7	DEFSTORAGE/DEFFILE		ViceCityToolset.dp			0x0019F9B1	1	INFOPAGE
 
 #Mods
