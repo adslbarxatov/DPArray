@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
 using System.IO;
-using System.Security.Principal;
 using System.Windows.Forms;
 
 namespace RD_AAOW
@@ -16,7 +15,7 @@ namespace RD_AAOW
 		// Переменные
 		private string projectLink, updatesLink, userManualLink;
 		private string updatesMessage = "", updatesMessageForText = "", description = "",
-			policyLoaderCaption = "", registryFail = "",
+			policyLoaderCaption = "", /*registryFail = "",*/
 			dpModuleAbsence = "", startDownload = "", packageFail = "", fileWriteFail = "",
 			versionDescription = "", adpRevision = "";
 		private bool accepted = false;              // Флаг принятия Политики
@@ -38,11 +37,12 @@ namespace RD_AAOW
 			"[Проверка обновлений...]\r\n\r\n",
 			"Подготовка к запуску...",	// 11
 
-			" не может сохранить настройки в реестре Windows. Оно не будет работать корректно.\n\n" +
+			/*" не может сохранить настройки в реестре Windows. Приложение не будет работать корректно.\n\n" +
 			"Попробуйте выполнить следующие изменения в свойствах исполняемого файла:\n" +
 			"• разблокируйте приложение в общих свойствах (кнопка «Разблокировать»);\n" +
 			"• включите запуск от имени администратора для всех пользователей в настройках совместимости.\n\n" +
-			"После этого перезапустите программу и повторите попытку",
+			"После этого перезапустите программу и повторите попытку",*/
+			"",
 
 			"Инструмент развёртки пакетов " + toolName + " не найден на этом ПК. Перейти к его загрузке?" +
 			"\n\nВы можете обновить этот продукт прямо из " + toolName + " или вернуться сюда после его установки. " +
@@ -105,11 +105,12 @@ namespace RD_AAOW
 			"[Checking for updates...]\r\n\r\n",
 			"Preparing for launch...",	// 11
 		
-			" cannot save settings in the Windows registry. It will not work properly.\n\n" +
+			/*" cannot save settings in the Windows registry. It will not work properly.\n\n" +
 			"Try the following changes to properties of the executable file:\n" +
 			"• unblock the app in general properties (“Unblock” button);\n" +
 			"• enable running as administrator for all users in compatibility settings.\n\n" +
-			"Then restart the program and try again",
+			"Then restart the program and try again",*/
+			"",
 
 			toolName + ", the packages deployment tool isn’t installed on this PC. " +
 			"Download it?\n\nYou can update this product directly from " + toolName + " or come back here " +
@@ -164,7 +165,7 @@ namespace RD_AAOW
 
 		// Ключ реестра, хранящий последнюю принятую версию ADP
 		private const string ADPRevisionKey = "ADPRevision";
-		private const string ADPRevisionPath = RDGenerics.AssemblySettingsStorage + "DPModule";
+		/*private const string ADPRevisionPath = RDGenerics.AssemblySettingsStorage + "DPModule";*/
 
 		// Элементы поддержки HypeHelp
 		private const string HypeHelpKey = "HypeHelp";
@@ -289,11 +290,13 @@ namespace RD_AAOW
 		private int LaunchForm (bool StartupMode, bool AcceptMode)
 			{
 			// HypeHelp
-			hypeHelp = RDGenerics.GetAppSettingsValue (HypeHelpKey, ADPRevisionPath) == "1";
+			/*hypeHelp = RDGenerics.GetAppSettingsValue (HypeHelpKey, ADPRevisionPath) == "1";*/
+			hypeHelp = RDGenerics.GetDPArraySettingsValue (HypeHelpKey) == "1";
 			try
 				{
-				lastHypeHelp = DateTime.Parse (RDGenerics.GetAppSettingsValue (LastHypeHelpKey,
-					ADPRevisionPath));
+				/*lastHypeHelp = DateTime.Parse (RDGenerics.GetAppSettingsValue (LastHypeHelpKey,
+					ADPRevisionPath));*/
+				lastHypeHelp = DateTime.Parse (RDGenerics.GetDPArraySettingsValue (LastHypeHelpKey));
 				}
 			catch
 				{
@@ -310,21 +313,24 @@ namespace RD_AAOW
 #endif
 
 				lastHypeHelp = DateTime.Now.AddMinutes (rnd.Next (65, 95));
-				RDGenerics.SetAppSettingsValue (LastHypeHelpKey, lastHypeHelp.ToString (), ADPRevisionPath);
+				/*RDGenerics.SetAppSettingsValue (LastHypeHelpKey, lastHypeHelp.ToString (), ADPRevisionPath);*/
+				RDGenerics.SetDPArraySettingsValue (LastHypeHelpKey, lastHypeHelp.ToString ());
 				}
 
 			// Запрос настроек
 			string helpShownAt = "";
 			if (StartupMode || AcceptMode)
 				{
-				adpRevision = RDGenerics.GetAppSettingsValue (ADPRevisionKey, ADPRevisionPath);
+				/*adpRevision = RDGenerics.GetAppSettingsValue (ADPRevisionKey, ADPRevisionPath);*/
+				adpRevision = RDGenerics.GetDPArraySettingsValue (ADPRevisionKey);
 				helpShownAt = RDGenerics.GetAppSettingsValue (LastShownVersionKey);
 
 				// Если поле пустое, устанавливается минимальное значение
 				if (adpRevision == "")
 					{
 					adpRevision = "rev. 10!";
-					RDGenerics.SetAppSettingsValue (ADPRevisionKey, adpRevision, ADPRevisionPath);
+					/*RDGenerics.SetAppSettingsValue (ADPRevisionKey, adpRevision, ADPRevisionPath);*/
+					RDGenerics.SetDPArraySettingsValue (ADPRevisionKey, adpRevision);
 					}
 				}
 
@@ -347,7 +353,7 @@ namespace RD_AAOW
 				DescriptionBox.Text = locale[al][AcceptMode ? 9 : 10] + description;
 
 			policyLoaderCaption = locale[al][11];
-			registryFail = ProgramDescription.AssemblyMainName + locale[al][12];
+			/*registryFail = ProgramDescription.AssemblyMainName + locale[al][12];*/
 			dpModuleAbsence = locale[al][13];
 			packageFail = locale[al][14];
 			fileWriteFail = locale[al][15];
@@ -431,37 +437,41 @@ namespace RD_AAOW
 
 			// Запуск с управлением настройками окна
 			HypeHelpFlag.Checked = hypeHelp;
-			RDGenerics.LoadWindowDimensions (this, ADPRevisionPath);
+			/*RDGenerics.LoadWindowDimensions (this, ADPRevisionPath);*/
+			RDGenerics.LoadAppAboutWindowDimensions (this);
 
 			this.ShowDialog ();
 
-			RDGenerics.SaveWindowDimensions (this, ADPRevisionPath);
-			RDGenerics.SetAppSettingsValue (HypeHelpKey, HypeHelpFlag.Checked ? "1" : "0", ADPRevisionPath);
+			/*RDGenerics.SaveWindowDimensions (this, ADPRevisionPath);*/
+			RDGenerics.SaveAppAboutWindowDimensions (this);
+			/*RDGenerics.SetAppSettingsValue (HypeHelpKey, HypeHelpFlag.Checked ? "1" : "0", ADPRevisionPath);*/
+			RDGenerics.SetDPArraySettingsValue (HypeHelpKey, HypeHelpFlag.Checked ? "1" : "0");
 
 			// Запись версий по завершению
-			try
+			/*try
+				{*/
+			if (StartupMode)
 				{
-				if (StartupMode)
-					{
-					RDGenerics.SetAppSettingsValue (LastShownVersionKey, ProgramDescription.AssemblyVersion);
+				RDGenerics.SetAppSettingsValue (LastShownVersionKey, ProgramDescription.AssemblyVersion);
 
-					// Контроль доступа к реестру
-					WindowsIdentity identity = WindowsIdentity.GetCurrent ();
-					WindowsPrincipal principal = new WindowsPrincipal (identity);
+				/* Контроль доступа к реестру
+				WindowsIdentity identity = WindowsIdentity.GetCurrent ();
+				WindowsPrincipal principal = new WindowsPrincipal (identity);
 
-					if (!principal.IsInRole (WindowsBuiltInRole.Administrator))
-						RDGenerics.MessageBox (RDMessageTypes.Warning_Center, registryFail);
-					}
-
-				// В случае невозможности загрузки Политики признак необходимости принятия до этого момента
-				// не удаляется из строки версии. Поэтому требуется страховка
-				if (AcceptMode && accepted)
-					RDGenerics.SetAppSettingsValue (ADPRevisionKey, adpRevision.Replace ("!", ""), ADPRevisionPath);
+				if (!principal.IsInRole (WindowsBuiltInRole.Administrator))
+					RDGenerics.MessageBox (RDMessageTypes.Warning_Center, registryFail);*/
 				}
-			catch
-				{
-				RDGenerics.MessageBox (RDMessageTypes.Warning_Center, registryFail);
-				}
+
+			// В случае невозможности загрузки Политики признак необходимости принятия до этого момента
+			// не удаляется из строки версии. Поэтому требуется страховка
+			if (AcceptMode && accepted)
+				/*RDGenerics.SetAppSettingsValue (ADPRevisionKey, adpRevision.Replace ("!", ""), ADPRevisionPath);*/
+				RDGenerics.SetDPArraySettingsValue (ADPRevisionKey, adpRevision.Replace ("!", ""));
+			/*}
+		catch
+			{
+			RDGenerics.MessageBox (RDMessageTypes.Warning_Left, registryFail);
+			}*/
 
 			// Завершение
 			return accepted ? 0 : -1;
@@ -587,14 +597,15 @@ namespace RD_AAOW
 #if !DPMODULE
 
 			// Контроль наличия DPArray
-			string dpmv = RDGenerics.GetAppSettingsValue (LastShownVersionKey, ADPRevisionPath);
+			/*string dpmv = RDGenerics.GetAppSettingsValue (LastShownVersionKey, ADPRevisionPath);*/
+			string dpmv = RDGenerics.GetDPArraySettingsValue (LastShownVersionKey);
 			string downloadLink, packagePath;
 
 			int l;
 			if (string.IsNullOrWhiteSpace (dpmv))
 				{
 				// Выбор варианта обработки
-				switch (RDGenerics.MessageBox (RDMessageTypes.Question, dpModuleAbsence,
+				switch (RDGenerics.MessageBox (RDMessageTypes.Question_Left, dpModuleAbsence,
 						Localization.GetDefaultText (LzDefaultTextValues.Button_Yes),
 						locale[(int)Localization.CurrentLanguage][29],
 						Localization.GetDefaultText (LzDefaultTextValues.Button_Cancel)))
@@ -612,7 +623,7 @@ namespace RD_AAOW
 				}
 			else
 				{
-				if (RDGenerics.MessageBox (RDMessageTypes.Question, startDownload,
+				if (RDGenerics.MessageBox (RDMessageTypes.Question_Center, startDownload,
 					Localization.GetDefaultText (LzDefaultTextValues.Button_Yes),
 					Localization.GetDefaultText (LzDefaultTextValues.Button_No)) !=
 					RDMessageButtons.ButtonOne)
@@ -625,7 +636,8 @@ namespace RD_AAOW
 #else
 				downloadLink = RDGenerics.DPArrayPackageLink;
 
-				packagePath = RDGenerics.GetAppSettingsValue (toolName, ADPRevisionPath);
+				/*packagePath = RDGenerics.GetAppSettingsValue (toolName, ADPRevisionPath);*/
+				packagePath = RDGenerics.GetDPArraySettingsValue (toolName);
 				if (string.IsNullOrWhiteSpace (packagePath))    // Такое может быть, если DPArray ни разу не обновлялся
 					{
 					packagePath = Environment.GetFolderPath (Environment.SpecialFolder.Desktop) + "\\";
@@ -643,7 +655,8 @@ namespace RD_AAOW
 			packagePath += downloadLink.Substring (l + 1);
 
 			// Запуск загрузки
-			HardWorkExecutor hwe = new HardWorkExecutor (RDGenerics.PackageLoader, downloadLink, packagePath, "0");
+			HardWorkExecutor hwe = new HardWorkExecutor (RDGenerics.PackageLoader, downloadLink,
+				packagePath, "0", false);
 
 			// Разбор ответа
 			string msg = "";
@@ -672,7 +685,7 @@ namespace RD_AAOW
 
 			if (!string.IsNullOrWhiteSpace (msg))
 				{
-				RDGenerics.MessageBox (RDMessageTypes.Warning, msg);
+				RDGenerics.MessageBox (RDMessageTypes.Warning_Center, msg);
 				return;
 				}
 
@@ -782,7 +795,8 @@ policy:
 
 					// Сброс версии для вызова Политики при следующем старте
 					if (!html.StartsWith (adpRevision))
-						RDGenerics.SetAppSettingsValue (ADPRevisionKey, html + "!", ADPRevisionPath);
+						/*RDGenerics.SetAppSettingsValue (ADPRevisionKey, html + "!", ADPRevisionPath);*/
+						RDGenerics.SetDPArraySettingsValue (ADPRevisionKey, html + "!");
 					}
 				}
 
@@ -910,22 +924,31 @@ policy:
 
 			// Запись значений реестра
 			bool res = true;
-			res &= RDGenerics.SetAppSettingsValue ("", fileExt + "file", "HKEY_CLASSES_ROOT\\." + fileExt);
+			/*res &= RDGenerics.SetAppSettingsValue ("", fileExt + "file", "HKEY_CLASSES_ROOT\\." + fileExt);
 			res &= RDGenerics.SetAppSettingsValue ("", FileTypeName, "HKEY_CLASSES_ROOT\\" + fileExt + "file");
 			res &= RDGenerics.SetAppSettingsValue ("", RDGenerics.AppStartupPath + fileExt + ".ico",
-				"HKEY_CLASSES_ROOT\\" + fileExt + "file\\DefaultIcon");
+				"HKEY_CLASSES_ROOT\\" + fileExt + "file\\DefaultIcon");*/
+			res &= RDGenerics.SetFileExtensionValue ("." + fileExt, "", fileExt + "file");
+			res &= RDGenerics.SetFileExtensionValue (fileExt + "file", "", FileTypeName);
+			res &= RDGenerics.SetFileExtensionValue (fileExt + "file\\DefaultIcon", "",
+				RDGenerics.AppStartupPath + fileExt + ".ico");
 
 			if (Openable)
 				{
-				res &= RDGenerics.SetAppSettingsValue ("", "open", "HKEY_CLASSES_ROOT\\" + fileExt + "file\\shell");
+				/*res &= RDGenerics.SetAppSettingsValue ("", "open", "HKEY_CLASSES_ROOT\\" + fileExt + "file\\shell");
 				res &= RDGenerics.SetAppSettingsValue ("Icon", RDGenerics.AppStartupPath + fileExt + ".ico",
 					"HKEY_CLASSES_ROOT\\" + fileExt + "file\\shell\\open");
 				res &= RDGenerics.SetAppSettingsValue ("", "\"" + Application.ExecutablePath + "\" \"%1\"",
-					"HKEY_CLASSES_ROOT\\" + fileExt + "file\\shell\\open\\command");
+					"HKEY_CLASSES_ROOT\\" + fileExt + "file\\shell\\open\\command");*/
+				res &= RDGenerics.SetFileExtensionValue (fileExt + "file\\shell", "", "open");
+				res &= RDGenerics.SetFileExtensionValue (fileExt + "file\\shell\\open", "Icon",
+					RDGenerics.AppStartupPath + fileExt + ".ico");
+				res &= RDGenerics.SetFileExtensionValue (fileExt + "file\\shell\\open\\command", "",
+					"\"" + Application.ExecutablePath + "\" \"%1\"");
 				}
 			else
 				{
-				res &= RDGenerics.SetAppSettingsValue ("NoOpen", "", "HKEY_CLASSES_ROOT\\" + fileExt + "file");
+				res &= RDGenerics.SetFileExtensionValue (fileExt + "file", "NoOpen", "");
 				}
 
 			return res;
@@ -969,17 +992,26 @@ policy:
 
 			// Запись значений реестра
 			bool res = true;
-			res &= RDGenerics.SetAppSettingsValue ("", ProtocolName, "HKEY_CLASSES_ROOT\\" + protocol);
-			res &= RDGenerics.SetAppSettingsValue ("URL Protocol", "", "HKEY_CLASSES_ROOT\\" + protocol);
+			/*res &= RDGenerics.SetAppSettingsValue ("", ProtocolName, "HKEY_CLASSES_ROOT\\" + protocol);
+			res &= RDGenerics.SetAppSettingsValue ("URL Protocol", "", "HKEY_CLASSES_ROOT\\" + protocol);*/
+			res &= RDGenerics.SetFileExtensionValue (protocol, "", ProtocolName);
+			res &= RDGenerics.SetFileExtensionValue (protocol, "URL Protocol", "");
 
-			res &= RDGenerics.SetAppSettingsValue ("", RDGenerics.AppStartupPath + protocol + ".ico",
-				"HKEY_CLASSES_ROOT\\" + protocol + "\\DefaultIcon");
+			/*res &= RDGenerics.SetAppSettingsValue ("", RDGenerics.AppStartupPath + protocol + ".ico",
+				"HKEY_CLASSES_ROOT\\" + protocol + "\\DefaultIcon");*/
+			res &= RDGenerics.SetFileExtensionValue (protocol + "\\DefaultIcon", "",
+				RDGenerics.AppStartupPath + protocol + ".ico");
 
-			res &= RDGenerics.SetAppSettingsValue ("", "open", "HKEY_CLASSES_ROOT\\" + protocol + "\\shell");
+			/*res &= RDGenerics.SetAppSettingsValue ("", "open", "HKEY_CLASSES_ROOT\\" + protocol + "\\shell");
 			res &= RDGenerics.SetAppSettingsValue ("Icon", RDGenerics.AppStartupPath + protocol + ".ico",
 				"HKEY_CLASSES_ROOT\\" + protocol + "\\shell\\open");
 			res &= RDGenerics.SetAppSettingsValue ("", "\"" + Application.ExecutablePath + "\" \"%1\"",
-				"HKEY_CLASSES_ROOT\\" + protocol + "\\shell\\open\\command");
+				"HKEY_CLASSES_ROOT\\" + protocol + "\\shell\\open\\command");*/
+			res &= RDGenerics.SetFileExtensionValue (protocol + "\\shell", "", "open");
+			res &= RDGenerics.SetFileExtensionValue (protocol + "\\shell\\open", "Icon",
+				RDGenerics.AppStartupPath + protocol + ".ico");
+			res &= RDGenerics.SetFileExtensionValue (protocol + "\\shell\\open\\command", "",
+				"\"" + Application.ExecutablePath + "\" \"%1\"");
 
 			return res;
 			}
