@@ -4,7 +4,7 @@ Packages, available for download:
 DPArray						6.1.2	DEFSTORAGE/DPArray.dp	DPArray.dp					0x0009FE7D	0	INFOPAGE
 
 #Apps
-Batch image convertor		3.3.7	DEFSTORAGE/DEFFILE		BatchImageConvertor.dp		0x00058F60	1	INFOLINK
+Batch image convertor		3.4		DEFSTORAGE/DEFFILE		BatchImageConvertor.dp		0x00058F5E	1	INFOLINK
 ConcurrentDraw				3.2.7	DEFSTORAGE/DEFFILE		ConcurrentDraw.dp			0x0009EA94	1	INFOLINK
 Dates difference			3.2.7	DEFSTORAGE/DEFFILE		DatesDifference.dp			0x000307D2	0	INFOLINK
 File extensions manager		2.3.7	DEFSTORAGE/DEFFILE		FileExtensionsManager.dp	0x0005441F	0	INFOPAGE
