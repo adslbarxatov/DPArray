@@ -16,20 +16,20 @@ You can find us using set of popular platforms listed below. Supported languages
 
 &nbsp;
 
-[Master community ● VK](https://vk.com/rd_aaow_fdl) :ru:
+[Master community ● VK](https://vk.com/rd_aaow_fdl) :ru: :mailbox:
 
-[Master mirror ● Telegram](https://t.me/rd_aaow_fdl) :gb: :ru:
+[Master mirror ● Telegram](https://t.me/rd_aaow_fdl) :gb: :ru: :mailbox:
 
-[Sources hosting ● GitHub](https://github.com/adslbarxatov) :gb: :ru:
+[Sources hosting ● GitHub](https://github.com/adslbarxatov) :gb: :ru: :mailbox:
 
-[Mods hosting ● ModDB](https://moddb.com/members/rd-aaow-fdl) :gb:
+[Mods hosting ● ModDB](https://moddb.com/members/rd-aaow-fdl) :gb: :mailbox:
 
-[Master channel ● YouTube](https://youtube.com/c/rdaaowfdl) :gb: :ru:
+[Master channel ● YouTube](https://youtube.com/c/rdaaowfdl) :gb: :ru: :mailbox:
 
 [Side community ● VK](https://vk.com/grammarmustjoy) :ru:
 
 [Side mirror ● Telegram](https://t.me/grammarmustjoy) :ru:
 
-RD AAOW FDL#6304 ● Discord
+RD AAOW FDL#6304 ● Discord :gb: :ru: :mailbox:
 
 [NFT hosting ● Rarible](https://rarible.com/rd_aaow_fdl) :gb:
