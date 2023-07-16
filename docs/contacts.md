@@ -1,12 +1,16 @@
 # Laboratory: contacts
 
+---
+
 # Our contacts
 
-You can find us using set of popular platforms listed below (supported languages are also indicated):
+You can find us using set of popular platforms listed below. Supported languages and opportunity to contact us are also indicated.
+
+---
 
 # Наши контакты
 
-Вы можете найти нас, используя перечень популярных платформ, перечисленных ниже (вместе с поддерживаемыми языками):
+Вы можете найти нас, используя перечень популярных платформ, перечисленных ниже. Также указаны поддерживаемые языки и возможность связаться с нами.
 
 ---
 
