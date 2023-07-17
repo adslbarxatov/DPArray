@@ -102,7 +102,7 @@
 - Логотип модификаций [ESHQ](https://moddb.com/mods/eshq) и [ES: Randomaze](https://moddb.com/mods/esrm),
 который аналогичен основному, но с заменой изумрудного цвета угольным;
 
-<img src="/DPArray/img/ESHQ.png" /> <img src="/DPArray/img/ESRM.png" />
+<img src="/DPArray/img/ESHQ.png" />
 
 - Логотип проекта [uNot](https://adslbarxatov.github.io/UniNotifier), аналогичный основному,
 но с заменой фонового круга «облаком» всплывающего сообщения;

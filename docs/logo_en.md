@@ -100,7 +100,7 @@ Exceptions are:
 - Logo of [ESHQ](https://moddb.com/mods/eshq) and [ES: Randomaze](https://moddb.com/mods/esrm) modifications,
 which is similar to the main one, but with the emerald color replaced with charcoal;
 
-<img src="/DPArray/img/ESHQ.png" /> <img src="/DPArray/img/ESRM.png" />
+<img src="/DPArray/img/ESHQ.png" />
 
 - The logo of the [uNot](https://adslbarxatov.github.io/UniNotifier) project, similar to the main one,
 but with the background circle replaced by a “cloud” of a pop-up message;
