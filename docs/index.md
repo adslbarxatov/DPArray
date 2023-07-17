@@ -1,6 +1,6 @@
 # Welcome to Laboratory!
 
-[**DPArray ● Direct download link**](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.sfx.exe)
+[**DPArray ● Direct download link ● Windows**](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.sfx.exe)
 
 &nbsp;
 
