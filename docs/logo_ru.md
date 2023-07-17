@@ -1,6 +1,20 @@
-﻿# Laboratory: logo concept
+﻿# Laboratory: концепты лого
 
----
+&nbsp;
+
+
+
+### Содержание страницы
+
+- [Цветовая схема](#section-2)
+- [Основной логотип Лаборатории](#section-3)
+- [Логотип магазина DPArray](#dparray)
+- [Логотипы остальных продуктов](#section-4)
+- [Домашняя страница](https://adslbarxatov.github.io/DPArray/ru)
+
+&nbsp;
+
+
 
 ## Цветовая схема
 

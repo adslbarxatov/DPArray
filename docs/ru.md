@@ -9,9 +9,10 @@
 ### Содержание страницы
 
 - [Здравствуйте, уважаемый пользователь!](#section-3)
-- [Контакты](https://adslbarxatov.github.io/DPArray/contacts)
 - [Актуальные проекты и разработки](#section-4)
 - [Облако ссылок](#section-5)
+- [Контакты](https://adslbarxatov.github.io/DPArray/contacts)
+- [Концепты лого](https://adslbarxatov.github.io/DPArray/logo_ru)
 - [English version](https://adslbarxatov.github.io/DPArray)
 
 &nbsp;

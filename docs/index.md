@@ -9,9 +9,10 @@
 ### Page contents
 
 - [Hello, dear user!](#hello-dear-user)
-- [Contacts](https://adslbarxatov.github.io/DPArray/contacts)
 - [Actual projects and developments](#actual-projects-and-developments)
 - [Links cloud](#links-cloud)
+- [Contacts](https://adslbarxatov.github.io/DPArray/contacts)
+- [Logo concepts](https://adslbarxatov.github.io/DPArray/logo_en)
 - [Русская версия](https://adslbarxatov.github.io/DPArray/ru)
 
 &nbsp;

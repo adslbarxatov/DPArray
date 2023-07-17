@@ -1,6 +1,15 @@
 # Laboratory: contacts
 
----
+&nbsp;
+
+
+
+- [Home page](https://adslbarxatov.github.io/DPArray)
+- [Домашняя страница](https://adslbarxatov.github.io/DPArray/ru)
+
+&nbsp;
+
+
 
 You can find us using set of popular platforms listed below. Supported languages (:gb: :ru:)
 and opportunity to contact us (:mailbox:) are also indicated.
@@ -13,6 +22,8 @@ and opportunity to contact us (:mailbox:) are also indicated.
 ---
 
 &nbsp;
+
+
 
 [Master community ● VK](https://vk.com/rd_aaow_fdl) :ru: :mailbox:
 
