@@ -100,14 +100,18 @@ Exceptions are:
 - Logo of [ESHQ](https://moddb.com/mods/eshq) and [ES: Randomaze](https://moddb.com/mods/esrm) modifications,
 which is similar to the main one, but with the emerald color replaced with charcoal;
 
+<img src="/DPArray/img/ESHQ.png" /> <img src="/DPArray/img/ESRM.png" />
+
 - The logo of the [uNot](https://adslbarxatov.github.io/UniNotifier) project, similar to the main one,
 but with the background circle replaced by a “cloud” of a pop-up message;
+
+<img src="/DPArray/img/UN.png" />
 
 - Logos for [ConcurrentDraw](https://github.com/adslbarxatov/ConcurrentDraw), [Grammar must joy](https://t.me/grammarmustjoy),
 [One hundred and one](https://adslbarxatov.github.io/OneHundredOne) and [Thousand](https://adslbarxatov.github.io/Thousand)
 projects using their own sub-logos over the standard circle;
 
-<img src="/DPArray/img/CD.png" />
+<img src="/DPArray/img/CD.png" /> <img src="/DPArray/img/GMJ.png" />
 
 - [ADP](https://adslbarxatov.github.io/ADP) and [SCP](https://adslbarxatov.github.io/SCP) Policies Logos
 

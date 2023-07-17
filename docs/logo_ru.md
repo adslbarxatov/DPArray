@@ -99,17 +99,22 @@
 
 Исключениями являются:
 
-- Логотип модификаций ESHQ и ES: Randomaze, который аналогичен основному, но с заменой
-изумрудного цвета угольным;
+- Логотип модификаций [ESHQ](https://moddb.com/mods/eshq) и [ES: Randomaze](https://moddb.com/mods/esrm),
+который аналогичен основному, но с заменой изумрудного цвета угольным;
 
-- Логотип проекта uNot, аналогичный основному, но с заменой фонового круга «облаком»
-всплывающего сообщения;
+<img src="/DPArray/img/ESHQ.png" /> <img src="/DPArray/img/ESRM.png" />
 
-- Логотипы проектов ConcurrentDraw, Grammar must joy, One hundred and one и Thousand,
-использующие собственные сублоготипы поверх стандартного круга;
+- Логотип проекта [uNot](https://adslbarxatov.github.io/UniNotifier), аналогичный основному,
+но с заменой фонового круга «облаком» всплывающего сообщения;
 
-<img src="/DPArray/img/CD.png" />
+<img src="/DPArray/img/UN.png" />
 
-- Логотипы Политик ADP и SCP
+- Логотипы проектов [ConcurrentDraw](https://github.com/adslbarxatov/ConcurrentDraw),
+[Grammar must joy](https://t.me/grammarmustjoy), [One hundred and one](https://adslbarxatov.github.io/OneHundredOne)
+и [Thousand](https://adslbarxatov.github.io/Thousand), использующие собственные сублоготипы поверх стандартного круга;
+
+<img src="/DPArray/img/CD.png" /> <img src="/DPArray/img/GMJ.png" />
+
+- Логотипы Политик [ADP](https://adslbarxatov.github.io/ADP) и [SCP](https://adslbarxatov.github.io/SCP)
 
 <img src="/DPArray/img/ADP.png" />
