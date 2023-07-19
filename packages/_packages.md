@@ -8,7 +8,7 @@ Batch image convertor		3.4		DEFSTORAGE/DEFFILE		BatchImageConvertor.dp		0x00058F
 ConcurrentDraw				3.3		DEFSTORAGE/DEFFILE		ConcurrentDraw.dp			0x000A0CE6	1	INFOLINK
 Dates difference			3.3		DEFSTORAGE/DEFFILE		DatesDifference.dp			0x000307D0	0	INFOLINK
 File extensions manager		2.4		DEFSTORAGE/DEFFILE		FileExtensionsManager.dp	0x0005421D	0	INFOPAGE
-Font finder					3.3.1	DEFSTORAGE/DEFFILE		FontFinder.dp				0x000487CD	0	INFOLINK
+Font finder					3.3.3	DEFSTORAGE/DEFFILE		FontFinder.dp				0x00049FCD	0	INFOLINK
 Geomag data drawer			5.4		DEFSTORAGE/DEFFILE		GeomagDataDrawer.dp			0x00132C97	1	INFOPAGE
 KassArray					4.4.6	DEFSTORAGE/DEFFILE		KassArray.dp				0x001225F4	1	INFOPAGE
 OS macros executor			3.3		DEFSTORAGE/DEFFILE		OSMacrosExecutor.dp			0x0005BD30	1	INFOLINK
