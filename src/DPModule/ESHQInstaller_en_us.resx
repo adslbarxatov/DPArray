@@ -117,17 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ArchiveAccessError" xml:space="preserve">
-    <value>Cannot create or access package file</value>
-  </data>
   <data name="ArchiveDamagedError" xml:space="preserve">
     <value>Package file is missing, damaged or incorrect</value>
-  </data>
-  <data name="ArchiveReadError" xml:space="preserve">
-    <value>Cannot access package file</value>
-  </data>
-  <data name="ArchiveReadError_Update" xml:space="preserve">
-    <value> (contains installation script)</value>
   </data>
   <data name="CompletedSuccessfully" xml:space="preserve">
     <value>Operation completed successfully</value>
@@ -156,7 +147,7 @@ If you have any wishes, advices or troubles with this utility, remind us, using 
   <data name="IncorrectPackage" xml:space="preserve">
     <value>Your deployment package is not original! We strongly recommend against using it!
 
-Launch this managed again and download the original package</value>
+Please, launch this manager again and download the original package</value>
   </data>
   <data name="InstallRadioText_Main" xml:space="preserve">
     <value>Install: the app installation or recovery</value>
@@ -171,10 +162,10 @@ Launch this managed again and download the original package</value>
     <value>Failed to create installation log</value>
   </data>
   <data name="ModDBIsNotFullyAvailable" xml:space="preserve">
-    <value>Project webpage is not fully available for now. Try again later</value>
+    <value>The updates server is busy now. Try again later</value>
   </data>
   <data name="ModDBIsUnavailable" xml:space="preserve">
-    <value>Project webpage is unavailable for now. Try again later</value>
+    <value>The updates server is unavailable now. Try again later</value>
   </data>
   <data name="ModeLabelText_Main" xml:space="preserve">
     <value>Select the deployment mode:</value>
@@ -203,7 +194,7 @@ Continue with specified path?</value>
 You may be trying to update or uninstall a product that has never been installed or has already been removed</value>
   </data>
   <data name="ReadyMessage1" xml:space="preserve">
-    <value>We are ready for </value>
+    <value>We’re ready for </value>
   </data>
   <data name="ReadyMessage2_Install" xml:space="preserve">
     <value>application deployment at
@@ -254,9 +245,6 @@ Launch this manager again to download it</value>
 
 NOTE: if you’ll set incorrect path, updater and installer may damage valuable files!</value>
   </data>
-  <data name="SelectPackage" xml:space="preserve">
-    <value>Select all packages that you want to deploy</value>
-  </data>
   <data name="IconMenuShowAbout" xml:space="preserve">
     <value>Actual package’s version info</value>
   </data>
@@ -274,7 +262,7 @@ Use right mouse button to manage packages, double left click for retrieving pack
     <value>Deployment packages manager</value>
   </data>
   <data name="PackagesListUnavailable" xml:space="preserve">
-    <value>The list of deployment packages is unavailable. Check your internet connection.
+    <value>The list of deployment packages is unavailable. Check your internet connection and try again.
 
 Retry the list downloading?</value>
   </data>
@@ -312,9 +300,6 @@ Retry the list downloading?</value>
   <data name="IconRestorePath" xml:space="preserve">
     <value>Restore package’s deployment path</value>
   </data>
-  <data name="dp0file" xml:space="preserve">
-    <value>Deployment package v 10 – 12</value>
-  </data>
   <data name="IconRegisterExt" xml:space="preserve">
     <value>Register file associations</value>
   </data>
@@ -325,7 +310,9 @@ Retry the list downloading?</value>
     <value> (update)</value>
   </data>
   <data name="ReqMessageFail" xml:space="preserve">
-    <value>Failed to download {0:S}. If this product is already installed, no further action is required. Otherwise, the app may not work properly</value>
+    <value>Failed to download {0:S}.
+
+If this product is already installed, no further action is required. Otherwise, the app may not work properly</value>
   </data>
   <data name="ReqMessageDefault" xml:space="preserve">
     <value>This app requires the following prerequisites to work:
@@ -413,10 +400,7 @@ The app will use default path for this product. If it’s not correct, use “Re
     <value>&amp;Go to</value>
   </data>
   <data name="ProtocolCallFailure" xml:space="preserve">
-    <value>Specified package ({0:S}) not found</value>
-  </data>
-  <data name="PackageSelectorForm_ExitButton" xml:space="preserve">
-    <value>E&amp;xit</value>
+    <value>Specified package ({0:S}) not found on the updates server</value>
   </data>
   <data name="dpprotocol" xml:space="preserve">
     <value>URL: Deployment packages processing protocol</value>

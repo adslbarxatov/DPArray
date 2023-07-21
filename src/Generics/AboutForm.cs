@@ -15,148 +15,9 @@ namespace RD_AAOW
 		// Переменные
 		private string projectLink, updatesLink, userManualLink;
 		private string updatesMessage = "", updatesMessageForText = "", description = "",
-			policyLoaderCaption = "", /*registryFail = "",*/
-			dpModuleAbsence = "", startDownload = "", packageFail = "", fileWriteFail = "",
 			versionDescription = "", adpRevision = "";
 		private bool accepted = false;              // Флаг принятия Политики
-		private const string toolName = "DPArray";
-
-		private static string[][] locale = new string[][] { new string [] {
-
-			"",
-			"",
-			"Поиск обновлений...",
-			"Открыть в браузере",		// 03
-			"",
-			"",
-			"",
-			"",	// 07
-			"От&клонить",
-
-			"Не удалось получить текст Политики. Нажмите кнопку ▶ для её открытия в веб-браузере",
-			"[Проверка обновлений...]\r\n\r\n",
-			"Подготовка к запуску...",	// 11
-
-			/*" не может сохранить настройки в реестре Windows. Приложение не будет работать корректно.\n\n" +
-			"Попробуйте выполнить следующие изменения в свойствах исполняемого файла:\n" +
-			"• разблокируйте приложение в общих свойствах (кнопка «Разблокировать»);\n" +
-			"• включите запуск от имени администратора для всех пользователей в настройках совместимости.\n\n" +
-			"После этого перезапустите программу и повторите попытку",*/
-			"",
-
-			"Инструмент развёртки пакетов " + toolName + " не найден на этом ПК. Перейти к его загрузке?" +
-			"\n\nВы можете обновить этот продукт прямо из " + toolName + " или вернуться сюда после его установки. " +
-			"Также Вы можете ознакомиться с презентацией " + toolName + " на YouTube, нажав кнопку «Видео»",
-
-			"Не удалось загрузить пакет развёртки. Проверьте Ваше подключение к Интернету",
-			"Не удалось сохранить пакет развёртки. Проверьте Ваши права доступа",
-
-			"Начать загрузку пакета?\n\nПосле завершения пакет развёртки будет запущен автоматически",	// 16
-
-			"Политика разработки и соглашение пользователя",
-			"",
-			"Версия актуальна",
-			"[Версия актуальна, см. описание в конце]",		// 20
-			"&Доступна {0:S}",
-			"[Доступна {0:S}, см. описание в конце]",
-			"Сервер" + "\xA0" + "недоступен",
-			"[Страница обновлений недоступна]",		// 24
-
-			"",
-			"",
-
-			"Предупреждение: необходимые расширения файлов будут зарегистрированы с использованием " +
-			"текущего местоположения приложения.\n\nУбедитесь, что вы не будете менять расположение " +
-			"этого приложения перед использованием этой функции.\n\nПродолжить?",
-
-			"Предупреждение: необходимые протоколы будут зарегистрированы с использованием " +
-			"текущего местоположения приложения.\n\nУбедитесь, что вы не будете менять расположение " +
-			"этого приложения перед использованием этой функции.\n\nПродолжить?",		// 28
-
-			"&Видео",	// 29
-
-			"Предупреждение! Прочтите перед использованием этой опции!\n\n" +
-			"Вы можете помочь нам сделать наше сообщество более популярным. Если эта функция включена, " +
-			"она будет вызывать случайную страницу Лаборатории при запуске приложения. Она будет использовать " +
-			"скрытый режим, поэтому Вам не придётся смотреть на какие-либо страницы или окна. Этот алгоритм " +
-			"просто загружает вызываемую страницу и удаляет её, чтобы имитировать активность. Небольшой чит, " +
-			"чтобы помочь нашему развитию.\n\n" +
-			"Согласно ADP:\n" +
-			"1. Эта опция НИКОГДА НЕ БУДЕТ активирована без Вашего согласия.\n" +
-			"2. Эта опция делает В ТОЧНОСТИ то, что описано здесь. Никакого сбора данных, никаких опасных " +
-			"веб-ресурсов.\n" +
-			"3. Вы можете отключить её здесь в любое время.\n\n" +
-			"И да: если у Вас дорогой интернет, НЕ АКТИВИРУЙТЕ ЭТУ ОПЦИЮ. Она может занять немного трафика.\n\n" +
-			"Заранее благодарим Вас за участие!"
-
-			}, new string [] {
-
-			"",
-			"",
-			"Checking updates...",
-			"Open in browser",			// 03
-			"",
-			"",
-			"",
-			"",		// 07
-			"De&cline",
-
-			"Failed to get the Policy text. Press ▶ button to open it in web browser",
-			"[Checking for updates...]\r\n\r\n",
-			"Preparing for launch...",	// 11
-		
-			/*" cannot save settings in the Windows registry. It will not work properly.\n\n" +
-			"Try the following changes to properties of the executable file:\n" +
-			"• unblock the app in general properties (“Unblock” button);\n" +
-			"• enable running as administrator for all users in compatibility settings.\n\n" +
-			"Then restart the program and try again",*/
-			"",
-
-			toolName + ", the packages deployment tool isn’t installed on this PC. " +
-			"Download it?\n\nYou can update this product directly from " + toolName + " or come back here " +
-			"after installing it. Also you can view the " + toolName + " presentation on YouTube by pressing " +
-			"“Video” button",
-
-			"Failed to download deployment package. Check your internet connection",
-			"Failed to save deployment package. Check your user access rights",
-
-			"Download the package?\n\nThe deployment package will be started automatically after completion",	// 16
-
-			"Development policy and user agreement",
-			"",
-			"App is up-to-date",
-			"[Version is up to date, see description below]",	// 20
-			"{0:S} a&vailable",
-			"[{0:S} is available, see description below]",
-			"Not" + "\xA0" + "available",
-			"[Updates page is unavailable]",	// 24
-
-			"",
-			"",
-
-			"Warning: required file extensions will be registered using current app location.\n\n" +
-			"Make sure you will not change location of this application before using this feature.\n\n" +
-			"Continue?",
-
-			"Warning: required protocols will be registered using current app location.\n\n" +
-			"Make sure you will not change location of this application before using this feature.\n\n" +
-			"Continue?",			// 28
-
-			"&Video",	// 29
-
-			"Warning! Read this first before using this option!\n\n" +
-			"You can help us to make our community more popular. When enabled, this function will call " +
-			"random Lab’s page at the app start. It will use hidden mode, so, you don’t have to look at any " +
-			"page or window. This algorithm just downloads called page and removes it to imitate the activity. " +
-			"A little cheat to help our development.\n\n" +
-			"According to ADP:\n" +
-			"1. This option WILL NEVER be activated without your agreement.\n" +
-			"2. This option do EXACTLY what described here. No data collection, no dangerous web resources.\n" +
-			"3. You can disable it here anytime.\n\n" +
-			"And yes: if you have expensive internet, DO NOT ACTIVATE THIS OPTION. " +
-			"It can take away some amount of traffic.\n" +
-			"Thank you in advance for your participation!"
-			} };
+		/*private const string toolName = "DPArray";*/
 
 		/// <summary>
 		/// Ключ реестра, хранящий версию, на которой отображалась справка
@@ -165,7 +26,6 @@ namespace RD_AAOW
 
 		// Ключ реестра, хранящий последнюю принятую версию ADP
 		private const string ADPRevisionKey = "ADPRevision";
-		/*private const string ADPRevisionPath = RDGenerics.AssemblySettingsStorage + "DPModule";*/
 
 		// Элементы поддержки HypeHelp
 		private const string HypeHelpKey = "HypeHelp";
@@ -290,12 +150,9 @@ namespace RD_AAOW
 		private int LaunchForm (bool StartupMode, bool AcceptMode)
 			{
 			// HypeHelp
-			/*hypeHelp = RDGenerics.GetAppSettingsValue (HypeHelpKey, ADPRevisionPath) == "1";*/
 			hypeHelp = RDGenerics.GetDPArraySettingsValue (HypeHelpKey) == "1";
 			try
 				{
-				/*lastHypeHelp = DateTime.Parse (RDGenerics.GetAppSettingsValue (LastHypeHelpKey,
-					ADPRevisionPath));*/
 				lastHypeHelp = DateTime.Parse (RDGenerics.GetDPArraySettingsValue (LastHypeHelpKey));
 				}
 			catch
@@ -313,7 +170,6 @@ namespace RD_AAOW
 #endif
 
 				lastHypeHelp = DateTime.Now.AddMinutes (rnd.Next (65, 95));
-				/*RDGenerics.SetAppSettingsValue (LastHypeHelpKey, lastHypeHelp.ToString (), ADPRevisionPath);*/
 				RDGenerics.SetDPArraySettingsValue (LastHypeHelpKey, lastHypeHelp.ToString ());
 				}
 
@@ -321,7 +177,6 @@ namespace RD_AAOW
 			string helpShownAt = "";
 			if (StartupMode || AcceptMode)
 				{
-				/*adpRevision = RDGenerics.GetAppSettingsValue (ADPRevisionKey, ADPRevisionPath);*/
 				adpRevision = RDGenerics.GetDPArraySettingsValue (ADPRevisionKey);
 				helpShownAt = RDGenerics.GetAppSettingsValue (LastShownVersionKey);
 
@@ -329,7 +184,6 @@ namespace RD_AAOW
 				if (adpRevision == "")
 					{
 					adpRevision = "rev. 10!";
-					/*RDGenerics.SetAppSettingsValue (ADPRevisionKey, adpRevision, ADPRevisionPath);*/
 					RDGenerics.SetDPArraySettingsValue (ADPRevisionKey, adpRevision);
 					}
 				}
@@ -342,22 +196,25 @@ namespace RD_AAOW
 			// Настройка контролов
 			int al = (int)Localization.CurrentLanguage;
 
-			UpdatesPageButton.Text = locale[al][2];
+			UpdatesPageButton.Text =
+				Localization.GetDefaultText (LzDefaultTextValues.Message_CheckingUpdates);
 
 			ExitButton.Text = Localization.GetDefaultText (AcceptMode ? LzDefaultTextValues.Button_Accept :
 				LzDefaultTextValues.Button_OK);
 
-			MisacceptButton.Text = locale[al][8];
+			MisacceptButton.Text =
+				Localization.GetDefaultText (LzDefaultTextValues.Button_Decline);
 
 			if (!desciptionHasBeenUpdated)
-				DescriptionBox.Text = locale[al][AcceptMode ? 9 : 10] + description;
-
-			policyLoaderCaption = locale[al][11];
-			/*registryFail = ProgramDescription.AssemblyMainName + locale[al][12];*/
-			dpModuleAbsence = locale[al][13];
-			packageFail = locale[al][14];
-			fileWriteFail = locale[al][15];
-			startDownload = locale[al][16];
+				{
+				if (AcceptMode)
+					DescriptionBox.Text =
+						Localization.GetDefaultText (LzDefaultTextValues.Message_PolicyFailure);
+				else
+					DescriptionBox.Text =
+						Localization.GetDefaultText (LzDefaultTextValues.Message_CheckingUpdatesPrefix) +
+						description;
+				}
 
 			// Загрузка списка доступных переходов к ресурсам Лаборатории
 			if (ToLaboratoryCombo.Items.Count < 1)
@@ -378,7 +235,8 @@ namespace RD_AAOW
 					}
 
 				linkTypes.Add (LinkTypes.ADP);
-				ToLaboratoryCombo.Items.Add (AcceptMode ? locale[al][3] :
+				ToLaboratoryCombo.Items.Add (AcceptMode ?
+					Localization.GetDefaultText (LzDefaultTextValues.Message_OpenInBrowser) :
 					Localization.GetDefaultText (LzDefaultTextValues.Control_PolicyEULA));
 
 				linkTypes.Add (LinkTypes.ToLabMain);
@@ -388,7 +246,8 @@ namespace RD_AAOW
 				}
 			ToLaboratoryCombo.SelectedIndex = 0;
 
-			this.Text = AcceptMode ? locale[al][17] :
+			this.Text = AcceptMode ?
+				Localization.GetDefaultText (LzDefaultTextValues.Control_PolicyEULA) :
 				Localization.GetDefaultText (LzDefaultTextValues.Control_AppAbout);
 
 			// Запуск проверки обновлений
@@ -407,9 +266,13 @@ namespace RD_AAOW
 			else
 				{
 #if DPMODULE
-				hwe = new HardWorkExecutor (PolicyLoader, null, policyLoaderCaption, true, false, true);
+				hwe = new HardWorkExecutor (PolicyLoader, null,
+					Localization.GetDefaultText (LzDefaultTextValues.Message_PreparingForLaunch),
+					true, false, true);
 #else
-				hwe = new HardWorkExecutor (PolicyLoader, null, policyLoaderCaption, true, false);
+				hwe = new HardWorkExecutor (PolicyLoader, null,
+					Localization.GetDefaultText (LzDefaultTextValues.Message_PreparingForLaunch),
+					true, false);
 #endif
 
 				string html = hwe.Result.ToString ();
@@ -437,41 +300,21 @@ namespace RD_AAOW
 
 			// Запуск с управлением настройками окна
 			HypeHelpFlag.Checked = hypeHelp;
-			/*RDGenerics.LoadWindowDimensions (this, ADPRevisionPath);*/
 			RDGenerics.LoadAppAboutWindowDimensions (this);
 
 			this.ShowDialog ();
 
-			/*RDGenerics.SaveWindowDimensions (this, ADPRevisionPath);*/
 			RDGenerics.SaveAppAboutWindowDimensions (this);
-			/*RDGenerics.SetAppSettingsValue (HypeHelpKey, HypeHelpFlag.Checked ? "1" : "0", ADPRevisionPath);*/
 			RDGenerics.SetDPArraySettingsValue (HypeHelpKey, HypeHelpFlag.Checked ? "1" : "0");
 
 			// Запись версий по завершению
-			/*try
-				{*/
 			if (StartupMode)
-				{
 				RDGenerics.SetAppSettingsValue (LastShownVersionKey, ProgramDescription.AssemblyVersion);
-
-				/* Контроль доступа к реестру
-				WindowsIdentity identity = WindowsIdentity.GetCurrent ();
-				WindowsPrincipal principal = new WindowsPrincipal (identity);
-
-				if (!principal.IsInRole (WindowsBuiltInRole.Administrator))
-					RDGenerics.MessageBox (RDMessageTypes.Warning_Center, registryFail);*/
-				}
 
 			// В случае невозможности загрузки Политики признак необходимости принятия до этого момента
 			// не удаляется из строки версии. Поэтому требуется страховка
 			if (AcceptMode && accepted)
-				/*RDGenerics.SetAppSettingsValue (ADPRevisionKey, adpRevision.Replace ("!", ""), ADPRevisionPath);*/
 				RDGenerics.SetDPArraySettingsValue (ADPRevisionKey, adpRevision.Replace ("!", ""));
-			/*}
-		catch
-			{
-			RDGenerics.MessageBox (RDMessageTypes.Warning_Left, registryFail);
-			}*/
 
 			// Завершение
 			return accepted ? 0 : -1;
@@ -503,7 +346,6 @@ namespace RD_AAOW
 				html = html.Replace ("\x01", "\x0D\x0A");
 				html = html.Replace (" \x0D\x0A", "\x0D\x0A");  // Устранение оставшихся лишних пробелов
 
-				//File.WriteAllText (RDGenerics.AppStartupPath + "Policy.dmp", html);
 				html = html.Substring (1, html.Length - 48);    // Финальная обрезка
 				}
 			else
@@ -597,7 +439,6 @@ namespace RD_AAOW
 #if !DPMODULE
 
 			// Контроль наличия DPArray
-			/*string dpmv = RDGenerics.GetAppSettingsValue (LastShownVersionKey, ADPRevisionPath);*/
 			string dpmv = RDGenerics.GetDPArraySettingsValue (LastShownVersionKey);
 			string downloadLink, packagePath;
 
@@ -605,10 +446,11 @@ namespace RD_AAOW
 			if (string.IsNullOrWhiteSpace (dpmv))
 				{
 				// Выбор варианта обработки
-				switch (RDGenerics.MessageBox (RDMessageTypes.Question_Left, dpModuleAbsence,
-						Localization.GetDefaultText (LzDefaultTextValues.Button_Yes),
-						locale[(int)Localization.CurrentLanguage][29],
-						Localization.GetDefaultText (LzDefaultTextValues.Button_Cancel)))
+				switch (RDGenerics.MessageBox (RDMessageTypes.Question_Left,
+					Localization.GetDefaultText (LzDefaultTextValues.Message_DPArrayIsntInstalled),
+					Localization.GetDefaultText (LzDefaultTextValues.Button_Yes),
+					Localization.GetDefaultText (LzDefaultTextValues.Button_Video),
+					Localization.GetDefaultText (LzDefaultTextValues.Button_Cancel)))
 					{
 					case RDMessageButtons.ButtonThree:
 						return;
@@ -623,7 +465,8 @@ namespace RD_AAOW
 				}
 			else
 				{
-				if (RDGenerics.MessageBox (RDMessageTypes.Question_Center, startDownload,
+				if (RDGenerics.MessageBox (RDMessageTypes.Question_Center,
+					Localization.GetDefaultText (LzDefaultTextValues.Message_StartPackageDownloading),
 					Localization.GetDefaultText (LzDefaultTextValues.Button_Yes),
 					Localization.GetDefaultText (LzDefaultTextValues.Button_No)) !=
 					RDMessageButtons.ButtonOne)
@@ -635,9 +478,8 @@ namespace RD_AAOW
 				return;
 #else
 				downloadLink = RDGenerics.DPArrayPackageLink;
+				packagePath = RDGenerics.GetDPArraySettingsValue (/*toolName*/ RDGenerics.DPArrayName);
 
-				/*packagePath = RDGenerics.GetAppSettingsValue (toolName, ADPRevisionPath);*/
-				packagePath = RDGenerics.GetDPArraySettingsValue (toolName);
 				if (string.IsNullOrWhiteSpace (packagePath))    // Такое может быть, если DPArray ни разу не обновлялся
 					{
 					packagePath = Environment.GetFolderPath (Environment.SpecialFolder.Desktop) + "\\";
@@ -667,11 +509,11 @@ namespace RD_AAOW
 
 				case -1:
 				case -2:
-					msg = packageFail;
+					msg = Localization.GetDefaultText (LzDefaultTextValues.Message_PackageLoadingFailure);
 					break;
 
 				case -3:
-					msg = fileWriteFail;
+					msg = Localization.GetDefaultText (LzDefaultTextValues.Message_PackageSavingFailure);
 					break;
 
 				default: // Отмена
@@ -699,7 +541,8 @@ namespace RD_AAOW
 		private void HypeHelpFlag_CheckedChanged (object sender, EventArgs e)
 			{
 			if (HypeHelpFlag.Checked)
-				RDGenerics.MessageBox (RDMessageTypes.Success_Left, locale[(int)Localization.CurrentLanguage][30]);
+				RDGenerics.MessageBox (RDMessageTypes.Success_Left,
+					Localization.GetDefaultText (LzDefaultTextValues.Message_HypeHelp));
 			}
 
 		/// <summary>
@@ -727,7 +570,6 @@ namespace RD_AAOW
 		private void UpdatesChecker (object sender, DoWorkEventArgs e)
 			{
 			// Запрос обновлений пакета
-			int al = (int)Localization.CurrentLanguage;
 			string html = RDGenerics.GetHTML (projectLink);
 			bool htmlError = true;  // Сбрасывается при успешной загрузке
 
@@ -771,13 +613,15 @@ namespace RD_AAOW
 			// Отображение результата
 			if (ProgramDescription.AssemblyTitle.EndsWith (version))
 				{
-				updatesMessage = locale[al][19];
-				updatesMessageForText = locale[al][20];
+				updatesMessage = Localization.GetDefaultText (LzDefaultTextValues.Message_UpToDate);
+				updatesMessageForText = Localization.GetDefaultText (LzDefaultTextValues.Message_UpToDatePrefix);
 				}
 			else
 				{
-				updatesMessage = string.Format (locale[al][21], version);
-				updatesMessageForText = string.Format (locale[al][22], version);
+				updatesMessage =
+					string.Format (Localization.GetDefaultText (LzDefaultTextValues.Message_UpdateAvailable), version);
+				updatesMessageForText =
+					string.Format (Localization.GetDefaultText (LzDefaultTextValues.Message_UpdateAvailablePrefix), version);
 				}
 			htmlError = false;
 
@@ -795,7 +639,6 @@ policy:
 
 					// Сброс версии для вызова Политики при следующем старте
 					if (!html.StartsWith (adpRevision))
-						/*RDGenerics.SetAppSettingsValue (ADPRevisionKey, html + "!", ADPRevisionPath);*/
 						RDGenerics.SetDPArraySettingsValue (ADPRevisionKey, html + "!");
 					}
 				}
@@ -808,8 +651,10 @@ policy:
 				}
 
 			// Есть проблема при загрузке страницы. Отмена
-			updatesMessage = locale[al][23];
-			updatesMessageForText = locale[al][24];
+			updatesMessage =
+				Localization.GetDefaultText (LzDefaultTextValues.Message_ServerUnavailable);
+			updatesMessageForText =
+				Localization.GetDefaultText (LzDefaultTextValues.Message_ServerUnavailablePrefix);
 
 			e.Result = -2;
 			return;
@@ -892,7 +737,8 @@ policy:
 		/// <param name="FileExtension">Расширение файла без точки</param>
 		/// <param name="FileTypeName">Название типа файла</param>
 		/// <param name="Openable">Флаг указывает, будет ли файл доступен для открытия в приложении</param>
-		/// <param name="ShowWarning">Флаг указывает, что необходимо отобразить предупреждение перед регистрацией</param>
+		/// <param name="ShowWarning">Флаг указывает, что необходимо отобразить предупреждение
+		/// перед регистрацией</param>
 		/// <param name="FileIcon">Ресурс, хранящий значок формата файла</param>
 		/// <returns>Возвращает true в случае успеха</returns>
 		public static bool RegisterFileExtension (string FileExtension, string FileTypeName, Icon FileIcon,
@@ -903,7 +749,7 @@ policy:
 
 			// Контроль
 			if (ShowWarning && (RDGenerics.MessageBox (RDMessageTypes.Warning_Left,
-				locale[(int)Localization.CurrentLanguage][27],
+				Localization.GetDefaultText (LzDefaultTextValues.Message_ExtensionsRegistration),
 				Localization.GetDefaultText (LzDefaultTextValues.Button_Yes),
 				Localization.GetDefaultText (LzDefaultTextValues.Button_Cancel)) ==
 				RDMessageButtons.ButtonTwo))
@@ -924,10 +770,6 @@ policy:
 
 			// Запись значений реестра
 			bool res = true;
-			/*res &= RDGenerics.SetAppSettingsValue ("", fileExt + "file", "HKEY_CLASSES_ROOT\\." + fileExt);
-			res &= RDGenerics.SetAppSettingsValue ("", FileTypeName, "HKEY_CLASSES_ROOT\\" + fileExt + "file");
-			res &= RDGenerics.SetAppSettingsValue ("", RDGenerics.AppStartupPath + fileExt + ".ico",
-				"HKEY_CLASSES_ROOT\\" + fileExt + "file\\DefaultIcon");*/
 			res &= RDGenerics.SetFileExtensionValue ("." + fileExt, "", fileExt + "file");
 			res &= RDGenerics.SetFileExtensionValue (fileExt + "file", "", FileTypeName);
 			res &= RDGenerics.SetFileExtensionValue (fileExt + "file\\DefaultIcon", "",
@@ -935,11 +777,6 @@ policy:
 
 			if (Openable)
 				{
-				/*res &= RDGenerics.SetAppSettingsValue ("", "open", "HKEY_CLASSES_ROOT\\" + fileExt + "file\\shell");
-				res &= RDGenerics.SetAppSettingsValue ("Icon", RDGenerics.AppStartupPath + fileExt + ".ico",
-					"HKEY_CLASSES_ROOT\\" + fileExt + "file\\shell\\open");
-				res &= RDGenerics.SetAppSettingsValue ("", "\"" + Application.ExecutablePath + "\" \"%1\"",
-					"HKEY_CLASSES_ROOT\\" + fileExt + "file\\shell\\open\\command");*/
 				res &= RDGenerics.SetFileExtensionValue (fileExt + "file\\shell", "", "open");
 				res &= RDGenerics.SetFileExtensionValue (fileExt + "file\\shell\\open", "Icon",
 					RDGenerics.AppStartupPath + fileExt + ".ico");
@@ -971,7 +808,7 @@ policy:
 
 			// Контроль
 			if (ShowWarning && (RDGenerics.MessageBox (RDMessageTypes.Warning_Left,
-				locale[(int)Localization.CurrentLanguage][28],
+				Localization.GetDefaultText (LzDefaultTextValues.Message_ProtocolsRegistration),
 				Localization.GetDefaultText (LzDefaultTextValues.Button_Yes),
 				Localization.GetDefaultText (LzDefaultTextValues.Button_Cancel)) ==
 				RDMessageButtons.ButtonTwo))
@@ -981,7 +818,7 @@ policy:
 			try
 				{
 				// Запись значка
-				FileStream FS = new FileStream (protocol + ".ico", FileMode.Create);
+				FileStream FS = new FileStream (RDGenerics.AppStartupPath + protocol + ".ico", FileMode.Create);
 				FileIcon.Save (FS);
 				FS.Close ();
 				}
@@ -992,21 +829,10 @@ policy:
 
 			// Запись значений реестра
 			bool res = true;
-			/*res &= RDGenerics.SetAppSettingsValue ("", ProtocolName, "HKEY_CLASSES_ROOT\\" + protocol);
-			res &= RDGenerics.SetAppSettingsValue ("URL Protocol", "", "HKEY_CLASSES_ROOT\\" + protocol);*/
 			res &= RDGenerics.SetFileExtensionValue (protocol, "", ProtocolName);
 			res &= RDGenerics.SetFileExtensionValue (protocol, "URL Protocol", "");
-
-			/*res &= RDGenerics.SetAppSettingsValue ("", RDGenerics.AppStartupPath + protocol + ".ico",
-				"HKEY_CLASSES_ROOT\\" + protocol + "\\DefaultIcon");*/
 			res &= RDGenerics.SetFileExtensionValue (protocol + "\\DefaultIcon", "",
 				RDGenerics.AppStartupPath + protocol + ".ico");
-
-			/*res &= RDGenerics.SetAppSettingsValue ("", "open", "HKEY_CLASSES_ROOT\\" + protocol + "\\shell");
-			res &= RDGenerics.SetAppSettingsValue ("Icon", RDGenerics.AppStartupPath + protocol + ".ico",
-				"HKEY_CLASSES_ROOT\\" + protocol + "\\shell\\open");
-			res &= RDGenerics.SetAppSettingsValue ("", "\"" + Application.ExecutablePath + "\" \"%1\"",
-				"HKEY_CLASSES_ROOT\\" + protocol + "\\shell\\open\\command");*/
 			res &= RDGenerics.SetFileExtensionValue (protocol + "\\shell", "", "open");
 			res &= RDGenerics.SetFileExtensionValue (protocol + "\\shell\\open", "Icon",
 				RDGenerics.AppStartupPath + protocol + ".ico");

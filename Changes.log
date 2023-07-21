@@ -1,5 +1,11 @@
 DPArray: changes log
 
+Version 6.5:
+• Implemented the access rights checker: it will test the availability of the Windows registry
+  and the application placement for writing and notify user about possible problems;
+• Updated the storage method of text tips;
+• Updated some text tips
+
 Version 6.1.2:
 • Rewritten the settings operator: it should fix problems with requiring administrator rights
 
@@ -51,7 +57,7 @@ Version 5.6:
 • Implemented the new version of the requirements control: it will properly enumerate and display
   unsatisfied dependencies, run their installation or open their webpages;
 • Removed support for WinRAR: some old archiver’s versions are unable to properly unzip .7z format;
-• Unified the simplified some parts of code for file names and protocols processing;
+• Unified the simplified some parts of code for file names and protocols processing
 
 Version 5.5:
 • Some tips and captions have been replaced or updated;
