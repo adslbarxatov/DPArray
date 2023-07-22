@@ -236,7 +236,7 @@
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/MakeDecision/ru) &#x3000;
-:film_projector: [Видеоруководство](https://youtube.com/watch?v=40Lvq0Q1we0) &#x3000;
+:film_projector: [Видеоруководство](https://youtube.com/watch?v=PvG9rw_8rf0) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) &#x3000;
 :iphone: [На GetApps](https://global.app.mi.com/details?id=makedecision.xiaomi) &#x3000;
 :iphone: [На AppGallery](https://url.cloud.huawei.com/kOnqdCKeek?shareTo=qrcode) &#x3000;
