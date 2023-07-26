@@ -19,10 +19,10 @@ Vice city toolset			4.3		DEFSTORAGE/DEFFILE		ViceCityToolset.dp			0x0019F9AF	1	I
 
 #Mods
 ESHQ							13.5	MODSTORAGE/250593?MOD_REFmods%2Feshq	ESHQ_setup.7z		232218407	3	MODSHOST/eshq
-ESHQ, actual update				13.6	MODSTORAGE/250911?MOD_REFmods%2Feshq	ESHQ_update.7z		22548982	0	MODSHOST/eshq
+ESHQ, actual update				13.6.1	MODSTORAGE/254373?MOD_REFmods%2Feshq	ESHQ_update.7z		31663036	0	MODSHOST/eshq
 ESHQ, bkwd. compat.				13.5	MODSTORAGE/250592?MOD_REFmods%2Feshq	ESHQ_bkwd.7z		58580499	2	MODSHOST/eshq
 ES: Randomaze					4.13	MODSTORAGE/250598?MOD_REFmods%2Fesrm	ESRM_setup.7z		60254979	3	MODSHOST/esrm
-ES: Randomaze, actual update	4.14	MODSTORAGE/253712?MOD_REFmods%2Fesrm	ESRM_update.7z		4083629		0	MODSHOST/esrm
+ES: Randomaze, actual update	4.14.1	MODSTORAGE/254375?MOD_REFmods%2Fesrm	ESRM_update.7z		11641788	0	MODSHOST/esrm
 ES: Randomaze, bkwd. compat.	4.13	MODSTORAGE/250596?MOD_REFmods%2Feshq	ESRM_bkwd.7z		8901893		2	MODSHOST/esrm
 Crazy cheater’s mod				1.3		MODSTORAGE/240088?MOD_REFmods%2Fccm		CCM.7z				165319082	2	MODSHOST/ccm	GTAViceCity.1.3.dp
 
@@ -41,8 +41,8 @@ uNot for Android			6.5			GIT_LINK/UniNotifier/GIT_PATH/DEFFILE			UniNotifier.apk
 
 
 
-#ALERT: DPArray 6.1 with important update is available!||
-#ALERT: Update is required to fix the unavailability of the packages list
+#ALERT: Important fix applied to mods ESHQ and ES:RM.||
+#ALERT: If you had problems with FPS there, try it out
 
 Flags: 1 = disallow the FD, 2 = disable the VC
 
