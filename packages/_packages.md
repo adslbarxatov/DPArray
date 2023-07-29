@@ -14,7 +14,7 @@ KassArray					4.4.9	DEFSTORAGE/DEFFILE		KassArray.dp				0x001255F4	1	INFOPAGE
 OS macros executor			3.3		DEFSTORAGE/DEFFILE		OSMacrosExecutor.dp			0x0005BD30	1	INFOLINK
 Screen shooter				2.3.2	DEFSTORAGE/DEFFILE		ScreenShooter.dp			0x0002FBBD	0	INFOLINK
 Sudoku solver				4.0.2	DEFSTORAGE/DEFFILE		SudokuSolver.dp				0x00031F99	0	INFOLINK
-uNot						6.5		DEFSTORAGE/DEFFILE		UniNotifier.dp				0x000557B5	0	INFOPAGE
+uNot						6.5.5	DEFSTORAGE/DEFFILE		UniNotifier.dp				0x00055BB7	0	INFOPAGE
 Vice city toolset			4.3		DEFSTORAGE/DEFFILE		ViceCityToolset.dp			0x0019F9AF	1	INFOPAGE
 
 #Mods
@@ -37,7 +37,7 @@ Turtle						2.2		DEFSTORAGE/DEFFILE		Turtle.7z					14772534	1	INFOLINK
 KassArray for Android		4.4.2		GIT_LINK/KassArray/GIT_PATH/DEFFILE				KassArray.apk		33407581	3	INFOPAGE
 Make decision for Android	3.2.2		GIT_LINK/MakeDecision/GIT_PATH/DEFFILE			MakeDecision.apk	32986665	3	INFOPAGE
 PA detector for Android		3.1.2		GIT_LINK/EnchantIt/GIT_PATH/DEFFILE				EnchantIt.apk		40538912	3	INFOPAGE
-uNot for Android			6.5			GIT_LINK/UniNotifier/GIT_PATH/DEFFILE			UniNotifier.apk		33093496	3	INFOPAGE
+uNot for Android			6.5.5		GIT_LINK/UniNotifier/GIT_PATH/DEFFILE			UniNotifier.apk		33093496	3	INFOPAGE
 
 
 
