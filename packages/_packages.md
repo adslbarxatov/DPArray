@@ -10,7 +10,7 @@ Dates difference			3.3		DEFSTORAGE/DEFFILE		DatesDifference.dp			0x000307D0	0	IN
 File extensions manager		2.4		DEFSTORAGE/DEFFILE		FileExtensionsManager.dp	0x0005421D	0	INFOPAGE
 Font finder					3.3.3	DEFSTORAGE/DEFFILE		FontFinder.dp				0x00049FCD	0	INFOLINK
 Geomag data drawer			5.4.3	DEFSTORAGE/DEFFILE		GeomagDataDrawer.dp			0x00133499	1	INFOPAGE
-KassArray					4.4.9	DEFSTORAGE/DEFFILE		KassArray.dp				0x001255F4	1	INFOPAGE
+KassArray					4.5		DEFSTORAGE/DEFFILE		KassArray.dp				0x001253F2	1	INFOPAGE
 OS macros executor			3.3		DEFSTORAGE/DEFFILE		OSMacrosExecutor.dp			0x0005BD30	1	INFOLINK
 Screen shooter				2.3.2	DEFSTORAGE/DEFFILE		ScreenShooter.dp			0x0002FBBD	0	INFOLINK
 Sudoku solver				4.0.2	DEFSTORAGE/DEFFILE		SudokuSolver.dp				0x00031F99	0	INFOLINK
@@ -34,7 +34,7 @@ Thousand					2.1		DEFSTORAGE/DEFFILE		Thousand.dp					0x00038358	0	INFOPAGE
 Turtle						2.2		DEFSTORAGE/DEFFILE		Turtle.7z					14772534	1	INFOLINK
 
 #Android apps
-KassArray for Android		4.4.2		GIT_LINK/KassArray/GIT_PATH/DEFFILE				KassArray.apk		33407581	3	INFOPAGE
+KassArray for Android		4.5			GIT_LINK/KassArray/GIT_PATH/DEFFILE				KassArray.apk		33407581	3	INFOPAGE
 Make decision for Android	3.2.2		GIT_LINK/MakeDecision/GIT_PATH/DEFFILE			MakeDecision.apk	32986665	3	INFOPAGE
 PA detector for Android		3.1.2		GIT_LINK/EnchantIt/GIT_PATH/DEFFILE				EnchantIt.apk		40538912	3	INFOPAGE
 uNot for Android			6.5.5		GIT_LINK/UniNotifier/GIT_PATH/DEFFILE			UniNotifier.apk		33093496	3	INFOPAGE
