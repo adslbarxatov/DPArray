@@ -35,8 +35,8 @@ Turtle						2.2		DEFSTORAGE/DEFFILE		Turtle.7z					14772534	1	INFOLINK
 
 #Android apps
 KassArray for Android		4.5			GIT_LINK/KassArray/GIT_PATH/DEFFILE				KassArray.apk		33407581	3	INFOPAGE
-Make decision for Android	3.2.2		GIT_LINK/MakeDecision/GIT_PATH/DEFFILE			MakeDecision.apk	32986665	3	INFOPAGE
-PA detector for Android		3.1.2		GIT_LINK/EnchantIt/GIT_PATH/DEFFILE				EnchantIt.apk		40538912	3	INFOPAGE
+Make decision for Android	3.3			GIT_LINK/MakeDecision/GIT_PATH/DEFFILE			MakeDecision.apk	32986665	3	INFOPAGE
+PA detector for Android		3.2			GIT_LINK/EnchantIt/GIT_PATH/DEFFILE				EnchantIt.apk		41978572	3	INFOPAGE
 uNot for Android			6.5.5		GIT_LINK/UniNotifier/GIT_PATH/DEFFILE			UniNotifier.apk		33093496	3	INFOPAGE
 
 
