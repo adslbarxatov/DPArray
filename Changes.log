@@ -6,6 +6,7 @@ Version 6.2:
   packages that can be used to access to some important web-resources;
 • Packages for deployment now can be selected by left double-click; fast mode will be enabled
   automatically where applicable;
+• Some of internal mechanics have been improved;
 • Cumulative updates have been applied
 
 Version 6.1.5:

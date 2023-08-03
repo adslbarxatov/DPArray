@@ -232,7 +232,7 @@ namespace RD_AAOW
 			// Обработка текста
 			if (!string.IsNullOrWhiteSpace (Message))
 				{
-				Label01.Text = Message.Replace ("\n", "\r\n").Replace ("\r\r", "\r");
+				Label01.Text = Message.Replace ("\n", Localization.RN).Replace ("\r\r", "\r");
 				Label01.SelectionLength = 0;
 
 				switch (Type)
@@ -315,11 +315,11 @@ namespace RD_AAOW
 				case RDMessageTypes.Information_Center:
 				default:
 					SystemSounds.Asterisk.Play ();
-					this.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.DefaultBackground);
+					this.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.LightGrey);
 					break;
 
 				case RDMessageTypes.LanguageSelector:
-					this.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.DefaultBackground);
+					this.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.LightGrey);
 					break;
 
 				case RDMessageTypes.Question_Left:

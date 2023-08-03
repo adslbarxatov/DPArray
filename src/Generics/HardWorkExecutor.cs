@@ -65,7 +65,7 @@ namespace RD_AAOW
 			{
 			// Настройка контролов
 			InitializeComponent ();
-			this.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.DefaultBackground);
+			this.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.LightGrey);
 			StateLabel.ForeColor = AbortButton.ForeColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.DefaultText);
 			AbortButton.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.DefaultBackground);
 
@@ -76,18 +76,18 @@ namespace RD_AAOW
 
 			// Формирование стрелок
 			Point[] frame = new Point[] {
-					new Point (0, 0),
-					new Point (this.Width / 4, 0),
-					new Point (this.Width / 4 + progress.Height / 2, progress.Height / 2),
-					new Point (this.Width / 4, progress.Height),
-					new Point (0, progress.Height),
-					new Point (progress.Height / 2, progress.Height / 2)
-					};
+				new Point (0, 0),
+				new Point (this.Width / 4, 0),
+				new Point (this.Width / 4 + progress.Height / 2, progress.Height / 2),
+				new Point (this.Width / 4, progress.Height),
+				new Point (0, progress.Height),
+				new Point (progress.Height / 2, progress.Height / 2)
+				};
 
 			// Подготовка дескрипторов
 			SolidBrush green = new SolidBrush (RDGenerics.GetInterfaceColor (RDInterfaceColors.DefaultEmerald)),
 				grey = new SolidBrush (RDGenerics.GetInterfaceColor (RDInterfaceColors.MediumGrey)),
-				back = new SolidBrush (RDGenerics.GetInterfaceColor (RDInterfaceColors.DefaultBackground)),
+				back = new SolidBrush (RDGenerics.GetInterfaceColor (RDInterfaceColors.LightGrey)),
 				dark = new SolidBrush (RDGenerics.GetInterfaceColor (RDInterfaceColors.DarkGrey));
 
 			frameGreenGrey = new Bitmap (10 * this.Width / 4, progress.Height);

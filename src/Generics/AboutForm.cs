@@ -17,7 +17,6 @@ namespace RD_AAOW
 		private string updatesMessage = "", updatesMessageForText = "", description = "",
 			versionDescription = "", adpRevision = "";
 		private bool accepted = false;              // Флаг принятия Политики
-		/*private const string toolName = "DPArray";*/
 
 		/// <summary>
 		/// Ключ реестра, хранящий версию, на которой отображалась справка
@@ -63,14 +62,14 @@ namespace RD_AAOW
 
 		// Список подстановок при восстановлении спецсимволов из HTML-кода
 		private static string[][] htmlReplacements = new string[][] {
-			new string[] { "<p", "\r\n<" },
-			new string[] { "<li>", "\r\n• " },
-			new string[] { "</p>", "\r\n" },
-			new string[] { "<br", "\r\n<" },
+			new string[] { "<p", Localization.RN + "<" },
+			new string[] { "<li>", Localization.RN + "• " },
+			new string[] { "</p>", Localization.RN },
+			new string[] { "<br", Localization.RN + "<" },
 
-			new string[] { "<h1", "\r\n<" },
-			new string[] { "</h1>", "\r\n" },
-			new string[] { "<h3", "\r\n<" },
+			new string[] { "<h1", Localization.RN + "<" },
+			new string[] { "</h1>", Localization.RN },
+			new string[] { "<h3", Localization.RN + "<" },
 
 			new string[] { "&gt;", "›" },
 			new string[] { "&lt;", "‹" },
@@ -478,7 +477,7 @@ namespace RD_AAOW
 				return;
 #else
 				downloadLink = RDGenerics.DPArrayPackageLink;
-				packagePath = RDGenerics.GetDPArraySettingsValue (/*toolName*/ RDGenerics.DPArrayName);
+				packagePath = RDGenerics.GetDPArraySettingsValue (RDGenerics.DPArrayName);
 
 				if (string.IsNullOrWhiteSpace (packagePath))    // Такое может быть, если DPArray ни разу не обновлялся
 					{
@@ -608,7 +607,7 @@ namespace RD_AAOW
 				goto policy;
 
 			versionDescription = html.Substring (i, j - i);
-			versionDescription = "\r\n" + ApplyReplacements (versionDescription);
+			versionDescription = Localization.RN + ApplyReplacements (versionDescription);
 
 			// Отображение результата
 			if (ProgramDescription.AssemblyTitle.EndsWith (version))
@@ -684,7 +683,7 @@ policy:
 			// Обновление состояния
 			if (!desciptionHasBeenUpdated)
 				{
-				DescriptionBox.Text = updatesMessageForText + "\r\n\r\n" + description;
+				DescriptionBox.Text = updatesMessageForText + Localization.RNRN + description;
 				desciptionHasBeenUpdated = true;
 				}
 

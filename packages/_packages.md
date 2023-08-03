@@ -1,7 +1,7 @@
 ```
 Packages, available for download:
 
-DPArray						6.1.5	DEFSTORAGE/DPArray.dp	DPArray.dp					0x000A0C7D	0	INFOPAGE
+DPArray						6.2		DEFSTORAGE/DPArray.dp	DPArray.dp					0x0009ED37	0	INFOPAGE
 
 #Apps
 Batch image convertor		3.4		DEFSTORAGE/DEFFILE		BatchImageConvertor.dp		0x00058F5E	1	INFOLINK
@@ -48,6 +48,6 @@ KassArray (AppGallery)		4.5			-	-	0	7	https://url.cloud.huawei.com/kOnu2dYlNu?sh
 #ALERT: Important fix applied to mods ESHQ and ES:RM.||
 #ALERT: If you had problems with FPS there, try it out
 
-Flags: 1 = disallow the FD, 2 = disable the VC
+Flags: b0 = disallow the FD, b1 = disable the VC, b2 = dissallow all D
 
 ```
