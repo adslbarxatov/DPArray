@@ -1,6 +1,14 @@
 DPArray: changes log
 
-Version 6.5:
+Version 6.2:
+• App is now able to cache the list of descriptions for available packages;
+• App is now able to display view-only projects in the main list: there will be non-deployable
+  packages that can be used to access to some important web-resources;
+• Packages for deployment now can be selected by left double-click; fast mode will be enabled
+  automatically where applicable;
+• Cumulative updates have been applied
+
+Version 6.1.5:
 • Implemented the access rights checker: it will test the availability of the Windows registry
   and the application placement for writing and notify user about possible problems;
 • Updated the storage method of text tips;

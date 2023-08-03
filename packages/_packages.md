@@ -34,10 +34,14 @@ Thousand					2.1		DEFSTORAGE/DEFFILE		Thousand.dp					0x00038358	0	INFOPAGE
 Turtle						2.2		DEFSTORAGE/DEFFILE		Turtle.7z					14772534	1	INFOLINK
 
 #Android apps
-KassArray for Android		4.5			GIT_LINK/KassArray/GIT_PATH/DEFFILE				KassArray.apk		33407581	3	INFOPAGE
-Make decision for Android	3.3			GIT_LINK/MakeDecision/GIT_PATH/DEFFILE			MakeDecision.apk	32986665	3	INFOPAGE
-PA detector for Android		3.2			GIT_LINK/EnchantIt/GIT_PATH/DEFFILE				EnchantIt.apk		41978572	3	INFOPAGE
-uNot for Android			6.6			GIT_LINK/UniNotifier/GIT_PATH/DEFFILE			UniNotifier.apk		34939156	3	INFOPAGE
+KassArray (APK)				4.5			GIT_LINK/KassArray/GIT_PATH/DEFFILE				KassArray.apk		33407581	3	INFOPAGE
+Make decision (APK)			3.3			GIT_LINK/MakeDecision/GIT_PATH/DEFFILE			MakeDecision.apk	32986665	3	INFOPAGE
+PA detector (APK)			3.2			GIT_LINK/EnchantIt/GIT_PATH/DEFFILE				EnchantIt.apk		41978572	3	INFOPAGE
+uNot (APK)					6.6			GIT_LINK/UniNotifier/GIT_PATH/DEFFILE			UniNotifier.apk		34939156	3	INFOPAGE
+
+KassArray (Google play)		4.5			-	-	0	7	https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT
+KassArray (GetApps)			4.5			-	-	0	7	https://global.app.mi.com/details?id=texttokkt.xiaomi
+KassArray (AppGallery)		4.5			-	-	0	7	https://url.cloud.huawei.com/kOnu2dYlNu?shareTo=qrcode
 
 
 
