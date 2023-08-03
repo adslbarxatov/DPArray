@@ -35,13 +35,24 @@ Turtle						2.2		DEFSTORAGE/DEFFILE		Turtle.7z					14772534	1	INFOLINK
 
 #Android apps
 KassArray (APK)				4.5			GIT_LINK/KassArray/GIT_PATH/DEFFILE				KassArray.apk		33407581	3	INFOPAGE
-Make decision (APK)			3.3			GIT_LINK/MakeDecision/GIT_PATH/DEFFILE			MakeDecision.apk	32986665	3	INFOPAGE
-PA detector (APK)			3.2			GIT_LINK/EnchantIt/GIT_PATH/DEFFILE				EnchantIt.apk		41978572	3	INFOPAGE
-uNot (APK)					6.6			GIT_LINK/UniNotifier/GIT_PATH/DEFFILE			UniNotifier.apk		34939156	3	INFOPAGE
-
 KassArray (Google play)		4.5			-	-	0	7	https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT
 KassArray (GetApps)			4.5			-	-	0	7	https://global.app.mi.com/details?id=texttokkt.xiaomi
 KassArray (AppGallery)		4.5			-	-	0	7	https://url.cloud.huawei.com/kOnu2dYlNu?shareTo=qrcode
+
+Make decision (APK)			3.3			GIT_LINK/MakeDecision/GIT_PATH/DEFFILE			MakeDecision.apk	32986665	3	INFOPAGE
+Make decision (Google play)	3.3			-	-	0	7	https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision
+Make decision (GetApps)		3.3			-	-	0	7	https://global.app.mi.com/details?id=makedecision.xiaomi
+Make decision (AppGallery)	3.3			-	-	0	7	https://url.cloud.huawei.com/kOnqdCKeek?shareTo=qrcode
+
+PA detector (APK)			3.2			GIT_LINK/EnchantIt/GIT_PATH/DEFFILE				EnchantIt.apk		41978572	3	INFOPAGE
+PA detector (Google play)	3.2			-	-	0	7	https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) &#x3000;
+PA detector (GetApps)		3.2			-	-	0	7	https://global.app.mi.com/details?id=enchantit.xiaomi) &#x3000;
+PA detector (AppGallery)	3.2			-	-	0	7	https://url.cloud.huawei.com/kOnbnDnG12?shareTo=qrcode) &#x3000;
+
+uNot (APK)					6.6			GIT_LINK/UniNotifier/GIT_PATH/DEFFILE			UniNotifier.apk		34939156	3	INFOPAGE
+uNot (Google play)			6.6			-	-	0	7	https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) &#x3000;
+uNot (GetApps)				6.6			-	-	0	7	https://global.app.mi.com/details?id=uninotifier.xiaomi) &#x3000;
+uNot (AppGallery)			6.6			-	-	0	7	https://url.cloud.huawei.com/kOns67WJJ6?shareTo=qrcode) &#x3000;
 
 
 
