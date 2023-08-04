@@ -45,19 +45,19 @@ Make decision (GetApps)		3.3			-	-	0	7	https://global.app.mi.com/details?id=make
 Make decision (AppGallery)	3.3			-	-	0	7	https://url.cloud.huawei.com/kOnqdCKeek?shareTo=qrcode
 
 PA detector (APK)			3.2			GIT_LINK/EnchantIt/GIT_PATH/DEFFILE				EnchantIt.apk		41978572	3	INFOPAGE
-PA detector (Google play)	3.2			-	-	0	7	https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) &#x3000;
-PA detector (GetApps)		3.2			-	-	0	7	https://global.app.mi.com/details?id=enchantit.xiaomi) &#x3000;
-PA detector (AppGallery)	3.2			-	-	0	7	https://url.cloud.huawei.com/kOnbnDnG12?shareTo=qrcode) &#x3000;
+PA detector (Google play)	3.2			-	-	0	7	https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt
+PA detector (GetApps)		3.2			-	-	0	7	https://global.app.mi.com/details?id=enchantit.xiaomi
+PA detector (AppGallery)	3.2			-	-	0	7	https://url.cloud.huawei.com/kOnbnDnG12?shareTo=qrcode
 
 uNot (APK)					6.6			GIT_LINK/UniNotifier/GIT_PATH/DEFFILE			UniNotifier.apk		34939156	3	INFOPAGE
-uNot (Google play)			6.6			-	-	0	7	https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) &#x3000;
-uNot (GetApps)				6.6			-	-	0	7	https://global.app.mi.com/details?id=uninotifier.xiaomi) &#x3000;
-uNot (AppGallery)			6.6			-	-	0	7	https://url.cloud.huawei.com/kOns67WJJ6?shareTo=qrcode) &#x3000;
+uNot (Google play)			6.6			-	-	0	7	https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier
+uNot (GetApps)				6.6			-	-	0	7	https://global.app.mi.com/details?id=uninotifier.xiaomi
+uNot (AppGallery)			6.6			-	-	0	7	https://url.cloud.huawei.com/kOns67WJJ6?shareTo=qrcode
 
 
 
-#ALERT: Important fix applied to mods ESHQ and ES:RM.||
-#ALERT: If you had problems with FPS there, try it out
+#ALERT: DPArray has been updated:
+#ALERT: check our new Android apps section!
 
 Flags: b0 = disallow the FD, b1 = disable the VC, b2 = dissallow all D
 
