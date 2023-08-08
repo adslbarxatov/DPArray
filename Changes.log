@@ -1,5 +1,10 @@
 DPArray: changes log
 
+Version 6.2.2:
+• App is now able to cache descriptions for packages. After the first connection it will not require
+  their re-downloading until user’s request (by clearing cache) or changing of an interface language;
+• Cumulative updates have been applied
+
 Version 6.2:
 • App is now able to cache the list of descriptions for available packages;
 • App is now able to display view-only projects in the main list: there will be non-deployable

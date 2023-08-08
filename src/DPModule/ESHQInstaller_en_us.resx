@@ -323,7 +323,9 @@ If app starts properly, you donâ€™t need to do anything here. Otherwise, press â
     <value>Clear cac&amp;he</value>
   </data>
   <data name="ClearCacheMessage" xml:space="preserve">
-    <value>All previously downloaded package files will be removed. Installed apps will not be affected. Continue?</value>
+    <value>All previously downloaded packages will be removed. Deployed apps will not be affected. Continue?
+
+Do you want to save a cache of package descriptions? When deleted, they will be reloaded at the next start</value>
   </data>
   <data name="UninstScriptNotCreated" xml:space="preserve">
     <value>Failed to create a script to remove the product. The deployment package will be required for product uninstallation</value>
