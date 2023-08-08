@@ -13,7 +13,7 @@ Geomag data drawer			5.4.3	DEFSTORAGE/DEFFILE		GeomagDataDrawer.dp			0x00133499	
 KassArray					4.5		DEFSTORAGE/DEFFILE		KassArray.dp				0x001253F2	1	INFOPAGE
 OS macros executor			3.3		DEFSTORAGE/DEFFILE		OSMacrosExecutor.dp			0x0005BD30	1	INFOLINK
 Screen shooter				2.3.2	DEFSTORAGE/DEFFILE		ScreenShooter.dp			0x0002FBBD	0	INFOLINK
-Sudoku solver				4.0.2	DEFSTORAGE/DEFFILE		SudokuSolver.dp				0x00031F99	0	INFOLINK
+Sudoku solver				4.0.5	DEFSTORAGE/DEFFILE		SudokuSolver.dp				0x00033399	0	INFOLINK
 uNot						6.6		DEFSTORAGE/DEFFILE		UniNotifier.dp				0x00055BB5	0	INFOPAGE
 Vice city toolset			4.3		DEFSTORAGE/DEFFILE		ViceCityToolset.dp			0x0019F9AF	1	INFOPAGE
 
