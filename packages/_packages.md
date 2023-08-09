@@ -9,7 +9,7 @@ ConcurrentDraw				3.3		DEFSTORAGE/DEFFILE		ConcurrentDraw.dp			0x000A0CE6	1	INFO
 Dates difference			3.3		DEFSTORAGE/DEFFILE		DatesDifference.dp			0x000307D0	0	INFOLINK
 File extensions manager		2.4		DEFSTORAGE/DEFFILE		FileExtensionsManager.dp	0x0005421D	0	INFOPAGE
 Font finder					3.3.3	DEFSTORAGE/DEFFILE		FontFinder.dp				0x00049FCD	0	INFOLINK
-Geomag data drawer			5.4.3	DEFSTORAGE/DEFFILE		GeomagDataDrawer.dp			0x00133499	1	INFOPAGE
+Geomag data drawer			5.4.5	DEFSTORAGE/DEFFILE		GeomagDataDrawer.dp			0x00133299	1	INFOPAGE
 KassArray					4.5		DEFSTORAGE/DEFFILE		KassArray.dp				0x001253F2	1	INFOPAGE
 OS macros executor			3.3		DEFSTORAGE/DEFFILE		OSMacrosExecutor.dp			0x0005BD30	1	INFOLINK
 Screen shooter				2.3.2	DEFSTORAGE/DEFFILE		ScreenShooter.dp			0x0002FBBD	0	INFOLINK
