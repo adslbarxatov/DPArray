@@ -399,7 +399,7 @@ ES: Randomaze – генератор карт для одноимённого м
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/OneHundredOne/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://OneHundredOne) &#x3000;
-:black_large_square: [На Microsoft Store](ms-windows-store://pdp/?productid=) &#x3000;
+:black_large_square: [На Microsoft Store](ms-windows-store://pdp/?productid=9NHVH857DV1S) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/OneHundredOne/releases/latest)
 
 Это приложение имитирует игру «Сто одно» для двух игроков
@@ -411,7 +411,7 @@ ES: Randomaze – генератор карт для одноимённого м
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/Thousand/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Thousand) &#x3000;
-:black_large_square: [На Microsoft Store](ms-windows-store://pdp/?productid=) &#x3000;
+:black_large_square: [На Microsoft Store](ms-windows-store://pdp/?productid=9NRQ4LQZNKKG) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/Thousand/releases/latest)
 
 Это приложение имитирует игру «Тысяча» для трёх игроков

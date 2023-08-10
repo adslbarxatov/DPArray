@@ -352,7 +352,7 @@ A simple tool for solving sudoku
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/OneHundredOne) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://OneHundredOne) &#x3000;
-:black_large_square: [Get on Microsoft Store](ms-windows-store://pdp/?productid=) &#x3000;
+:black_large_square: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NHVH857DV1S) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/OneHundredOne/releases/latest)
 
 This app imitates the “One hundred and one” game for two players
@@ -364,7 +364,7 @@ This app imitates the “One hundred and one” game for two players
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/Thousand) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://Thousand) &#x3000;
-:black_large_square: [Get on Microsoft Store](ms-windows-store://pdp/?productid=) &#x3000;
+:black_large_square: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NRQ4LQZNKKG) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/Thousand/releases/latest)
 
 This app imitates the “Thousand” game for three players
