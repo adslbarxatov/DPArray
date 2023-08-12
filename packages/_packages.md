@@ -18,7 +18,7 @@ Geomag data drawer (MS Store)		5.4.5	-	-	0	7	MS_STORE/9PG19ZZ3NH47
 KassArray					4.5.2	DEFSTORAGE/DEFFILE		KassArray.dp				0x001253F4	1	INFOPAGE
 KassArray (MS Store)				4.5.2	-	-	0	7	MS_STORE/9ND98F4C4Q60
 
-OS macros executor			3.3		DEFSTORAGE/DEFFILE		OSMacrosExecutor.dp			0x0005BD30	1	INFOLINK
+OS macros executor			3.3.5	DEFSTORAGE/DEFFILE		OSMacrosExecutor.dp			0x0005CF32	1	INFOLINK
 Screen shooter				2.3.5	DEFSTORAGE/DEFFILE		ScreenShooter.dp			0x000311BD	0	INFOLINK
 Sudoku solver				4.0.7	DEFSTORAGE/DEFFILE		SudokuSolver.dp				0x00033399	0	INFOLINK
 
@@ -39,13 +39,13 @@ ES: Randomaze, bkwd. compat.	4.13	MODSTORAGE/250596?MOD_REFmods%2Feshq	ESRM_bkwd
 Crazy cheater’s mod				1.3		MODSTORAGE/240088?MOD_REFmods%2Fccm		CCM.7z				165319082	2	MODSHOST/ccm	GTAViceCity.1.3.dp
 
 #Minigames
-One hundred and one			2.1.5	DEFSTORAGE/DEFFILE		OneHundredOne.dp			0x0003518C	0	INFOPAGE
+One hundred and one			2.1.7	DEFSTORAGE/DEFFILE		OneHundredOne.dp			0x0003518C	0	INFOPAGE
 One hundred and one (MS Store)		2.1.5	-	-	0	7	MS_STORE/9NHVH857DV1S
 
 Races						2.2		DEFSTORAGE/DEFFILE		Races.7z					14686008	1	INFOLINK
 Snake						2.2		DEFSTORAGE/DEFFILE		Snake.7z					16124395	1	INFOLINK
 
-Thousand					2.1.5	DEFSTORAGE/DEFFILE		Thousand.dp					0x0003795A	0	INFOPAGE
+Thousand					2.1.7	DEFSTORAGE/DEFFILE		Thousand.dp					0x0003795A	0	INFOPAGE
 Thousand (MS Store)					2.1.5	-	-	0	7	MS_STORE/9NRQ4LQZNKKG
 
 Turtle						2.2		DEFSTORAGE/DEFFILE		Turtle.7z					14772534	1	INFOLINK
