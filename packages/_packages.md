@@ -7,7 +7,7 @@ DPArray						6.2.4	DEFSTORAGE/DPArray.dp	DPArray.dp					0x000A0E7D	0	INFOPAGE
 Batch image convertor		3.4		DEFSTORAGE/DEFFILE		BatchImageConvertor.dp		0x00058F5E	1	INFOLINK
 ConcurrentDraw				3.3		DEFSTORAGE/DEFFILE		ConcurrentDraw.dp			0x000A0CE6	1	INFOLINK
 Dates difference			3.3.5	DEFSTORAGE/DEFFILE		DatesDifference.dp			0x00031DD2	0	INFOLINK
-File extensions manager		2.4		DEFSTORAGE/DEFFILE		FileExtensionsManager.dp	0x0005421D	0	INFOPAGE
+File extensions manager		2.4.5	DEFSTORAGE/DEFFILE		FileExtensionsManager.dp	0x00055A1F	0	INFOPAGE
 
 Font finder					3.3.5	DEFSTORAGE/DEFFILE		FontFinder.dp				0x00049DCD	0	INFOPAGE
 Font finder (MS Store)				3.3.5	-	-	0	7	MS_STORE/9MXDR4BXP8R4
