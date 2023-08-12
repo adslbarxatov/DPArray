@@ -25,7 +25,7 @@ Sudoku solver				4.0.7	DEFSTORAGE/DEFFILE		SudokuSolver.dp				0x00033399	0	INFOL
 uNot						6.6.2	DEFSTORAGE/DEFFILE		UniNotifier.dp				0x00055DB7	0	INFOPAGE
 uNot (MS Store)						6.6.2	-	-	0	7	MS_STORE/9NVZ51RL54K4
 
-Vice city toolset			4.3		DEFSTORAGE/DEFFILE		ViceCityToolset.dp			0x0019F9AF	1	INFOPAGE
+Vice city toolset			4.3.5	DEFSTORAGE/DEFFILE		ViceCityToolset.dp			0x001A0BB1	1	INFOPAGE
 
 #Mods
 ESHQ							13.5	MODSTORAGE/250593?MOD_REFmods%2Feshq	ESHQ_setup.7z		232218407	3	MODSHOST/eshq
