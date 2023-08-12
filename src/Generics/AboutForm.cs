@@ -16,7 +16,8 @@ namespace RD_AAOW
 		private string projectLink, updatesLink, userManualLink;
 		private string updatesMessage = "", updatesMessageForText = "", description = "",
 			versionDescription = "", adpRevision = "";
-		private bool accepted = false;              // Флаг принятия Политики
+		private bool policyAccepted = false;
+		private bool startupMode = false;
 
 		/// <summary>
 		/// Ключ реестра, хранящий версию, на которой отображалась справка
@@ -173,21 +174,18 @@ namespace RD_AAOW
 				}
 
 			// Запрос настроек
-			string helpShownAt = "";
-			if (StartupMode || AcceptMode)
-				{
-				adpRevision = RDGenerics.GetDPArraySettingsValue (ADPRevisionKey);
-				helpShownAt = RDGenerics.GetAppSettingsValue (LastShownVersionKey);
+			adpRevision = RDGenerics.GetDPArraySettingsValue (ADPRevisionKey);
+			string helpShownAt = RDGenerics.GetAppSettingsValue (LastShownVersionKey);
 
-				// Если поле пустое, устанавливается минимальное значение
-				if (adpRevision == "")
-					{
-					adpRevision = "rev. 10!";
-					RDGenerics.SetDPArraySettingsValue (ADPRevisionKey, adpRevision);
-					}
+			// Если поле пустое, устанавливается минимальное значение
+			if (adpRevision == "")
+				{
+				adpRevision = "rev. 10!";
+				RDGenerics.SetDPArraySettingsValue (ADPRevisionKey, adpRevision);
 				}
 
 			// Контроль
+			startupMode = StartupMode;
 			if (StartupMode && (helpShownAt == ProgramDescription.AssemblyVersion) ||   // Справка уже отображалась
 				AcceptMode && (!adpRevision.EndsWith ("!")))                            // Политика уже принята
 				return 1;
@@ -279,10 +277,9 @@ namespace RD_AAOW
 					{
 					DescriptionBox.Text = html;
 
-					int left = html.IndexOf ("rev");
-					int right = html.IndexOf ("\n", left);
-					if ((left >= 0) && (right >= 0))
-						adpRevision = html.Substring (left, right - left);
+					string adpRev = ExtractPolicyRevision (html);
+					if (!string.IsNullOrWhiteSpace (adpRev))
+						adpRevision = adpRev;
 					}
 				}
 
@@ -312,49 +309,62 @@ namespace RD_AAOW
 
 			// В случае невозможности загрузки Политики признак необходимости принятия до этого момента
 			// не удаляется из строки версии. Поэтому требуется страховка
-			if (AcceptMode && accepted)
+			if (AcceptMode && policyAccepted)
 				RDGenerics.SetDPArraySettingsValue (ADPRevisionKey, adpRevision.Replace ("!", ""));
 
 			// Завершение
-			return accepted ? 0 : -1;
+			return policyAccepted ? 0 : -1;
 			}
 
 		// Метод получает Политику разработки
 		private void PolicyLoader (object sender, DoWorkEventArgs e)
 			{
+			e.Result = GetPolicy ();
+			}
+
+		// Метод загружает текст Политики
+		private string GetPolicy ()
+			{
 			string html = RDGenerics.GetHTML (RDGenerics.ADPLink);
 			int textLeft, textRight;
 
-			if (((textLeft = html.IndexOf ("code\">")) >= 0) &&
-				((textRight = html.IndexOf ("<footer", textLeft)) >= 0))
+			if (((textLeft = html.IndexOf ("code\">")) < 0) ||
+				((textRight = html.IndexOf ("<footer", textLeft)) < 0))
 				{
-				// Обрезка
-				textLeft += 6;
-				html = html.Substring (textLeft, textRight - textLeft);
-
-				// Формирование текста
-				html = ApplyReplacements (html);
-
-				while (html.Contains ("\x0A\x0A"))
-					html = html.Replace ("\x0A\x0A", "\x0A");   // Лишние Unix-абзацы
-				html = html.Replace ("\xA0\x0D", "\x0D");       // Скрытые неразрывные пробелы
-				html = html.Replace ("\x0A\x20", "\x0A     ");  // Отступы в строках Положений
-
-				html = html.Replace ("\x0D\x0A", "\x01");       // Устранение оставшихся задвоений Unix-абзацев
-				html = html.Replace ("\x0A", "\x20");
-				html = html.Replace ("\x01", "\x0D\x0A");
-				html = html.Replace (" \x0D\x0A", "\x0D\x0A");  // Устранение оставшихся лишних пробелов
-
-				html = html.Substring (1, html.Length - 48);    // Финальная обрезка
-				}
-			else
-				{
-				e.Result = "";
-				return;
+				return "";
 				}
 
-			e.Result = html;
-			return;
+			// Обрезка
+			textLeft += 6;
+			html = html.Substring (textLeft, textRight - textLeft);
+
+			// Формирование текста
+			html = ApplyReplacements (html);
+
+			while (html.Contains ("\x0A\x0A"))
+				html = html.Replace ("\x0A\x0A", "\x0A");   // Лишние Unix-абзацы
+			html = html.Replace ("\xA0\x0D", "\x0D");       // Скрытые неразрывные пробелы
+			html = html.Replace ("\x0A\x20", "\x0A     ");  // Отступы в строках Положений
+
+			html = html.Replace ("\x0D\x0A", "\x01");       // Устранение оставшихся задвоений Unix-абзацев
+			html = html.Replace ("\x0A", "\x20");
+			html = html.Replace ("\x01", "\x0D\x0A");
+			html = html.Replace (" \x0D\x0A", "\x0D\x0A");  // Устранение оставшихся лишних пробелов
+
+			html = html.Substring (1, html.Length - 48);    // Финальная обрезка
+			return html;
+			}
+
+		// Метод извлекает из загруженного текста Политики её версию
+		private string ExtractPolicyRevision (string LoadedPolicy)
+			{
+			int left = LoadedPolicy.IndexOf ("rev");
+			int right = LoadedPolicy.IndexOf ("\n", left);
+
+			if ((left >= 0) && (right >= 0))
+				return LoadedPolicy.Substring (left, right - left);
+
+			return "";
 			}
 
 		/// <summary>
@@ -374,7 +384,7 @@ namespace RD_AAOW
 		// Закрытие окна
 		private void ExitButton_Click (object sender, EventArgs e)
 			{
-			accepted = true;
+			policyAccepted = true;
 			UpdatesTimer.Enabled = false;
 			this.Close ();
 			}
@@ -626,20 +636,11 @@ namespace RD_AAOW
 
 // Получение обновлений Политики (ошибки игнорируются)
 policy:
-			html = RDGenerics.GetHTML (RDGenerics.ADPLink);
-			if (((i = html.IndexOf ("<title")) >= 0) && ((j = html.IndexOf ("</title", i)) >= 0))
+			if (startupMode)
 				{
-				// Обрезка
-				html = html.Substring (i, j - i);
-
-				if ((i = html.IndexOf ("rev")) >= 0)
-					{
-					html = html.Substring (i);
-
-					// Сброс версии для вызова Политики при следующем старте
-					if (!html.StartsWith (adpRevision))
-						RDGenerics.SetDPArraySettingsValue (ADPRevisionKey, html + "!");
-					}
+				string adpRev = ExtractPolicyRevision (GetPolicy ());
+				if (!string.IsNullOrWhiteSpace (adpRev) && (adpRev != adpRevision))
+					RDGenerics.SetDPArraySettingsValue (ADPRevisionKey, adpRev + "!");
 				}
 
 			// Не было проблем с загрузкой страницы
@@ -725,7 +726,7 @@ policy:
 		// Непринятие Политики
 		private void MisacceptButton_Click (object sender, EventArgs e)
 			{
-			accepted = false;
+			policyAccepted = false;
 			UpdatesTimer.Enabled = false;
 			this.Close ();
 			}
