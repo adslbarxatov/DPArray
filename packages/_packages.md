@@ -9,18 +9,18 @@ ConcurrentDraw				3.3		DEFSTORAGE/DEFFILE		ConcurrentDraw.dp			0x000A0CE6	1	INFO
 Dates difference			3.3.5	DEFSTORAGE/DEFFILE		DatesDifference.dp			0x00031DD2	0	INFOLINK
 File extensions manager		2.4.5	DEFSTORAGE/DEFFILE		FileExtensionsManager.dp	0x00055A1F	0	INFOPAGE
 
-Font finder					3.3.5	DEFSTORAGE/DEFFILE		FontFinder.dp				0x00049DCD	0	INFOPAGE
+Font finder					3.3.7	DEFSTORAGE/DEFFILE		FontFinder.dp				0x00047BCD	0	INFOPAGE
 Font finder (MS Store)				3.3.5	-	-	0	7	MS_STORE/9MXDR4BXP8R4
 
-Geomag data drawer			5.4.5	DEFSTORAGE/DEFFILE		GeomagDataDrawer.dp			0x00133299	1	INFOPAGE
+Geomag data drawer			5.4.7	DEFSTORAGE/DEFFILE		GeomagDataDrawer.dp			0x00133499	1	INFOPAGE
 Geomag data drawer (MS Store)		5.4.5	-	-	0	7	MS_STORE/9PG19ZZ3NH47
 
-KassArray					4.5		DEFSTORAGE/DEFFILE		KassArray.dp				0x001253F2	1	INFOPAGE
+KassArray					4.5.2	DEFSTORAGE/DEFFILE		KassArray.dp				0x001253F4	1	INFOPAGE
 KassArray (MS Store)				4.5		-	-	0	7	MS_STORE/9ND98F4C4Q60
 
 OS macros executor			3.3		DEFSTORAGE/DEFFILE		OSMacrosExecutor.dp			0x0005BD30	1	INFOLINK
-Screen shooter				2.3.2	DEFSTORAGE/DEFFILE		ScreenShooter.dp			0x0002FBBD	0	INFOLINK
-Sudoku solver				4.0.5	DEFSTORAGE/DEFFILE		SudokuSolver.dp				0x00033399	0	INFOLINK
+Screen shooter				2.3.5	DEFSTORAGE/DEFFILE		ScreenShooter.dp			0x000311BD	0	INFOLINK
+Sudoku solver				4.0.7	DEFSTORAGE/DEFFILE		SudokuSolver.dp				0x00033399	0	INFOLINK
 
 uNot						6.6		DEFSTORAGE/DEFFILE		UniNotifier.dp				0x00055BB5	0	INFOPAGE
 uNot (MS Store)						6.6		-	-	0	7	MS_STORE/9NVZ51RL54K4
