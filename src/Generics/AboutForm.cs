@@ -109,9 +109,6 @@ namespace RD_AAOW
 			this.AcceptButton = ExitButton;
 			this.CancelButton = MisacceptButton;
 
-			/*string UserManualLink,
-			Bitmap AppLogo*/
-
 			// Получение параметров
 			if (string.IsNullOrWhiteSpace (ProgramDescription.AssemblyReferenceMaterials[0]))
 				userManualLink = "";
@@ -125,17 +122,12 @@ namespace RD_AAOW
 			else
 				userVideomanualLink = RDGenerics.StaticYTLink + ProgramDescription.AssemblyReferenceMaterials[1];
 
-			/*userManualLink = (UserManualLink == null) ? "" :
-			UserManualLink;*/
-
 			projectLink = RDGenerics.DefaultGitLink + ProgramDescription.AssemblyMainName;
 			updatesLink = RDGenerics.DefaultGitLink + ProgramDescription.AssemblyMainName +
 				RDGenerics.GitUpdatesSublink;
 
 			// Загрузка окружения
 			AboutLabel.Text = RDGenerics.AppAboutLabelText;
-			/*if (AppLogo != null)
-				IconBox.BackgroundImage = AppLogo;*/
 			IconBox.BackgroundImage = (Bitmap)ProgramDescription.AssemblyResources[0].GetObject ("LogoIcon");
 
 			AboutForm_Resize (null, null);
@@ -151,8 +143,6 @@ namespace RD_AAOW
 		/// другое значение, если окно справки было отображено</returns>
 		public int ShowAbout (bool StartupMode)
 			{
-			/*string Description,
-			description = Description;*/
 			if (string.IsNullOrWhiteSpace (ProgramDescription.AssemblyReferenceMaterials[2]) ||
 				(ProgramDescription.AssemblyReferenceMaterials[2] == DefaultRefMaterialAlias))
 				description = Localization.GetText ("HelpText");
@@ -494,14 +484,14 @@ namespace RD_AAOW
 				switch (RDGenerics.MessageBox (RDMessageTypes.Question_Left,
 					Localization.GetDefaultText (LzDefaultTextValues.Message_DPArrayIsntInstalled),
 					Localization.GetDefaultText (LzDefaultTextValues.Button_Yes),
-					Localization.GetDefaultText (LzDefaultTextValues.Button_Video),
+					Localization.GetDefaultText (LzDefaultTextValues.Button_Guide),
 					Localization.GetDefaultText (LzDefaultTextValues.Button_Cancel)))
 					{
 					case RDMessageButtons.ButtonThree:
 						return;
 
 					case RDMessageButtons.ButtonTwo:
-						RDGenerics.RunURL (RDGenerics.DPArrayUserManualLink);
+						RDGenerics.RunURL (RDGenerics.DPArrayLink);
 						return;
 					}
 

@@ -1,4 +1,4 @@
-_Changes for v 6.2.5_:
+_Changes for v 6.2.5_: 
 - Added an obvious URL for videoguide and for text guide;
 - Updated the list of macros for the packages list;
 - Fixed some issues with the policy loader where it would sometimes ask for multiple confirmations;
