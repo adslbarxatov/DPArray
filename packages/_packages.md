@@ -42,13 +42,13 @@ Crazy cheater’s mod				1.3		MODSTORAGE/240088?MOD_REFmods%2Fccm		CCM.7z				165
 One hundred and one			2.1.7	DEFSTORAGE/DEFFILE		OneHundredOne.dp			0x0003518C	0	INFOPAGE
 One hundred and one (MS Store)		2.1.5	-	-	0	7	MS_STORE/9NHVH857DV1S
 
-Races						2.2		DEFSTORAGE/DEFFILE		Races.7z					14686008	1	INFOLINK
-Snake						2.2		DEFSTORAGE/DEFFILE		Snake.7z					16124395	1	INFOLINK
+Races						2.2.5	DEFSTORAGE/DEFFILE		Races.7z					14691127	1	INFOLINK
+Snake						2.2.5	DEFSTORAGE/DEFFILE		Snake.7z					16128209	1	INFOLINK
 
 Thousand					2.1.7	DEFSTORAGE/DEFFILE		Thousand.dp					0x0003795A	0	INFOPAGE
 Thousand (MS Store)					2.1.5	-	-	0	7	MS_STORE/9NRQ4LQZNKKG
 
-Turtle						2.2		DEFSTORAGE/DEFFILE		Turtle.7z					14772534	1	INFOLINK
+Turtle						2.2.5	DEFSTORAGE/DEFFILE		Turtle.7z					14771977	1	INFOLINK
 
 #Android apps
 KassArray (APK)				4.5			GIT_LINK/KassArray/GIT_PATH/DEFFILE				KassArray.apk		33407581	3	INFOPAGE
