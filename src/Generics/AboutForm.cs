@@ -13,11 +13,13 @@ namespace RD_AAOW
 	public partial class AboutForm: Form
 		{
 		// Переменные
-		private string projectLink, updatesLink, userManualLink;
+		private string projectLink, updatesLink, userManualLink, userVideomanualLink;
 		private string updatesMessage = "", updatesMessageForText = "", description = "",
 			versionDescription = "", adpRevision = "";
 		private bool policyAccepted = false;
 		private bool startupMode = false;
+		private bool desciptionHasBeenUpdated = false;
+		private const string newPolicyAlias = "!";
 
 		/// <summary>
 		/// Ключ реестра, хранящий версию, на которой отображалась справка
@@ -82,6 +84,7 @@ namespace RD_AAOW
 		private enum LinkTypes
 			{
 			UserManual,
+			UserVideomanual,
 			ProjectPage,
 			ADP,
 			AskDeveloper,
@@ -92,20 +95,38 @@ namespace RD_AAOW
 		private List<LinkTypes> linkTypes = new List<LinkTypes> ();
 
 		/// <summary>
+		/// Возвращает псевдоним для справочного материала по умолчанию
+		/// </summary>
+		public const string DefaultRefMaterialAlias = "D";
+
+		/// <summary>
 		/// Конструктор. Инициализирует форму
 		/// </summary>
-		/// <param name="UserManualLink">Ссылка на страницу руководства пользователя;
-		/// кнопка отключается, если это значение не задано</param>
-		/// <param name="AppLogo">Лого приложения</param>
-		public AboutForm (string UserManualLink, Bitmap AppLogo)
+		public AboutForm ()
 			{
 			// Инициализация
 			InitializeComponent ();
 			this.AcceptButton = ExitButton;
 			this.CancelButton = MisacceptButton;
 
+			/*string UserManualLink,
+			Bitmap AppLogo*/
+
 			// Получение параметров
-			userManualLink = (UserManualLink == null) ? "" : UserManualLink;
+			if (string.IsNullOrWhiteSpace (ProgramDescription.AssemblyReferenceMaterials[0]))
+				userManualLink = "";
+			else if (ProgramDescription.AssemblyReferenceMaterials[0] == DefaultRefMaterialAlias)
+				userManualLink = RDGenerics.AssemblyGitPageLink;
+			else
+				userManualLink = ProgramDescription.AssemblyReferenceMaterials[0];
+
+			if (string.IsNullOrWhiteSpace (ProgramDescription.AssemblyReferenceMaterials[1]))
+				userVideomanualLink = "";
+			else
+				userVideomanualLink = RDGenerics.StaticYTLink + ProgramDescription.AssemblyReferenceMaterials[1];
+
+			/*userManualLink = (UserManualLink == null) ? "" :
+			UserManualLink;*/
 
 			projectLink = RDGenerics.DefaultGitLink + ProgramDescription.AssemblyMainName;
 			updatesLink = RDGenerics.DefaultGitLink + ProgramDescription.AssemblyMainName +
@@ -113,8 +134,9 @@ namespace RD_AAOW
 
 			// Загрузка окружения
 			AboutLabel.Text = RDGenerics.AppAboutLabelText;
-			if (AppLogo != null)
-				IconBox.BackgroundImage = AppLogo;
+			/*if (AppLogo != null)
+				IconBox.BackgroundImage = AppLogo;*/
+			IconBox.BackgroundImage = (Bitmap)ProgramDescription.AssemblyResources[0].GetObject ("LogoIcon");
 
 			AboutForm_Resize (null, null);
 			}
@@ -122,15 +144,20 @@ namespace RD_AAOW
 		/// <summary>
 		/// Метод отображает справочное окно приложения
 		/// </summary>
-		/// <param name="Description">Описание программы и/или справочная информация</param>
 		/// <param name="StartupMode">Флаг, указывающий, что справка не должна отображаться, если
 		/// она уже была показана для данной версии приложения</param>
 		/// <returns>Возвращает:
 		/// 1, если справка уже отображалась для данной версии (при StartupMode == true);
 		/// другое значение, если окно справки было отображено</returns>
-		public int ShowAbout (string Description, bool StartupMode)
+		public int ShowAbout (bool StartupMode)
 			{
-			description = Description;
+			/*string Description,
+			description = Description;*/
+			if (string.IsNullOrWhiteSpace (ProgramDescription.AssemblyReferenceMaterials[2]) ||
+				(ProgramDescription.AssemblyReferenceMaterials[2] == DefaultRefMaterialAlias))
+				description = Localization.GetText ("HelpText");
+			else
+				description = ProgramDescription.AssemblyReferenceMaterials[2];
 
 			return LaunchForm (StartupMode, false);
 			}
@@ -180,14 +207,14 @@ namespace RD_AAOW
 			// Если поле пустое, устанавливается минимальное значение
 			if (adpRevision == "")
 				{
-				adpRevision = "rev. 10!";
+				adpRevision = "rev. 10" + newPolicyAlias;
 				RDGenerics.SetDPArraySettingsValue (ADPRevisionKey, adpRevision);
 				}
 
 			// Контроль
 			startupMode = StartupMode;
 			if (StartupMode && (helpShownAt == ProgramDescription.AssemblyVersion) ||   // Справка уже отображалась
-				AcceptMode && (!adpRevision.EndsWith ("!")))                            // Политика уже принята
+				AcceptMode && (!adpRevision.EndsWith (newPolicyAlias)))                 // Политика уже принята
 				return 1;
 
 			// Настройка контролов
@@ -222,6 +249,11 @@ namespace RD_AAOW
 						{
 						linkTypes.Add (LinkTypes.UserManual);
 						ToLaboratoryCombo.Items.Add (Localization.GetDefaultText (LzDefaultTextValues.Control_UserManual));
+						}
+					if (!string.IsNullOrWhiteSpace (userVideomanualLink))
+						{
+						linkTypes.Add (LinkTypes.UserVideomanual);
+						ToLaboratoryCombo.Items.Add (Localization.GetDefaultText (LzDefaultTextValues.Control_UserVideomanual));
 						}
 
 					linkTypes.Add (LinkTypes.ProjectPage);
@@ -310,7 +342,7 @@ namespace RD_AAOW
 			// В случае невозможности загрузки Политики признак необходимости принятия до этого момента
 			// не удаляется из строки версии. Поэтому требуется страховка
 			if (AcceptMode && policyAccepted)
-				RDGenerics.SetDPArraySettingsValue (ADPRevisionKey, adpRevision.Replace ("!", ""));
+				RDGenerics.SetDPArraySettingsValue (ADPRevisionKey, adpRevision.Replace (newPolicyAlias, ""));
 
 			// Завершение
 			return policyAccepted ? 0 : -1;
@@ -358,13 +390,13 @@ namespace RD_AAOW
 		// Метод извлекает из загруженного текста Политики её версию
 		private string ExtractPolicyRevision (string LoadedPolicy)
 			{
-			int left = LoadedPolicy.IndexOf ("rev");
-			int right = LoadedPolicy.IndexOf ("\n", left);
+			int left, right;
 
-			if ((left >= 0) && (right >= 0))
-				return LoadedPolicy.Substring (left, right - left);
+			if (((left = LoadedPolicy.IndexOf ("rev")) < 0) ||
+				((right = LoadedPolicy.IndexOf ("\n", left)) < 0))
+				return "";
 
-			return "";
+			return LoadedPolicy.Substring (left, right - left);
 			}
 
 		/// <summary>
@@ -431,6 +463,10 @@ namespace RD_AAOW
 
 				case LinkTypes.UserManual:
 					link = userManualLink;
+					break;
+
+				case LinkTypes.UserVideomanual:
+					link = userVideomanualLink;
 					break;
 
 				default:
@@ -640,7 +676,7 @@ policy:
 				{
 				string adpRev = ExtractPolicyRevision (GetPolicy ());
 				if (!string.IsNullOrWhiteSpace (adpRev) && (adpRev != adpRevision))
-					RDGenerics.SetDPArraySettingsValue (ADPRevisionKey, adpRev + "!");
+					RDGenerics.SetDPArraySettingsValue (ADPRevisionKey, adpRev + newPolicyAlias);
 				}
 
 			// Не было проблем с загрузкой страницы
@@ -668,7 +704,6 @@ policy:
 			}
 
 		// Контроль сообщения об обновлении
-		private bool desciptionHasBeenUpdated = false;
 		private void UpdatesTimer_Tick (object sender, EventArgs e)
 			{
 			if (string.IsNullOrWhiteSpace (updatesMessage))

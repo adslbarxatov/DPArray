@@ -1,4 +1,5 @@
-_Changes for v 6.2.4_:
+_Changes for v 6.2.5_:
+- Added an obvious URL for videoguide and for text guide;
 - Updated the list of macros for the packages list;
 - Fixed some issues with the policy loader where it would sometimes ask for multiple confirmations;
 - App is now able to cache descriptions for packages. After the first connection it will not require their re-downloading until user’s request (by clearing cache) or changing of an interface language;
