@@ -1,7 +1,7 @@
 DPArray: changes log
 
 Version 6.2.5:
-• Added an obvious URL for videoguide and for text guide
+• Added the obvious URLs for videoguide and for text guide
 
 Version 6.2.4:
 • Fixed some issues with the Policy loader where it would sometimes ask for multiple confirmations;
