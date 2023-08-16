@@ -4,7 +4,7 @@ Packages, available for download:
 DPArray						6.2.5	DEFSTORAGE/DPArray.dp	DPArray.dp					0x000A107D	0	INFOPAGE
 
 #Windows apps
-Batch image convertor		3.4.5	DEFSTORAGE/DEFFILE		BatchImageConvertor.dp		0x0005A760	1	INFOLINK
+Batch image convertor		3.4.6	DEFSTORAGE/DEFFILE		BatchImageConvertor.dp		0x0005A960	1	INFOLINK
 ConcurrentDraw				3.3.5	DEFSTORAGE/DEFFILE		ConcurrentDraw.dp			0x000A20E8	1	INFOLINK
 Dates difference			3.3.5	DEFSTORAGE/DEFFILE		DatesDifference.dp			0x00031DD2	0	INFOLINK
 File extensions manager		2.4.5	DEFSTORAGE/DEFFILE		FileExtensionsManager.dp	0x00055A1F	0	INFOPAGE
@@ -14,7 +14,7 @@ KassArray					4.5.5	DEFSTORAGE/DEFFILE		KassArray.dp				0x001253F4	1	INFOPAGE
 OS macros executor			3.3.5	DEFSTORAGE/DEFFILE		OSMacrosExecutor.dp			0x0005CF32	1	INFOLINK
 Screen shooter				2.3.5	DEFSTORAGE/DEFFILE		ScreenShooter.dp			0x000311BD	0	INFOLINK
 Sudoku solver				4.0.7	DEFSTORAGE/DEFFILE		SudokuSolver.dp				0x00033399	0	INFOLINK
-uNot						6.6.5	DEFSTORAGE/DEFFILE		UniNotifier.dp				0x00055DB7	0	INFOPAGE
+uNot						6.6.6	DEFSTORAGE/DEFFILE		UniNotifier.dp				0x00055DB7	0	INFOPAGE
 Vice city toolset			4.3.5	DEFSTORAGE/DEFFILE		ViceCityToolset.dp			0x001A0BB1	1	INFOPAGE
 
 
@@ -40,7 +40,7 @@ Turtle						2.2.5	DEFSTORAGE/DEFFILE		Turtle.7z					14771977	1	INFOLINK
 KassArray					4.5.5	GIT_LINK/KassArray/GIT_PATH/DEFFILE				KassArray.apk		35209106	3	INFOPAGE
 Make decision				3.3.5	GIT_LINK/MakeDecision/GIT_PATH/DEFFILE			MakeDecision.apk	32986665	3	INFOPAGE
 PA detector					3.2.2	GIT_LINK/EnchantIt/GIT_PATH/DEFFILE				EnchantIt.apk		41978572	3	INFOPAGE
-uNot						6.6.5	GIT_LINK/UniNotifier/GIT_PATH/DEFFILE			UniNotifier.apk		34939156	3	INFOPAGE
+uNot						6.6.6	GIT_LINK/UniNotifier/GIT_PATH/DEFFILE			UniNotifier.apk		34943252	3	INFOPAGE
 
 
 #Microsoft Store
@@ -56,25 +56,25 @@ uNot						6.6.2	-	-	0	7	MS_STORE/9NVZ51RL54K4
 KassArray					4.5.5	-	-	0	7	GP_STOREcom.RD_AAOW.TextToKKT
 Make decision				3.3.5	-	-	0	7	GP_STOREcom.RD_AAOW.MakeDecision
 PA detector					3.2.2	-	-	0	7	GP_STOREcom.RD_AAOW.EnchantIt
-uNot						6.6.5	-	-	0	7	GP_STOREcom.RD_AAOW.UniNotifier
+uNot						6.6.6	-	-	0	7	GP_STOREcom.RD_AAOW.UniNotifier
 
 
 #AppGallery
-KassArray					4.5.5	-	-	0	7	HU_STORE/kOnu2dYlNu?shareTo=qrcode
+KassArray					4.5.5	-	-	0	7	HU_STORE/kOnu2dYlNu
 Make decision				3.3.5	-	-	0	7	HU_STORE/kOnqdCKeek
 PA detector					3.2.2	-	-	0	7	HU_STORE/kOnbnDnG12
-uNot						6.6.5	-	-	0	7	HU_STORE/kOns67WJJ6
+uNot						6.6.6	-	-	0	7	HU_STORE/kOns67WJJ6
 
 
 #GetApps
 KassArray					4.5.5	-	-	0	7	MI_STOREtexttokkt.xiaomi
 Make decision				3.3.5	-	-	0	7	MI_STOREmakedecision.xiaomi
-PA detector					3.2.2	-	-	0	7	MI_STOREenchantit.xiaomi
-uNot						6.6.5	-	-	0	7	MI_STOREuninotifier.xiaomi
+PA detector					3.2.2	-	-	0	7	MI_STOREenchantit.rdaaowfdl
+uNot						6.6.6	-	-	0	7	MI_STOREuninotifier.xiaomi
 
 
 
-#ALERT: DPArray has been updated:
+#ALERT: DPArray has been updated: 
 #ALERT: check our new Android apps section!
 
 Flags: b0 = disallow the FD, b1 = disable the VC, b2 = dissallow all D
