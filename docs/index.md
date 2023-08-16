@@ -160,7 +160,6 @@ has specified is loaded – all other objects (including ads) are ignored
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And6.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/EnchantIt) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=hTnDR89VR8w) &#x3000;
-:page_with_curl: [Description](https://vk.com/@rd_aaow_fdl-pad) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) &#x3000;
 :iphone: [Get on GetApps](https://global.app.mi.com/details?id=enchantit.rdaaowfdl) &#x3000;
 :iphone: [Get on AppGallery](https://url.cloud.huawei.com/kOnbnDnG12) &#x3000;
@@ -206,7 +205,6 @@ As a result, you’ll get the answer for the next question: “what way is the b
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/batchimageconvertor) &#x3000;
-:film_projector: [Video guide](https://youtube.com/watch?v=bejx-r1C6j0) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/batchimageconvertor/releases/latest) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://BatchImageConvertor)
 
@@ -232,7 +230,7 @@ A tool for finding a font by its image
 :gb: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [Summary](https://moddb.com/mods/eshq) &#x3000;
-:tv: [Video demo](https://youtube.com/playlist?list=PLe7qKwHNkZTuYevg6QyszASeD7S1XgpG_) &#x3000;
+:tv: [Video demo](https://youtube.com/playlist?list=PLe7qKwHNkZTvsbUZk6lh-IgkCwrQ6yZOL) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ESHQ_setup) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get the latest update](dp://ESHQ_update)
 
@@ -405,26 +403,6 @@ This app imitates the “Thousand” game for three players
 
 &nbsp;
 
-### BExplorer
-:gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> :no_entry_sign: &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/bexplorer)
-
-An API for working with save files for GTA Vice City and an application that implements a part of functionality.
-Now it is a part of [Vice city toolset](#vice-city-toolset)
-
-&nbsp;
-
-### Make CST
-:gb: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> :no_entry_sign: &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/makecst)
-
-A tool for converting DFF models and QHullOFF objects to GTA collision scripts.
-Now it is a part of [Vice city toolset](#vice-city-toolset)
-
-&nbsp;
-
 ### FullSilence, CodeShow
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> :hourglass_flowing_sand: &#x3000;
@@ -448,33 +426,12 @@ Also allows you to translate HEX data to binary and backward
 
 &nbsp;
 
-### Tables merger
-:gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> :no_entry_sign: &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/tablesmerger)
-
-This tool was the byproduct of Geomag data drawer project. It performs “gluing” of data tables with equal
-and different rows quantities. Now it is a part of [Geomag data drawer](#geomag-data-drawer)
-
-&nbsp;
-
-### Vector image generator
-:gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> :no_entry_sign: &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/vectorimagegenerator)
-
-This tool was the byproduct of Geomag data drawer project. It performs generation of vector images using text scripts.
-Now it is a part of [Geomag data drawer](#geomag-data-drawer)
-
-&nbsp;
-
 
 
 ## Links cloud
 
 [Accounts manager](https://adslbarxatov.github.io/DPArray/ru#accounts-manager) &#x3000;
 [Batch image convertor](#batch-image-convertor) &#x3000;
-[BExplorer](#bexplorer) &#x3000;
 [CodeShow](#fullsilence-codeshow) &#x3000;
 [ConcurrentDraw](#concurrentdraw) &#x3000;
 [Crazy cheater’s mod](#crazy-cheaters-mod) &#x3000;
@@ -490,7 +447,6 @@ Now it is a part of [Geomag data drawer](#geomag-data-drawer)
 [Grammar must joy](https://adslbarxatov.github.io/DPArray/ru#grammar-must-joy) &#x3000;
 [KassArray](https://adslbarxatov.github.io/DPArray/ru#kassarray) &#x3000;
 [Keyboard switcher](#keyboard-switcher) &#x3000;
-[Make CST](#make-cst) &#x3000;
 [Make decision](#make-decision) &#x3000;
 [OS macros executor](#os-macros-executor) &#x3000;
 [PA detector (Enchant it)](#pa-detector-enchant-it) &#x3000;
@@ -499,8 +455,6 @@ Now it is a part of [Geomag data drawer](#geomag-data-drawer)
 [Snake](#snake) &#x3000;
 [Sudoku solver](#sudoku-solver) &#x3000;
 [Turtle](#turtle) &#x3000;
-[Tables merger](#tables-merger) &#x3000;
 [uNot (UniNotifier)](#unot-uninotifier) &#x3000;
-[Vector image generator](#vector-image-generator) &#x3000;
 [Vice city toolset](#vice-city-toolset) &#x3000;
 [Xash3D FWGS for ESHQ](#xash3d-fwgs-engine-adaptation-for-eshq)

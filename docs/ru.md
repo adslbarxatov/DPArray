@@ -137,7 +137,7 @@
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
-:page_with_curl: [Руководство](https://adslbarxatov.github.io/UniNotifier) &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/UniNotifier/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=seFfQkfL6Sk) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://UniNotifier) &#x3000;
 :black_large_square: [На Microsoft Store](ms-windows-store://pdp/?productid=9NVZ51RL54K4) &#x3000;
@@ -188,7 +188,6 @@
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And6.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/EnchantIt/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=hTnDR89VR8w) &#x3000;
-:page_with_curl: [Полное описание](https://vk.com/@rd_aaow_fdl-pad) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) &#x3000;
 :iphone: [На GetApps](https://global.app.mi.com/details?id=enchantit.rdaaowfdl) &#x3000;
 :iphone: [На AppGallery](https://url.cloud.huawei.com/kOnbnDnG12) &#x3000;
@@ -253,7 +252,6 @@
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/batchimageconvertor) &#x3000;
-:film_projector: [Видеоруководство](https://youtube.com/watch?v=bejx-r1C6j0) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/batchimageconvertor/releases/latest) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://BatchImageConvertor)
 
@@ -279,7 +277,7 @@
 :gb: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [Полное описание](https://moddb.com/mods/eshq) &#x3000;
-:tv: [Демо видео](https://youtube.com/playlist?list=PLe7qKwHNkZTuYevg6QyszASeD7S1XgpG_) &#x3000;
+:tv: [Демо видео](https://youtube.com/playlist?list=PLe7qKwHNkZTvsbUZk6lh-IgkCwrQ6yZOL) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ESHQ_setup) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Последнее обновление](dp://ESHQ_update)
 
@@ -462,26 +460,6 @@ ES: Randomaze – генератор карт для одноимённого м
 
 &nbsp;
 
-### BExplorer
-:gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> :no_entry_sign: &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/bexplorer)
-
-API для работы с файлами сохранений GTA Vice City и приложение, реализующее часть функционала.
-Теперь он является частью [Vice city toolset](#vice-city-toolset)
-
-&nbsp;
-
-### Make CST
-:gb: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> :no_entry_sign: &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/makecst)
-
-Инструмент преобразования моделей DFF и объектов QHullOFF в скрипты столкновений GTA.
-Теперь он является частью [Vice city toolset](#vice-city-toolset)
-
-&nbsp;
-
 ### FullSilence, CodeShow
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> :hourglass_flowing_sand: &#x3000;
@@ -505,26 +483,6 @@ API для работы с файлами сохранений GTA Vice City и 
 
 &nbsp;
 
-### Tables merger
-:gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> :no_entry_sign: &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/tablesmerger)
-
-Инструмент был побочным продуктом проекта Geomag data drawer. Он выполнял «склеивание» таблиц данных
-с одинаковым и разным числом строк. Теперь он является частью [Geomag data drawer](#geomag-data-drawer)
-
-&nbsp;
-
-### Vector image generator
-:gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> :no_entry_sign: &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/vectorimagegenerator)
-
-Инструмент был побочным продуктом проекта Geomag data drawer. Он выполнял генерацию векторных
-изображений с помощью скриптов. Теперь он является частью [Geomag data drawer](#geomag-data-drawer)
-
-&nbsp;
-
 ### GIATester
 :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> :hourglass_flowing_sand: &#x3000;
@@ -540,7 +498,6 @@ API для работы с файлами сохранений GTA Vice City и 
 
 [Accounts manager](#accounts-manager) &#x3000;
 [Batch image convertor](#batch-image-convertor) &#x3000;
-[BExplorer](#bexplorer) &#x3000;
 [CodeShow](#fullsilence-codeshow) &#x3000;
 [ConcurrentDraw](#concurrentdraw) &#x3000;
 [Crazy cheater’s mod](#crazy-cheaters-mod) &#x3000;
@@ -556,7 +513,6 @@ API для работы с файлами сохранений GTA Vice City и 
 [Grammar must joy](#grammar-must-joy) &#x3000;
 [KassArray](#kassarray) &#x3000;
 [Keyboard switcher](#keyboard-switcher) &#x3000;
-[Make CST](#make-cst) &#x3000;
 [Make decision](#make-decision) &#x3000;
 [OS macros executor](#os-macros-executor) &#x3000;
 [PA detector (Enchant it)](#pa-detector-enchant-it) &#x3000;
