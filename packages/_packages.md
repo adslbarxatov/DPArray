@@ -37,9 +37,9 @@ Turtle						2.2.5	DEFSTORAGE/DEFFILE		Turtle.7z					14771977	1	INFOLINK
 
 
 #Android apps as APK
-KassArray					4.5.5	GIT_LINK/KassArray/GIT_PATH/DEFFILE				KassArray.apk		35209106	3	INFOPAGE
-Make decision				3.3.5	GIT_LINK/MakeDecision/GIT_PATH/DEFFILE			MakeDecision.apk	32986665	3	INFOPAGE
-PA detector					3.2.2	GIT_LINK/EnchantIt/GIT_PATH/DEFFILE				EnchantIt.apk		41978572	3	INFOPAGE
+KassArray					4.5.6	GIT_LINK/KassArray/GIT_PATH/DEFFILE				KassArray.apk		35209106	3	INFOPAGE
+Make decision				3.3.6	GIT_LINK/MakeDecision/GIT_PATH/DEFFILE			MakeDecision.apk	32986665	3	INFOPAGE
+PA detector					3.2.3	GIT_LINK/EnchantIt/GIT_PATH/DEFFILE				EnchantIt.apk		41978572	3	INFOPAGE
 uNot						6.6.6	GIT_LINK/UniNotifier/GIT_PATH/DEFFILE			UniNotifier.apk		34943252	3	INFOPAGE
 
 
@@ -53,23 +53,23 @@ uNot						6.6.6	-	-	0	7	MS_STORE/9NVZ51RL54K4
 
 
 #Google play
-KassArray					4.5.5	-	-	0	7	GP_STOREcom.RD_AAOW.TextToKKT
-Make decision				3.3.5	-	-	0	7	GP_STOREcom.RD_AAOW.MakeDecision
-PA detector					3.2.2	-	-	0	7	GP_STOREcom.RD_AAOW.EnchantIt
+KassArray					4.5.6	-	-	0	7	GP_STOREcom.RD_AAOW.TextToKKT
+Make decision				3.3.6	-	-	0	7	GP_STOREcom.RD_AAOW.MakeDecision
+PA detector					3.2.3	-	-	0	7	GP_STOREcom.RD_AAOW.EnchantIt
 uNot						6.6.6	-	-	0	7	GP_STOREcom.RD_AAOW.UniNotifier
 
 
 #AppGallery
-KassArray					4.5.5	-	-	0	7	HU_STORE/kOnu2dYlNu
-Make decision				3.3.5	-	-	0	7	HU_STORE/kOnqdCKeek
-PA detector					3.2.2	-	-	0	7	HU_STORE/kOnbnDnG12
+KassArray					4.5.6	-	-	0	7	HU_STORE/kOnu2dYlNu
+Make decision				3.3.6	-	-	0	7	HU_STORE/kOnqdCKeek
+PA detector					3.2.3	-	-	0	7	HU_STORE/kOnbnDnG12
 uNot						6.6.6	-	-	0	7	HU_STORE/kOns67WJJ6
 
 
 #GetApps
-KassArray					4.5.5	-	-	0	7	MI_STOREtexttokkt.xiaomi
-Make decision				3.3.5	-	-	0	7	MI_STOREmakedecision.xiaomi
-PA detector					3.2.2	-	-	0	7	MI_STOREenchantit.rdaaowfdl
+KassArray					4.5.6	-	-	0	7	MI_STOREtexttokkt.xiaomi
+Make decision				3.3.6	-	-	0	7	MI_STOREmakedecision.xiaomi
+PA detector					3.2.3	-	-	0	7	MI_STOREenchantit.rdaaowfdl
 uNot						6.6.6	-	-	0	7	MI_STOREuninotifier.xiaomi
 
 
