@@ -38,8 +38,8 @@ Turtle						2.2.5	DEFSTORAGE/DEFFILE		Turtle.7z					14771977	1	INFOLINK
 
 #Android apps as APK
 KassArray					4.5.6	GIT_LINK/KassArray/GIT_PATH/DEFFILE				KassArray.apk		35209106	3	INFOPAGE
-Make decision				3.3.6	GIT_LINK/MakeDecision/GIT_PATH/DEFFILE			MakeDecision.apk	32986665	3	INFOPAGE
-PA detector					3.2.3	GIT_LINK/EnchantIt/GIT_PATH/DEFFILE				EnchantIt.apk		41978572	3	INFOPAGE
+Make decision				3.3.6	GIT_LINK/MakeDecision/GIT_PATH/DEFFILE			MakeDecision.apk	34516933	3	INFOPAGE
+PA detector					3.2.3	GIT_LINK/EnchantIt/GIT_PATH/DEFFILE				EnchantIt.apk		41982668	3	INFOPAGE
 uNot						6.6.6	GIT_LINK/UniNotifier/GIT_PATH/DEFFILE			UniNotifier.apk		34943252	3	INFOPAGE
 
 
