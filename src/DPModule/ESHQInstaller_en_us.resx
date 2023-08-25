@@ -283,7 +283,7 @@ Retry the list downloading?</value>
     <value>Cannot unpack the downloaded archive automatically. Open it for manual extracting?</value>
   </data>
   <data name="IconAbout" xml:space="preserve">
-    <value>About {0:S}...</value>
+    <value>About the {0:S}...</value>
   </data>
   <data name="PackageSelectorForm_AbortButton" xml:space="preserve">
     <value>&amp;Deploy</value>
@@ -295,7 +295,7 @@ Retry the list downloading?</value>
     <value>Interface language will be changed when processing the next package</value>
   </data>
   <data name="IconChangeLanguage" xml:space="preserve">
-    <value>Change interface language</value>
+    <value>Interface language</value>
   </data>
   <data name="IconRestorePath" xml:space="preserve">
     <value>Restore package’s deployment path</value>
@@ -417,7 +417,7 @@ The app will use default path for this product. If it’s not correct, use “Re
     <value>Only deployed</value>
   </data>
   <data name="IconLastServerMessages" xml:space="preserve">
-    <value>View last server messages</value>
+    <value>Server messages</value>
   </data>
   <data name="HasNoUpdates" xml:space="preserve">
     <value>All previously deployed packages are up to date</value>
@@ -450,7 +450,7 @@ If possible, they will be installed automatically in the next step. Otherwise, t
     <value>Fast deployment</value>
   </data>
   <data name="PSF_Default" xml:space="preserve">
-    <value>(deploy)</value>
+    <value>(normal)</value>
   </data>
   <data name="PSF_Fast" xml:space="preserve">
     <value>(fast)</value>
@@ -465,5 +465,8 @@ Do you want to open the webpage with additional project info?</value>
   </data>
   <data name="PSF_Context03" xml:space="preserve">
     <value>Deselect</value>
+  </data>
+  <data name="PSF_Context06" xml:space="preserve">
+    <value>Deploy all updates</value>
   </data>
 </root>

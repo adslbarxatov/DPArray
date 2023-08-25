@@ -100,6 +100,11 @@ namespace RD_AAOW
 		public const string DefaultRefMaterialAlias = "D";
 
 		/// <summary>
+		/// Возвращает псевдоним для отсутствующего справочного материала
+		/// </summary>
+		public const string MissingRefMaterialAlias = "";
+
+		/// <summary>
 		/// Конструктор. Инициализирует форму
 		/// </summary>
 		public AboutForm ()
@@ -435,7 +440,7 @@ namespace RD_AAOW
 					break;
 
 				case LinkTypes.AskDeveloper:
-					link = RDGenerics.LabMailLink + ("?subject=" +
+					link = "mailto://" + RDGenerics.LabMailLink + ("?subject=" +
 						RDGenerics.LabMailCaption).Replace (" ", "%20");
 					break;
 
@@ -759,7 +764,7 @@ policy:
 		/// <summary>
 		/// Метод выполняет регистрацию указанного расширения файла и привязывает его к текущему приложению
 		/// </summary>
-		/// <param name="FileExtension">Расширение файла без точки</param>
+		/// <param name="FileExtension">Расширение файла</param>
 		/// <param name="FileTypeName">Название типа файла</param>
 		/// <param name="Openable">Флаг указывает, будет ли файл доступен для открытия в приложении</param>
 		/// <param name="ShowWarning">Флаг указывает, что необходимо отобразить предупреждение

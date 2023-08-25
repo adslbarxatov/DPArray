@@ -1,8 +1,7 @@
-_Changes for v 6.2.5_: 
+_Changes for v 6.3_:
+- Deployment signs have been replaced with text tips;
+- “Deploy all” context functions have been replaced with “Deploy all updates” variant;
+- The context meny of the tray icon in package selection mode has been replaced with buttons in the main interface;
+- The app interface has been updated;
 - Added an obvious URL for videoguide and for text guide;
-- Updated the list of macros for the packages list;
-- Fixed some issues with the policy loader where it would sometimes ask for multiple confirmations;
-- App is now able to cache descriptions for packages. After the first connection it will not require their re-downloading until user’s request (by clearing cache) or changing of an interface language;
-- App is now able to display view-only projects in the main list: there will be non-deployable packages that can be used to access to some important web-resources;
-- Packages for deployment now can be selected by left double-click; fast mode will be enabled automatically where applicable;
-- Some of internal mechanics have been improved
+- Updated the list of macros for the packages list
