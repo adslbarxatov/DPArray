@@ -11,7 +11,7 @@ File extensions manager		2.4.6	DEFSTORAGE/DEFFILE		FileExtensionsManager.dp	0x00
 Font finder					3.3.8	DEFSTORAGE/DEFFILE		FontFinder.dp				0x00047BCD	0	INFOPAGE
 Geomag data drawer			5.4.8	DEFSTORAGE/DEFFILE		GeomagDataDrawer.dp			0x00133499	1	INFOPAGE
 KassArray					4.6		DEFSTORAGE/DEFFILE		KassArray.dp				0x001253F2	1	INFOPAGE
-OS macros executor			3.3.5	DEFSTORAGE/DEFFILE		OSMacrosExecutor.dp			0x0005CF32	1	INFOLINK
+OS macros executor			3.3.8	DEFSTORAGE/DEFFILE		OSMacrosExecutor.dp			0x0005D332	1	INFOLINK
 Screen shooter				2.3.5	DEFSTORAGE/DEFFILE		ScreenShooter.dp			0x000311BD	0	INFOLINK
 Sudoku solver				4.0.7	DEFSTORAGE/DEFFILE		SudokuSolver.dp				0x00033399	0	INFOLINK
 uNot						6.6.8	DEFSTORAGE/DEFFILE		UniNotifier.dp				0x000563B7	0	INFOPAGE
@@ -27,11 +27,11 @@ Crazy cheater’s mod				1.3		MODSTORAGE/240088?MOD_REFmods%2Fccm		CCM.7z				165
 
 
 #Minigames for Windows
-One hundred and one			2.1.7	DEFSTORAGE/DEFFILE		OneHundredOne.dp			0x0003518C	0	INFOPAGE
-Races						2.2.5	DEFSTORAGE/DEFFILE		Races.7z					14691127	1	INFOLINK
-Snake						2.2.5	DEFSTORAGE/DEFFILE		Snake.7z					16128209	1	INFOLINK
-Thousand					2.1.7	DEFSTORAGE/DEFFILE		Thousand.dp					0x0003795A	0	INFOPAGE
-Turtle						2.2.5	DEFSTORAGE/DEFFILE		Turtle.7z					14771977	1	INFOLINK
+One hundred and one			2.1.8	DEFSTORAGE/DEFFILE		OneHundredOne.dp			0x0003538C	0	INFOPAGE
+Races						2.2.8	DEFSTORAGE/DEFFILE		Races.7z					14691578	1	INFOLINK
+Snake						2.2.8	DEFSTORAGE/DEFFILE		Snake.7z					16125141	1	INFOLINK
+Thousand					2.1.8	DEFSTORAGE/DEFFILE		Thousand.dp					0x0003795A	0	INFOPAGE
+Turtle						2.2.8	DEFSTORAGE/DEFFILE		Turtle.7z					14771884	1	INFOLINK
 
 
 #Android apps as APK
@@ -45,8 +45,8 @@ uNot						6.6.8	GIT_LINK/UniNotifier/GIT_PATH/DEFFILE			UniNotifier.apk		3494325
 Font finder					3.3.8	-	-	0	7	MS_STORE/9MXDR4BXP8R4
 Geomag data drawer			5.4.5	-	-	0	7	MS_STORE/9PG19ZZ3NH47
 KassArray					4.6		-	-	0	7	MS_STORE/9ND98F4C4Q60
-One hundred and one			2.1.5	-	-	0	7	MS_STORE/9NHVH857DV1S
-Thousand					2.1.5	-	-	0	7	MS_STORE/9NRQ4LQZNKKG
+One hundred and one			2.1.8	-	-	0	7	MS_STORE/9NHVH857DV1S
+Thousand					2.1.8	-	-	0	7	MS_STORE/9NRQ4LQZNKKG
 uNot						6.6.8	-	-	0	7	MS_STORE/9NVZ51RL54K4
 
 
