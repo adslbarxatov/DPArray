@@ -14,7 +14,7 @@ KassArray					4.5.6	DEFSTORAGE/DEFFILE		KassArray.dp				0x001253F4	1	INFOPAGE
 OS macros executor			3.3.5	DEFSTORAGE/DEFFILE		OSMacrosExecutor.dp			0x0005CF32	1	INFOLINK
 Screen shooter				2.3.5	DEFSTORAGE/DEFFILE		ScreenShooter.dp			0x000311BD	0	INFOLINK
 Sudoku solver				4.0.7	DEFSTORAGE/DEFFILE		SudokuSolver.dp				0x00033399	0	INFOLINK
-uNot						6.6.6.6	DEFSTORAGE/DEFFILE		UniNotifier.dp				0x00055DB9	0	INFOPAGE
+uNot						6.6.8	DEFSTORAGE/DEFFILE		UniNotifier.dp				0x000563B7	0	INFOPAGE
 Vice city toolset			4.3.5	DEFSTORAGE/DEFFILE		ViceCityToolset.dp			0x001A0BB1	1	INFOPAGE
 
 
@@ -38,7 +38,7 @@ Turtle						2.2.5	DEFSTORAGE/DEFFILE		Turtle.7z					14771977	1	INFOLINK
 KassArray					4.5.6	GIT_LINK/KassArray/GIT_PATH/DEFFILE				KassArray.apk		35209106	3	INFOPAGE
 Make decision				3.3.6	GIT_LINK/MakeDecision/GIT_PATH/DEFFILE			MakeDecision.apk	34516933	3	INFOPAGE
 PA detector					3.2.3	GIT_LINK/EnchantIt/GIT_PATH/DEFFILE				EnchantIt.apk		41982668	3	INFOPAGE
-uNot						6.6.6.6	GIT_LINK/UniNotifier/GIT_PATH/DEFFILE			UniNotifier.apk		34943252	3	INFOPAGE
+uNot						6.6.8	GIT_LINK/UniNotifier/GIT_PATH/DEFFILE			UniNotifier.apk		34943252	3	INFOPAGE
 
 
 #Microsoft Store
@@ -47,33 +47,33 @@ Geomag data drawer			5.4.5	-	-	0	7	MS_STORE/9PG19ZZ3NH47
 KassArray					4.5.2	-	-	0	7	MS_STORE/9ND98F4C4Q60
 One hundred and one			2.1.5	-	-	0	7	MS_STORE/9NHVH857DV1S
 Thousand					2.1.5	-	-	0	7	MS_STORE/9NRQ4LQZNKKG
-uNot						6.6.6	-	-	0	7	MS_STORE/9NVZ51RL54K4
+uNot						6.6.8	-	-	0	7	MS_STORE/9NVZ51RL54K4
 
 
 #Google play
 KassArray					4.5.6	-	-	0	7	GP_STOREcom.RD_AAOW.TextToKKT
 Make decision				3.3.6	-	-	0	7	GP_STOREcom.RD_AAOW.MakeDecision
 PA detector					3.2.3	-	-	0	7	GP_STOREcom.RD_AAOW.EnchantIt
-uNot						6.6.6.6	-	-	0	7	GP_STOREcom.RD_AAOW.UniNotifier
+uNot						6.6.8	-	-	0	7	GP_STOREcom.RD_AAOW.UniNotifier
 
 
 #AppGallery
 KassArray					4.5.6	-	-	0	7	HU_STORE/kOnu2dYlNu
 Make decision				3.3.6	-	-	0	7	HU_STORE/kOnqdCKeek
 PA detector					3.2.3	-	-	0	7	HU_STORE/kOnbnDnG12
-uNot						6.6.6.6	-	-	0	7	HU_STORE/kOns67WJJ6
+uNot						6.6.8	-	-	0	7	HU_STORE/kOns67WJJ6
 
 
 #GetApps
 KassArray					4.5.6	-	-	0	7	MI_STOREtexttokkt.xiaomi
 Make decision				3.3.6	-	-	0	7	MI_STOREmakedecision.xiaomi
 PA detector					3.2.3	-	-	0	7	MI_STOREenchantit.rdaaowfdl
-uNot						6.6.6.6	-	-	0	7	MI_STOREuninotifier.xiaomi
+uNot						6.6.8	-	-	0	7	MI_STOREuninotifier.xiaomi
 
 
 
 #ALERT: DPArray has been updated: 
-#ALERT: check our new Android apps section!
+#ALERT: check the Android apps and Microsoft Store sections!
 
 Flags: b0 = disallow the FD, b1 = disable the VC, b2 = dissallow all D
 
