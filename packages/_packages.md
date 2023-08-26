@@ -12,10 +12,10 @@ Font finder					3.3.8	DEFSTORAGE/DEFFILE		FontFinder.dp				0x00047BCD	0	INFOPAGE
 Geomag data drawer			5.4.8	DEFSTORAGE/DEFFILE		GeomagDataDrawer.dp			0x00133499	1	INFOPAGE
 KassArray					4.6		DEFSTORAGE/DEFFILE		KassArray.dp				0x001253F2	1	INFOPAGE
 OS macros executor			3.3.8	DEFSTORAGE/DEFFILE		OSMacrosExecutor.dp			0x0005D332	1	INFOLINK
-Screen shooter				2.3.5	DEFSTORAGE/DEFFILE		ScreenShooter.dp			0x000311BD	0	INFOLINK
-Sudoku solver				4.0.7	DEFSTORAGE/DEFFILE		SudokuSolver.dp				0x00033399	0	INFOLINK
+Screen shooter				2.3.8	DEFSTORAGE/DEFFILE		ScreenShooter.dp			0x000311BD	0	INFOLINK
+Sudoku solver				4.0.8	DEFSTORAGE/DEFFILE		SudokuSolver.dp				0x00033599	0	INFOLINK
 uNot						6.6.8	DEFSTORAGE/DEFFILE		UniNotifier.dp				0x000563B7	0	INFOPAGE
-Vice city toolset			4.3.5	DEFSTORAGE/DEFFILE		ViceCityToolset.dp			0x001A0BB1	1	INFOPAGE
+Vice city toolset			4.3.8	DEFSTORAGE/DEFFILE		ViceCityToolset.dp			0x001A0DB1	1	INFOPAGE
 
 
 #Mods for Windows
