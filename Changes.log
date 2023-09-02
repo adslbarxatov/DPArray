@@ -3,7 +3,7 @@ DPArray: changes log
 Version 6.3:
 • Deployment signs have been replaced with text tips;
 • “Deploy all” context functions have been replaced with “Deploy all updates” variant;
-• The context meny of the tray icon in package selection mode has been replaced with
+• The context menu of the tray icon in package selection mode has been replaced with
   buttons in the main interface;
 • The app interface has been updated
 
