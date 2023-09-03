@@ -1,5 +1,8 @@
 DPArray: changes log
 
+Version 6.3.1:
+• New identity has been applied
+
 Version 6.3:
 • Deployment signs have been replaced with text tips;
 • “Deploy all” context functions have been replaced with “Deploy all updates” variant;

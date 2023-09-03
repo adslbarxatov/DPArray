@@ -303,9 +303,6 @@ Retry the list downloading?</value>
   <data name="IconRegisterExt" xml:space="preserve">
     <value>Register file associations</value>
   </data>
-  <data name="NotInstalledMessage" xml:space="preserve">
-    <value> (new)</value>
-  </data>
   <data name="UpdatableMessage" xml:space="preserve">
     <value> (update)</value>
   </data>
@@ -355,10 +352,10 @@ Do you want to save a cache of package descriptions? When deleted, they will be 
     <value>Package uninstallation script</value>
   </data>
   <data name="PSF_NewPackage" xml:space="preserve">
-    <value>(new)</value>
+    <value>[new]</value>
   </data>
   <data name="PSF_NoInfo" xml:space="preserve">
-    <value>(no info)</value>
+    <value>[no info]</value>
   </data>
   <data name="PSF_TableHeader00" xml:space="preserve">
     <value>Deployment</value>
@@ -450,10 +447,10 @@ If possible, they will be installed automatically in the next step. Otherwise, t
     <value>Fast deployment</value>
   </data>
   <data name="PSF_Default" xml:space="preserve">
-    <value>(normal)</value>
+    <value>[normal]</value>
   </data>
   <data name="PSF_Fast" xml:space="preserve">
-    <value>(fast)</value>
+    <value>[fast]</value>
   </data>
   <data name="PSF_URLAvailable" xml:space="preserve">
     <value>

@@ -302,9 +302,6 @@ DPArray выполняет установку, удаление, проверк�
   <data name="IconRegisterExt" xml:space="preserve">
     <value>Зарегистрировать ассоц. файлов</value>
   </data>
-  <data name="NotInstalledMessage" xml:space="preserve">
-    <value> (новое)</value>
-  </data>
   <data name="UpdatableMessage" xml:space="preserve">
     <value> (обновление)</value>
   </data>

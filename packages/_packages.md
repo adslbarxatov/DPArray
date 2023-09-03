@@ -1,7 +1,7 @@
 ```
 Packages, available for download:
 
-DPArray						6.3		DEFSTORAGE/DPArray.dp	DPArray.dp					0x000A1277	0	INFOPAGE
+DPArray						6.3.1	DEFSTORAGE/DPArray.dp	DPArray.dp					0x000A0E7D	0	INFOPAGE
 
 #Windows apps
 Batch image convertor		3.4.6	DEFSTORAGE/DEFFILE		BatchImageConvertor.dp		0x0005A960	1	INFOLINK
