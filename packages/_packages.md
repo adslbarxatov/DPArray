@@ -10,7 +10,7 @@ Dates difference			3.3.6	DEFSTORAGE/DEFFILE		DatesDifference.dp			0x00031FD2	0	I
 File extensions manager		2.4.6	DEFSTORAGE/DEFFILE		FileExtensionsManager.dp	0x00055A1F	0	INFOPAGE
 Font finder					3.3.8	DEFSTORAGE/DEFFILE		FontFinder.dp				0x00047BCD	0	INFOPAGE
 Geomag data drawer			5.4.8	DEFSTORAGE/DEFFILE		GeomagDataDrawer.dp			0x00133499	1	INFOPAGE
-KassArray					4.6		DEFSTORAGE/DEFFILE		KassArray.dp				0x001253F2	1	INFOPAGE
+KassArray					4.6.1	DEFSTORAGE/DEFFILE		KassArray.dp				0x001285F4	1	INFOPAGE
 OS macros executor			3.3.8	DEFSTORAGE/DEFFILE		OSMacrosExecutor.dp			0x0005D332	1	INFOLINK
 Screen shooter				2.3.8	DEFSTORAGE/DEFFILE		ScreenShooter.dp			0x000311BD	0	INFOLINK
 Sudoku solver				4.0.8	DEFSTORAGE/DEFFILE		SudokuSolver.dp				0x00033599	0	INFOLINK
@@ -36,7 +36,7 @@ Turtle						2.2.8	DEFSTORAGE/DEFFILE		Turtle.7z					14771884	1	INFOLINK
 
 
 #Android apps as APK
-KassArray					4.6		GIT_LINK/KassArray/GIT_PATH/DEFFILE				KassArray.apk		35274578	3	INFOPAGE
+KassArray					4.6.1	GIT_LINK/KassArray/GIT_PATH/DEFFILE				KassArray.apk		35213202	3	INFOPAGE
 Make decision				3.3.6	GIT_LINK/MakeDecision/GIT_PATH/DEFFILE			MakeDecision.apk	34516933	3	INFOPAGE
 PA detector					3.2.3	GIT_LINK/EnchantIt/GIT_PATH/DEFFILE				EnchantIt.apk		41982668	3	INFOPAGE
 uNot						6.7		GIT_LINK/UniNotifier/GIT_PATH/DEFFILE			UniNotifier.apk		34947348	3	INFOPAGE
@@ -45,28 +45,28 @@ uNot						6.7		GIT_LINK/UniNotifier/GIT_PATH/DEFFILE			UniNotifier.apk		34947348
 #Microsoft Store
 Font finder					3.3.8	-	-	0	7	MS_STORE/9MXDR4BXP8R4
 Geomag data drawer			5.4.5	-	-	0	7	MS_STORE/9PG19ZZ3NH47
-KassArray					4.6		-	-	0	7	MS_STORE/9ND98F4C4Q60
+KassArray					4.6.1	-	-	0	7	MS_STORE/9ND98F4C4Q60
 One hundred and one			2.1.8	-	-	0	7	MS_STORE/9NHVH857DV1S
 Thousand					2.1.8	-	-	0	7	MS_STORE/9NRQ4LQZNKKG
 uNot						6.7		-	-	0	7	MS_STORE/9NVZ51RL54K4
 
 
 #Google play
-KassArray					4.6		-	-	0	7	GP_STOREcom.RD_AAOW.TextToKKT
+KassArray					4.6.1	-	-	0	7	GP_STOREcom.RD_AAOW.TextToKKT
 Make decision				3.3.6	-	-	0	7	GP_STOREcom.RD_AAOW.MakeDecision
 PA detector					3.2.3	-	-	0	7	GP_STOREcom.RD_AAOW.EnchantIt
 uNot						6.7		-	-	0	7	GP_STOREcom.RD_AAOW.UniNotifier
 
 
 #AppGallery
-KassArray					4.6		-	-	0	7	HU_STORE/kOnu2dYlNu
+KassArray					4.6.1	-	-	0	7	HU_STORE/kOnu2dYlNu
 Make decision				3.3.6	-	-	0	7	HU_STORE/kOnqdCKeek
 PA detector					3.2.3	-	-	0	7	HU_STORE/kOnbnDnG12
 uNot						6.7		-	-	0	7	HU_STORE/kOns67WJJ6
 
 
 #GetApps
-KassArray					4.6		-	-	0	7	MI_STOREtexttokkt.xiaomi
+KassArray					4.6.1	-	-	0	7	MI_STOREtexttokkt.xiaomi
 Make decision				3.3.6	-	-	0	7	MI_STOREmakedecision.xiaomi
 PA detector					3.2.3	-	-	0	7	MI_STOREenchantit.rdaaowfdl
 uNot						6.7		-	-	0	7	MI_STOREuninotifier.xiaomi
