@@ -37,8 +37,8 @@ Turtle						2.2.8	DEFSTORAGE/DEFFILE		Turtle.7z					14771884	1	INFOLINK
 
 #Android apps as APK
 KassArray					4.6.1	GIT_LINK/KassArray/GIT_PATH/DEFFILE				KassArray.apk		35213202	3	INFOPAGE
-Make decision				3.3.6	GIT_LINK/MakeDecision/GIT_PATH/DEFFILE			MakeDecision.apk	34516933	3	INFOPAGE
-PA detector					3.2.3	GIT_LINK/EnchantIt/GIT_PATH/DEFFILE				EnchantIt.apk		41982668	3	INFOPAGE
+Make decision				3.3.7	GIT_LINK/MakeDecision/GIT_PATH/DEFFILE			MakeDecision.apk	34525125	3	INFOPAGE
+PA detector					3.2.4	GIT_LINK/EnchantIt/GIT_PATH/DEFFILE				EnchantIt.apk		41982668	3	INFOPAGE
 uNot						6.7		GIT_LINK/UniNotifier/GIT_PATH/DEFFILE			UniNotifier.apk		34947348	3	INFOPAGE
 
 
@@ -53,22 +53,15 @@ uNot						6.7		-	-	0	7	MS_STORE/9NVZ51RL54K4
 
 #Google play
 KassArray					4.6.1	-	-	0	7	GP_STOREcom.RD_AAOW.TextToKKT
-Make decision				3.3.6	-	-	0	7	GP_STOREcom.RD_AAOW.MakeDecision
-PA detector					3.2.3	-	-	0	7	GP_STOREcom.RD_AAOW.EnchantIt
+Make decision				3.3.7	-	-	0	7	GP_STOREcom.RD_AAOW.MakeDecision
+PA detector					3.2.4	-	-	0	7	GP_STOREcom.RD_AAOW.EnchantIt
 uNot						6.7		-	-	0	7	GP_STOREcom.RD_AAOW.UniNotifier
-
-
-#AppGallery
-KassArray					4.6.1	-	-	0	7	HU_STORE/kOnu2dYlNu
-Make decision				3.3.6	-	-	0	7	HU_STORE/kOnqdCKeek
-PA detector					3.2.3	-	-	0	7	HU_STORE/kOnbnDnG12
-uNot						6.7		-	-	0	7	HU_STORE/kOns67WJJ6
 
 
 #GetApps
 KassArray					4.6.1	-	-	0	7	MI_STOREtexttokkt.xiaomi
-Make decision				3.3.6	-	-	0	7	MI_STOREmakedecision.xiaomi
-PA detector					3.2.3	-	-	0	7	MI_STOREenchantit.rdaaowfdl
+Make decision				3.3.7	-	-	0	7	MI_STOREmakedecision.xiaomi
+PA detector					3.2.4	-	-	0	7	MI_STOREenchantit.rdaaowfdl
 uNot						6.7		-	-	0	7	MI_STOREuninotifier.xiaomi
 
 
