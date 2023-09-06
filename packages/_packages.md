@@ -8,7 +8,7 @@ Batch image convertor		3.4.6	DEFSTORAGE/DEFFILE		BatchImageConvertor.dp		0x0005A
 ConcurrentDraw				3.3.6	DEFSTORAGE/DEFFILE		ConcurrentDraw.dp			0x000ADEE8	1	INFOLINK
 Dates difference			3.3.6	DEFSTORAGE/DEFFILE		DatesDifference.dp			0x00031FD2	0	INFOLINK
 File extensions manager		2.4.6	DEFSTORAGE/DEFFILE		FileExtensionsManager.dp	0x00055A1F	0	INFOPAGE
-Font finder					3.3.8	DEFSTORAGE/DEFFILE		FontFinder.dp				0x00047BCD	0	INFOPAGE
+Font finder					3.3.9	DEFSTORAGE/DEFFILE		FontFinder.dp				0x0004ABCD	0	INFOPAGE
 Geomag data drawer			5.4.9	DEFSTORAGE/DEFFILE		GeomagDataDrawer.dp			0x00134C99	1	INFOPAGE
 KassArray					4.6.1	DEFSTORAGE/DEFFILE		KassArray.dp				0x001285F4	1	INFOPAGE
 OS macros executor			3.3.8	DEFSTORAGE/DEFFILE		OSMacrosExecutor.dp			0x0005D332	1	INFOLINK
@@ -43,7 +43,7 @@ uNot						6.7		GIT_LINK/UniNotifier/GIT_PATH/DEFFILE			UniNotifier.apk		34947348
 
 
 #Microsoft Store
-Font finder					3.3.8	-	-	0	7	MS_STORE/9MXDR4BXP8R4
+Font finder					3.3.9	-	-	0	7	MS_STORE/9MXDR4BXP8R4
 Geomag data drawer			5.4.9	-	-	0	7	MS_STORE/9PG19ZZ3NH47
 KassArray					4.6.1	-	-	0	7	MS_STORE/9ND98F4C4Q60
 One hundred and one			2.1.8	-	-	0	7	MS_STORE/9NHVH857DV1S
