@@ -6,7 +6,7 @@ DPArray						6.3.1	DEFSTORAGE/DPArray.dp	DPArray.dp					0x000A0E7D	0	INFOPAGE
 #Windows apps
 Batch image convertor		3.4.6	DEFSTORAGE/DEFFILE		BatchImageConvertor.dp		0x0005A960	1	INFOLINK
 ConcurrentDraw				3.3.6	DEFSTORAGE/DEFFILE		ConcurrentDraw.dp			0x000ADEE8	1	INFOLINK
-Dates difference			3.3.6	DEFSTORAGE/DEFFILE		DatesDifference.dp			0x00031FD2	0	INFOLINK
+Dates difference			3.3.9	DEFSTORAGE/DEFFILE		DatesDifference.dp			0x000327D2	0	INFOLINK
 File extensions manager		2.4.6	DEFSTORAGE/DEFFILE		FileExtensionsManager.dp	0x00055A1F	0	INFOPAGE
 Font finder					3.3.9	DEFSTORAGE/DEFFILE		FontFinder.dp				0x0004ABCD	0	INFOPAGE
 Geomag data drawer			5.4.9	DEFSTORAGE/DEFFILE		GeomagDataDrawer.dp			0x00134C99	1	INFOPAGE
