@@ -146,7 +146,6 @@ since it uses a user-selected system audio output
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/uninotifier/releases/latest) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) &#x3000;
 :iphone: [Get on GetApps](https://global.app.mi.com/details?id=uninotifier.xiaomi) &#x3000;
-:iphone: [Get on AppGallery](https://url.cloud.huawei.com/kOns67WJJ6) &#x3000;
 :package: [Get APK](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.apk)
 
 This app provides the ability to be notified when the status of user-specified websites changes.
@@ -162,7 +161,6 @@ has specified is loaded – all other objects (including ads) are ignored
 :film_projector: [Video guide](https://youtube.com/watch?v=hTnDR89VR8w) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) &#x3000;
 :iphone: [Get on GetApps](https://global.app.mi.com/details?id=enchantit.rdaaowfdl) &#x3000;
-:iphone: [Get on AppGallery](https://url.cloud.huawei.com/kOnbnDnG12) &#x3000;
 :package: [Get APK](https://github.com/adslbarxatov/EnchantIt/releases/latest/download/PADetector.apk)
 
 The paranormal activity search tool. Its task is to discover and mathematically confirm some paranormal
@@ -191,7 +189,6 @@ Stand-alone tool for building and designing diagrams based on tabular data
 :film_projector: [Video guide](https://youtube.com/watch?v=PvG9rw_8rf0) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) &#x3000;
 :iphone: [Get on GetApps](https://global.app.mi.com/details?id=makedecision.xiaomi) &#x3000;
-:iphone: [На AppGallery](https://url.cloud.huawei.com/kOnqdCKeek) &#x3000;
 :package: [Get APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.apk)
 
 This application illustrates a math method that allows comparing some objects or events based on a set
