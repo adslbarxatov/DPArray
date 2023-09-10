@@ -11,11 +11,11 @@ File extensions manager		2.5		DEFSTORAGE/DEFFILE		FileExtensionsManager.dp	0x000
 Font finder					3.3.9	DEFSTORAGE/DEFFILE		FontFinder.dp				0x0004ABCD	0	INFOPAGE
 Geomag data drawer			5.4.9	DEFSTORAGE/DEFFILE		GeomagDataDrawer.dp			0x00134C99	1	INFOPAGE
 KassArray					4.6.1	DEFSTORAGE/DEFFILE		KassArray.dp				0x001285F4	1	INFOPAGE
-OS macros executor			3.3.8	DEFSTORAGE/DEFFILE		OSMacrosExecutor.dp			0x0005D332	1	INFOLINK
+OS macros executor			3.4		DEFSTORAGE/DEFFILE		OSMacrosExecutor.dp			0x0005F130	1	INFOLINK
 Screen shooter				2.3.9	DEFSTORAGE/DEFFILE		ScreenShooter.dp			0x000321BD	0	INFOLINK
 Sudoku solver				4.0.9	DEFSTORAGE/DEFFILE		SudokuSolver.dp				0x00034399	0	INFOLINK
 uNot						6.7		DEFSTORAGE/DEFFILE		UniNotifier.dp				0x0005B3B5	0	INFOPAGE
-Vice city toolset			4.3.8	DEFSTORAGE/DEFFILE		ViceCityToolset.dp			0x001A0DB1	1	INFOPAGE
+Vice city toolset			4.3.9	DEFSTORAGE/DEFFILE		ViceCityToolset.dp			0x001A39B1	1	INFOPAGE
 
 
 #Mods for Windows
