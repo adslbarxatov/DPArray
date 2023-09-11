@@ -56,7 +56,7 @@
 
 :earth_africa: все необходимые ссылки;
 
-:iphone: :package: :envelope_with_arrow: :black_large_square: релизы проектов;
+:iphone: :package: :envelope_with_arrow: :briefcase: релизы проектов;
 
 :gb: :ru: набор доступных языков интерфейса;
 
@@ -140,7 +140,7 @@
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/UniNotifier/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=seFfQkfL6Sk) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://UniNotifier) &#x3000;
-:black_large_square: [На Microsoft Store](ms-windows-store://pdp/?productid=9NVZ51RL54K4) &#x3000;
+:briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NVZ51RL54K4) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/uninotifier/releases/latest) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) &#x3000;
 :iphone: [На GetApps](https://global.app.mi.com/details?id=uninotifier.xiaomi) &#x3000;
@@ -204,7 +204,7 @@
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/KassArray) &#x3000;
 :film_projector: [Видеопрезентация](https://youtube.com/watch?v=fdH4SKFdTCI) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KassArray) &#x3000;
-:black_large_square: [На Microsoft Store](ms-windows-store://pdp/?productid=9ND98F4C4Q60) &#x3000;
+:briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9ND98F4C4Q60) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/kassarray/releases/latest) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT) &#x3000;
 :iphone: [На GetApps](https://global.app.mi.com/details?id=texttokkt.xiaomi) &#x3000;
@@ -221,7 +221,7 @@
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/GeomagDataDrawer/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://GeomagDataDrawer) &#x3000;
-:black_large_square: [На Microsoft Store](ms-windows-store://pdp/?productid=9PG19ZZ3NH47) &#x3000;
+:briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9PG19ZZ3NH47) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/geomagdatadrawer/releases/latest)
 
 Автономный инструмент построения и оформления диаграмм на основе табличных данных
@@ -262,7 +262,7 @@
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/FontFinder/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=zK-6pfEMCbA) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://FontFinder) &#x3000;
-:black_large_square: [На Microsoft Store](ms-windows-store://pdp/?productid=9MXDR4BXP8R4) &#x3000;
+:briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9MXDR4BXP8R4) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/fontfinder/releases/latest)
 
 Инструмент для поиска шрифта по его изображению
@@ -393,7 +393,7 @@ ES: Randomaze – генератор карт для одноимённого м
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/OneHundredOne/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://OneHundredOne) &#x3000;
-:black_large_square: [На Microsoft Store](ms-windows-store://pdp/?productid=9NHVH857DV1S) &#x3000;
+:briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NHVH857DV1S) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/OneHundredOne/releases/latest)
 
 Это приложение имитирует игру «Сто одно» для двух игроков
@@ -405,7 +405,7 @@ ES: Randomaze – генератор карт для одноимённого м
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/Thousand/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Thousand) &#x3000;
-:black_large_square: [На Microsoft Store](ms-windows-store://pdp/?productid=9NRQ4LQZNKKG) &#x3000;
+:briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NRQ4LQZNKKG) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/Thousand/releases/latest)
 
 Это приложение имитирует игру «Тысяча» для трёх игроков
