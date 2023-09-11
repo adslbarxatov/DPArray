@@ -125,8 +125,10 @@ You can get all our products through this application (including APKs for Androi
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/concurrentdraw) &#x3000;
+
 :film_projector: [Video guide](https://youtube.com/watch?v=MMsf7CA5cSE) &#x3000;
 :tv: [ConcurrentDraw live](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc) &#x3000;
+
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ConcurrentDraw) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/concurrentdraw/releases/latest)
 
