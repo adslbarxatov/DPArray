@@ -125,8 +125,8 @@
 :earth_africa: [О продукте](https://github.com/adslbarxatov/concurrentdraw) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=MMsf7CA5cSE) &#x3000;
 :tv: [ConcurrentDraw live](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/concurrentdraw/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ConcurrentDraw)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ConcurrentDraw) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/concurrentdraw/releases/latest)
 
 Инструмент визуализации звука и музыки (самостоятельная обложка для WMP). Работает без дополнительных кодеков и драйверов,
 т. к. использует выбираемый пользователем системный аудиовыход
