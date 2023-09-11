@@ -58,7 +58,7 @@ Descriptions contain:
 
 :earth_africa: all the necessary links;
 
-:iphone: :package: :envelope_with_arrow: :black_large_square: projects releases;
+:iphone: :package: :envelope_with_arrow: :black_large_square: :briefcase: projects releases;
 
 :gb: :ru: set of available interface languages;
 
