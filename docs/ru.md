@@ -1,6 +1,6 @@
 # Добро пожаловать в Лабораторию!
 
-[**DPArray ● Прямая ссылка для загрузки ● Windows**](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.sfx.exe)
+[**DPArray &#x25CF; Прямая ссылка для загрузки &#x25CF; Windows**](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.sfx.exe)
 
 &nbsp;
 
@@ -248,8 +248,8 @@
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/batchimageconvertor) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/batchimageconvertor/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://BatchImageConvertor)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://BatchImageConvertor) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/batchimageconvertor/releases/latest)
 
 Небольшой инструмент для автоматической обработки групп изображений
 
@@ -324,8 +324,8 @@ ES: Randomaze – генератор карт для одноимённого м
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/ViceCityToolset/ru) &#x3000;
 :film_projector: [Демо видео](https://youtube.com/watch?v=RdLt-dTz8vU) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/ViceCityToolset/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ViceCityToolset)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ViceCityToolset) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/ViceCityToolset/releases/latest)
 
 Набор инструментов моддера для GTA Vice city, поддерживающий некоторые полезные функции и операции.
 А именно: редактирование файлов сохранений, редактирование параметров транспорта, преобразование моделей в скрипты коллизий и т.п.
@@ -337,8 +337,8 @@ ES: Randomaze – генератор карт для одноимённого м
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/osmacrosexecutor) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=a9yjvx7Cy3M) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/osmacrosexecutor/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://OSMacrosExecutor)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://OSMacrosExecutor) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/osmacrosexecutor/releases/latest)
 
 Инструмент автоматизации действий пользователя в операционной системе Windows
 
@@ -348,8 +348,8 @@ ES: Randomaze – генератор карт для одноимённого м
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/FileExtensionsManager/ru) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/fileextensionsmanager/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://FileExtensionsManager)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://FileExtensionsManager) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/fileextensionsmanager/releases/latest)
 
 Инструмент управления пользовательскими настройками расширений файлов в операционной системе Windows
 
@@ -359,8 +359,8 @@ ES: Randomaze – генератор карт для одноимённого м
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/screenshooter) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/screenshooter/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ScreenShooter)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ScreenShooter) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/screenshooter/releases/latest)
 
 Утилита для создания скриншотов. Поддерживает снимки экрана, окон и элементов приложений
 
@@ -370,8 +370,8 @@ ES: Randomaze – генератор карт для одноимённого м
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/datesdifference) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/datesdifference/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://DatesDifference)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://DatesDifference) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/datesdifference/releases/latest)
 
 Простой инструмент, определяющий разницу между двумя датами в различных представлениях
 
@@ -381,8 +381,8 @@ ES: Randomaze – генератор карт для одноимённого м
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/sudokusolver) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/sudokusolver/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://SudokuSolver)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://SudokuSolver) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/sudokusolver/releases/latest)
 
 Простой инструмент для решения судоку
 

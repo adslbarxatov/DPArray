@@ -1,6 +1,6 @@
 # Welcome to Laboratory!
 
-[**DPArray ● Direct download link ● Windows**](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.sfx.exe)
+[**DPArray &#x25CF; Direct download link &#x25CF; Windows**](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.sfx.exe)
 
 &nbsp;
 
@@ -127,8 +127,8 @@ You can get all our products through this application (including APKs for Androi
 :earth_africa: [About](https://github.com/adslbarxatov/concurrentdraw) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=MMsf7CA5cSE) &#x3000;
 :tv: [ConcurrentDraw live](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/concurrentdraw/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ConcurrentDraw)
+<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ConcurrentDraw) &#x3000;
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/concurrentdraw/releases/latest)
 
 A sound and music visualization tool (stand-alone cover for WMP). It works without additional codecs and drivers,
 since it uses a user-selected system audio output
@@ -202,8 +202,8 @@ As a result, you’ll get the answer for the next question: “what way is the b
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/batchimageconvertor) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/batchimageconvertor/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://BatchImageConvertor)
+<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://BatchImageConvertor) &#x3000;
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/batchimageconvertor/releases/latest)
 
 A small tool for batch images processing
 
@@ -278,8 +278,8 @@ and corrections is available here
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/ViceCityToolset) &#x3000;
 :film_projector: [Video demo](https://youtube.com/watch?v=RdLt-dTz8vU) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/ViceCityToolset/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ViceCityToolset)
+<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ViceCityToolset) &#x3000;
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/ViceCityToolset/releases/latest)
 
 A set of modder tools for GTA Vice city that supports some useful functions and operations.
 Namely: editing game saves, editing transport parameters, converting models to collision scripts, etc.
@@ -291,8 +291,8 @@ Namely: editing game saves, editing transport parameters, converting models to c
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/osmacrosexecutor) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=a9yjvx7Cy3M) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/osmacrosexecutor/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://OSMacrosExecutor)
+<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://OSMacrosExecutor) &#x3000;
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/osmacrosexecutor/releases/latest)
 
 A tool for automation of user actions in Windows operating system
 
@@ -302,8 +302,8 @@ A tool for automation of user actions in Windows operating system
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/FileExtensionsManager) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/fileextensionsmanager/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://FileExtensionsManager)
+<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://FileExtensionsManager) &#x3000;
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/fileextensionsmanager/releases/latest)
 
 A tool for managing the custom file extensions in Windows operating system
 
@@ -313,8 +313,8 @@ A tool for managing the custom file extensions in Windows operating system
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/screenshooter) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/screenshooter/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ScreenShooter)
+<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ScreenShooter) &#x3000;
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/screenshooter/releases/latest)
 
 An utility for creating screenshots. Supports shooting of screen, windows and elements of applications
 
@@ -324,8 +324,8 @@ An utility for creating screenshots. Supports shooting of screen, windows and el
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/datesdifference) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/datesdifference/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://DatesDifference)
+<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://DatesDifference) &#x3000;
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/datesdifference/releases/latest)
 
 A simple tool that can tell the difference between two dates in different views
 
@@ -335,8 +335,8 @@ A simple tool that can tell the difference between two dates in different views
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/sudokusolver) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/sudokusolver/releases/latest) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://SudokuSolver)
+<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://SudokuSolver) &#x3000;
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/sudokusolver/releases/latest)
 
 A simple tool for solving sudoku
 
