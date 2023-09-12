@@ -5,40 +5,28 @@
 
 
 - [Home page](https://adslbarxatov.github.io/DPArray)
-- [Домашняя страница](https://adslbarxatov.github.io/DPArray/ru)
 
 &nbsp;
 
 
 
-You can find us using set of popular platforms listed below. Supported languages (:gb: :ru:)
-and opportunity to contact us (:mailbox:) are also indicated.
+You can find us using set of popular platforms listed below.
+The sign :mailbox: marks ones that support messaging with us.
 
----
+[Master community &#x25CF; Telegram](https://t.me/rd_aaow_fdl) :mailbox:
 
-Вы можете найти нас, используя перечень популярных платформ, перечисленных ниже. Также указаны
-поддерживаемые языки (:gb: :ru:) и возможность связаться с нами (:mailbox:).
+[Sources hosting &#x25CF; GitHub](https://github.com/adslbarxatov) :mailbox:
 
----
+[Mods hosting &#x25CF; ModDB](https://moddb.com/members/rd-aaow-fdl) :mailbox:
+
+[Master channel &#x25CF; YouTube](https://youtube.com/c/rdaaowfdl) :mailbox:
 
 &nbsp;
 
 
 
-[Master community ● VK](https://vk.com/rd_aaow_fdl) :ru: :mailbox:
+Also it is possible now to help us with digital signatures (NFTs)
+for our logos. In other words, you can donate to us if you’re interested
+in our projects. Use next crypto wallet address for it. Thank you in advance!
 
-[Master mirror ● Telegram](https://t.me/rd_aaow_fdl) :gb: :ru: :mailbox:
-
-[Sources hosting ● GitHub](https://github.com/adslbarxatov) :gb: :ru: :mailbox:
-
-[Mods hosting ● ModDB](https://moddb.com/members/rd-aaow-fdl) :gb: :mailbox:
-
-[Master channel ● YouTube](https://youtube.com/c/rdaaowfdl) :gb: :ru: :mailbox:
-
-[Side community ● VK](https://vk.com/grammarmustjoy) :ru:
-
-[Side mirror ● Telegram](https://t.me/grammarmustjoy) :ru:
-
-RD AAOW FDL#6304 ● Discord :gb: :ru: :mailbox:
-
-[NFT hosting ● Rarible](https://rarible.com/rd_aaow_fdl) :gb:
+```0x99405449C40b81cAA65509db966cAf565cf0620a```

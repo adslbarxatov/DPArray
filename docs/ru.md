@@ -11,7 +11,7 @@
 - [Здравствуйте, уважаемый пользователь!](#section-3)
 - [Актуальные проекты и разработки](#section-4)
 - [Облако ссылок](#section-5)
-- [Контакты](https://adslbarxatov.github.io/DPArray/contacts)
+- [Контакты](https://adslbarxatov.github.io/DPArray/contacts_ru)
 - [Концепты лого](https://adslbarxatov.github.io/DPArray/logo_ru)
 - [English version](https://adslbarxatov.github.io/DPArray)
 
