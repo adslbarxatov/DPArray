@@ -1,17 +1,13 @@
 # Laboratory: contacts
 
-&nbsp;
-
-
-
-- [Home page](https://adslbarxatov.github.io/DPArray)
+[Return to home page](https://adslbarxatov.github.io/DPArray)
 
 &nbsp;
 
 
 
 You can find us using set of popular platforms listed below.
-The sign :mailbox: marks ones that support messaging with us.
+The sign :mailbox: marks those who support the exchange of messages with us.
 
 [Master community &#x25CF; Telegram](https://t.me/rd_aaow_fdl) :mailbox:
 
@@ -27,6 +23,7 @@ The sign :mailbox: marks ones that support messaging with us.
 
 Also it is possible now to help us with digital signatures (NFTs)
 for our logos. In other words, you can donate to us if you’re interested
-in our projects. Use next crypto wallet address for it. Thank you in advance!
+in our projects. Use the following address of crypto wallet for it.
+***And thank you in advance!***
 
 ```0x99405449C40b81cAA65509db966cAf565cf0620a```
