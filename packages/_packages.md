@@ -9,7 +9,7 @@ ConcurrentDraw				3.3.9	DEFSTORAGE/DEFFILE		ConcurrentDraw.dp			0x000B16E8	1	INF
 Dates difference			3.3.9	DEFSTORAGE/DEFFILE		DatesDifference.dp			0x000327D2	0	INFOLINK
 File extensions manager		2.5		DEFSTORAGE/DEFFILE		FileExtensionsManager.dp	0x00056E1D	0	INFOPAGE
 Font finder					3.3.9	DEFSTORAGE/DEFFILE		FontFinder.dp				0x0004ABCD	0	INFOPAGE
-Geomag data drawer			5.4.9	DEFSTORAGE/DEFFILE		GeomagDataDrawer.dp			0x00134C99	1	INFOPAGE
+Geomag data drawer			5.5		DEFSTORAGE/DEFFILE		GeomagDataDrawer.dp			0x00136297	1	INFOPAGE
 KassArray					4.6.1	DEFSTORAGE/DEFFILE		KassArray.dp				0x001285F4	1	INFOPAGE
 OS macros executor			3.4		DEFSTORAGE/DEFFILE		OSMacrosExecutor.dp			0x0005F130	1	INFOLINK
 Screen shooter				2.3.9	DEFSTORAGE/DEFFILE		ScreenShooter.dp			0x000321BD	0	INFOLINK
@@ -20,7 +20,7 @@ Vice city toolset			4.3.9	DEFSTORAGE/DEFFILE		ViceCityToolset.dp			0x001A39B1	1	
 
 #Mods for Windows
 ESHQ							13.5	MODSTORAGE/250593?MOD_REFmods%2Feshq	ESHQ_setup.7z		232218407	3	MODSHOST/eshq
-ESHQ, actual update				13.7.1	MODSTORAGE/256219?MOD_REFmods%2Feshq	ESHQ_update.7z		36986948	0	MODSHOST/eshq
+ESHQ, actual update				13.7.2	MODSTORAGE/257303?MOD_REFmods%2Feshq	ESHQ_update.7z		42882507	0	MODSHOST/eshq
 ES: Randomaze					5.0		MODSTORAGE/256554?MOD_REFmods%2Fesrm	ESRM_setup.7z		60229231	3	MODSHOST/esrm
 ES: Randomaze, actual update	5.0.1	MODSTORAGE/256556?MOD_REFmods%2Fesrm	ESRM_update.7z		195837		0	MODSHOST/esrm
 ES: Randomaze, bkwd compat.		5.0		MODSTORAGE/256553?MOD_REFmods%2Fesrm	ESRM_bkwd.7z		11669091	0	MODSHOST/esrm
