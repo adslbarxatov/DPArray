@@ -20,7 +20,7 @@ Vice city toolset			4.3.9	DEFSTORAGE/DEFFILE		ViceCityToolset.dp			0x001A39B1	1	
 
 #Mods for Windows
 ESHQ							13.5	MODSTORAGE/250593?MOD_REFmods%2Feshq	ESHQ_setup.7z		232218407	3	MODSHOST/eshq
-ESHQ, actual update				13.7.2	MODSTORAGE/257303?MOD_REFmods%2Feshq	ESHQ_update.7z		42882507	0	MODSHOST/eshq
+ESHQ, actual update				13.7.3	MODSTORAGE/257624?MOD_REFmods%2Feshq	ESHQ_update.7z		43000513	0	MODSHOST/eshq
 ES: Randomaze					5.0		MODSTORAGE/256554?MOD_REFmods%2Fesrm	ESRM_setup.7z		60229231	3	MODSHOST/esrm
 ES: Randomaze, actual update	5.0.1	MODSTORAGE/256556?MOD_REFmods%2Fesrm	ESRM_update.7z		195837		0	MODSHOST/esrm
 ES: Randomaze, bkwd compat.		5.0		MODSTORAGE/256553?MOD_REFmods%2Fesrm	ESRM_bkwd.7z		11669091	0	MODSHOST/esrm
