@@ -349,7 +349,7 @@ Do you want to save a cache of package descriptions? When deleted, they will be 
     <value>Exit if completed successfully</value>
   </data>
   <data name="dpdfile" xml:space="preserve">
-    <value>Package uninstallation script</value>
+    <value>Package deinstallation script</value>
   </data>
   <data name="PSF_NewPackage" xml:space="preserve">
     <value>[new]</value>
@@ -465,5 +465,11 @@ Do you want to open the webpage with additional project info?</value>
   </data>
   <data name="PSF_Context06" xml:space="preserve">
     <value>Deploy all updates</value>
+  </data>
+  <data name="dptfile" xml:space="preserve">
+    <value>DPArray auxiliary script</value>
+  </data>
+  <data name="AddToStartup" xml:space="preserve">
+    <value>Add to startup</value>
   </data>
 </root>

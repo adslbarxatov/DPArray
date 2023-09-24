@@ -1,9 +1,12 @@
 DPArray: changes log
 
-ToDo:
-- New banners;
-- Mini-launcher;
-- New file extensions
+Version 6.4:
+• App mini-launcher has been implemented. It can be added to startup. So you can be notified about
+  available updates (once per operating system startup). Also all previously deployed apps can be
+  called from it by one click;
+• App will now properly reserve its auxiliary file extensions;
+• Updated the method of downloads cleanup;
+• Almost all banners have been updated
 
 Version 6.3.1:
 • New identity has been applied

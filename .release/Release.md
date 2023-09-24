@@ -1,7 +1,6 @@
-_Changes for v 6.3.1_:
-- New identity has been applied;
-- Deployment signs have been replaced with text tips;
-- “Deploy all” context functions have been replaced with “Deploy all updates” variant;
-- The context meny of the tray icon in package selection mode has been replaced with buttons in the main interface;
-- The app interface has been updated;
-- Added an obvious URL for videoguide and for text guide
+_Changes for v 6.4_:
+- App mini-launcher has been implemented. It can be added to startup. So you can be notified about available updates (once per operating system startup). Also all previously deployed apps can be called from it by one click;
+- App will now properly reserve its auxiliary file extensions;
+- Updated the method of downloads cleanup;
+- Almost all banners have been updated;
+- Deployment signs have been replaced with text tips
