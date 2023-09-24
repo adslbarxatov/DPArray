@@ -28,10 +28,10 @@ Crazy cheater’s mod				1.3		MODSTORAGE/240088?MOD_REFmods%2Fccm		CCM.7z				165
 
 
 #Minigames for Windows
-One hundred and one			2.1.8	DEFSTORAGE/DEFFILE		OneHundredOne.dp			0x0003538C	0	INFOPAGE
+One hundred and one			2.1.9	DEFSTORAGE/DEFFILE		OneHundredOne.dp			0x0003C98C	0	INFOPAGE
 Races						2.2.8	DEFSTORAGE/DEFFILE		Races.7z					14691578	1	INFOLINK
 Snake						2.2.8	DEFSTORAGE/DEFFILE		Snake.7z					16125141	1	INFOLINK
-Thousand					2.1.8	DEFSTORAGE/DEFFILE		Thousand.dp					0x0003795A	0	INFOPAGE
+Thousand					2.1.9	DEFSTORAGE/DEFFILE		Thousand.dp					0x00037B5A	0	INFOPAGE
 Turtle						2.2.8	DEFSTORAGE/DEFFILE		Turtle.7z					14771884	1	INFOLINK
 
 
@@ -45,9 +45,9 @@ uNot						6.7		GIT_LINK/UniNotifier/GIT_PATH/DEFFILE			UniNotifier.apk		34947348
 #Microsoft Store
 Font finder					3.3.9	-	-	0	7	MS_STORE/9MXDR4BXP8R4
 Geomag data drawer			5.4.9	-	-	0	7	MS_STORE/9PG19ZZ3NH47
-KassArray					4.6.2	-	-	0	7	MS_STORE/9ND98F4C4Q60
-One hundred and one			2.1.8	-	-	0	7	MS_STORE/9NHVH857DV1S
-Thousand					2.1.8	-	-	0	7	MS_STORE/9NRQ4LQZNKKG
+KassArray					4.6.1	-	-	0	7	MS_STORE/9ND98F4C4Q60
+One hundred and one			2.1.9	-	-	0	7	MS_STORE/9NHVH857DV1S
+Thousand					2.1.9	-	-	0	7	MS_STORE/9NRQ4LQZNKKG
 uNot						6.7		-	-	0	7	MS_STORE/9NVZ51RL54K4
 
 
@@ -66,7 +66,7 @@ uNot						6.7		-	-	0	7	MI_STOREuninotifier.xiaomi
 
 
 
-#ALERT: DPArray now has mini-launcher! 
+#ALERT: DPArray now has mini-launcher!||
 #ALERT: You can use it to keep your apps up-to-date and to start all of them 
 #ALERT: from one place in your system tray
 
