@@ -6,7 +6,8 @@ Version 6.4:
   called from it by one click;
 • App will now properly reserve its auxiliary file extensions;
 • Updated the method of downloads cleanup;
-• Almost all banners have been updated
+• Almost all banners have been updated;
+• Removed some redundant resources
 
 Version 6.3.1:
 • New identity has been applied
