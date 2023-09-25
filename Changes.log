@@ -1,5 +1,9 @@
 DPArray: changes log
 
+ToDo:
+- Adjust mini-launcher's messages;
+- Lock buttons in the main window
+
 Version 6.4.5:
 • Mini-launcher is now able to force the close and restart of the app you’re calling (f. e.,
   in case of freezing);
