@@ -36,6 +36,27 @@ namespace RD_AAOW
 			}
 
 		/// <summary>
+		/// Метод удаляет ярлык к файлу из текущего меню Пуск
+		/// </summary>
+		/// <param name="ShortcutFileName">Имя файла ярлыка</param>
+		/// <param name="SubdirectoryName">Субдиректория в меню Пуск для данного пакета</param>
+		/// <returns>Возвращает 0 в случае успеха</returns>
+		public static int DeleteMenuShortcut (string SubdirectoryName, string ShortcutFileName)
+			{
+			string dir = Environment.GetFolderPath (Environment.SpecialFolder.CommonStartMenu) +
+				"\\" + SubdirectoryName;
+			int res = DeleteShortcut (ShortcutFileName, dir);
+
+			try
+				{
+				Directory.Delete (dir);
+				}
+			catch { }
+
+			return res;
+			}
+
+		/// <summary>
 		/// Метод создаёт ярлык к файлу на текущем рабочем столе
 		/// </summary>
 		/// <param name="ShortcutArguments">Аргументы командной строки, передаваемые с файлом</param>
@@ -45,9 +66,20 @@ namespace RD_AAOW
 		public static int CreateDesktopShortcut (string TargetFile, string ShortcutFileName,
 			string ShortcutArguments)
 			{
-			return CreateShortcut (TargetFile, ShortcutFileName, 
+			return CreateShortcut (TargetFile, ShortcutFileName,
 				Environment.GetFolderPath (Environment.SpecialFolder.Desktop),
 				ShortcutArguments);
+			}
+
+		/// <summary>
+		/// Метод удаляет ярлык к файлу с текущего рабочего стола
+		/// </summary>
+		/// <param name="ShortcutFileName">Имя файла ярлыка</param>
+		/// <returns>Возвращает 0 в случае успеха</returns>
+		public static int DeleteDesktopShortcut (string ShortcutFileName)
+			{
+			return DeleteShortcut (ShortcutFileName,
+				Environment.GetFolderPath (Environment.SpecialFolder.Desktop));
 			}
 
 		/// <summary>
@@ -60,9 +92,20 @@ namespace RD_AAOW
 		public static int CreateStartupShortcut (string TargetFile, string ShortcutFileName,
 			string ShortcutArguments)
 			{
-			return CreateShortcut (TargetFile, ShortcutFileName, 
+			return CreateShortcut (TargetFile, ShortcutFileName,
 				Environment.GetFolderPath (Environment.SpecialFolder.CommonStartup),
 				ShortcutArguments);
+			}
+
+		/// <summary>
+		/// Метод удаляет ярлык к файлу из меню автозапуска
+		/// </summary>
+		/// <param name="ShortcutFileName">Имя файла ярлыка</param>
+		/// <returns>Возвращает 0 в случае успеха</returns>
+		public static int DeleteStartupShortcut (string ShortcutFileName)
+			{
+			return DeleteShortcut (ShortcutFileName,
+				Environment.GetFolderPath (Environment.SpecialFolder.CommonStartup));
 			}
 
 		/// <summary>
@@ -81,7 +124,7 @@ namespace RD_AAOW
 			string ShortcutArguments)
 			{
 			// Контроль
-			if (string.IsNullOrEmpty (TargetFile) || string.IsNullOrEmpty (ShortcutFileName) || 
+			if (string.IsNullOrEmpty (TargetFile) || string.IsNullOrEmpty (ShortcutFileName) ||
 				string.IsNullOrEmpty (ShortcutFilePath))
 				return -1;
 
@@ -112,6 +155,36 @@ namespace RD_AAOW
 			catch
 				{
 				return -3;
+				}
+
+			// Успешно
+			return 0;
+			}
+
+		/// <summary>
+		/// Метод удаляет ярлык файла
+		/// </summary>
+		/// <param name="ShortcutFileName">Имя файла ярлыка</param>
+		/// <param name="ShortcutFilePath">Расположение файла ярлыка</param>
+		/// <returns>Возвращает 0 в случае успеха;
+		/// -1, если переданы пустые строки в качестве путей;</returns>
+		/// -2, если удалить файл не удалось
+		public static int DeleteShortcut (string ShortcutFileName, string ShortcutFilePath)
+			{
+			// Контроль
+			if (string.IsNullOrEmpty (ShortcutFileName) || string.IsNullOrEmpty (ShortcutFilePath))
+				return -1;
+
+			string filePath = ShortcutFilePath.EndsWith ("\\") ? ShortcutFilePath : (ShortcutFilePath + "\\");
+			filePath += (ShortcutFileName + ".lnk");
+
+			try
+				{
+				System.IO.File.Delete (filePath);
+				}
+			catch
+				{
+				return -2;
 				}
 
 			// Успешно

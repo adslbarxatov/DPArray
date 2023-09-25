@@ -615,8 +615,8 @@ namespace RD_AAOW
 
 			// Разбор ответа (извлечение версии)
 			string[] htmlMarkers = {
-				"</a>" + ProgramDescription.AssemblyMainName,
-				"</h1>",
+				ProgramDescription.AssemblyMainName + " v ",
+				"<",
 				ChangeLogMarkerLeft,
 				ChangeLogMarkerRight
 				};
@@ -631,7 +631,7 @@ namespace RD_AAOW
 			if ((j < 0) || (j <= i))
 				goto policy;
 
-			string version = html.Substring (i, j - i).Trim ();
+			string version = "v " + html.Substring (i, j - i).Trim ();
 
 			// Запрос описания пакета
 			html = RDGenerics.GetHTML (updatesLink);
@@ -719,37 +719,43 @@ policy:
 				}
 
 			// Включение текста кнопки
-			if (string.IsNullOrWhiteSpace (UpdatesPageButton.Text))
+			if (/*string.IsNullOrWhiteSpace (UpdatesPageButton.Text)*/ UpdatesPageButton.Text.Contains ("..."))
 				{
 				UpdatesPageButton.Text = updatesMessage;
 
 				// Включение кнопки и установка интервала
 				if (!UpdatesPageButton.Enabled)
 					{
-					// Исключение задвоения
+					// Не запрещать загрузку вручную даже при отсутствии доступа к информации
+					UpdatesPageButton.Enabled = true;
+
+					/* Исключение задвоения
 					if (updatesMessage.Contains (" "))    // Интернет доступен
 						{
-						UpdatesTimer.Interval = 1000;
-						UpdatesPageButton.Enabled = true;
+					UpdatesTimer.Interval = 1000;
+					UpdatesPageButton.Enabled =	true;*/
 
-						if (updatesMessage.Contains ("."))
-							UpdatesPageButton.Font = new Font (UpdatesPageButton.Font, FontStyle.Bold);
-						else
-							UpdatesTimer.Enabled = false;
-						}
-
-					// Отключение таймера, если обновлений нет
-					else
+					UpdatesTimer.Interval = 2000;
+					if (updatesMessage.Contains ("."))
+						UpdatesPageButton.Font = new Font (UpdatesPageButton.Font, FontStyle.Bold);
+					/*else
 						{
 						UpdatesTimer.Enabled = false;
 						}
+					}
+
+				// Отключение таймера, если обновлений нет
+				else
+					{
+					UpdatesTimer.Enabled = false;
+					}*/
 					}
 				}
 
 			// Выключение
 			else
 				{
-				UpdatesPageButton.Text = "";
+				UpdatesPageButton.Text = Localization.GetDefaultText (LzDefaultTextValues.Message_ManualDownload);
 				}
 			}
 
