@@ -232,7 +232,7 @@ namespace RD_AAOW
 				else
 					DescriptionBox.Text =
 						Localization.GetDefaultText (LzDefaultTextValues.Message_CheckingUpdatesPrefix) +
-						description;
+						Localization.RN + description;
 				}
 
 			// Загрузка списка доступных переходов к ресурсам Лаборатории
@@ -707,14 +707,15 @@ policy:
 			// Получение описания версии
 			if (!string.IsNullOrWhiteSpace (versionDescription))
 				{
-				description += versionDescription;
+				description += (Localization.RN + versionDescription);
 				versionDescription = "";
 				}
 
 			// Обновление состояния
 			if (!desciptionHasBeenUpdated)
 				{
-				DescriptionBox.Text = updatesMessageForText + Localization.RNRN + description;
+				DescriptionBox.Text = updatesMessageForText + Localization.RNRN + Localization.RN +
+					description;
 				desciptionHasBeenUpdated = true;
 				}
 

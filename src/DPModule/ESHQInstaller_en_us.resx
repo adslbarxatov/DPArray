@@ -483,7 +483,9 @@ Continue?</value>
     <value>Remove from startup</value>
   </data>
   <data name="KillProcessWarning" xml:space="preserve">
-    <value>It looks like the app you’re trying to start is already running. You can force its close and restart it by clicking “Yes” button. In this case, all unsaved data in it may be lost.
+    <value>It looks like the app you’re trying to start is already running.
+
+You can force its close and restart it by clicking “Yes” button. In this case, all unsaved data in it may be lost.
 
 Continue?</value>
   </data>
