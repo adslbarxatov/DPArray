@@ -373,7 +373,7 @@ Do you want to save a cache of package descriptions? When deleted, they will be 
     <value>Description</value>
   </data>
   <data name="AllowDesktopShortcutsFlagText" xml:space="preserve">
-    <value>Create shortcuts on the desktop</value>
+    <value>Need shortcuts on the desktop</value>
   </data>
   <data name="RequiredUpdate" xml:space="preserve">
     <value>Necessary update for the deployment module</value>
@@ -425,7 +425,7 @@ The app will use default path for this product. If it’s not correct, use “Re
 Updates are highlighted in yellow in the packages list. At the top of the window, filtering is also available on the basis of “updates only”</value>
   </data>
   <data name="AllowMenuShortcutsFlagText" xml:space="preserve">
-    <value>Create shortcuts in the Start menu</value>
+    <value>Need shortcuts in the Start menu</value>
   </data>
   <data name="VersionLine" xml:space="preserve">
     <value>App version: {0:S}; package version: {1:S}</value>
@@ -488,5 +488,8 @@ Continue?</value>
 You can force its close and restart it by clicking “Yes” button. In this case, all unsaved data in it may be lost.
 
 Continue?</value>
+  </data>
+  <data name="AllowStartupShortcutsFlagText" xml:space="preserve">
+    <value>Run at system startup</value>
   </data>
 </root>

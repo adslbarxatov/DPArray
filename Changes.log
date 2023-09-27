@@ -1,5 +1,18 @@
 DPArray: changes log
 
+Version 6.5:
+• Implemented the startup shortcuts creation on the level of deployment app (DPArray).
+  Now you can add / remove shortcut to / from the startup menu during the deployment / updating
+  of the product;
+• Startup property in the mini-launcher has been removed; you need to start the DPArray again after
+  update to manage it;
+• Deselection of Start menu shortcuts and desktop shortcuts will remove them even if you aren’t removing
+  the product;
+• DPArray is now locked in default deployment mode (support for the fast deployment has been disabled
+  due to importance of manual settings for shortcuts);
+• Fixed some interface bugs;
+• Updated the interface of the mini-launcher
+
 Version 6.4.7:
 • Disabled the buttons justification during the deployment;
 • Added the manual refresh button for the mini-launcher that allows you to actualize the previously

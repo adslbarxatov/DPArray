@@ -720,7 +720,7 @@ policy:
 				}
 
 			// Включение текста кнопки
-			if (/*string.IsNullOrWhiteSpace (UpdatesPageButton.Text)*/ UpdatesPageButton.Text.Contains ("..."))
+			if (UpdatesPageButton.Text.Contains ("..."))
 				{
 				UpdatesPageButton.Text = updatesMessage;
 
@@ -730,26 +730,9 @@ policy:
 					// Не запрещать загрузку вручную даже при отсутствии доступа к информации
 					UpdatesPageButton.Enabled = true;
 
-					/* Исключение задвоения
-					if (updatesMessage.Contains (" "))    // Интернет доступен
-						{
-					UpdatesTimer.Interval = 1000;
-					UpdatesPageButton.Enabled =	true;*/
-
 					UpdatesTimer.Interval = 2000;
 					if (updatesMessage.Contains ("."))
 						UpdatesPageButton.Font = new Font (UpdatesPageButton.Font, FontStyle.Bold);
-					/*else
-						{
-						UpdatesTimer.Enabled = false;
-						}
-					}
-
-				// Отключение таймера, если обновлений нет
-				else
-					{
-					UpdatesTimer.Enabled = false;
-					}*/
 					}
 				}
 

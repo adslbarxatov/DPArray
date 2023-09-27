@@ -328,14 +328,16 @@ namespace RD_AAOW
 		// Образец метода, выполняющего длительные вычисления
 		private void DoWork (object sender, DoWorkEventArgs e)
 			{
+			BackgroundWorker bw = ((BackgroundWorker)sender);
+
 			// Собственно, выполняемый процесс
 			for (int i = 0; i < ProgressBarSize; i++)
 				{
 				System.Threading.Thread.Sleep (500);
-				((BackgroundWorker)sender).ReportProgress (i);  // Возврат прогресса
+				bw.ReportProgress (i);  // Возврат прогресса
 
 				// Завершение работы, если получено требование от диалога
-				if (((BackgroundWorker)sender).CancellationPending)
+				if (bw.CancellationPending)
 					{
 					e.Cancel = true;
 					return;

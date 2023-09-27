@@ -134,6 +134,10 @@ namespace RD_AAOW
 			string filePath = ShortcutFilePath.EndsWith ("\\") ? ShortcutFilePath : (ShortcutFilePath + "\\");
 			filePath += (ShortcutFileName + ".lnk");
 
+			// Удаление старого ярлыка
+			if (System.IO.File.Exists (filePath))
+				DeleteShortcut (ShortcutFileName, ShortcutFilePath);
+
 			try
 				{
 				// Создание объектов
