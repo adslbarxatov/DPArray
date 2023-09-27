@@ -1,5 +1,8 @@
 DPArray: changes log
 
+ToDo:
+- Don’t create dpd for DPArray
+
 Version 6.5:
 • Implemented the startup shortcuts creation on the level of deployment app (DPArray).
   Now you can add / remove shortcut to / from the startup menu during the deployment / updating

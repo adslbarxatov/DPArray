@@ -469,19 +469,6 @@ Do you want to open the webpage with additional project info?</value>
   <data name="dptfile" xml:space="preserve">
     <value>DPArray auxiliary script</value>
   </data>
-  <data name="AddToStartup" xml:space="preserve">
-    <value>Add to startup</value>
-  </data>
-  <data name="AutostartMessage" xml:space="preserve">
-    <value>This option will add this launcher to the system startup menu. This way, you’ll be always notified about the availability of updates for previously deployed apps (once per OS boot).
-
-You can disable this function at any moment.
-
-Continue?</value>
-  </data>
-  <data name="RemoveFromStartup" xml:space="preserve">
-    <value>Remove from startup</value>
-  </data>
   <data name="KillProcessWarning" xml:space="preserve">
     <value>It looks like the app you’re trying to start is already running.
 
