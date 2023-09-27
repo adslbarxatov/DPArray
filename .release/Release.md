@@ -1,4 +1,4 @@
-_Changes for v 6.5_:
+_Changes for v 6.5_: 
 - Implemented the startup shortcuts creation on the level of deployment app (DPArray).
 - Now you can add / remove shortcut to / from the startup menu during the deployment / updating of the product;
 - Startup property in the mini-launcher has been removed; you need to start the DPArray again after update to manage it;

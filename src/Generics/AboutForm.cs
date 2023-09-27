@@ -63,6 +63,26 @@ namespace RD_AAOW
 		/// </summary>
 		public const string ChangeLogMarkerRight = "</div>";
 
+		/// <summary>
+		/// Левый маркер версии продукта
+		/// </summary>
+		public const string VersionMarkerLeft = ProgramDescription.AssemblyMainName + " v ";
+
+		/// <summary>
+		/// Правый маркер версии продукта
+		/// </summary>
+		public const string VersionMarkerRight = "<";
+
+		/// <summary>
+		/// Левый маркер кода проверки продукта
+		/// </summary>
+		public const string PCCMarkerLeft = ">PCC:";
+
+		/// <summary>
+		/// Правый маркер кода проверки продукта
+		/// </summary>
+		public const string PCCMarkerRight = "<";
+
 		// Список подстановок при восстановлении спецсимволов из HTML-кода
 		private static string[][] htmlReplacements = new string[][] {
 			new string[] { "<p", Localization.RN + "<" },
@@ -614,20 +634,20 @@ namespace RD_AAOW
 			bool htmlError = true;  // Сбрасывается при успешной загрузке
 
 			// Разбор ответа (извлечение версии)
-			string[] htmlMarkers = {
+			/*string[] htmlMarkers = {
 				ProgramDescription.AssemblyMainName + " v ",
 				"<",
 				ChangeLogMarkerLeft,
 				ChangeLogMarkerRight
-				};
+				};*/
 
-			int i = html.IndexOf (htmlMarkers[0]);
+			int i = html.IndexOf (/*htmlMarkers[0]*/ VersionMarkerLeft);
 			if (i < 0)
 				goto policy;
 
-			i += htmlMarkers[0].Length;
+			i += /*htmlMarkers[0]*/ VersionMarkerLeft.Length;
 
-			int j = html.IndexOf (htmlMarkers[1], i);
+			int j = html.IndexOf (/*htmlMarkers[1]*/ VersionMarkerRight, i);
 			if ((j < 0) || (j <= i))
 				goto policy;
 
@@ -637,13 +657,13 @@ namespace RD_AAOW
 			html = RDGenerics.GetHTML (updatesLink);
 
 			// Разбор ответа (извлечение версии)
-			i = html.IndexOf (htmlMarkers[2]);
+			i = html.IndexOf (/*htmlMarkers[2]*/ ChangeLogMarkerLeft);
 			if (i < 0)
 				goto policy;
 
-			i += htmlMarkers[2].Length;
+			i += /*htmlMarkers[2]*/ ChangeLogMarkerLeft.Length;
 
-			j = html.IndexOf (htmlMarkers[3], i);
+			j = html.IndexOf (/*htmlMarkers[3]*/ ChangeLogMarkerRight, i);
 			if ((j < 0) || (j <= i))
 				goto policy;
 
