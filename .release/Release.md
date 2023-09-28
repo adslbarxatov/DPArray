@@ -1,10 +1,12 @@
-_Changes for v 6.5_: 
+_Changes for v 6.5.2_:
+- `.dpd` files for DPArray now work as settings mode shortcuts (instead of deinstallation mode that is impossible for DPArray);
+- Adjusted the interface behavior for DPArray redeployment;
+- Some improvements applied to the deployment operator;
 - Implemented the startup shortcuts creation on the level of deployment app (DPArray).
 - Now you can add / remove shortcut to / from the startup menu during the deployment / updating of the product;
 - Startup property in the mini-launcher has been removed; you need to start the DPArray again after update to manage it;
 - Deselection of Start menu shortcuts and desktop shortcuts will remove them even if you aren’t removing the product;
 - DPArray is now locked in default deployment mode (support for the fast deployment has been disabled due to importance of manual settings for shortcuts);
-- Fixed some interface bugs;
 - Updated the interface of the mini-launcher.
 
 _Previous updates:_

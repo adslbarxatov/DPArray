@@ -1,7 +1,14 @@
 DPArray: changes log
 
 ToDo:
-- Don’t create dpd for DPArray
+- Сообщение о необходимости настройки параметров развёртки приложений через DPArray;
+- Обходное решение для ESHQ и ESRM
+
+Version 6.5.2:
+• .dpd files for DPArray now work as settings mode shortcuts (instead of deinstallation mode that
+  is impossible for DPArray);
+• Adjusted the interface behavior for DPArray redeployment;
+• Some improvements applied to the deployment operator
 
 Version 6.5:
 • Implemented the startup shortcuts creation on the level of deployment app (DPArray).

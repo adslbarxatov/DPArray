@@ -479,4 +479,7 @@ Continue?</value>
   <data name="AllowStartupShortcutsFlagText" xml:space="preserve">
     <value>Run at system startup</value>
   </data>
+  <data name="WelcomeMessage" xml:space="preserve">
+    <value>You are welcomed by </value>
+  </data>
 </root>
