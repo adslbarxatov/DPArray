@@ -2,7 +2,10 @@ DPArray: changes log
 
 ToDo:
 - Сообщение о необходимости настройки параметров развёртки приложений через DPArray;
-- Обходное решение для ESHQ и ESRM
+
+Version 6.5.3:
+• Added the check for running mini-launcher during the DPArray update to avoid deployment failures;
+• Added some manual overrides to support ESHQ, ESRM and OS macros executor in mini-launcher
 
 Version 6.5.2:
 • .dpd files for DPArray now work as settings mode shortcuts (instead of deinstallation mode that

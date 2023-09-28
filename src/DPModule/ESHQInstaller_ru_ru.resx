@@ -481,4 +481,7 @@ DPArray выполняет установку, удаление, проверк�
   <data name="WelcomeMessage" xml:space="preserve">
     <value>Вас приветствует </value>
   </data>
+  <data name="LauncherIsRunningMessage" xml:space="preserve">
+    <value>Мини-лаунчер DPArray всё ещё запущен. Закройте его, чтобы продолжить развёртку</value>
+  </data>
 </root>

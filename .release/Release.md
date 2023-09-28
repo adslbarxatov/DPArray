@@ -1,4 +1,6 @@
-_Changes for v 6.5.2_:
+_Changes for v 6.5.3_:
+- Added the check for running mini-launcher during the DPArray update to avoid deployment failures;
+- Added some manual overrides to support ESHQ, ESRM and OS macros executor in mini-launcher;
 - `.dpd` files for DPArray now work as settings mode shortcuts (instead of deinstallation mode that is impossible for DPArray);
 - Adjusted the interface behavior for DPArray redeployment;
 - Some improvements applied to the deployment operator;

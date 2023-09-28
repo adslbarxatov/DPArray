@@ -482,4 +482,7 @@ Continue?</value>
   <data name="WelcomeMessage" xml:space="preserve">
     <value>You are welcomed by </value>
   </data>
+  <data name="LauncherIsRunningMessage" xml:space="preserve">
+    <value>The DPArray mini-launcher is still running. Close it to continue the deployment</value>
+  </data>
 </root>
