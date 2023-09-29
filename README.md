@@ -1,19 +1,23 @@
-# DPArray v 6.5.3
-> PCC: 000AA6127963908E
+# DPArray v 6.5.5
+> PCC: 000AAA121B41FA42
 
-> CRC32: 14358951
+> CRC32: F19F36DF
 
 
 
 DPArray is a tool for managing Laboratory’s products on your PC.
-DPArray performs installation, deinstallation, check for updates, download of packages and their requirements. This tool is the only thing you need to start working with all of our projects
-This tool is the only thing you need to start working with all of our projects
+
+DPArray performs installation, deinstallation, check for updates, download of packages and their requirements. This tool is the only thing you need to start working with all of our projects.
+
+Now you can enable the “run at system startup” flag to allow the DPArray to check updates automatically at the OS start. Also our new mini-launcher allows you to call all deployed products from the tray icon.
 
 #
 
-DPArray – инструмент развёртывания, созданный для управления продуктами Лаборатории.
-DPArray выполняет установку, удаление, проверку обновлений, загрузку пакетов и их зависимостей.
-Этот инструмент – единственное, что Вам нужно, чтобы начать работать со всеми нашими проектами
+DPArray — это инструмент для управления продуктами Лаборатории на вашем ПК.
+
+DPArray выполняет установку, деинсталляцию, проверку обновлений, загрузку пакетов и их требований. Этот инструмент — единственное, что вам нужно, чтобы начать работать со всеми нашими проектами.
+
+Теперь вы можете включить флаг «запускать при запуске системы», чтобы позволить DPArray автоматически проверять обновления при запуске ОС. Также наш новый мини-лаунчер позволяет вызывать все развернутые продукты из значка в трее.
 
 &nbsp;
 

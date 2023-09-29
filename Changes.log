@@ -1,7 +1,10 @@
 DPArray: changes log
 
-ToDo:
-- Сообщение о необходимости настройки параметров развёртки приложений через DPArray;
+Version 6.5.5:
+• App now allows you to change the deployment settings without exiting from mini-launcher;
+• Mini-launcher will save the window placement on “hide window” event (previously this parameter may
+  be lost on system reboot if app hasn’t been exited manually);
+• ADP has been updated
 
 Version 6.5.3:
 • Added the check for running mini-launcher during the DPArray update to avoid deployment failures;

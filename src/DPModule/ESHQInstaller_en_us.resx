@@ -256,7 +256,9 @@ NOTE: if you’ll set incorrect path, updater and installer may damage valuable 
 
 DPArray performs installation, deinstallation, check for updates, download of packages and their requirements. This tool is the only thing you need to start working with all of our projects.
 
-Use right mouse button to manage packages, double left click for retrieving packages info</value>
+Now you can enable the “run at system startup” flag to allow the DPArray to check updates automatically at the OS start. Also our new mini-launcher allows you to call all deployed products from the tray icon.
+
+Use right mouse button to manage packages, and the tray icon for retrieving packages info and other features</value>
   </data>
   <data name="PackageSelectorForm_Label01" xml:space="preserve">
     <value>Deployment packages manager</value>

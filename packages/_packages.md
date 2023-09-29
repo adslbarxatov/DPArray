@@ -1,7 +1,7 @@
 ```
 Packages, available for download:
 
-DPArray						6.5.3	DEFSTORAGE/DPArray.dp	DPArray.dp					0x000AA612	0	INFOPAGE
+DPArray						6.5.5	DEFSTORAGE/DPArray.dp	DPArray.dp					0x000AAA12	0	INFOPAGE
 
 #Windows apps
 Batch image convertor		3.4.9	DEFSTORAGE/DEFFILE		BatchImageConvertor.dp		0x0005B960	1	INFOLINK
@@ -66,9 +66,11 @@ uNot						6.7		-	-	0	7	MI_STOREuninotifier.xiaomi
 
 
 
-#ALERT: DPArray now has mini-launcher!||
-#ALERT: You can use it to keep your apps up-to-date and to start all of them 
-#ALERT: from one place in your system tray
+#ALERT: Warning!||It is strongly recommended to deploy updates with suffix .11 
+#ALERT: in normal mode (without the fast flag). This will allow you to 
+#ALERT: enable some new features during the deployment.||
+#ALERT: Also note: the deinstallation script for the DPArray itself now works 
+#ALERT: as shortcut for settings mode
 
 Flags: b0 = disallow the FD, b1 = disable the VC, b2 = dissallow D
 

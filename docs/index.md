@@ -116,8 +116,9 @@ For applications and products running on Android (<img src="/DPArray/img/And.png
 :film_projector: [Video guide](https://youtube.com/watch?v=BqCOnQOvMY8) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/DPArray/releases/latest)
 
-The deployment tool for Laboratory products. This tool installs, removes, checks updates, loads packages and their requirements.
-You can get all our products through this application (including APKs for Android). You are now on the welcome page of it
+DPArray is a tool for managing Laboratory’s products on your PC.
+DPArray performs installation, deinstallation, check for updates, download of packages and their requirements. This tool is the only thing you need to start working with all of our projects.
+Now you can enable the “run at system startup” flag to allow the DPArray to check updates automatically at the OS start. Also our new mini-launcher allows you to call all deployed products from the tray icon.
 
 &nbsp;
 
