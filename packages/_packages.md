@@ -9,7 +9,7 @@ ConcurrentDraw				3.3.9	DEFSTORAGE/DEFFILE		ConcurrentDraw.dp			0x000B16E8	1	INF
 Dates difference			3.3.11	DEFSTORAGE/DEFFILE		DatesDifference.dp			0x000328E4	0	INFOLINK
 File extensions manager		2.5.2	DEFSTORAGE/DEFFILE		FileExtensionsManager.dp	0x00056F24	0	INFOPAGE
 Font finder					3.3.11	DEFSTORAGE/DEFFILE		FontFinder.dp				0x0004AAE9	0	INFOPAGE
-Geomag data drawer			5.5.1	DEFSTORAGE/DEFFILE		GeomagDataDrawer.dp			0x00136299	1	INFOPAGE
+Geomag data drawer			5.5.3	DEFSTORAGE/DEFFILE		GeomagDataDrawer.dp			0x001363A8	1	INFOPAGE
 KassArray					4.7		DEFSTORAGE/DEFFILE		KassArray.dp				0x0012975A	1	INFOPAGE
 OS macros executor			3.4		DEFSTORAGE/DEFFILE		OSMacrosExecutor.dp			0x0005F130	1	INFOLINK
 Screen shooter				2.3.9	DEFSTORAGE/DEFFILE		ScreenShooter.dp			0x000321BD	0	INFOLINK
@@ -28,10 +28,10 @@ Crazy cheater’s mod				1.3		MODSTORAGE/240088?MOD_REFmods%2Fccm		CCM.7z				165
 
 
 #Minigames for Windows
-One hundred and one			2.1.9	DEFSTORAGE/DEFFILE		OneHundredOne.dp			0x0003C98C	0	INFOPAGE
+One hundred and one			2.1.11	DEFSTORAGE/DEFFILE		OneHundredOne.dp			0x0003CCA2	0	INFOPAGE
 Races						2.2.8	DEFSTORAGE/DEFFILE		Races.7z					14691578	1	INFOLINK
 Snake						2.2.8	DEFSTORAGE/DEFFILE		Snake.7z					16125141	1	INFOLINK
-Thousand					2.1.9	DEFSTORAGE/DEFFILE		Thousand.dp					0x00037B5A	0	INFOPAGE
+Thousand					2.1.11	DEFSTORAGE/DEFFILE		Thousand.dp					0x00037E7A	0	INFOPAGE
 Turtle						2.2.8	DEFSTORAGE/DEFFILE		Turtle.7z					14771884	1	INFOLINK
 
 
@@ -44,10 +44,10 @@ uNot						6.7.5	GIT_LINK/UniNotifier/GIT_PATH/DEFFILE			UniNotifier.apk		3504278
 
 #Microsoft Store
 Font finder					3.3.11	-	-	0	7	MS_STORE/9MXDR4BXP8R4
-Geomag data drawer			5.5.1	-	-	0	7	MS_STORE/9PG19ZZ3NH47
+Geomag data drawer			5.5.3	-	-	0	7	MS_STORE/9PG19ZZ3NH47
 KassArray					4.7		-	-	0	7	MS_STORE/9ND98F4C4Q60
-One hundred and one			2.1.9	-	-	0	7	MS_STORE/9NHVH857DV1S
-Thousand					2.1.9	-	-	0	7	MS_STORE/9NRQ4LQZNKKG
+One hundred and one			2.1.11	-	-	0	7	MS_STORE/9NHVH857DV1S
+Thousand					2.1.11	-	-	0	7	MS_STORE/9NRQ4LQZNKKG
 uNot						6.7.5	-	-	0	7	MS_STORE/9NVZ51RL54K4
 
 
