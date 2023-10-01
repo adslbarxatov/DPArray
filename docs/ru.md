@@ -248,7 +248,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 ### Batch image convertor
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/batchimageconvertor) &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/BatchImageConvertor/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://BatchImageConvertor) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/batchimageconvertor/releases/latest)
 
@@ -406,7 +406,7 @@ ES: Randomaze – генератор карт для одноимённого м
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/Thousand/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Thousand) &#x3000;
-:briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NRQ4LQZNKKG) &#x3000;
+:briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9N1JJ1G48BCF) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/Thousand/releases/latest)
 
 Это приложение имитирует игру «Тысяча» для трёх игроков

@@ -202,7 +202,7 @@ As a result, you’ll get the answer for the next question: “what way is the b
 ### Batch image convertor
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/batchimageconvertor) &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/BatchImageConvertor) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://BatchImageConvertor) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/batchimageconvertor/releases/latest)
 
@@ -360,7 +360,7 @@ This app imitates the “One hundred and one” game for two players
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/Thousand) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://Thousand) &#x3000;
-:briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NRQ4LQZNKKG) &#x3000;
+:briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9N1JJ1G48BCF) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/Thousand/releases/latest)
 
 This app imitates the “Thousand” game for three players

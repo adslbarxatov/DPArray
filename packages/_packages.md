@@ -4,7 +4,7 @@ Packages, available for download:
 DPArray						6.5.6	DEFSTORAGE/DPArray.dp	DPArray.dp					0x000AABC7	0	INFOPAGE
 
 #Windows apps
-Batch image convertor		3.4.9	DEFSTORAGE/DEFFILE		BatchImageConvertor.dp		0x0005B960	1	INFOLINK
+Batch image convertor		3.5.1	DEFSTORAGE/DEFFILE		BatchImageConvertor.dp		0x000D44F4	1	INFOPAGE
 ConcurrentDraw				3.3.9	DEFSTORAGE/DEFFILE		ConcurrentDraw.dp			0x000B16E8	1	INFOLINK
 Dates difference			3.3.11	DEFSTORAGE/DEFFILE		DatesDifference.dp			0x000328E4	0	INFOLINK
 File extensions manager		2.5.2	DEFSTORAGE/DEFFILE		FileExtensionsManager.dp	0x00056F24	0	INFOPAGE
@@ -12,8 +12,8 @@ Font finder					3.3.11	DEFSTORAGE/DEFFILE		FontFinder.dp				0x0004AAE9	0	INFOPAG
 Geomag data drawer			5.5.3	DEFSTORAGE/DEFFILE		GeomagDataDrawer.dp			0x001363A8	1	INFOPAGE
 KassArray					4.7		DEFSTORAGE/DEFFILE		KassArray.dp				0x0012975A	1	INFOPAGE
 OS macros executor			3.4		DEFSTORAGE/DEFFILE		OSMacrosExecutor.dp			0x0005F130	1	INFOLINK
-Screen shooter				2.3.9	DEFSTORAGE/DEFFILE		ScreenShooter.dp			0x000321BD	0	INFOLINK
-Sudoku solver				4.0.9	DEFSTORAGE/DEFFILE		SudokuSolver.dp				0x00034399	0	INFOLINK
+Screen shooter				2.3.11	DEFSTORAGE/DEFFILE		ScreenShooter.dp			0x000324D3	0	INFOLINK
+Sudoku solver				4.0.11	DEFSTORAGE/DEFFILE		SudokuSolver.dp				0x000344B1	0	INFOLINK
 uNot						6.7.5	DEFSTORAGE/DEFFILE		UniNotifier.dp				0x0005B8EE	0	INFOPAGE
 Vice city toolset			4.3.9	DEFSTORAGE/DEFFILE		ViceCityToolset.dp			0x001A39B1	1	INFOPAGE
 
@@ -47,7 +47,7 @@ Font finder					3.3.11	-	-	0	7	MS_STORE/9MXDR4BXP8R4
 Geomag data drawer			5.5.3	-	-	0	7	MS_STORE/9PG19ZZ3NH47
 KassArray					4.7		-	-	0	7	MS_STORE/9ND98F4C4Q60
 One hundred and one			2.1.11	-	-	0	7	MS_STORE/9NHVH857DV1S
-Thousand					2.1.11	-	-	0	7	MS_STORE/9NRQ4LQZNKKG
+Thousand					2.1.11	-	-	0	7	MS_STORE/9N1JJ1G48BCF
 uNot						6.7.5	-	-	0	7	MS_STORE/9NVZ51RL54K4
 
 
