@@ -10,11 +10,11 @@ Dates difference			3.3.9	DEFSTORAGE/DEFFILE		DatesDifference.dp			0x000327D2	0	I
 File extensions manager		2.5		DEFSTORAGE/DEFFILE		FileExtensionsManager.dp	0x00056E1D	0	INFOPAGE
 Font finder					3.3.9	DEFSTORAGE/DEFFILE		FontFinder.dp				0x0004ABCD	0	INFOPAGE
 Geomag data drawer			5.5.1	DEFSTORAGE/DEFFILE		GeomagDataDrawer.dp			0x00136299	1	INFOPAGE
-KassArray					4.7		DEFSTORAGE/DEFFILE		KassArray.dp				0x001297A7	1	INFOPAGE
+KassArray					4.7		DEFSTORAGE/DEFFILE		KassArray.dp				0x0012975A	1	INFOPAGE
 OS macros executor			3.4		DEFSTORAGE/DEFFILE		OSMacrosExecutor.dp			0x0005F130	1	INFOLINK
 Screen shooter				2.3.9	DEFSTORAGE/DEFFILE		ScreenShooter.dp			0x000321BD	0	INFOLINK
 Sudoku solver				4.0.9	DEFSTORAGE/DEFFILE		SudokuSolver.dp				0x00034399	0	INFOLINK
-uNot						6.7.5	DEFSTORAGE/DEFFILE		UniNotifier.dp				0x0005B93D	0	INFOPAGE
+uNot						6.7.5	DEFSTORAGE/DEFFILE		UniNotifier.dp				0x0005B8EE	0	INFOPAGE
 Vice city toolset			4.3.9	DEFSTORAGE/DEFFILE		ViceCityToolset.dp			0x001A39B1	1	INFOPAGE
 
 
