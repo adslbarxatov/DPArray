@@ -29,10 +29,10 @@ Crazy cheater’s mod				1.3		MODSTORAGE/240088?MOD_REFmods%2Fccm		CCM.7z				165
 
 #Minigames for Windows
 One hundred and one			2.1.11	DEFSTORAGE/DEFFILE		OneHundredOne.dp			0x0003CCA2	0	INFOPAGE
-Races						2.2.8	DEFSTORAGE/DEFFILE		Races.7z					14691578	1	INFOLINK
-Snake						2.2.8	DEFSTORAGE/DEFFILE		Snake.7z					16125141	1	INFOLINK
+Races						2.2.11	DEFSTORAGE/DEFFILE		Races.7z					14691085	1	INFOLINK
+Snake						2.2.11	DEFSTORAGE/DEFFILE		Snake.7z					16128474	1	INFOLINK
 Thousand					2.1.11	DEFSTORAGE/DEFFILE		Thousand.dp					0x00037E7A	0	INFOPAGE
-Turtle						2.2.8	DEFSTORAGE/DEFFILE		Turtle.7z					14771884	1	INFOLINK
+Turtle						2.2.11	DEFSTORAGE/DEFFILE		Turtle.7z					14774187	1	INFOLINK
 
 
 #Android apps as APK
