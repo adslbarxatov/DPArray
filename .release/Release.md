@@ -1,4 +1,5 @@
-_Changes for v 6.5.5_:
+_Changes for v 6.5.6_:
+- Fixed the missing version control marker for off-line deployment packages;
 - App now allows you to change the deployment settings without exiting from mini-launcher;
 - Mini-launcher will save the window placement on “hide window” event (previously this parameter may be lost on system reboot if app hasn’t been exited manually);
 - ADP has been updated.

@@ -1,5 +1,8 @@
 DPArray: changes log
 
+Version 6.5.6:
+• Fixed the missing version control marker for off-line deployment packages
+
 Version 6.5.5:
 • App now allows you to change the deployment settings without exiting from mini-launcher;
 • Mini-launcher will save the window placement on “hide window” event (previously this parameter may
