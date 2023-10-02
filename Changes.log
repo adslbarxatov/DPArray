@@ -1,5 +1,8 @@
 DPArray: changes log
 
+Version 6.5.7:
+• Fixed some inconsistent operations with processes during the update
+
 Version 6.5.6:
 • Fixed the missing version control marker for off-line deployment packages;
 • Fixed some missing backward replacements for paths and URLs

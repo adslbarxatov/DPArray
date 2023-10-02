@@ -282,7 +282,7 @@ Retry the list downloading?</value>
     <value>Success!</value>
   </data>
   <data name="PackageUnzipFailure" xml:space="preserve">
-    <value>Cannot unpack the downloaded archive automatically. Open it for manual extracting?</value>
+    <value>Cannot unpack the downloaded archive automatically. Open it for manual extraction?</value>
   </data>
   <data name="IconAbout" xml:space="preserve">
     <value>About the {0:S}...</value>
