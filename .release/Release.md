@@ -1,4 +1,4 @@
-_Changes for v 6.5.7_:
+_Changes for v 6.5.7_: 
 - Fixed some inconsistent operations with processes during the update;
 - Fixed the missing version control marker for off-line deployment packages;
 - App now allows you to change the deployment settings without exiting from mini-launcher;
