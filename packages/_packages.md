@@ -22,7 +22,7 @@ Vice city toolset			4.3.11	DEFSTORAGE/DEFFILE		ViceCityToolset.dp			0x001A3AC3	1
 ESHQ							13.5	MODSTORAGE/250593?MOD_REFmods%2Feshq	ESHQ_setup.7z		232218407	3	MODSHOST/eshq
 ESHQ, actual update				13.7.4	MODSTORAGE/258236?MOD_REFmods%2Feshq	ESHQ_update.7z		42910777	0	MODSHOST/eshq
 ES: Randomaze					5.0		MODSTORAGE/256554?MOD_REFmods%2Fesrm	ESRM_setup.7z		60229231	3	MODSHOST/esrm
-ES: Randomaze, actual update	5.0.7	MODSTORAGE/258237?MOD_REFmods%2Fesrm	ESRM_update.7z		3018352		0	MODSHOST/esrm
+ES: Randomaze, actual update	5.1		MODSTORAGE/258547?MOD_REFmods%2Fesrm	ESRM_update.7z		3022563		0	MODSHOST/esrm
 ES: Randomaze, bkwd compat.     5.0     MODSTORAGE/256553?MOD_REFmods%2Fesrm	ESRM_bkwd.7z		11669091	2	MODSHOST/esrm
 Crazy cheater’s mod				1.3		MODSTORAGE/240088?MOD_REFmods%2Fccm		CCM.7z				165319082	2	MODSHOST/ccm	GTAViceCity.1.3.dp
 
