@@ -1,5 +1,12 @@
 DPArray: changes log
 
+Version 6.6:
+• Upgraded the packages list: the script is now more flexible and universal;
+• Upgraded the packages processing algorithm: app is now able to check versions and PCCs using
+  the packages list;
+• PCC and version markers will be removed from infopages;
+• Removed some redundant code and processing procedures
+
 Version 6.5.7:
 • Fixed some inconsistent operations with processes during the update
 

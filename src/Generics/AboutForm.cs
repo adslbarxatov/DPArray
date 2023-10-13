@@ -15,7 +15,7 @@ namespace RD_AAOW
 		// Переменные
 		private string projectLink, updatesLink, userManualLink, userVideomanualLink;
 		private string updatesMessage = "", updatesMessageForText = "", description = "",
-			versionDescription = "", adpRevision = "";
+			versionDescription = "", adpRevision = ""; 
 		private bool policyAccepted = false;
 		private bool startupMode = false;
 		private bool desciptionHasBeenUpdated = false;
