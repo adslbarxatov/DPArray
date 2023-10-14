@@ -1,4 +1,8 @@
-_Changes for v 6.6_:
+_Changes for v 6.6.1_:
+- Version `DP13` of package formats has been deprecated (old monolanguage script);
+- Version `DP15` of package formats has been implemented (new script without obsolete fields);
+- Fixed incorrect version detection for ESHQ and ESRM;
+- Fixed some minor inconveniences;
 - Upgraded the packages list: the script is now more flexible and universal;
 - Upgraded the packages processing algorithm: app is now able to check versions and PCCs using the packages list;
 - PCC and version markers will be removed from infopages;

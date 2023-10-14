@@ -4,119 +4,95 @@ n:DPArray
 a:DPArray.dp
 f:fvd
 i:INFOPAGE
-v:6.6
-p:000AABC24EA0C111
+v:6.6.1
+p:000AABC736AE1101
 
 
 
 g:Windows apps
 
 n:Batch image convertor
-/u:DEFSTORAGE/DEFFILE
 a:BatchImageConvertor.dp
 f:F
 i:INFOPAGE
 v:3.5.1
-/s:0x000D44F4
 p:000D44F43A5E6916
 
 n:ConcurrentDraw
-/u:DEFSTORAGE/DEFFILE
 a:ConcurrentDraw.dp
 f:F
 i:INFOLINK
 v:3.3.11
-/s:0x000B17FC
 p:000B17FC2459AEF0
 
 n:Dates difference
-/u:DEFSTORAGE/DEFFILE
 a:DatesDifference.dp
 f:0
 i:INFOLINK
 v:3.3.11
-/s:0x000328E4
 p:000328E4FCDFB09B
 
 n:File extensions manager
-/u:DEFSTORAGE/DEFFILE
 a:FileExtensionsManager.dp
 f:0
 i:INFOPAGE
 v:2.5.2
-/s:0x00056F24
 p:00056F243201495A
 
 n:Font finder
-/u:DEFSTORAGE/DEFFILE
 a:FontFinder.dp
 f:0
 i:INFOPAGE
 v:3.3.11
-/s:0x0004AAE9
 p:0004AAE939AED6DA
 
 n:Geomag data drawer
-/u:DEFSTORAGE/DEFFILE
 a:GeomagDataDrawer.dp
 f:F
 i:INFOPAGE
 v:5.5.3
-/s:0x001363A8
 p:001363A8B13CABD7
 
 n:KassArray
-/u:DEFSTORAGE/DEFFILE
 a:KassArray.dp
 f:F
 i:INFOPAGE
 v:4.8.1
-/s:0x0012915C
 p:0012915C5846E6CF
 
 n:OS macros executor
-/u:DEFSTORAGE/DEFFILE
 a:OSMacrosExecutor.dp
 f:F
 i:INFOLINK
 v:3.4.2
-/s:0x0005F441
 p:0005F441BED1AF11
 
 n:Screen shooter
-/u:DEFSTORAGE/DEFFILE
 a:ScreenShooter.dp
 f:0
 i:INFOLINK
 v:2.3.11
-/s:0x000324D3
 p:000324D3E0924B67
 
 n:Sudoku solver
-/u:DEFSTORAGE/DEFFILE
 a:SudokuSolver.dp
 f:0
 i:INFOLINK
 v:4.0.11
-/s:0x000344B1
 p:000344B1B01EA690
 
 n:uNot
-/u:DEFSTORAGE/DEFFILE
 a:UniNotifier.dp
 f:0
 i:INFOPAGE
 v:6.7.5
-/s:0x0005B8EE
 p:0005B8EED0EEA21C
 
 n:Vice city toolset
-/u:DEFSTORAGE/DEFFILE
 a:ViceCityToolset.dp
 f:F
 i:INFOPAGE
 v:4.3.11
-/s:0x001A3AC3
 p:001A3AC39C2DC2B1
 
 
@@ -182,16 +158,13 @@ p:1475B852D4A856DE
 g:Minigames for Windows
 
 n:One hundred and one
-/u:DEFSTORAGE/DEFFILE
 a:OneHundredOne.dp
 f:0
 i:INFOPAGE
 v:2.1.11
-/s:0x0003CCA2
 p:0003CCA27085C7B8
 
 n:Races
-/u:DEFSTORAGE/DEFFILE
 a:Races.7z
 f:F
 i:INFOLINK
@@ -200,7 +173,6 @@ s:14691085
 p:01DAAE8DA870F97B
 
 n:Snake
-/u:DEFSTORAGE/DEFFILE
 a:Snake.7z
 f:F
 i:INFOLINK
@@ -209,16 +181,13 @@ s:16128474
 p:0236058B2E3CF88B
 
 n:Thousand
-/u:DEFSTORAGE/DEFFILE
 a:Thousand.dp
 f:0
 i:INFOPAGE
 v:2.1.11
-/s:0x00037E7A
 p:00037E7AC4009BFB
 
 n:Turtle
-/u:DEFSTORAGE/DEFFILE
 a:Turtle.7z
 f:F
 i:INFOLINK
