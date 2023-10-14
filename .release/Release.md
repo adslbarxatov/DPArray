@@ -1,4 +1,4 @@
-_Changes for v 6.6.1_:
+_Changes for v 6.6.1_: 
 - Version `DP13` of package formats has been deprecated (old monolanguage script);
 - Version `DP15` of package formats has been implemented (new script without obsolete fields);
 - Fixed incorrect version detection for ESHQ and ESRM;
