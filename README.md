@@ -1,5 +1,4 @@
-# DPArray v 6.6
-> PCC: 000AABC24EA0C111
+# DPArray
 
 
 
