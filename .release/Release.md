@@ -1,7 +1,8 @@
-_Changes for v 6.6.1_: 
+_Changes for v 6.6.2_:
 - Version `DP13` of package formats has been deprecated (old monolanguage script);
 - Version `DP15` of package formats has been implemented (new script without obsolete fields);
 - Fixed incorrect version detection for ESHQ and ESRM;
+- Completed the process of version control unification;
 - Fixed some minor inconveniences;
 - Upgraded the packages list: the script is now more flexible and universal;
 - Upgraded the packages processing algorithm: app is now able to check versions and PCCs using the packages list;
@@ -12,5 +13,4 @@ _Changes for v 6.6.1_:
 - Implemented the startup shortcuts creation on the level of deployment app (DPArray);
 - Now you can add / remove shortcut to / from the startup menu during the deployment / updating of the product;
 - Startup property in the mini-launcher has been removed; you need to start the DPArray again after update to manage it;
-- Deselection of Start menu shortcuts and desktop shortcuts will remove them even if you aren’t removing the product;
-- DPArray is now locked in default deployment mode (support for the fast deployment has been disabled due to importance of manual settings for shortcuts)
+- Deselection of Start menu shortcuts and desktop shortcuts will remove them even if you aren’t removing the product

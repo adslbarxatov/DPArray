@@ -15,7 +15,7 @@ namespace RD_AAOW
 		// Переменные
 		private string projectLink, updatesLink, userManualLink, userVideomanualLink;
 		private string updatesMessage = "", updatesMessageForText = "", description = "",
-			versionDescription = "", adpRevision = ""; 
+			versionDescription = "", adpRevision = "";
 		private bool policyAccepted = false;
 		private bool startupMode = false;
 		private bool desciptionHasBeenUpdated = false;
@@ -62,29 +62,6 @@ namespace RD_AAOW
 		/// Правый маркер лога изменений
 		/// </summary>
 		public const string ChangeLogMarkerRight = "</div>";
-
-		/// <summary>
-		/// Возвращает левый маркер версии указанного продукта
-		/// </summary>
-		public static string VersionMarkerLeft (string ProductName)
-			{
-			return ProductName + " v ";
-			}
-
-		/// <summary>
-		/// Правый маркер версии продукта
-		/// </summary>
-		public const string VersionMarkerRight = "<";
-
-		/// <summary>
-		/// Левый маркер кода проверки продукта
-		/// </summary>
-		public const string PCCMarkerLeft = ">PCC:";
-
-		/// <summary>
-		/// Правый маркер кода проверки продукта
-		/// </summary>
-		public const string PCCMarkerRight = "<";
 
 		// Список подстановок при восстановлении спецсимволов из HTML-кода
 		private static string[][] htmlReplacements = new string[][] {
@@ -633,24 +610,22 @@ namespace RD_AAOW
 		private void UpdatesChecker (object sender, DoWorkEventArgs e)
 			{
 			// Запрос обновлений пакета
-			string html = RDGenerics.GetHTML (projectLink);
+			string html = RDGenerics.GetHTML (updatesLink);
 			bool htmlError = true;  // Сбрасывается при успешной загрузке
 
 			// Разбор ответа (извлечение версии)
-			int i = html.IndexOf (VersionMarkerLeft (ProgramDescription.AssemblyMainName));
+			string versionMarker = ProgramDescription.AssemblyMainName + " v ";
+			int i = html.IndexOf (versionMarker);
 			if (i < 0)
 				goto policy;
 
-			i += VersionMarkerLeft (ProgramDescription.AssemblyMainName).Length;
+			i += versionMarker.Length;
 
-			int j = html.IndexOf (VersionMarkerRight, i);
+			int j = html.IndexOf ("<", i);
 			if ((j < 0) || (j <= i))
 				goto policy;
 
 			string version = "v " + html.Substring (i, j - i).Trim ();
-
-			// Запрос описания пакета
-			html = RDGenerics.GetHTML (updatesLink);
 
 			// Разбор ответа (извлечение версии)
 			i = html.IndexOf (ChangeLogMarkerLeft);
@@ -674,9 +649,11 @@ namespace RD_AAOW
 			else
 				{
 				updatesMessage =
-					string.Format (Localization.GetDefaultText (LzDefaultTextValues.Message_UpdateAvailable), version);
+					string.Format (Localization.GetDefaultText (LzDefaultTextValues.Message_UpdateAvailable),
+					version);
 				updatesMessageForText =
-					string.Format (Localization.GetDefaultText (LzDefaultTextValues.Message_UpdateAvailablePrefix), version);
+					string.Format (Localization.GetDefaultText (LzDefaultTextValues.Message_UpdateAvailablePrefix),
+					version);
 				}
 			htmlError = false;
 

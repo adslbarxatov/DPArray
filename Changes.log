@@ -1,5 +1,8 @@
 DPArray: changes log
 
+Version 6.6.2:
+• Completed the process of version control unification
+
 Version 6.6.1:
 • Version DP13 of package formats has been deprecated (old monolanguage script);
 • Version DP15 of package formats has been implemented (new script without obsolete fields);
