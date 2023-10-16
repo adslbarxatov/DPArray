@@ -1,6 +1,6 @@
 # DPArray
 
-
+## Description
 
 DPArray is a tool for managing Laboratory’s products on your PC.
 
@@ -8,7 +8,11 @@ DPArray performs installation, deinstallation, check for updates, download of pa
 
 Now you can enable the “run at system startup” flag to allow the DPArray to check updates automatically at the OS start. Also our new mini-launcher allows you to call all deployed products from the tray icon.
 
-#
+&nbsp;
+
+
+
+## Описание
 
 DPArray — это инструмент для управления продуктами Лаборатории на вашем ПК.
 
