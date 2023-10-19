@@ -57,8 +57,8 @@ n:KassArray
 a:KassArray.dp
 f:F
 i:INFOPAGE
-v:4.8.4
-p:00129354BF73AEF0
+v:4.8.6
+p:001297540A335619
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
@@ -204,8 +204,8 @@ u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
 a:KassArray.apk
 f:FV
 i:INFOPAGE
-v:4.8.3
-s:35420317
+v:4.8.6
+s:35573714
 
 n:Make decision
 u:GIT_LINK/MakeDecision/GIT_PATH/DEFFILE
@@ -248,7 +248,7 @@ v:5.5.3
 n:KassArray
 f:FVD
 i:MS_STORE/9ND98F4C4Q60
-v:4.8.3
+v:4.8.6
 
 n:One hundred and one
 f:FVD
@@ -272,7 +272,7 @@ g:Google play
 n:KassArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextToKKT
-v:4.8.3
+v:4.8.6
 
 n:Make decision
 f:FVD
@@ -296,7 +296,7 @@ g:GetApps
 n:KassArray
 f:FVD
 i:MI_STOREtexttokkt.xiaomi
-v:4.8.3
+v:4.8.6
 
 n:Make decision
 f:FVD
