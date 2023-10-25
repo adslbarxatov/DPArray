@@ -1,16 +1,14 @@
-_Changes for v 6.6.2_:
+_Changes for v 6.7_:
+- App is now able to skip projects that don’t support the selected interface language;
+- Fixed incorrect behavior on loading of unsupported packages;
+- Extended package info now contains the status description;
+- Adjusted the cleanup method for Downloaded directory;
+- App now has language-dependent banners;
+- Set of banners and their URLs has been updated;
 - Version `DP13` of package formats has been deprecated (old monolanguage script);
 - Version `DP15` of package formats has been implemented (new script without obsolete fields);
 - Fixed incorrect version detection for ESHQ and ESRM;
 - Completed the process of version control unification;
 - Fixed some minor inconveniences;
 - Upgraded the packages list: the script is now more flexible and universal;
-- Upgraded the packages processing algorithm: app is now able to check versions and PCCs using the packages list;
-- PCC and version markers will be removed from infopages;
-- Removed some redundant code and processing procedures;
-- App now allows you to change the deployment settings without exiting from mini-launcher;
-- `.dpd` files for DPArray now work as settings mode shortcuts (instead of deinstallation mode that is impossible for DPArray);
-- Implemented the startup shortcuts creation on the level of deployment app (DPArray);
-- Now you can add / remove shortcut to / from the startup menu during the deployment / updating of the product;
-- Startup property in the mini-launcher has been removed; you need to start the DPArray again after update to manage it;
-- Deselection of Start menu shortcuts and desktop shortcuts will remove them even if you aren’t removing the product
+- Upgraded the packages processing algorithm: app is now able to check versions and PCCs using the packages list

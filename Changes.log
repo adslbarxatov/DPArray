@@ -1,5 +1,13 @@
 DPArray: changes log
 
+Version 6.7:
+• App is now able to skip projects that don’t support the selected interface language;
+• Fixed incorrect behavior on loading of unsupported packages;
+• Extended package info now contains the status description;
+• Adjusted the cleanup method for Downloaded directory;
+• App now has language-dependent banners;
+• Set of banners and their URLs has been updated
+
 Version 6.6.2:
 • Completed the process of version control unification
 

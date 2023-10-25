@@ -486,4 +486,13 @@ DPArray выполняет установку, деинсталляцию, пр�
   <data name="LauncherIsRunningMessage" xml:space="preserve">
     <value>Мини-лаунчер DPArray всё ещё запущен. Закройте его, чтобы продолжить развёртку</value>
   </data>
+  <data name="PSF_ActualMessage" xml:space="preserve">
+    <value>Этот пакет уже развёрнут и имеет актуальную версию</value>
+  </data>
+  <data name="PSF_NewPackageMessage" xml:space="preserve">
+    <value>Этот пакет – новый для данного ПК</value>
+  </data>
+  <data name="PSF_UpdatableMessage" xml:space="preserve">
+    <value>Этот пакет является обновлением для ранее развёрнутого</value>
+  </data>
 </root>

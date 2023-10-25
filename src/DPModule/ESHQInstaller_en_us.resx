@@ -487,4 +487,13 @@ Continue?</value>
   <data name="LauncherIsRunningMessage" xml:space="preserve">
     <value>The DPArray mini-launcher is still running. Close it to continue the deployment</value>
   </data>
+  <data name="PSF_ActualMessage" xml:space="preserve">
+    <value>This package is already deployed and up-to-date</value>
+  </data>
+  <data name="PSF_NewPackageMessage" xml:space="preserve">
+    <value>Package is new for this PC</value>
+  </data>
+  <data name="PSF_UpdatableMessage" xml:space="preserve">
+    <value>This package is an update for the previously deployed one</value>
+  </data>
 </root>
