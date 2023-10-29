@@ -496,4 +496,19 @@ Continue?</value>
   <data name="PSF_UpdatableMessage" xml:space="preserve">
     <value>This package is an update for the previously deployed one</value>
   </data>
+  <data name="AddAppsForm_Message" xml:space="preserve">
+    <value>Enter a short name and path to the application or file that you want to add to the mini-launcher, then try again</value>
+  </data>
+  <data name="AddAppsForm_NameLabel" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="AddAppsForm_OFF" xml:space="preserve">
+    <value>All files (*.*)|*.*</value>
+  </data>
+  <data name="AddAppsForm_OFN" xml:space="preserve">
+    <value>Select application or file for quick start</value>
+  </data>
+  <data name="AddAppsForm_PathLabel" xml:space="preserve">
+    <value>Path:</value>
+  </data>
 </root>

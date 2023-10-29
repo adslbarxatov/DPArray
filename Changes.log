@@ -1,5 +1,8 @@
 DPArray: changes log
 
+Version 6.7.2:
+• Now you can add your own apps (or regular files) to DPArray’s mini-launcher
+
 Version 6.7:
 • App is now able to skip projects that don’t support the selected interface language;
 • Fixed incorrect behavior on loading of unsupported packages;

@@ -495,4 +495,19 @@ DPArray выполняет установку, деинсталляцию, пр�
   <data name="PSF_UpdatableMessage" xml:space="preserve">
     <value>Этот пакет является обновлением для ранее развёрнутого</value>
   </data>
+  <data name="AddAppsForm_Message" xml:space="preserve">
+    <value>Укажите короткое название и путь к приложению или файлу, который необходимо добавить в мини-лаунчер, после чего повторите попытку</value>
+  </data>
+  <data name="AddAppsForm_NameLabel" xml:space="preserve">
+    <value>Название:</value>
+  </data>
+  <data name="AddAppsForm_OFF" xml:space="preserve">
+    <value>Все файлы (*.*)|*.*</value>
+  </data>
+  <data name="AddAppsForm_OFN" xml:space="preserve">
+    <value>Выберите приложение или файл для быстрого вызова</value>
+  </data>
+  <data name="AddAppsForm_PathLabel" xml:space="preserve">
+    <value>Путь:</value>
+  </data>
 </root>
