@@ -109,6 +109,8 @@ For applications and products running on Android (<img src="/DPArray/img/And.png
 
 &nbsp;
 
+
+
 ### DPArray
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
@@ -120,7 +122,9 @@ DPArray is a tool for managing Laboratory’s products on your PC.
 DPArray performs installation, deinstallation, check for updates, download of packages and their requirements. This tool is the only thing you need to start working with all of our projects.
 Now you can enable the “run at system startup” flag to allow the DPArray to check updates automatically at the OS start. Also our new mini-launcher allows you to call all deployed products from the tray icon.
 
-&nbsp;
+&nbsp;&nbsp;
+
+
 
 ### ConcurrentDraw
 :gb: :ru: &#x3000;
@@ -131,10 +135,13 @@ Now you can enable the “run at system startup” flag to allow the DPArray to 
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ConcurrentDraw) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/concurrentdraw/releases/latest)
 
-A sound and music visualization tool (stand-alone cover for WMP). It works without additional codecs and drivers,
-since it uses a user-selected system audio output
+The sound and music visualization tool. The app allows you to visualize audio data that comes from system’s output
+(system mixer or speakers). All sound that you can play on your PC can be drawn.
+No additional codecs are required
 
-&nbsp;
+&nbsp;&nbsp;
+
+
 
 ### uNot (UniNotifier)
 :gb: :ru: &#x3000;
@@ -155,6 +162,8 @@ has specified is loaded – all other objects (including ads) are ignored
 
 &nbsp;
 
+
+
 ### PA detector (Enchant it)
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And6.png" width="16"> &#x3000;
@@ -169,6 +178,8 @@ activity. Before starting the experiment take a look at the project presentation
 
 &nbsp;
 
+
+
 ### Geomag data drawer
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
@@ -182,6 +193,8 @@ activity. Before starting the experiment take a look at the project presentation
 Stand-alone tool for building and designing diagrams based on tabular data
 
 &nbsp;
+
+
 
 ### Make decision
 :gb: :ru: &#x3000;
@@ -199,6 +212,8 @@ As a result, you’ll get the answer for the next question: “what way is the b
 
 &nbsp;
 
+
+
 ### Batch image convertor
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
@@ -206,9 +221,11 @@ As a result, you’ll get the answer for the next question: “what way is the b
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://BatchImageConvertor) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/batchimageconvertor/releases/latest)
 
-A small tool for batch images processing
+A tool for batch processing of image files
 
-&nbsp;
+&nbsp;&nbsp;
+
+
 
 ### Font finder
 :gb: :ru: &#x3000;
@@ -224,6 +241,8 @@ A tool for finding a font by its image
 
 &nbsp;
 
+
+
 ### ESHQ
 :gb: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
@@ -232,12 +251,13 @@ A tool for finding a font by its image
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ESHQ_setup) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get the latest update](dp://ESHQ_update)
 
-A mod for Half-Life 1 with its own storyline (not from the Half-Life universe). An unknown government spy must
+A mod for Half-Life 1 with its own storyline (not from the Half-Life universe). An unknown government spy should
 steal classified files from a building called the “Evil scientists headquarters”. But his work will turn out
-to be a little more complex and long in time and space... Playlist reveals the essence of the project
-for those who have not yet had time to try it live
+to be a little more complex and long in time and space...
 
-&nbsp;
+&nbsp;&nbsp;
+
+
 
 ### ES: Randomaze
 :gb: &#x3000;
@@ -248,18 +268,22 @@ for those who have not yet had time to try it live
 <img src="/DPArray/img/DP.png" width="16"> [Get the latest update](dp://ESRM_update)
 
 ES: Randomaze is the maps generator for the mod with the same name.
-This tool was the part of the ESHQ mod for Half-Life part 1. Now it is a stand-alone project
+This tool was the part of the ESHQ mod for Half-Life 1. Now it is a stand-alone project
 
-&nbsp;
+&nbsp;&nbsp;
+
+
 
 ### Xash3D FWGS Engine adaptation for ESHQ
 :gb: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/Xash3d-FWGS-for-ESHQ)
 
-An adaptation of [Xash3d FWGS engine](https://github.com/FWGS/xash3d-fwgs) for ESHQ mod for Half-Life 1
+An adaptation of [Xash3d FWGS engine](https://github.com/FWGS/xash3d-fwgs) for ESHQ and ESL Randomaze mods for Half-Life 1
 
-&nbsp;
+&nbsp;&nbsp;
+
+
 
 ### Crazy cheater’s mod
 :gb: &#x3000;
@@ -269,10 +293,11 @@ An adaptation of [Xash3d FWGS engine](https://github.com/FWGS/xash3d-fwgs) for E
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://CCM)
 
 A modification for GTA Vice City, preserving the original plot and gameplay, but fixing a number of known problems,
-as well as expanding the already great capabilities of Tommy Vercetti. A short presentation of additions
-and corrections is available here
+as well as expanding the already great capabilities of Tommy Vercetti
 
-&nbsp;
+&nbsp;&nbsp;
+
+
 
 ### Vice city toolset
 :gb: :ru: &#x3000;
@@ -287,6 +312,8 @@ Namely: editing game saves, editing transport parameters, converting models to c
 
 &nbsp;
 
+
+
 ### OS macros executor
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
@@ -299,6 +326,8 @@ A tool for automation of user actions in Windows operating system
 
 &nbsp;
 
+
+
 ### File extensions manager
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
@@ -309,6 +338,8 @@ A tool for automation of user actions in Windows operating system
 A tool for managing the custom file extensions in Windows operating system
 
 &nbsp;
+
+
 
 ### Screen shooter
 :gb: :ru: &#x3000;
@@ -321,6 +352,8 @@ An utility for creating screenshots. Supports shooting of screen, windows and el
 
 &nbsp;
 
+
+
 ### Dates difference
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
@@ -332,6 +365,8 @@ A simple tool that can tell the difference between two dates in different views
 
 &nbsp;
 
+
+
 ### Sudoku solver
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
@@ -342,6 +377,8 @@ A simple tool that can tell the difference between two dates in different views
 A simple tool for solving sudoku
 
 &nbsp;
+
+
 
 ### One hundred and one
 :gb: :ru: &#x3000;
@@ -355,6 +392,8 @@ This app imitates the “One hundred and one” game for two players
 
 &nbsp;
 
+
+
 ### Thousand
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
@@ -367,6 +406,8 @@ This app imitates the “Thousand” game for three players
 
 &nbsp;
 
+
+
 ### Races
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
@@ -376,6 +417,8 @@ This app imitates the “Thousand” game for three players
 “Races”, the classic Tetris game. It is the sample project for MonoGame Framework
 
 &nbsp;
+
+
 
 ### Snake
 :gb: :ru: &#x3000;
@@ -387,6 +430,8 @@ This app imitates the “Thousand” game for three players
 
 &nbsp;
 
+
+
 ### Turtle
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
@@ -396,6 +441,8 @@ This app imitates the “Thousand” game for three players
 “Turtle”, the classic Tetris game. It is the sample project for MonoGame Framework
 
 &nbsp;
+
+
 
 ---
 
