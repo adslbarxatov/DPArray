@@ -156,11 +156,12 @@ No additional codecs are required
 :iphone: [Get on GetApps](https://global.app.mi.com/details?id=uninotifier.xiaomi) &#x3000;
 :package: [Get APK](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.apk)
 
-This app provides the ability to be notified when the status of user-specified websites changes.
-In other words, about their updates, which will be presented in the form of a text log. Only what the user
+The web resources supervisor service.
+This app provides the ability to be notified when the content of user-specified websites changes.
+In other words, about updates on them, which will be presented in the form of a text log. Only what the user
 has specified is loaded – all other objects (including ads) are ignored
 
-&nbsp;
+&nbsp;&nbsp;
 
 
 

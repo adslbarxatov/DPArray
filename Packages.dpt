@@ -15,8 +15,8 @@ n:Batch image convertor
 a:BatchImageConvertor.dp
 f:F
 i:INFOPAGE
-v:3.5.2
-p:000D44EC21284A3D
+v:3.6
+p:004C4D2C632CAFB7
 
 n:ConcurrentDraw
 a:ConcurrentDraw.dp
