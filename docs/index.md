@@ -338,9 +338,9 @@ Application can “use” mouse, keyboard, command line and interrupts as same a
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://FileExtensionsManager) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/fileextensionsmanager/releases/latest)
 
-A tool for managing the custom file extensions in Windows operating system
+A tool for managing Windows registry settings for file extensions
 
-&nbsp;
+&nbsp;&nbsp;
 
 
 

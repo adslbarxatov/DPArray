@@ -388,9 +388,9 @@ ES: Randomaze – генератор карт для одноимённого м
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://FileExtensionsManager) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/fileextensionsmanager/releases/latest)
 
-Инструмент управления пользовательскими настройками расширений файлов в операционной системе Windows
+Инструмент управления пользовательскими настройками расширений файлов в Windows
 
-&nbsp;
+&nbsp;&nbsp;
 
 
 
