@@ -308,10 +308,10 @@ as well as expanding the already great capabilities of Tommy Vercetti
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ViceCityToolset) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/ViceCityToolset/releases/latest)
 
-A set of modder tools for GTA Vice city that supports some useful functions and operations.
-Namely: editing game saves, editing transport parameters, converting models to collision scripts, etc.
+A set of modder tools for GTA Vice city that support some useful functions and operations.
+Namely: editing game saves, editing transport parameters, converting models to collision scripts
 
-&nbsp;
+&nbsp;&nbsp;
 
 
 
@@ -323,9 +323,11 @@ Namely: editing game saves, editing transport parameters, converting models to c
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://OSMacrosExecutor) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/osmacrosexecutor/releases/latest)
 
-A tool for automation of user actions in Windows operating system
+The tool for automation of user activities.
+This tool allows you to create and execute your operating system macros.
+Application can “use” mouse, keyboard, command line and interrupts as same as user with the same potentialities
 
-&nbsp;
+&nbsp;&nbsp;
 
 
 
@@ -362,9 +364,10 @@ An utility for creating screenshots. Supports shooting of screen, windows and el
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://DatesDifference) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/datesdifference/releases/latest)
 
-A simple tool that can tell the difference between two dates in different views
+This tool evaluates the difference in dates. It allows you to display the difference in seconds, minutes,
+hours, days, weeks, full months and years (with fraction)
 
-&nbsp;
+&nbsp;&nbsp;
 
 
 

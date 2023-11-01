@@ -29,8 +29,8 @@ n:Dates difference
 a:DatesDifference.dp
 f:0
 i:INFOLINK
-v:3.3.11
-p:000328E4FCDFB09B
+v:3.3.13
+p:00032ADCDFCF1D3F
 
 n:File extensions manager
 a:FileExtensionsManager.dp
@@ -65,8 +65,8 @@ n:OS macros executor
 a:OSMacrosExecutor.dp
 f:F
 i:INFOLINK
-v:3.4.2
-p:0005F441BED1AF11
+v:3.4.3
+p:0005F23957CC3988
 
 n:Screen shooter
 a:ScreenShooter.dp
@@ -93,8 +93,8 @@ n:Vice city toolset
 a:ViceCityToolset.dp
 f:F
 i:INFOPAGE
-v:4.3.11
-p:001A3AC39C2DC2B1
+v:4.3.13
+p:001A3ABB8C60D3B9
 
 
 
