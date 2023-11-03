@@ -72,15 +72,15 @@ n:Screen shooter
 a:ScreenShooter.dp
 f:0
 i:INFOLINK
-v:2.3.11
-p:000324D3E0924B67
+v:2.3.13
+p:000328CBBFEA79A1
 
 n:Sudoku solver
 a:SudokuSolver.dp
 f:0
 i:INFOLINK
-v:4.0.11
-p:000344B1B01EA690
+v:4.0.13
+p:00033EA9797134EE
 
 n:uNot
 a:UniNotifier.dp

@@ -351,9 +351,9 @@ A tool for managing Windows registry settings for file extensions
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ScreenShooter) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/screenshooter/releases/latest)
 
-An utility for creating screenshots. Supports shooting of screen, windows and elements of applications
+A tool for making screenshots. Supports shooting of screen, windows and elements of applications
 
-&nbsp;
+&nbsp;&nbsp;
 
 
 
@@ -378,9 +378,9 @@ hours, days, weeks, full months and years (with fraction)
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://SudokuSolver) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/sudokusolver/releases/latest)
 
-A simple tool for solving sudoku
+A tool for solving sudoku
 
-&nbsp;
+&nbsp;&nbsp;
 
 
 

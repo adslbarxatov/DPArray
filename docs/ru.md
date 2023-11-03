@@ -401,9 +401,9 @@ ES: Randomaze – генератор карт для одноимённого м
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ScreenShooter) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/screenshooter/releases/latest)
 
-Утилита для создания скриншотов. Поддерживает снимки экрана, окон и элементов приложений
+Инструмент для создания скриншотов. Поддерживает снимки экрана, окон и элементов приложений
 
-&nbsp;
+&nbsp;&nbsp;
 
 
 
@@ -428,9 +428,9 @@ ES: Randomaze – генератор карт для одноимённого м
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://SudokuSolver) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/sudokusolver/releases/latest)
 
-Простой инструмент для решения судоку
+Инструмент для решения судоку
 
-&nbsp;
+&nbsp;&nbsp;
 
 
 
