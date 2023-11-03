@@ -193,7 +193,7 @@ activity. Before starting the experiment take a look at the project presentation
 
 Stand-alone tool for building and designing diagrams based on tabular data
 
-&nbsp;
+&nbsp;&nbsp;
 
 
 
@@ -240,7 +240,7 @@ A tool for batch processing of image files
 
 A tool for finding a font by its image
 
-&nbsp;
+&nbsp;&nbsp;
 
 
 
