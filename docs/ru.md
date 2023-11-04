@@ -424,13 +424,26 @@ ES: Randomaze – генератор карт для одноимённого м
 ### Sudoku solver
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/sudokusolver) &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/SudokuSolver/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://SudokuSolver) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/sudokusolver/releases/latest)
 
 Инструмент для решения судоку
 
 &nbsp;&nbsp;
+
+
+
+### Mafia helper
+:gb: :ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/MafiaHelper/ru) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://MafiaHelper) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/MafiaHelper/releases/latest)
+
+Помощник ведущего для игры «Мафия»
+
+&nbsp;
 
 
 
@@ -565,6 +578,7 @@ ES: Randomaze – генератор карт для одноимённого м
 [Grammar must joy](#grammar-must-joy) &#x3000;
 [KassArray](#kassarray) &#x3000;
 [Keyboard switcher](#keyboard-switcher) &#x3000;
+[Mafia helper](#mafia-helper) &#x3000;
 [Make decision](#make-decision) &#x3000;
 [OS macros executor](#os-macros-executor) &#x3000;
 [PA detector (Enchant it)](#pa-detector-enchant-it) &#x3000;

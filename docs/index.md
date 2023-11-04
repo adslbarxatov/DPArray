@@ -374,13 +374,26 @@ hours, days, weeks, full months and years (with fraction)
 ### Sudoku solver
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/sudokusolver) &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/SudokuSolver) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://SudokuSolver) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/sudokusolver/releases/latest)
 
 A tool for solving sudoku
 
 &nbsp;&nbsp;
+
+
+
+### Mafia helper
+:gb: :ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/MafiaHelper) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://MafiaHelper) &#x3000;
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/MafiaHelper/releases/latest)
+
+A moderator’s assistant for the game “Mafia”
+
+&nbsp;
 
 
 
@@ -496,6 +509,7 @@ Also allows you to translate HEX data to binary and backward
 [Grammar must joy](https://adslbarxatov.github.io/DPArray/ru#grammar-must-joy) &#x3000;
 [KassArray](https://adslbarxatov.github.io/DPArray/ru#kassarray) &#x3000;
 [Keyboard switcher](#keyboard-switcher) &#x3000;
+[Mafia helper](#mafia-helper) &#x3000;
 [Make decision](#make-decision) &#x3000;
 [OS macros executor](#os-macros-executor) &#x3000;
 [PA detector (Enchant it)](#pa-detector-enchant-it) &#x3000;
