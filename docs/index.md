@@ -393,7 +393,7 @@ A tool for solving sudoku
 
 A moderator’s assistant for the game “Mafia”
 
-&nbsp;
+&nbsp;&nbsp;
 
 
 
@@ -407,7 +407,7 @@ A moderator’s assistant for the game “Mafia”
 
 This app imitates the “One hundred and one” game for two players
 
-&nbsp;
+&nbsp;&nbsp;
 
 
 
@@ -421,43 +421,43 @@ This app imitates the “One hundred and one” game for two players
 
 This app imitates the “Thousand” game for three players
 
-&nbsp;
+&nbsp;&nbsp;
 
 
 
 ### Races
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/races) &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/Races) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://Races)
 
-“Races”, the classic Tetris game. It is the sample project for MonoGame Framework
+“Races” minigame – a sample project for MonoGame Framework
 
-&nbsp;
+&nbsp;&nbsp;
 
 
 
 ### Snake
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/snake) &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/Snake) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://Snake)
 
-“Snake”, the classic Tetris game. It is the sample project for MonoGame Framework
+“Snake” minigame – a sample project for MonoGame Framework
 
-&nbsp;
+&nbsp;&nbsp;
 
 
 
 ### Turtle
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/turtle) &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/Turtle) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://Turtle)
 
-“Turtle”, the classic Tetris game. It is the sample project for MonoGame Framework
+“Turtle” minigame – a sample project for MonoGame Framework
 
-&nbsp;
+&nbsp;&nbsp;
 
 
 

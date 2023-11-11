@@ -443,7 +443,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 Помощник ведущего для игры «Мафия»
 
-&nbsp;
+&nbsp;&nbsp;
 
 
 
@@ -457,7 +457,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 Это приложение имитирует игру «Сто одно» для двух игроков
 
-&nbsp;
+&nbsp;&nbsp;
 
 
 
@@ -471,43 +471,43 @@ ES: Randomaze – генератор карт для одноимённого м
 
 Это приложение имитирует игру «Тысяча» для трёх игроков
 
-&nbsp;
+&nbsp;&nbsp;
 
 
 
 ### Races
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/races) &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/Races/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Races)
 
-«Гонки» – классическая игра для Тетриса. Из учебного набора игр для MonoGame Framework
+Игра «Гонки» – учебный проект для MonoGame Framework
 
-&nbsp;
+&nbsp;&nbsp;
 
 
 
 ### Snake
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/snake) &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/Snake/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Snake)
 
-«Змейка» – классическая игра для Тетриса. Из учебного набора игр для MonoGame Framework
+Игра «Змейка» – учебный проект для MonoGame Framework
 
-&nbsp;
+&nbsp;&nbsp;
 
 
 
 ### Turtle
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/turtle) &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/Turtle/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Turtle)
 
-«Черепашка» – классическая игра для Тетриса. Из учебного набора игр для MonoGame Framework
+Игра «Черепашка» – учебный проект для MonoGame Framework
 
-&nbsp;
+&nbsp;&nbsp;
 
 
 
