@@ -122,7 +122,7 @@ DPArray is a tool for managing Laboratory’s products on your PC.
 DPArray performs installation, deinstallation, check for updates, download of packages and their requirements. This tool is the only thing you need to start working with all of our projects.
 Now you can enable the “run at system startup” flag to allow the DPArray to check updates automatically at the OS start. Also our new mini-launcher allows you to call all deployed products from the tray icon.
 
-&nbsp;&nbsp;
+&nbsp;
 
 
 
@@ -139,7 +139,7 @@ The sound and music visualization tool. The app allows you to visualize audio da
 (system mixer or speakers). All sound that you can play on your PC can be drawn.
 No additional codecs are required
 
-&nbsp;&nbsp;
+&nbsp;
 
 
 
@@ -161,7 +161,7 @@ This app provides the ability to be notified when the content of user-specified 
 In other words, about updates on them, which will be presented in the form of a text log. Only what the user
 has specified is loaded – all other objects (including ads) are ignored
 
-&nbsp;&nbsp;
+&nbsp;
 
 
 
@@ -193,7 +193,7 @@ activity. Before starting the experiment take a look at the project presentation
 
 Stand-alone tool for building and designing diagrams based on tabular data
 
-&nbsp;&nbsp;
+&nbsp;
 
 
 
@@ -224,7 +224,7 @@ As a result, you’ll get the answer for the next question: “what way is the b
 
 A tool for batch processing of image files
 
-&nbsp;&nbsp;
+&nbsp;
 
 
 
@@ -240,7 +240,7 @@ A tool for batch processing of image files
 
 A tool for finding a font by its image
 
-&nbsp;&nbsp;
+&nbsp;
 
 
 
@@ -256,7 +256,7 @@ A mod for Half-Life 1 with its own storyline (not from the Half-Life universe). 
 steal classified files from a building called the “Evil scientists headquarters”. But his work will turn out
 to be a little more complex and long in time and space...
 
-&nbsp;&nbsp;
+&nbsp;
 
 
 
@@ -271,7 +271,7 @@ to be a little more complex and long in time and space...
 ES: Randomaze is the maps generator for the mod with the same name.
 This tool was the part of the ESHQ mod for Half-Life 1. Now it is a stand-alone project
 
-&nbsp;&nbsp;
+&nbsp;
 
 
 
@@ -282,7 +282,7 @@ This tool was the part of the ESHQ mod for Half-Life 1. Now it is a stand-alone 
 
 An adaptation of [Xash3d FWGS engine](https://github.com/FWGS/xash3d-fwgs) for ESHQ and ESL Randomaze mods for Half-Life 1
 
-&nbsp;&nbsp;
+&nbsp;
 
 
 
@@ -296,7 +296,7 @@ An adaptation of [Xash3d FWGS engine](https://github.com/FWGS/xash3d-fwgs) for E
 A modification for GTA Vice City, preserving the original plot and gameplay, but fixing a number of known problems,
 as well as expanding the already great capabilities of Tommy Vercetti
 
-&nbsp;&nbsp;
+&nbsp;
 
 
 
@@ -311,7 +311,7 @@ as well as expanding the already great capabilities of Tommy Vercetti
 A set of modder tools for GTA Vice city that support some useful functions and operations.
 Namely: editing game saves, editing transport parameters, converting models to collision scripts
 
-&nbsp;&nbsp;
+&nbsp;
 
 
 
@@ -327,7 +327,7 @@ The tool for automation of user activities.
 This tool allows you to create and execute your operating system macros.
 Application can “use” mouse, keyboard, command line and interrupts as same as user with the same potentialities
 
-&nbsp;&nbsp;
+&nbsp;
 
 
 
@@ -340,7 +340,7 @@ Application can “use” mouse, keyboard, command line and interrupts as same a
 
 A tool for managing Windows registry settings for file extensions
 
-&nbsp;&nbsp;
+&nbsp;
 
 
 
@@ -353,7 +353,7 @@ A tool for managing Windows registry settings for file extensions
 
 A tool for making screenshots. Supports shooting of screen, windows and elements of applications
 
-&nbsp;&nbsp;
+&nbsp;
 
 
 
@@ -367,7 +367,7 @@ A tool for making screenshots. Supports shooting of screen, windows and elements
 This tool evaluates the difference in dates. It allows you to display the difference in seconds, minutes,
 hours, days, weeks, full months and years (with fraction)
 
-&nbsp;&nbsp;
+&nbsp;
 
 
 
@@ -376,11 +376,12 @@ hours, days, weeks, full months and years (with fraction)
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/SudokuSolver) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://SudokuSolver) &#x3000;
+:briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NZ1DLGFK0WZ) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/sudokusolver/releases/latest)
 
 A tool for solving sudoku
 
-&nbsp;&nbsp;
+&nbsp;
 
 
 
@@ -389,11 +390,12 @@ A tool for solving sudoku
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/MafiaHelper) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://MafiaHelper) &#x3000;
+:briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9N4WB06F64TR) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/MafiaHelper/releases/latest)
 
 A moderator’s assistant for the game “Mafia”
 
-&nbsp;&nbsp;
+&nbsp;
 
 
 
@@ -402,12 +404,12 @@ A moderator’s assistant for the game “Mafia”
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/OneHundredOne) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://OneHundredOne) &#x3000;
-:briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NHVH857DV1S) &#x3000;
+:briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NDGGL3JM0VL) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/OneHundredOne/releases/latest)
 
 This app imitates the “One hundred and one” game for two players
 
-&nbsp;&nbsp;
+&nbsp;
 
 
 
@@ -421,7 +423,7 @@ This app imitates the “One hundred and one” game for two players
 
 This app imitates the “Thousand” game for three players
 
-&nbsp;&nbsp;
+&nbsp;
 
 
 
@@ -433,7 +435,7 @@ This app imitates the “Thousand” game for three players
 
 “Races” minigame – a sample project for MonoGame Framework
 
-&nbsp;&nbsp;
+&nbsp;
 
 
 
@@ -445,7 +447,7 @@ This app imitates the “Thousand” game for three players
 
 “Snake” minigame – a sample project for MonoGame Framework
 
-&nbsp;&nbsp;
+&nbsp;
 
 
 
@@ -457,7 +459,7 @@ This app imitates the “Thousand” game for three players
 
 “Turtle” minigame – a sample project for MonoGame Framework
 
-&nbsp;&nbsp;
+&nbsp;
 
 
 
