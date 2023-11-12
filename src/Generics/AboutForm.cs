@@ -105,6 +105,11 @@ namespace RD_AAOW
 		public const string MissingRefMaterialAlias = "";
 
 		/// <summary>
+		/// Возвращает расширение файла справки для приложения
+		/// </summary>
+		public const string HelpFilesExtension = RDGenerics.DPArrayFileNameExt + "h";
+
+		/// <summary>
 		/// Конструктор. Инициализирует форму
 		/// </summary>
 		public AboutForm ()
@@ -148,12 +153,15 @@ namespace RD_AAOW
 		/// другое значение, если окно справки было отображено</returns>
 		public int ShowAbout (bool StartupMode)
 			{
-			if (string.IsNullOrWhiteSpace (ProgramDescription.AssemblyReferenceMaterials[2]) ||
-				(ProgramDescription.AssemblyReferenceMaterials[2] == DefaultRefMaterialAlias))
-				description = Localization.GetText ("HelpText");
-			else
-				description = ProgramDescription.AssemblyReferenceMaterials[2];
-
+			try
+				{
+				description = File.ReadAllText (RDGenerics.AppStartupPath + ProgramDescription.AssemblyMainName +
+					"_" + Localization.CurrentLanguage.ToString () + HelpFilesExtension);
+				}
+			catch
+				{
+				description = Localization.GetDefaultText (LzDefaultTextValues.Message_NoOfflineHelp);
+				}
 			return LaunchForm (StartupMode, false);
 			}
 

@@ -1,12 +1,10 @@
-_Changes for v 6.7.2_:
+_Changes for v 6.8_:
+- App is now able to build offline help files and add them to packages;
+- Applied some interface improvements;
 - Now you can add your own apps (or regular files) to DPArray’s mini-launcher;
 - App is now able to skip projects that don’t support the selected interface language;
-- Fixed incorrect behavior on loading of unsupported packages;
 - Extended package info now contains the status description;
-- Adjusted the cleanup method for Downloaded directory;
-- App now has language-dependent banners;
-- Set of banners and their URLs has been updated;
+- Adjusted the cleanup method for `Downloaded` directory;
+- List of banners and their URLs has been updated;
 - Version `DP13` of package formats has been deprecated (old monolanguage script);
-- Version `DP15` of package formats has been implemented (new script without obsolete fields);
-- Fixed incorrect version detection for ESHQ and ESRM;
-- Completed the process of version control unification
+- Version `DP15` of package formats has been implemented (new script without obsolete fields)

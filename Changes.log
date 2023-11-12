@@ -1,5 +1,9 @@
 DPArray: changes log
 
+Version 6.8:
+• App is now able to build offline help files and add them to packages;
+• Applied some interface improvements
+
 Version 6.7.2:
 • Now you can add your own apps (or regular files) to DPArray’s mini-launcher
 

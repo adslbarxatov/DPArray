@@ -264,6 +264,7 @@ namespace RD_AAOW
 					if (Timeout > 0)
 						{
 						this.Height += 17;
+						Label01.Top = (this.Height - Label01.Height) / 2 + 8;
 						}
 					else
 						{
