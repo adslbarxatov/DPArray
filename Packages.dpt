@@ -131,10 +131,10 @@ n:ES: Randomaze, actual update
 a:ESRM_update.7z
 f:0
 i:MODSHOST/esrm
-u:MODSTORAGE/258547?MOD_REFmods%2Fesrm
-v:5.1
-s:3022563
-p:005834AA62F36D8B
+u:MODSTORAGE/260640?MOD_REFmods%2Fesrm
+v:5.1.2
+s:3029469
+p:00584523C75BE90A
 
 /n:ES: Randomaze, bkwd compat.
 /a:ESRM_bkwd.7z

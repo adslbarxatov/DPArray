@@ -1,5 +1,8 @@
 DPArray: changes log
 
+ToDo:
+- Add server messages to mini-launcher
+
 Version 6.8.2:
 • Context menu in the packages interface now has clear modes names: normal mode allows
   you to both deploy and remove the application;
