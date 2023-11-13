@@ -251,15 +251,6 @@ NOTE: if you’ll set incorrect path, updater and installer may damage valuable 
   <data name="IconMenuWebpage" xml:space="preserve">
     <value>Open package’s webpage...</value>
   </data>
-  <data name="HelpText" xml:space="preserve">
-    <value>DPArray is a tool for managing Laboratory’s products on your PC.
-
-DPArray performs installation, deinstallation, check for updates, download of packages and their requirements. This tool is the only thing you need to start working with all of our projects.
-
-Now you can enable the “run at system startup” flag to allow the DPArray to check updates automatically at the OS start. Also our new mini-launcher allows you to call all deployed products from the tray icon.
-
-Use right mouse button to manage packages, and the tray icon for retrieving packages info and other features</value>
-  </data>
   <data name="PackageSelectorForm_Label01" xml:space="preserve">
     <value>Deployment packages manager</value>
   </data>
@@ -443,7 +434,7 @@ If possible, they will be installed automatically in the next step. Otherwise, t
     <value>More info</value>
   </data>
   <data name="PSF_Context01" xml:space="preserve">
-    <value>Deploy</value>
+    <value>Deploy / remove</value>
   </data>
   <data name="PSF_Context02" xml:space="preserve">
     <value>Fast deployment</value>

@@ -105,11 +105,6 @@ namespace RD_AAOW
 		public const string MissingRefMaterialAlias = "";
 
 		/// <summary>
-		/// Возвращает расширение файла справки для приложения
-		/// </summary>
-		public const string HelpFilesExtension = RDGenerics.DPArrayFileNameExt + "h";
-
-		/// <summary>
 		/// Конструктор. Инициализирует форму
 		/// </summary>
 		public AboutForm ()
@@ -155,8 +150,8 @@ namespace RD_AAOW
 			{
 			try
 				{
-				description = File.ReadAllText (RDGenerics.AppStartupPath + ProgramDescription.AssemblyMainName +
-					"_" + Localization.CurrentLanguage.ToString () + HelpFilesExtension);
+				description = File.ReadAllText (Localization.GetHelpFilePath (Localization.CurrentLanguage),
+					RDGenerics.GetEncoding (SupportedEncodings.UTF8));
 				}
 			catch
 				{

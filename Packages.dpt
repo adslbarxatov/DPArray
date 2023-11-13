@@ -4,8 +4,8 @@ n:DPArray
 a:DPArray.dp
 f:fvd
 i:INFOPAGE
-v:6.8
-p:000B4578A8783E3C
+v:6.8.2
+p:000B3F7D830265B2
 
 
 
@@ -337,8 +337,9 @@ v:6.7.9
 
 
 
-m:Warning!||It is strongly recommended to deploy actual updates 
-m:in normal mode (without the fast flag). This will allow you to 
-m:enable some new features during the deployment.||
-m:Also note: the deinstallation script for the DPArray itself now works 
-m:as shortcut for settings mode
+m:Warning! DPArray store versions older than 6.6 will no longer be supported after November 20, 2023.|
+m:Please update your version to the latest version before this date.|
+m:After this period, only manual reinstallation will be available.||
+m:Внимание! Поддержка версий магазина DPArray старше 6.6 прекратится после 20 ноября 2023 года.|
+m:Пожалуйста, обновите свою версию до актуальной до этой даты.|
+m:По истечении этого срока будет доступна только ручная переустановка

@@ -1,5 +1,11 @@
 DPArray: changes log
 
+Version 6.8.2:
+• Context menu in the packages interface now has clear modes names: normal mode allows
+  you to both deploy and remove the application;
+• Some fixes applied to the packages building algorithm;
+• Removed some redundant code
+
 Version 6.8:
 • App is now able to build offline help files and add them to packages;
 • Applied some interface improvements
