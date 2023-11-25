@@ -501,4 +501,8 @@
   <data name="AddAppsForm_PathLabel" xml:space="preserve">
     <value>Путь:</value>
   </data>
+  <data name="HasServerAlert" xml:space="preserve">
+    <value>.
+Есть новое сообщение от сервера</value>
+  </data>
 </root>

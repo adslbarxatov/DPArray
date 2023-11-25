@@ -1,7 +1,10 @@
 DPArray: changes log
 
-ToDo:
-- Add server messages to mini-launcher
+Version 6.8.6:
+• Fixed the long pause before the package deployment;
+• Fixed some issues in packages builder;
+• Mini-launcher is now able to show server alerts (as well as packages manager);
+• Added the 'Help the project' link
 
 Version 6.8.2:
 • Context menu in the packages interface now has clear modes names: normal mode allows

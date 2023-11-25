@@ -91,6 +91,7 @@ namespace RD_AAOW
 			ToLabMain,
 			ToLabVK,
 			ToLabTG,
+			Donate,
 			}
 		private List<LinkTypes> linkTypes = new List<LinkTypes> ();
 
@@ -269,7 +270,11 @@ namespace RD_AAOW
 				linkTypes.Add (LinkTypes.ToLabMain);
 				linkTypes.Add (LinkTypes.ToLabTG);
 				linkTypes.Add (LinkTypes.ToLabVK);
+				linkTypes.Add (LinkTypes.Donate);
+
 				ToLaboratoryCombo.Items.AddRange (RDGenerics.CommunitiesNames);
+				ToLaboratoryCombo.Items.Add (
+					Localization.GetDefaultText (LzDefaultTextValues.Control_HelpTheProject));
 				}
 			ToLaboratoryCombo.SelectedIndex = 0;
 
@@ -319,13 +324,17 @@ namespace RD_AAOW
 #if DPMODULE
 			UpdatesPageButton.Visible = false;
 #else
-			UpdatesPageButton.Visible = !AcceptMode;
+			UpdatesPageButton.Visible = !AcceptMode && !RDGenerics.StartedFromMSStore;
 #endif
 
 			MisacceptButton.Visible = AcceptMode;
 
 			// Запуск с управлением настройками окна
-			HypeHelpFlag.Checked = hypeHelp;
+			if (RDGenerics.StartedFromMSStore)
+				HypeHelpFlag.Checked = HypeHelpFlag.Visible = false;
+			else
+				HypeHelpFlag.Checked = hypeHelp;
+
 			RDGenerics.LoadAppAboutWindowDimensions (this);
 
 			this.ShowDialog ();
@@ -465,6 +474,10 @@ namespace RD_AAOW
 
 				case LinkTypes.UserVideomanual:
 					link = userVideomanualLink;
+					break;
+
+				case LinkTypes.Donate:
+					link = RDGenerics.DPArrayContacts;
 					break;
 
 				default:
