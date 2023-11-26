@@ -12,11 +12,11 @@ p:000B417DA1AB5BC0
 g:Windows apps
 
 n:Batch image convertor
-a:BatchImageConvertor.dp
+a:BatchImageConvertor.7z
 f:F
 i:INFOPAGE
-v:3.6
-p:004C4D2C632CAFB7
+v:3.7
+p:00595E313F6A59E1
 
 n:ConcurrentDraw
 a:ConcurrentDraw.dp
