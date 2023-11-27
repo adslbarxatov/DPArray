@@ -1,5 +1,13 @@
 DPArray: changes log
 
+Version 6.9:
+• App will now start the autostart app shortcut (if it was allowed) instead of the
+  regular one after the deployment;
+• App will not run the app after the deployment if it was unsuccessful;
+• Added the correct timeout for the deployment of apps that are already running;
+• Enabled the fast deployment for DPArray itself;
+• Fixed some minor inconveniences
+
 Version 6.8.6:
 • Fixed the long pause before the package deployment;
 • Fixed some issues in packages builder;

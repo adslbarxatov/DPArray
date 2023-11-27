@@ -1,11 +1,12 @@
-_Changes for v 6.8.6_:
+_Changes for v 6.9_:
+- App will now start the autostart app shortcut (if it was allowed) instead of the
+- regular one after the deployment;
+- App will not run the app after the deployment if it was unsuccessful;
+- Added the correct timeout for the deployment of apps that are already running;
+- Enabled the fast deployment for DPArray itself;
+- Fixed some minor inconveniences;
 - Fixed the long pause before the package deployment;
-- Fixed some issues in packages builder;
 - Mini-launcher is now able to show server alerts (as well as packages manager);
-- Added the 'Help the project' link;
+- Added the `Help the project` link;
 - Context menu in the packages interface now has clear modes names: normal mode allows you to both deploy and remove the application;
-- Some fixes applied to the packages building algorithm;
-- Removed some redundant code;
-- App is now able to build offline help files and add them to packages;
-- Applied some interface improvements;
-- Now you can add your own apps (or regular files) to DPArray’s mini-launcher
+- App is now able to build offline help files and add them to packages
