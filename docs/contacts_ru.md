@@ -1,8 +1,8 @@
 # Laboratory: контакты
 
-[Контакты](#section-1)
-[Помочь проекту](#section-2)
-[Вернуться на домашнюю страницу](https://adslbarxatov.github.io/DPArray/ru)
+- [Контакты](#section)
+- [Помочь проекту](#section-1)
+- [Вернуться на домашнюю страницу](https://adslbarxatov.github.io/DPArray/ru)
 
 &nbsp;
 
