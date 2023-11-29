@@ -368,7 +368,7 @@ ES: Randomaze – генератор карт для одноимённого м
 ### OS macros executor
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/osmacrosexecutor) &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/OSMacrosExecutor/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=a9yjvx7Cy3M) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://OSMacrosExecutor) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/osmacrosexecutor/releases/latest)
