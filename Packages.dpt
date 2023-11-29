@@ -170,8 +170,8 @@ n:One hundred and one
 a:OneHundredOne.dp
 f:0
 i:INFOPAGE
-v:2.1.13
-p:0003CE9ACC49F07D
+v:2.1.14
+p:0003D1FC79BF5E0D
 
 n:Races
 a:Races.7z
@@ -193,8 +193,8 @@ n:Thousand
 a:Thousand.dp
 f:0
 i:INFOPAGE
-v:2.1.13
-p:00038072CA7B9F49
+v:2.1.14
+p:000380CDA7F1DE36
 
 n:Turtle
 a:Turtle.7z
@@ -269,7 +269,7 @@ v:1.5
 n:One hundred and one
 f:FVD
 i:MS_STORE/9NDGGL3JM0VL
-v:2.1.13
+v:2.1.14
 
 n:Sudoku solver
 f:FVD
@@ -279,7 +279,7 @@ v:4.0.13
 n:Thousand
 f:FVD
 i:MS_STORE/9N1JJ1G48BCF
-v:2.1.13
+v:2.1.14
 
 n:uNot
 f:FVD
