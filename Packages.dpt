@@ -30,15 +30,15 @@ n:Dates difference
 a:DatesDifference.dp
 f:0
 i:INFOLINK
-v:3.3.13
-p:00032ADCDFCF1D3F
+v:3.3.14
+p:00032EF19192C99B
 
 n:File extensions manager
 a:FileExtensionsManager.dp
 f:0
 i:INFOPAGE
-v:2.5.3
-p:0005651C1CD27C2B
+v:2.5.4
+p:00057A37436C3201
 
 n:Font finder
 a:FontFinder.dp
@@ -59,8 +59,8 @@ a:KassArray.dp
 f:F
 i:INFOPAGE
 l:r
-v:4.9.7
-p:0012BEAF4A0BA334
+v:4.9.8
+p:0012C0AF13A52EC9
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
