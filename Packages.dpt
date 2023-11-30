@@ -72,16 +72,16 @@ p:0005FB7E18D022BB
 n:Screen shooter
 a:ScreenShooter.dp
 f:0
-i:INFOLINK
-v:2.3.13
-p:000328CBBFEA79A1
+i:INFOPAGE
+v:2.3.14
+p:000333467097C998
 
 n:Sudoku solver
 a:SudokuSolver.dp
 f:0
 i:INFOPAGE
-v:4.0.13
-p:00033EA9797134EE
+v:4.1
+p:0003500F1E1A453D
 
 n:uNot
 a:UniNotifier.dp
@@ -274,7 +274,7 @@ v:2.1.14
 n:Sudoku solver
 f:FVD
 i:MS_STORE/9NZ1DLGFK0WZ
-v:4.0.13
+v:4.1
 
 n:Thousand
 f:FVD
