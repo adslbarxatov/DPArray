@@ -246,7 +246,7 @@ A tool for finding a font by its image
 ### ESHQ
 :gb: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
-:earth_africa: [Summary](https://moddb.com/mods/eshq) &#x3000;
+:earth_africa: [About the mod](https://moddb.com/mods/eshq) &#x3000;
 :tv: [Video demo](https://youtube.com/playlist?list=PLe7qKwHNkZTvsbUZk6lh-IgkCwrQ6yZOL) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ESHQ_setup) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get the latest update](dp://ESHQ_update)
@@ -262,7 +262,8 @@ to be a little more complex and long in time and space...
 ### ES: Randomaze
 :gb: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/randomaze) &#x3000;
+:earth_africa: [About the mod](https://moddb.com/mods/esrm) &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/Randomaze) &#x3000;
 :tv: [Video demo](https://youtube.com/playlist?list=PLe7qKwHNkZTu8VJPLFEGCFsB4zqiJP7fh) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ESRM_setup) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get the latest update](dp://ESRM_update)

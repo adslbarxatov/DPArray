@@ -297,7 +297,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 ### ESHQ
 :gb: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
-:earth_africa: [Полное описание](https://moddb.com/mods/eshq) &#x3000;
+:earth_africa: [Описание мода](https://moddb.com/mods/eshq) &#x3000;
 :tv: [Демо видео](https://youtube.com/playlist?list=PLe7qKwHNkZTvsbUZk6lh-IgkCwrQ6yZOL) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ESHQ_setup) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Последнее обновление](dp://ESHQ_update)
@@ -313,7 +313,8 @@ DPArray выполняет установку, деинсталляцию, пр�
 ### ES: Randomaze
 :gb: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/randomaze) &#x3000;
+:earth_africa: [Описание мода](https://moddb.com/mods/esrm) &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/Randomaze) &#x3000;
 :tv: [Демо видео](https://youtube.com/playlist?list=PLe7qKwHNkZTu8VJPLFEGCFsB4zqiJP7fh) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ESRM_setup) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Последнее обновление](dp://ESRM_update)
