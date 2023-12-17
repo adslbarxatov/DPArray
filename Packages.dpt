@@ -87,8 +87,8 @@ n:uNot
 a:UniNotifier.dp
 f:0
 i:INFOPAGE
-v:6.7.10
-p:0005BF46D219B5AF
+v:6.8
+p:0005B7436014637B
 
 n:Vice city toolset
 a:ViceCityToolset.dp
@@ -238,8 +238,8 @@ u:GIT_LINK/UniNotifier/GIT_PATH/DEFFILE
 a:UniNotifier.apk
 f:FV
 i:INFOPAGE
-v:6.7.10
-s:35610873
+v:6.8
+s:35644139
 
 
 
@@ -284,7 +284,7 @@ v:2.1.14
 n:uNot
 f:FVD
 i:MS_STORE/9NVZ51RL54K4
-v:6.7.10
+v:6.8
 
 
 
@@ -309,7 +309,7 @@ v:3.3.1
 n:uNot
 f:FVD
 i:GP_STOREcom.RD_AAOW.UniNotifier
-v:6.7.10
+v:6.8
 
 
 
@@ -334,7 +334,7 @@ v:3.3.1
 n:uNot
 f:FVD
 i:MI_STOREuninotifier.xiaomi
-v:6.7.10
+v:6.8
 
 
 
