@@ -59,8 +59,8 @@ a:KassArray.dp
 f:F
 i:INFOPAGE
 l:r
-v:4.9.9
-p:0012C0AFEF1EB777
+v:5.0
+p:00158602A5A59560
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
@@ -259,7 +259,7 @@ n:KassArray
 f:FVD
 l:r
 i:MS_STORE/9ND98F4C4Q60
-v:4.9.9
+v:5.0
 
 n:Mafia helper
 f:FVD
