@@ -1,5 +1,9 @@
 DPArray: changes log
 
+ToDo:
+- Add &ldquo; and &rdquo; characters to the filter;
+- Move some functions from the context menu to the main interface
+
 Version 6.9:
 • App will now start the autostart app shortcut (if it was allowed) instead of the
   regular one after the deployment;
