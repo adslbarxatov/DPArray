@@ -1,6 +1,7 @@
-_Changes for v 6.9.1_: 
+_Changes for v 6.9.2_:
 - The project URL is now a part of the first page of the deployment window;
 - The changes log now has its own button on the first page;
+- Fixed some incorrect flags operations in the fast deployment mode;
 - DPArray now uses only `DP15` packages format for itself. `DP14` format has support only for other projects;
 - Added new replacements for characters to the changes log filter;
 - Banners have been updated;

@@ -1,5 +1,8 @@
 DPArray: changes log
 
+Version 6.9.2:
+• Fixed some incorrect flags operations in the fast deployment mode
+
 Version 6.9.1:
 • The project URL is now a part of the first page of the deployment window;
 • The changes log now has its own button on the first page;
