@@ -130,10 +130,9 @@
     <value>Your deployment package is correct and up to date</value>
   </data>
   <data name="DisclaimerMainText" xml:space="preserve">
-    <value>You can improve the app or view our other projects
-(just click the banner of interest).
-If you have any wishes, advices or troubles with this utility, remind us, using “Ask developer” button in the “About” window
-(available in tray icon’s menu)</value>
+    <value>You can get more info about this project $here$.
+
+Also you can try other Lab projects. Just click the banner of interest</value>
   </data>
   <data name="FilesAccessError" xml:space="preserve">
     <value>Cannot access one or more source file(s)</value>
@@ -324,7 +323,7 @@ Do you want to save a cache of package descriptions? When deleted, they will be 
     <value>Upd&amp;ate lists</value>
   </data>
   <data name="DisclaimerMainTextPre" xml:space="preserve">
-    <value>Right-click tray icon for details and package info. For continue deployment press “Next” button</value>
+    <value>Right-click tray icon for details and package info. For continue deployment press “Next” button.</value>
   </data>
   <data name="AppIsNotClosed" xml:space="preserve">
     <value>The application being updated / deleted is running. Finish this app and try again</value>
@@ -461,13 +460,6 @@ Do you want to open the webpage with additional project info?</value>
   </data>
   <data name="dptfile" xml:space="preserve">
     <value>DPArray auxiliary script</value>
-  </data>
-  <data name="KillProcessWarning" xml:space="preserve">
-    <value>It looks like the app you’re trying to start is already running.
-
-You can force its close and restart it by clicking “Yes” button. In this case, all unsaved data in it may be lost.
-
-Continue?</value>
   </data>
   <data name="AllowStartupShortcutsFlagText" xml:space="preserve">
     <value>Run at system startup</value>

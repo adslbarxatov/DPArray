@@ -77,7 +77,9 @@ namespace RD_AAOW
 			new string[] { "&gt;", "›" },
 			new string[] { "&lt;", "‹" },
 			new string[] { "&#39;", "’" },
-			new string[] { "&bull;", "•" }
+			new string[] { "&bull;", "•" },
+			new string[] { "&ldquo;", "“" },
+			new string[] { "&rdquo;", "”" },
 			};
 
 		// Доступные варианты перехода к ресурсам Лаборатории

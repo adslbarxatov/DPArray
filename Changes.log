@@ -1,8 +1,12 @@
 DPArray: changes log
 
-ToDo:
-- Add &ldquo; and &rdquo; characters to the filter;
-- Move some functions from the context menu to the main interface
+Version 6.9.1:
+• The project URL is now a part of the first page of the deployment window;
+• The changes log now has its own button on the first page;
+• DPArray now uses only DP15 packages format for itself. DP14 format has support only
+  for other projects;
+• Added new replacements for characters to the changes log filter;
+• Banners have been updated
 
 Version 6.9:
 • App will now start the autostart app shortcut (if it was allowed) instead of the

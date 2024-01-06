@@ -1,12 +1,8 @@
-_Changes for v 6.9_:
-- App will now start the autostart app shortcut (if it was allowed) instead of the
-- regular one after the deployment;
-- App will not run the app after the deployment if it was unsuccessful;
-- Added the correct timeout for the deployment of apps that are already running;
-- Enabled the fast deployment for DPArray itself;
-- Fixed some minor inconveniences;
-- Fixed the long pause before the package deployment;
-- Mini-launcher is now able to show server alerts (as well as packages manager);
-- Added the `Help the project` link;
-- Context menu in the packages interface now has clear modes names: normal mode allows you to both deploy and remove the application;
-- App is now able to build offline help files and add them to packages
+_Changes for v 6.9.1_:
+- The project URL is now a part of the first page of the deployment window;
+- The changes log now has its own button on the first page;
+- DPArray now uses only `DP15` packages format for itself. `DP14` format has support only for other projects;
+- Added new replacements for characters to the changes log filter;
+- Banners have been updated;
+- App will now start the autostart app shortcut (if it was allowed) instead of the regular one after the deployment;
+- App will not run the app after the deployment if it was unsuccessful
