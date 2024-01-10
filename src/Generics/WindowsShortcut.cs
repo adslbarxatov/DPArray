@@ -7,7 +7,7 @@ namespace RD_AAOW
 	/// <summary>
 	/// Класс описывает функционал для создания ярлыков к приложениям Windows
 	/// </summary>
-	public static class WindowsShortcut
+	public static class RDShortcuts
 		{
 		/// <summary>
 		/// Метод создаёт ярлык к файлу в текущем меню Пуск

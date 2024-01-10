@@ -132,7 +132,7 @@
   <data name="DisclaimerMainText" xml:space="preserve">
     <value>You can get more info about this project $here$.
 
-Also you can try other Lab projects. Just click the banner of interest</value>
+Also you can try other Lab projects. Use tray icon and “App about” option</value>
   </data>
   <data name="FilesAccessError" xml:space="preserve">
     <value>Cannot access one or more source file(s)</value>
@@ -420,7 +420,7 @@ Updates are highlighted in yellow in the packages list. At the top of the window
     <value>Need shortcuts in the Start menu</value>
   </data>
   <data name="VersionLine" xml:space="preserve">
-    <value>App version: {0:S}; package version: {1:S}</value>
+    <value>•  App version: {0:S}  •  Package version: {1:S}  •</value>
   </data>
   <data name="ReqMessageFirst" xml:space="preserve">
     <value>This app requires the following prerequisites to work:
@@ -497,5 +497,8 @@ Do you want to open the webpage with additional project info?</value>
   <data name="HasServerAlert" xml:space="preserve">
     <value>.
 Server sent a new message</value>
+  </data>
+  <data name="DeinstallationScriptBuilding" xml:space="preserve">
+    <value>Creating the deinstallation script...</value>
   </data>
 </root>

@@ -132,7 +132,7 @@
   <data name="DisclaimerMainText" xml:space="preserve">
     <value>Более подробную информацию об этом проекте можно получить $здесь$.
 
-Также Вы можете попробовать другие проекты Лаборатории. Просто нажмите на интересующий баннер</value>
+Также Вы можете попробовать другие проекты Лаборатории. Используйте значок в трее и опцию «О приложении»</value>
   </data>
   <data name="FilesAccessError" xml:space="preserve">
     <value>Не удалось прочитать один или несколько исходных файлов</value>
@@ -420,7 +420,7 @@
     <value>Требуются ярлыки в меню Пуск</value>
   </data>
   <data name="VersionLine" xml:space="preserve">
-    <value>Версия приложения: {0:S}; версия пакета: {1:S}</value>
+    <value>•  Версия приложения: {0:S}  •  Версия пакета: {1:S}  •</value>
   </data>
   <data name="ReqMessageFirst" xml:space="preserve">
     <value>Это приложение требует следующих предустановок для работы:
@@ -497,5 +497,8 @@
   <data name="HasServerAlert" xml:space="preserve">
     <value>.
 Есть новое сообщение от сервера</value>
+  </data>
+  <data name="DeinstallationScriptBuilding" xml:space="preserve">
+    <value>Создание скрипта деинсталляции...</value>
   </data>
 </root>

@@ -65,14 +65,14 @@ namespace RD_AAOW
 
 		// Список подстановок при восстановлении спецсимволов из HTML-кода
 		private static string[][] htmlReplacements = new string[][] {
-			new string[] { "<p", Localization.RN + "<" },
-			new string[] { "<li>", Localization.RN + "• " },
-			new string[] { "</p>", Localization.RN },
-			new string[] { "<br", Localization.RN + "<" },
+			new string[] { "<p", RDLocale.RN + "<" },
+			new string[] { "<li>", RDLocale.RN + "• " },
+			new string[] { "</p>", RDLocale.RN },
+			new string[] { "<br", RDLocale.RN + "<" },
 
-			new string[] { "<h1", Localization.RN + "<" },
-			new string[] { "</h1>", Localization.RN },
-			new string[] { "<h3", Localization.RN + "<" },
+			new string[] { "<h1", RDLocale.RN + "<" },
+			new string[] { "</h1>", RDLocale.RN },
+			new string[] { "<h3", RDLocale.RN + "<" },
 
 			new string[] { "&gt;", "›" },
 			new string[] { "&lt;", "‹" },
@@ -153,12 +153,12 @@ namespace RD_AAOW
 			{
 			try
 				{
-				description = File.ReadAllText (Localization.GetHelpFilePath (Localization.CurrentLanguage),
-					RDGenerics.GetEncoding (SupportedEncodings.UTF8));
+				description = File.ReadAllText (RDLocale.GetHelpFilePath (RDLocale.CurrentLanguage),
+					RDGenerics.GetEncoding (RDEncodings.UTF8));
 				}
 			catch
 				{
-				description = Localization.GetDefaultText (LzDefaultTextValues.Message_NoOfflineHelp);
+				description = RDLocale.GetDefaultText (RDLDefaultTexts.Message_NoOfflineHelp);
 				}
 			return LaunchForm (StartupMode, false);
 			}
@@ -188,14 +188,18 @@ namespace RD_AAOW
 				lastHypeHelp = DateTime.Now;
 				}
 
-			HardWorkExecutor hwe, hweh;
+			/*Hard WorkExecutor hwe, hweh;
+			*/
 			if (hypeHelp && (StartupMode || AcceptMode) && (lastHypeHelp <= DateTime.Now))
 				{
+				/*
 #if DPMODULE
-				hweh = new HardWorkExecutor (HypeHelper, null, null, true, false, false);
+				hweh = new Hard WorkExecutor (HypeHelper, null, null, true, false, false);
 #else
-				hweh = new HardWorkExecutor (HypeHelper, null, null, true, false);
+				hweh = new Hard WorkExecutor (HypeHelper, null, null, true, false);
 #endif
+				*/
+				RDGenerics.RunWork (HypeHelper, null, null, RDRunWorkFlags.DontSuspendExecution);
 
 				lastHypeHelp = DateTime.Now.AddMinutes (rnd.Next (65, 95));
 				RDGenerics.SetDPArraySettingsValue (LastHypeHelpKey, lastHypeHelp.ToString ());
@@ -219,26 +223,26 @@ namespace RD_AAOW
 				return 1;
 
 			// Настройка контролов
-			int al = (int)Localization.CurrentLanguage;
+			int al = (int)RDLocale.CurrentLanguage;
 
 			UpdatesPageButton.Text =
-				Localization.GetDefaultText (LzDefaultTextValues.Message_CheckingUpdates);
+				RDLocale.GetDefaultText (RDLDefaultTexts.Message_CheckingUpdates);
 
-			ExitButton.Text = Localization.GetDefaultText (AcceptMode ? LzDefaultTextValues.Button_Accept :
-				LzDefaultTextValues.Button_OK);
+			ExitButton.Text = RDLocale.GetDefaultText (AcceptMode ? RDLDefaultTexts.Button_Accept :
+				RDLDefaultTexts.Button_OK);
 
 			MisacceptButton.Text =
-				Localization.GetDefaultText (LzDefaultTextValues.Button_Decline);
+				RDLocale.GetDefaultText (RDLDefaultTexts.Button_Decline);
 
 			if (!desciptionHasBeenUpdated)
 				{
 				if (AcceptMode)
 					DescriptionBox.Text =
-						Localization.GetDefaultText (LzDefaultTextValues.Message_PolicyFailure);
+						RDLocale.GetDefaultText (RDLDefaultTexts.Message_PolicyFailure);
 				else
 					DescriptionBox.Text =
-						Localization.GetDefaultText (LzDefaultTextValues.Message_CheckingUpdatesPrefix) +
-						Localization.RN + description;
+						RDLocale.GetDefaultText (RDLDefaultTexts.Message_CheckingUpdatesPrefix) +
+						RDLocale.RN + description;
 				}
 
 			// Загрузка списка доступных переходов к ресурсам Лаборатории
@@ -249,25 +253,25 @@ namespace RD_AAOW
 					if (!string.IsNullOrWhiteSpace (userManualLink))
 						{
 						linkTypes.Add (LinkTypes.UserManual);
-						ToLaboratoryCombo.Items.Add (Localization.GetDefaultText (LzDefaultTextValues.Control_UserManual));
+						ToLaboratoryCombo.Items.Add (RDLocale.GetDefaultText (RDLDefaultTexts.Control_UserManual));
 						}
 					if (!string.IsNullOrWhiteSpace (userVideomanualLink))
 						{
 						linkTypes.Add (LinkTypes.UserVideomanual);
-						ToLaboratoryCombo.Items.Add (Localization.GetDefaultText (LzDefaultTextValues.Control_UserVideomanual));
+						ToLaboratoryCombo.Items.Add (RDLocale.GetDefaultText (RDLDefaultTexts.Control_UserVideomanual));
 						}
 
 					linkTypes.Add (LinkTypes.ProjectPage);
-					ToLaboratoryCombo.Items.Add (Localization.GetDefaultText (LzDefaultTextValues.Control_ProjectWebpage));
+					ToLaboratoryCombo.Items.Add (RDLocale.GetDefaultText (RDLDefaultTexts.Control_ProjectWebpage));
 
 					linkTypes.Add (LinkTypes.AskDeveloper);
-					ToLaboratoryCombo.Items.Add (Localization.GetDefaultText (LzDefaultTextValues.Control_AskDeveloper));
+					ToLaboratoryCombo.Items.Add (RDLocale.GetDefaultText (RDLDefaultTexts.Control_AskDeveloper));
 					}
 
 				linkTypes.Add (LinkTypes.ADP);
 				ToLaboratoryCombo.Items.Add (AcceptMode ?
-					Localization.GetDefaultText (LzDefaultTextValues.Message_OpenInBrowser) :
-					Localization.GetDefaultText (LzDefaultTextValues.Control_PolicyEULA));
+					RDLocale.GetDefaultText (RDLDefaultTexts.Message_OpenInBrowser) :
+					RDLocale.GetDefaultText (RDLDefaultTexts.Control_PolicyEULA));
 
 				linkTypes.Add (LinkTypes.ToLabMain);
 				linkTypes.Add (LinkTypes.ToLabTG);
@@ -276,40 +280,52 @@ namespace RD_AAOW
 
 				ToLaboratoryCombo.Items.AddRange (RDGenerics.CommunitiesNames);
 				ToLaboratoryCombo.Items.Add (
-					Localization.GetDefaultText (LzDefaultTextValues.Control_HelpTheProject));
+					RDLocale.GetDefaultText (RDLDefaultTexts.Control_HelpTheProject));
 				}
 			ToLaboratoryCombo.SelectedIndex = 0;
 
 			this.Text = AcceptMode ?
-				Localization.GetDefaultText (LzDefaultTextValues.Control_PolicyEULA) :
-				Localization.GetDefaultText (LzDefaultTextValues.Control_AppAbout);
+				RDLocale.GetDefaultText (RDLDefaultTexts.Control_PolicyEULA) :
+				RDLocale.GetDefaultText (RDLDefaultTexts.Control_AppAbout);
 
 			// Запуск проверки обновлений
 			if (!AcceptMode)
 				{
 				UpdatesPageButton.Enabled = false;
+
+				/*
 #if DPMODULE
-				hwe = new HardWorkExecutor (UpdatesChecker, null, null, false, false, false);
+				hwe = new Hard WorkExecutor (UpdatesChecker, null, null, false, false, false);
 #else
-				hwe = new HardWorkExecutor (UpdatesChecker, null, null, false, false);
+				hwe = new Hard WorkExecutor (UpdatesChecker, null, null, false, false);
 #endif
+				*/
+				RDGenerics.RunWork (UpdatesChecker, null, null, RDRunWorkFlags.DontSuspendExecution);
+
 				UpdatesTimer.Enabled = true;
 				}
 
 			// Получение Политики
 			else
 				{
+				/*
 #if DPMODULE
-				hwe = new HardWorkExecutor (PolicyLoader, null,
+				hwe = new Hard WorkExecutor (PolicyLoader, null,
 					Localization.GetDefaultText (LzDefaultTextValues.Message_PreparingForLaunch),
 					true, false, true);
 #else
-				hwe = new HardWorkExecutor (PolicyLoader, null,
+				hwe = new Hard WorkExecutor (PolicyLoader, null,
 					Localization.GetDefaultText (LzDefaultTextValues.Message_PreparingForLaunch),
 					true, false);
 #endif
+				*/
+				RDGenerics.RunWork (PolicyLoader, null,
+					RDLocale.GetDefaultText (RDLDefaultTexts.Message_PreparingForLaunch),
+					RDRunWorkFlags.CaptionInTheMiddle | RDRunWorkFlags.AlwaysOnTop);
 
-				string html = hwe.Result.ToString ();
+				/*string html = hwe.Result.ToString ();
+				*/
+				string html = RDGenerics.WorkResultAsString;
 				if (!string.IsNullOrWhiteSpace (html))
 					{
 					DescriptionBox.Text = html;
@@ -505,10 +521,10 @@ namespace RD_AAOW
 				{
 				// Выбор варианта обработки
 				switch (RDGenerics.MessageBox (RDMessageTypes.Question_Left,
-					Localization.GetDefaultText (LzDefaultTextValues.Message_DPArrayIsntInstalled),
-					Localization.GetDefaultText (LzDefaultTextValues.Button_Yes),
-					Localization.GetDefaultText (LzDefaultTextValues.Button_Guide),
-					Localization.GetDefaultText (LzDefaultTextValues.Button_Cancel)))
+					RDLocale.GetDefaultText (RDLDefaultTexts.Message_DPArrayIsntInstalled),
+					RDLocale.GetDefaultText (RDLDefaultTexts.Button_Yes),
+					RDLocale.GetDefaultText (RDLDefaultTexts.Button_Guide),
+					RDLocale.GetDefaultText (RDLDefaultTexts.Button_Cancel)))
 					{
 					case RDMessageButtons.ButtonThree:
 						return;
@@ -524,9 +540,9 @@ namespace RD_AAOW
 			else
 				{
 				if (RDGenerics.MessageBox (RDMessageTypes.Question_Center,
-					Localization.GetDefaultText (LzDefaultTextValues.Message_StartPackageDownloading),
-					Localization.GetDefaultText (LzDefaultTextValues.Button_Yes),
-					Localization.GetDefaultText (LzDefaultTextValues.Button_No)) !=
+					RDLocale.GetDefaultText (RDLDefaultTexts.Message_StartPackageDownloading),
+					RDLocale.GetDefaultText (RDLDefaultTexts.Button_Yes),
+					RDLocale.GetDefaultText (RDLDefaultTexts.Button_No)) !=
 					RDMessageButtons.ButtonOne)
 					return;
 
@@ -555,23 +571,27 @@ namespace RD_AAOW
 			packagePath += downloadLink.Substring (l + 1);
 
 			// Запуск загрузки
-			HardWorkExecutor hwe = new HardWorkExecutor (RDGenerics.PackageLoader, downloadLink,
-				packagePath, "0", false);
+			/*Hard WorkExecutor hwe = new Hard WorkExecutor (RDGenerics.PackageLoader, downloadLink,
+				packagePath, "0", false);*/
+			RDGenerics.RunWork (RDGenerics.PackageLoader, downloadLink, packagePath, "0", false);
 
 			// Разбор ответа
 			string msg = "";
-			switch (hwe.ExecutionResult)
+			int res = RDGenerics.WorkResultAsInteger;
+			/*switch (hwe.ExecutionResult)
+			*/
+			switch (res)
 				{
 				case 0:
 					break;
 
 				case -1:
 				case -2:
-					msg = Localization.GetDefaultText (LzDefaultTextValues.Message_PackageLoadingFailure);
+					msg = RDLocale.GetDefaultText (RDLDefaultTexts.Message_PackageLoadingFailure);
 					break;
 
 				case -3:
-					msg = Localization.GetDefaultText (LzDefaultTextValues.Message_PackageSavingFailure);
+					msg = RDLocale.GetDefaultText (RDLDefaultTexts.Message_PackageSavingFailure);
 					break;
 
 				default: // Отмена
@@ -600,7 +620,7 @@ namespace RD_AAOW
 			{
 			if (HypeHelpFlag.Checked)
 				RDGenerics.MessageBox (RDMessageTypes.Success_Left,
-					Localization.GetDefaultText (LzDefaultTextValues.Message_HypeHelp));
+					RDLocale.GetDefaultText (RDLDefaultTexts.Message_HypeHelp));
 			}
 
 		/// <summary>
@@ -656,21 +676,21 @@ namespace RD_AAOW
 				goto policy;
 
 			versionDescription = html.Substring (i, j - i);
-			versionDescription = Localization.RN + ApplyReplacements (versionDescription);
+			versionDescription = RDLocale.RN + ApplyReplacements (versionDescription);
 
 			// Отображение результата
 			if (ProgramDescription.AssemblyTitle.EndsWith (version))
 				{
-				updatesMessage = Localization.GetDefaultText (LzDefaultTextValues.Message_UpToDate);
-				updatesMessageForText = Localization.GetDefaultText (LzDefaultTextValues.Message_UpToDatePrefix);
+				updatesMessage = RDLocale.GetDefaultText (RDLDefaultTexts.Message_UpToDate);
+				updatesMessageForText = RDLocale.GetDefaultText (RDLDefaultTexts.Message_UpToDatePrefix);
 				}
 			else
 				{
 				updatesMessage =
-					string.Format (Localization.GetDefaultText (LzDefaultTextValues.Message_UpdateAvailable),
+					string.Format (RDLocale.GetDefaultText (RDLDefaultTexts.Message_UpdateAvailable),
 					version);
 				updatesMessageForText =
-					string.Format (Localization.GetDefaultText (LzDefaultTextValues.Message_UpdateAvailablePrefix),
+					string.Format (RDLocale.GetDefaultText (RDLDefaultTexts.Message_UpdateAvailablePrefix),
 					version);
 				}
 			htmlError = false;
@@ -693,9 +713,9 @@ policy:
 
 			// Есть проблема при загрузке страницы. Отмена
 			updatesMessage =
-				Localization.GetDefaultText (LzDefaultTextValues.Message_ServerUnavailable);
+				RDLocale.GetDefaultText (RDLDefaultTexts.Message_ServerUnavailable);
 			updatesMessageForText =
-				Localization.GetDefaultText (LzDefaultTextValues.Message_ServerUnavailablePrefix);
+				RDLocale.GetDefaultText (RDLDefaultTexts.Message_ServerUnavailablePrefix);
 
 			e.Result = -2;
 			return;
@@ -717,14 +737,14 @@ policy:
 			// Получение описания версии
 			if (!string.IsNullOrWhiteSpace (versionDescription))
 				{
-				description += (Localization.RN + versionDescription);
+				description += (RDLocale.RN + versionDescription);
 				versionDescription = "";
 				}
 
 			// Обновление состояния
 			if (!desciptionHasBeenUpdated)
 				{
-				DescriptionBox.Text = updatesMessageForText + Localization.RNRN + Localization.RN +
+				DescriptionBox.Text = updatesMessageForText + RDLocale.RNRN + RDLocale.RN +
 					description;
 				desciptionHasBeenUpdated = true;
 				}
@@ -749,7 +769,7 @@ policy:
 			// Выключение
 			else
 				{
-				UpdatesPageButton.Text = Localization.GetDefaultText (LzDefaultTextValues.Message_ManualDownload);
+				UpdatesPageButton.Text = RDLocale.GetDefaultText (RDLDefaultTexts.Message_ManualDownload);
 				}
 			}
 
@@ -779,9 +799,9 @@ policy:
 
 			// Контроль
 			if (ShowWarning && (RDGenerics.MessageBox (RDMessageTypes.Warning_Left,
-				Localization.GetDefaultText (LzDefaultTextValues.Message_ExtensionsRegistration),
-				Localization.GetDefaultText (LzDefaultTextValues.Button_Yes),
-				Localization.GetDefaultText (LzDefaultTextValues.Button_Cancel)) ==
+				RDLocale.GetDefaultText (RDLDefaultTexts.Message_ExtensionsRegistration),
+				RDLocale.GetDefaultText (RDLDefaultTexts.Button_Yes),
+				RDLocale.GetDefaultText (RDLDefaultTexts.Button_Cancel)) ==
 				RDMessageButtons.ButtonTwo))
 				return false;
 
@@ -838,9 +858,9 @@ policy:
 
 			// Контроль
 			if (ShowWarning && (RDGenerics.MessageBox (RDMessageTypes.Warning_Left,
-				Localization.GetDefaultText (LzDefaultTextValues.Message_ProtocolsRegistration),
-				Localization.GetDefaultText (LzDefaultTextValues.Button_Yes),
-				Localization.GetDefaultText (LzDefaultTextValues.Button_Cancel)) ==
+				RDLocale.GetDefaultText (RDLDefaultTexts.Message_ProtocolsRegistration),
+				RDLocale.GetDefaultText (RDLDefaultTexts.Button_Yes),
+				RDLocale.GetDefaultText (RDLDefaultTexts.Button_Cancel)) ==
 				RDMessageButtons.ButtonTwo))
 				return false;
 

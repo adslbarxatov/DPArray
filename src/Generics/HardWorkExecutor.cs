@@ -37,6 +37,19 @@ namespace RD_AAOW
 		private BackgroundWorker bw = new BackgroundWorker ();
 
 		/// <summary>
+		/// Возвращает результат операции в виде строки
+		/// </summary>
+		public string WorkResultAsString
+			{
+			get
+				{
+				return exResult;
+				}
+			}
+		private string exResult = "";
+
+		/*
+		/// <summary>
 		/// Возвращает результат установки/удаления
 		/// </summary>
 		public int ExecutionResult
@@ -59,6 +72,7 @@ namespace RD_AAOW
 				}
 			}
 		private string result = "";
+		*/
 
 		// Инициализация ProgressBar
 		private void InitializeProgressBar ()
@@ -153,6 +167,7 @@ namespace RD_AAOW
 			HardWorkExecutor_Init (HardWorkProcess, arguments, " ", false, true);
 			}
 
+		/*
 		/// <summary>
 		/// Конструктор. Выполняет проверку доступной версии обновления в скрытом режиме
 		/// </summary>
@@ -162,44 +177,57 @@ namespace RD_AAOW
 			{
 			HardWorkExecutor_Init (HardWorkProcess, PackageVersion, null, true, false);
 			}
-
-		/// <summary>
-		/// Конструктор. Выполняет указанное действие с указанными параметрами
-		/// </summary>
-		/// <param name="HardWorkProcess">Выполняемый процесс</param>
-		/// <param name="Parameters">Параметры, передаваемые в процесс; может быть null</param>
-		/// <param name="WindowCaption">Строка, отображаемая при инициализации окна прогресса;
-		/// если null, окно прогресса не отображается</param>
-		/// <param name="CaptionInTheMiddle">Флаг указывает, что подпись будет выравниваться посередине</param>
-		/// <param name="AllowOperationAbort">Флаг указывает, разрешена ли отмена операции</param>
-		/// <param name="AlwaysOnTop">Флаг указывает на принудительное размежение поверх всех окон</param>
-		public HardWorkExecutor (DoWorkEventHandler HardWorkProcess, object Parameters, string WindowCaption,
-			bool CaptionInTheMiddle, bool AllowOperationAbort, bool AlwaysOnTop)
-			{
-			alwaysOnTop = AlwaysOnTop;
-			HardWorkExecutor_Init (HardWorkProcess, Parameters, WindowCaption, CaptionInTheMiddle,
-				AllowOperationAbort);
-			}
-
-#else
-
-		/// <summary>
-		/// Конструктор. Выполняет указанное действие с указанными параметрами
-		/// </summary>
-		/// <param name="HardWorkProcess">Выполняемый процесс</param>
-		/// <param name="Parameters">Параметры, передаваемые в процесс; может быть null</param>
-		/// <param name="WindowCaption">Строка, отображаемая при инициализации окна прогресса;
-		/// если null, окно прогресса не отображается</param>
-		/// <param name="CaptionInTheMiddle">Флаг указывает, что подпись будет выравниваться посередине</param>
-		/// <param name="AllowOperationAbort">Флаг указывает, разрешена ли отмена операции</param>
-		public HardWorkExecutor (DoWorkEventHandler HardWorkProcess, object Parameters, string WindowCaption,
-			bool CaptionInTheMiddle, bool AllowOperationAbort)
-			{
-			HardWorkExecutor_Init (HardWorkProcess, Parameters, WindowCaption, CaptionInTheMiddle,
-				AllowOperationAbort);
-			}
+		*/
 
 #endif
+
+		/// <summary>
+		/// Конструктор. Выполняет указанное действие с указанными параметрами
+		/// </summary>
+		/// <param name="HardWorkProcess">Выполняемый процесс</param>
+		/// <param name="Parameters">Параметры, передаваемые в процесс; может быть null</param>
+		/// <param name="WindowCaption">Строка, отображаемая при инициализации окна прогресса</param>
+		/// <param name="Flags">Параметры работы процесса</param>
+		public HardWorkExecutor (DoWorkEventHandler HardWorkProcess, object Parameters, string WindowCaption,
+			RDRunWorkFlags Flags)
+			{
+#if DPMODULE
+			alwaysOnTop = (Flags & RDRunWorkFlags.AlwaysOnTop) != 0;
+#endif
+			bool middle = (Flags & RDRunWorkFlags.CaptionInTheMiddle) != 0;
+			bool abort = (Flags & RDRunWorkFlags.AllowOperationAbort) != 0;
+
+			string caption = "";
+			if ((Flags & RDRunWorkFlags.DontSuspendExecution) == 0)
+				{
+				if (string.IsNullOrWhiteSpace (WindowCaption))
+					caption = " ";
+				else
+					caption = WindowCaption;
+				}
+
+			HardWorkExecutor_Init (HardWorkProcess, Parameters, caption, middle, abort);
+			}
+
+		/*#else
+
+				/// <summary>
+				/// Конструктор. Выполняет указанное действие с указанными параметрами
+				/// </summary>
+				/// <param name="HardWorkProcess">Выполняемый процесс</param>
+				/// <param name="Parameters">Параметры, передаваемые в процесс; может быть null</param>
+				/// <param name="WindowCaption">Строка, отображаемая при инициализации окна прогресса;
+				/// если null, окно прогресса не отображается</param>
+				/// <param name="CaptionInTheMiddle">Флаг указывает, что подпись будет выравниваться посередине</param>
+				/// <param name="AllowOperationAbort">Флаг указывает, разрешена ли отмена операции</param>
+				public HardWorkExecutor (DoWorkEventHandler HardWorkProcess, object Parameters, string WindowCaption,
+					bool CaptionInTheMiddle, bool AllowOperationAbort)
+					{
+					HardWorkExecutor_Init (HardWorkProcess, Parameters, WindowCaption, CaptionInTheMiddle,
+						AllowOperationAbort);
+					}
+
+		#endif*/
 
 		/// <summary>
 		/// Конструктор. Выполняет загрузку файла по URL
@@ -228,7 +256,7 @@ namespace RD_AAOW
 			bw.DoWork += ((HWProcess != null) ? HWProcess : DoWork);
 			bw.RunWorkerCompleted += RunWorkerCompleted;
 
-			// Донастройка окна
+			// Донастройка окна (пробел должен считаться значением false)
 			if (string.IsNullOrEmpty (Caption))
 				{
 				bw.RunWorkerAsync (Parameters);
@@ -244,7 +272,7 @@ namespace RD_AAOW
 				AbortButton.Visible = AbortButton.Enabled = AllowAbort;
 				if (AbortButton.Enabled)
 					{
-					AbortButton.Text = Localization.GetDefaultText (LzDefaultTextValues.Button_Cancel);
+					AbortButton.Text = RDLocale.GetDefaultText (RDLDefaultTexts.Button_Cancel);
 					AbortButton.FlatAppearance.MouseDownBackColor =
 						RDGenerics.GetInterfaceColor (RDInterfaceColors.DefaultEmerald);
 					}
@@ -301,15 +329,18 @@ namespace RD_AAOW
 			// Завершение работы исполнителя
 			try
 				{
-				if (e.Result != null)
+				/*if (e.Result != null)
 					{
 					result = e.Result.ToString ();
 					executionResult = int.Parse (e.Result.ToString ());
-					}
+					}*/
+				exResult = e.Result.ToString ();
 				}
 			catch
 				{
-				executionResult = -100;
+				exResult = "";
+				/*executionResult = -100;
+				*/
 				}
 			bw.Dispose ();
 

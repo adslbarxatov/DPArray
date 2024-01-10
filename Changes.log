@@ -1,8 +1,9 @@
 DPArray: changes log
 
-ToDo:
-- Требуется убрать баннеры;
-- По возможности нужно вынести универсальный функционал в изолированную библиотеку
+Version 6.10:
+• Banners have been removed due to their uselessness;
+• Some core code refactoring has been applied;
+• Removed some obsolete code
 
 Version 6.9.3:
 • Fixed critical bug in the main deployment mode

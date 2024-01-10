@@ -139,19 +139,19 @@ namespace RD_AAOW
 			if (to > 60000)
 				to = 60000;
 
-			RDMessageFormInit (Type, Message, "-", null, null, SupportedLanguages.en_us, to);
+			RDMessageFormInit (Type, Message, "-", null, null, RDLanguages.en_us, to);
 			}
 
 		/// <summary>
 		/// Конструктор. Запускает форму выбора языка приложения
 		/// </summary>
 		/// <param name="CurrentInterfaceLanguage">Текущий язык интерфейса</param>
-		public RDMessageForm (SupportedLanguages CurrentInterfaceLanguage)
+		public RDMessageForm (RDLanguages CurrentInterfaceLanguage)
 			{
 			RDMessageFormInit (RDMessageTypes.LanguageSelector,
-				Localization.GetDefaultText (LzDefaultTextValues.Message_LanguageSelection),
-				Localization.GetDefaultText (LzDefaultTextValues.Button_Apply),
-				Localization.GetDefaultText (LzDefaultTextValues.Button_Cancel),
+				RDLocale.GetDefaultText (RDLDefaultTexts.Message_LanguageSelection),
+				RDLocale.GetDefaultText (RDLDefaultTexts.Button_Apply),
+				RDLocale.GetDefaultText (RDLDefaultTexts.Button_Cancel),
 				null, CurrentInterfaceLanguage, 0);
 			}
 
@@ -162,8 +162,8 @@ namespace RD_AAOW
 		/// <param name="Type">Тип создаваемого окна</param>
 		public RDMessageForm (RDMessageTypes Type, string Message)
 			{
-			RDMessageFormInit (Type, Message, Localization.GetDefaultText (LzDefaultTextValues.Button_OK),
-				null, null, SupportedLanguages.en_us, 0);
+			RDMessageFormInit (Type, Message, RDLocale.GetDefaultText (RDLDefaultTexts.Button_OK),
+				null, null, RDLanguages.en_us, 0);
 			}
 
 		/// <summary>
@@ -174,7 +174,7 @@ namespace RD_AAOW
 		/// <param name="Type">Тип создаваемого окна</param>
 		public RDMessageForm (RDMessageTypes Type, string Message, string ButtonOneName)
 			{
-			RDMessageFormInit (Type, Message, ButtonOneName, null, null, SupportedLanguages.en_us, 0);
+			RDMessageFormInit (Type, Message, ButtonOneName, null, null, RDLanguages.en_us, 0);
 			}
 
 		/// <summary>
@@ -186,7 +186,7 @@ namespace RD_AAOW
 		/// <param name="Type">Тип создаваемого окна</param>
 		public RDMessageForm (RDMessageTypes Type, string Message, string ButtonOneName, string ButtonTwoName)
 			{
-			RDMessageFormInit (Type, Message, ButtonOneName, ButtonTwoName, null, SupportedLanguages.en_us, 0);
+			RDMessageFormInit (Type, Message, ButtonOneName, ButtonTwoName, null, RDLanguages.en_us, 0);
 			}
 
 		/// <summary>
@@ -201,12 +201,12 @@ namespace RD_AAOW
 			string ButtonThreeName)
 			{
 			RDMessageFormInit (Type, Message, ButtonOneName, ButtonTwoName, ButtonThreeName,
-				SupportedLanguages.en_us, 0);
+				RDLanguages.en_us, 0);
 			}
 
 		// Основная инициализация формы
 		private void RDMessageFormInit (RDMessageTypes Type, string Message, string ButtonOneName, string ButtonTwoName,
-			string ButtonThreeName, SupportedLanguages CurrentInterfaceLanguage, uint Timeout)
+			string ButtonThreeName, RDLanguages CurrentInterfaceLanguage, uint Timeout)
 			{
 			// Инициализация
 			InitializeComponent ();
@@ -216,7 +216,7 @@ namespace RD_AAOW
 			if (windowType == RDMessageTypes.LanguageSelector)
 				{
 				LanguagesCombo.Visible = true;
-				LanguagesCombo.Items.AddRange (Localization.LanguagesNames);
+				LanguagesCombo.Items.AddRange (RDLocale.LanguagesNames);
 				try
 					{
 					LanguagesCombo.SelectedIndex = (int)CurrentInterfaceLanguage;
@@ -232,7 +232,7 @@ namespace RD_AAOW
 			// Обработка текста
 			if (!string.IsNullOrWhiteSpace (Message))
 				{
-				Label01.Text = Message.Replace ("\n", Localization.RN).Replace ("\r\r", "\r");
+				Label01.Text = Message.Replace ("\n", RDLocale.RN).Replace ("\r\r", "\r");
 				Label01.SelectionLength = 0;
 
 				switch (Type)
@@ -286,7 +286,7 @@ namespace RD_AAOW
 				}
 			else
 				{
-				Button01.Text = Localization.GetDefaultText (LzDefaultTextValues.Button_OK);
+				Button01.Text = RDLocale.GetDefaultText (RDLDefaultTexts.Button_OK);
 				}
 
 			if (!string.IsNullOrWhiteSpace (ButtonTwoName))
@@ -394,7 +394,7 @@ namespace RD_AAOW
 
 			// Возврат
 			if ((windowType == RDMessageTypes.LanguageSelector) && (resultButton == RDMessageButtons.ButtonOne))
-				Localization.CurrentLanguage = (SupportedLanguages)LanguagesCombo.SelectedIndex;
+				RDLocale.CurrentLanguage = (RDLanguages)LanguagesCombo.SelectedIndex;
 
 			// Завершение
 			exitAllowed = true;
