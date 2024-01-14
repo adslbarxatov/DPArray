@@ -44,15 +44,15 @@ n:Font finder
 a:FontFinder.dp
 f:0
 i:INFOPAGE
-v:3.3.14
-p:0004B637F101EFAB
+v:3.4
+p:0004CA34E0DFB630
 
 n:Geomag data drawer
 a:GeomagDataDrawer.dp
 f:F
 i:INFOPAGE
-v:5.5.6
-p:00137BE9F76A1DE6
+v:5.6
+p:00138FE754D6D8B5
 
 n:KassArray
 a:KassArray.dp
@@ -248,12 +248,12 @@ g:Microsoft Store
 n:Font finder
 f:FVD
 i:MS_STORE/9MXDR4BXP8R4
-v:3.3.14
+v:3.4
 
 n:Geomag data drawer
 f:FVD
 i:MS_STORE/9PG19ZZ3NH47
-v:5.5.6
+v:5.6
 
 n:KassArray
 f:FVD
