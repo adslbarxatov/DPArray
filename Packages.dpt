@@ -30,15 +30,15 @@ n:Dates difference
 a:DatesDifference.dp
 f:0
 i:INFOLINK
-v:3.3.14
-p:00032EF19192C99B
+v:3.4
+p:000346EE6C96FC5E
 
 n:File extensions manager
 a:FileExtensionsManager.dp
 f:0
 i:INFOPAGE
-v:2.5.4
-p:00057A37436C3201
+v:2.6
+p:00058C35CD87EE40
 
 n:Font finder
 a:FontFinder.dp
@@ -73,15 +73,15 @@ n:Screen shooter
 a:ScreenShooter.dp
 f:0
 i:INFOPAGE
-v:2.3.14
-p:000333467097C998
+v:2.4
+p:000347437A8A709A
 
 n:Sudoku solver
 a:SudokuSolver.dp
 f:0
 i:INFOPAGE
-v:4.1
-p:0003500F1E1A453D
+v:4.1.2
+p:000364110DA3F0BB
 
 n:uNot
 a:UniNotifier.dp
