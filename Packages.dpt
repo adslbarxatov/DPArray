@@ -59,8 +59,8 @@ a:KassArray.dp
 f:F
 i:INFOPAGE
 l:r
-v:5.0.12
-p:0015B2052D81868C
+v:5.0.13
+p:0015B205E058EFF6
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
@@ -214,7 +214,7 @@ a:KassArray.apk
 f:FV
 i:INFOPAGE
 l:r
-v:5.0.9
+v:5.0.13
 s:35946670
 
 n:Make decision
