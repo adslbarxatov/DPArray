@@ -148,7 +148,7 @@ No additional codecs are required
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/UniNotifier) &#x3000;
-:film_projector: [Video guide](https://youtube.com/watch?v=seFfQkfL6Sk) &#x3000;
+:film_projector: [Video guide](https://youtube.com/watch?v=nOb4MbL-jlI) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://UniNotifier) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NVZ51RL54K4) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/uninotifier/releases/latest) &#x3000;

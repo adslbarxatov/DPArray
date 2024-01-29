@@ -87,8 +87,8 @@ n:uNot
 a:UniNotifier.dp
 f:0
 i:INFOPAGE
-v:6.8.3
-p:0005BF4511B0FA53
+v:6.8.5
+p:0005BF4543DAA2D8
 
 n:Vice city toolset
 a:ViceCityToolset.dp
@@ -238,7 +238,7 @@ u:GIT_LINK/UniNotifier/GIT_PATH/DEFFILE
 a:UniNotifier.apk
 f:FV
 i:INFOPAGE
-v:6.8.3
+v:6.8.5
 s:35652331
 
 
@@ -284,7 +284,7 @@ v:2.2
 n:uNot
 f:FVD
 i:MS_STORE/9NVZ51RL54K4
-v:6.8.3
+v:6.8.5
 
 
 
@@ -309,7 +309,7 @@ v:3.3.3
 n:uNot
 f:FVD
 i:GP_STOREcom.RD_AAOW.UniNotifier
-v:6.8.3
+v:6.8.5
 
 
 
@@ -334,11 +334,9 @@ v:3.3.3
 n:uNot
 f:FVD
 i:MI_STOREuninotifier.xiaomi
-v:6.8.3
+v:6.8.5
 
 
 
-m:Warning! DPArray store versions older than 6.6 are no longer supported since November 25, 2023.|
-m:Please update your version to the latest manually (using the link on our Welcome page).||
-m:Внимание! Поддержка версий магазина DPArray старше 6.6 прекращена с 25 ноября 2023 года.|
-m:Пожалуйста, обновите свою версию до актуальной вручную (с помощью ссылки на нашей Приветственной странице)
+m:We're now have localized videos! Check out the first one in the description for the uNot service.||
+m:У нас теперь есть локализованные видео! Оцените первое из них в описании к сервису uNot
