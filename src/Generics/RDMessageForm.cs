@@ -149,9 +149,12 @@ namespace RD_AAOW
 		public RDMessageForm (RDLanguages CurrentInterfaceLanguage)
 			{
 			RDMessageFormInit (RDMessageTypes.LanguageSelector,
-				RDLocale.GetDefaultText (RDLDefaultTexts.Message_LanguageSelection),
+				string.Format (RDLocale.GetDefaultText (RDLDefaultTexts.Message_LanguageSelection_Fmt),
+				RDLocale.LanguagesNames[(int)RDLocale.CurrentLanguage]),
+
 				RDLocale.GetDefaultText (RDLDefaultTexts.Button_Apply),
 				RDLocale.GetDefaultText (RDLDefaultTexts.Button_Cancel),
+
 				null, CurrentInterfaceLanguage, 0);
 			}
 

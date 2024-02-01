@@ -1,5 +1,10 @@
 DPArray: changes log
 
+Version 6.11:
+• Mini-launcher has been rebuilt: it now uses buttons for configured
+  applications;
+• Fixed the missing check for directory existence
+
 Version 6.10:
 • Banners have been removed due to their uselessness;
 • Some core code refactoring has been applied;

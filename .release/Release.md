@@ -1,8 +1,6 @@
-_Changes for v 6.10_:
+_Changes for v 6.11_:
+- Mini-launcher has been rebuilt: it now uses buttons for configured applications;
+- Fixed the missing check for directory existence;
 - Banners have been removed due to their uselessness;
-- Some core code refactoring has been applied;
-- Removed some obsolete code;
 - The project URL is now a part of the first page of the deployment window;
-- The changes log now has its own button on the first page;
-- Fixed some incorrect flags operations in the fast deployment mode;
-- DPArray now uses only `DP15` packages format for itself. `DP14` format has support only for other projects
+- The changes log now has its own button on the first page

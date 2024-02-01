@@ -48,32 +48,6 @@ namespace RD_AAOW
 			}
 		private string exResult = "";
 
-		/*
-		/// <summary>
-		/// Возвращает результат установки/удаления
-		/// </summary>
-		public int ExecutionResult
-			{
-			get
-				{
-				return executionResult;
-				}
-			}
-		private int executionResult = 0;
-
-		/// <summary>
-		/// Возвращает результат выполняемых операций
-		/// </summary>
-		public string Result
-			{
-			get
-				{
-				return result;
-				}
-			}
-		private string result = "";
-		*/
-
 		// Инициализация ProgressBar
 		private void InitializeProgressBar ()
 			{
@@ -167,18 +141,6 @@ namespace RD_AAOW
 			HardWorkExecutor_Init (HardWorkProcess, arguments, " ", false, true);
 			}
 
-		/*
-		/// <summary>
-		/// Конструктор. Выполняет проверку доступной версии обновления в скрытом режиме
-		/// </summary>
-		/// <param name="HardWorkProcess">Выполняемый процесс</param>
-		/// <param name="PackageVersion">Версия пакета развёртки для сравнения</param>
-		public HardWorkExecutor (DoWorkEventHandler HardWorkProcess, string PackageVersion)
-			{
-			HardWorkExecutor_Init (HardWorkProcess, PackageVersion, null, true, false);
-			}
-		*/
-
 #endif
 
 		/// <summary>
@@ -205,29 +167,13 @@ namespace RD_AAOW
 				else
 					caption = WindowCaption;
 				}
+			else
+				{
+				abort = false;
+				}
 
 			HardWorkExecutor_Init (HardWorkProcess, Parameters, caption, middle, abort);
 			}
-
-		/*#else
-
-				/// <summary>
-				/// Конструктор. Выполняет указанное действие с указанными параметрами
-				/// </summary>
-				/// <param name="HardWorkProcess">Выполняемый процесс</param>
-				/// <param name="Parameters">Параметры, передаваемые в процесс; может быть null</param>
-				/// <param name="WindowCaption">Строка, отображаемая при инициализации окна прогресса;
-				/// если null, окно прогресса не отображается</param>
-				/// <param name="CaptionInTheMiddle">Флаг указывает, что подпись будет выравниваться посередине</param>
-				/// <param name="AllowOperationAbort">Флаг указывает, разрешена ли отмена операции</param>
-				public HardWorkExecutor (DoWorkEventHandler HardWorkProcess, object Parameters, string WindowCaption,
-					bool CaptionInTheMiddle, bool AllowOperationAbort)
-					{
-					HardWorkExecutor_Init (HardWorkProcess, Parameters, WindowCaption, CaptionInTheMiddle,
-						AllowOperationAbort);
-					}
-
-		#endif*/
 
 		/// <summary>
 		/// Конструктор. Выполняет загрузку файла по URL
@@ -320,7 +266,8 @@ namespace RD_AAOW
 				newPercentage = e.ProgressPercentage;
 
 			// Обновление текста над прогрессбаром
-			StateLabel.Text = (string)e.UserState;
+			if (progress != null)
+				StateLabel.Text = (string)e.UserState;
 			}
 
 		// Метод обрабатывает завершение процесса
@@ -329,24 +276,18 @@ namespace RD_AAOW
 			// Завершение работы исполнителя
 			try
 				{
-				/*if (e.Result != null)
-					{
-					result = e.Result.ToString ();
-					executionResult = int.Parse (e.Result.ToString ());
-					}*/
 				exResult = e.Result.ToString ();
 				}
 			catch
 				{
 				exResult = "";
-				/*executionResult = -100;
-				*/
 				}
 			bw.Dispose ();
 
 			// Закрытие окна
 			allowClose = true;
-			this.Close ();
+			if (progress != null)
+				this.Close ();
 			}
 
 		// Кнопка инициирует остановку процесса
@@ -385,12 +326,12 @@ namespace RD_AAOW
 			e.Cancel = !allowClose;
 			DrawingTimer.Enabled = false;
 
+			if (progress != null)
+				progress.Dispose ();
 			if (g != null)
 				g.Dispose ();
 			if (gp != null)
 				gp.Dispose ();
-			if (progress != null)
-				progress.Dispose ();
 			if (frameGreenGrey != null)
 				frameGreenGrey.Dispose ();
 			if (frameBack != null)

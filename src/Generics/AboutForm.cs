@@ -118,17 +118,25 @@ namespace RD_AAOW
 			this.CancelButton = MisacceptButton;
 
 			// Получение параметров
-			if (string.IsNullOrWhiteSpace (ProgramDescription.AssemblyReferenceMaterials[0]))
-				userManualLink = "";
-			else if (ProgramDescription.AssemblyReferenceMaterials[0] == DefaultRefMaterialAlias)
-				userManualLink = RDGenerics.AssemblyGitPageLink;
-			else
-				userManualLink = ProgramDescription.AssemblyReferenceMaterials[0];
+			bool localized = (ProgramDescription.AssemblyLocalizedReferences.Length >=
+				RDLocale.LanguagesNames.Length * 2);
+			short locOffset = (short)RDLocale.CurrentLanguage;
 
-			if (string.IsNullOrWhiteSpace (ProgramDescription.AssemblyReferenceMaterials[1]))
+			string line = ProgramDescription.AssemblyLocalizedReferences[localized ? 0 + locOffset : 0];
+			if (string.IsNullOrWhiteSpace (line))
+				userManualLink = "";
+			else if (line == DefaultRefMaterialAlias)
+				userManualLink = localized ? RDGenerics.AssemblyLocalizedGitPageLink :
+					RDGenerics.AssemblyGitPageLink;
+			else
+				userManualLink = line;
+
+			line = ProgramDescription.AssemblyLocalizedReferences[localized ?
+				RDLocale.LanguagesNames.Length + locOffset : 1];
+			if (string.IsNullOrWhiteSpace (line))
 				userVideomanualLink = "";
 			else
-				userVideomanualLink = RDGenerics.StaticYTLink + ProgramDescription.AssemblyReferenceMaterials[1];
+				userVideomanualLink = RDGenerics.StaticYTLink + line;
 
 			projectLink = RDGenerics.DefaultGitLink + ProgramDescription.AssemblyMainName;
 			updatesLink = RDGenerics.DefaultGitLink + ProgramDescription.AssemblyMainName +
@@ -188,17 +196,8 @@ namespace RD_AAOW
 				lastHypeHelp = DateTime.Now;
 				}
 
-			/*Hard WorkExecutor hwe, hweh;
-			*/
 			if (hypeHelp && (StartupMode || AcceptMode) && (lastHypeHelp <= DateTime.Now))
 				{
-				/*
-#if DPMODULE
-				hweh = new Hard WorkExecutor (HypeHelper, null, null, true, false, false);
-#else
-				hweh = new Hard WorkExecutor (HypeHelper, null, null, true, false);
-#endif
-				*/
 				RDGenerics.RunWork (HypeHelper, null, null, RDRunWorkFlags.DontSuspendExecution);
 
 				lastHypeHelp = DateTime.Now.AddMinutes (rnd.Next (65, 95));
@@ -292,39 +291,17 @@ namespace RD_AAOW
 			if (!AcceptMode)
 				{
 				UpdatesPageButton.Enabled = false;
-
-				/*
-#if DPMODULE
-				hwe = new Hard WorkExecutor (UpdatesChecker, null, null, false, false, false);
-#else
-				hwe = new Hard WorkExecutor (UpdatesChecker, null, null, false, false);
-#endif
-				*/
 				RDGenerics.RunWork (UpdatesChecker, null, null, RDRunWorkFlags.DontSuspendExecution);
-
 				UpdatesTimer.Enabled = true;
 				}
 
 			// Получение Политики
 			else
 				{
-				/*
-#if DPMODULE
-				hwe = new Hard WorkExecutor (PolicyLoader, null,
-					Localization.GetDefaultText (LzDefaultTextValues.Message_PreparingForLaunch),
-					true, false, true);
-#else
-				hwe = new Hard WorkExecutor (PolicyLoader, null,
-					Localization.GetDefaultText (LzDefaultTextValues.Message_PreparingForLaunch),
-					true, false);
-#endif
-				*/
 				RDGenerics.RunWork (PolicyLoader, null,
 					RDLocale.GetDefaultText (RDLDefaultTexts.Message_PreparingForLaunch),
 					RDRunWorkFlags.CaptionInTheMiddle | RDRunWorkFlags.AlwaysOnTop);
 
-				/*string html = hwe.Result.ToString ();
-				*/
 				string html = RDGenerics.WorkResultAsString;
 				if (!string.IsNullOrWhiteSpace (html))
 					{
@@ -571,15 +548,11 @@ namespace RD_AAOW
 			packagePath += downloadLink.Substring (l + 1);
 
 			// Запуск загрузки
-			/*Hard WorkExecutor hwe = new Hard WorkExecutor (RDGenerics.PackageLoader, downloadLink,
-				packagePath, "0", false);*/
 			RDGenerics.RunWork (RDGenerics.PackageLoader, downloadLink, packagePath, "0", false);
 
 			// Разбор ответа
 			string msg = "";
 			int res = RDGenerics.WorkResultAsInteger;
-			/*switch (hwe.ExecutionResult)
-			*/
 			switch (res)
 				{
 				case 0:
@@ -687,10 +660,10 @@ namespace RD_AAOW
 			else
 				{
 				updatesMessage =
-					string.Format (RDLocale.GetDefaultText (RDLDefaultTexts.Message_UpdateAvailable),
+					string.Format (RDLocale.GetDefaultText (RDLDefaultTexts.Message_UpdateAvailable_Fmt),
 					version);
 				updatesMessageForText =
-					string.Format (RDLocale.GetDefaultText (RDLDefaultTexts.Message_UpdateAvailablePrefix),
+					string.Format (RDLocale.GetDefaultText (RDLDefaultTexts.Message_UpdateAvailablePrefix_Fmt),
 					version);
 				}
 			htmlError = false;
