@@ -1,5 +1,9 @@
 DPArray: changes log
 
+Version 6.11.1:
+• Added new localized videoguides;
+• Fixed some minor issues
+
 Version 6.11:
 • Mini-launcher has been rebuilt: it now uses buttons for configured
   applications;

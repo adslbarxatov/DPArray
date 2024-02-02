@@ -115,7 +115,7 @@ For applications and products running on Android (<img src="/DPArray/img/And.png
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/DPArray) &#x3000;
-:film_projector: [Video guide](https://youtube.com/watch?v=BqCOnQOvMY8) &#x3000;
+:film_projector: [Video guide](https://youtube.com/watch?v=-1HR72BJS-E) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/DPArray/releases/latest)
 
 DPArray is a tool for managing Laboratory’s products on your PC.
