@@ -199,7 +199,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And6.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/EnchantIt/ru) &#x3000;
-:film_projector: [Видеоруководство](https://youtube.com/watch?v=hTnDR89VR8w) &#x3000;
+:film_projector: [Видеоруководство](https://youtube.com/watch?v=Dqcrs0F6Gq0) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) &#x3000;
 :iphone: [На GetApps](https://global.app.mi.com/details?id=enchantit.rdaaowfdl) &#x3000;
 :package: [В виде APK](https://github.com/adslbarxatov/EnchantIt/releases/latest/download/PADetector.apk)

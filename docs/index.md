@@ -169,7 +169,7 @@ has specified is loaded – all other objects (including ads) are ignored
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And6.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/EnchantIt) &#x3000;
-:film_projector: [Video guide](https://youtube.com/watch?v=hTnDR89VR8w) &#x3000;
+:film_projector: [Video guide](https://youtube.com/watch?v=xy0LDXgoR5U) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) &#x3000;
 :iphone: [Get on GetApps](https://global.app.mi.com/details?id=enchantit.rdaaowfdl) &#x3000;
 :package: [Get APK](https://github.com/adslbarxatov/EnchantIt/releases/latest/download/PADetector.apk)
