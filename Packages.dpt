@@ -66,8 +66,8 @@ n:OS macros executor
 a:OSMacrosExecutor.dp
 f:F
 i:INFOPAGE
-v:3.5
-p:00060D7C29E62642
+v:3.5.2
+p:0006121D0918ECF8
 
 n:Screen shooter
 a:ScreenShooter.dp
@@ -222,16 +222,16 @@ u:GIT_LINK/MakeDecision/GIT_PATH/DEFFILE
 a:MakeDecision.apk
 f:FV
 i:INFOPAGE
-v:3.4.3
-s:35196842
+v:3.5
+s:35200938
 
 n:PA detector
 u:GIT_LINK/EnchantIt/GIT_PATH/DEFFILE
 a:EnchantIt.apk
 f:FV
 i:INFOPAGE
-v:3.3.3
-s:42707633
+v:3.4
+s:42711729
 
 n:uNot
 u:GIT_LINK/UniNotifier/GIT_PATH/DEFFILE
@@ -299,12 +299,12 @@ v:5.1
 n:Make decision
 f:FVD
 i:GP_STOREcom.RD_AAOW.MakeDecision
-v:3.4.3
+v:3.5
 
 n:PA detector
 f:FVD
 i:GP_STOREcom.RD_AAOW.EnchantIt
-v:3.3.3
+v:3.4
 
 n:uNot
 f:FVD
@@ -324,12 +324,12 @@ v:5.1
 n:Make decision
 f:FVD
 i:MI_STOREmakedecision.xiaomi
-v:3.4.3
+v:3.5
 
 n:PA detector
 f:FVD
 i:MI_STOREenchantit.rdaaowfdl
-v:3.3.3
+v:3.4
 
 n:uNot
 f:FVD
