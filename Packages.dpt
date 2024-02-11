@@ -51,8 +51,8 @@ n:Geomag data drawer
 a:GeomagDataDrawer.dp
 f:F
 i:INFOPAGE
-v:5.6
-p:00138FE754D6D8B5
+v:5.6.1
+p:001391E932D8C8CF
 
 n:KassArray
 a:KassArray.dp
@@ -253,7 +253,7 @@ v:3.4.2
 n:Geomag data drawer
 f:FVD
 i:MS_STORE/9PG19ZZ3NH47
-v:5.6
+v:5.6.1
 
 n:KassArray
 f:FVD
