@@ -2,6 +2,10 @@
 
 [**DPArray &#x25CF; Direct download link &#x25CF; Windows**](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.sfx.exe)
 
+[Links cloud](#links-cloud)
+
+[Русскоязычная версия](https://adslbarxatov.github.io/DPArray/ru)
+
 &nbsp;
 
 
@@ -10,10 +14,8 @@
 
 - [Hello, dear user!](#hello-dear-user)
 - [Actual projects and developments](#actual-projects-and-developments)
-- [Links cloud](#links-cloud)
 - [Contacts](https://adslbarxatov.github.io/DPArray/contacts)
 - [Logo concepts](https://adslbarxatov.github.io/DPArray/logo_en)
-- [Русская версия](https://adslbarxatov.github.io/DPArray/ru)
 
 &nbsp;
 
