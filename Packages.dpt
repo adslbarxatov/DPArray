@@ -163,8 +163,8 @@ n:Mafia helper
 a:MafiaHelper.dp
 f:0
 i:INFOPAGE
-v:1.8.5
-p:00062CA5E23C1B64
+v:1.9
+p:00069AA3DEAE6695
 
 n:One hundred and one
 a:OneHundredOne.dp
@@ -264,7 +264,7 @@ v:5.2
 n:Mafia helper
 f:FVD
 i:MS_STORE/9N4WB06F64TR
-v:1.8.5
+v:1.9
 
 n:One hundred and one
 f:FVD
