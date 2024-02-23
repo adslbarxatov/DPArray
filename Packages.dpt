@@ -59,8 +59,8 @@ a:KassArray.dp
 f:F
 i:INFOPAGE
 l:r
-v:5.2
-p:0015C00258EFD3A2
+v:5.2.1
+p:0015C204CBC9D64D
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
@@ -214,7 +214,7 @@ a:KassArray.apk
 f:FV
 i:INFOPAGE
 l:r
-v:5.2
+v:5.2.1
 s:35946670
 
 n:Make decision
@@ -259,7 +259,7 @@ n:KassArray
 f:FVD
 l:r
 i:MS_STORE/9ND98F4C4Q60
-v:5.2
+v:5.2.1
 
 n:Mafia helper
 f:FVD
@@ -294,7 +294,7 @@ n:KassArray
 f:FVD
 l:r
 i:GP_STOREcom.RD_AAOW.TextToKKT
-v:5.2
+v:5.2.1
 
 n:Make decision
 f:FVD
@@ -313,28 +313,28 @@ v:7.0
 
 
 
-g:GetApps
+/g:GetApps
 
-n:KassArray
-f:FVD
-l:r
-i:MI_STOREtexttokkt.xiaomi
-v:5.1
+/n:KassArray
+/f:FVD
+/l:r
+/i:MI_STOREtexttokkt.xiaomi
+/v:5.2.1
 
-n:Make decision
-f:FVD
-i:MI_STOREmakedecision.xiaomi
-v:3.5
+/n:Make decision
+/f:FVD
+/i:MI_STOREmakedecision.xiaomi
+/v:3.5
 
-n:PA detector
-f:FVD
-i:MI_STOREenchantit.rdaaowfdl
-v:3.4
+/n:PA detector
+/f:FVD
+/i:MI_STOREenchantit.rdaaowfdl
+/v:3.4
 
-n:uNot
-f:FVD
-i:MI_STOREuninotifier.xiaomi
-v:7.0
+/n:uNot
+/f:FVD
+/i:MI_STOREuninotifier.xiaomi
+/v:7.0
 
 
 
