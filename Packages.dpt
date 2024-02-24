@@ -15,9 +15,9 @@ n:Batch image convertor
 a:BatchImageConvertor.7z
 f:F
 i:INFOPAGE
-v:3.8.5
-s:2871724
-p:0059943347750D43
+v:3.8.6
+s:2872220
+p:00599433241CB816
 
 n:ConcurrentDraw
 a:ConcurrentDraw.dp
@@ -30,15 +30,15 @@ n:Dates difference
 a:DatesDifference.dp
 f:0
 i:INFOLINK
-v:3.4
-p:000346EE6C96FC5E
+v:3.4.1
+p:000348F0E2956D21
 
 n:File extensions manager
 a:FileExtensionsManager.dp
 f:0
 i:INFOPAGE
-v:2.6
-p:00058C35CD87EE40
+v:2.6.1
+p:00059037B144CCC6
 
 n:Font finder
 a:FontFinder.dp
@@ -71,10 +71,10 @@ p:0006121D0918ECF8
 
 n:Screen shooter
 a:ScreenShooter.dp
-f:0
+f:---F---
 i:INFOPAGE
-v:2.4
-p:000347437A8A709A
+v:3.0
+p:00039C24B5F7CDE0
 
 n:Sudoku solver
 a:SudokuSolver.dp
@@ -170,39 +170,39 @@ n:One hundred and one
 a:OneHundredOne.dp
 f:0
 i:INFOPAGE
-v:2.2
-p:0003E3F958E9CC0C
+v:2.2.1
+p:0003E7FB6397B020
 
 n:Races
 a:Races.7z
 f:F
 i:INFOPAGE
-v:2.3
-s:14699124
-p:01DAC52D5239C17C
+v:2.3.1
+s:14697439
+p:01DAC92F1B34B297
 
 n:Snake
 a:Snake.7z
 f:F
 i:INFOPAGE
-v:2.3
-s:16133830
-p:02361D6DC2F120B6
+v:2.3.1
+s:16133431
+p:02361F6FA2F0CDED
 
 n:Thousand
 a:Thousand.dp
 f:0
 i:INFOPAGE
-v:2.2
-p:000394CA59ACA715
+v:2.2.1
+p:000398CC6E468BA2
 
 n:Turtle
 a:Turtle.7z
 f:F
 i:INFOPAGE
-v:2.3
-s:14782476
-p:0240FB1DF655A89B
+v:2.3.1
+s:14781936
+p:0240FD1F81F85A63
 
 
 
