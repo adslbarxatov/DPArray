@@ -44,8 +44,8 @@ n:Font finder
 a:FontFinder.dp
 f:0
 i:INFOPAGE
-v:3.4.2
-p:0004CE3697B43A23
+v:3.4.5
+p:0004CE36C26A6E53
 
 n:Geomag data drawer
 a:GeomagDataDrawer.dp
@@ -248,7 +248,7 @@ g:Microsoft Store
 n:Font finder
 f:FVD
 i:MS_STORE/9MXDR4BXP8R4
-v:3.4.2
+v:3.4.5
 
 n:Geomag data drawer
 f:FVD
