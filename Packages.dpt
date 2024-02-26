@@ -59,7 +59,7 @@ a:KassArray.dp
 f:F
 i:INFOPAGE
 l:r
-v:5.2.1
+v:5.2.2
 p:0015C204CBC9D64D
 
 n:OS macros executor
@@ -313,13 +313,13 @@ v:7.0
 
 
 
-/g:GetApps
+g:GetApps
 
-/n:KassArray
-/f:FVD
-/l:r
-/i:MI_STOREtexttokkt.xiaomi
-/v:5.2.1
+n:KassArray
+f:FVD
+l:r
+i:MI_STOREcom.RD_AAOW.TextToKKT
+v:5.2.1
 
 /n:Make decision
 /f:FVD
