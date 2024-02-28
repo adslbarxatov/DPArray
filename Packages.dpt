@@ -222,16 +222,16 @@ u:GIT_LINK/MakeDecision/GIT_PATH/DEFFILE
 a:MakeDecision.apk
 f:FV
 i:INFOPAGE
-v:3.5
-s:35200938
+v:3.5.1
+s:35161237
 
 n:PA detector
 u:GIT_LINK/EnchantIt/GIT_PATH/DEFFILE
 a:EnchantIt.apk
 f:FV
 i:INFOPAGE
-v:3.4
-s:42711729
+v:3.4.1
+s:42778524
 
 n:uNot
 u:GIT_LINK/UniNotifier/GIT_PATH/DEFFILE
@@ -323,18 +323,18 @@ v:5.2.1
 
 /n:Make decision
 /f:FVD
-/i:MI_STOREmakedecision.xiaomi
-/v:3.5
+/i:MI_STOREcom.RD_AAOW.MakeDecision
+/v:3.5.1
 
 /n:PA detector
 /f:FVD
-/i:MI_STOREenchantit.rdaaowfdl
-/v:3.4
+/i:MI_STOREcom.RD_AAOW.EnchantIt
+/v:3.4.1
 
-/n:uNot
-/f:FVD
-/i:MI_STOREcom.RD_AAOW.UniNotifier
-/v:7.0.2
+n:uNot
+f:FVD
+i:MI_STOREcom.RD_AAOW.UniNotifier
+v:7.0.2
 
 
 

@@ -155,7 +155,7 @@ No additional codecs are required
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NVZ51RL54K4) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/uninotifier/releases/latest) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) &#x3000;
-:iphone: [Get on GetApps](https://global.app.mi.com/details?id=uninotifier.xiaomi) &#x3000;
+:iphone: [Get on GetApps](https://global.app.mi.com/details?id=com.RD_AAOW.UniNotifier) &#x3000;
 :package: [Get APK](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.apk)
 
 The web resources supervisor service.
@@ -173,8 +173,8 @@ has specified is loaded – all other objects (including ads) are ignored
 :page_with_curl: [User guide](https://adslbarxatov.github.io/EnchantIt) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=xy0LDXgoR5U) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) &#x3000;
-:iphone: [Get on GetApps](https://global.app.mi.com/details?id=enchantit.rdaaowfdl) &#x3000;
-:package: [Get APK](https://github.com/adslbarxatov/EnchantIt/releases/latest/download/PADetector.apk)
+:iphone: [Get on GetApps](https://global.app.mi.com/details?id=com.RD_AAOW.EnchantIt) &#x3000;
+:package: [Get APK](https://github.com/adslbarxatov/EnchantIt/releases/latest/download/EnchantIt.apk)
 
 The paranormal activity search tool. Its task is to discover and mathematically confirm some paranormal
 activity. Before starting the experiment take a look at the project presentation and complete method description
@@ -204,7 +204,7 @@ Stand-alone tool for building and designing diagrams based on tabular data
 :page_with_curl: [User guide](https://adslbarxatov.github.io/MakeDecision) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=gjewz9mQMgI) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) &#x3000;
-:iphone: [Get on GetApps](https://global.app.mi.com/details?id=makedecision.xiaomi) &#x3000;
+:iphone: [Get on GetApps](https://global.app.mi.com/details?id=com.RD_AAOW.MakeDecision) &#x3000;
 :package: [Get APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.apk)
 
 This application illustrates a math method that allows comparing some objects or events based on a set
