@@ -238,8 +238,8 @@ u:GIT_LINK/UniNotifier/GIT_PATH/DEFFILE
 a:UniNotifier.apk
 f:FV
 i:INFOPAGE
-v:7.0.2
-s:35582699
+v:7.1
+s:35545664
 
 
 
@@ -309,7 +309,7 @@ v:3.4
 n:uNot
 f:FVD
 i:GP_STOREcom.RD_AAOW.UniNotifier
-v:7.0.2
+v:7.1
 
 
 
@@ -334,7 +334,7 @@ v:5.2.1
 n:uNot
 f:FVD
 i:MI_STOREcom.RD_AAOW.UniNotifier
-v:7.0.2
+v:7.1
 
 
 
