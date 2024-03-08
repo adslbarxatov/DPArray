@@ -114,10 +114,10 @@ n:ESHQ, actual update
 a:ESHQ_update.7z
 f:0
 i:MODSHOST/eshq
-u:MODSTORAGE/266388?MOD_REFmods%2Feshq
-v:13.10.2
-s:67526171
-p:0885711B90903B22
+u:MODSTORAGE/266493?MOD_REFmods%2Feshq
+v:13.10.3
+s:67551210
+p:0887477166B38831
 
 n:ES: Randomaze
 a:ESRM_setup.7z
@@ -338,9 +338,5 @@ v:7.1.1
 
 
 
-m:uNot can now work with many more websites than before! We have rebuilt the web request 
-m:method to enable it to work with the newest HTTP protocol versions and security requirements. 
-m:Check out the new version!||
-m:uNot теперь может работать с гораздо большим количеством веб-сайтов, чем раньше! Мы перестроили 
-m:метод веб-запроса, чтобы он мог работать с новейшими версиям протокола HTTP и требованиями безопасности. 
-m:Оцените новую версию!||
+m:ESHQ now has a fog! Check out the new version!||
+m:В ESHQ теперь есть туман! Оцените новую версию!
