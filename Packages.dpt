@@ -87,8 +87,8 @@ n:uNot
 a:UniNotifier.dp
 f:0
 i:INFOPAGE
-v:7.0.2
-p:0005C345CF451550
+v:7.1.1
+p:0005C5458BC78F4C
 
 n:Vice city toolset
 a:ViceCityToolset.dp
@@ -238,8 +238,8 @@ u:GIT_LINK/UniNotifier/GIT_PATH/DEFFILE
 a:UniNotifier.apk
 f:FV
 i:INFOPAGE
-v:7.1
-s:35545664
+v:7.1.1
+s:35579364
 
 
 
@@ -309,7 +309,7 @@ v:3.4
 n:uNot
 f:FVD
 i:GP_STOREcom.RD_AAOW.UniNotifier
-v:7.1
+v:7.1.1
 
 
 
@@ -334,7 +334,7 @@ v:5.2.3
 n:uNot
 f:FVD
 i:MI_STOREcom.RD_AAOW.UniNotifier
-v:7.1
+v:7.1.1
 
 
 
