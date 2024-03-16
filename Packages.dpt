@@ -105,19 +105,28 @@ n:ESHQ
 a:ESHQ_setup.7z
 f:FV
 i:MODSHOST/eshq
-u:MODSTORAGE/250593?MOD_REFmods%2Feshq
-v:13.5
-s:232218407
-p:161D03D1BE88213B
+u:MODSTORAGE/266888?MOD_REFmods%2Feshq
+v:14.0
+s:240551182
+p:16E3127A7D1FD049
 
 n:ESHQ, actual update
 a:ESHQ_update.7z
 f:0
 i:MODSHOST/eshq
-u:MODSTORAGE/266596?MOD_REFmods%2Feshq
-v:13.10.4
-s:67660746
-p:0889E39D64E10D7F
+u:MODSTORAGE/266886?MOD_REFmods%2Feshq
+v:14.0.1
+s:56114
+p:00010A21A52911B1
+
+n:ESHQ, backward compatibility
+a:ESHQ_backward.7z
+f:0
+i:MODSHOST/eshq
+u:MODSTORAGE/266889?MOD_REFmods%2Feshq
+v:14.0
+s:71091895
+p:08E6B9BF2D772AE8
 
 n:ES: Randomaze
 a:ESRM_setup.7z
@@ -136,14 +145,6 @@ u:MODSTORAGE/266684?MOD_REFmods%2Fesrm
 v:5.2.2
 s:14124543
 p:01530842CDD15A10
-
-/n:ES: Randomaze, bkwd compat.
-/a:ESRM_bkwd.7z
-/f:0
-/i:MODSHOST/esrm
-/u:MODSTORAGE/256553?MOD_REFmods%2Fesrm
-/v:5.0
-/s:11669091
 
 n:Crazy cheater’s mod
 a:GTAViceCity.7z
