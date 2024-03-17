@@ -109,6 +109,7 @@ u:MODSTORAGE/266888?MOD_REFmods%2Feshq
 v:14.0
 s:240551182
 p:16E3127A7D1FD049
+o:ESHQ_setup.14.dp
 
 n:ESHQ, actual update
 a:ESHQ_update.7z
@@ -121,12 +122,13 @@ p:00010A21A52911B1
 
 n:ESHQ, backward compatibility
 a:ESHQ_backward.7z
-f:0
+f:FV
 i:MODSHOST/eshq
 u:MODSTORAGE/266889?MOD_REFmods%2Feshq
 v:14.0
 s:71091895
 p:08E6B9BF2D772AE8
+o:ESHQ_backward.14.dp
 
 n:ES: Randomaze
 a:ESRM_setup.7z
@@ -339,5 +341,5 @@ v:7.1.1
 
 
 
-m:ESHQ now has a fog! Check out the new version!||
-m:В ESHQ теперь есть туман! Оцените новую версию!
+m:ESHQ 14 is out now!||
+m:ESHQ 14 доступен для загрузки!
