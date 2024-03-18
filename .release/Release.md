@@ -1,5 +1,4 @@
-_Changes for v 6.11.2_:
+_Changes for v 6.11.3_:
+- Server messages are now localized too;
 - XPUN control has been updated;
-- Added new localized videoguides;
-- Fixed some minor issues;
-- Mini-launcher has been rebuilt: it now uses buttons for configured applications
+- Added new localized videoguides
