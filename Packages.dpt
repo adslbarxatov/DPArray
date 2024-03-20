@@ -59,15 +59,15 @@ a:KassArray.dp
 f:F
 i:INFOPAGE
 l:r
-v:5.2.4
-p:0015CA04C5608526
+v:5.2.5
+p:0015CA0492FF2509
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
 f:F
 i:INFOPAGE
-v:3.5.2
-p:0006121D0918ECF8
+v:3.5.3
+p:0006181DEEAC97B5
 
 n:Screen shooter
 a:ScreenShooter.dp
@@ -94,8 +94,8 @@ n:Vice city toolset
 a:ViceCityToolset.dp
 f:F
 i:INFOPAGE
-v:4.4.1
-p:001A66282B54A3E8
+v:4.4.2
+p:001A6828ABFCD950
 
 
 
