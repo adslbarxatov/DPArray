@@ -37,8 +37,8 @@ n:File extensions manager
 a:FileExtensionsManager.dp
 f:0
 i:INFOPAGE
-v:2.6.1
-p:00059037B144CCC6
+v:2.6.2
+p:0005923777E5FCD9
 
 n:Font finder
 a:FontFinder.dp
@@ -180,17 +180,17 @@ n:Races
 a:Races.7z
 f:F
 i:INFOPAGE
-v:2.3.1
-s:14697439
-p:01DAC92F1B34B297
+v:2.3.2
+s:14697934
+p:01DACB2F90B6530C
 
 n:Snake
 a:Snake.7z
 f:F
 i:INFOPAGE
-v:2.3.1
-s:16133431
-p:02361F6FA2F0CDED
+v:2.3.2
+s:16132670
+p:0236216FC1F44086
 
 n:Thousand
 a:Thousand.dp
@@ -203,9 +203,9 @@ n:Turtle
 a:Turtle.7z
 f:F
 i:INFOPAGE
-v:2.3.1
-s:14781936
-p:0240FD1F81F85A63
+v:2.3.2
+s:14785913
+p:0240FF1F2B2FA04A
 
 
 
