@@ -87,8 +87,8 @@ n:uNot
 a:UniNotifier.dp
 f:0
 i:INFOPAGE
-v:7.1.1
-p:0005C5458BC78F4C
+v:7.1.2
+p:0005C545C3FCF94A
 
 n:Vice city toolset
 a:ViceCityToolset.dp
@@ -217,7 +217,7 @@ a:KassArray.apk
 f:FV
 i:INFOPAGE
 l:r
-v:5.2.3
+v:5.2.5
 s:35972065
 
 n:Make decision
@@ -241,7 +241,7 @@ u:GIT_LINK/UniNotifier/GIT_PATH/DEFFILE
 a:UniNotifier.apk
 f:FV
 i:INFOPAGE
-v:7.1.1
+v:7.1.2
 s:35579364
 
 
@@ -262,7 +262,7 @@ n:KassArray
 f:FVD
 l:r
 i:MS_STORE/9ND98F4C4Q60
-v:5.2.4
+v:5.2.5
 
 n:Mafia helper
 f:FVD
@@ -287,7 +287,7 @@ v:2.2.2
 n:uNot
 f:FVD
 i:MS_STORE/9NVZ51RL54K4
-v:7.0.2
+v:7.1.2
 
 
 
@@ -297,7 +297,7 @@ n:KassArray
 f:FVD
 l:r
 i:GP_STOREcom.RD_AAOW.TextToKKT
-v:5.2.3
+v:5.2.5
 
 n:Make decision
 f:FVD
@@ -312,17 +312,17 @@ v:3.4
 n:uNot
 f:FVD
 i:GP_STOREcom.RD_AAOW.UniNotifier
-v:7.1.1
+v:7.1.2
 
 
 
-g:GetApps
+/g:GetApps
 
-n:KassArray
-f:FVD
-l:r
-i:MI_STOREcom.RD_AAOW.TextToKKT
-v:5.2.3
+/n:KassArray
+/f:FVD
+/l:r
+/i:MI_STOREcom.RD_AAOW.TextToKKT
+/v:5.2.5
 
 /n:Make decision
 /f:FVD
@@ -334,10 +334,10 @@ v:5.2.3
 /i:MI_STOREcom.RD_AAOW.EnchantIt
 /v:3.4.1
 
-n:uNot
-f:FVD
-i:MI_STOREcom.RD_AAOW.UniNotifier
-v:7.1.1
+/n:uNot
+/f:FVD
+/i:MI_STOREcom.RD_AAOW.UniNotifier
+/v:7.1.2
 
 
 
