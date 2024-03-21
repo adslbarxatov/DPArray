@@ -225,15 +225,15 @@ u:GIT_LINK/MakeDecision/GIT_PATH/DEFFILE
 a:MakeDecision.apk
 f:FV
 i:INFOPAGE
-v:3.5.1
-s:35161237
+v:3.5.2
+s:35165333
 
 n:PA detector
 u:GIT_LINK/EnchantIt/GIT_PATH/DEFFILE
 a:EnchantIt.apk
 f:FV
 i:INFOPAGE
-v:3.4.1
+v:3.4.2
 s:42778524
 
 n:uNot
@@ -302,12 +302,12 @@ v:5.2.5
 n:Make decision
 f:FVD
 i:GP_STOREcom.RD_AAOW.MakeDecision
-v:3.5
+v:3.5.2
 
 n:PA detector
 f:FVD
 i:GP_STOREcom.RD_AAOW.EnchantIt
-v:3.4
+v:3.4.2
 
 n:uNot
 f:FVD
@@ -327,12 +327,12 @@ v:7.1.2
 /n:Make decision
 /f:FVD
 /i:MI_STOREcom.RD_AAOW.MakeDecision
-/v:3.5.1
+/v:3.5.2
 
 /n:PA detector
 /f:FVD
 /i:MI_STOREcom.RD_AAOW.EnchantIt
-/v:3.4.1
+/v:3.4.2
 
 /n:uNot
 /f:FVD
