@@ -29,9 +29,9 @@ p:000B2708BB82147B
 n:Dates difference
 a:DatesDifference.dp
 f:0
-i:INFOLINK
-v:3.4.1
-p:000348F0E2956D21
+i:INFOPAGE
+v:3.4.2
+p:00034AF0B2000AB6
 
 n:File extensions manager
 a:FileExtensionsManager.dp
@@ -71,10 +71,10 @@ p:0006181DEEAC97B5
 
 n:Screen shooter
 a:ScreenShooter.dp
-f:---F---
+f:0
 i:INFOPAGE
-v:3.0
-p:00039C4D96F60317
+v:3.0.1
+p:00039E4F84CC714B
 
 n:Sudoku solver
 a:SudokuSolver.dp
