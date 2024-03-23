@@ -351,6 +351,7 @@ A tool for managing Windows registry settings for file extensions
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/screenshooter) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ScreenShooter) &#x3000;
+:briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NHVH857DV1S) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/screenshooter/releases/latest)
 
 A tool for making screenshots. Supports shooting of screen, windows and elements of applications
