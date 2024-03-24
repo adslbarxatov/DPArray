@@ -284,7 +284,6 @@ DPArray выполняет установку, деинсталляцию, пр�
 ### Font finder
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/fontfinder) &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/FontFinder/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=n2DNUsWvfpQ) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://FontFinder) &#x3000;
@@ -401,7 +400,7 @@ ES: Randomaze – генератор карт для одноимённого м
 ### Screen shooter
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/screenshooter) &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/ScreenShooter/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ScreenShooter) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NHVH857DV1S) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/screenshooter/releases/latest)
@@ -415,8 +414,9 @@ ES: Randomaze – генератор карт для одноимённого м
 ### Dates difference
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
-:earth_africa: [О продукте](https://github.com/adslbarxatov/datesdifference) &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/DatesDifference/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://DatesDifference) &#x3000;
+:briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NRQ4LQZNKKG) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/datesdifference/releases/latest)
 
 Этот инструмент вычисляет разницу между датами. Он позволяет отобразить разницу в секундах, минутах,

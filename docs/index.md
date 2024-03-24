@@ -232,7 +232,6 @@ A tool for batch processing of image files
 ### Font finder
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/fontfinder) &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/FontFinder) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=x3ImaRYH7_A) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://FontFinder) &#x3000;
@@ -349,7 +348,7 @@ A tool for managing Windows registry settings for file extensions
 ### Screen shooter
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/screenshooter) &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/ScreenShooter) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ScreenShooter) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NHVH857DV1S) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/screenshooter/releases/latest)
@@ -363,8 +362,9 @@ A tool for making screenshots. Supports shooting of screen, windows and elements
 ### Dates difference
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
-:earth_africa: [About](https://github.com/adslbarxatov/datesdifference) &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/DatesDifference) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://DatesDifference) &#x3000;
+:briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NRQ4LQZNKKG) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/datesdifference/releases/latest)
 
 This tool evaluates the difference in dates. It allows you to display the difference in seconds, minutes,
