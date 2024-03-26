@@ -33,7 +33,7 @@ namespace RD_AAOW
 		private const string HypeHelpKey = "HypeHelp";
 		private bool hypeHelp;
 		private const string LastHypeHelpKey = "LastHypeHelp";
-		private DateTime lastHypeHelp;
+		/*private DateTime lastHypeHelp;*/
 
 		private string[] hypeHelpLinks = new string[] {
 			"https://vk.com/rd_aaow_fdl",
@@ -42,16 +42,30 @@ namespace RD_AAOW
 			"https://t.me/grammarmustjoy",
 
 			"https://youtube.com/c/rdaaowfdl",
-			"https://youtu.be/seFfQkfL6Sk",
-			"https://youtu.be/fdH4SKFdTCI",
-			"https://youtu.be/I_sXoDxPQQ0",
-			"https://youtu.be/hTnDR89VR8w",
+
+			"https://youtu.be/0_78MtyTAdA",
+			"https://youtu.be/UlB0zh3YH3A",
+			"https://youtu.be/QiOMIN4aE-Q",
+			"https://youtu.be/afbtGUPnZ2w",
+			"https://youtu.be/gdg-kN8ALyI",
+			"https://youtu.be/UPfBmVmQvZA",
+			"https://youtu.be/hU62FlQ5JNk",
+			"https://youtu.be/gjewz9mQMgI",
+			"https://youtu.be/Dqcrs0F6Gq0",
+			"https://youtu.be/xy0LDXgoR5U",
+			"https://youtu.be/n2DNUsWvfpQ",
+			"https://youtu.be/x3ImaRYH7_A",
+			"https://youtu.be/b0rn2wIuU0Y",
+			"https://youtu.be/-1HR72BJS-E",
+			"https://youtu.be/25BYSySdAJk",
+			"https://youtu.be/gjs9K1EsFG8",
+			"https://youtu.be/nOb4MbL-jlI",
 
 			"https://moddb.com/mods/esrm",
 			"https://moddb.com/mods/eshq",
 			"https://moddb.com/mods/ccm",
 			};
-		private Random rnd = new Random ();
+		/*private Random rnd = new Random ();*/
 
 		/// <summary>
 		/// Левый маркер лога изменений
@@ -122,6 +136,10 @@ namespace RD_AAOW
 				RDLocale.LanguagesNames.Length * 2);
 			short locOffset = (short)RDLocale.CurrentLanguage;
 
+			if (veryFirstStart < 0)
+				veryFirstStart =
+					string.IsNullOrWhiteSpace (RDGenerics.GetAppSettingsValue (LastShownVersionKey)) ? 1 : 0;
+
 			string line = ProgramDescription.AssemblyLocalizedReferences[localized ? 0 + locOffset : 0];
 			if (string.IsNullOrWhiteSpace (line))
 				userManualLink = "";
@@ -187,21 +205,25 @@ namespace RD_AAOW
 			{
 			// HypeHelp
 			hypeHelp = RDGenerics.GetDPArraySettingsValue (HypeHelpKey) == "1";
-			try
+			if (hypeHelp)
 				{
-				lastHypeHelp = DateTime.Parse (RDGenerics.GetDPArraySettingsValue (LastHypeHelpKey));
-				}
-			catch
-				{
-				lastHypeHelp = DateTime.Now;
-				}
+				DateTime lastHypeHelp;
+				try
+					{
+					lastHypeHelp = DateTime.Parse (RDGenerics.GetDPArraySettingsValue (LastHypeHelpKey));
+					}
+				catch
+					{
+					lastHypeHelp = DateTime.Now;
+					}
 
-			if (hypeHelp && (StartupMode || AcceptMode) && (lastHypeHelp <= DateTime.Now))
-				{
-				RDGenerics.RunWork (HypeHelper, null, null, RDRunWorkFlags.DontSuspendExecution);
+				if (/*hypeHelp &&*/ (StartupMode || AcceptMode) && (lastHypeHelp <= DateTime.Now))
+					{
+					RDGenerics.RunWork (HypeHelper, null, null, RDRunWorkFlags.DontSuspendExecution);
 
-				lastHypeHelp = DateTime.Now.AddMinutes (rnd.Next (65, 95));
-				RDGenerics.SetDPArraySettingsValue (LastHypeHelpKey, lastHypeHelp.ToString ());
+					lastHypeHelp = DateTime.Now.AddMinutes (RDGenerics.RND.Next (65, 95));
+					RDGenerics.SetDPArraySettingsValue (LastHypeHelpKey, lastHypeHelp.ToString ());
+					}
 				}
 
 			// Запрос настроек
@@ -402,6 +424,19 @@ namespace RD_AAOW
 			}
 
 		/// <summary>
+		/// Возвращает true, если приложение запущено впервые
+		/// </summary>
+		public static bool VeryFirstStart
+			{
+			get
+				{
+				return (veryFirstStart > 0);
+				}
+			}
+		private static int veryFirstStart = -1;
+
+		/*
+		/// <summary>
 		/// Конструктор. Открывает указанную ссылку без запуска формы
 		/// </summary>
 		/// <param name="Link">Ссылка для отображения;
@@ -414,6 +449,7 @@ namespace RD_AAOW
 			else
 				RDGenerics.RunURL (Link);
 			}
+		*/
 
 		// Закрытие окна
 		private void ExitButton_Click (object sender, EventArgs e)
@@ -668,8 +704,8 @@ namespace RD_AAOW
 				}
 			htmlError = false;
 
-// Получение обновлений Политики (ошибки игнорируются)
-policy:
+			// Получение обновлений Политики (ошибки игнорируются)
+			policy:
 			if (startupMode)
 				{
 				string adpRev = ExtractPolicyRevision (GetPolicy ());
@@ -697,7 +733,7 @@ policy:
 		// Метод выполняет фоновую проверку обновлений
 		private void HypeHelper (object sender, DoWorkEventArgs e)
 			{
-			RDGenerics.GetHTML (hypeHelpLinks[rnd.Next (hypeHelpLinks.Length)]);
+			RDGenerics.GetHTML (hypeHelpLinks[RDGenerics.RND.Next (hypeHelpLinks.Length)]);
 			e.Result = 0;
 			}
 
@@ -752,117 +788,6 @@ policy:
 			policyAccepted = false;
 			UpdatesTimer.Enabled = false;
 			this.Close ();
-			}
-
-		/// <summary>
-		/// Метод выполняет регистрацию указанного расширения файла и привязывает его к текущему приложению
-		/// </summary>
-		/// <param name="FileExtension">Расширение файла</param>
-		/// <param name="FileTypeName">Название типа файла</param>
-		/// <param name="Openable">Флаг указывает, будет ли файл доступен для открытия в приложении</param>
-		/// <param name="ShowWarning">Флаг указывает, что необходимо отобразить предупреждение
-		/// перед регистрацией</param>
-		/// <param name="FileIcon">Ресурс, хранящий значок формата файла</param>
-		/// <returns>Возвращает true в случае успеха</returns>
-		public static bool RegisterFileExtension (string FileExtension, string FileTypeName, Icon FileIcon,
-			bool Openable, bool ShowWarning)
-			{
-			// Подготовка
-			string fileExt = FileExtension.ToLower ().Replace (".", "");
-
-			// Контроль
-			if (ShowWarning && (RDGenerics.MessageBox (RDMessageTypes.Warning_Left,
-				RDLocale.GetDefaultText (RDLDefaultTexts.Message_ExtensionsRegistration),
-				RDLocale.GetDefaultText (RDLDefaultTexts.Button_Yes),
-				RDLocale.GetDefaultText (RDLDefaultTexts.Button_Cancel)) ==
-				RDMessageButtons.ButtonTwo))
-				return false;
-
-			// Выполнение
-			try
-				{
-				// Запись значка
-				FileStream FS = new FileStream (RDGenerics.AppStartupPath + fileExt + ".ico", FileMode.Create);
-				FileIcon.Save (FS);
-				FS.Close ();
-				}
-			catch
-				{
-				return false;
-				}
-
-			// Запись значений реестра
-			bool res = true;
-			res &= RDGenerics.SetFileExtensionValue ("." + fileExt, "", fileExt + "file");
-			res &= RDGenerics.SetFileExtensionValue (fileExt + "file", "", FileTypeName);
-			res &= RDGenerics.SetFileExtensionValue (fileExt + "file\\DefaultIcon", "",
-				RDGenerics.AppStartupPath + fileExt + ".ico");
-
-			if (Openable)
-				{
-				res &= RDGenerics.SetFileExtensionValue (fileExt + "file\\shell", "", "open");
-				res &= RDGenerics.SetFileExtensionValue (fileExt + "file\\shell\\open", "Icon",
-					RDGenerics.AppStartupPath + fileExt + ".ico");
-				res &= RDGenerics.SetFileExtensionValue (fileExt + "file\\shell\\open\\command", "",
-					"\"" + Application.ExecutablePath + "\" \"%1\"");
-				}
-			else
-				{
-				res &= RDGenerics.SetFileExtensionValue (fileExt + "file", "NoOpen", "");
-				}
-
-			return res;
-			}
-
-		/// <summary>
-		/// Метод выполняет регистрацию указанного протокола и привязывает его к текущему приложению
-		/// </summary>
-		/// <param name="ProtocolCode">Имя протокола</param>
-		/// <param name="ProtocolName">Название протокола</param>
-		/// <param name="ShowWarning">Флаг указывает, что необходимо отобразить предупреждение 
-		/// перед регистрацией</param>
-		/// <param name="FileIcon">Ресурс, хранящий значок формата файла</param>
-		/// <returns>Возвращает true в случае успеха</returns>
-		public static bool RegisterProtocol (string ProtocolCode, string ProtocolName, Icon FileIcon,
-			bool ShowWarning)
-			{
-			// Подготовка
-			string protocol = ProtocolCode.ToLower ();
-
-			// Контроль
-			if (ShowWarning && (RDGenerics.MessageBox (RDMessageTypes.Warning_Left,
-				RDLocale.GetDefaultText (RDLDefaultTexts.Message_ProtocolsRegistration),
-				RDLocale.GetDefaultText (RDLDefaultTexts.Button_Yes),
-				RDLocale.GetDefaultText (RDLDefaultTexts.Button_Cancel)) ==
-				RDMessageButtons.ButtonTwo))
-				return false;
-
-			// Выполнение
-			try
-				{
-				// Запись значка
-				FileStream FS = new FileStream (RDGenerics.AppStartupPath + protocol + ".ico", FileMode.Create);
-				FileIcon.Save (FS);
-				FS.Close ();
-				}
-			catch
-				{
-				return false;
-				}
-
-			// Запись значений реестра
-			bool res = true;
-			res &= RDGenerics.SetFileExtensionValue (protocol, "", ProtocolName);
-			res &= RDGenerics.SetFileExtensionValue (protocol, "URL Protocol", "");
-			res &= RDGenerics.SetFileExtensionValue (protocol + "\\DefaultIcon", "",
-				RDGenerics.AppStartupPath + protocol + ".ico");
-			res &= RDGenerics.SetFileExtensionValue (protocol + "\\shell", "", "open");
-			res &= RDGenerics.SetFileExtensionValue (protocol + "\\shell\\open", "Icon",
-				RDGenerics.AppStartupPath + protocol + ".ico");
-			res &= RDGenerics.SetFileExtensionValue (protocol + "\\shell\\open\\command", "",
-				"\"" + Application.ExecutablePath + "\" \"%1\"");
-
-			return res;
 			}
 		}
 	}

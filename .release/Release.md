@@ -1,4 +1,6 @@
-_Changes for v 6.11.3_:
+_Changes for v 6.11.5_:
+- Updated the HypeHelp links list;
+- Updated some internal mechanics;
+- Removed some obsolete code;
 - Server messages are now localized too;
-- XPUN control has been updated;
-- Added new localized videoguides
+- XPUN control has been updated
