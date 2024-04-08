@@ -325,30 +325,30 @@ v:7.1.3
 
 
 
-/g:GetApps
+g:GetApps
 
-/n:KassArray
-/f:FVD
-/l:r
-/i:MI_STOREcom.RD_AAOW.TextToKKT
-/v:5.3
+n:KassArray
+f:FVD
+l:r
+i:MI_STOREcom.RD_AAOW.TextToKKT
+v:5.3
 
-/n:Make decision
-/f:FVD
-/i:MI_STOREcom.RD_AAOW.MakeDecision
-/v:3.5.2
+n:Make decision
+f:FVD
+i:MI_STOREcom.RD_AAOW.MakeDecision
+v:3.5.2
 
 /n:PA detector
 /f:FVD
 /i:MI_STOREcom.RD_AAOW.EnchantIt
 /v:3.4.2
 
-/n:uNot
-/f:FVD
-/i:MI_STOREcom.RD_AAOW.UniNotifier
-/v:7.1.3
+n:uNot
+f:FVD
+i:MI_STOREcom.RD_AAOW.UniNotifier
+v:7.1.3
 
 
 
-me:ESHQ 14 is out now!
-mr:ESHQ 14 доступен для загрузки!
+me:ES: Randomaze v 5.3 is out now!
+mr:ES: Randomaze v 5.3 доступен для загрузки!
