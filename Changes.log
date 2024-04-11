@@ -1,5 +1,10 @@
 DPArray: changes log
 
+Version 6.12:
+• Updated HypeHelp and Updates checker mechanics: this should fix apps freezing immediately
+  after launch (on some PCs);
+• The mini-launcher now can kill user-defined processes
+
 Version 6.11.5:
 • Updated the HypeHelp links list;
 • Updated some internal mechanics;

@@ -17,7 +17,7 @@ namespace RD_AAOW
 		private string updatesMessage = "", updatesMessageForText = "", description = "",
 			versionDescription = "", adpRevision = "";
 		private bool policyAccepted = false;
-		private bool startupMode = false;
+		private bool startupMode = false, acceptMode = false;
 		private bool desciptionHasBeenUpdated = false;
 		private const string newPolicyAlias = "!";
 
@@ -31,9 +31,8 @@ namespace RD_AAOW
 
 		// Элементы поддержки HypeHelp
 		private const string HypeHelpKey = "HypeHelp";
-		private bool hypeHelp;
+		/*private bool hypeHelp;*/
 		private const string LastHypeHelpKey = "LastHypeHelp";
-		/*private DateTime lastHypeHelp;*/
 
 		private string[] hypeHelpLinks = new string[] {
 			"https://vk.com/rd_aaow_fdl",
@@ -65,7 +64,6 @@ namespace RD_AAOW
 			"https://moddb.com/mods/eshq",
 			"https://moddb.com/mods/ccm",
 			};
-		/*private Random rnd = new Random ();*/
 
 		/// <summary>
 		/// Левый маркер лога изменений
@@ -203,29 +201,6 @@ namespace RD_AAOW
 		// Основной метод запуска окна
 		private int LaunchForm (bool StartupMode, bool AcceptMode)
 			{
-			// HypeHelp
-			hypeHelp = RDGenerics.GetDPArraySettingsValue (HypeHelpKey) == "1";
-			if (hypeHelp)
-				{
-				DateTime lastHypeHelp;
-				try
-					{
-					lastHypeHelp = DateTime.Parse (RDGenerics.GetDPArraySettingsValue (LastHypeHelpKey));
-					}
-				catch
-					{
-					lastHypeHelp = DateTime.Now;
-					}
-
-				if (/*hypeHelp &&*/ (StartupMode || AcceptMode) && (lastHypeHelp <= DateTime.Now))
-					{
-					RDGenerics.RunWork (HypeHelper, null, null, RDRunWorkFlags.DontSuspendExecution);
-
-					lastHypeHelp = DateTime.Now.AddMinutes (RDGenerics.RND.Next (65, 95));
-					RDGenerics.SetDPArraySettingsValue (LastHypeHelpKey, lastHypeHelp.ToString ());
-					}
-				}
-
 			// Запрос настроек
 			adpRevision = RDGenerics.GetDPArraySettingsValue (ADPRevisionKey);
 			string helpShownAt = RDGenerics.GetAppSettingsValue (LastShownVersionKey);
@@ -239,6 +214,7 @@ namespace RD_AAOW
 
 			// Контроль
 			startupMode = StartupMode;
+			acceptMode = AcceptMode;
 			if (StartupMode && (helpShownAt == ProgramDescription.AssemblyVersion) ||   // Справка уже отображалась
 				AcceptMode && (!adpRevision.EndsWith (newPolicyAlias)))                 // Политика уже принята
 				return 1;
@@ -309,16 +285,18 @@ namespace RD_AAOW
 				RDLocale.GetDefaultText (RDLDefaultTexts.Control_PolicyEULA) :
 				RDLocale.GetDefaultText (RDLDefaultTexts.Control_AppAbout);
 
-			// Запуск проверки обновлений
-			if (!AcceptMode)
+			/*if (!AcceptMode)
 				{
+			// Запуск проверки обновлений
 				UpdatesPageButton.Enabled = false;
 				RDGenerics.RunWork (UpdatesChecker, null, null, RDRunWorkFlags.DontSuspendExecution);
 				UpdatesTimer.Enabled = true;
 				}
 
+			else*/
+
 			// Получение Политики
-			else
+			if (AcceptMode)
 				{
 				RDGenerics.RunWork (PolicyLoader, null,
 					RDLocale.GetDefaultText (RDLDefaultTexts.Message_PreparingForLaunch),
@@ -350,7 +328,7 @@ namespace RD_AAOW
 			if (RDGenerics.StartedFromMSStore)
 				HypeHelpFlag.Checked = HypeHelpFlag.Visible = false;
 			else
-				HypeHelpFlag.Checked = hypeHelp;
+				HypeHelpFlag.Checked = /*hypeHelp*/ (RDGenerics.GetDPArraySettingsValue (HypeHelpKey) == "1");
 
 			RDGenerics.LoadAppAboutWindowDimensions (this);
 
@@ -358,6 +336,29 @@ namespace RD_AAOW
 
 			RDGenerics.SaveAppAboutWindowDimensions (this);
 			RDGenerics.SetDPArraySettingsValue (HypeHelpKey, HypeHelpFlag.Checked ? "1" : "0");
+
+			// HypeHelp (только если окно отображено)
+			/*hypeHelp = RDGenerics.GetDPArraySettingsValue (HypeHelpKey) == "1";*/
+			if (/*hypeHelp*/ HypeHelpFlag.Checked)
+				{
+				DateTime lastHypeHelp;
+				try
+					{
+					lastHypeHelp = DateTime.Parse (RDGenerics.GetDPArraySettingsValue (LastHypeHelpKey));
+					}
+				catch
+					{
+					lastHypeHelp = DateTime.Now;
+					}
+
+				if (/*(StartupMode || AcceptMode)*/ !AcceptMode && (lastHypeHelp <= DateTime.Now))
+					{
+					RDGenerics.RunWork (HypeHelper, null, null, RDRunWorkFlags.DontSuspendExecution);
+
+					lastHypeHelp = DateTime.Now.AddMinutes (RDGenerics.RND.Next (65, 95));
+					RDGenerics.SetDPArraySettingsValue (LastHypeHelpKey, lastHypeHelp.ToString ());
+					}
+				}
 
 			// Запись версий по завершению
 			if (StartupMode)
@@ -370,6 +371,17 @@ namespace RD_AAOW
 
 			// Завершение
 			return policyAccepted ? 0 : -1;
+			}
+
+		// Запуск проверки обновлений (только при отображённом окне)
+		private void AboutForm_Shown (object sender, EventArgs e)
+			{
+			if (acceptMode)
+				return;
+
+			UpdatesPageButton.Enabled = false;
+			RDGenerics.RunWork (UpdatesChecker, null, null, RDRunWorkFlags.DontSuspendExecution);
+			UpdatesTimer.Enabled = true;
 			}
 
 		// Метод получает Политику разработки
@@ -434,22 +446,6 @@ namespace RD_AAOW
 				}
 			}
 		private static int veryFirstStart = -1;
-
-		/*
-		/// <summary>
-		/// Конструктор. Открывает указанную ссылку без запуска формы
-		/// </summary>
-		/// <param name="Link">Ссылка для отображения;
-		/// если указан null, запускается ссылка на релизы продукта</param>
-		public AboutForm (string Link)
-			{
-			if (string.IsNullOrWhiteSpace (Link))
-				RDGenerics.RunURL (RDGenerics.DefaultGitLink + ProgramDescription.AssemblyMainName +
-						RDGenerics.GitUpdatesSublink + "/latest");
-			else
-				RDGenerics.RunURL (Link);
-			}
-		*/
 
 		// Закрытие окна
 		private void ExitButton_Click (object sender, EventArgs e)

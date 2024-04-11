@@ -1,6 +1,4 @@
-_Changes for v 6.11.5_:
-- Updated the HypeHelp links list;
-- Updated some internal mechanics;
-- Removed some obsolete code;
-- Server messages are now localized too;
-- XPUN control has been updated
+_Changes for v 6.12_:
+- Updated HypeHelp and Updates checker mechanics: this should fix apps freezing immediately after launch (on some PCs);
+- The mini-launcher now can kill user-defined processes;
+- Updated the HypeHelp links list
