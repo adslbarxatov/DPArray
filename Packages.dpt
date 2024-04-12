@@ -4,8 +4,8 @@ n:DPArray
 a:DPArray.dp
 f:fvd
 i:INFOPAGE
-v:6.12
-p:00093EA9F079FEF9
+v:7.0
+p:000946A5C4D6F5B9
 
 
 
@@ -350,5 +350,5 @@ v:7.1.3
 
 
 
-me:ES: Randomaze v 5.3 is out now!
-mr:ES: Randomaze v 5.3 доступен для загрузки!
+me:ES: DPArray v 7 is available for deployment!
+mr:ES: DPArray v 7 доступен для развёртки!

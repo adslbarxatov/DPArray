@@ -193,7 +193,7 @@ Continue with specified path?</value>
 You may be trying to update or uninstall a product that has never been installed or has already been removed</value>
   </data>
   <data name="ReadyMessage1" xml:space="preserve">
-    <value>We’re ready for </value>
+    <value>We’re ready for the </value>
   </data>
   <data name="ReadyMessage2_Install" xml:space="preserve">
     <value>application deployment at
@@ -203,11 +203,11 @@ You may be trying to update or uninstall a product that has never been installed
     <value>package rebuilding.</value>
   </data>
   <data name="ReadyMessage2_Uninstall" xml:space="preserve">
-    <value>application removing from
+    <value>remove of the application from
 “{0:S}”</value>
   </data>
   <data name="ReadyMessage2_Update" xml:space="preserve">
-    <value>updating installation at
+    <value>update of the application at
 “{0:S}”</value>
   </data>
   <data name="ReadyMessage3" xml:space="preserve">
@@ -278,7 +278,7 @@ Retry the list downloading?</value>
     <value>About the {0:S}...</value>
   </data>
   <data name="PackageSelectorForm_AbortButton" xml:space="preserve">
-    <value>&amp;Deploy</value>
+    <value>&amp;Deploy ▷</value>
   </data>
   <data name="PackageSelectorForm_ListOfProjects" xml:space="preserve">
     <value>Packages &amp;list</value>
@@ -500,5 +500,8 @@ Server sent a new message</value>
   </data>
   <data name="DeinstallationScriptBuilding" xml:space="preserve">
     <value>Creating the deinstallation script...</value>
+  </data>
+  <data name="AutostartParameters" xml:space="preserve">
+    <value>Autostart parameters</value>
   </data>
 </root>

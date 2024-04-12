@@ -278,7 +278,7 @@
     <value>О программе {0:S}...</value>
   </data>
   <data name="PackageSelectorForm_AbortButton" xml:space="preserve">
-    <value>&amp;Развернуть</value>
+    <value>&amp;Развернуть ▷</value>
   </data>
   <data name="PackageSelectorForm_ListOfProjects" xml:space="preserve">
     <value>&amp;Список пакетов</value>
@@ -500,5 +500,8 @@
   </data>
   <data name="DeinstallationScriptBuilding" xml:space="preserve">
     <value>Создание скрипта деинсталляции...</value>
+  </data>
+  <data name="AutostartParameters" xml:space="preserve">
+    <value>Параметры автозапуска</value>
   </data>
 </root>
