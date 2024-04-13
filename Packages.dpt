@@ -15,16 +15,16 @@ n:Batch image convertor
 a:BatchImageConvertor.7z
 f:F
 i:INFOPAGE
-v:3.8.7
-s:2877325
-p:005996335E45D67A
+v:3.9
+s:2872450
+p:005996318FD61874
 
 n:ConcurrentDraw
 a:ConcurrentDraw.dp
 f:F
 i:INFOPAGE
-v:3.4.2
-p:000B2708BB82147B
+v:3.4.5
+p:000B2708E64D72F6
 
 n:Dates difference
 a:DatesDifference.dp
