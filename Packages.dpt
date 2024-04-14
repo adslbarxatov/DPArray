@@ -66,15 +66,15 @@ n:OS macros executor
 a:OSMacrosExecutor.dp
 f:F
 i:INFOPAGE
-v:3.5.3
-p:0006181DEEAC97B5
+v:3.5.5
+p:0006181DDDA0DA97
 
 n:Screen shooter
 a:ScreenShooter.dp
 f:0
 i:INFOPAGE
-v:3.0.5
-p:0003A0961696499D
+v:3.1
+p:00039E949525A762
 
 n:Sudoku solver
 a:SudokuSolver.dp
@@ -87,15 +87,15 @@ n:uNot
 a:UniNotifier.dp
 f:0
 i:INFOPAGE
-v:7.1.3
-p:0005C9455347FF57
+v:7.1.5
+p:0005C745D6055153
 
 n:Vice city toolset
 a:ViceCityToolset.dp
 f:F
 i:INFOPAGE
-v:4.4.2
-p:001A6828ABFCD950
+v:4.4.5
+p:001A682892774840
 
 
 
@@ -281,7 +281,7 @@ v:2.2.5
 n:Screen shooter
 f:FVD
 i:MS_STORE/9NHVH857DV1S
-v:3.0.5
+v:3.1
 
 n:Sudoku solver
 f:FVD
@@ -296,7 +296,7 @@ v:2.3
 n:uNot
 f:FVD
 i:MS_STORE/9NVZ51RL54K4
-v:7.1.3
+v:7.1.5
 
 
 
