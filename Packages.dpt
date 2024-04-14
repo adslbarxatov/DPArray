@@ -30,15 +30,15 @@ n:Dates difference
 a:DatesDifference.dp
 f:0
 i:INFOPAGE
-v:3.4.3
-p:00034EF04CA0B624
+v:3.4.5
+p:00034CF06D033A0E
 
 n:File extensions manager
 a:FileExtensionsManager.dp
 f:0
 i:INFOPAGE
-v:2.6.2
-p:0005923777E5FCD9
+v:2.6.5
+p:00059437CF5E44D0
 
 n:Font finder
 a:FontFinder.dp
@@ -165,15 +165,15 @@ n:Mafia helper
 a:MafiaHelper.dp
 f:0
 i:INFOPAGE
-v:1.9.1
-p:00069CA5198165F0
+v:1.9.5
+p:00069CA52C3E9468
 
 n:One hundred and one
 a:OneHundredOne.dp
 f:0
 i:INFOPAGE
-v:2.2.2
-p:0003E9FB587A13F0
+v:2.2.5
+p:0003EBFB393D7A1C
 
 n:Races
 a:Races.7z
@@ -250,7 +250,7 @@ g:Microsoft Store
 n:Dates difference
 f:FVD
 i:MS_STORE/9NRQ4LQZNKKG
-v:3.4.3
+v:3.4.5
 
 n:Font finder
 f:FVD
@@ -271,12 +271,12 @@ v:5.3.6
 n:Mafia helper
 f:FVD
 i:MS_STORE/9N4WB06F64TR
-v:1.9.1
+v:1.9.5
 
 n:One hundred and one
 f:FVD
 i:MS_STORE/9NDGGL3JM0VL
-v:2.2.2
+v:2.2.5
 
 n:Screen shooter
 f:FVD
