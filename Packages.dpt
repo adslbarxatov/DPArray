@@ -338,10 +338,10 @@ f:FVD
 i:MI_STOREcom.RD_AAOW.MakeDecision
 v:3.5.2
 
-/n:PA detector
-/f:FVD
-/i:MI_STOREcom.RD_AAOW.EnchantIt
-/v:3.4.2
+n:PA detector
+f:FVD
+i:MI_STOREcom.RD_AAOW.EnchantIt
+v:3.4.2
 
 n:uNot
 f:FVD
