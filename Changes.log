@@ -5,9 +5,12 @@ ToDo:
   - принимает команду при загрузке пакета
   - создаёт копию обновляемого приложения
   - направляет ему полученный пакет в качестве параметра
-- Найти и исправить причину неработоспособности контроллера прав
-- Добавить описание метода решения проблемы с правами
 - Реализовать добавление в автозапуск реестра, а не меню Пуск
+
+Version 7.1:
+• Access checking method has been completely rewritten: now it will properly detect problems
+  with file / registry input / output;
+• Added the special section in the user guide for access troubleshooting;
 
 Version 7.0:
 • The method of setup for autostart settings has been rewritten: now the app uses the separate
