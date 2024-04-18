@@ -19,6 +19,11 @@
 
 &nbsp;
 
+- [Dependencies of app products](#dependencies-of-app-products)
+- [Operating system limitations](#operating-system-limitations)
+
+&nbsp;
+
 
 
 ## Hello, dear user!
@@ -106,6 +111,29 @@ For applications and products running on Android (<img src="/DPArray/img/And.png
 <img src="/DPArray/img/And6.png" width="16"> Android 6.0 or newer
 
 &nbsp;
+
+
+
+### Operating system limitations
+
+Additionally, different versions of Windows OS may have different requirements for applications downloaded
+from the Internet. If the application continues to not work correctly, follow these steps:
+
+1. Unlock the application:
+- Right-click on the executable file, select `Properties`.
+- In the window that opens, click the `Unblock` button.
+- Confirm the action with the `OK` button.
+
+2. Run the application as administrator (similarly, via right-click).
+
+3. In Windows 10 and newer versions, the previous paragraph can be replaced with the following steps:
+- Right-click on the executable file, select `Troubleshoot compatibility`.
+- In the window that opens, select the `Troubleshoot program` option.
+- Next, select only the `The program requires additional permissions` checkbox.
+- The interface will prompt you to test the program. Click `Next` button.
+- In the last step, select `Yes, save these settings for this program`.
+
+These steps should help resolve potential difficulties in using our products.
 
 ---
 
