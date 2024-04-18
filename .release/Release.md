@@ -1,4 +1,4 @@
-_Changes for v 7.1_:
+_Changes for v 7.1.1_:
 - Access checking method has been completely rewritten: now it will properly detect problems with file / registry input / output and help user with fixing them;
 - Added the special section in the user guide for access troubleshooting;
 - Autorun option now will use the registry instead of the start menu;

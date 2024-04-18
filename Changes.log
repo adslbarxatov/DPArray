@@ -1,6 +1,6 @@
 DPArray: changes log
 
-Version 7.1:
+Version 7.1.1:
 • Access checking method has been completely rewritten: now it will properly detect problems
   with file / registry input / output and help user with fixing them;
 • Added the special section in the user guide for access troubleshooting;
