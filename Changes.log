@@ -1,16 +1,11 @@
 DPArray: changes log
 
-ToDo:
-- Реализовать отдельный модуль обновления, который:
-  - принимает команду при загрузке пакета
-  - создаёт копию обновляемого приложения
-  - направляет ему полученный пакет в качестве параметра
-
 Version 7.1:
 • Access checking method has been completely rewritten: now it will properly detect problems
-  with file / registry input / output;
+  with file / registry input / output and help user with fixing them;
 • Added the special section in the user guide for access troubleshooting;
 • Autorun option now will use the registry instead of the start menu;
+• Upgraded the self-update algorithm (useful for Windows 10 rights management)
 
 Version 7.0:
 • The method of setup for autostart settings has been rewritten: now the app uses the separate

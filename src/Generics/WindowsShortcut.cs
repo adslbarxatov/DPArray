@@ -82,6 +82,7 @@ namespace RD_AAOW
 				Environment.GetFolderPath (Environment.SpecialFolder.Desktop));
 			}
 
+		/*
 		/// <summary>
 		/// Метод создаёт ярлык к файлу в меню автозапуска
 		/// </summary>
@@ -96,6 +97,7 @@ namespace RD_AAOW
 				Environment.GetFolderPath (Environment.SpecialFolder.CommonStartup),
 				ShortcutArguments);
 			}
+		*/
 
 		/// <summary>
 		/// Метод удаляет ярлык к файлу из меню автозапуска

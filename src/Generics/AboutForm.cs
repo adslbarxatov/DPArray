@@ -31,7 +31,6 @@ namespace RD_AAOW
 
 		// Элементы поддержки HypeHelp
 		private const string HypeHelpKey = "HypeHelp";
-		/*private bool hypeHelp;*/
 		private const string LastHypeHelpKey = "LastHypeHelp";
 
 		private string[] hypeHelpLinks = new string[] {
@@ -285,16 +284,6 @@ namespace RD_AAOW
 				RDLocale.GetDefaultText (RDLDefaultTexts.Control_PolicyEULA) :
 				RDLocale.GetDefaultText (RDLDefaultTexts.Control_AppAbout);
 
-			/*if (!AcceptMode)
-				{
-			// Запуск проверки обновлений
-				UpdatesPageButton.Enabled = false;
-				RDGenerics.RunWork (UpdatesChecker, null, null, RDRunWorkFlags.DontSuspendExecution);
-				UpdatesTimer.Enabled = true;
-				}
-
-			else*/
-
 			// Получение Политики
 			if (AcceptMode)
 				{
@@ -328,7 +317,7 @@ namespace RD_AAOW
 			if (RDGenerics.StartedFromMSStore)
 				HypeHelpFlag.Checked = HypeHelpFlag.Visible = false;
 			else
-				HypeHelpFlag.Checked = /*hypeHelp*/ (RDGenerics.GetDPArraySettingsValue (HypeHelpKey) == "1");
+				HypeHelpFlag.Checked = (RDGenerics.GetDPArraySettingsValue (HypeHelpKey) == "1");
 
 			RDGenerics.LoadAppAboutWindowDimensions (this);
 
@@ -338,8 +327,7 @@ namespace RD_AAOW
 			RDGenerics.SetDPArraySettingsValue (HypeHelpKey, HypeHelpFlag.Checked ? "1" : "0");
 
 			// HypeHelp (только если окно отображено)
-			/*hypeHelp = RDGenerics.GetDPArraySettingsValue (HypeHelpKey) == "1";*/
-			if (/*hypeHelp*/ HypeHelpFlag.Checked)
+			if (HypeHelpFlag.Checked)
 				{
 				DateTime lastHypeHelp;
 				try
@@ -351,7 +339,7 @@ namespace RD_AAOW
 					lastHypeHelp = DateTime.Now;
 					}
 
-				if (/*(StartupMode || AcceptMode)*/ !AcceptMode && (lastHypeHelp <= DateTime.Now))
+				if (!AcceptMode && (lastHypeHelp <= DateTime.Now))
 					{
 					RDGenerics.RunWork (HypeHelper, null, null, RDRunWorkFlags.DontSuspendExecution);
 
