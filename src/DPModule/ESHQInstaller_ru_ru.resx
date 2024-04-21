@@ -414,7 +414,7 @@
   <data name="HasUpdates" xml:space="preserve">
     <value>Доступны обновления для ранее развёрнутых пакетов.
 
-В списке пакетов обновления выделены жёлтым цветом. В верхней части окна также доступна фильтрация по признаку «только обновления»</value>
+В списке пакетов обновления выделены жёлтым цветом. В нижней части окна также доступна фильтрация по признаку «только обновления»</value>
   </data>
   <data name="AllowMenuShortcutsFlagText" xml:space="preserve">
     <value>Требуются ярлыки в меню Пуск</value>
@@ -503,5 +503,8 @@
   </data>
   <data name="AutostartParameters" xml:space="preserve">
     <value>Параметры автозапуска</value>
+  </data>
+  <data name="AddAppsForm_ColorLabel" xml:space="preserve">
+    <value>Цвет:</value>
   </data>
 </root>

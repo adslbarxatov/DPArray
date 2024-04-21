@@ -414,7 +414,7 @@ The app will use default path for this product. If it’s not correct, use “Re
   <data name="HasUpdates" xml:space="preserve">
     <value>Updates are available for previously deployed packages.
 
-Updates are highlighted in yellow in the packages list. At the top of the window, filtering is also available on the basis of “updates only”</value>
+Updates are highlighted in yellow in the packages list. At the bottom of the window, filtering is also available on the basis of “updates only”</value>
   </data>
   <data name="AllowMenuShortcutsFlagText" xml:space="preserve">
     <value>Need shortcuts in the Start menu</value>
@@ -503,5 +503,8 @@ Server sent a new message</value>
   </data>
   <data name="AutostartParameters" xml:space="preserve">
     <value>Autostart parameters</value>
+  </data>
+  <data name="AddAppsForm_ColorLabel" xml:space="preserve">
+    <value>Color:</value>
   </data>
 </root>

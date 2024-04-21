@@ -1,6 +1,11 @@
 DPArray: changes log
 
-Version 7.1.1:
+Version 7.1.5:
+• The mini-launcher obtained new appearance;
+• User can now set the color for the additional buttons in the mini-launcher. Also now they
+  can be removed. Use the right mouse click for it
+
+Version 7.1.2:
 • Access checking method has been completely rewritten: now it will properly detect problems
   with file / registry input / output and help user with fixing them;
 • Added the special section in the user guide for access troubleshooting;
