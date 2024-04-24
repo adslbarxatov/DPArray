@@ -183,7 +183,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NVZ51RL54K4) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/uninotifier/releases/latest) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) &#x3000;
-:iphone: [На GetApps](https://global.app.mi.com/details?id=com.RD_AAOW.UniNotifier) &#x3000;
+:iphone: На AppGallery &#x3000;
 :package: [В виде APK](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.apk) &#x3000;
 :iphone: [Проект Tablepedia](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier)
 
@@ -233,7 +233,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/EnchantIt/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=Dqcrs0F6Gq0) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) &#x3000;
-:iphone: [На GetApps](https://global.app.mi.com/details?id=com.RD_AAOW.EnchantIt) &#x3000;
+:iphone: На AppGallery &#x3000;
 :package: [В виде APK](https://github.com/adslbarxatov/EnchantIt/releases/latest/download/EnchantIt.apk)
 
 Инструмент поиска паранормальной активности. Его задача – обнаружить и математически подтвердить какую-либо
@@ -254,7 +254,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9ND98F4C4Q60) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/kassarray/releases/latest) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT) &#x3000;
-:iphone: [На GetApps](https://global.app.mi.com/details?id=com.RD_AAOW.TextToKKT) &#x3000;
+:iphone: На AppGallery &#x3000;
 :package: [В виде APK](https://github.com/adslbarxatov/KassArray/releases/latest/download/KassArray.apk)
 
 Инструмент сервис-инженера контрольно-кассовой техники (54-ФЗ). Первый проект Лаборатории, доступный одновременно
@@ -286,7 +286,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/MakeDecision/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=hU62FlQ5JNk) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) &#x3000;
-:iphone: [На GetApps](https://global.app.mi.com/details?id=com.RD_AAOW.MakeDecision) &#x3000;
+:iphone: На AppGallery &#x3000;
 :package: [В виде APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.apk)
 
 Программа иллюстрирует математический метод, позволяющий сравнивать некоторые объекты, явления или исходы
