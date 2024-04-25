@@ -254,7 +254,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9ND98F4C4Q60) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/kassarray/releases/latest) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT) &#x3000;
-:iphone: На AppGallery &#x3000;
+:iphone: [На AppGallery](https://url.cloud.huawei.com/qp5L7sHUhW) &#x3000;
 :package: [В виде APK](https://github.com/adslbarxatov/KassArray/releases/latest/download/KassArray.apk)
 
 Инструмент сервис-инженера контрольно-кассовой техники (54-ФЗ). Первый проект Лаборатории, доступный одновременно
