@@ -232,7 +232,7 @@ Stand-alone tool for building and designing diagrams based on tabular data
 :page_with_curl: [User guide](https://adslbarxatov.github.io/MakeDecision) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=gjewz9mQMgI) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) &#x3000;
-:iphone: Get on AppGallery &#x3000;
+:iphone: [Get on AppGallery](https://url.cloud.huawei.com/qsttV4pmU0) &#x3000;
 :package: [Get APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.apk)
 
 This application illustrates a math method that allows comparing some objects or events based on a set

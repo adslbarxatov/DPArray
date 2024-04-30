@@ -286,7 +286,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/MakeDecision/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=hU62FlQ5JNk) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) &#x3000;
-:iphone: На AppGallery &#x3000;
+:iphone: [На AppGallery](https://url.cloud.huawei.com/qsttV4pmU0) &#x3000;
 :package: [В виде APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.apk)
 
 Программа иллюстрирует математический метод, позволяющий сравнивать некоторые объекты, явления или исходы
