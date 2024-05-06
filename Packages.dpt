@@ -59,8 +59,8 @@ a:KassArray.dp
 f:F
 i:INFOPAGE
 l:r
-v:5.5.2
-p:00163C0431DE8F4C
+v:5.5.3
+p:00163E0406522F20
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
@@ -216,7 +216,7 @@ a:KassArray.apk
 f:FV
 i:INFOPAGE
 l:r
-v:5.5.2
+v:5.5.3
 s:35996843
 
 n:Make decision
@@ -266,7 +266,7 @@ n:KassArray
 f:FVD
 l:r
 i:MS_STORE/9ND98F4C4Q60
-v:5.5.2
+v:5.5.3
 
 n:Mafia helper
 f:FVD
@@ -306,7 +306,7 @@ n:KassArray
 f:FVD
 l:r
 i:GP_STOREcom.RD_AAOW.TextToKKT
-v:5.5.2
+v:5.5.3
 
 n:Make decision
 f:FVD
@@ -331,7 +331,7 @@ n:KassArray
 f:FVD
 l:r
 i:HU_STORE/qp5L7sHUhW
-v:5.5.1
+v:5.5.3
 
 n:Make decision
 f:FVD
