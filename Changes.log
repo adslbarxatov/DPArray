@@ -1,7 +1,9 @@
 DPArray: changes log
 
-ToDo:
-- В AppAbout поменять «user manual» на «user guide»
+Version 7.2:
+• The application has been retargeted to .NET Framework 4.8.1;
+• Support for .NET Framework 4.8.1 has been added;
+• Some minor fixes have been applied
 
 Version 7.1.5:
 • The mini-launcher obtained new appearance;

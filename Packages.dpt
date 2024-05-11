@@ -4,8 +4,8 @@ n:DPArray
 a:DPArray.dp
 f:fvd
 i:INFOPAGE
-v:7.1.5
-p:00095A9E4E066FFC
+v:7.2
+p:00095C9FD8600705
 
 
 
@@ -59,8 +59,8 @@ a:KassArray.dp
 f:F
 i:INFOPAGE
 l:r
-v:5.5.3
-p:00163E0406522F20
+v:5.6
+p:00163C055A2A2223
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
@@ -216,8 +216,8 @@ a:KassArray.apk
 f:FV
 i:INFOPAGE
 l:r
-v:5.5.3
-s:35996843
+v:5.6
+s:35988651
 
 n:Make decision
 u:GIT_LINK/MakeDecision/GIT_PATH/DEFFILE
@@ -266,7 +266,7 @@ n:KassArray
 f:FVD
 l:r
 i:MS_STORE/9ND98F4C4Q60
-v:5.5.3
+v:5.6
 
 n:Mafia helper
 f:FVD
@@ -306,7 +306,7 @@ n:KassArray
 f:FVD
 l:r
 i:GP_STOREcom.RD_AAOW.TextToKKT
-v:5.5.3
+v:5.6
 
 n:Make decision
 f:FVD
@@ -338,11 +338,6 @@ f:FVD
 i:HU_STORE/qsttV4pmU0
 v:3.5.2
 
-/n:PA detector
-/f:FVD
-/i:MI_STOREcom.RD_AAOW.EnchantIt
-/v:3.4.2
-
 /n:uNot
 /f:FVD
 /i:MI_STOREcom.RD_AAOW.UniNotifier
@@ -350,5 +345,5 @@ v:3.5.2
 
 
 
-me:ES: DPArray v 7.1 is available for deployment!
-mr:ES: DPArray v 7.1 доступен для развёртки!
+me:ES: DPArray v 7.2 is available now!
+mr:ES: DPArray v 7.2 теперь доступен!

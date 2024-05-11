@@ -11,7 +11,7 @@ namespace RD_AAOW
 		/// <summary>
 		/// Microsoft .NET Framework 4.8
 		/// </summary>
-		DotNETFramework = 0,
+		DotNETFramework480 = 0,
 
 		/// <summary>
 		/// Microsoft Visual C++ Runtime Libraries
@@ -32,6 +32,11 @@ namespace RD_AAOW
 		/// Microsoft DirectX update
 		/// </summary>
 		DirectX = 4,
+
+		/// <summary>
+		/// Microsoft .NET Framework 4.8.1
+		/// </summary>
+		DotNETFramework481 = 5,
 
 		/// <summary>
 		/// Не является стандартной зависимостью
@@ -155,14 +160,35 @@ namespace RD_AAOW
 
 			switch (ReqType)
 				{
-				case AppDefaultRequirements.DotNETFramework:
+				case AppDefaultRequirements.DotNETFramework481:
 				default:
+					downloadLink = "https://go.microsoft.com/fwlink/?LinkId=2203304";
+					description = "Microsoft .NET Framework 4.8.1";
+					fileName = "DotNETFramework481.exe";    // Автозагрузка
+					fileSize = "1466664";
+
+					defaultType = AppDefaultRequirements.DotNETFramework481;
+
+					s = RDGenerics.GetCustomSettingsValue (
+						"HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\NET Framework Setup\\NDP\\v4\\Full",
+						"Release");
+					try
+						{
+						v = uint.Parse (s);
+						}
+					catch
+						{
+						break;
+						}
+
+					alreadyInstalled = (v >= 533320);
+					break;
+
+				case AppDefaultRequirements.DotNETFramework480:
 					downloadLink = "https://go.microsoft.com/fwlink/?linkid=2088631";
 					description = "Microsoft .NET Framework 4.8";
 					fileName = "DotNETFramework48.exe";    // Автозагрузка
 					fileSize = "121307088";
-
-					defaultType = AppDefaultRequirements.DotNETFramework;
 
 					s = RDGenerics.GetCustomSettingsValue (
 						"HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\NET Framework Setup\\NDP\\v4\\Full",
@@ -275,8 +301,11 @@ namespace RD_AAOW
 				case AppDefaultRequirements.DotNet6:
 					return "NF6+";
 
-				case AppDefaultRequirements.DotNETFramework:
+				case AppDefaultRequirements.DotNETFramework480:
 					return "CS+";
+
+				case AppDefaultRequirements.DotNETFramework481:
+					return "NF481+";
 
 				case AppDefaultRequirements.SQLCE:
 					return "SQL+";
@@ -289,6 +318,6 @@ namespace RD_AAOW
 		/// <summary>
 		/// Возвращает количество доступных стандартных зависимостей
 		/// </summary>
-		public const uint DefaultRequirementsCount = 5;
+		public const uint DefaultRequirementsCount = 6;
 		}
 	}
