@@ -185,12 +185,25 @@ DPArray выполняет установку, деинсталляцию, пр�
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) &#x3000;
 :iphone: На AppGallery &#x3000;
 :package: [В виде APK](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.apk) &#x3000;
-:iphone: [Проект Tablepedia](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier)
 
 Служба наблюдения за состоянием веб-ресурсов.
 Это приложение предоставляет возможность получать уведомления об изменении состояния указанных пользователем
 веб-сайтов. Другими словами, об обновлениях, происходящих на них, которые представляются в виде текстового журнала.
 Загружается только то, что указал пользователь – все остальные объекты (включая рекламу) игнорируются
+
+&nbsp;
+
+
+
+### Tablepedia notifier
+:ru: &#x3000;
+<img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
+:page_with_curl: Руководство &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://TablepediaNotifier) &#x3000;
+:iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) &#x3000;
+:package: [В виде APK](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/TablepediaNotifier.apk) &#x3000;
+
+Простое клиентское приложение для проекта Tablepedia.com (экспериментальная разработка)
 
 &nbsp;
 
@@ -233,7 +246,6 @@ DPArray выполняет установку, деинсталляцию, пр�
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/EnchantIt/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=Dqcrs0F6Gq0) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) &#x3000;
-:iphone: На AppGallery &#x3000;
 :package: [В виде APK](https://github.com/adslbarxatov/EnchantIt/releases/latest/download/EnchantIt.apk)
 
 Инструмент поиска паранормальной активности. Его задача – обнаружить и математически подтвердить какую-либо
@@ -624,8 +636,7 @@ ES: Randomaze – генератор карт для одноимённого м
 [Snake](#snake) &#x3000;
 [Sudoku solver](#sudoku-solver) &#x3000;
 [Turtle](#turtle) &#x3000;
-[Tables merger](#tables-merger) &#x3000;
+[Tablepedia notifier)](#tablepedia-notifier) &#x3000;
 [uNot (UniNotifier)](#unot-uninotifier) &#x3000;
-[Vector image generator](#vector-image-generator) &#x3000;
 [Vice city toolset](#vice-city-toolset) &#x3000;
 [Xash3D FWGS for ESHQ](#xash3d-fwgs-engine-adaptation-for-eshq)

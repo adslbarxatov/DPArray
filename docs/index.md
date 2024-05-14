@@ -201,7 +201,6 @@ has specified is loaded – all other objects (including ads) are ignored
 :page_with_curl: [User guide](https://adslbarxatov.github.io/EnchantIt) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=xy0LDXgoR5U) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) &#x3000;
-:iphone: Get on AppGallery &#x3000;
 :package: [Get APK](https://github.com/adslbarxatov/EnchantIt/releases/latest/download/EnchantIt.apk)
 
 The paranormal activity search tool. Its task is to discover and mathematically confirm some paranormal
@@ -550,6 +549,7 @@ Also allows you to translate HEX data to binary and backward
 [Screen shooter](#screen-shooter) &#x3000;
 [Snake](#snake) &#x3000;
 [Sudoku solver](#sudoku-solver) &#x3000;
+[Tablepedia notifier)](https://adslbarxatov.github.io/DPArray/ru#tablepedia-notifier) &#x3000;
 [Turtle](#turtle) &#x3000;
 [uNot (UniNotifier)](#unot-uninotifier) &#x3000;
 [Vice city toolset](#vice-city-toolset) &#x3000;

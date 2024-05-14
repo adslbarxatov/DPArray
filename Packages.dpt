@@ -87,8 +87,8 @@ n:uNot
 a:UniNotifier.dp
 f:0
 i:INFOPAGE
-v:7.3
-p:0005CD46BC479911
+v:7.3.1
+p:0005CD4833D9F619
 
 n:Vice city toolset
 a:ViceCityToolset.dp
@@ -235,6 +235,15 @@ i:INFOPAGE
 v:3.4.2
 s:42778524
 
+n:Tablepedia notifier
+u:GIT_LINK/UniNotifier/GIT_PATH/DEFFILE
+a:TablepediaNotifier.apk
+f:FV
+i:INFOPAGE
+l:r
+v:5.2
+s:35169641
+
 n:uNot
 u:GIT_LINK/UniNotifier/GIT_PATH/DEFFILE
 a:UniNotifier.apk
@@ -317,6 +326,11 @@ n:PA detector
 f:FVD
 i:GP_STOREcom.RD_AAOW.EnchantIt
 v:3.4.2
+
+n:Tablepedia notifier
+f:FVD
+i:GP_STOREcom.RD_AAOW.TablepediaNotifier
+v:5.2
 
 n:uNot
 f:FVD
