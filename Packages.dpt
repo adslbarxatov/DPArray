@@ -232,8 +232,8 @@ u:GIT_LINK/EnchantIt/GIT_PATH/DEFFILE
 a:EnchantIt.apk
 f:FV
 i:INFOPAGE
-v:3.4.2
-s:42778524
+v:3.5
+s:42598379
 
 n:Tablepedia notifier
 u:GIT_LINK/UniNotifier/GIT_PATH/DEFFILE
@@ -325,7 +325,7 @@ v:3.6
 n:PA detector
 f:FVD
 i:GP_STOREcom.RD_AAOW.EnchantIt
-v:3.4.2
+v:3.5
 
 n:Tablepedia notifier
 f:FVD
