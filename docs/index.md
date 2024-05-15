@@ -549,7 +549,7 @@ Also allows you to translate HEX data to binary and backward
 [Screen shooter](#screen-shooter) &#x3000;
 [Snake](#snake) &#x3000;
 [Sudoku solver](#sudoku-solver) &#x3000;
-[Tablepedia notifier)](https://adslbarxatov.github.io/DPArray/ru#tablepedia-notifier) &#x3000;
+[Tablepedia notifier](https://adslbarxatov.github.io/DPArray/ru#tablepedia-notifier) &#x3000;
 [Turtle](#turtle) &#x3000;
 [uNot (UniNotifier)](#unot-uninotifier) &#x3000;
 [Vice city toolset](#vice-city-toolset) &#x3000;

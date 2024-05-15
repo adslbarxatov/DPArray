@@ -636,7 +636,7 @@ ES: Randomaze – генератор карт для одноимённого м
 [Snake](#snake) &#x3000;
 [Sudoku solver](#sudoku-solver) &#x3000;
 [Turtle](#turtle) &#x3000;
-[Tablepedia notifier)](#tablepedia-notifier) &#x3000;
+[Tablepedia notifier](#tablepedia-notifier) &#x3000;
 [uNot (UniNotifier)](#unot-uninotifier) &#x3000;
 [Vice city toolset](#vice-city-toolset) &#x3000;
 [Xash3D FWGS for ESHQ](#xash3d-fwgs-engine-adaptation-for-eshq)
