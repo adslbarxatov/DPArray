@@ -41,6 +41,7 @@ namespace RD_AAOW
 
 			"https://youtube.com/c/rdaaowfdl",
 
+#if HYPE_YT
 			"https://youtu.be/0_78MtyTAdA",
 			"https://youtu.be/UlB0zh3YH3A",
 			"https://youtu.be/QiOMIN4aE-Q",
@@ -58,6 +59,7 @@ namespace RD_AAOW
 			"https://youtu.be/25BYSySdAJk",
 			"https://youtu.be/gjs9K1EsFG8",
 			"https://youtu.be/nOb4MbL-jlI",
+#endif
 
 			"https://moddb.com/mods/esrm",
 			"https://moddb.com/mods/eshq",

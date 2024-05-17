@@ -26,7 +26,7 @@ namespace RD_AAOW
 		/// <summary>
 		/// Microsoft .NET Framework 6.0
 		/// </summary>
-		DotNet6 = 3,
+		DotNet60 = 3,
 
 		/// <summary>
 		/// Microsoft DirectX update
@@ -37,6 +37,11 @@ namespace RD_AAOW
 		/// Microsoft .NET Framework 4.8.1
 		/// </summary>
 		DotNETFramework481 = 5,
+
+		/// <summary>
+		/// Microsoft .NET Framework 8.0
+		/// </summary>
+		DotNet80 = 6,
 
 		/// <summary>
 		/// Не является стандартной зависимостью
@@ -231,7 +236,7 @@ namespace RD_AAOW
 					alreadyInstalled = s.StartsWith ("4.0");
 					break;
 
-				case AppDefaultRequirements.DotNet6:
+				case AppDefaultRequirements.DotNet60:
 					downloadLink = "https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/" +
 						"runtime-desktop-6.0.9-windows-x86-installer";
 					description = "Microsoft .NET Framework 6.0 (or newer)";
@@ -249,6 +254,26 @@ namespace RD_AAOW
 					catch { }
 
 					alreadyInstalled = (v >= 6);
+					break;
+
+				case AppDefaultRequirements.DotNet80:
+					downloadLink = "https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/" +
+						"runtime-desktop-8.0.4-windows-x86-installer";
+					description = "Microsoft .NET Framework 8.0 (or newer)";
+
+					s = RDGenerics.GetCustomSettingsValue (
+						"HKEY_LOCAL_MACHINE\\SOFTWARE\\dotnet\\Setup\\InstalledVersions\\x86\\hostfxr",
+						"Version"
+						);
+					v = 0;
+
+					try
+						{
+						v = uint.Parse (s.Substring (0, 1));
+						}
+					catch { }
+
+					alreadyInstalled = (v >= 8);
 					break;
 
 				case AppDefaultRequirements.DirectX:
@@ -295,29 +320,35 @@ namespace RD_AAOW
 				default:
 					return "";
 
-				case AppDefaultRequirements.DirectX:
-					return "DX+";
-
-				case AppDefaultRequirements.DotNet6:
-					return "NF6+";
-
-				case AppDefaultRequirements.DotNETFramework480:
-					return "CS+";
+				// Новые
+				case AppDefaultRequirements.DotNet80:
+					return "NF80+";
 
 				case AppDefaultRequirements.DotNETFramework481:
 					return "NF481+";
+
+				// Актуальные
+				case AppDefaultRequirements.DirectX:
+					return "DX+";
 
 				case AppDefaultRequirements.SQLCE:
 					return "SQL+";
 
 				case AppDefaultRequirements.VC_RTL:
 					return "CPP+";
+
+				// Устаревшие
+				case AppDefaultRequirements.DotNet60:
+					return "NF6+";
+
+				case AppDefaultRequirements.DotNETFramework480:
+					return "CS+";
 				}
 			}
 
 		/// <summary>
 		/// Возвращает количество доступных стандартных зависимостей
 		/// </summary>
-		public const uint DefaultRequirementsCount = 6;
+		public const uint DefaultRequirementsCount = 7;
 		}
 	}
