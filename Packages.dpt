@@ -66,8 +66,8 @@ n:OS macros executor
 a:OSMacrosExecutor.dp
 f:F
 i:INFOPAGE
-v:3.5.5
-p:0006181DDDA0DA97
+v:3.6
+p:0006161EFBA3B325
 
 n:Screen shooter
 a:ScreenShooter.dp
@@ -165,15 +165,15 @@ n:Mafia helper
 a:MafiaHelper.dp
 f:0
 i:INFOPAGE
-v:1.9.5
-p:00069CA52C3E9468
+v:1.10
+p:00069CA72039571F
 
 n:One hundred and one
 a:OneHundredOne.dp
 f:0
 i:INFOPAGE
-v:2.2.5
-p:0003EBFB393D7A1C
+v:2.3
+p:0003EBFCE40D8A0A
 
 n:Races
 a:Races.7z
@@ -280,12 +280,12 @@ v:5.6
 n:Mafia helper
 f:FVD
 i:MS_STORE/9N4WB06F64TR
-v:1.9.5
+v:1.10
 
 n:One hundred and one
 f:FVD
 i:MS_STORE/9NDGGL3JM0VL
-v:2.2.5
+v:2.3
 
 n:Screen shooter
 f:FVD
