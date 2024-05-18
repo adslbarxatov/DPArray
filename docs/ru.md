@@ -90,13 +90,13 @@
 
 Для приложений и продуктов, работающих в ОС Windows (<img src="/DPArray/img/Win.png" width="16">):
 
-<img src="/DPArray/img/NF48.png" width="16"> [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631)
+<img src="/DPArray/img/NF481.png" width="16"> [Microsoft .NET Framework 4.8.1](https://go.microsoft.com/fwlink/?LinkId=2203304)
 
 <img src="/DPArray/img/VC.png" width="16"> [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
 
 <img src="/DPArray/img/SQL.png" width="16"> [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709)
 
-<img src="/DPArray/img/NF60.png" width="16"> [Microsoft .NET Framework 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.9-windows-x86-installer)
+<img src="/DPArray/img/NF80.png" width="16"> [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.4-windows-x86-installer)
 
 <img src="/DPArray/img/DX.png" width="16"> [Обновления для Microsoft DirectX 9](https://microsoft.com/en-us/download/confirmation.aspx?id=35)
 
@@ -143,7 +143,7 @@
 
 ### DPArray
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/DPArray) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=b0rn2wIuU0Y) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/DPArray/releases/latest)
@@ -158,7 +158,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 ### ConcurrentDraw
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/ConcurrentDraw/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=0_78MtyTAdA) &#x3000;
 :tv: [ConcurrentDraw live](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc) &#x3000;
@@ -175,7 +175,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 ### uNot (UniNotifier)
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/UniNotifier/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=gjs9K1EsFG8) &#x3000;
@@ -258,7 +258,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 ### KassArray
 :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And4.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/KassArray) &#x3000;
 :film_projector: [Видеопрезентация](https://youtube.com/watch?v=25BYSySdAJk) &#x3000;
@@ -279,7 +279,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 ### Geomag data drawer
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/GeomagDataDrawer/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=QiOMIN4aE-Q) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://GeomagDataDrawer) &#x3000;
@@ -312,7 +312,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 ### Batch image convertor
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/BatchImageConvertor/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://BatchImageConvertor) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/batchimageconvertor/releases/latest)
@@ -325,7 +325,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 ### Font finder
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/FontFinder/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=n2DNUsWvfpQ) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://FontFinder) &#x3000;
@@ -356,7 +356,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 ### ES: Randomaze
 :gb: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [Описание мода](https://moddb.com/mods/esrm) &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/Randomaze) &#x3000;
 :tv: [Демо видео](https://youtube.com/playlist?list=PLe7qKwHNkZTu8VJPLFEGCFsB4zqiJP7fh) &#x3000;
@@ -397,7 +397,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 ### Vice city toolset
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/ViceCityToolset/ru) &#x3000;
 :film_projector: [Демо видео](https://youtube.com/watch?v=RdLt-dTz8vU) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ViceCityToolset) &#x3000;
@@ -412,7 +412,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 ### OS macros executor
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/OSMacrosExecutor/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=gdg-kN8ALyI) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://OSMacrosExecutor) &#x3000;
@@ -428,7 +428,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 ### File extensions manager
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/FileExtensionsManager/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://FileExtensionsManager) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/fileextensionsmanager/releases/latest)
@@ -441,7 +441,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 ### Screen shooter
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/ScreenShooter/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ScreenShooter) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NHVH857DV1S) &#x3000;
@@ -455,7 +455,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 ### Dates difference
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/DatesDifference/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://DatesDifference) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NRQ4LQZNKKG) &#x3000;
@@ -470,7 +470,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 ### Sudoku solver
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/SudokuSolver/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://SudokuSolver) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NZ1DLGFK0WZ) &#x3000;
@@ -484,7 +484,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 ### Mafia helper
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/MafiaHelper/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://MafiaHelper) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9N4WB06F64TR) &#x3000;
@@ -498,7 +498,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 ### One hundred and one
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/OneHundredOne/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://OneHundredOne) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NDGGL3JM0VL) &#x3000;
@@ -512,7 +512,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 ### Thousand
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/Thousand/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Thousand) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9N1JJ1G48BCF) &#x3000;
@@ -526,7 +526,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 ### Races
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF80.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/Races/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Races)
 
@@ -538,7 +538,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 ### Snake
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF80.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/Snake/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Snake)
 
@@ -550,7 +550,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 ### Turtle
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF80.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/Turtle/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Turtle)
 
@@ -566,7 +566,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 ### Accounts manager
 :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/SQL.png" width="16"> :hourglass_flowing_sand: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/SQL.png" width="16"> :hourglass_flowing_sand: &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/accountsmanager)
 
 Инструмент управления бюджетными счетами. Программа предназначена для накопления, хранения, обработки и выдачи по запросу
@@ -599,7 +599,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 ### GIATester
 :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> :hourglass_flowing_sand: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> :hourglass_flowing_sand: &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/giatester)
 
 Инструмент для автоматизированной подготовки, проведения и оценки тестовых заданий (ГИА/ЕГЭ)

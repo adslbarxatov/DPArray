@@ -92,13 +92,13 @@ If any product doesn’t work or doesn’t start correctly, check this list of r
 
 For apps and products running on Windows (<img src="/DPArray/img/Win.png" width="16">):
 
-<img src="/DPArray/img/NF48.png" width="16"> [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631)
+<img src="/DPArray/img/NF481.png" width="16"> [Microsoft .NET Framework 4.8.1](https://go.microsoft.com/fwlink/?LinkId=2203304)
 
 <img src="/DPArray/img/VC.png" width="16"> [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
 
 <img src="/DPArray/img/SQL.png" width="16"> [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709)
 
-<img src="/DPArray/img/NF60.png" width="16"> [Microsoft .NET Framework 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.9-windows-x86-installer)
+<img src="/DPArray/img/NF80.png" width="16"> [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.4-windows-x86-installer)
 
 <img src="/DPArray/img/DX.png" width="16"> [Microsoft DirectX 9 updates](https://microsoft.com/en-us/download/confirmation.aspx?id=35)
 
@@ -143,7 +143,7 @@ These steps should help resolve potential difficulties in using our products.
 
 ### DPArray
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/DPArray) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=-1HR72BJS-E) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/DPArray/releases/latest)
@@ -158,7 +158,7 @@ Now you can enable the “run at system startup” flag to allow the DPArray to 
 
 ### ConcurrentDraw
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/ConcurrentDraw) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=UlB0zh3YH3A) &#x3000;
 :tv: [ConcurrentDraw live](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc) &#x3000;
@@ -175,7 +175,7 @@ No additional codecs are required
 
 ### uNot (UniNotifier)
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/UniNotifier) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=nOb4MbL-jlI) &#x3000;
@@ -212,7 +212,7 @@ activity. Before starting the experiment take a look at the project presentation
 
 ### Geomag data drawer
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/GeomagDataDrawer) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=afbtGUPnZ2w) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://GeomagDataDrawer) &#x3000;
@@ -245,7 +245,7 @@ As a result, you’ll get the answer for the next question: “what way is the b
 
 ### Batch image convertor
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/BatchImageConvertor) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://BatchImageConvertor) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/batchimageconvertor/releases/latest)
@@ -258,7 +258,7 @@ A tool for batch processing of image files
 
 ### Font finder
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/FontFinder) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=x3ImaRYH7_A) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://FontFinder) &#x3000;
@@ -289,7 +289,7 @@ to be a little more complex and long in time and space...
 
 ### ES: Randomaze
 :gb: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [About the mod](https://moddb.com/mods/esrm) &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/Randomaze) &#x3000;
 :tv: [Video demo](https://youtube.com/playlist?list=PLe7qKwHNkZTu8VJPLFEGCFsB4zqiJP7fh) &#x3000;
@@ -330,7 +330,7 @@ as well as expanding the already great capabilities of Tommy Vercetti
 
 ### Vice city toolset
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/ViceCityToolset) &#x3000;
 :film_projector: [Video demo](https://youtube.com/watch?v=RdLt-dTz8vU) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ViceCityToolset) &#x3000;
@@ -345,7 +345,7 @@ Namely: editing game saves, editing transport parameters, converting models to c
 
 ### OS macros executor
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/OSMacrosExecutor) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=UPfBmVmQvZA) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://OSMacrosExecutor) &#x3000;
@@ -361,7 +361,7 @@ Application can “use” mouse, keyboard, command line and interrupts as same a
 
 ### File extensions manager
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/FileExtensionsManager) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://FileExtensionsManager) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/fileextensionsmanager/releases/latest)
@@ -374,7 +374,7 @@ A tool for managing Windows registry settings for file extensions
 
 ### Screen shooter
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/ScreenShooter) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ScreenShooter) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NHVH857DV1S) &#x3000;
@@ -388,7 +388,7 @@ A tool for making screenshots. Supports shooting of screen, windows and elements
 
 ### Dates difference
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/DatesDifference) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://DatesDifference) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NRQ4LQZNKKG) &#x3000;
@@ -403,7 +403,7 @@ hours, days, weeks, full months and years (with fraction)
 
 ### Sudoku solver
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/SudokuSolver) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://SudokuSolver) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NZ1DLGFK0WZ) &#x3000;
@@ -417,7 +417,7 @@ A tool for solving sudoku
 
 ### Mafia helper
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/MafiaHelper) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://MafiaHelper) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9N4WB06F64TR) &#x3000;
@@ -431,7 +431,7 @@ A moderator’s assistant for the game “Mafia”
 
 ### One hundred and one
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/OneHundredOne) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://OneHundredOne) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NDGGL3JM0VL) &#x3000;
@@ -445,7 +445,7 @@ This app imitates the “One hundred and one” game for two players
 
 ### Thousand
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF48.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/Thousand) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://Thousand) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9N1JJ1G48BCF) &#x3000;
@@ -459,7 +459,7 @@ This app imitates the “Thousand” game for three players
 
 ### Races
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF80.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/Races) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://Races)
 
@@ -471,7 +471,7 @@ This app imitates the “Thousand” game for three players
 
 ### Snake
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF80.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/Snake) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://Snake)
 
@@ -483,7 +483,7 @@ This app imitates the “Thousand” game for three players
 
 ### Turtle
 :gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF60.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF80.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/Turtle) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://Turtle)
 
