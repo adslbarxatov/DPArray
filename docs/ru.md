@@ -183,7 +183,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NVZ51RL54K4) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/uninotifier/releases/latest) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) &#x3000;
-:iphone: На AppGallery &#x3000;
+:iphone: На [На AppGallery](https://url.cloud.huawei.com/qK2aIuhnOM) &#x3000;
 :package: [В виде APK](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.apk) &#x3000;
 
 Служба наблюдения за состоянием веб-ресурсов.

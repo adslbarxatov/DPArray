@@ -183,7 +183,7 @@ No additional codecs are required
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NVZ51RL54K4) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/uninotifier/releases/latest) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) &#x3000;
-:iphone: Get on AppGallery &#x3000;
+:iphone: Get on [Get on AppGallery](https://url.cloud.huawei.com/qK2aIuhnOM) &#x3000;
 :package: [Get APK](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.apk)
 
 The web resources supervisor service.
