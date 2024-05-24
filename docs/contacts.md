@@ -33,7 +33,8 @@ in our projects. Use the following address of TON Space (Telegram wallet) for it
 
 ```UQCkXZsrfVs7ILxVRAD8YS-FDXtutdhkrLfftoBsmjmHakzg```
 
-Or you can support our [FreeDevLab](https://tonviewer.com/EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI) token on Ston.fi:
+Or you can support our [FreeDevLab](https://tonviewer.com/EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI) token
+on [Ston.fi pool page](https://app.ston.fi/pools/EQAQfWQLE3PYK-0wio4i5iio5OJ2J33RpFPudm3SCbh0fNaO):
 
 ```
 Name: FreeDevLab (FDL)

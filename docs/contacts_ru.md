@@ -39,7 +39,8 @@
 
 ```UQCkXZsrfVs7ILxVRAD8YS-FDXtutdhkrLfftoBsmjmHakzg```
 
-Также Вы можете поддержать наш токен [FreeDevLab](https://tonviewer.com/EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI) на Ston.fi:
+Также Вы можете поддержать наш токен [FreeDevLab](https://tonviewer.com/EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI)
+на [странице пула на Ston.fi](https://app.ston.fi/pools/EQAQfWQLE3PYK-0wio4i5iio5OJ2J33RpFPudm3SCbh0fNaO):
 
 ```
 Название: FreeDevLab (FDL)
