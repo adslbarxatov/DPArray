@@ -59,8 +59,8 @@ a:KassArray.dp
 f:F
 i:INFOPAGE
 l:r
-v:5.6.2
-p:00163C07D956E792
+v:5.6.3
+p:00163E07CC26873E
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
@@ -216,7 +216,7 @@ a:KassArray.apk
 f:FV
 i:INFOPAGE
 l:r
-v:5.6.2
+v:5.6.3
 s:35992747
 
 n:Make decision
@@ -241,8 +241,8 @@ a:TablepediaNotifier.apk
 f:FV
 i:INFOPAGE
 l:r
-v:5.2
-s:35169641
+v:5.3.5
+s:35173737
 
 n:uNot
 u:GIT_LINK/UniNotifier/GIT_PATH/DEFFILE
@@ -315,7 +315,7 @@ n:KassArray
 f:FVD
 l:r
 i:GP_STOREcom.RD_AAOW.TextToKKT
-v:5.6.2
+v:5.6.3
 
 n:Make decision
 f:FVD
@@ -331,7 +331,7 @@ n:Tablepedia notifier
 f:FVD
 l:r
 i:GP_STOREcom.RD_AAOW.TablepediaNotifier
-v:5.2
+v:5.3.5
 
 n:uNot
 f:FVD
