@@ -1,19 +1,18 @@
 # Добро пожаловать в Лабораторию!
 
-[**DPArray &#x25CF; Прямая ссылка для загрузки &#x25CF; Windows**](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.sfx.exe)
+[**&#x25CF; DPArray &#x25CF; Прямая ссылка для загрузки &#x25CF; Windows &#x25CF;**](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.sfx.exe)
 
-&#x3000; [Облако ссылок](#section-8) &#x3000;
-[Контакты](#section-6)  &#x3000;
-[Помочь проекту](#section-7) &#x3000;
+&#x25CF; [Облако ссылок](#section-7) &#x25CF;
+[Контакты](#section-5) &#x25CF;
+[Помочь проекту](#section-6) &#x25CF;
 
-&#x3000; [Здравствуйте, уважаемый пользователь!](#section-2) &#x3000;
-[Концепты лого](https://adslbarxatov.github.io/DPArray/logo_ru) &#x3000;
+&#x25CF; [**Здравствуйте, уважаемый пользователь!**](#section-1) &#x25CF;
+[**Актуальные проекты и разработки**](#section-2) &#x25CF;
 
-&#x3000; [Актуальные проекты и разработки](#section-3) &#x3000;
-[Зависимости программных продуктов](#section-4) &#x3000;
-[Ограничения операционных систем](#section-5) &#x3000;
+&#x25CF; [Зависимости программных продуктов](#section-3) &#x25CF;
+[Ограничения операционных систем](#section-4) &#x25CF;
 
-&#x3000; [English-speaking version](https://adslbarxatov.github.io/DPArray) &#x3000;
+&#x25CF; [*English-speaking version*](https://adslbarxatov.github.io/DPArray) &#x25CF;
 
 &nbsp;
 
@@ -712,4 +711,5 @@ ES: Randomaze – генератор карт для одноимённого м
 [Tablepedia notifier](#tablepedia-notifier) &#x3000;
 [uNot (UniNotifier)](#unot-uninotifier) &#x3000;
 [Vice city toolset](#vice-city-toolset) &#x3000;
-[Xash3D FWGS for ESHQ](#xash3d-fwgs-engine-adaptation-for-eshq)
+[Xash3D FWGS for ESHQ](#xash3d-fwgs-engine-adaptation-for-eshq) &#x3000;
+[Концепты лого](https://adslbarxatov.github.io/DPArray/logo_ru)
