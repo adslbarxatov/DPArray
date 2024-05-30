@@ -69,7 +69,7 @@ Descriptions contain:
 
 :gb: :ru: set of available interface languages;
 
-:film_projector: videomanuals;
+:film_projector: videoguides;
 
 :tv: presentation playlists;
 
