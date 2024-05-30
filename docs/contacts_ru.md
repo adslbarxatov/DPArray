@@ -40,13 +40,14 @@
 ```UQCkXZsrfVs7ILxVRAD8YS-FDXtutdhkrLfftoBsmjmHakzg```
 
 Также Вы можете поддержать наш токен [FreeDevLab](https://tonviewer.com/EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI)
-на [странице пула на Ston.fi](https://app.ston.fi/pools/EQAQfWQLE3PYK-0wio4i5iio5OJ2J33RpFPudm3SCbh0fNaO):
+на [странице пула на Ston.fi](https://app.ston.fi/pools/EQAQfWQLE3PYK-0wio4i5iio5OJ2J33RpFPudm3SCbh0fNaO) или в
+[разделе свопа Ston.fi](https://app.ston.fi/swap?tt=EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI):
 
 ```
 Название: FreeDevLab (FDL)
 Сеть: TON
 Ликвидность обеспечена в паре с USDT
-Дата создания: 05/22/24
+Дата создания: 22.05.24
 Редактируемый: нет (администраторские права отозваны)
 Майнинг: недоступен (количество зафиксировано на уровне 2³² единиц)
 Знаков после запятой: 4

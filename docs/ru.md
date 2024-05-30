@@ -2,29 +2,26 @@
 
 [**DPArray &#x25CF; Прямая ссылка для загрузки &#x25CF; Windows**](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.sfx.exe)
 
-[Облако ссылок](#section-6)
+&#x3000; [Облако ссылок](#section-8) &#x3000;
+[Контакты](#section-6)  &#x3000;
+[Помочь проекту](#section-7) &#x3000;
 
-[English-speaking version](https://adslbarxatov.github.io/DPArray)
+&#x3000; [Здравствуйте, уважаемый пользователь!](#section-2) &#x3000;
+[Концепты лого](https://adslbarxatov.github.io/DPArray/logo_ru) &#x3000;
 
-&nbsp;
+&#x3000; [Актуальные проекты и разработки](#section-3) &#x3000;
+[Зависимости программных продуктов](#section-4) &#x3000;
+[Ограничения операционных систем](#section-5) &#x3000;
 
-
-
-### Содержание страницы
-
-- [Здравствуйте, уважаемый пользователь!](#section-2)
-- [Актуальные проекты и разработки](#section-3)
-- [Контакты](https://adslbarxatov.github.io/DPArray/contacts_ru)
-- [Концепты лого](https://adslbarxatov.github.io/DPArray/logo_ru)
-
-&nbsp;
-
-- [Зависимости программных продуктов](#section-4)
-- [Ограничения операционных систем](#section-5)
+&#x3000; [English-speaking version](https://adslbarxatov.github.io/DPArray) &#x3000;
 
 &nbsp;
 
 
+
+---
+
+&nbsp;
 
 ## Здравствуйте, уважаемый пользователь!
 
@@ -79,63 +76,6 @@
 
 Полный список программных продуктов доступен [здесь](https://github.com/adslbarxatov?tab=repositories).
 Общий список модов доступен [здесь](https://moddb.com/members/rd-aaow-fdl/mods)
-
-&nbsp;
-
-
-
-### Зависимости программных продуктов
-
-Если какой-либо продукт не работает или работает неправильно, проверьте этот список требований.
-
-Для приложений и продуктов, работающих в ОС Windows (<img src="/DPArray/img/Win.png" width="16">):
-
-<img src="/DPArray/img/NF481.png" width="16"> [Microsoft .NET Framework 4.8.1](https://go.microsoft.com/fwlink/?LinkId=2203304)
-
-<img src="/DPArray/img/VC.png" width="16"> [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
-
-<img src="/DPArray/img/SQL.png" width="16"> [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709)
-
-<img src="/DPArray/img/NF80.png" width="16"> [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.4-windows-x86-installer)
-
-<img src="/DPArray/img/DX.png" width="16"> [Обновления для Microsoft DirectX 9](https://microsoft.com/en-us/download/confirmation.aspx?id=35)
-
-Для приложений и продуктов, работающих в ОС Android (<img src="/DPArray/img/And.png" width="16">):
-
-<img src="/DPArray/img/And4.png" width="16"> Версия Android 4.2 или новее
-
-<img src="/DPArray/img/And5.png" width="16"> Версия Android 5.0 или новее
-
-<img src="/DPArray/img/And6.png" width="16"> Версия Android 6.0 или новее
-
-&nbsp;
-
-
-
-### Ограничения операционных систем
-
-Кроме того, различные версии ОС Windows могут предъявлять определённые требования к приложениям,
-загруженным из Интернета. Если приложение продолжает работать некорректно, выполните следующие действия:
-
-1. Разблокируйте приложение:
-- Щёлкните правой кнопкой мыши по исполняемому файлу, выберите `Свойства`.
-- В открывшемся окне нажмите кнопку `Разблокировать`.
-- Подтвердите действие кнопкой `OK`.
-
-2. Запустите приложение от имени администратора (аналогично, через щелчок правой кнопкой мыши).
-
-3. В Windows 10 и более новых версиях предыдущий пункт можно заменить следующими действиями:
-- Щёлкните правой кнопкой мыши по исполняемому файлу, выберите `Исправление проблем с совместимостью`.
-- В открывшемся окне выберите вариант `Диагностика программы`.
-- Далее установите только флажок `Для программы необходимы дополнительные разрешения`.
-- Интерфейс предложит проверить программу. Нажмите кнопку `Далее`.
-- На последнем шаге выберите вариант `Да, сохранить эти параметры для программы`.
-
-Эти действия должны помочь в разрешении возможных сложностей в использовании наших продуктов.
-
-&nbsp;
-
----
 
 &nbsp;
 
@@ -607,6 +547,139 @@ ES: Randomaze – генератор карт для одноимённого м
 &nbsp;
 
 
+
+---
+
+&nbsp;
+
+## Зависимости программных продуктов
+
+Если какой-либо продукт не работает или работает неправильно, проверьте этот список требований.
+
+Для приложений и продуктов, работающих в ОС Windows (<img src="/DPArray/img/Win.png" width="16">):
+
+<img src="/DPArray/img/NF481.png" width="16"> [Microsoft .NET Framework 4.8.1](https://go.microsoft.com/fwlink/?LinkId=2203304)
+
+<img src="/DPArray/img/VC.png" width="16"> [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
+
+<img src="/DPArray/img/SQL.png" width="16"> [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709)
+
+<img src="/DPArray/img/NF80.png" width="16"> [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.4-windows-x86-installer)
+
+<img src="/DPArray/img/DX.png" width="16"> [Обновления для Microsoft DirectX 9](https://microsoft.com/en-us/download/confirmation.aspx?id=35)
+
+Для приложений и продуктов, работающих в ОС Android (<img src="/DPArray/img/And.png" width="16">):
+
+<img src="/DPArray/img/And4.png" width="16"> Версия Android 4.2 или новее
+
+<img src="/DPArray/img/And5.png" width="16"> Версия Android 5.0 или новее
+
+<img src="/DPArray/img/And6.png" width="16"> Версия Android 6.0 или новее
+
+&nbsp;
+
+
+
+---
+
+&nbsp;
+
+## Ограничения операционных систем
+
+Кроме того, различные версии ОС Windows могут предъявлять определённые требования к приложениям,
+загруженным из Интернета. Если приложение продолжает работать некорректно, выполните следующие действия:
+
+1. Разблокируйте приложение:
+- Щёлкните правой кнопкой мыши по исполняемому файлу, выберите `Свойства`.
+- В открывшемся окне нажмите кнопку `Разблокировать`.
+- Подтвердите действие кнопкой `OK`.
+
+2. Запустите приложение от имени администратора (аналогично, через щелчок правой кнопкой мыши).
+
+3. В Windows 10 и более новых версиях предыдущий пункт можно заменить следующими действиями:
+- Щёлкните правой кнопкой мыши по исполняемому файлу, выберите `Исправление проблем с совместимостью`.
+- В открывшемся окне выберите вариант `Диагностика программы`.
+- Далее установите только флажок `Для программы необходимы дополнительные разрешения`.
+- Интерфейс предложит проверить программу. Нажмите кнопку `Далее`.
+- На последнем шаге выберите вариант `Да, сохранить эти параметры для программы`.
+
+Эти действия должны помочь в разрешении возможных сложностей в использовании наших продуктов.
+
+&nbsp;
+
+
+
+---
+
+&nbsp;
+
+## Контакты
+
+Вы можете найти нас, используя перечень популярных платформ, перечисленных ниже.
+Знаком :mailbox: помечены площадки, с помощью которых с нами можно связаться.
+
+[Головное сообщество &#x25CF; VK](https://vk.com/rd_aaow_fdl) :mailbox:
+
+[Головное сообщество &#x25CF; Telegram](https://t.me/rd_aaow_fdl) :mailbox:
+
+[Хостинг исходного кода &#x25CF; GitHub](https://github.com/adslbarxatov) :mailbox:
+
+[Хостинг модов &#x25CF; ModDB](https://moddb.com/members/rd-aaow-fdl) :mailbox:
+
+[Мастер-канал &#x25CF; YouTube](https://youtube.com/c/rdaaowfdl) :mailbox:
+
+[Дополнительное сообщество &#x25CF; VK](https://vk.com/grammarmustjoy)
+
+[Дополнительное сообщество &#x25CF; Telegram](https://t.me/grammarmustjoy)
+
+&nbsp;
+
+
+
+---
+
+&nbsp;
+
+## Помочь проекту
+
+Теперь имеется возможность помочь нам с цифровыми подписями (NFT) для наших логотипов.
+Или Вы можете просто оставить пожертвование, если Вас заинтересовали наши проекты.
+Используйте для этого следующий адрес на TON Space (Telegram wallet):
+
+```UQCkXZsrfVs7ILxVRAD8YS-FDXtutdhkrLfftoBsmjmHakzg```
+
+Также Вы можете поддержать наш токен [FreeDevLab](https://tonviewer.com/EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI)
+на [странице пула на Ston.fi](https://app.ston.fi/pools/EQAQfWQLE3PYK-0wio4i5iio5OJ2J33RpFPudm3SCbh0fNaO) или в
+[разделе свопа Ston.fi](https://app.ston.fi/swap?tt=EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI):
+
+```
+Название: FreeDevLab (FDL)
+Сеть: TON
+Ликвидность обеспечена в паре с USDT
+Дата создания: 22.05.24
+Редактируемый: нет (администраторские права отозваны)
+Майнинг: недоступен (количество зафиксировано на уровне 2³² единиц)
+Знаков после запятой: 4
+```
+
+***Заранее благодарим Вас за помощь!***
+
+---
+
+Кроме того, Вы можете предлагать собственные новости для наших каналов [ВКонтакте](https://vk.com/rd_aaow_fdl)
+(с помощью кнопки `Написать сообществу`) и [Telegram](https://t.me/rd_aaow_fdl) (в комментариях к любому посту).
+
+Наконец, Вы можете пополнить архив шуток и анекдотов в сообществе [GrammarMustJoy](https://adslbarxatov.github.io/UniNotifier/GMJ),
+используя кнопку `Написать сообществу` [ВКонтакте](https://vk.com/grammarmustjoy) и комментарии
+к [этому посту](https://t.me/rd_aaow_fdl/747?comment) в Telegram
+
+&nbsp;
+
+
+
+---
+
+&nbsp;
 
 ## Облако ссылок
 
