@@ -624,4 +624,4 @@ Decimal places: 4
 [uNot (UniNotifier)](#unot-uninotifier) &#x3000;
 [Vice city toolset](#vice-city-toolset) &#x3000;
 [Xash3D FWGS for ESHQ](#xash3d-fwgs-engine-adaptation-for-eshq) &#x3000;
-[Logo concepts](https://adslbarxatov.github.io/DPArray/logo)
+[Logo concepts](https://adslbarxatov.github.io/DPArray/logo_en)
