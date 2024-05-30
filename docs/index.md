@@ -1,30 +1,26 @@
 # Welcome to Laboratory!
 
-[**DPArray &#x25CF; Direct download link &#x25CF; Windows**](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.sfx.exe)
+[**&#x25CF; DPArray &#x25CF; Direct download link &#x25CF; Windows &#x25CF;**](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.sfx.exe)
 
-[Links cloud](#links-cloud)
+&#x25CF; [Links cloud](#links-cloud) &#x25CF;
+[Contacts](#contacts) &#x25CF;
+[Help the project](#help-the-project) &#x25CF;
 
-[Русскоязычная версия](https://adslbarxatov.github.io/DPArray/ru)
+&#x25CF; [**Hello, dear user!**](#hello-dear-user) &#x25CF;
+[**Actual projects and developments**](#actual-projects-and-developments) &#x25CF;
 
-&nbsp;
+&#x25CF; [Dependencies of app products](#dependencies-of-app-products) &#x25CF;
+[Operating system limitations](#operating-system-limitations) &#x25CF;
 
-
-
-### Page contents
-
-- [Hello, dear user!](#hello-dear-user)
-- [Actual projects and developments](#actual-projects-and-developments)
-- [Contacts](https://adslbarxatov.github.io/DPArray/contacts)
-- [Logo concepts](https://adslbarxatov.github.io/DPArray/logo_en)
-
-&nbsp;
-
-- [Dependencies of app products](#dependencies-of-app-products)
-- [Operating system limitations](#operating-system-limitations)
+&#x25CF; [*Русскоязычная версия*](https://adslbarxatov.github.io/DPArray/ru) &#x25CF;
 
 &nbsp;
 
 
+
+---
+
+&nbsp;
 
 ## Hello, dear user!
 
@@ -58,6 +54,10 @@ and objectives of the Laboratory
 
 
 
+---
+
+&nbsp;
+
 ## Actual projects and developments
 
 Current Laboratory’s projects are described below.
@@ -86,54 +86,6 @@ A general list of mods is available [here](https://moddb.com/members/rd-aaow-fdl
 
 
 
-### Dependencies of app products
-
-If any product doesn’t work or doesn’t start correctly, check this list of requirements.
-
-For apps and products running on Windows (<img src="/DPArray/img/Win.png" width="16">):
-
-<img src="/DPArray/img/NF481.png" width="16"> [Microsoft .NET Framework 4.8.1](https://go.microsoft.com/fwlink/?LinkId=2203304)
-
-<img src="/DPArray/img/VC.png" width="16"> [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
-
-<img src="/DPArray/img/SQL.png" width="16"> [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709)
-
-<img src="/DPArray/img/NF80.png" width="16"> [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.4-windows-x86-installer)
-
-<img src="/DPArray/img/DX.png" width="16"> [Microsoft DirectX 9 updates](https://microsoft.com/en-us/download/confirmation.aspx?id=35)
-
-For applications and products running on Android (<img src="/DPArray/img/And.png" width="16">):
-
-<img src="/DPArray/img/And4.png" width="16"> Android 4.2 or newer
-
-<img src="/DPArray/img/And5.png" width="16"> Android 5.0 or newer
-
-<img src="/DPArray/img/And6.png" width="16"> Android 6.0 or newer
-
-&nbsp;
-
-
-
-### Operating system limitations
-
-Additionally, different versions of Windows OS may have different requirements for applications downloaded
-from the Internet. If the application continues to not work correctly, follow these steps:
-
-1. Unlock the application:
-- Right-click on the executable file, select `Properties`.
-- In the window that opens, click the `Unblock` button.
-- Confirm the action with the `OK` button.
-
-2. Run the application as administrator (similarly, via right-click).
-
-3. In Windows 10 and newer versions, the previous paragraph can be replaced with the following steps:
-- Right-click on the executable file, select `Troubleshoot compatibility`.
-- In the window that opens, select the `Troubleshoot program` option.
-- Next, select only the `The program requires additional permissions` checkbox.
-- The interface will prompt you to test the program. Click `Next` button.
-- In the last step, select `Yes, save these settings for this program`.
-
-These steps should help resolve potential difficulties in using our products.
 
 ---
 
@@ -522,6 +474,124 @@ Also allows you to translate HEX data to binary and backward
 
 
 
+---
+
+&nbsp;
+
+## Dependencies of app products
+
+If any product doesn’t work or doesn’t start correctly, check this list of requirements.
+
+For apps and products running on Windows (<img src="/DPArray/img/Win.png" width="16">):
+
+<img src="/DPArray/img/NF481.png" width="16"> [Microsoft .NET Framework 4.8.1](https://go.microsoft.com/fwlink/?LinkId=2203304)
+
+<img src="/DPArray/img/VC.png" width="16"> [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
+
+<img src="/DPArray/img/SQL.png" width="16"> [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709)
+
+<img src="/DPArray/img/NF80.png" width="16"> [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.4-windows-x86-installer)
+
+<img src="/DPArray/img/DX.png" width="16"> [Microsoft DirectX 9 updates](https://microsoft.com/en-us/download/confirmation.aspx?id=35)
+
+For applications and products running on Android (<img src="/DPArray/img/And.png" width="16">):
+
+<img src="/DPArray/img/And4.png" width="16"> Android 4.2 or newer
+
+<img src="/DPArray/img/And5.png" width="16"> Android 5.0 or newer
+
+<img src="/DPArray/img/And6.png" width="16"> Android 6.0 or newer
+
+&nbsp;
+
+
+
+---
+
+&nbsp;
+
+## Operating system limitations
+
+Additionally, different versions of Windows OS may have different requirements for applications downloaded
+from the Internet. If the application continues to not work correctly, follow these steps:
+
+1. Unlock the application:
+- Right-click on the executable file, select `Properties`.
+- In the window that opens, click the `Unblock` button.
+- Confirm the action with the `OK` button.
+
+2. Run the application as administrator (similarly, via right-click).
+
+3. In Windows 10 and newer versions, the previous paragraph can be replaced with the following steps:
+- Right-click on the executable file, select `Troubleshoot compatibility`.
+- In the window that opens, select the `Troubleshoot program` option.
+- Next, select only the `The program requires additional permissions` checkbox.
+- The interface will prompt you to test the program. Click `Next` button.
+- In the last step, select `Yes, save these settings for this program`.
+
+These steps should help resolve potential difficulties in using our products.
+
+&nbsp;
+
+
+
+---
+
+&nbsp;
+
+## Contacts
+
+You can find us using set of popular platforms listed below.
+The sign :mailbox: marks those who support the exchange of messages with us.
+
+[Master community &#x25CF; Telegram](https://t.me/rd_aaow_fdl) :mailbox:
+
+[Sources hosting &#x25CF; GitHub](https://github.com/adslbarxatov) :mailbox:
+
+[Mods hosting &#x25CF; ModDB](https://moddb.com/members/rd-aaow-fdl) :mailbox:
+
+[Master channel &#x25CF; YouTube](https://youtube.com/c/rdaaowfdl) :mailbox:
+
+&nbsp;
+
+
+
+---
+
+&nbsp;
+
+## Help the project
+
+It is possible now to help us with digital signatures (NFTs)
+for our logos. In other words, you can donate to us if you’re interested
+in our projects. Use the following address of TON Space (Telegram wallet) for it:
+
+```UQCkXZsrfVs7ILxVRAD8YS-FDXtutdhkrLfftoBsmjmHakzg```
+
+Or you can support our [FreeDevLab](https://tonviewer.com/EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI) token
+on [Ston.fi pool page](https://app.ston.fi/pools/EQAQfWQLE3PYK-0wio4i5iio5OJ2J33RpFPudm3SCbh0fNaO) or
+[Ston.fi swap interface](https://app.ston.fi/swap?tt=EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI):
+
+```
+Name: FreeDevLab (FDL)
+Network: TON
+Liquidity provided when paired with USDT
+Creation date: 05/22/24
+Editable: no (admin rights revoked)
+Mining: not available (quantity fixed at 2³² units)
+Decimal places: 4
+```
+
+***Thank you in advance!***
+
+&nbsp;
+
+
+
+---
+
+&nbsp;
+
 ## Links cloud
 
 [Accounts manager](https://adslbarxatov.github.io/DPArray/ru#accounts-manager) &#x3000;
@@ -553,4 +623,5 @@ Also allows you to translate HEX data to binary and backward
 [Turtle](#turtle) &#x3000;
 [uNot (UniNotifier)](#unot-uninotifier) &#x3000;
 [Vice city toolset](#vice-city-toolset) &#x3000;
-[Xash3D FWGS for ESHQ](#xash3d-fwgs-engine-adaptation-for-eshq)
+[Xash3D FWGS for ESHQ](#xash3d-fwgs-engine-adaptation-for-eshq) &#x3000;
+[Logo concepts](https://adslbarxatov.github.io/DPArray/logo)
