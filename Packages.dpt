@@ -59,8 +59,8 @@ a:KassArray.dp
 f:F
 i:INFOPAGE
 l:r
-v:5.6.3
-p:00163E07CC26873E
+v:5.6.4
+p:00163E079B5ADF23
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
@@ -87,8 +87,8 @@ n:uNot
 a:UniNotifier.dp
 f:0
 i:INFOPAGE
-v:7.3.3
-p:0005C9483545EE0F
+v:7.3.5
+p:0005CF48894AE178
 
 n:Vice city toolset
 a:ViceCityToolset.dp
@@ -216,7 +216,7 @@ a:KassArray.apk
 f:FV
 i:INFOPAGE
 l:r
-v:5.6.3
+v:5.6.4
 s:35992747
 
 n:Make decision
@@ -249,8 +249,8 @@ u:GIT_LINK/UniNotifier/GIT_PATH/DEFFILE
 a:UniNotifier.apk
 f:FV
 i:INFOPAGE
-v:7.3.3
-s:35579566
+v:7.3.5
+s:35583662
 
 
 
@@ -275,7 +275,7 @@ n:KassArray
 f:FVD
 l:r
 i:MS_STORE/9ND98F4C4Q60
-v:5.6.2
+v:5.6.4
 
 n:Mafia helper
 f:FVD
@@ -305,7 +305,7 @@ v:2.4
 n:uNot
 f:FVD
 i:MS_STORE/9NVZ51RL54K4
-v:7.3
+v:7.3.5
 
 
 
@@ -315,7 +315,7 @@ n:KassArray
 f:FVD
 l:r
 i:GP_STOREcom.RD_AAOW.TextToKKT
-v:5.6.3
+v:5.6.4
 
 n:Make decision
 f:FVD
@@ -336,7 +336,7 @@ v:5.3.5
 n:uNot
 f:FVD
 i:GP_STOREcom.RD_AAOW.UniNotifier
-v:7.3.3
+v:7.3.5
 
 
 
@@ -346,7 +346,7 @@ n:KassArray
 f:FVD
 l:r
 i:HU_STORE/qp5L7sHUhW
-v:5.6.2
+v:5.6.4
 
 n:Make decision
 f:FVD
@@ -356,7 +356,7 @@ v:3.6
 n:uNot
 f:FVD
 i:HU_STORE/qK2aIuhnOM
-v:7.3.3
+v:7.3.5
 
 
 
