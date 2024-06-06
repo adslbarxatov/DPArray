@@ -174,7 +174,7 @@ namespace RD_AAOW
 
 					defaultType = AppDefaultRequirements.DotNETFramework481;
 
-					s = RDGenerics.GetCustomSettingsValue (
+					s = RDGenerics.GetCustomRegistryValue (
 						"HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\NET Framework Setup\\NDP\\v4\\Full",
 						"Release");
 					try
@@ -195,7 +195,7 @@ namespace RD_AAOW
 					fileName = "DotNETFramework48.exe";    // Автозагрузка
 					fileSize = "121307088";
 
-					s = RDGenerics.GetCustomSettingsValue (
+					s = RDGenerics.GetCustomRegistryValue (
 						"HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\NET Framework Setup\\NDP\\v4\\Full",
 						"Release");
 					try
@@ -216,7 +216,7 @@ namespace RD_AAOW
 					fileName = "VCRedistributables143.exe";
 					fileSize = "13730768";
 
-					s = RDGenerics.GetCustomSettingsValue (
+					s = RDGenerics.GetCustomRegistryValue (
 						"HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\Installer\\Dependencies\\" +
 						"Microsoft.VS.VC_RuntimeAdditionalVSU_x86,v14",
 						"Version");
@@ -228,7 +228,7 @@ namespace RD_AAOW
 					downloadLink = "https://microsoft.com/en-us/download/details.aspx?id=30709";
 					description = "Microsoft SQL Server Compact 4.0 SP1";
 
-					s = RDGenerics.GetCustomSettingsValue (
+					s = RDGenerics.GetCustomRegistryValue (
 						"HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Microsoft SQL Server Compact Edition\\v4.0",
 						"Version"
 						);
@@ -241,7 +241,7 @@ namespace RD_AAOW
 						"runtime-desktop-6.0.9-windows-x86-installer";
 					description = "Microsoft .NET Framework 6.0 (or newer)";
 
-					s = RDGenerics.GetCustomSettingsValue (
+					s = RDGenerics.GetCustomRegistryValue (
 						"HKEY_LOCAL_MACHINE\\SOFTWARE\\dotnet\\Setup\\InstalledVersions\\x86\\hostfxr",
 						"Version"
 						);
@@ -261,7 +261,7 @@ namespace RD_AAOW
 						"runtime-desktop-8.0.4-windows-x86-installer";
 					description = "Microsoft .NET Framework 8.0 (or newer)";
 
-					s = RDGenerics.GetCustomSettingsValue (
+					s = RDGenerics.GetCustomRegistryValue (
 						"HKEY_LOCAL_MACHINE\\SOFTWARE\\dotnet\\Setup\\InstalledVersions\\x86\\hostfxr",
 						"Version"
 						);

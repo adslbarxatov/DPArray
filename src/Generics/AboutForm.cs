@@ -137,7 +137,7 @@ namespace RD_AAOW
 
 			if (veryFirstStart < 0)
 				veryFirstStart =
-					string.IsNullOrWhiteSpace (RDGenerics.GetAppSettingsValue (LastShownVersionKey)) ? 1 : 0;
+					string.IsNullOrWhiteSpace (RDGenerics.GetAppRegistryValue (LastShownVersionKey)) ? 1 : 0;
 
 			string line = ProgramDescription.AssemblyLocalizedReferences[localized ? 0 + locOffset : 0];
 			if (string.IsNullOrWhiteSpace (line))
@@ -203,14 +203,14 @@ namespace RD_AAOW
 		private int LaunchForm (bool StartupMode, bool AcceptMode)
 			{
 			// Запрос настроек
-			adpRevision = RDGenerics.GetDPArraySettingsValue (ADPRevisionKey);
-			string helpShownAt = RDGenerics.GetAppSettingsValue (LastShownVersionKey);
+			adpRevision = RDGenerics.GetDPArrayRegistryValue (ADPRevisionKey);
+			string helpShownAt = RDGenerics.GetAppRegistryValue (LastShownVersionKey);
 
 			// Если поле пустое, устанавливается минимальное значение
 			if (adpRevision == "")
 				{
 				adpRevision = "rev. 10" + newPolicyAlias;
-				RDGenerics.SetDPArraySettingsValue (ADPRevisionKey, adpRevision);
+				RDGenerics.SetDPArrayRegistryValue (ADPRevisionKey, adpRevision);
 				}
 
 			// Контроль
@@ -319,14 +319,14 @@ namespace RD_AAOW
 			if (RDGenerics.StartedFromMSStore)
 				HypeHelpFlag.Checked = HypeHelpFlag.Visible = false;
 			else
-				HypeHelpFlag.Checked = (RDGenerics.GetDPArraySettingsValue (HypeHelpKey) == "1");
+				HypeHelpFlag.Checked = (RDGenerics.GetDPArrayRegistryValue (HypeHelpKey) == "1");
 
 			RDGenerics.LoadAppAboutWindowDimensions (this);
 
 			this.ShowDialog ();
 
 			RDGenerics.SaveAppAboutWindowDimensions (this);
-			RDGenerics.SetDPArraySettingsValue (HypeHelpKey, HypeHelpFlag.Checked ? "1" : "0");
+			RDGenerics.SetDPArrayRegistryValue (HypeHelpKey, HypeHelpFlag.Checked ? "1" : "0");
 
 			// HypeHelp (только если окно отображено)
 			if (HypeHelpFlag.Checked)
@@ -334,7 +334,7 @@ namespace RD_AAOW
 				DateTime lastHypeHelp;
 				try
 					{
-					lastHypeHelp = DateTime.Parse (RDGenerics.GetDPArraySettingsValue (LastHypeHelpKey));
+					lastHypeHelp = DateTime.Parse (RDGenerics.GetDPArrayRegistryValue (LastHypeHelpKey));
 					}
 				catch
 					{
@@ -346,18 +346,18 @@ namespace RD_AAOW
 					RDGenerics.RunWork (HypeHelper, null, null, RDRunWorkFlags.DontSuspendExecution);
 
 					lastHypeHelp = DateTime.Now.AddMinutes (RDGenerics.RND.Next (65, 95));
-					RDGenerics.SetDPArraySettingsValue (LastHypeHelpKey, lastHypeHelp.ToString ());
+					RDGenerics.SetDPArrayRegistryValue (LastHypeHelpKey, lastHypeHelp.ToString ());
 					}
 				}
 
 			// Запись версий по завершению
 			if (StartupMode)
-				RDGenerics.SetAppSettingsValue (LastShownVersionKey, ProgramDescription.AssemblyVersion);
+				RDGenerics.SetAppRegistryValue (LastShownVersionKey, ProgramDescription.AssemblyVersion);
 
 			// В случае невозможности загрузки Политики признак необходимости принятия до этого момента
 			// не удаляется из строки версии. Поэтому требуется страховка
 			if (AcceptMode && policyAccepted)
-				RDGenerics.SetDPArraySettingsValue (ADPRevisionKey, adpRevision.Replace (newPolicyAlias, ""));
+				RDGenerics.SetDPArrayRegistryValue (ADPRevisionKey, adpRevision.Replace (newPolicyAlias, ""));
 
 			// Завершение
 			return policyAccepted ? 0 : -1;
@@ -512,7 +512,7 @@ namespace RD_AAOW
 #if !DPMODULE
 
 			// Контроль наличия DPArray
-			string dpmv = RDGenerics.GetDPArraySettingsValue (LastShownVersionKey);
+			string dpmv = RDGenerics.GetDPArrayRegistryValue (LastShownVersionKey);
 			string downloadLink, packagePath;
 
 			int l;
@@ -551,7 +551,7 @@ namespace RD_AAOW
 				return;
 #else
 				downloadLink = RDGenerics.DPArrayPackageLink;
-				packagePath = RDGenerics.GetDPArraySettingsValue (RDGenerics.DPArrayName);
+				packagePath = RDGenerics.GetDPArrayRegistryValue (RDGenerics.DPArrayName);
 
 				if (string.IsNullOrWhiteSpace (packagePath))    // Такое может быть, если DPArray ни разу не обновлялся
 					{
@@ -696,7 +696,7 @@ namespace RD_AAOW
 				{
 				string adpRev = ExtractPolicyRevision (GetPolicy ());
 				if (!string.IsNullOrWhiteSpace (adpRev) && (adpRev != adpRevision))
-					RDGenerics.SetDPArraySettingsValue (ADPRevisionKey, adpRev + newPolicyAlias);
+					RDGenerics.SetDPArrayRegistryValue (ADPRevisionKey, adpRev + newPolicyAlias);
 				}
 
 			// Не было проблем с загрузкой страницы
