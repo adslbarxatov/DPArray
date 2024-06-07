@@ -1,5 +1,8 @@
 DPArray: changes log
 
+Version 7.2.5:
+• Implemented the new App about interface
+
 Version 7.2.2:
 • Fixed the incorrect operation of the Deselect all option in the packages manager;
 • Updated the Help and support links set

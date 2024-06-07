@@ -458,28 +458,56 @@ namespace RD_AAOW
 		/// <param name="DialogForm">Форма для создаия фона</param>
 		public static void CreateBackground (Form DialogForm)
 			{
+			CreateBackground (DialogForm, 0);
+			}
+
+		/// <summary>
+		/// Метод формирует фон диалогового окна для указанной формы
+		/// </summary>
+		/// <param name="DialogForm">Форма для создаия фона</param>
+		/// <param name="HeaderHeight">Высота от верхней части диалогового окна,
+		/// окрашиваемая в контрастный цвет</param>
+		public static void CreateBackground (Form DialogForm, uint HeaderHeight)
+			{
 			// Начало
 			const int roundingSize = 20;
 			Bitmap bm = new Bitmap (DialogForm.Width, DialogForm.Height);
 			Graphics gr = Graphics.FromImage (bm);
 
 			// Отрисовка фона
-			SolidBrush br = new SolidBrush (DialogForm.TransparencyKey);
+			SolidBrush bre = null;
+			SolidBrush brk = new SolidBrush (DialogForm.TransparencyKey);
+			SolidBrush brb = new SolidBrush (DialogForm.BackColor);
 			int w = DialogForm.Width;
 			int h = DialogForm.Height;
 
-			gr.FillRectangle (br, 0, 0, roundingSize / 2, roundingSize / 2);
-			gr.FillRectangle (br, w - roundingSize / 2, 0, roundingSize / 2, roundingSize / 2);
-			gr.FillRectangle (br, 0, h - roundingSize / 2, roundingSize / 2, roundingSize / 2);
-			gr.FillRectangle (br, w - roundingSize / 2, h - roundingSize / 2, roundingSize / 2, roundingSize / 2);
-			br.Dispose ();
+			if (HeaderHeight > 0)
+				{
+				bre = new SolidBrush (RDGenerics.GetInterfaceColor (RDInterfaceColors.LightEmerald));
+				gr.FillRectangle (bre, 0, 0, w, HeaderHeight);
+				}
 
-			br = new SolidBrush (DialogForm.BackColor);
-			gr.FillEllipse (br, 0, 0, roundingSize, roundingSize);
-			gr.FillEllipse (br, w - roundingSize - 1, 0, roundingSize, roundingSize);
-			gr.FillEllipse (br, 0, h - roundingSize - 1, roundingSize, roundingSize);
-			gr.FillEllipse (br, w - roundingSize - 1, h - roundingSize - 1,
+			gr.FillRectangle (brk, 0, 0, roundingSize / 2, roundingSize / 2);
+			gr.FillRectangle (brk, w - roundingSize / 2, 0, roundingSize / 2, roundingSize / 2);
+			gr.FillRectangle (brk, 0, h - roundingSize / 2, roundingSize / 2, roundingSize / 2);
+			gr.FillRectangle (brk, w - roundingSize / 2, h - roundingSize / 2, roundingSize / 2, roundingSize / 2);
+			brk.Dispose ();
+
+			if (HeaderHeight > 0)
+				{
+				gr.FillEllipse (bre, 0, 0, roundingSize, roundingSize);
+				gr.FillEllipse (bre, w - roundingSize - 1, 0, roundingSize, roundingSize);
+				bre.Dispose ();
+				}
+			else
+				{
+				gr.FillEllipse (brb, 0, 0, roundingSize, roundingSize);
+				gr.FillEllipse (brb, w - roundingSize - 1, 0, roundingSize, roundingSize);
+				}
+			gr.FillEllipse (brb, 0, h - roundingSize - 1, roundingSize, roundingSize);
+			gr.FillEllipse (brb, w - roundingSize - 1, h - roundingSize - 1,
 				roundingSize, roundingSize);
+			brb.Dispose ();
 
 			// Отрисовка контура
 			Pen pDark = new Pen (Color.FromArgb (2 * DialogForm.BackColor.R / 3, 2 * DialogForm.BackColor.G / 3,
@@ -498,7 +526,6 @@ namespace RD_AAOW
 			gr.DrawArc (pDark, 0, 0, roundingSize, roundingSize, 180, 90);
 
 			// Финализация
-			br.Dispose ();
 			gr.Dispose ();
 			pDark.Dispose ();
 			DialogForm.BackgroundImage = bm;

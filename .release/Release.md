@@ -1,4 +1,5 @@
-_Changes for v 7.2.2_:
+_Changes for v 7.2.5_:
+- Implemented the new App about interface;
 - Fixed the incorrect operation of the `Deselect all` option in the packages manager;
 - Updated the `Help and support` links set;
 - Added support for `.NET 8.0`;

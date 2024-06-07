@@ -14,11 +14,15 @@ namespace RD_AAOW
 		{
 		// Переменные
 		private string projectLink, updatesLink, userManualLink, userVideomanualLink;
-		private string updatesMessage = "", updatesMessageForText = "", description = "",
-			versionDescription = "", adpRevision = "";
+		private string updatesMessage = "",
+			/*updatesMessageForText = "",
+			description = "",*/
+			versionDescription = "",
+			adpRevision = "";
 		private bool policyAccepted = false;
 		private bool startupMode = false, acceptMode = false;
-		private bool desciptionHasBeenUpdated = false;
+		/*private bool desciptionHasBeenUpdated = false;
+		*/
 		private const string newPolicyAlias = "!";
 
 		/// <summary>
@@ -96,19 +100,25 @@ namespace RD_AAOW
 			};
 
 		// Доступные варианты перехода к ресурсам Лаборатории
-		private enum LinkTypes
+		/*private enum LinkTypesComplete
 			{
-			UserManual,
-			UserVideomanual,
+			UpdateVersion,
+			ChangeLog,
+
+			UserGuideOffline,
+			UserGuideOnline,
+			UserVideoguide,
 			ProjectPage,
 			ADP,
+
 			AskDeveloper,
 			ToLabMain,
 			ToLabVK,
 			ToLabTG,
 			Donate,
 			}
-		private List<LinkTypes> linkTypes = new List<LinkTypes> ();
+		private List<LinkTypesComplete> linkTypes = new List<LinkTypesComplete> ();*/
+		private List<Button> linkButtons = new List<Button> ();
 
 		/// <summary>
 		/// Возвращает псевдоним для справочного материала по умолчанию
@@ -163,7 +173,7 @@ namespace RD_AAOW
 			AboutLabel.Text = RDGenerics.AppAboutLabelText;
 			IconBox.BackgroundImage = (Bitmap)ProgramDescription.AssemblyResources[0].GetObject ("LogoIcon");
 
-			AboutForm_Resize (null, null);
+			/*AboutForm_Resize (null, null);*/
 			}
 
 		/// <summary>
@@ -176,7 +186,7 @@ namespace RD_AAOW
 		/// другое значение, если окно справки было отображено</returns>
 		public int ShowAbout (bool StartupMode)
 			{
-			try
+			/*try
 				{
 				description = File.ReadAllText (RDLocale.GetHelpFilePath (RDLocale.CurrentLanguage),
 					RDGenerics.GetEncoding (RDEncodings.UTF8));
@@ -184,7 +194,7 @@ namespace RD_AAOW
 			catch
 				{
 				description = RDLocale.GetDefaultText (RDLDefaultTexts.Message_NoOfflineHelp);
-				}
+				}*/
 			return LaunchForm (StartupMode, false);
 			}
 
@@ -223,16 +233,73 @@ namespace RD_AAOW
 			// Настройка контролов
 			int al = (int)RDLocale.CurrentLanguage;
 
-			UpdatesPageButton.Text =
-				RDLocale.GetDefaultText (RDLDefaultTexts.Message_CheckingUpdates);
+			/*UpdatesPageButton.Text =
+				RDLocale.GetDefaultText (RDLDefaultTexts.Message_CheckingUpdates);*/
 
 			ExitButton.Text = RDLocale.GetDefaultText (AcceptMode ? RDLDefaultTexts.Button_Accept :
-				RDLDefaultTexts.Button_OK);
+				RDLDefaultTexts.Button_Exit);
+			MisacceptButton.Text = RDLocale.GetDefaultText (RDLDefaultTexts.Button_Decline);
 
-			MisacceptButton.Text =
-				RDLocale.GetDefaultText (RDLDefaultTexts.Button_Decline);
+			/*Panel pn = new Panel ();
+			pn.Left = pn.Top = 0;
+			pn.Width = this.Width;
+			pn.Height = 2 * IconBox.Top + IconBox.Height;
+			pn.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.LightEmerald);
 
-			if (!desciptionHasBeenUpdated)
+			pn.Controls.Add (IconBox);
+			pn.Controls.Add (AboutLabel);
+			this.Controls.Remove (IconBox);
+			this.Controls.Remove (AboutLabel);
+			this.Controls.Add (pn);*/
+
+			if (!AcceptMode)
+				{
+#if !DPMODULE
+				if (!RDGenerics.StartedFromMSStore)
+					AddButton (RDLocale.GetDefaultText (RDLDefaultTexts.Message_CheckingUpdates),
+						UpdatesPageButton_Click, false);
+#endif
+				AddButton ("ChangeLog", ShowChangeLog_Click, false);
+				buttonIndex += (buttonIndex % 2 + 2);
+
+				if (File.Exists (RDLocale.GetHelpFilePath ()))
+					AddButton (RDLocale.GetDefaultText (RDLDefaultTexts.Control_OfflineHelp),
+						ShowOfflineHelp_Click, true);
+
+				if (!string.IsNullOrWhiteSpace (userManualLink))
+					AddButton (RDLocale.GetDefaultText (RDLDefaultTexts.Control_OnlineHelp),
+						ShowOnlineHelp_Click, true);
+
+				if (!string.IsNullOrWhiteSpace (userVideomanualLink))
+					AddButton (RDLocale.GetDefaultText (RDLDefaultTexts.Control_UserVideomanual),
+						ShowVideoguide_Click, true);
+
+				AddButton (RDLocale.GetDefaultText (RDLDefaultTexts.Control_ProjectWebpage),
+					ShowProjectPage_Click, true);
+				}
+
+			AddButton (RDLocale.GetDefaultText (RDLDefaultTexts.Control_PolicyEULA),
+				ShowADP_Click, true);
+			if (AcceptMode)
+				{
+				linkButtons[linkButtons.Count - 1].Width = 404;
+				linkButtons[linkButtons.Count - 1].BackColor =
+					RDGenerics.GetInterfaceColor (RDInterfaceColors.WarningMessage);
+				}
+
+			buttonIndex += (buttonIndex % 2 + 2);
+
+			AddButton (RDLocale.GetDefaultText (RDLDefaultTexts.Control_AskDeveloper),
+				AskDeveloper_Click, true);
+
+			AddButton (RDGenerics.CommunitiesNames[0], GoLabMain_Click, true);
+			AddButton (RDGenerics.CommunitiesNames[1], GoLabTG_Click, true);
+			AddButton (RDGenerics.CommunitiesNames[2], GoLabVK_Click, true);
+
+			AddButton (RDLocale.GetDefaultText (RDLDefaultTexts.Control_HelpTheProject),
+				GoDonate_Click, true);
+
+			/*if (!desciptionHasBeenUpdated)
 				{
 				if (AcceptMode)
 					DescriptionBox.Text =
@@ -241,9 +308,9 @@ namespace RD_AAOW
 					DescriptionBox.Text =
 						RDLocale.GetDefaultText (RDLDefaultTexts.Message_CheckingUpdatesPrefix) +
 						RDLocale.RN + description;
-				}
+				}*/
 
-			// Загрузка списка доступных переходов к ресурсам Лаборатории
+			/*// Загрузка списка доступных переходов к ресурсам Лаборатории
 			if (ToLaboratoryCombo.Items.Count < 1)
 				{
 				if (!AcceptMode)
@@ -280,11 +347,20 @@ namespace RD_AAOW
 				ToLaboratoryCombo.Items.Add (
 					RDLocale.GetDefaultText (RDLDefaultTexts.Control_HelpTheProject));
 				}
-			ToLaboratoryCombo.SelectedIndex = 0;
+			ToLaboratoryCombo.SelectedIndex = 0;*/
 
+			// Завершение формирования
 			this.Text = AcceptMode ?
 				RDLocale.GetDefaultText (RDLDefaultTexts.Control_PolicyEULA) :
 				RDLocale.GetDefaultText (RDLDefaultTexts.Control_AppAbout);
+			/*this.TopMost = true;
+			*/
+
+			buttonIndex += (buttonIndex % 2 + 2);
+			MisacceptButton.Top = ExitButton.Top = HypeHelpFlag.Top =
+				linkButtons[linkButtons.Count - 1].Top + linkButtons[linkButtons.Count - 1].Height + 24;
+
+			this.MinimumSize = new Size (this.Width, ExitButton.Top + ExitButton.Height + 12);
 
 			// Получение Политики
 			if (AcceptMode)
@@ -296,22 +372,32 @@ namespace RD_AAOW
 				string html = RDGenerics.WorkResultAsString;
 				if (!string.IsNullOrWhiteSpace (html))
 					{
-					DescriptionBox.Text = html;
+					/*DescriptionBox.Text = html;
+					*/
 
 					string adpRev = ExtractPolicyRevision (html);
 					if (!string.IsNullOrWhiteSpace (adpRev))
 						adpRevision = adpRev;
 					}
+
+				MisacceptButton.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.ErrorMessage);
+				ExitButton.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.SuccessMessage);
+				}
+			else
+				{
+				ExitButton.BackColor = HypeHelpFlag.BackColor =
+					RDGenerics.GetInterfaceColor (RDInterfaceColors.LightEmerald);
+				ExitButton.ForeColor = HypeHelpFlag.ForeColor = this.BackColor;
 				}
 
 			// Настройка контролов
 			HypeHelpFlag.Visible = !AcceptMode;
 
-#if DPMODULE
+			/*#if DPMODULE
 			UpdatesPageButton.Visible = false;
-#else
+			#else
 			UpdatesPageButton.Visible = !AcceptMode && !RDGenerics.StartedFromMSStore;
-#endif
+			#endif*/
 
 			MisacceptButton.Visible = AcceptMode;
 
@@ -321,11 +407,18 @@ namespace RD_AAOW
 			else
 				HypeHelpFlag.Checked = (RDGenerics.GetDPArrayRegistryValue (HypeHelpKey) == "1");
 
-			RDGenerics.LoadAppAboutWindowDimensions (this);
+			this.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.LightGrey);
+			AboutLabel.BackColor = IconBox.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.LightEmerald);
+			AboutLabel.ForeColor = this.BackColor;
+
+			RDMessageForm.CreateBackground (this, (uint)(2 * IconBox.Top + IconBox.Height));
+			/*RDGenerics.LoadAppAboutWindowDimensions (this);
+			*/
 
 			this.ShowDialog ();
 
-			RDGenerics.SaveAppAboutWindowDimensions (this);
+			/*RDGenerics.SaveAppAboutWindowDimensions (this);
+			*/
 			RDGenerics.SetDPArrayRegistryValue (HypeHelpKey, HypeHelpFlag.Checked ? "1" : "0");
 
 			// HypeHelp (только если окно отображено)
@@ -363,13 +456,32 @@ namespace RD_AAOW
 			return policyAccepted ? 0 : -1;
 			}
 
+		// Добавление кнопок в интерфейс
+		private void AddButton (string Text, EventHandler Method, bool Enabled)
+			{
+			linkButtons.Add (new Button ());
+			linkButtons[linkButtons.Count - 1].Text = Text;
+			linkButtons[linkButtons.Count - 1].Left = 7 + (buttonIndex % 2) * (200 + 6);
+			linkButtons[linkButtons.Count - 1].Top = IconBox.Top + IconBox.Height + 24 + 27 * (int)(buttonIndex / 2);
+			linkButtons[linkButtons.Count - 1].Width = 200;
+			linkButtons[linkButtons.Count - 1].Height = 26;
+			linkButtons[linkButtons.Count - 1].Click += Method;
+			linkButtons[linkButtons.Count - 1].FlatStyle = FlatStyle.Flat;
+			linkButtons[linkButtons.Count - 1].FlatAppearance.BorderSize = 0;
+			linkButtons[linkButtons.Count - 1].Enabled = Enabled;
+
+			this.Controls.Add (linkButtons[linkButtons.Count - 1]);
+			buttonIndex++;
+			}
+		private int buttonIndex = 0;
+
 		// Запуск проверки обновлений (только при отображённом окне)
 		private void AboutForm_Shown (object sender, EventArgs e)
 			{
 			if (acceptMode)
 				return;
 
-			UpdatesPageButton.Enabled = false;
+			/*UpdatesPageButton.Enabled = false;*/
 			RDGenerics.RunWork (UpdatesChecker, null, null, RDRunWorkFlags.DontSuspendExecution);
 			UpdatesTimer.Enabled = true;
 			}
@@ -445,7 +557,7 @@ namespace RD_AAOW
 			this.Close ();
 			}
 
-		// Изменение размера окна
+		/*// Изменение размера окна
 		private void AboutForm_Resize (object sender, EventArgs e)
 			{
 			DescriptionBox.Width = this.ClientSize.Width - 28;
@@ -456,9 +568,9 @@ namespace RD_AAOW
 			UpdatesPageButton.Left = DescriptionBox.Left + DescriptionBox.Width - UpdatesPageButton.Width;
 			AboutLabel.Left = DescriptionBox.Left + DescriptionBox.Width - AboutLabel.Width;
 			ExitButton.Left = DescriptionBox.Left + DescriptionBox.Width - ExitButton.Width;
-			}
+			}*/
 
-		// Запуск ссылок
+		/*// Запуск ссылок
 		private void ToLaboratory_Click (object sender, EventArgs e)
 			{
 			string link;
@@ -504,7 +616,7 @@ namespace RD_AAOW
 				}
 
 			RDGenerics.RunURL (link);
-			}
+			}*/
 
 		// Загрузка пакета обновления изнутри приложения
 		private void UpdatesPageButton_Click (object sender, EventArgs e)
@@ -610,6 +722,64 @@ namespace RD_AAOW
 #endif
 			}
 
+		// Отображение списка изменений в текущей версии
+		private void ShowChangeLog_Click (object sender, EventArgs e)
+			{
+			RDGenerics.MessageBox (RDMessageTypes.Information_Left, versionDescription);
+			}
+
+		// Загрузка оффлайн и онлайн справок, видеоинструкции и остальных ссылок
+		private void ShowOfflineHelp_Click (object sender, EventArgs e)
+			{
+			RDGenerics.RunURL (RDLocale.GetHelpFilePath ());
+			}
+
+		private void ShowOnlineHelp_Click (object sender, EventArgs e)
+			{
+			RDGenerics.RunURL (userManualLink);
+			}
+
+		private void ShowVideoguide_Click (object sender, EventArgs e)
+			{
+			RDGenerics.RunURL (userVideomanualLink);
+			}
+
+		private void ShowProjectPage_Click (object sender, EventArgs e)
+			{
+			RDGenerics.RunURL (projectLink);
+			}
+
+		private void ShowADP_Click (object sender, EventArgs e)
+			{
+			RDGenerics.RunURL (RDGenerics.ADPLink);
+			}
+
+		private void GoLabMain_Click (object sender, EventArgs e)
+			{
+			RDGenerics.RunURL (RDGenerics.DPArrayLink);
+			}
+
+		private void GoLabVK_Click (object sender, EventArgs e)
+			{
+			RDGenerics.RunURL (RDGenerics.LabVKLink);
+			}
+
+		private void GoLabTG_Click (object sender, EventArgs e)
+			{
+			RDGenerics.RunURL (RDGenerics.LabTGLink);
+			}
+
+		private void GoDonate_Click (object sender, EventArgs e)
+			{
+			RDGenerics.RunURL (RDGenerics.DPArrayContacts);
+			}
+
+		private void AskDeveloper_Click (object sender, EventArgs e)
+			{
+			RDGenerics.RunURL ("mailto://" + RDGenerics.LabMailLink + ("?subject=" +
+				RDGenerics.LabMailCaption).Replace (" ", "%20"));
+			}
+
 		// Флаг hype help
 		private void HypeHelpFlag_CheckedChanged (object sender, EventArgs e)
 			{
@@ -630,6 +800,7 @@ namespace RD_AAOW
 			// Замена элементов разметки
 			for (int i = 0; i < htmlReplacements.Length; i++)
 				res = res.Replace (htmlReplacements[i][0], htmlReplacements[i][1]);
+			res = res.Replace ("\xA\xD", "\xD").Trim ();
 
 			// Удаление вложенных тегов
 			int textLeft, textRight;
@@ -677,16 +848,17 @@ namespace RD_AAOW
 			if (ProgramDescription.AssemblyTitle.EndsWith (version))
 				{
 				updatesMessage = RDLocale.GetDefaultText (RDLDefaultTexts.Message_UpToDate);
-				updatesMessageForText = RDLocale.GetDefaultText (RDLDefaultTexts.Message_UpToDatePrefix);
+				/*updatesMessageForText = RDLocale.GetDefaultText (RDLDefaultTexts.Message_UpToDatePrefix);
+				*/
 				}
 			else
 				{
 				updatesMessage =
 					string.Format (RDLocale.GetDefaultText (RDLDefaultTexts.Message_UpdateAvailable_Fmt),
 					version);
-				updatesMessageForText =
+				/*updatesMessageForText =
 					string.Format (RDLocale.GetDefaultText (RDLDefaultTexts.Message_UpdateAvailablePrefix_Fmt),
-					version);
+					version);*/
 				}
 			htmlError = false;
 
@@ -709,8 +881,8 @@ namespace RD_AAOW
 			// Есть проблема при загрузке страницы. Отмена
 			updatesMessage =
 				RDLocale.GetDefaultText (RDLDefaultTexts.Message_ServerUnavailable);
-			updatesMessageForText =
-				RDLocale.GetDefaultText (RDLDefaultTexts.Message_ServerUnavailablePrefix);
+			/*updatesMessageForText =
+				RDLocale.GetDefaultText (RDLDefaultTexts.Message_ServerUnavailablePrefix);*/
 
 			e.Result = -2;
 			return;
@@ -729,7 +901,7 @@ namespace RD_AAOW
 			if (string.IsNullOrWhiteSpace (updatesMessage))
 				return;
 
-			// Получение описания версии
+			/*// Получение описания версии
 			if (!string.IsNullOrWhiteSpace (versionDescription))
 				{
 				description += (RDLocale.RN + versionDescription);
@@ -742,30 +914,35 @@ namespace RD_AAOW
 				DescriptionBox.Text = updatesMessageForText + RDLocale.RNRN + RDLocale.RN +
 					description;
 				desciptionHasBeenUpdated = true;
-				}
+				}*/
 
 			// Включение текста кнопки
-			if (UpdatesPageButton.Text.Contains ("..."))
+#if !DPMODULE
+			if (linkButtons[0].Text.Contains ("..."))
 				{
-				UpdatesPageButton.Text = updatesMessage;
+				linkButtons[0].Text = updatesMessage;
 
 				// Включение кнопки и установка интервала
-				if (!UpdatesPageButton.Enabled)
+				if (!linkButtons[0].Enabled)
 					{
 					// Не запрещать загрузку вручную даже при отсутствии доступа к информации
-					UpdatesPageButton.Enabled = true;
+					linkButtons[0].Enabled = true;
+					linkButtons[1].Enabled = !string.IsNullOrWhiteSpace (versionDescription);
 
 					UpdatesTimer.Interval = 2000;
 					if (updatesMessage.Contains ("."))
-						UpdatesPageButton.Font = new Font (UpdatesPageButton.Font, FontStyle.Bold);
+						linkButtons[0].Font = new Font (linkButtons[0].Font, FontStyle.Bold);
 					}
 				}
 
 			// Выключение
 			else
 				{
-				UpdatesPageButton.Text = RDLocale.GetDefaultText (RDLDefaultTexts.Message_ManualDownload);
+				linkButtons[0].Text = RDLocale.GetDefaultText (RDLDefaultTexts.Message_ManualDownload);
 				}
+#else
+			linkButtons[0].Enabled = !string.IsNullOrWhiteSpace (versionDescription);
+#endif
 			}
 
 		// Непринятие Политики
