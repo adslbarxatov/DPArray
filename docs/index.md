@@ -562,13 +562,12 @@ The sign :mailbox: marks those who support the exchange of messages with us.
 
 ## Help the project
 
-It is possible now to help us with digital signatures (NFTs)
-for our logos. In other words, you can donate to us if you’re interested
+You can donate to us if you’re interested
 in our projects. Use the following address of TON Space (Telegram wallet) for it:
 
 ```UQCkXZsrfVs7ILxVRAD8YS-FDXtutdhkrLfftoBsmjmHakzg```
 
-Or you can support our [FreeDevLab](https://tonviewer.com/EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI) token
+Or you can support our new [FreeDevLab](https://tonviewer.com/EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI) token
 on [Ston.fi pool page](https://app.ston.fi/pools/EQAQfWQLE3PYK-0wio4i5iio5OJ2J33RpFPudm3SCbh0fNaO) or
 [Ston.fi swap interface](https://app.ston.fi/swap?tt=EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI):
 
@@ -581,6 +580,13 @@ Editable: no (admin rights revoked)
 Mining: not available (quantity fixed at 2³² units)
 Decimal places: 4
 ```
+
+For us, it’s, first of all, a living, independent embodiment of our main idea. Idea of ***creating products that are
+free from “monetary hegemony”, advertising and everything else that prevents them from being unique and self-sufficient***.
+
+We emphasize that ***any investment in this asset is solely an investment in application development in full compliance
+with [ADP](https://adslbarxatov.github.io/ADP) and support of this concept***. If the idea finds support, it can
+subsequently be used as a trading asset (we have decentralized this token and don’t have the right to issue and burn it).
 
 ***Thank you in advance!***
 
