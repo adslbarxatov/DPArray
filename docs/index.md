@@ -567,6 +567,10 @@ in our projects. Use the following address of TON Space (Telegram wallet) for it
 
 ```UQCkXZsrfVs7ILxVRAD8YS-FDXtutdhkrLfftoBsmjmHakzg```
 
+&nbsp;
+
+
+
 Or you can support our new [FreeDevLab](https://tonviewer.com/EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI) token
 on [Ston.fi pool page](https://app.ston.fi/pools/EQAQfWQLE3PYK-0wio4i5iio5OJ2J33RpFPudm3SCbh0fNaO) or
 [Ston.fi swap interface](https://app.ston.fi/swap?tt=EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI):
@@ -580,6 +584,10 @@ Editable: no (admin rights revoked)
 Mining: not available (quantity fixed at 2³² units)
 Decimal places: 4
 ```
+
+&nbsp;
+
+
 
 For us, it’s, first of all, a living, independent embodiment of our main idea. Idea of ***creating products that are
 free from “monetary hegemony”, advertising and everything else that prevents them from being unique and self-sufficient***.

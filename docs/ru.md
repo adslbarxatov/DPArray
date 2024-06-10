@@ -646,6 +646,10 @@ ES: Randomaze – генератор карт для одноимённого м
 
 ```UQCkXZsrfVs7ILxVRAD8YS-FDXtutdhkrLfftoBsmjmHakzg```
 
+&nbsp;
+
+
+
 Также Вы можете поддержать наш новый токен [FreeDevLab](https://tonviewer.com/EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI)
 на [странице пула на Ston.fi](https://app.ston.fi/pools/EQAQfWQLE3PYK-0wio4i5iio5OJ2J33RpFPudm3SCbh0fNaO) или в
 [разделе свопа Ston.fi](https://app.ston.fi/swap?tt=EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI):
@@ -660,6 +664,10 @@ ES: Randomaze – генератор карт для одноимённого м
 Знаков после запятой: 4
 ```
 
+&nbsp;
+
+
+
 Для нас он – прежде всего, живое, самостоятельное воплощение нашей главной идеи. Идеи ***создания продуктов, свободных от денежного
 «доения», рекламы и всего остального, что мешает им быть уникальными и самодостаточными***.
 
@@ -669,7 +677,9 @@ ES: Randomaze – генератор карт для одноимённого м
 
 ***Заранее благодарим Вас за помощь!***
 
----
+&nbsp;
+
+
 
 Кроме того, Вы можете предлагать собственные новости для наших каналов [ВКонтакте](https://vk.com/rd_aaow_fdl)
 (с помощью кнопки `Написать сообществу`) и [Telegram](https://t.me/rd_aaow_fdl) (в комментариях к любому посту).

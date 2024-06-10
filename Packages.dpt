@@ -23,8 +23,8 @@ n:ConcurrentDraw
 a:ConcurrentDraw.dp
 f:F
 i:INFOPAGE
-v:3.4.6
-p:000B290B1F0BE007
+v:3.4.7
+p:000B2939EDCEFBEF
 
 n:Dates difference
 a:DatesDifference.dp
