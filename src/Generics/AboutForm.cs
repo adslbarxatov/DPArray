@@ -15,14 +15,10 @@ namespace RD_AAOW
 		// Переменные
 		private string projectLink, updatesLink, userManualLink, userVideomanualLink;
 		private string updatesMessage = "",
-			/*updatesMessageForText = "",
-			description = "",*/
 			versionDescription = "",
 			adpRevision = "";
 		private bool policyAccepted = false;
 		private bool startupMode = false, acceptMode = false;
-		/*private bool desciptionHasBeenUpdated = false;
-		*/
 		private const string newPolicyAlias = "!";
 
 		/// <summary>
@@ -100,24 +96,6 @@ namespace RD_AAOW
 			};
 
 		// Доступные варианты перехода к ресурсам Лаборатории
-		/*private enum LinkTypesComplete
-			{
-			UpdateVersion,
-			ChangeLog,
-
-			UserGuideOffline,
-			UserGuideOnline,
-			UserVideoguide,
-			ProjectPage,
-			ADP,
-
-			AskDeveloper,
-			ToLabMain,
-			ToLabVK,
-			ToLabTG,
-			Donate,
-			}
-		private List<LinkTypesComplete> linkTypes = new List<LinkTypesComplete> ();*/
 		private List<Button> linkButtons = new List<Button> ();
 
 		/// <summary>
@@ -172,8 +150,6 @@ namespace RD_AAOW
 			// Загрузка окружения
 			AboutLabel.Text = RDGenerics.AppAboutLabelText;
 			IconBox.BackgroundImage = (Bitmap)ProgramDescription.AssemblyResources[0].GetObject ("LogoIcon");
-
-			/*AboutForm_Resize (null, null);*/
 			}
 
 		/// <summary>
@@ -186,15 +162,6 @@ namespace RD_AAOW
 		/// другое значение, если окно справки было отображено</returns>
 		public int ShowAbout (bool StartupMode)
 			{
-			/*try
-				{
-				description = File.ReadAllText (RDLocale.GetHelpFilePath (RDLocale.CurrentLanguage),
-					RDGenerics.GetEncoding (RDEncodings.UTF8));
-				}
-			catch
-				{
-				description = RDLocale.GetDefaultText (RDLDefaultTexts.Message_NoOfflineHelp);
-				}*/
 			return LaunchForm (StartupMode, false);
 			}
 
@@ -233,24 +200,9 @@ namespace RD_AAOW
 			// Настройка контролов
 			int al = (int)RDLocale.CurrentLanguage;
 
-			/*UpdatesPageButton.Text =
-				RDLocale.GetDefaultText (RDLDefaultTexts.Message_CheckingUpdates);*/
-
 			ExitButton.Text = RDLocale.GetDefaultText (AcceptMode ? RDLDefaultTexts.Button_Accept :
 				RDLDefaultTexts.Button_Exit);
 			MisacceptButton.Text = RDLocale.GetDefaultText (RDLDefaultTexts.Button_Decline);
-
-			/*Panel pn = new Panel ();
-			pn.Left = pn.Top = 0;
-			pn.Width = this.Width;
-			pn.Height = 2 * IconBox.Top + IconBox.Height;
-			pn.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.LightEmerald);
-
-			pn.Controls.Add (IconBox);
-			pn.Controls.Add (AboutLabel);
-			this.Controls.Remove (IconBox);
-			this.Controls.Remove (AboutLabel);
-			this.Controls.Add (pn);*/
 
 			if (!AcceptMode)
 				{
@@ -294,67 +246,18 @@ namespace RD_AAOW
 
 			AddButton (RDGenerics.CommunitiesNames[0], GoLabMain_Click, true);
 			AddButton (RDGenerics.CommunitiesNames[1], GoLabTG_Click, true);
-			AddButton (RDGenerics.CommunitiesNames[2], GoLabVK_Click, true);
+			AddButton (RDGenerics.CommunitiesNames[2], GoLabYT_Click, true);
+
+			if (RDLocale.IsCurrentLanguageRuRu)
+				AddButton (RDGenerics.CommunitiesNames[3], GoLabVK_Click, true);
 
 			AddButton (RDLocale.GetDefaultText (RDLDefaultTexts.Control_HelpTheProject),
 				GoDonate_Click, true);
-
-			/*if (!desciptionHasBeenUpdated)
-				{
-				if (AcceptMode)
-					DescriptionBox.Text =
-						RDLocale.GetDefaultText (RDLDefaultTexts.Message_PolicyFailure);
-				else
-					DescriptionBox.Text =
-						RDLocale.GetDefaultText (RDLDefaultTexts.Message_CheckingUpdatesPrefix) +
-						RDLocale.RN + description;
-				}*/
-
-			/*// Загрузка списка доступных переходов к ресурсам Лаборатории
-			if (ToLaboratoryCombo.Items.Count < 1)
-				{
-				if (!AcceptMode)
-					{
-					if (!string.IsNullOrWhiteSpace (userManualLink))
-						{
-						linkTypes.Add (LinkTypes.UserManual);
-						ToLaboratoryCombo.Items.Add (RDLocale.GetDefaultText (RDLDefaultTexts.Control_UserManual));
-						}
-					if (!string.IsNullOrWhiteSpace (userVideomanualLink))
-						{
-						linkTypes.Add (LinkTypes.UserVideomanual);
-						ToLaboratoryCombo.Items.Add (RDLocale.GetDefaultText (RDLDefaultTexts.Control_UserVideomanual));
-						}
-
-					linkTypes.Add (LinkTypes.ProjectPage);
-					ToLaboratoryCombo.Items.Add (RDLocale.GetDefaultText (RDLDefaultTexts.Control_ProjectWebpage));
-
-					linkTypes.Add (LinkTypes.AskDeveloper);
-					ToLaboratoryCombo.Items.Add (RDLocale.GetDefaultText (RDLDefaultTexts.Control_AskDeveloper));
-					}
-
-				linkTypes.Add (LinkTypes.ADP);
-				ToLaboratoryCombo.Items.Add (AcceptMode ?
-					RDLocale.GetDefaultText (RDLDefaultTexts.Message_OpenInBrowser) :
-					RDLocale.GetDefaultText (RDLDefaultTexts.Control_PolicyEULA));
-
-				linkTypes.Add (LinkTypes.ToLabMain);
-				linkTypes.Add (LinkTypes.ToLabTG);
-				linkTypes.Add (LinkTypes.ToLabVK);
-				linkTypes.Add (LinkTypes.Donate);
-
-				ToLaboratoryCombo.Items.AddRange (RDGenerics.CommunitiesNames);
-				ToLaboratoryCombo.Items.Add (
-					RDLocale.GetDefaultText (RDLDefaultTexts.Control_HelpTheProject));
-				}
-			ToLaboratoryCombo.SelectedIndex = 0;*/
 
 			// Завершение формирования
 			this.Text = AcceptMode ?
 				RDLocale.GetDefaultText (RDLDefaultTexts.Control_PolicyEULA) :
 				RDLocale.GetDefaultText (RDLDefaultTexts.Control_AppAbout);
-			/*this.TopMost = true;
-			*/
 
 			buttonIndex += (buttonIndex % 2 + 2);
 			MisacceptButton.Top = ExitButton.Top = HypeHelpFlag.Top =
@@ -372,9 +275,6 @@ namespace RD_AAOW
 				string html = RDGenerics.WorkResultAsString;
 				if (!string.IsNullOrWhiteSpace (html))
 					{
-					/*DescriptionBox.Text = html;
-					*/
-
 					string adpRev = ExtractPolicyRevision (html);
 					if (!string.IsNullOrWhiteSpace (adpRev))
 						adpRevision = adpRev;
@@ -392,13 +292,6 @@ namespace RD_AAOW
 
 			// Настройка контролов
 			HypeHelpFlag.Visible = !AcceptMode;
-
-			/*#if DPMODULE
-			UpdatesPageButton.Visible = false;
-			#else
-			UpdatesPageButton.Visible = !AcceptMode && !RDGenerics.StartedFromMSStore;
-			#endif*/
-
 			MisacceptButton.Visible = AcceptMode;
 
 			// Запуск с управлением настройками окна
@@ -412,13 +305,9 @@ namespace RD_AAOW
 			AboutLabel.ForeColor = this.BackColor;
 
 			RDMessageForm.CreateBackground (this, (uint)(2 * IconBox.Top + IconBox.Height));
-			/*RDGenerics.LoadAppAboutWindowDimensions (this);
-			*/
 
 			this.ShowDialog ();
 
-			/*RDGenerics.SaveAppAboutWindowDimensions (this);
-			*/
 			RDGenerics.SetDPArrayRegistryValue (HypeHelpKey, HypeHelpFlag.Checked ? "1" : "0");
 
 			// HypeHelp (только если окно отображено)
@@ -481,7 +370,6 @@ namespace RD_AAOW
 			if (acceptMode)
 				return;
 
-			/*UpdatesPageButton.Enabled = false;*/
 			RDGenerics.RunWork (UpdatesChecker, null, null, RDRunWorkFlags.DontSuspendExecution);
 			UpdatesTimer.Enabled = true;
 			}
@@ -556,67 +444,6 @@ namespace RD_AAOW
 			UpdatesTimer.Enabled = false;
 			this.Close ();
 			}
-
-		/*// Изменение размера окна
-		private void AboutForm_Resize (object sender, EventArgs e)
-			{
-			DescriptionBox.Width = this.ClientSize.Width - 28;
-
-			DescriptionBox.Height = this.ClientSize.Height - 195;
-			ExitButton.Top = MisacceptButton.Top = HypeHelpFlag.Top = this.ClientSize.Height - 33;
-
-			UpdatesPageButton.Left = DescriptionBox.Left + DescriptionBox.Width - UpdatesPageButton.Width;
-			AboutLabel.Left = DescriptionBox.Left + DescriptionBox.Width - AboutLabel.Width;
-			ExitButton.Left = DescriptionBox.Left + DescriptionBox.Width - ExitButton.Width;
-			}*/
-
-		/*// Запуск ссылок
-		private void ToLaboratory_Click (object sender, EventArgs e)
-			{
-			string link;
-			switch (linkTypes[ToLaboratoryCombo.SelectedIndex])
-				{
-				case LinkTypes.ADP:
-					link = RDGenerics.ADPLink;
-					break;
-
-				case LinkTypes.AskDeveloper:
-					link = "mailto://" + RDGenerics.LabMailLink + ("?subject=" +
-						RDGenerics.LabMailCaption).Replace (" ", "%20");
-					break;
-
-				case LinkTypes.ProjectPage:
-					link = projectLink;
-					break;
-
-				case LinkTypes.ToLabTG:
-					link = RDGenerics.LabTGLink;
-					break;
-
-				case LinkTypes.ToLabVK:
-					link = RDGenerics.LabVKLink;
-					break;
-
-				case LinkTypes.UserManual:
-					link = userManualLink;
-					break;
-
-				case LinkTypes.UserVideomanual:
-					link = userVideomanualLink;
-					break;
-
-				case LinkTypes.Donate:
-					link = RDGenerics.DPArrayContacts;
-					break;
-
-				default:
-				case LinkTypes.ToLabMain:
-					link = RDGenerics.DPArrayLink;
-					break;
-				}
-
-			RDGenerics.RunURL (link);
-			}*/
 
 		// Загрузка пакета обновления изнутри приложения
 		private void UpdatesPageButton_Click (object sender, EventArgs e)
@@ -780,6 +607,11 @@ namespace RD_AAOW
 				RDGenerics.LabMailCaption).Replace (" ", "%20"));
 			}
 
+		private void GoLabYT_Click (object sender, EventArgs e)
+			{
+			RDGenerics.RunURL (RDGenerics.LabYTLink);
+			}
+
 		// Флаг hype help
 		private void HypeHelpFlag_CheckedChanged (object sender, EventArgs e)
 			{
@@ -846,24 +678,14 @@ namespace RD_AAOW
 
 			// Отображение результата
 			if (ProgramDescription.AssemblyTitle.EndsWith (version))
-				{
 				updatesMessage = RDLocale.GetDefaultText (RDLDefaultTexts.Message_UpToDate);
-				/*updatesMessageForText = RDLocale.GetDefaultText (RDLDefaultTexts.Message_UpToDatePrefix);
-				*/
-				}
 			else
-				{
-				updatesMessage =
-					string.Format (RDLocale.GetDefaultText (RDLDefaultTexts.Message_UpdateAvailable_Fmt),
+				updatesMessage = string.Format (RDLocale.GetDefaultText (RDLDefaultTexts.Message_UpdateAvailable_Fmt),
 					version);
-				/*updatesMessageForText =
-					string.Format (RDLocale.GetDefaultText (RDLDefaultTexts.Message_UpdateAvailablePrefix_Fmt),
-					version);*/
-				}
 			htmlError = false;
 
 			// Получение обновлений Политики (ошибки игнорируются)
-			policy:
+		policy:
 			if (startupMode)
 				{
 				string adpRev = ExtractPolicyRevision (GetPolicy ());
@@ -879,11 +701,7 @@ namespace RD_AAOW
 				}
 
 			// Есть проблема при загрузке страницы. Отмена
-			updatesMessage =
-				RDLocale.GetDefaultText (RDLDefaultTexts.Message_ServerUnavailable);
-			/*updatesMessageForText =
-				RDLocale.GetDefaultText (RDLDefaultTexts.Message_ServerUnavailablePrefix);*/
-
+			updatesMessage = RDLocale.GetDefaultText (RDLDefaultTexts.Message_ServerUnavailable);
 			e.Result = -2;
 			return;
 			}
@@ -900,21 +718,6 @@ namespace RD_AAOW
 			{
 			if (string.IsNullOrWhiteSpace (updatesMessage))
 				return;
-
-			/*// Получение описания версии
-			if (!string.IsNullOrWhiteSpace (versionDescription))
-				{
-				description += (RDLocale.RN + versionDescription);
-				versionDescription = "";
-				}
-
-			// Обновление состояния
-			if (!desciptionHasBeenUpdated)
-				{
-				DescriptionBox.Text = updatesMessageForText + RDLocale.RNRN + RDLocale.RN +
-					description;
-				desciptionHasBeenUpdated = true;
-				}*/
 
 			// Включение текста кнопки
 #if !DPMODULE

@@ -4,8 +4,8 @@ n:DPArray
 a:DPArray.dp
 f:fvd
 i:INFOPAGE
-v:7.2.5
-p:0009578E83ED3BC3
+v:7.2.6
+p:0009598EDDA93818
 
 
 
@@ -15,9 +15,9 @@ n:Batch image convertor
 a:BatchImageConvertor.7z
 f:F
 i:INFOPAGE
-v:3.9.1
-s:2877382
-p:00599A01F1E749A7
+v:3.9.3
+s:2880007
+p:0059C1EACA5F34DA
 
 n:ConcurrentDraw
 a:ConcurrentDraw.dp
@@ -105,7 +105,7 @@ n:ESHQ
 a:ESHQ_setup.7z
 f:FV
 i:MODSHOST/eshq
-u:MODSTORAGE/266888?MOD_REFmods%2Feshq
+u:MODSTORAGE/266888?MOD_REFeshq
 v:14.0
 s:240551182
 p:16E3127A7D1FD049
@@ -115,7 +115,7 @@ n:ESHQ, actual update
 a:ESHQ_update.7z
 f:0
 i:MODSHOST/eshq
-u:MODSTORAGE/269397?MOD_REFmods%2Feshq
+u:MODSTORAGE/269397?MOD_REFeshq
 v:14.0.5
 s:2880840
 p:005600DB9ECA2453
@@ -124,7 +124,7 @@ n:ESHQ, backward compatibility
 a:ESHQ_backward.7z
 f:FV
 i:MODSHOST/eshq
-u:MODSTORAGE/266889?MOD_REFmods%2Feshq
+u:MODSTORAGE/266889?MOD_REFeshq
 v:14.0
 s:71091895
 p:08E6B9BF2D772AE8
@@ -134,7 +134,7 @@ n:ES: Randomaze
 a:ESRM_setup.7z
 f:FV
 i:MODSHOST/esrm
-u:MODSTORAGE/256554?MOD_REFmods%2Fesrm
+u:MODSTORAGE/256554?MOD_REFesrm
 v:5.0
 s:60229231
 p:05DD0943DED76882
@@ -143,7 +143,7 @@ n:ES: Randomaze, actual update
 a:ESRM_update.7z
 f:0
 i:MODSHOST/esrm
-u:MODSTORAGE/269517?MOD_REFmods%2Fesrm
+u:MODSTORAGE/269517?MOD_REFesrm
 v:5.4.1
 s:14134154
 p:01553B9B22C385F7
@@ -152,7 +152,7 @@ n:Crazy cheater’s mod
 a:GTAViceCity.7z
 f:0
 i:MODSHOST/ccm
-u:MODSTORAGE/240088?MOD_REFmods%2Fccm
+u:MODSTORAGE/240088?MOD_REFccm
 v:1.3
 s:165319082
 p:1475B852D4A856DE
@@ -360,7 +360,7 @@ v:7.3.6
 
 
 
-me:ES: Now you can really help the Lab and all its idea followers!||
+me:Now you can really help the Lab and all its idea followers!||
 me:Learn more about our investition token in the App about > Help the project section
-mr:ES: Теперь Вы по-настоящему можете помочь не только Лаборатории, но и всем её идейным последователям!||
+mr:Теперь Вы по-настоящему можете помочь не только Лаборатории, но и всем её идейным последователям!||
 mr:Узнайте больше о нашем инвестиционном токене в разделе О программе > Помочь проекту
