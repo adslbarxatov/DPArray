@@ -120,15 +120,15 @@ v:14.0.5
 s:2880840
 p:005600DB9ECA2453
 
-n:ESHQ, backward compatibility
-a:ESHQ_backward.7z
-f:FV
-i:MODSHOST/eshq
-u:MODSTORAGE/266889?MOD_REFeshq
-v:14.0
-s:71091895
-p:08E6B9BF2D772AE8
-o:ESHQ_backward.14.dp
+/n:ESHQ, backward compatibility
+/a:ESHQ_backward.7z
+/f:FV
+/i:MODSHOST/eshq
+/u:MODSTORAGE/266889?MOD_REFeshq
+/v:14.0
+/s:71091895
+/p:08E6B9BF2D772AE8
+/o:ESHQ_backward.14.dp
 
 n:ES: Randomaze
 a:ESRM_setup.7z
@@ -224,16 +224,16 @@ u:GIT_LINK/MakeDecision/GIT_PATH/DEFFILE
 a:MakeDecision.apk
 f:FV
 i:INFOPAGE
-v:3.6
-s:35157141
+v:3.7.1
+s:50996035
 
 n:PA detector
 u:GIT_LINK/EnchantIt/GIT_PATH/DEFFILE
 a:EnchantIt.apk
 f:FV
 i:INFOPAGE
-v:3.5.1
-s:42586091
+v:3.6
+s:65789192
 
 n:Tablepedia notifier
 u:GIT_LINK/UniNotifier/GIT_PATH/DEFFILE
@@ -320,12 +320,12 @@ v:5.6.5
 n:Make decision
 f:FVD
 i:GP_STOREcom.RD_AAOW.MakeDecision
-v:3.6
+v:3.7.1
 
 n:PA detector
 f:FVD
 i:GP_STOREcom.RD_AAOW.EnchantIt
-v:3.5.1
+v:3.6
 
 n:Tablepedia notifier
 f:FVD
@@ -351,7 +351,7 @@ v:5.6.5
 n:Make decision
 f:FVD
 i:HU_STORE/qsttV4pmU0
-v:3.6
+v:3.7.1
 
 n:uNot
 f:FVD
