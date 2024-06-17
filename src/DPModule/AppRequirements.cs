@@ -9,7 +9,7 @@ namespace RD_AAOW
 	public enum AppDefaultRequirements
 		{
 		/// <summary>
-		/// Microsoft .NET Framework 4.8
+		/// Microsoft .NET Framework 4.8 (Windows XP, 7, 8, 8.1)
 		/// </summary>
 		DotNETFramework480 = 0,
 
@@ -18,7 +18,7 @@ namespace RD_AAOW
 		/// </summary>
 		VC_RTL = 1,
 
-		/// <summary>
+		/*/// <summary>
 		/// Microsoft SQL Compact edition
 		/// </summary>
 		SQLCE = 2,
@@ -26,22 +26,22 @@ namespace RD_AAOW
 		/// <summary>
 		/// Microsoft .NET Framework 6.0
 		/// </summary>
-		DotNet60 = 3,
+		DotNet60 = 3,*/
 
 		/// <summary>
 		/// Microsoft DirectX update
 		/// </summary>
-		DirectX = 4,
+		DirectX = 2,
 
 		/// <summary>
-		/// Microsoft .NET Framework 4.8.1
+		/// Microsoft .NET Framework 4.8.1 (Windows 10 и новее)
 		/// </summary>
-		DotNETFramework481 = 5,
+		DotNETFramework481 = 3,
 
 		/// <summary>
 		/// Microsoft .NET Framework 8.0
 		/// </summary>
-		DotNet80 = 6,
+		DotNet80 = 4,
 
 		/// <summary>
 		/// Не является стандартной зависимостью
@@ -52,7 +52,7 @@ namespace RD_AAOW
 	/// <summary>
 	/// Класс предоставляет функионал по обработке зависимостей пакета
 	/// </summary>
-	public class AppRequirements
+	public class AppRequirement
 		{
 		// Первичные
 
@@ -157,13 +157,21 @@ namespace RD_AAOW
 		/// с поддержкой автозагрузки
 		/// </summary>
 		/// <param name="ReqType">Тип зависимости</param>
-		public AppRequirements (AppDefaultRequirements ReqType)
+		public AppRequirement (AppDefaultRequirements ReqType)
 			{
 			uint v;
 			string s;
 			defaultType = ReqType;
 
-			switch (ReqType)
+			// Переопределение некоторых зависимостей для Win8.1 и ниже
+			if (Environment.OSVersion.Version.Major < 10)
+				{
+				// Эта взаимозаменяемость подтверждена
+				if (defaultType == AppDefaultRequirements.DotNETFramework481)
+					defaultType = AppDefaultRequirements.DotNETFramework480;
+				}
+
+			switch (defaultType)
 				{
 				case AppDefaultRequirements.DotNETFramework481:
 				default:
@@ -224,7 +232,7 @@ namespace RD_AAOW
 					alreadyInstalled = s.StartsWith ("14.3");
 					break;
 
-				case AppDefaultRequirements.SQLCE:
+				/*case AppDefaultRequirements.SQLCE:
 					downloadLink = "https://microsoft.com/en-us/download/details.aspx?id=30709";
 					description = "Microsoft SQL Server Compact 4.0 SP1";
 
@@ -254,7 +262,7 @@ namespace RD_AAOW
 					catch { }
 
 					alreadyInstalled = (v >= 6);
-					break;
+					break;*/
 
 				case AppDefaultRequirements.DotNet80:
 					downloadLink = "https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/" +
@@ -295,7 +303,7 @@ namespace RD_AAOW
 		/// </summary>
 		/// <param name="Description">Описание зависимости</param>
 		/// <param name="URL">Ссылка для веб-страницы</param>
-		public AppRequirements (string Description, string URL)
+		public AppRequirement (string Description, string URL)
 			{
 			if (string.IsNullOrWhiteSpace (Description))
 				description = "?";
@@ -331,15 +339,15 @@ namespace RD_AAOW
 				case AppDefaultRequirements.DirectX:
 					return "DX+";
 
-				case AppDefaultRequirements.SQLCE:
-					return "SQL+";
-
 				case AppDefaultRequirements.VC_RTL:
 					return "CPP+";
 
 				// Устаревшие
+				/*case AppDefaultRequirements.SQLCE:
+					return "SQL+";
+
 				case AppDefaultRequirements.DotNet60:
-					return "NF6+";
+					return "NF6+";*/
 
 				case AppDefaultRequirements.DotNETFramework480:
 					return "CS+";
@@ -349,6 +357,6 @@ namespace RD_AAOW
 		/// <summary>
 		/// Возвращает количество доступных стандартных зависимостей
 		/// </summary>
-		public const uint DefaultRequirementsCount = 7;
+		public const uint DefaultRequirementsCount = 5;
 		}
 	}

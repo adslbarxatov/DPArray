@@ -14,9 +14,9 @@ namespace RD_AAOW
 		{
 		// Переменные
 		private string projectLink, updatesLink, userManualLink, userVideomanualLink;
-		private string updatesMessage = "",
-			versionDescription = "",
-			adpRevision = "";
+		private string updatesMessage = "";
+		private string versionDescription = "";
+		private string adpRevision = "";
 		private bool policyAccepted = false;
 		private bool startupMode = false, acceptMode = false;
 		private const string newPolicyAlias = "!";
@@ -552,7 +552,7 @@ namespace RD_AAOW
 		// Отображение списка изменений в текущей версии
 		private void ShowChangeLog_Click (object sender, EventArgs e)
 			{
-			RDGenerics.MessageBox (RDMessageTypes.Information_Left, versionDescription);
+			RDGenerics.MessageBox (RDMessageTypes.Success_Left, versionDescription);
 			}
 
 		// Загрузка оффлайн и онлайн справок, видеоинструкции и остальных ссылок
@@ -632,7 +632,6 @@ namespace RD_AAOW
 			// Замена элементов разметки
 			for (int i = 0; i < htmlReplacements.Length; i++)
 				res = res.Replace (htmlReplacements[i][0], htmlReplacements[i][1]);
-			res = res.Replace ("\xA\xD", "\xD").Trim ();
 
 			// Удаление вложенных тегов
 			int textLeft, textRight;
@@ -674,7 +673,7 @@ namespace RD_AAOW
 				goto policy;
 
 			versionDescription = html.Substring (i, j - i);
-			versionDescription = RDLocale.RN + ApplyReplacements (versionDescription);
+			versionDescription = ApplyReplacements (versionDescription).Replace ("\r", "").Replace ("\n\n", "\n");
 
 			// Отображение результата
 			if (ProgramDescription.AssemblyTitle.EndsWith (version))
@@ -716,8 +715,15 @@ namespace RD_AAOW
 		// Контроль сообщения об обновлении
 		private void UpdatesTimer_Tick (object sender, EventArgs e)
 			{
+			// Контроль 
 			if (string.IsNullOrWhiteSpace (updatesMessage))
 				return;
+
+			if (RDGenerics.StartedFromMSStore)
+				{
+				linkButtons[0].Enabled = !string.IsNullOrWhiteSpace (versionDescription);
+				return;
+				}
 
 			// Включение текста кнопки
 #if !DPMODULE
