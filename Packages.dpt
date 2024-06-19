@@ -216,7 +216,7 @@ a:KassArray.apk
 f:FV
 i:INFOPAGE
 l:r
-v:5.7
+v:5.7.5
 s:50950712
 
 n:Make decision
@@ -249,8 +249,8 @@ u:GIT_LINK/UniNotifier/GIT_PATH/DEFFILE
 a:UniNotifier.apk
 f:FV
 i:INFOPAGE
-v:7.4
-s:50893368
+v:7.4.5
+s:50897464
 
 
 
@@ -315,7 +315,7 @@ n:KassArray
 f:FVD
 l:r
 i:GP_STOREcom.RD_AAOW.TextToKKT
-v:5.7
+v:5.7.5
 
 n:Make decision
 f:FVD
@@ -336,7 +336,7 @@ v:5.3.5
 n:uNot
 f:FVD
 i:GP_STOREcom.RD_AAOW.UniNotifier
-v:7.4
+v:7.4.5
 
 
 
@@ -346,7 +346,7 @@ n:KassArray
 f:FVD
 l:r
 i:HU_STORE/qp5L7sHUhW
-v:5.7
+v:5.7.5
 
 n:Make decision
 f:FVD
@@ -356,7 +356,7 @@ v:3.7.1
 n:uNot
 f:FVD
 i:HU_STORE/qK2aIuhnOM
-v:7.4
+v:7.4.5
 
 
 
