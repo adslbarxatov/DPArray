@@ -18,16 +18,6 @@ namespace RD_AAOW
 		/// </summary>
 		VC_RTL = 1,
 
-		/*/// <summary>
-		/// Microsoft SQL Compact edition
-		/// </summary>
-		SQLCE = 2,
-
-		/// <summary>
-		/// Microsoft .NET Framework 6.0
-		/// </summary>
-		DotNet60 = 3,*/
-
 		/// <summary>
 		/// Microsoft DirectX update
 		/// </summary>
@@ -232,7 +222,9 @@ namespace RD_AAOW
 					alreadyInstalled = s.StartsWith ("14.3");
 					break;
 
-				/*case AppDefaultRequirements.SQLCE:
+#if SQL_NET60
+
+				case AppDefaultRequirements.SQLCE:
 					downloadLink = "https://microsoft.com/en-us/download/details.aspx?id=30709";
 					description = "Microsoft SQL Server Compact 4.0 SP1";
 
@@ -262,7 +254,9 @@ namespace RD_AAOW
 					catch { }
 
 					alreadyInstalled = (v >= 6);
-					break;*/
+					break;
+
+#endif
 
 				case AppDefaultRequirements.DotNet80:
 					downloadLink = "https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/" +
@@ -343,12 +337,6 @@ namespace RD_AAOW
 					return "CPP+";
 
 				// Устаревшие
-				/*case AppDefaultRequirements.SQLCE:
-					return "SQL+";
-
-				case AppDefaultRequirements.DotNet60:
-					return "NF6+";*/
-
 				case AppDefaultRequirements.DotNETFramework480:
 					return "CS+";
 				}

@@ -1,5 +1,9 @@
 DPArray: changes log
 
+Version 7.3:
+• Cumulative updates have been applied;
+• XPUN control has been updated
+
 Version 7.2.9:
 • Removed support for .NET 6.0 and SQL CE 4.0;
 • Added the substitution for .NET Framework 4.8.1 when using Windows 8.1 or older
