@@ -15,30 +15,30 @@ n:Batch image convertor
 a:BatchImageConvertor.7z
 f:F
 i:INFOPAGE
-v:3.9.4
-s:2885671
-p:0059C5EA9695CDA5
+v:3.9.5
+s:2885296
+p:0059C3E7FEF9CDE4
 
 n:ConcurrentDraw
 a:ConcurrentDraw.dp
 f:F
 i:INFOPAGE
-v:3.4.7
-p:000B2939EDCEFBEF
+v:3.4.8
+p:000B2B36D6915CAC
 
 n:Dates difference
 a:DatesDifference.dp
 f:0
 i:INFOPAGE
-v:3.4.7
+v:3.4.8
 p:000350819C20A681
 
 n:File extensions manager
 a:FileExtensionsManager.dp
 f:0
 i:INFOPAGE
-v:2.6.6
-p:0005923A04D8E49A
+v:2.6.8
+p:00059AD2BD99D465
 
 n:Font finder
 a:FontFinder.dp
@@ -259,7 +259,7 @@ g:Microsoft Store
 n:Dates difference
 f:FVD
 i:MS_STORE/9NRQ4LQZNKKG
-v:3.4.7
+v:3.4.8
 
 n:Font finder
 f:FVD
