@@ -219,7 +219,7 @@ namespace RD_AAOW
 						"Microsoft.VS.VC_RuntimeAdditionalVSU_x86,v14",
 						"Version");
 
-					alreadyInstalled = s.StartsWith ("14.3");
+					alreadyInstalled = s.StartsWith ("14.3") || s.StartsWith ("14.4");
 					break;
 
 #if SQL_NET60
