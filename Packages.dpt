@@ -115,10 +115,10 @@ n:ESHQ, actual update
 a:ESHQ_update.7z
 f:0
 i:MODSHOST/eshq
-u:MODSTORAGE/269397?MOD_REFeshq
-v:14.0.5
-s:2880840
-p:005600DB9ECA2453
+u:MODSTORAGE/272978?MOD_REFeshq
+v:14.1
+s:7899554
+p:00FE50DDD511237B
 
 /n:ESHQ, backward compatibility
 /a:ESHQ_backward.7z
@@ -143,10 +143,10 @@ n:ES: Randomaze, actual update
 a:ESRM_update.7z
 f:0
 i:MODSHOST/esrm
-u:MODSTORAGE/272745?MOD_REFesrm
-v:5.5
-s:14145973
-p:0155A5D83BF1C965
+u:MODSTORAGE/272981?MOD_REFesrm
+v:5.5.1
+s:14138220
+p:0155B26F33414D4F
 
 n:Crazy cheater’s mod
 a:GTAViceCity.7z
@@ -352,11 +352,6 @@ n:Make decision
 f:FVD
 i:HU_STORE/qsttV4pmU0
 v:3.7.1
-
-n:uNot
-f:FVD
-i:HU_STORE/qK2aIuhnOM
-v:7.4.6
 
 
 
