@@ -59,8 +59,8 @@ a:KassArray.dp
 f:F
 i:INFOPAGE
 l:r
-v:5.7
-p:00165295CA13479E
+v:5.8
+p:00166492A06613E0
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
@@ -143,10 +143,10 @@ n:ES: Randomaze, actual update
 a:ESRM_update.7z
 f:0
 i:MODSHOST/esrm
-u:MODSTORAGE/272981?MOD_REFesrm
-v:5.5.1
-s:14138220
-p:0155B26F33414D4F
+u:MODSTORAGE/273156?MOD_REFesrm
+v:5.5.3
+s:14162680
+p:01561EAB99DFDF5D
 
 n:Crazy cheater’s mod
 a:GTAViceCity.7z
@@ -216,8 +216,8 @@ a:KassArray.apk
 f:FV
 i:INFOPAGE
 l:r
-v:5.7.5
-s:50950712
+v:5.8
+s:50954808
 
 n:Make decision
 u:GIT_LINK/MakeDecision/GIT_PATH/DEFFILE
@@ -275,7 +275,7 @@ n:KassArray
 f:FVD
 l:r
 i:MS_STORE/9ND98F4C4Q60
-v:5.6.5
+v:5.8
 
 n:Mafia helper
 f:FVD
@@ -315,7 +315,7 @@ n:KassArray
 f:FVD
 l:r
 i:GP_STOREcom.RD_AAOW.TextToKKT
-v:5.7.5
+v:5.8
 
 n:Make decision
 f:FVD
@@ -346,7 +346,7 @@ n:KassArray
 f:FVD
 l:r
 i:HU_STORE/qp5L7sHUhW
-v:5.7.5
+v:5.8
 
 n:Make decision
 f:FVD
