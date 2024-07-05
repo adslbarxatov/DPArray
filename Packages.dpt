@@ -210,6 +210,15 @@ p:0240ED37A0B7A37E
 
 g:Android apps as APK
 
+n:Grammar must joy
+u:GIT_LINK/GrammarMustJoy/GIT_PATH/DEFFILE
+a:GrammarMustJoy.apk
+f:FV
+i:INFOPAGE
+l:r
+v:1.0
+s:50835880
+
 n:KassArray
 u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
 a:KassArray.apk
@@ -311,10 +320,16 @@ v:7.5
 
 g:Google play
 
+n:Grammar must joy
+f:FVD
+i:GP_STOREcom.RD_AAOW.GrammarMustJoy
+l:r
+v:1.0
+
 n:KassArray
 f:FVD
-l:r
 i:GP_STOREcom.RD_AAOW.TextToKKT
+l:r
 v:5.8
 
 n:Make decision
@@ -329,8 +344,8 @@ v:3.6
 
 n:Tablepedia notifier
 f:FVD
-l:r
 i:GP_STOREcom.RD_AAOW.TablepediaNotifier
+l:r
 v:5.3.5
 
 n:uNot
