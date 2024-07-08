@@ -122,7 +122,6 @@ DPArray выполняет установку, деинсталляцию, пр�
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NVZ51RL54K4) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/uninotifier/releases/latest) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) &#x3000;
-:iphone: На [На AppGallery](https://url.cloud.huawei.com/qK2aIuhnOM) &#x3000;
 :package: [В виде APK](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.apk)
 
 Служба наблюдения за состоянием веб-ресурсов.
@@ -153,6 +152,8 @@ DPArray выполняет установку, деинсталляцию, пр�
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/GrammarMustJoy) &#x3000;
 :earth_africa: [Канал ВКонтакте](https://vk.com/grammarmustjoy) &#x3000;
 :earth_asia: [Канал Telegram](https://t.me/grammarmustjoy) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://GrammarMustJoy) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/GrammarMustJoy/releases/latest) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.GrammarMustJoy) &#x3000;
 :package: [В виде APK](https://github.com/adslbarxatov/GrammarMustJoy/releases/latest/download/GrammarMustJoy.apk)
 
@@ -208,7 +209,6 @@ DPArray выполняет установку, деинсталляцию, пр�
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9ND98F4C4Q60) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/kassarray/releases/latest) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT) &#x3000;
-:iphone: [На AppGallery](https://url.cloud.huawei.com/qp5L7sHUhW) &#x3000;
 :package: [В виде APK](https://github.com/adslbarxatov/KassArray/releases/latest/download/KassArray.apk)
 
 Инструмент сервис-инженера контрольно-кассовой техники (54-ФЗ). Первый проект Лаборатории, доступный одновременно

@@ -365,12 +365,6 @@ v:7.5
 
 g:AppGallery
 
-n:KassArray
-f:FVD
-l:r
-i:HU_STORE/qp5L7sHUhW
-v:5.8
-
 n:Make decision
 f:FVD
 i:HU_STORE/qsttV4pmU0
@@ -380,5 +374,7 @@ v:3.7.1
 
 me:Now you can really help the Lab and all its idea followers!||
 me:Learn more about our investition token in the App about > Help the project section
-mr:Теперь Вы по-настоящему можете помочь не только Лаборатории, но и всем её идейным последователям!||
-mr:Узнайте больше о нашем инвестиционном токене в разделе О программе > Помочь проекту
+
+mr:- Сообщество Grammar must joy теперь имеет собственные клиенты для Windows и Android!|||
+mr:- Теперь Вы по-настоящему можете помочь не только Лаборатории, но и всем её идейным последователям!|
+mr:  Узнайте больше о нашем инвестиционном токене в разделе О программе > Помочь проекту
