@@ -233,8 +233,8 @@ a:KassArray.apk
 f:FV
 i:INFOPAGE
 l:r
-v:5.8
-s:50954808
+v:5.8.1
+s:42396960
 
 n:Make decision
 u:GIT_LINK/MakeDecision/GIT_PATH/DEFFILE
@@ -267,7 +267,7 @@ a:UniNotifier.apk
 f:FV
 i:INFOPAGE
 v:7.5
-s:50897464
+s:42343712
 
 
 
@@ -298,7 +298,7 @@ n:KassArray
 f:FVD
 l:r
 i:MS_STORE/9ND98F4C4Q60
-v:5.8
+v:5.8.1
 
 n:Mafia helper
 f:FVD
@@ -344,7 +344,7 @@ n:KassArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextToKKT
 l:r
-v:5.8
+v:5.8.1
 
 n:Make decision
 f:FVD
