@@ -12,7 +12,7 @@
 &#x25CF; [Dependencies of app products](#dependencies-of-app-products) &#x25CF;
 [Operating system limitations](#operating-system-limitations) &#x25CF;
 
-&#x25CF; [*Русскоязычная версия*](https://adslbarxatov.github.io/DPArray/ru) &#x25CF;
+&#x25CF; [*Версия на русском языке*](https://adslbarxatov.github.io/DPArray/ru) &#x25CF;
 
 &nbsp;
 
@@ -128,14 +128,11 @@ No additional codecs are required
 ### uNot (UniNotifier)
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
-<img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/UniNotifier) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=nOb4MbL-jlI) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://UniNotifier) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NVZ51RL54K4) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/uninotifier/releases/latest) &#x3000;
-:iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) &#x3000;
-:package: [Get APK](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.apk)
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/uninotifier/releases/latest)
 
 The web resources supervisor service.
 This app provides the ability to be notified when the content of user-specified websites changes.

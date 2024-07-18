@@ -67,8 +67,8 @@ a:KassArray.dp
 f:F
 i:INFOPAGE
 l:r
-v:5.8.1
-p:00166494BEED3CED
+v:5.8.2
+p:001668943D26F91B
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
@@ -233,8 +233,8 @@ a:KassArray.apk
 f:FV
 i:INFOPAGE
 l:r
-v:5.8.1
-s:42396960
+v:5.8.2
+s:42392864
 
 n:Make decision
 u:GIT_LINK/MakeDecision/GIT_PATH/DEFFILE
@@ -344,7 +344,7 @@ n:KassArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextToKKT
 l:r
-v:5.8.1
+v:5.8.2
 
 n:Make decision
 f:FVD
