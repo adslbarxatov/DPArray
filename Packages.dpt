@@ -95,8 +95,8 @@ n:uNot
 a:UniNotifier.dp
 f:0
 i:INFOPAGE
-v:7.5
-p:0005D36554BAEF61
+v:7.5.40
+p:0005D36803A3A697
 
 n:Vice city toolset
 a:ViceCityToolset.dp
@@ -241,8 +241,8 @@ u:GIT_LINK/MakeDecision/GIT_PATH/DEFFILE
 a:MakeDecision.apk
 f:FV
 i:INFOPAGE
-v:3.7.1
-s:50996035
+v:3.7.2
+s:42265744
 
 n:PA detector
 u:GIT_LINK/EnchantIt/GIT_PATH/DEFFILE
@@ -261,13 +261,13 @@ l:r
 v:5.3.5
 s:35173737
 
-n:uNot
-u:GIT_LINK/UniNotifier/GIT_PATH/DEFFILE
-a:UniNotifier.apk
-f:FV
-i:INFOPAGE
-v:7.5
-s:42343712
+/n:uNot
+/u:GIT_LINK/UniNotifier/GIT_PATH/DEFFILE
+/a:UniNotifier.apk
+/f:FV
+/i:INFOPAGE
+/v:7.5
+/s:42343712
 
 
 
@@ -328,7 +328,7 @@ v:2.4.2
 n:uNot
 f:FVD
 i:MS_STORE/9NVZ51RL54K4
-v:7.5
+v:7.5.40
 
 
 
@@ -349,7 +349,7 @@ v:5.8.1
 n:Make decision
 f:FVD
 i:GP_STOREcom.RD_AAOW.MakeDecision
-v:3.7.1
+v:3.7.2
 
 n:PA detector
 f:FVD
@@ -362,10 +362,10 @@ i:GP_STOREcom.RD_AAOW.TablepediaNotifier
 l:r
 v:5.3.5
 
-n:uNot
-f:FVD
-i:GP_STOREcom.RD_AAOW.UniNotifier
-v:7.5
+/n:uNot
+/f:FVD
+/i:GP_STOREcom.RD_AAOW.UniNotifier
+/v:7.5
 
 
 
@@ -374,7 +374,7 @@ g:AppGallery
 n:Make decision
 f:FVD
 i:HU_STORE/qsttV4pmU0
-v:3.7.1
+v:3.7.2
 
 
 
