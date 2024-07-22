@@ -239,6 +239,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/MakeDecision/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=hU62FlQ5JNk) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://MakeDecision) &#x3000;
+:briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NBKLN7493ZL) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/makedecision/releases/latest) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) &#x3000;
 :iphone: [На AppGallery](https://url.cloud.huawei.com/qsttV4pmU0) &#x3000;
