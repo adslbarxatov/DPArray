@@ -70,6 +70,13 @@ l:r
 v:5.8.3
 p:00168894AFDDA9DD
 
+n:Make decision
+a:MakeDecision.dp
+f:0
+i:INFOPAGE
+v:3.7.3
+p:0003983BE067377A
+
 n:OS macros executor
 a:OSMacrosExecutor.dp
 f:F

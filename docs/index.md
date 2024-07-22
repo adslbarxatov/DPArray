@@ -175,9 +175,12 @@ Stand-alone tool for building and designing diagrams based on tabular data
 
 ### Make decision
 :gb: :ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/MakeDecision) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=gjewz9mQMgI) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://MakeDecision) &#x3000;
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/makedecision/releases/latest) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) &#x3000;
 :iphone: [Get on AppGallery](https://url.cloud.huawei.com/qsttV4pmU0) &#x3000;
 :package: [Get APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.apk)
