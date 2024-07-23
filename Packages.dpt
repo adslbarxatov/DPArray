@@ -59,8 +59,8 @@ a:GrammarMustJoy.dp
 f:0
 i:INFOPAGE
 l:r
-v:1.1
-p:0003B76C87D2AC3A
+v:1.1.3
+p:0003C16C57B358B7
 
 n:KassArray
 a:KassArray.dp
@@ -231,7 +231,7 @@ a:GrammarMustJoy.apk
 f:FV
 i:INFOPAGE
 l:r
-v:1.1.1
+v:1.1.3
 s:42282128
 
 n:KassArray
@@ -299,7 +299,7 @@ n:Grammar must joy
 f:FVD
 l:r
 i:MS_STORE/9NZ7WMRX5SF3
-v:1.1
+v:1.1.3
 
 n:KassArray
 f:FVD
@@ -350,7 +350,7 @@ n:Grammar must joy
 f:FVD
 i:GP_STOREcom.RD_AAOW.GrammarMustJoy
 l:r
-v:1.1.1
+v:1.1.3
 
 n:KassArray
 f:FVD
