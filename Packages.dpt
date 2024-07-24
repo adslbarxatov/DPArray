@@ -67,8 +67,8 @@ a:KassArray.dp
 f:F
 i:INFOPAGE
 l:r
-v:5.8.3
-p:00168894AFDDA9DD
+v:5.8.5
+p:00168694CF9BC3E0
 
 n:Make decision
 a:MakeDecision.dp
@@ -232,7 +232,7 @@ f:FV
 i:INFOPAGE
 l:r
 v:1.1.3
-s:42282128
+s:42298512
 
 n:KassArray
 u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
