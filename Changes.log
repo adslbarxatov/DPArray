@@ -1,7 +1,11 @@
 DPArray: changes log
 
+Version 7.3.2:
+• Applied some improvements for generic interfaces;
+• Updated the videoguide
+
 Version 7.3.1:
-• Some adjustments apllied to the requirements checker;
+• Some adjustments applied to the requirements checker;
 • Some fixes applied to the interface
 
 Version 7.3:

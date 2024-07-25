@@ -115,8 +115,6 @@ namespace RD_AAOW
 			{
 			// Инициализация
 			InitializeComponent ();
-			this.AcceptButton = ExitButton;
-			this.CancelButton = MisacceptButton;
 
 			// Получение параметров
 			bool localized = (ProgramDescription.AssemblyLocalizedReferences.Length >=
@@ -203,6 +201,15 @@ namespace RD_AAOW
 			ExitButton.Text = RDLocale.GetDefaultText (AcceptMode ? RDLDefaultTexts.Button_Accept :
 				RDLDefaultTexts.Button_Exit);
 			MisacceptButton.Text = RDLocale.GetDefaultText (RDLDefaultTexts.Button_Decline);
+			if (AcceptMode)
+				{
+				this.AcceptButton = ExitButton;
+				this.CancelButton = MisacceptButton;
+				}
+			else
+				{
+				this.CancelButton = ExitButton;
+				}
 
 			if (!AcceptMode)
 				{
@@ -232,6 +239,9 @@ namespace RD_AAOW
 
 			AddButton (RDLocale.GetDefaultText (RDLDefaultTexts.Control_PolicyEULA),
 				ShowADP_Click, true);
+			AddButton (RDLocale.GetDefaultText (RDLDefaultTexts.Control_SocialPolicy),
+				ShowSCP_Click, true);
+
 			if (AcceptMode)
 				{
 				linkButtons[linkButtons.Count - 1].Width = 404;
@@ -349,17 +359,19 @@ namespace RD_AAOW
 		private void AddButton (string Text, EventHandler Method, bool Enabled)
 			{
 			linkButtons.Add (new Button ());
-			linkButtons[linkButtons.Count - 1].Text = Text;
-			linkButtons[linkButtons.Count - 1].Left = 7 + (buttonIndex % 2) * (200 + 6);
-			linkButtons[linkButtons.Count - 1].Top = IconBox.Top + IconBox.Height + 24 + 27 * (int)(buttonIndex / 2);
-			linkButtons[linkButtons.Count - 1].Width = 200;
-			linkButtons[linkButtons.Count - 1].Height = 26;
-			linkButtons[linkButtons.Count - 1].Click += Method;
-			linkButtons[linkButtons.Count - 1].FlatStyle = FlatStyle.Flat;
-			linkButtons[linkButtons.Count - 1].FlatAppearance.BorderSize = 0;
-			linkButtons[linkButtons.Count - 1].Enabled = Enabled;
+			Button b = linkButtons[linkButtons.Count - 1];
 
-			this.Controls.Add (linkButtons[linkButtons.Count - 1]);
+			b.Text = Text;
+			b.Width = 200;
+			b.Height = 26;
+			b.Left = 7 + (buttonIndex % 2) * (b.Width + 6);
+			b.Top = IconBox.Top + IconBox.Height + 24 + 27 * (int)(buttonIndex / 2);
+			b.Click += Method;
+			b.FlatStyle = FlatStyle.Flat;
+			b.FlatAppearance.BorderSize = 0;
+			b.Enabled = Enabled;
+
+			this.Controls.Add (b);
 			buttonIndex++;
 			}
 		private int buttonIndex = 0;
@@ -581,6 +593,11 @@ namespace RD_AAOW
 			RDGenerics.RunURL (RDGenerics.ADPLink);
 			}
 
+		private void ShowSCP_Click (object sender, EventArgs e)
+			{
+			RDGenerics.RunURL (RDGenerics.SCPLink);
+			}
+
 		private void GoLabMain_Click (object sender, EventArgs e)
 			{
 			RDGenerics.RunURL (RDGenerics.DPArrayLink);
@@ -602,6 +619,14 @@ namespace RD_AAOW
 			}
 
 		private void AskDeveloper_Click (object sender, EventArgs e)
+			{
+			AskDeveloper ();
+			}
+
+		/// <summary>
+		/// Метод запускает почтовый клиент и отображает черновик письма разработчику
+		/// </summary>
+		public static void AskDeveloper ()
 			{
 			RDGenerics.RunURL ("mailto://" + RDGenerics.LabMailLink + ("?subject=" +
 				RDGenerics.LabMailCaption).Replace (" ", "%20"));
