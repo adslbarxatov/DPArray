@@ -116,7 +116,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/UniNotifier/ru) &#x3000;
-:film_projector: [Видеоруководство](https://youtube.com/watch?v=gjs9K1EsFG8) &#x3000;
+:film_projector: [Видеоруководство](https://youtube.com/watch?v=YdmfB13mf8U) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://UniNotifier) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NVZ51RL54K4) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/uninotifier/releases/latest)
@@ -161,28 +161,12 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 
 
-### PA detector (Enchant it)
-:gb: :ru: &#x3000;
-<img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And6.png" width="16"> &#x3000;
-:page_with_curl: [Руководство](https://adslbarxatov.github.io/EnchantIt/ru) &#x3000;
-:film_projector: [Видеоруководство](https://youtube.com/watch?v=Dqcrs0F6Gq0) &#x3000;
-:iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) &#x3000;
-:package: [В виде APK](https://github.com/adslbarxatov/EnchantIt/releases/latest/download/EnchantIt.apk)
-
-Инструмент поиска паранормальной активности. Его задача – обнаружить и математически подтвердить какую-либо
-паранормальную активность. Перед началом использования рекомендуется ознакомиться с видеопрезентацией проекта,
-а также полным описанием метода
-
-&nbsp;
-
-
-
 ### KassArray
 :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/KassArray) &#x3000;
-:film_projector: [Видеопрезентация](https://youtube.com/watch?v=25BYSySdAJk) &#x3000;
+:film_projector: [Видеопрезентация](https://youtube.com/watch?v=CViBZpQx9MY) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KassArray) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9ND98F4C4Q60) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/kassarray/releases/latest) &#x3000;
@@ -488,6 +472,21 @@ ES: Randomaze – генератор карт для одноимённого м
 
 &nbsp;
 
+
+
+### PA detector (Enchant it)
+:gb: :ru: &#x3000;
+<img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And6.png" width="16"> :hourglass_flowing_sand: &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/EnchantIt/ru)
+
+Инструмент поиска паранормальной активности. Его задача – обнаружить и математически подтвердить какую-либо
+паранормальную активность. Перед началом использования рекомендуется ознакомиться с видеопрезентацией проекта,
+а также полным описанием метода
+
+&nbsp;
+
+
+
 ### Accounts manager
 :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/SQL.png" width="16"> :hourglass_flowing_sand: &#x3000;
@@ -497,6 +496,8 @@ ES: Randomaze – генератор карт для одноимённого м
 сведений о контрактах и бюджетных обязательствах предприятия
 
 &nbsp;
+
+
 
 ### FullSilence, CodeShow
 :gb: :ru: &#x3000;
@@ -511,6 +512,8 @@ ES: Randomaze – генератор карт для одноимённого м
 
 &nbsp;
 
+
+
 ### Keyboard switcher
 :gb: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> :no_entry_sign: &#x3000;
@@ -520,6 +523,8 @@ ES: Randomaze – генератор карт для одноимённого м
 и EN_us). Кроме того, позволяет преобразовывать HEX-данные в двоичные и обратно
 
 &nbsp;
+
+
 
 ### GIATester
 :ru: &#x3000;

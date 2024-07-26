@@ -129,7 +129,7 @@ No additional codecs are required
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/UniNotifier) &#x3000;
-:film_projector: [Video guide](https://youtube.com/watch?v=nOb4MbL-jlI) &#x3000;
+:film_projector: [Video guide](https://youtube.com/watch?v=7WrfzDlpJlM) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://UniNotifier) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NVZ51RL54K4) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/uninotifier/releases/latest)
@@ -138,21 +138,6 @@ The web resources supervisor service.
 This app provides the ability to be notified when the content of user-specified websites changes.
 In other words, about updates on them, which will be presented in the form of a text log. Only what the user
 has specified is loaded – all other objects (including ads) are ignored
-
-&nbsp;
-
-
-
-### PA detector (Enchant it)
-:gb: :ru: &#x3000;
-<img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And6.png" width="16"> &#x3000;
-:page_with_curl: [User guide](https://adslbarxatov.github.io/EnchantIt) &#x3000;
-:film_projector: [Video guide](https://youtube.com/watch?v=xy0LDXgoR5U) &#x3000;
-:iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) &#x3000;
-:package: [Get APK](https://github.com/adslbarxatov/EnchantIt/releases/latest/download/EnchantIt.apk)
-
-The paranormal activity search tool. Its task is to discover and mathematically confirm some paranormal
-activity. Before starting the experiment take a look at the project presentation and complete method description
 
 &nbsp;
 
@@ -449,6 +434,18 @@ This app imitates the “Thousand” game for three players
 
 &nbsp;
 
+### PA detector (Enchant it)
+:gb: :ru: &#x3000;
+<img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And6.png" width="16"> :hourglass_flowing_sand: &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/EnchantIt)
+
+The paranormal activity search tool. Its task is to discover and mathematically confirm some paranormal
+activity. Before starting the experiment take a look at the project presentation and complete method description
+
+&nbsp;
+
+
+
 ### FullSilence, CodeShow
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> :hourglass_flowing_sand: &#x3000;
@@ -461,6 +458,8 @@ Code fragments used in video projects of the same names in text visualization.
 *CodeShow* is a video tutorials builder focused on the presentation of source codes
 
 &nbsp;
+
+
 
 ### Keyboard switcher
 :gb: &#x3000;
