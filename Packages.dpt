@@ -102,8 +102,8 @@ n:uNot
 a:UniNotifier.dp
 f:0
 i:INFOPAGE
-v:7.5.40
-p:0005D36803A3A697
+v:7.5.45
+p:0005D968BC8DCE90
 
 n:Vice city toolset
 a:ViceCityToolset.dp
@@ -268,14 +268,6 @@ l:r
 v:5.4.1
 s:42265744
 
-/n:uNot
-/u:GIT_LINK/UniNotifier/GIT_PATH/DEFFILE
-/a:UniNotifier.apk
-/f:FV
-/i:INFOPAGE
-/v:7.5
-/s:42343712
-
 
 
 g:Microsoft Store
@@ -340,7 +332,7 @@ v:2.4.2
 n:uNot
 f:FVD
 i:MS_STORE/9NVZ51RL54K4
-v:7.5.40
+v:7.5.45
 
 
 
@@ -373,11 +365,6 @@ f:FVD
 i:GP_STOREcom.RD_AAOW.TablepediaNotifier
 l:r
 v:5.4.1
-
-/n:uNot
-/f:FVD
-/i:GP_STOREcom.RD_AAOW.UniNotifier
-/v:7.5
 
 
 
