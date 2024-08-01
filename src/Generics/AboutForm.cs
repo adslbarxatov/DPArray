@@ -239,13 +239,16 @@ namespace RD_AAOW
 
 			AddButton (RDLocale.GetDefaultText (RDLDefaultTexts.Control_PolicyEULA),
 				ShowADP_Click, true);
+			if (AcceptMode)
+				buttonIndex++;
 			AddButton (RDLocale.GetDefaultText (RDLDefaultTexts.Control_SocialPolicy),
 				ShowSCP_Click, true);
 
 			if (AcceptMode)
 				{
-				linkButtons[linkButtons.Count - 1].Width = 404;
-				linkButtons[linkButtons.Count - 1].BackColor =
+				int amlb = linkButtons.Count - 2;
+				linkButtons[amlb].Width = linkButtons[amlb + 1].Width = 404;
+				linkButtons[amlb].BackColor = linkButtons[amlb + 1].BackColor =
 					RDGenerics.GetInterfaceColor (RDInterfaceColors.WarningMessage);
 				}
 
