@@ -59,8 +59,8 @@ a:GrammarMustJoy.dp
 f:0
 i:INFOPAGE
 l:r
-v:1.1.3
-p:0003C16C57B358B7
+v:1.1.4
+p:0003C76CC9D02A61
 
 n:KassArray
 a:KassArray.dp
@@ -74,8 +74,8 @@ n:Make decision
 a:MakeDecision.dp
 f:0
 i:INFOPAGE
-v:3.7.3
-p:0003983BE067377A
+v:3.7.4
+p:00039E3D619F5B92
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
@@ -231,7 +231,7 @@ a:GrammarMustJoy.apk
 f:FV
 i:INFOPAGE
 l:r
-v:1.1.3
+v:1.1.4
 s:42298512
 
 n:KassArray
@@ -248,16 +248,8 @@ u:GIT_LINK/MakeDecision/GIT_PATH/DEFFILE
 a:MakeDecision.apk
 f:FV
 i:INFOPAGE
-v:3.7.3
+v:3.7.4
 s:42265744
-
-/n:PA detector
-/u:GIT_LINK/EnchantIt/GIT_PATH/DEFFILE
-/a:EnchantIt.apk
-/f:FV
-/i:INFOPAGE
-/v:3.6.1
-/s:49256291
 
 n:Tablepedia notifier
 u:GIT_LINK/UniNotifier/GIT_PATH/DEFFILE
@@ -291,7 +283,7 @@ n:Grammar must joy
 f:FVD
 l:r
 i:MS_STORE/9NZ7WMRX5SF3
-v:1.1.3
+v:1.1.4
 
 n:KassArray
 f:FVD
@@ -307,7 +299,7 @@ v:1.10.2
 n:Make decision
 f:FVD
 i:MS_STORE/9NBKLN7493ZL
-v:3.7.3
+v:3.7.4
 
 n:One hundred and one
 f:FVD
@@ -342,7 +334,7 @@ n:Grammar must joy
 f:FVD
 i:GP_STOREcom.RD_AAOW.GrammarMustJoy
 l:r
-v:1.1.3
+v:1.1.4
 
 n:KassArray
 f:FVD
@@ -353,12 +345,7 @@ v:5.8.7
 n:Make decision
 f:FVD
 i:GP_STOREcom.RD_AAOW.MakeDecision
-v:3.7.3
-
-/n:PA detector
-/f:FVD
-/i:GP_STOREcom.RD_AAOW.EnchantIt
-/v:3.6.1
+v:3.7.4
 
 n:Tablepedia notifier
 f:FVD
