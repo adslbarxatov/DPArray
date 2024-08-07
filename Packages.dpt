@@ -59,8 +59,8 @@ a:GrammarMustJoy.dp
 f:0
 i:INFOPAGE
 l:r
-v:1.1.4
-p:0003C76CC9D02A61
+v:1.2.5
+p:0003B711D33DD9AF
 
 n:KassArray
 a:KassArray.dp
@@ -231,8 +231,8 @@ a:GrammarMustJoy.apk
 f:FV
 i:INFOPAGE
 l:r
-v:1.1.4
-s:42298512
+v:1.2.5
+s:49302893
 
 n:KassArray
 u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
@@ -283,7 +283,7 @@ n:Grammar must joy
 f:FVD
 l:r
 i:MS_STORE/9NZ7WMRX5SF3
-v:1.1.4
+v:1.2.5
 
 n:KassArray
 f:FVD
@@ -334,7 +334,7 @@ n:Grammar must joy
 f:FVD
 i:GP_STOREcom.RD_AAOW.GrammarMustJoy
 l:r
-v:1.1.4
+v:1.2.5
 
 n:KassArray
 f:FVD
@@ -367,6 +367,5 @@ v:3.7.2
 me:Now you can really help the Lab and all its idea followers!||
 me:Learn more about our investition token in the App about > Help the project section
 
-mr:- Сообщество Grammar must joy теперь имеет собственные клиенты для Windows и Android!|||
-mr:- Теперь Вы по-настоящему можете помочь не только Лаборатории, но и всем её идейным последователям!|
-mr:  Узнайте больше о нашем инвестиционном токене в разделе О программе > Помочь проекту
+mr:Теперь Вы по-настоящему можете помочь не только Лаборатории, но и всем её идейным последователям!|
+mr:Узнайте больше о нашем инвестиционном токене в разделе О программе > Помочь проекту
