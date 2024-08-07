@@ -102,8 +102,8 @@ n:uNot
 a:UniNotifier.dp
 f:0
 i:INFOPAGE
-v:7.5.50
-p:0005D968C2FB7BDD
+v:7.6
+p:0005DF65939527C3
 
 n:Vice city toolset
 a:ViceCityToolset.dp
@@ -324,7 +324,7 @@ v:2.4.2
 n:uNot
 f:FVD
 i:MS_STORE/9NVZ51RL54K4
-v:7.5.50
+v:7.6
 
 
 
