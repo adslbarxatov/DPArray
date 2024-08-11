@@ -99,16 +99,6 @@ namespace RD_AAOW
 		private List<Button> linkButtons = new List<Button> ();
 
 		/// <summary>
-		/// Возвращает псевдоним для справочного материала по умолчанию
-		/// </summary>
-		public const string DefaultRefMaterialAlias = "D";
-
-		/// <summary>
-		/// Возвращает псевдоним для отсутствующего справочного материала
-		/// </summary>
-		public const string MissingRefMaterialAlias = "";
-
-		/// <summary>
 		/// Конструктор. Инициализирует форму
 		/// </summary>
 		public AboutForm ()
@@ -117,29 +107,30 @@ namespace RD_AAOW
 			InitializeComponent ();
 
 			// Получение параметров
-			bool localized = (ProgramDescription.AssemblyLocalizedReferences.Length >=
-				RDLocale.LanguagesNames.Length * 2);
-			short locOffset = (short)RDLocale.CurrentLanguage;
+			bool localized = (ProgramDescription.AssemblyLanguages.Length == RDLocale.LanguagesNames.Length);
+			int al = localized ? (int)RDLocale.CurrentLanguage : 0;
 
 			if (veryFirstStart < 0)
 				veryFirstStart =
 					string.IsNullOrWhiteSpace (RDGenerics.GetAppRegistryValue (LastShownVersionKey)) ? 1 : 0;
 
-			string line = ProgramDescription.AssemblyLocalizedReferences[localized ? 0 + locOffset : 0];
-			if (string.IsNullOrWhiteSpace (line))
-				userManualLink = "";
-			else if (line == DefaultRefMaterialAlias)
-				userManualLink = localized ? RDGenerics.AssemblyLocalizedGitPageLink :
-					RDGenerics.AssemblyGitPageLink;
+			// Пустые ссылки больше не поддерживаются
+			if (ProgramDescription.AssemblyReferenceLinks.Length < 1)
+				{
+				if (localized)
+					userManualLink = RDGenerics.AssemblyLocalizedGitPageLink;
+				else
+					userManualLink = RDGenerics.AssemblyGitPageLink;
+				}
 			else
-				userManualLink = line;
+				{
+				userManualLink = ProgramDescription.AssemblyReferenceLinks[al];
+				}
 
-			line = ProgramDescription.AssemblyLocalizedReferences[localized ?
-				RDLocale.LanguagesNames.Length + locOffset : 1];
-			if (string.IsNullOrWhiteSpace (line))
+			if (ProgramDescription.AssemblyVideoLinks.Length < 1)
 				userVideomanualLink = "";
 			else
-				userVideomanualLink = RDGenerics.StaticYTLink + line;
+				userVideomanualLink = RDGenerics.StaticYTLink + ProgramDescription.AssemblyVideoLinks[al];
 
 			projectLink = RDGenerics.DefaultGitLink + ProgramDescription.AssemblyMainName;
 			updatesLink = RDGenerics.DefaultGitLink + ProgramDescription.AssemblyMainName +
@@ -712,7 +703,7 @@ namespace RD_AAOW
 			htmlError = false;
 
 			// Получение обновлений Политики (ошибки игнорируются)
-		policy:
+			policy:
 			if (startupMode)
 				{
 				string adpRev = ExtractPolicyRevision (GetPolicy ());
