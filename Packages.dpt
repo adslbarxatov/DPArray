@@ -30,22 +30,22 @@ n:Dates difference
 a:DatesDifference.dp
 f:0
 i:INFOPAGE
-v:3.4.8
-p:000350819C20A681
+v:3.4.9
+p:0003547E1EA2FA5C
 
 n:File extensions manager
 a:FileExtensionsManager.dp
 f:0
 i:INFOPAGE
-v:2.6.8
-p:00059AD2BD99D465
+v:2.6.9
+p:0005A0685E2E6ABA
 
 n:Font finder
 a:FontFinder.dp
 f:0
 i:INFOPAGE
-v:3.5.8
-p:0004D17FB0507045
+v:3.5.9
+p:0004D7153F4C2A17
 
 n:Geomag data drawer
 a:GeomagDataDrawer.dp
@@ -267,12 +267,12 @@ g:Microsoft Store
 n:Dates difference
 f:FVD
 i:MS_STORE/9NRQ4LQZNKKG
-v:3.4.8
+v:3.4.9
 
 n:Font finder
 f:FVD
 i:MS_STORE/9MXDR4BXP8R4
-v:3.5.8
+v:3.5.9
 
 n:Geomag data drawer
 f:FVD
