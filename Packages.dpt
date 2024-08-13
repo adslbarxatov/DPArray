@@ -51,24 +51,24 @@ n:Geomag data drawer
 a:GeomagDataDrawer.dp
 f:F
 i:INFOPAGE
-v:5.7.8
-p:0012D5BE7EF9280A
+v:5.7.9
+p:0012DBBEE3CA2384
 
 n:Grammar must joy
 a:GrammarMustJoy.dp
 f:0
 i:INFOPAGE
 l:r
-v:1.3.5
-p:0003D52DD7906486
+v:1.4
+p:0003D52B0D774169
 
 n:KassArray
 a:KassArray.dp
 f:F
 i:INFOPAGE
 l:r
-v:5.8.7
-p:0016949484DED9B5
+v:5.8.9
+p:0016920E0B767A20
 
 n:Make decision
 a:MakeDecision.dp
@@ -180,8 +180,8 @@ n:Mafia helper
 a:MafiaHelper.dp
 f:0
 i:INFOPAGE
-v:1.10.2
-p:0006B129395A127B
+v:1.10.3
+p:0006B72946331E1A
 
 n:One hundred and one
 a:OneHundredOne.dp
@@ -231,7 +231,7 @@ a:GrammarMustJoy.apk
 f:FV
 i:INFOPAGE
 l:r
-v:1.3.5
+v:1.4
 s:49311150
 
 n:KassArray
@@ -277,24 +277,24 @@ v:3.5.9
 n:Geomag data drawer
 f:FVD
 i:MS_STORE/9PG19ZZ3NH47
-v:5.7.8
+v:5.7.9
 
 n:Grammar must joy
 f:FVD
 l:r
 i:MS_STORE/9NZ7WMRX5SF3
-v:1.3.5
+v:1.4
 
 n:KassArray
 f:FVD
 l:r
 i:MS_STORE/9ND98F4C4Q60
-v:5.8.7
+v:5.8.9
 
 n:Mafia helper
 f:FVD
 i:MS_STORE/9N4WB06F64TR
-v:1.10.2
+v:1.10.3
 
 n:Make decision
 f:FVD
@@ -334,7 +334,7 @@ n:Grammar must joy
 f:FVD
 i:GP_STOREcom.RD_AAOW.GrammarMustJoy
 l:r
-v:1.3.5
+v:1.4
 
 n:KassArray
 f:FVD
