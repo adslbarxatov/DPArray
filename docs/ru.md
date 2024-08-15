@@ -432,42 +432,6 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 
-### Races
-:gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF80.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
-:page_with_curl: [Руководство](https://adslbarxatov.github.io/Races/ru) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Races)
-
-Игра «Гонки» – учебный проект для MonoGame Framework
-
-&nbsp;
-
-
-
-### Snake
-:gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF80.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
-:page_with_curl: [Руководство](https://adslbarxatov.github.io/Snake/ru) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Snake)
-
-Игра «Змейка» – учебный проект для MonoGame Framework
-
-&nbsp;
-
-
-
-### Turtle
-:gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF80.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
-:page_with_curl: [Руководство](https://adslbarxatov.github.io/Turtle/ru) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Turtle)
-
-Игра «Черепашка» – учебный проект для MonoGame Framework
-
-&nbsp;
-
-
-
 ---
 
 &nbsp;
@@ -487,9 +451,45 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 
+### Races
+:gb: :ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF80.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> :hourglass_flowing_sand: &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/Races/ru) &#x3000;
+:envelope_with_arrow: [В виде 7z](https://github.com/adslbarxatov/Races/releases/latest/download/Races.2.4.3.7z)
+
+Игра «Гонки» – учебный проект для MonoGame Framework
+
+&nbsp;
+
+
+
+### Snake
+:gb: :ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF80.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> :hourglass_flowing_sand: &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/Snake/ru) &#x3000;
+:envelope_with_arrow: [В виде 7z](https://github.com/adslbarxatov/Snake/releases/latest/download/Snake.2.4.3.7z)
+
+Игра «Змейка» – учебный проект для MonoGame Framework
+
+&nbsp;
+
+
+
+### Turtle
+:gb: :ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF80.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> :hourglass_flowing_sand: &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/Turtle/ru) &#x3000;
+:envelope_with_arrow: [В виде 7z](https://github.com/adslbarxatov/Turtle/releases/latest/download/Turtle.2.4.3.7z)
+
+Игра «Черепашка» – учебный проект для MonoGame Framework
+
+&nbsp;
+
+
+
 ### Accounts manager
 :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/SQL.png" width="16"> :hourglass_flowing_sand: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/SQL.png" width="16"> :no_entry_sign: &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/accountsmanager)
 
 Инструмент управления бюджетными счетами. Программа предназначена для накопления, хранения, обработки и выдачи по запросу

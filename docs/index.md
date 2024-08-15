@@ -394,42 +394,6 @@ This app imitates the “Thousand” game for three players
 
 
 
-### Races
-:gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF80.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
-:page_with_curl: [User guide](https://adslbarxatov.github.io/Races) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://Races)
-
-“Races” minigame – a sample project for MonoGame Framework
-
-&nbsp;
-
-
-
-### Snake
-:gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF80.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
-:page_with_curl: [User guide](https://adslbarxatov.github.io/Snake) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://Snake)
-
-“Snake” minigame – a sample project for MonoGame Framework
-
-&nbsp;
-
-
-
-### Turtle
-:gb: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF80.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> &#x3000;
-:page_with_curl: [User guide](https://adslbarxatov.github.io/Turtle) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://Turtle)
-
-“Turtle” minigame – a sample project for MonoGame Framework
-
-&nbsp;
-
-
-
 ---
 
 &nbsp;
@@ -441,6 +405,42 @@ This app imitates the “Thousand” game for three players
 
 The paranormal activity search tool. Its task is to discover and mathematically confirm some paranormal
 activity. Before starting the experiment take a look at the project presentation and complete method description
+
+&nbsp;
+
+
+
+### Races
+:gb: :ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF80.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> :hourglass_flowing_sand: &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/Races) &#x3000;
+:envelope_with_arrow: [Get 7z](https://github.com/adslbarxatov/Races/releases/latest/download/Races.2.4.3.7z)
+
+“Races” minigame – a sample project for MonoGame Framework
+
+&nbsp;
+
+
+
+### Snake
+:gb: :ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF80.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> :hourglass_flowing_sand: &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/Snake) &#x3000;
+:envelope_with_arrow: [Get 7z](https://github.com/adslbarxatov/Snake/releases/latest/download/Snake.2.4.3.7z)
+
+“Snake” minigame – a sample project for MonoGame Framework
+
+&nbsp;
+
+
+
+### Turtle
+:gb: :ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF80.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> :hourglass_flowing_sand: &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/Turtle) &#x3000;
+:envelope_with_arrow: [Get 7z](https://github.com/adslbarxatov/Turtle/releases/latest/download/Turtle.2.4.3.7z)
+
+“Turtle” minigame – a sample project for MonoGame Framework
 
 &nbsp;
 
