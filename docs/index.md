@@ -614,6 +614,7 @@ subsequently be used as a trading asset (we have decentralized this token and do
 [Crazy cheater’s mod](#crazy-cheaters-mod) &#x3000;
 [Dates difference](#dates-difference) &#x3000;
 [**DPArray**](#dparray) &#x3000;
+[Enchant it](#pa-detector-enchant-it) &#x3000;
 [ESHQ](#eshq) &#x3000;
 [ES: Randomaze](#es-randomaze) &#x3000;
 [File extensions manager](#file-extensions-manager) &#x3000;
@@ -626,15 +627,16 @@ subsequently be used as a trading asset (we have decentralized this token and do
 [Keyboard switcher](#keyboard-switcher) &#x3000;
 [Mafia helper](#mafia-helper) &#x3000;
 [Make decision](#make-decision) &#x3000;
+[One hundred and one](#one-hundred-and-one) &#x3000;
 [OS macros executor](#os-macros-executor) &#x3000;
-[PA detector (Enchant it)](#pa-detector-enchant-it) &#x3000;
 [Races](#races) &#x3000;
 [Screen shooter](#screen-shooter) &#x3000;
 [Snake](#snake) &#x3000;
 [Sudoku solver](#sudoku-solver) &#x3000;
 [Tablepedia notifier](https://adslbarxatov.github.io/DPArray/ru#tablepedia-notifier) &#x3000;
+[Thousand](#thousand) &#x3000;
 [Turtle](#turtle) &#x3000;
-[uNot (UniNotifier)](#unot-uninotifier) &#x3000;
+[uNot](#unot-uninotifier) &#x3000;
 [Vice city toolset](#vice-city-toolset) &#x3000;
 [Xash3D FWGS for ESHQ](#xash3d-fwgs-engine-adaptation-for-eshq) &#x3000;
 [Logo concepts](https://adslbarxatov.github.io/DPArray/logo_en)
