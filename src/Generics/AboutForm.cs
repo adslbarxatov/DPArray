@@ -115,17 +115,23 @@ namespace RD_AAOW
 					string.IsNullOrWhiteSpace (RDGenerics.GetAppRegistryValue (LastShownVersionKey)) ? 1 : 0;
 
 			// Пустые ссылки больше не поддерживаются
+#if NON_DEFAULT_REF_LINKS
 			if (ProgramDescription.AssemblyReferenceLinks.Length < 1)
 				{
-				if (localized)
-					userManualLink = RDGenerics.AssemblyLocalizedGitPageLink;
-				else
-					userManualLink = RDGenerics.AssemblyGitPageLink;
+#endif
+
+			if (localized)
+				userManualLink = RDGenerics.AssemblyLocalizedGitPageLink;
+			else
+				userManualLink = RDGenerics.AssemblyGitPageLink;
+
+#if NON_DEFAULT_REF_LINKS
 				}
 			else
 				{
 				userManualLink = ProgramDescription.AssemblyReferenceLinks[al];
 				}
+#endif
 
 			if (ProgramDescription.AssemblyVideoLinks.Length < 1)
 				userVideomanualLink = "";

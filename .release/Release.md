@@ -1,4 +1,4 @@
-_Changes for v 7.3.4_:
+_Changes for v 7.3.5_:
+- New identity has been applied;
 - The “App about” interface has been updated;
-- Applied some improvements for generic interfaces;
-- Updated the videoguide
+- Applied some improvements for generic interfaces
