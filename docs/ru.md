@@ -112,7 +112,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 
 
-### uNot (UniNotifier)
+### UniNotifier
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/UniNotifier/ru) &#x3000;
@@ -717,7 +717,7 @@ ES: Randomaze – генератор карт для одноимённого м
 [Turtle](#turtle) &#x3000;
 [Tablepedia notifier](#tablepedia-notifier) &#x3000;
 [Thousand](#thousand) &#x3000;
-[uNot](#unot-uninotifier) &#x3000;
+[UniNotifier](#uninotifier) &#x3000;
 [Vice city toolset](#vice-city-toolset) &#x3000;
 [Xash3D FWGS for ESHQ](#xash3d-fwgs-engine-adaptation-for-eshq) &#x3000;
 [Концепты лого](https://adslbarxatov.github.io/DPArray/logo_ru)

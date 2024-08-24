@@ -125,7 +125,7 @@ No additional codecs are required
 
 
 
-### uNot (UniNotifier)
+### UniNotifier
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/UniNotifier) &#x3000;
@@ -636,7 +636,7 @@ subsequently be used as a trading asset (we have decentralized this token and do
 [Tablepedia notifier](https://adslbarxatov.github.io/DPArray/ru#tablepedia-notifier) &#x3000;
 [Thousand](#thousand) &#x3000;
 [Turtle](#turtle) &#x3000;
-[uNot](#unot-uninotifier) &#x3000;
+[UniNotifier](#uninotifier) &#x3000;
 [Vice city toolset](#vice-city-toolset) &#x3000;
 [Xash3D FWGS for ESHQ](#xash3d-fwgs-engine-adaptation-for-eshq) &#x3000;
 [Logo concepts](https://adslbarxatov.github.io/DPArray/logo_en)
