@@ -130,15 +130,15 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 
 
-### Tablepedia notifier
+### Tablepedia viewer
 :ru: &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
-:page_with_curl: Руководство &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://TablepediaNotifier) &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/TablepediaViewer) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://TablepediaViewer) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) &#x3000;
-:package: [В виде APK](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/TablepediaNotifier.apk)
+:package: [В виде APK](https://github.com/adslbarxatov/TablepediaViewer/releases/latest/download/TablepediaViewer.apk)
 
-Простое клиентское приложение для проекта Tablepedia.com (экспериментальная разработка)
+Клиентское приложение для проекта Tablepedia.com (экспериментальная разработка)
 
 &nbsp;
 
@@ -715,7 +715,7 @@ ES: Randomaze – генератор карт для одноимённого м
 [Snake](#snake) &#x3000;
 [Sudoku solver](#sudoku-solver) &#x3000;
 [Turtle](#turtle) &#x3000;
-[Tablepedia notifier](#tablepedia-notifier) &#x3000;
+[Tablepedia notifier](#tablepedia-viewer) &#x3000;
 [Thousand](#thousand) &#x3000;
 [UniNotifier](#uninotifier) &#x3000;
 [Vice city toolset](#vice-city-toolset) &#x3000;

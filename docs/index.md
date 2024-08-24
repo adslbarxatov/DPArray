@@ -633,7 +633,7 @@ subsequently be used as a trading asset (we have decentralized this token and do
 [Screen shooter](#screen-shooter) &#x3000;
 [Snake](#snake) &#x3000;
 [Sudoku solver](#sudoku-solver) &#x3000;
-[Tablepedia notifier](https://adslbarxatov.github.io/DPArray/ru#tablepedia-notifier) &#x3000;
+[Tablepedia viewer](https://adslbarxatov.github.io/DPArray/ru#tablepedia-viewer) &#x3000;
 [Thousand](#thousand) &#x3000;
 [Turtle](#turtle) &#x3000;
 [UniNotifier](#uninotifier) &#x3000;
