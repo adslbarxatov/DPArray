@@ -4,8 +4,8 @@ n:DPArray
 a:DPArray.dp
 f:fvd
 i:INFOPAGE
-v:7.3.5
-p:0008558BA1F2F50C
+v:7.3.6
+p:00085F8B118BFB21
 
 
 
@@ -59,16 +59,16 @@ a:GrammarMustJoy.dp
 f:0
 i:INFOPAGE
 l:r
-v:1.4.2
-p:00035B2DEDB836C9
+v:1.4.4
+p:00035B2D2912BE62
 
 n:KassArray
 a:KassArray.dp
 f:F
 i:INFOPAGE
 l:r
-v:5.9
-p:00137A0C86CEE182
+v:5.9.1
+p:00138A0EF96F971C
 
 n:Make decision
 a:MakeDecision.dp
@@ -231,7 +231,7 @@ a:GrammarMustJoy.apk
 f:FV
 i:INFOPAGE
 l:r
-v:1.4.2
+v:1.4.4
 s:49286574
 
 n:KassArray
@@ -240,8 +240,8 @@ a:KassArray.apk
 f:FV
 i:INFOPAGE
 l:r
-v:5.9
-s:42368144
+v:5.9.1
+s:42364048
 
 n:Make decision
 u:GIT_LINK/MakeDecision/GIT_PATH/DEFFILE
@@ -283,13 +283,13 @@ n:Grammar must joy
 f:FVD
 l:r
 i:MS_STORE/9NZ7WMRX5SF3
-v:1.4.2
+v:1.4.4
 
 n:KassArray
 f:FVD
 l:r
 i:MS_STORE/9ND98F4C4Q60
-v:5.9
+v:5.9.1
 
 n:Mafia helper
 f:FVD
@@ -334,13 +334,13 @@ n:Grammar must joy
 f:FVD
 i:GP_STOREcom.RD_AAOW.GrammarMustJoy
 l:r
-v:1.4.2
+v:1.4.4
 
 n:KassArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextToKKT
 l:r
-v:5.9
+v:5.9.1
 
 n:Make decision
 f:FVD
