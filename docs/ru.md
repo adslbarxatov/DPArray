@@ -334,14 +334,14 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 
-### File extensions manager
+### File associations manager
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
-:page_with_curl: [Руководство](https://adslbarxatov.github.io/FileExtensionsManager/ru) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://FileExtensionsManager) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/fileextensionsmanager/releases/latest)
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/FileAssociationsManager/ru) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://FileAssociationsManager) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/fileassociationsmanager/releases/latest)
 
-Инструмент управления пользовательскими настройками расширений файлов в Windows
+Инструмент управления пользовательскими расширениями файлов
 
 &nbsp;
 
@@ -698,7 +698,7 @@ ES: Randomaze – генератор карт для одноимённого м
 [Enchant it](#pa-detector-enchant-it) &#x3000;
 [ESHQ](#eshq) &#x3000;
 [ES: Randomaze](#es-randomaze) &#x3000;
-[File extensions manager](#file-extensions-manager) &#x3000;
+[File associations manager](#file-associations-manager) &#x3000;
 [Font finder](#font-finder) &#x3000;
 [FullSilence](#fullsilence-codeshow) &#x3000;
 [Geomag data drawer](#geomag-data-drawer) &#x3000;

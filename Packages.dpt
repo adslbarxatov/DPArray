@@ -33,12 +33,12 @@ i:INFOPAGE
 v:3.5
 p:0002DE7CFEF4F8D0
 
-n:File extensions manager
-a:FileExtensionsManager.dp
+n:File associations manager
+a:FileAssociationsManager.dp
 f:0
 i:INFOPAGE
-v:2.6.9
-p:0005A0685E2E6ABA
+v:3.0
+p:0004B233785F4B04
 
 n:Font finder
 a:FontFinder.dp
