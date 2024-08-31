@@ -51,8 +51,8 @@ n:Geomag data drawer
 a:GeomagDataDrawer.dp
 f:F
 i:INFOPAGE
-v:5.8
-p:00132BBC4B479B13
+v:5.8.2
+p:0011A7BEF6FF6D2A
 
 n:Grammar must joy
 a:GrammarMustJoy.dp
@@ -277,7 +277,7 @@ v:3.6
 n:Geomag data drawer
 f:FVD
 i:MS_STORE/9PG19ZZ3NH47
-v:5.8
+v:5.8.2
 
 n:Grammar must joy
 f:FVD
