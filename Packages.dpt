@@ -44,8 +44,8 @@ n:Font finder
 a:FontFinder.dp
 f:0
 i:INFOPAGE
-v:3.5.9
-p:0004D7153F4C2A17
+v:3.6
+p:0003FD130EE0CBD5
 
 n:Geomag data drawer
 a:GeomagDataDrawer.dp
@@ -180,8 +180,8 @@ n:Mafia helper
 a:MafiaHelper.dp
 f:0
 i:INFOPAGE
-v:1.10.3
-p:0006B72946331E1A
+v:1.10.5
+p:000643296C93501B
 
 n:One hundred and one
 a:OneHundredOne.dp
@@ -272,7 +272,7 @@ v:3.5
 n:Font finder
 f:FVD
 i:MS_STORE/9MXDR4BXP8R4
-v:3.5.9
+v:3.6
 
 n:Geomag data drawer
 f:FVD
@@ -294,7 +294,7 @@ v:5.9.1
 n:Mafia helper
 f:FVD
 i:MS_STORE/9N4WB06F64TR
-v:1.10.3
+v:1.10.5
 
 n:Make decision
 f:FVD
