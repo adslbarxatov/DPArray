@@ -195,8 +195,13 @@ namespace RD_AAOW
 			// Настройка контролов
 			int al = (int)RDLocale.CurrentLanguage;
 
-			ExitButton.Text = RDLocale.GetDefaultText (AcceptMode ? RDLDefaultTexts.Button_Accept :
-				RDLDefaultTexts.Button_Exit);
+			if (AcceptMode)
+				ExitButton.Text = RDLocale.GetDefaultText (RDLDefaultTexts.Button_Accept);
+			else if (StartupMode)
+				ExitButton.Text = RDLocale.GetDefaultText (RDLDefaultTexts.Button_Next);
+			else
+				ExitButton.Text = RDLocale.GetDefaultText (RDLDefaultTexts.Button_Close);
+
 			MisacceptButton.Text = RDLocale.GetDefaultText (RDLDefaultTexts.Button_Decline);
 			if (AcceptMode)
 				{
