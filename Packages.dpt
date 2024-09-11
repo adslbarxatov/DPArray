@@ -37,8 +37,8 @@ n:File associations manager
 a:FileAssociationsManager.dp
 f:0
 i:INFOPAGE
-v:3.0
-p:0004B233785F4B04
+v:3.0.5
+p:0004B835FB5D7C80
 
 n:Font finder
 a:FontFinder.dp
@@ -231,8 +231,8 @@ a:GrammarMustJoy.apk
 f:FV
 i:INFOPAGE
 l:r
-v:1.5.5
-s:49298929
+v:1.5.6
+s:49311217
 
 n:KassArray
 u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
@@ -334,7 +334,7 @@ n:Grammar must joy
 f:FVD
 i:GP_STOREcom.RD_AAOW.GrammarMustJoy
 l:r
-v:1.5.5
+v:1.5.6
 
 n:KassArray
 f:FVD
