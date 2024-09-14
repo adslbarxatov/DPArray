@@ -102,8 +102,8 @@ n:UniNotifier
 a:UniNotifier.dp
 f:0
 i:INFOPAGE
-v:7.6.3
-p:0004DB67EF528E02
+v:7.7
+p:0004E77332F10B62
 
 n:Vice city toolset
 a:ViceCityToolset.dp
@@ -252,7 +252,7 @@ v:3.8.1
 s:42253456
 
 n:Tablepedia viewer
-u:GIT_LINK/UniNotifier/GIT_PATH/DEFFILE
+u:GIT_LINK/TablepediaViewer/GIT_PATH/DEFFILE
 a:TablepediaViewer.apk
 f:FV
 i:INFOPAGE
@@ -324,7 +324,7 @@ v:2.4.4
 n:UniNotifier
 f:FVD
 i:MS_STORE/9NVZ51RL54K4
-v:7.6.3
+v:7.7
 
 
 
@@ -364,10 +364,10 @@ v:3.8
 
 
 
-me:Now you can really help the Lab and all its idea followers!||
-me:Learn more about our investition token in the App about > Help the project section
+me:Check out the new version of File extensions manager!|
+me:File associations manager - it is not only the new name!
 
 mr:- Мини-клиент Grammar must joy получил множество новых возможностей и стал гораздо более удобным!|
 mr:Не забудьте оценить актуальную версию проекта!||
-mr:- Теперь Вы по-настоящему можете помочь не только Лаборатории, но и всем её идейным последователям!|
-mr:Узнайте больше о нашем инвестиционном токене в разделе О программе > Помочь проекту
+mr:- Оцените новую версию File extensions manager!|
+mr:File associations manager - это не только новое название.
