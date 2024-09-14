@@ -67,8 +67,8 @@ a:KassArray.dp
 f:F
 i:INFOPAGE
 l:r
-v:5.10
-p:00135A0D1A8A8B4F
+v:5.10.1
+p:00135A0F80672544
 
 n:Make decision
 a:MakeDecision.dp
@@ -240,8 +240,8 @@ a:KassArray.apk
 f:FV
 i:INFOPAGE
 l:r
-v:5.9.1
-s:42364048
+v:5.10.1
+s:42388691
 
 n:Make decision
 u:GIT_LINK/MakeDecision/GIT_PATH/DEFFILE
@@ -289,7 +289,7 @@ n:KassArray
 f:FVD
 l:r
 i:MS_STORE/9ND98F4C4Q60
-v:5.9.1
+v:5.10.1
 
 n:Mafia helper
 f:FVD
@@ -340,7 +340,7 @@ n:KassArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextToKKT
 l:r
-v:5.9.1
+v:5.10.1
 
 n:Make decision
 f:FVD
