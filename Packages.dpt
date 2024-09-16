@@ -109,8 +109,8 @@ n:Vice city toolset
 a:ViceCityToolset.dp
 f:F
 i:INFOPAGE
-v:4.6
-p:0018B48D0EBEDE13
+v:4.6.1
+p:001D488499CC198E
 
 
 
@@ -360,7 +360,7 @@ g:AppGallery
 n:Make decision
 f:FVD
 i:HU_STORE/qsttV4pmU0
-v:3.8
+v:3.8.2
 
 
 
