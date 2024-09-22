@@ -59,6 +59,11 @@ namespace RD_AAOW
 		/// Сообщение об успешном результате с текстом по центру
 		/// </summary>
 		Success_Center = 14,
+
+		/// <summary>
+		/// Сообщение об успешном результате с текстом по центру без звука
+		/// </summary>
+		Clipboard_Center = 15,
 		}
 
 	/// <summary>
@@ -151,6 +156,11 @@ namespace RD_AAOW
 			/// Сообщение об успешном результате с текстом по центру
 			/// </summary>
 			Success_Center = 14,
+
+			/// <summary>
+			/// Сообщение об успешном результате с текстом по центру без звука
+			/// </summary>
+			Clipboard_Center = 15,
 
 			/// <summary>
 			/// Окно ввода с текстом по центру
@@ -346,6 +356,7 @@ namespace RD_AAOW
 					case RDMessageInternalTypes.Warning_Center:
 					case RDMessageInternalTypes.Error_Center:
 					case RDMessageInternalTypes.Input_Center:
+					case RDMessageInternalTypes.Clipboard_Center:
 						Label01.TextAlign = HorizontalAlignment.Center;
 						break;
 					}
@@ -434,7 +445,7 @@ namespace RD_AAOW
 					}
 				}
 
-			// Системный звук
+			// Системный звук и фоновый цвет
 			switch (windowType)
 				{
 				case RDMessageInternalTypes.Information_Left:
@@ -471,6 +482,10 @@ namespace RD_AAOW
 				case RDMessageInternalTypes.Success_Left:
 				case RDMessageInternalTypes.Success_Center:
 					SystemSounds.Asterisk.Play ();
+					this.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.SuccessMessage);
+					break;
+
+				case RDMessageInternalTypes.Clipboard_Center:
 					this.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.SuccessMessage);
 					break;
 				}

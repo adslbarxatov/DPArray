@@ -633,6 +633,8 @@ namespace RD_AAOW
 		/// </summary>
 		public static void AskDeveloper ()
 			{
+			RDGenerics.SendToClipboard (RDGenerics.LabMailLink, true);
+
 			RDGenerics.RunURL ("mailto://" + RDGenerics.LabMailLink + ("?subject=" +
 				RDGenerics.LabMailCaption).Replace (" ", "%20"));
 			}

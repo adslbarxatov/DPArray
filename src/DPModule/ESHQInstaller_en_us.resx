@@ -146,7 +146,7 @@ Also you can try other Lab projects. Use tray icon and “App about” option</v
   <data name="IncorrectPackage" xml:space="preserve">
     <value>Your deployment package is not original! We strongly recommend against using it!
 
-Please, launch this manager again and download the original package</value>
+Please, start this manager again and download the original package</value>
   </data>
   <data name="InstallRadioText_Main" xml:space="preserve">
     <value>Install: the app installation or recovery</value>
@@ -427,7 +427,7 @@ Updates are highlighted in yellow in the packages list. At the bottom of the win
 {0:S}
 If possible, they will be installed automatically in the next step. Otherwise, their web pages will be opened with manual download option.
 
-* Opened web pages that don’t offer automatic download of installation packages are for informational purposes only</value>
+Note: opened web pages that don’t offer automatic download of installation packages are for informational purposes only</value>
   </data>
   <data name="PSF_Context00" xml:space="preserve">
     <value>More info</value>
