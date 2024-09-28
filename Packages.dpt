@@ -130,10 +130,10 @@ n:ESHQ, actual update
 a:ESHQ_update.7z
 f:0
 i:MODSHOST/eshq
-u:MODSTORAGE/276939?MOD_REFeshq
-v:14.2.5
-s:29513270
-p:040A776BC5029350
+u:MODSTORAGE/277873?MOD_REFeshq
+v:14.2.6
+s:34455856
+p:04C318609A85EE78
 
 /n:ESHQ, backward compatibility
 /a:ESHQ_backward.7z
