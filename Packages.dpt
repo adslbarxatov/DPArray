@@ -180,15 +180,15 @@ n:Mafia helper
 a:MafiaHelper.dp
 f:0
 i:INFOPAGE
-v:1.10.5
-p:000643296C93501B
+v:1.10.6
+p:00064329997393A4
 
 n:One hundred and one
 a:OneHundredOne.dp
 f:0
 i:INFOPAGE
-v:2.3.4
-p:000373563913C931
+v:2.3.5
+p:00037556F429B7C4
 
 /n:Races
 /a:Races.7z
@@ -210,8 +210,8 @@ n:Thousand
 a:Thousand.dp
 f:0
 i:INFOPAGE
-v:2.4.4
-p:00031C2EB16AA05D
+v:2.4.5
+p:00031C2E2EE83D52
 
 /n:Turtle
 /a:Turtle.7z
@@ -294,7 +294,7 @@ v:5.11
 n:Mafia helper
 f:FVD
 i:MS_STORE/9N4WB06F64TR
-v:1.10.5
+v:1.10.6
 
 n:Make decision
 f:FVD
@@ -304,7 +304,7 @@ v:3.8.2
 n:One hundred and one
 f:FVD
 i:MS_STORE/9NDGGL3JM0VL
-v:2.3.4
+v:2.3.5
 
 n:Screen shooter
 f:FVD
@@ -319,7 +319,7 @@ v:4.3.4
 n:Thousand
 f:FVD
 i:MS_STORE/9N1JJ1G48BCF
-v:2.4.4
+v:2.4.5
 
 n:UniNotifier
 f:FVD
