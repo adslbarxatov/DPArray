@@ -30,8 +30,8 @@ n:Dates difference
 a:DatesDifference.dp
 f:0
 i:INFOPAGE
-v:3.5
-p:0002DE7CFEF4F8D0
+v:3.5.1
+p:0002E07EAEFA45CE
 
 n:File associations manager
 a:FileAssociationsManager.dp
@@ -88,15 +88,15 @@ n:Screen shooter
 a:ScreenShooter.dp
 f:0
 i:INFOPAGE
-v:3.3.2
-p:00032F6DF006225C
+v:3.3.3
+p:0003316D18A37924
 
 n:Sudoku solver
 a:SudokuSolver.dp
 f:0
 i:INFOPAGE
-v:4.3.4
-p:0002FF16975F3BEB
+v:4.3.5
+p:0002FF16D8D620E3
 
 n:UniNotifier
 a:UniNotifier.dp
@@ -267,7 +267,7 @@ g:Microsoft Store
 n:Dates difference
 f:FVD
 i:MS_STORE/9NRQ4LQZNKKG
-v:3.5
+v:3.5.1
 
 n:Font finder
 f:FVD
@@ -309,12 +309,12 @@ v:2.3.5
 n:Screen shooter
 f:FVD
 i:MS_STORE/9NHVH857DV1S
-v:3.3.2
+v:3.3.3
 
 n:Sudoku solver
 f:FVD
 i:MS_STORE/9NZ1DLGFK0WZ
-v:4.3.4
+v:4.3.5
 
 n:Thousand
 f:FVD
