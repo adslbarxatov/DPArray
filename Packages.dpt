@@ -130,10 +130,10 @@ n:ESHQ, actual update
 a:ESHQ_update.7z
 f:0
 i:MODSHOST/eshq
-u:MODSTORAGE/278224?MOD_REFeshq
-v:14.2.7
-s:39666622
-p:0586ED6D7F581090
+u:MODSTORAGE/278569?MOD_REFeshq
+v:14.3
+s:47095163
+p:06AB089DF97B18AF
 
 /n:ESHQ, backward compatibility
 /a:ESHQ_backward.7z
@@ -231,8 +231,8 @@ a:GrammarMustJoy.apk
 f:FV
 i:INFOPAGE
 l:r
-v:1.6.8
-s:49303025
+v:1.7
+s:49319409
 
 n:KassArray
 u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
@@ -334,7 +334,7 @@ n:Grammar must joy
 f:FVD
 i:GP_STOREcom.RD_AAOW.GrammarMustJoy
 l:r
-v:1.6.8
+v:1.7
 
 n:KassArray
 f:FVD
