@@ -317,7 +317,6 @@ g:Google play
 n:Dates difference
 f:FVD
 i:GP_STOREcom.RD_AAOW.DatesDifference
-l:r
 v:3.6
 
 n:Grammar must joy
@@ -345,12 +344,12 @@ v:5.5.1
 
 
 
-g:AppGallery
+/g:AppGallery
 
-n:Make decision
-f:FVD
-i:HU_STORE/qsttV4pmU0
-v:3.8.2
+/n:Make decision
+/f:FVD
+/i:HU_STORE/qsttV4pmU0
+/v:3.8.2
 
 
 

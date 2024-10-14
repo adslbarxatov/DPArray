@@ -168,7 +168,6 @@ Stand-alone tool for building and designing diagrams based on tabular data
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NBKLN7493ZL) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/makedecision/releases/latest) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) &#x3000;
-:iphone: [Get on AppGallery](https://url.cloud.huawei.com/qsttV4pmU0) &#x3000;
 :package: [Get APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.apk)
 
 This application illustrates a math method that allows comparing some objects or events based on a set
@@ -329,7 +328,9 @@ A tool for making screenshots. Supports shooting of screen, windows and elements
 :page_with_curl: [User guide](https://adslbarxatov.github.io/DatesDifference) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://DatesDifference) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NRQ4LQZNKKG) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/datesdifference/releases/latest)
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/datesdifference/releases/latest) &#x3000;
+:iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.DatesDifference) &#x3000;
+:package: [Get APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/DatesDifference.apk)
 
 This tool evaluates the difference in dates. It allows you to display the difference in seconds, minutes,
 hours, days, weeks, full months and years (with fraction)

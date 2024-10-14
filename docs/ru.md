@@ -206,7 +206,6 @@ DPArray выполняет установку, деинсталляцию, пр�
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NBKLN7493ZL) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/makedecision/releases/latest) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) &#x3000;
-:iphone: [На AppGallery](https://url.cloud.huawei.com/qsttV4pmU0) &#x3000;
 :package: [В виде APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.apk)
 
 Программа иллюстрирует математический метод, позволяющий сравнивать некоторые объекты, явления или исходы
@@ -367,7 +366,9 @@ ES: Randomaze – генератор карт для одноимённого м
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/DatesDifference/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://DatesDifference) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NRQ4LQZNKKG) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/datesdifference/releases/latest)
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/datesdifference/releases/latest) &#x3000;
+:iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.DatesDifference) &#x3000;
+:package: [В виде APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/DatesDifference.apk)
 
 Этот инструмент вычисляет разницу между датами. Он позволяет отобразить разницу в секундах, минутах,
 часах, днях, неделях, полных месяцах и годах (с дробной частью)
