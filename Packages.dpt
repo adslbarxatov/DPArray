@@ -59,8 +59,8 @@ a:GrammarMustJoy.dp
 f:0
 i:INFOPAGE
 l:r
-v:1.6.8
-p:0003392DD057BBFC
+v:1.7.1
+p:000339251758159F
 
 n:KassArray
 a:KassArray.dp
@@ -215,7 +215,7 @@ a:GrammarMustJoy.apk
 f:FV
 i:INFOPAGE
 l:r
-v:1.7
+v:1.7.1
 s:49319409
 
 n:KassArray
@@ -251,7 +251,7 @@ g:Microsoft Store
 n:Dates difference
 f:FVD
 i:MS_STORE/9NRQ4LQZNKKG
-v:3.6
+v:3.7
 
 n:Font finder
 f:FVD
@@ -267,7 +267,7 @@ n:Grammar must joy
 f:FVD
 l:r
 i:MS_STORE/9NZ7WMRX5SF3
-v:1.6.8
+v:1.7.1
 
 n:KassArray
 f:FVD
@@ -323,7 +323,7 @@ n:Grammar must joy
 f:FVD
 i:GP_STOREcom.RD_AAOW.GrammarMustJoy
 l:r
-v:1.7
+v:1.7.1
 
 n:KassArray
 f:FVD
@@ -341,15 +341,6 @@ f:FVD
 i:GP_STOREcom.RD_AAOW.TablepediaNotifier
 l:r
 v:5.5.1
-
-
-
-/g:AppGallery
-
-/n:Make decision
-/f:FVD
-/i:HU_STORE/qsttV4pmU0
-/v:3.8.2
 
 
 
