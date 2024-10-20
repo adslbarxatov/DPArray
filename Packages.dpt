@@ -98,6 +98,13 @@ i:INFOPAGE
 v:4.3.5
 p:0002FF16D8D620E3
 
+n:TextStats
+a:TextStats.dp
+f:0
+i:INFOPAGE
+v:1.0
+p:000306C862F2FC5E
+
 n:UniNotifier
 a:UniNotifier.dp
 f:0
