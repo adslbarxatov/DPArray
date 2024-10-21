@@ -322,6 +322,22 @@ A tool for making screenshots. Supports shooting of screen, windows and elements
 
 
 
+### TextStats
+:gb: :ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/TextStats) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://TextStats) &#x3000;
+:briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9PJRQFC4F6RK) &#x3000;
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/sextstats/releases/latest) &#x3000;
+:iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextStats) &#x3000;
+:package: [Get APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/TextStats.apk)
+
+This tool obtains statistics on the specified text
+
+&nbsp;
+
+
+
 ### Dates difference
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
@@ -330,7 +346,7 @@ A tool for making screenshots. Supports shooting of screen, windows and elements
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NRQ4LQZNKKG) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/datesdifference/releases/latest) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.DatesDifference) &#x3000;
-:package: [Get APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/DatesDifference.apk)
+:package: [Get APK](https://github.com/adslbarxatov/DatesDifference/releases/latest/download/DatesDifference.apk)
 
 This tool evaluates the difference in dates. It allows you to display the difference in seconds, minutes,
 hours, days, weeks, full months and years (with fraction)

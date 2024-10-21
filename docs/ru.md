@@ -360,6 +360,22 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 
+### TextStats
+:gb: :ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/TextStats/ru) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://TextStats) &#x3000;
+:briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9PJRQFC4F6RK) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/textstats/releases/latest) &#x3000;
+:iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextStats) &#x3000;
+:package: [В виде APK](https://github.com/adslbarxatov/TextStats/releases/latest/download/TextStats.apk)
+
+Этот инструмент получает статистику по указанному тексту
+
+&nbsp;
+
+
+
 ### Dates difference
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
@@ -368,7 +384,7 @@ ES: Randomaze – генератор карт для одноимённого м
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NRQ4LQZNKKG) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/datesdifference/releases/latest) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.DatesDifference) &#x3000;
-:package: [В виде APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/DatesDifference.apk)
+:package: [В виде APK](https://github.com/adslbarxatov/DatesDifference/releases/latest/download/DatesDifference.apk)
 
 Этот инструмент вычисляет разницу между датами. Он позволяет отобразить разницу в секундах, минутах,
 часах, днях, неделях, полных месяцах и годах (с дробной частью)
