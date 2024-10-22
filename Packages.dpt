@@ -251,6 +251,14 @@ l:r
 v:5.5.1
 s:42286291
 
+n:TextStats
+u:GIT_LINK/TextStats/GIT_PATH/DEFFILE
+a:TextStats.apk
+f:FV
+i:INFOPAGE
+v:1.0
+s:42290387
+
 
 
 g:Microsoft Store
@@ -354,10 +362,13 @@ i:GP_STOREcom.RD_AAOW.TablepediaNotifier
 l:r
 v:5.5.1
 
+n:TextStats
+f:FVD
+i:GP_STOREcom.RD_AAOW.TextStats
+v:1.0
 
 
-me:Check out the Android version of Dates difference!
 
-mr:- Мини-клиент Grammar must joy получил множество новых возможностей и стал гораздо более удобным!|
-mr:Не забудьте оценить актуальную версию проекта!||
-mr:- Оцените Android-версию Dates difference!
+me:Check out the TextStats, a tool for collecting stats on the specified text!
+
+mr:Оцените TextStats, инструмент сбора статистики по указанному тексту!
