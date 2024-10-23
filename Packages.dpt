@@ -88,8 +88,8 @@ p:0002FF16D8D620E3
 n:TextStats
 a:TextStats.dp
 f:0
-v:1.0
-p:000306C862F2FC5E
+v:1.1
+p:0003015E53F17CCB
 
 n:UniNotifier
 a:UniNotifier.dp
@@ -293,7 +293,7 @@ v:4.3.5
 n:TextStats
 f:FVD
 i:MS_STORE/9PJRQFC4F6RK
-v:1.0
+v:1.1
 
 n:Thousand
 f:FVD
