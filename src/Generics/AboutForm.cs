@@ -220,7 +220,8 @@ namespace RD_AAOW
 					AddButton (RDLocale.GetDefaultText (RDLDefaultTexts.Message_CheckingUpdates),
 						UpdatesPageButton_Click, false);
 #endif
-				AddButton ("ChangeLog", ShowChangeLog_Click, false);
+				AddButton (RDLocale.GetDefaultText (RDLDefaultTexts.Control_Changelog),
+					ShowChangeLog_Click, false);
 				buttonIndex += (buttonIndex % 2 + 2);
 
 				if (File.Exists (RDLocale.GetHelpFilePath ()))
