@@ -1,5 +1,8 @@
 DPArray: changes log
 
+Version 7.4.1:
+• Implemented the unified interface for registration of file associations
+
 Version 7.4:
 • Added colors for new products in the mini-launcher;
 • Added new icons;
