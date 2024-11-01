@@ -733,6 +733,7 @@ ES: Randomaze – генератор карт для одноимённого м
 [Sudoku solver](#sudoku-solver) &#x3000;
 [Turtle](#turtle) &#x3000;
 [Tablepedia notifier](#tablepedia-viewer) &#x3000;
+[TextStats](#textstats) &#x3000;
 [Thousand](#thousand) &#x3000;
 [UniNotifier](#uninotifier) &#x3000;
 [Vice city toolset](#vice-city-toolset) &#x3000;

@@ -651,6 +651,7 @@ subsequently be used as a trading asset (we have decentralized this token and do
 [Snake](#snake) &#x3000;
 [Sudoku solver](#sudoku-solver) &#x3000;
 [Tablepedia viewer](https://adslbarxatov.github.io/DPArray/ru#tablepedia-viewer) &#x3000;
+[TextStats](#textstats) &#x3000;
 [Thousand](#thousand) &#x3000;
 [Turtle](#turtle) &#x3000;
 [UniNotifier](#uninotifier) &#x3000;
