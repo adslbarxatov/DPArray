@@ -12,7 +12,7 @@
 &#x25CF; [Зависимости программных продуктов](#section-3) &#x25CF;
 [Ограничения операционных систем](#section-4) &#x25CF;
 
-&#x25CF; [*English-speaking version*](https://adslbarxatov.github.io/DPArray) &#x25CF;
+&#x25CF; [*English version*](https://adslbarxatov.github.io/DPArray) &#x25CF;
 
 &nbsp;
 
