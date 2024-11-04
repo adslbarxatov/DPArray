@@ -89,8 +89,8 @@ p:0002FF16D8D620E3
 n:TextStats
 a:TextStats.dp
 f:0
-v:1.1
-p:0003015E53F17CCB
+v:1.2
+p:0003133A0D1DD8A1
 
 n:UniNotifier
 a:UniNotifier.dp
@@ -232,8 +232,8 @@ n:TextStats
 u:GIT_LINK/TextStats/GIT_PATH/DEFFILE
 a:TextStats.apk
 f:FV
-v:1.1
-s:42302675
+v:1.2
+s:42306771
 
 
 
@@ -294,7 +294,7 @@ v:4.3.5
 n:TextStats
 f:FVD
 i:MS_STORE/9PJRQFC4F6RK
-v:1.1
+v:1.2
 
 n:Thousand
 f:FVD
@@ -341,7 +341,7 @@ v:5.5.1
 n:TextStats
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextStats
-v:1.1
+v:1.2
 
 
 
