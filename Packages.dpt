@@ -95,8 +95,8 @@ p:0003133A0D1DD8A1
 n:UniNotifier
 a:UniNotifier.dp
 f:0
-v:8.0.5
-p:0004F775EBACFBCF
+v:8.5
+p:00052AF51FABC759
 
 n:Vice city toolset
 a:ViceCityToolset.dp
@@ -304,7 +304,7 @@ v:2.4.5
 n:UniNotifier
 f:FVD
 i:MS_STORE/9NVZ51RL54K4
-v:8.0.5
+v:8.5
 
 
 
