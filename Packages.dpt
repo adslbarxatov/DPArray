@@ -27,8 +27,8 @@ p:000A21360EAC6897
 n:Dates difference
 a:DatesDifference.dp
 f:0
-v:3.7.3
-p:0002E6F8C9E278E6
+v:3.7.4
+p:0002E6A4DBCE611E
 
 n:File associations manager
 a:FileAssociationsManager.dp
@@ -52,21 +52,21 @@ n:Grammar must joy
 a:GrammarMustJoy.dp
 f:0
 l:r
-v:2.1
-p:0003B9056E46E4EA
+v:2.1.2
+p:0003BF0FBF99D145
 
 n:KassArray
 a:KassArray.dp
 f:F
 l:r
-v:5.11.2
-p:0014ABFF402473AA
+v:5.11.4
+p:0014A1E0CB8D16DA
 
 n:Make decision
 a:MakeDecision.dp
 f:0
-v:3.8.2
-p:00033651C1C4E2D3
+v:3.8.4
+p:000331A15376D16E
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
@@ -89,8 +89,8 @@ p:0002FF16D8D620E3
 n:TextStats
 a:TextStats.dp
 f:0
-v:1.2
-p:0003133A0D1DD8A1
+v:1.2.2
+p:000312E921E38092
 
 n:UniNotifier
 a:UniNotifier.dp
@@ -194,7 +194,7 @@ n:Dates difference
 u:GIT_LINK/DatesDifference/GIT_PATH/DEFFILE
 a:DatesDifference.apk
 f:FV
-v:3.7.2
+v:3.7.4
 s:42286291
 
 n:Grammar must joy
@@ -202,7 +202,7 @@ u:GIT_LINK/GrammarMustJoy/GIT_PATH/DEFFILE
 a:GrammarMustJoy.apk
 f:FV
 l:r
-v:2.1
+v:2.1.2
 s:49368715
 
 n:KassArray
@@ -210,30 +210,30 @@ u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
 a:KassArray.apk
 f:FV
 l:r
-v:5.11.1
+v:5.11.4
 s:42405075
 
 n:Make decision
 u:GIT_LINK/MakeDecision/GIT_PATH/DEFFILE
 a:MakeDecision.apk
 f:FV
-v:3.8.2
-s:42282195
+v:3.8.4
+s:42298579
 
 n:Tablepedia viewer
 u:GIT_LINK/TablepediaViewer/GIT_PATH/DEFFILE
 a:TablepediaViewer.apk
 f:FV
 l:r
-v:5.5.1
-s:42286291
+v:5.5.4
+s:42302675
 
 n:TextStats
 u:GIT_LINK/TextStats/GIT_PATH/DEFFILE
 a:TextStats.apk
 f:FV
-v:1.2
-s:42306771
+v:1.2.2
+s:42290387
 
 
 
@@ -242,7 +242,7 @@ g:Microsoft Store
 n:Dates difference
 f:FVD
 i:MS_STORE/9NRQ4LQZNKKG
-v:3.7.3
+v:3.7.4
 
 n:Font finder
 f:FVD
@@ -258,13 +258,13 @@ n:Grammar must joy
 f:FVD
 l:r
 i:MS_STORE/9NZ7WMRX5SF3
-v:2.1
+v:2.1.2
 
 n:KassArray
 f:FVD
 l:r
 i:MS_STORE/9ND98F4C4Q60
-v:5.11.1
+v:5.11.4
 
 n:Mafia helper
 f:FVD
@@ -274,7 +274,7 @@ v:1.10.6
 n:Make decision
 f:FVD
 i:MS_STORE/9NBKLN7493ZL
-v:3.8.2
+v:3.8.4
 
 n:One hundred and one
 f:FVD
@@ -294,7 +294,7 @@ v:4.3.5
 n:TextStats
 f:FVD
 i:MS_STORE/9PJRQFC4F6RK
-v:1.2
+v:1.2.2
 
 n:Thousand
 f:FVD
@@ -313,35 +313,35 @@ g:Google play
 n:Dates difference
 f:FVD
 i:GP_STOREcom.RD_AAOW.DatesDifference
-v:3.7.2
+v:3.7.4
 
 n:Grammar must joy
 f:FVD
 i:GP_STOREcom.RD_AAOW.GrammarMustJoy
 l:r
-v:2.1
+v:2.1.2
 
 n:KassArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextToKKT
 l:r
-v:5.11.1
+v:5.11.4
 
 n:Make decision
 f:FVD
 i:GP_STOREcom.RD_AAOW.MakeDecision
-v:3.8.2
+v:3.8.4
 
 n:Tablepedia viewer
 f:FVD
 i:GP_STOREcom.RD_AAOW.TablepediaNotifier
 l:r
-v:5.5.1
+v:5.5.4
 
 n:TextStats
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextStats
-v:1.2
+v:1.2.2
 
 
 
