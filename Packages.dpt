@@ -14,15 +14,15 @@ g:Windows apps
 n:Batch image convertor
 a:BatchImageConvertor.7z
 f:F
-v:3.9.8
-s:2824813
-p:0058F5E79E26D5E8
+v:3.9.9
+s:2829317
+p:0058F16705699B5F
 
 n:ConcurrentDraw
 a:ConcurrentDraw.dp
 f:F
-v:3.5.1
-p:000A21360EAC6897
+v:3.5.2
+p:000A1CB8B8970C54
 
 n:Dates difference
 a:DatesDifference.dp
@@ -33,8 +33,8 @@ p:0002E6A4DBCE611E
 n:File associations manager
 a:FileAssociationsManager.dp
 f:0
-v:3.0.5
-p:0004B835FB5D7C80
+v:3.0.6
+p:0004B3BFB8B0FCD7
 
 n:Font finder
 a:FontFinder.dp
@@ -71,8 +71,8 @@ p:000331A15376D16E
 n:OS macros executor
 a:OSMacrosExecutor.dp
 f:F
-v:3.6.4
-p:0004CA58AAFFD03C
+v:3.6.5
+p:0004C5DA37D2990A
 
 n:Screen shooter
 a:ScreenShooter.dp
@@ -101,8 +101,8 @@ p:00052AF51FABC759
 n:Vice city toolset
 a:ViceCityToolset.dp
 f:F
-v:4.6.2
-p:001D527C4F64B099
+v:4.6.4
+p:001D5208890B09B6
 
 
 
