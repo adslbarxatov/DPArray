@@ -4,8 +4,8 @@ n:DPArray
 a:DPArray.dp
 i:INFOPAGE
 f:fvd
-v:7.4.1
-p:00085F8BE8FB58E6
+v:7.4.2
+p:00086383D4FE1D57
 
 
 
@@ -39,8 +39,8 @@ p:0004B3BFB8B0FCD7
 n:Font finder
 a:FontFinder.dp
 f:0
-v:3.6.2
-p:0003FF152CA48F3B
+v:3.6.4
+p:0003FA972EDD1427
 
 n:Geomag data drawer
 a:GeomagDataDrawer.dp
@@ -77,14 +77,14 @@ p:0004C5DA37D2990A
 n:Screen shooter
 a:ScreenShooter.dp
 f:0
-v:3.4
-p:00032CF5F5DD1890
+v:3.4.1
+p:00032EF766A47770
 
 n:Sudoku solver
 a:SudokuSolver.dp
 f:0
-v:4.3.5
-p:0002FF16D8D620E3
+v:4.3.6
+p:0002FA9AA324BD99
 
 n:TextStats
 a:TextStats.dp
@@ -171,20 +171,20 @@ g:Minigames for Windows
 n:Mafia helper
 a:MafiaHelper.dp
 f:0
-v:1.10.6
-p:00064329997393A4
+v:1.10.7
+p:00063EB33891FF7C
 
 n:One hundred and one
 a:OneHundredOne.dp
 f:0
-v:2.3.5
-p:00037556F429B7C4
+v:2.3.6
+p:000370E0543558C0
 
 n:Thousand
 a:Thousand.dp
 f:0
-v:2.4.5
-p:00031C2E2EE83D52
+v:2.4.6
+p:000317AE1D749C64
 
 
 
@@ -247,7 +247,7 @@ v:3.7.4
 n:Font finder
 f:FVD
 i:MS_STORE/9MXDR4BXP8R4
-v:3.6.2
+v:3.6.4
 
 n:Geomag data drawer
 f:FVD
@@ -269,7 +269,7 @@ v:5.11.4
 n:Mafia helper
 f:FVD
 i:MS_STORE/9N4WB06F64TR
-v:1.10.6
+v:1.10.7
 
 n:Make decision
 f:FVD
@@ -279,17 +279,17 @@ v:3.8.4
 n:One hundred and one
 f:FVD
 i:MS_STORE/9NDGGL3JM0VL
-v:2.3.5
+v:2.3.6
 
 n:Screen shooter
 f:FVD
 i:MS_STORE/9NHVH857DV1S
-v:3.4
+v:3.4.1
 
 n:Sudoku solver
 f:FVD
 i:MS_STORE/9NZ1DLGFK0WZ
-v:4.3.5
+v:4.3.6
 
 n:TextStats
 f:FVD
@@ -299,7 +299,7 @@ v:1.2.2
 n:Thousand
 f:FVD
 i:MS_STORE/9N1JJ1G48BCF
-v:2.4.5
+v:2.4.6
 
 n:UniNotifier
 f:FVD

@@ -277,7 +277,7 @@ Retry the list downloading?</value>
   <data name="IconAbout" xml:space="preserve">
     <value>About the {0:S}...</value>
   </data>
-  <data name="PackageSelectorForm_AbortButton" xml:space="preserve">
+  <data name="PackageSelectorForm_DeployButton" xml:space="preserve">
     <value>&amp;Deploy ▷</value>
   </data>
   <data name="PackageSelectorForm_ListOfProjects" xml:space="preserve">
@@ -506,5 +506,10 @@ Server sent a new message</value>
   </data>
   <data name="AddAppsForm_ColorLabel" xml:space="preserve">
     <value>Color:</value>
+  </data>
+  <data name="NoPackagesSelectedUpdates" xml:space="preserve">
+    <value>No packages selected for deployment.
+
+Do you want to deploy available updates?</value>
   </data>
 </root>

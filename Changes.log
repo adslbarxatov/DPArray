@@ -1,5 +1,11 @@
 DPArray: changes log
 
+Version 7.4.2:
+• Added the fast update option: if you click the Deploy button without checking any package,
+  the app will try to deploy available updates;
+• The “App about” interface has been updated;
+• Fixed some hidden bugs
+
 Version 7.4.1:
 • Implemented the unified interface for registration of file associations
 
