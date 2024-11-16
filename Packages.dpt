@@ -95,8 +95,8 @@ p:000312E921E38092
 n:UniNotifier
 a:UniNotifier.dp
 f:0
-v:8.5
-p:00052AF51FABC759
+v:8.5.1
+p:00052AFF77DF35FD
 
 n:Vice city toolset
 a:ViceCityToolset.dp
@@ -304,7 +304,7 @@ v:2.4.6
 n:UniNotifier
 f:FVD
 i:MS_STORE/9NVZ51RL54K4
-v:8.5
+v:8.5.1
 
 
 
@@ -345,6 +345,8 @@ v:1.2.2
 
 
 
-me:Check out the TextStats, a tool for collecting stats on the specified text!
+me:We have updated UniNotifier, the webpages supervisor!|
+me:Watch new video guide in the “App about” section
 
-mr:Оцените TextStats, инструмент сбора статистики по указанному тексту!
+mr:Мы обновили супервизор веб-страниц UniNotifier!|
+mr:Смотрите новое видеоруководство в разделе «О приложении»
