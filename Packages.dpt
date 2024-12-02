@@ -52,15 +52,15 @@ n:Grammar must joy
 a:GrammarMustJoy.dp
 f:0
 l:r
-v:2.1.2
-p:0003BF0FBF99D145
+v:2.1.5
+p:0003BF1541CD2D09
 
 n:KassArray
 a:KassArray.dp
 f:F
 l:r
-v:6.0.2
-p:0014A98385A7DDC1
+v:6.0.6
+p:0014AD930F487DE3
 
 n:Make decision
 a:MakeDecision.dp
@@ -201,8 +201,8 @@ u:GIT_LINK/GrammarMustJoy/GIT_PATH/DEFFILE
 a:GrammarMustJoy.apk
 f:FV
 l:r
-v:2.1.2
-s:49368715
+v:2.1.5
+s:65671539
 
 n:KassArray
 u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
@@ -257,7 +257,7 @@ n:Grammar must joy
 f:FVD
 l:r
 i:MS_STORE/9NZ7WMRX5SF3
-v:2.1.2
+v:2.1.5
 
 n:KassArray
 f:FVD
@@ -318,7 +318,7 @@ n:Grammar must joy
 f:FVD
 i:GP_STOREcom.RD_AAOW.GrammarMustJoy
 l:r
-v:2.1.2
+v:2.1.5
 
 n:KassArray
 f:FVD
