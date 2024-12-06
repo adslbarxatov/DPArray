@@ -59,8 +59,8 @@ n:KassArray
 a:KassArray.dp
 f:F
 l:r
-v:6.0.6
-p:0014AD930F487DE3
+v:6.0.8
+p:0014B79385934F67
 
 n:Make decision
 a:MakeDecision.dp
@@ -154,14 +154,14 @@ v:6.0.1
 s:699658
 p:0010ACA70EB89103
 
-n:Crazy cheater’s mod
-a:GTAViceCity.7z
-f:0
-i:MODSHOST/ccm
-u:MODSTORAGE/240088?MOD_REFccm
-v:1.3
-s:165319082
-p:1475B852D4A856DE
+/n:Crazy cheater’s mod
+/a:GTAViceCity.7z
+/f:0
+/i:MODSHOST/ccm
+/u:MODSTORAGE/240088?MOD_REFccm
+/v:1.3
+/s:165319082
+/p:1475B852D4A856DE
 
 
 
@@ -209,8 +209,8 @@ u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
 a:KassArray.apk
 f:FV
 l:r
-v:6.0
-s:42413267
+v:6.0.8
+s:58597307
 
 n:Make decision
 u:GIT_LINK/MakeDecision/GIT_PATH/DEFFILE
@@ -263,7 +263,7 @@ n:KassArray
 f:FVD
 l:r
 i:MS_STORE/9ND98F4C4Q60
-v:6.0
+v:6.0.8
 
 n:Mafia helper
 f:FVD
@@ -324,7 +324,7 @@ n:KassArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextToKKT
 l:r
-v:6.0
+v:6.0.8
 
 n:Make decision
 f:FVD
