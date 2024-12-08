@@ -288,20 +288,6 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 
-### Crazy cheater’s mod
-:gb: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> &#x3000;
-:earth_africa: [Полное описание](https://moddb.com/mods/ccm) &#x3000;
-:film_projector: [Демо видео](https://youtube.com/watch?v=tpgKd91QYP4) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://CCM)
-
-Модификация для GTA Vice City, сохраняющая оригинальный сюжет и геймплей, но исправляющая ряд известных проблем,
-а также расширяющая и без того большие возможности Томми Версетти
-
-&nbsp;
-
-
-
 ### Vice city toolset
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
@@ -450,6 +436,18 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 ---
+
+&nbsp;
+
+
+
+### Crazy cheater’s mod
+:gb: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> :hourglass_flowing_sand: &#x3000;
+:earth_africa: [Полное описание](https://moddb.com/mods/ccm)
+
+Модификация для GTA Vice City, сохраняющая оригинальный сюжет и геймплей, но исправляющая ряд известных проблем,
+а также расширяющая и без того большие возможности Томми Версетти
 
 &nbsp;
 

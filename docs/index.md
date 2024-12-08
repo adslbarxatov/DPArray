@@ -250,20 +250,6 @@ An adaptation of [Xash3d FWGS engine](https://github.com/FWGS/xash3d-fwgs) for E
 
 
 
-### Crazy cheater’s mod
-:gb: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> &#x3000;
-:earth_africa: [Summary](https://moddb.com/mods/ccm) &#x3000;
-:film_projector: [Video demo](https://youtube.com/watch?v=tpgKd91QYP4) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://CCM)
-
-A modification for GTA Vice City, preserving the original plot and gameplay, but fixing a number of known problems,
-as well as expanding the already great capabilities of Tommy Vercetti
-
-&nbsp;
-
-
-
 ### Vice city toolset
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
@@ -414,6 +400,18 @@ This app imitates the “Thousand” game for three players
 ---
 
 &nbsp;
+
+### Crazy cheater’s mod
+:gb: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> :hourglass_flowing_sand: &#x3000;
+:earth_africa: [Summary](https://moddb.com/mods/ccm)
+
+A modification for GTA Vice City, preserving the original plot and gameplay, but fixing a number of known problems,
+as well as expanding the already great capabilities of Tommy Vercetti
+
+&nbsp;
+
+
 
 ### PA detector (Enchant it)
 :gb: :ru: &#x3000;
