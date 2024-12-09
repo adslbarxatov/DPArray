@@ -1,5 +1,10 @@
 DPArray: changes log
 
+Version 7.4.5:
+• Upgraded the policy (IOP) updates checker;
+• App has been redirected to the Integrated operational policy (IOP);
+• The List of packages button in the Packages selector now works more accurate
+
 Version 7.4.3:
 • Added the fast update option: if you click the Deploy button without checking any package,
   the app will try to deploy available updates;

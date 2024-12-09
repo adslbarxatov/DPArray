@@ -16,7 +16,7 @@ namespace RD_AAOW
 		private string projectLink, updatesLink, userManualLink, userVideomanualLink;
 		private string updatesMessage = "";
 		private string versionDescription = "";
-		private string adpRevision = "";
+		private string iopRevision = "";
 		private bool policyAccepted = false;
 		private bool startupMode = false, acceptMode = false;
 		private const string newPolicyAlias = "!";
@@ -27,7 +27,7 @@ namespace RD_AAOW
 		public const string LastShownVersionKey = "HelpShownAt";
 
 		// Ключ реестра, хранящий последнюю принятую версию ADP
-		private const string ADPRevisionKey = "ADPRevision";
+		private const string IOPRevisionKey = RDGenerics.IOPMarker + "Revision";
 
 		// Элементы поддержки HypeHelp
 		private const string HypeHelpKey = "HypeHelp";
@@ -175,21 +175,21 @@ namespace RD_AAOW
 		private int LaunchForm (bool StartupMode, bool AcceptMode)
 			{
 			// Запрос настроек
-			adpRevision = RDGenerics.GetDPArrayRegistryValue (ADPRevisionKey);
+			iopRevision = RDGenerics.GetDPArrayRegistryValue (IOPRevisionKey);
 			string helpShownAt = RDGenerics.GetAppRegistryValue (LastShownVersionKey);
 
 			// Если поле пустое, устанавливается минимальное значение
-			if (adpRevision == "")
+			if (iopRevision == "")
 				{
-				adpRevision = "rev. 10" + newPolicyAlias;
-				RDGenerics.SetDPArrayRegistryValue (ADPRevisionKey, adpRevision);
+				iopRevision = "rev. 0" + newPolicyAlias;
+				RDGenerics.SetDPArrayRegistryValue (IOPRevisionKey, iopRevision);
 				}
 
 			// Контроль
 			startupMode = StartupMode;
 			acceptMode = AcceptMode;
-			if (StartupMode && (helpShownAt == ProgramDescription.AssemblyVersion) ||   // Справка уже отображалась
-				AcceptMode && (!adpRevision.EndsWith (newPolicyAlias)))                 // Политика уже принята
+			if (StartupMode && (helpShownAt == ProgramDescription.AssemblyVersion) ||	// Справка уже отображалась
+				AcceptMode && (!iopRevision.EndsWith (newPolicyAlias)))					// Политика уже принята
 				return 1;
 
 			// Настройка контролов
@@ -240,18 +240,21 @@ namespace RD_AAOW
 					ShowProjectPage_Click, true);
 				}
 
-			AddButton (RDLocale.GetDefaultText (RDLDefaultTexts.Control_PolicyEULA),
+			/*AddButton (RDLocale.GetDefaultText (RDLDefaultTexts.Control_PolicyEULA),
 				ShowADP_Click, true);
 			if (AcceptMode)
-				buttonIndex++;
-			AddButton (RDLocale.GetDefaultText (RDLDefaultTexts.Control_SocialPolicy),
-				ShowSCP_Click, true);
+				buttonIndex++;*/
+			AddButton (RDLocale.GetDefaultText (RDLDefaultTexts.Control_IOP),
+				ShowIOP_Click, true);
 
 			if (AcceptMode)
 				{
-				int amlb = linkButtons.Count - 2;
+				/*int amlb = linkButtons.Count - 2;
 				linkButtons[amlb].Width = linkButtons[amlb + 1].Width = 404;
 				linkButtons[amlb].BackColor = linkButtons[amlb + 1].BackColor =
+					RDGenerics.GetInterfaceColor (RDInterfaceColors.WarningMessage);*/
+				linkButtons[linkButtons.Count - 1].Width = 404;
+				linkButtons[linkButtons.Count - 1].BackColor =
 					RDGenerics.GetInterfaceColor (RDInterfaceColors.WarningMessage);
 				}
 
@@ -272,7 +275,7 @@ namespace RD_AAOW
 
 			// Завершение формирования
 			this.Text = AcceptMode ?
-				RDLocale.GetDefaultText (RDLDefaultTexts.Control_PolicyEULA) :
+				RDLocale.GetDefaultText (RDLDefaultTexts.Control_IOP) :
 				RDLocale.GetDefaultText (RDLDefaultTexts.Control_AppAbout);
 
 			buttonIndex += (buttonIndex % 2 + 2);
@@ -284,7 +287,7 @@ namespace RD_AAOW
 			// Получение Политики
 			if (AcceptMode)
 				{
-				RDGenerics.RunWork (PolicyLoader, null,
+				/*RDGenerics.RunWork (PolicyLoader, null,
 					RDLocale.GetDefaultText (RDLDefaultTexts.Message_PreparingForLaunch),
 					RDRunWorkFlags.CaptionInTheMiddle | RDRunWorkFlags.AlwaysOnTop);
 
@@ -294,7 +297,13 @@ namespace RD_AAOW
 					string adpRev = ExtractPolicyRevision (html);
 					if (!string.IsNullOrWhiteSpace (adpRev))
 						adpRevision = adpRev;
-					}
+					}*/
+				RDGenerics.RunWork (IOPVersionExtractor, null,
+					RDLocale.GetDefaultText (RDLDefaultTexts.Message_PreparingForLaunch),
+					RDRunWorkFlags.CaptionInTheMiddle | RDRunWorkFlags.AlwaysOnTop);
+
+				if (!string.IsNullOrWhiteSpace (RDGenerics.WorkResultAsString))
+					iopRevision = RDGenerics.WorkResultAsString;
 
 				MisacceptButton.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.ErrorMessage);
 				ExitButton.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.SuccessMessage);
@@ -355,7 +364,7 @@ namespace RD_AAOW
 			// В случае невозможности загрузки Политики признак необходимости принятия до этого момента
 			// не удаляется из строки версии. Поэтому требуется страховка
 			if (AcceptMode && policyAccepted)
-				RDGenerics.SetDPArrayRegistryValue (ADPRevisionKey, adpRevision.Replace (newPolicyAlias, ""));
+				RDGenerics.SetDPArrayRegistryValue (IOPRevisionKey, iopRevision.Replace (newPolicyAlias, ""));
 
 			// Завершение
 			return policyAccepted ? 0 : -1;
@@ -392,7 +401,7 @@ namespace RD_AAOW
 			UpdatesTimer.Enabled = true;
 			}
 
-		// Метод получает Политику разработки
+		/*// Метод получает Политику разработки
 		private void PolicyLoader (object sender, DoWorkEventArgs e)
 			{
 			e.Result = GetPolicy ();
@@ -441,7 +450,7 @@ namespace RD_AAOW
 				return "";
 
 			return LoadedPolicy.Substring (left, right - left);
-			}
+			}*/
 
 		/// <summary>
 		/// Возвращает true, если приложение запущено впервые
@@ -594,15 +603,15 @@ namespace RD_AAOW
 			RDGenerics.RunURL (projectLink);
 			}
 
-		private void ShowADP_Click (object sender, EventArgs e)
+		private void ShowIOP_Click (object sender, EventArgs e)
 			{
-			RDGenerics.RunURL (RDGenerics.ADPLink);
+			RDGenerics.RunURL (RDGenerics.IOPLink);
 			}
 
-		private void ShowSCP_Click (object sender, EventArgs e)
+		/*private void ShowSCP_Click (object sender, EventArgs e)
 			{
 			RDGenerics.RunURL (RDGenerics.SCPLink);
-			}
+			}*/
 
 		private void GoLabMain_Click (object sender, EventArgs e)
 			{
@@ -719,12 +728,13 @@ namespace RD_AAOW
 			htmlError = false;
 
 			// Получение обновлений Политики (ошибки игнорируются)
-			policy:
+		policy:
 			if (startupMode)
 				{
-				string adpRev = ExtractPolicyRevision (GetPolicy ());
-				if (!string.IsNullOrWhiteSpace (adpRev) && (adpRev != adpRevision))
-					RDGenerics.SetDPArrayRegistryValue (ADPRevisionKey, adpRev + newPolicyAlias);
+				/*string adpRev = ExtractPolicyRevision (GetPolicy ());*/
+				string iopRev = GetIOPVersion ();
+				if (!string.IsNullOrWhiteSpace (iopRev) && (iopRev != iopRevision))
+					RDGenerics.SetDPArrayRegistryValue (IOPRevisionKey, iopRev + newPolicyAlias);
 				}
 
 			// Не было проблем с загрузкой страницы
@@ -738,6 +748,32 @@ namespace RD_AAOW
 			updatesMessage = RDLocale.GetDefaultText (RDLDefaultTexts.Message_ServerUnavailable);
 			e.Result = -2;
 			return;
+			}
+
+		// Метод выполняет фоновое извлечение ревизии Политики
+		private void IOPVersionExtractor (object sender, DoWorkEventArgs e)
+			{
+			e.Result = GetIOPVersion ();
+			}
+
+		private string GetIOPVersion ()
+			{
+			// Запрос обновлений пакета
+			string html = RDGenerics.GetHTML (RDGenerics.IOPRevisionLink);
+
+			// Разбор ответа (извлечение версии)
+			string versionMarker = RDGenerics.IOPMarker + " v ";
+			int i = html.IndexOf (versionMarker);
+			if (i < 0)
+				return "";
+
+			i += versionMarker.Length;
+
+			int j = html.IndexOf ("<", i);
+			if ((j < 0) || (j <= i))
+				return "";
+
+			return "v " + html.Substring (i, j - i).Trim ();
 			}
 
 		// Метод выполняет фоновую проверку обновлений

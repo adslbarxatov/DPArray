@@ -1,6 +1,6 @@
-_Changes for v 7.4.3_:
+_Changes for v 7.4.5_:
+- Upgraded the policy (IOP) updates checker;
+- App has been redirected to the Integrated operational policy (IOP);
+- The List of packages button in the Packages selector now works more accurate;
 - Added the fast update option: if you click the Deploy button without checking any package, the app will try to deploy available updates;
-- The “App about” interface has been updated;
-- Fixed some hidden bugs;
-- Implemented the unified interface for registration of file associations;
-- Added colors for new products in the mini-launcher
+- The “App about” interface has been updated
