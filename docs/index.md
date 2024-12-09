@@ -603,7 +603,7 @@ For us, it’s, first of all, a living, independent embodiment of our main idea.
 free from “monetary hegemony”, advertising and everything else that prevents them from being unique and self-sufficient***.
 
 We emphasize that ***any investment in this asset is solely an investment in application development in full compliance
-with [ADP](https://adslbarxatov.github.io/ADP) and support of this concept***. If the idea finds support, it can
+with [IOP](https://adslbarxatov.github.io/IOP) and support of this concept***. If the idea finds support, it can
 subsequently be used as a trading asset (we have decentralized this token and don’t have the right to issue and burn it).
 
 ***Thank you in advance!***
