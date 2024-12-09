@@ -24,7 +24,7 @@
 
 ## Hello, dear user!
 
-We’re glad to welcome you to the start page of Free development lab (RD AAOW FDL).
+Glad to welcome you to the start page of Free development lab (RD AAOW FDL).
 
 We’re working (to the best of our ability) on quite different projects and share the latest news.
 In addition, we publish results of developments, links to working tools and – in general – everything
@@ -37,6 +37,8 @@ In addition, we will be glad to receive wishes and suggestions, as well as bug r
 (descriptions of found problems) on active projects.
 
 We’re looking forward to a long and mutually beneficial cooperation!
+
+---
 
 A little about the rules. We take care of our colleagues. We are also concerned about the ideological
 values of our communities. Therefore, the [Integrated operational policy](https://adslbarxatov.github.io/IOP)
