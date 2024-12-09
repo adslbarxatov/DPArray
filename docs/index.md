@@ -38,17 +38,11 @@ In addition, we will be glad to receive wishes and suggestions, as well as bug r
 
 We’re looking forward to a long and mutually beneficial cooperation!
 
-A little about the rules:
-
-- We take care of our colleagues. Therefore, a [Social communities policy](https://adslbarxatov.github.io/SCP)
-was developed and introduced, which is binding on all participants. Please note that it is of a protective
-and not restrictive nature.
-- We are also concerned about the ideological values of our communities. Therefore, there is an
-[Application development policy](https://adslbarxatov.github.io/ADP) that ensures compliance with all
-published products and developments.
-
-Both documents are required for familiarization for the most complete understanding of the goals
-and objectives of the Laboratory
+A little about the rules. We take care of our colleagues. We are also concerned about the ideological
+values of our communities. Therefore, the [Integrated operational policy](https://adslbarxatov.github.io/IOP)
+was developed and introduced. It is mandatory for all participants, ensuring that all published products
+and developments comply with its regulations. This document is recommended for familiarization for the most
+complete understanding of goals and objectives of the Laboratory
 
 &nbsp;
 
@@ -654,5 +648,4 @@ subsequently be used as a trading asset (we have decentralized this token and do
 [Turtle](#turtle) &#x3000;
 [UniNotifier](#uninotifier) &#x3000;
 [Vice city toolset](#vice-city-toolset) &#x3000;
-[Xash3D FWGS for ESHQ](#xash3d-fwgs-engine-adaptation-for-eshq) &#x3000;
-[Logo concepts](https://adslbarxatov.github.io/DPArray/logo_en)
+[Xash3D FWGS for ESHQ](#xash3d-fwgs-engine-adaptation-for-eshq)
