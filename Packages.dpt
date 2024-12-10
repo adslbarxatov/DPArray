@@ -4,8 +4,8 @@ n:DPArray
 a:DPArray.dp
 i:INFOPAGE
 f:fvd
-v:7.4.5
-p:0008618BCDE8A58A
+v:7.5
+p:00086189E4BD1659
 
 
 
@@ -344,8 +344,8 @@ v:1.3
 
 
 
-me:We have updated UniNotifier, the webpages supervisor!|
-me:Watch new video guide in the “App about” section
+me:We have merged ADP and SCP into the Integrated operational policy.|
+me:Make sure that you still agree with it
 
-mr:Мы обновили супервизор веб-страниц UniNotifier!|
-mr:Смотрите новое видеоруководство в разделе «О приложении»
+mr:Мы объединили ADP и SCP в Интегрированную операционную политику.|
+mr:Убедитесь, что Вы всё ещё с ней согласны

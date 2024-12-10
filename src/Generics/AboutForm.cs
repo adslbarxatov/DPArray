@@ -213,8 +213,10 @@ namespace RD_AAOW
 				this.CancelButton = ExitButton;
 				}
 
+			// Добавление кнопок переходов
 			if (!AcceptMode)
 				{
+				// Раздел лога изменений и ручной загрузки
 #if !DPMODULE
 				if (!RDGenerics.StartedFromMSStore)
 					AddButton (RDLocale.GetDefaultText (RDLDefaultTexts.Message_CheckingUpdates),
@@ -222,8 +224,13 @@ namespace RD_AAOW
 #endif
 				AddButton (RDLocale.GetDefaultText (RDLDefaultTexts.Control_Changelog),
 					ShowChangeLog_Click, false);
+
+				if (buttonIndex % 2 != 0)
+					linkButtons[linkButtons.Count - 1].Left = (this.Width -
+						linkButtons[linkButtons.Count - 1].Width) / 2;
 				buttonIndex += (buttonIndex % 2 + 2);
 
+				// Раздел ссылок текущего проекта
 				if (File.Exists (RDLocale.GetHelpFilePath ()))
 					AddButton (RDLocale.GetDefaultText (RDLDefaultTexts.Control_OfflineHelp),
 						ShowOfflineHelp_Click, true);
@@ -240,26 +247,24 @@ namespace RD_AAOW
 					ShowProjectPage_Click, true);
 				}
 
-			/*AddButton (RDLocale.GetDefaultText (RDLDefaultTexts.Control_PolicyEULA),
-				ShowADP_Click, true);
-			if (AcceptMode)
-				buttonIndex++;*/
 			AddButton (RDLocale.GetDefaultText (RDLDefaultTexts.Control_IOP),
 				ShowIOP_Click, true);
 
 			if (AcceptMode)
 				{
-				/*int amlb = linkButtons.Count - 2;
-				linkButtons[amlb].Width = linkButtons[amlb + 1].Width = 404;
-				linkButtons[amlb].BackColor = linkButtons[amlb + 1].BackColor =
-					RDGenerics.GetInterfaceColor (RDInterfaceColors.WarningMessage);*/
 				linkButtons[linkButtons.Count - 1].Width = 404;
 				linkButtons[linkButtons.Count - 1].BackColor =
 					RDGenerics.GetInterfaceColor (RDInterfaceColors.WarningMessage);
 				}
-
+			else
+				{
+				if (buttonIndex % 2 != 0)
+					linkButtons[linkButtons.Count - 1].Left = (this.Width -
+						linkButtons[linkButtons.Count - 1].Width) / 2;
+				}
 			buttonIndex += (buttonIndex % 2 + 2);
 
+			// Раздел общих ссылок Лаборатории
 			AddButton (RDLocale.GetDefaultText (RDLDefaultTexts.Control_AskDeveloper),
 				AskDeveloper_Click, true);
 
@@ -272,6 +277,10 @@ namespace RD_AAOW
 
 			AddButton (RDLocale.GetDefaultText (RDLDefaultTexts.Control_HelpTheProject),
 				GoDonate_Click, true);
+
+			if (buttonIndex % 2 != 0)
+				linkButtons[linkButtons.Count - 1].Left = (this.Width -
+					linkButtons[linkButtons.Count - 1].Width) / 2;
 
 			// Завершение формирования
 			this.Text = AcceptMode ?
@@ -287,17 +296,6 @@ namespace RD_AAOW
 			// Получение Политики
 			if (AcceptMode)
 				{
-				/*RDGenerics.RunWork (PolicyLoader, null,
-					RDLocale.GetDefaultText (RDLDefaultTexts.Message_PreparingForLaunch),
-					RDRunWorkFlags.CaptionInTheMiddle | RDRunWorkFlags.AlwaysOnTop);
-
-				string html = RDGenerics.WorkResultAsString;
-				if (!string.IsNullOrWhiteSpace (html))
-					{
-					string adpRev = ExtractPolicyRevision (html);
-					if (!string.IsNullOrWhiteSpace (adpRev))
-						adpRevision = adpRev;
-					}*/
 				RDGenerics.RunWork (IOPVersionExtractor, null,
 					RDLocale.GetDefaultText (RDLDefaultTexts.Message_PreparingForLaunch),
 					RDRunWorkFlags.CaptionInTheMiddle | RDRunWorkFlags.AlwaysOnTop);
@@ -400,57 +398,6 @@ namespace RD_AAOW
 			RDGenerics.RunWork (UpdatesChecker, null, null, RDRunWorkFlags.DontSuspendExecution);
 			UpdatesTimer.Enabled = true;
 			}
-
-		/*// Метод получает Политику разработки
-		private void PolicyLoader (object sender, DoWorkEventArgs e)
-			{
-			e.Result = GetPolicy ();
-			}
-
-		// Метод загружает текст Политики
-		private string GetPolicy ()
-			{
-			string html = RDGenerics.GetHTML (RDGenerics.ADPLink);
-			int textLeft, textRight;
-
-			if (((textLeft = html.IndexOf ("code\">")) < 0) ||
-				((textRight = html.IndexOf ("<footer", textLeft)) < 0))
-				{
-				return "";
-				}
-
-			// Обрезка
-			textLeft += 6;
-			html = html.Substring (textLeft, textRight - textLeft);
-
-			// Формирование текста
-			html = ApplyReplacements (html);
-
-			while (html.Contains ("\x0A\x0A"))
-				html = html.Replace ("\x0A\x0A", "\x0A");   // Лишние Unix-абзацы
-			html = html.Replace ("\xA0\x0D", "\x0D");       // Скрытые неразрывные пробелы
-			html = html.Replace ("\x0A\x20", "\x0A     ");  // Отступы в строках Положений
-
-			html = html.Replace ("\x0D\x0A", "\x01");       // Устранение оставшихся задвоений Unix-абзацев
-			html = html.Replace ("\x0A", "\x20");
-			html = html.Replace ("\x01", "\x0D\x0A");
-			html = html.Replace (" \x0D\x0A", "\x0D\x0A");  // Устранение оставшихся лишних пробелов
-
-			html = html.Substring (1, html.Length - 48);    // Финальная обрезка
-			return html;
-			}
-
-		// Метод извлекает из загруженного текста Политики её версию
-		private string ExtractPolicyRevision (string LoadedPolicy)
-			{
-			int left, right;
-
-			if (((left = LoadedPolicy.IndexOf ("rev")) < 0) ||
-				((right = LoadedPolicy.IndexOf ("\n", left)) < 0))
-				return "";
-
-			return LoadedPolicy.Substring (left, right - left);
-			}*/
 
 		/// <summary>
 		/// Возвращает true, если приложение запущено впервые
@@ -608,11 +555,6 @@ namespace RD_AAOW
 			RDGenerics.RunURL (RDGenerics.IOPLink);
 			}
 
-		/*private void ShowSCP_Click (object sender, EventArgs e)
-			{
-			RDGenerics.RunURL (RDGenerics.SCPLink);
-			}*/
-
 		private void GoLabMain_Click (object sender, EventArgs e)
 			{
 			RDGenerics.RunURL (RDGenerics.DPArrayLink);
@@ -731,7 +673,6 @@ namespace RD_AAOW
 		policy:
 			if (startupMode)
 				{
-				/*string adpRev = ExtractPolicyRevision (GetPolicy ());*/
 				string iopRev = GetIOPVersion ();
 				if (!string.IsNullOrWhiteSpace (iopRev) && (iopRev != iopRevision))
 					RDGenerics.SetDPArrayRegistryValue (IOPRevisionKey, iopRev + newPolicyAlias);
