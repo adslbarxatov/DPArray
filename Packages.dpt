@@ -59,8 +59,8 @@ n:KassArray
 a:KassArray.dp
 f:F
 l:r
-v:6.0.8
-p:0014B79385934F67
+v:6.1
+p:0014B3892B1B7646
 
 n:Make decision
 a:MakeDecision.dp
@@ -95,8 +95,8 @@ p:0003271A8083E34A
 n:UniNotifier
 a:UniNotifier.dp
 f:0
-v:8.6
-p:000574FD6F458679
+v:8.6.1
+p:000572FF9E2FA63C
 
 n:Vice city toolset
 a:ViceCityToolset.dp
@@ -209,8 +209,8 @@ u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
 a:KassArray.apk
 f:FV
 l:r
-v:6.0.8
-s:58597307
+v:6.1
+s:60140470
 
 n:Make decision
 u:GIT_LINK/MakeDecision/GIT_PATH/DEFFILE
@@ -263,7 +263,7 @@ n:KassArray
 f:FVD
 l:r
 i:MS_STORE/9ND98F4C4Q60
-v:6.0.8
+v:6.1
 
 n:Mafia helper
 f:FVD
@@ -303,7 +303,7 @@ v:2.4.6
 n:UniNotifier
 f:FVD
 i:MS_STORE/9NVZ51RL54K4
-v:8.6
+v:8.6.1
 
 
 
@@ -324,7 +324,7 @@ n:KassArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextToKKT
 l:r
-v:6.0.8
+v:6.1
 
 n:Make decision
 f:FVD
