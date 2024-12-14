@@ -39,14 +39,14 @@ p:0004B3BFB8B0FCD7
 n:Font finder
 a:FontFinder.dp
 f:0
-v:3.6.4
-p:0003FA972EDD1427
+v:3.6.5
+p:0003F89F3C695D84
 
 n:Geomag data drawer
 a:GeomagDataDrawer.dp
 f:F
-v:5.8.5
-p:0011A4F4B7284164
+v:5.8.6
+p:0011A2F4DC03CBFE
 
 n:Grammar must joy
 a:GrammarMustJoy.dp
@@ -83,8 +83,8 @@ p:00032EF766A47770
 n:Sudoku solver
 a:SudokuSolver.dp
 f:0
-v:4.3.6
-p:0002FA9AA324BD99
+v:4.3.7
+p:0002FA9A632D23F0
 
 n:TextStats
 a:TextStats.dp
@@ -170,8 +170,8 @@ g:Minigames for Windows
 n:Mafia helper
 a:MafiaHelper.dp
 f:0
-v:1.10.7
-p:00063EB33891FF7C
+v:1.10.8
+p:00063CB3909F8E24
 
 n:One hundred and one
 a:OneHundredOne.dp
@@ -246,12 +246,12 @@ v:3.7.6
 n:Font finder
 f:FVD
 i:MS_STORE/9MXDR4BXP8R4
-v:3.6.4
+v:3.6.5
 
 n:Geomag data drawer
 f:FVD
 i:MS_STORE/9PG19ZZ3NH47
-v:5.8.5
+v:5.8.6
 
 n:Grammar must joy
 f:FVD
@@ -268,7 +268,7 @@ v:6.1
 n:Mafia helper
 f:FVD
 i:MS_STORE/9N4WB06F64TR
-v:1.10.7
+v:1.10.8
 
 n:Make decision
 f:FVD
@@ -288,7 +288,7 @@ v:3.4.1
 n:Sudoku solver
 f:FVD
 i:MS_STORE/9NZ1DLGFK0WZ
-v:4.3.6
+v:4.3.7
 
 n:TextStats
 f:FVD
