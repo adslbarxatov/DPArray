@@ -39,8 +39,8 @@ p:0004B3BFFEB23DE1
 n:Font finder
 a:FontFinder.dp
 f:0
-v:3.6.5
-p:0003F89F3C695D84
+v:3.6.6
+p:0003F897E259CA62
 
 n:Geomag data drawer
 a:GeomagDataDrawer.dp
@@ -59,8 +59,8 @@ n:KassArray
 a:KassArray.dp
 f:F
 l:r
-v:6.1
-p:0014B3892B1B7646
+v:6.1.1
+p:0014B7A3A2A38805
 
 n:Make decision
 a:MakeDecision.dp
@@ -77,14 +77,14 @@ p:0004C5E29F671E4B
 n:Screen shooter
 a:ScreenShooter.dp
 f:0
-v:3.4.2
-p:00032CEFA78386D1
+v:3.4.3
+p:00032CF7778AD7F0
 
 n:Sudoku solver
 a:SudokuSolver.dp
 f:0
-v:4.3.7
-p:0002FA9A632D23F0
+v:4.3.8
+p:0002FA9AA6D1FD3B
 
 n:TextStats
 a:TextStats.dp
@@ -170,8 +170,8 @@ g:Minigames for Windows
 n:Mafia helper
 a:MafiaHelper.dp
 f:0
-v:1.10.8
-p:00063CB3909F8E24
+v:2.0
+p:000A2AA895512209
 
 n:One hundred and one
 a:OneHundredOne.dp
@@ -182,8 +182,8 @@ p:000370D8FEC63B83
 n:Thousand
 a:Thousand.dp
 f:0
-v:2.4.7
-p:000317B6866540BC
+v:2.4.8
+p:000317AEA8594C23
 
 
 
@@ -209,8 +209,8 @@ u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
 a:KassArray.apk
 f:FV
 l:r
-v:6.1
-s:60140470
+v:6.1.1
+s:60136374
 
 n:Make decision
 u:GIT_LINK/MakeDecision/GIT_PATH/DEFFILE
@@ -246,7 +246,7 @@ v:3.7.6
 n:Font finder
 f:FVD
 i:MS_STORE/9MXDR4BXP8R4
-v:3.6.5
+v:3.6.6
 
 n:Geomag data drawer
 f:FVD
@@ -263,12 +263,12 @@ n:KassArray
 f:FVD
 l:r
 i:MS_STORE/9ND98F4C4Q60
-v:6.1
+v:6.1.1
 
 n:Mafia helper
 f:FVD
 i:MS_STORE/9N4WB06F64TR
-v:1.10.8
+v:2.0
 
 n:Make decision
 f:FVD
@@ -283,12 +283,12 @@ v:2.3.7
 n:Screen shooter
 f:FVD
 i:MS_STORE/9NHVH857DV1S
-v:3.4.2
+v:3.4.3
 
 n:Sudoku solver
 f:FVD
 i:MS_STORE/9NZ1DLGFK0WZ
-v:4.3.7
+v:4.3.8
 
 n:TextStats
 f:FVD
@@ -298,7 +298,7 @@ v:1.3.2
 n:Thousand
 f:FVD
 i:MS_STORE/9N1JJ1G48BCF
-v:2.4.7
+v:2.4.8
 
 n:UniNotifier
 f:FVD
@@ -324,7 +324,7 @@ n:KassArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextToKKT
 l:r
-v:6.1
+v:6.1.1
 
 n:Make decision
 f:FVD
