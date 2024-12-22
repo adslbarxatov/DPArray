@@ -136,23 +136,23 @@ v:6.0
 s:73833204
 p:06EBFFCC78C0CEAE
 
-n:ES: Randomaze, backward compatibility
-a:ESRM_backward.7z
-f:FV
-i:MODSHOST/esrm
-u:MODSTORAGE/280749?MOD_REFesrm
-v:6.0
-s:31064930
-p:0298E663FB6BE879
+/n:ES: Randomaze, backward compatibility
+/a:ESRM_backward.7z
+/f:FV
+/i:MODSHOST/esrm
+/u:MODSTORAGE/280749?MOD_REFesrm
+/v:6.0
+/s:31064930
+/p:0298E663FB6BE879
 
 n:ES: Randomaze, actual update
 a:ESRM_update.7z
 f:0
 i:MODSHOST/esrm
-u:MODSTORAGE/280747?MOD_REFesrm
-v:6.0.1
-s:699658
-p:0010ACA70EB89103
+u:MODSTORAGE/282493?MOD_REFesrm
+v:6.1
+s:3541014
+p:0063F98D81082793
 
 /n:Crazy cheater’s mod
 /a:GTAViceCity.7z
