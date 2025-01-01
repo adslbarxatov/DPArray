@@ -136,6 +136,15 @@ v:6.0
 s:73833204
 p:06EBFFCC78C0CEAE
 
+n:ES: Randomaze, actual update
+a:ESRM_update.7z
+f:0
+i:MODSHOST/esrm
+u:MODSTORAGE/283200?MOD_REFesrm
+v:6.1.5
+s:3574676
+p:0064887171AC0D53
+
 /n:ES: Randomaze, backward compatibility
 /a:ESRM_backward.7z
 /f:FV
@@ -144,15 +153,6 @@ p:06EBFFCC78C0CEAE
 /v:6.0
 /s:31064930
 /p:0298E663FB6BE879
-
-n:ES: Randomaze, actual update
-a:ESRM_update.7z
-f:0
-i:MODSHOST/esrm
-u:MODSTORAGE/282493?MOD_REFesrm
-v:6.1
-s:3541014
-p:0063F98D81082793
 
 /n:Crazy cheater’s mod
 /a:GTAViceCity.7z
