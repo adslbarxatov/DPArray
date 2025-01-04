@@ -82,7 +82,7 @@
 :gb: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/DPArray) &#x3000;
-:film_projector: [Видеоруководство](https://youtube.com/watch?v=icMCwaQHttY) &#x3000;
+:film_projector: [Видеоруководство](https://youtube.com/watch?v=BV0O_90DT_M) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/DPArray/releases/latest)
 
 DPArray – это инструмент для управления продуктами Лаборатории на вашем ПК.
