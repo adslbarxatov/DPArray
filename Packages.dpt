@@ -119,13 +119,13 @@ p:16E3127A7D1FD049
 o:ESHQ_setup.14.dp
 
 n:ESHQ, actual update
-a:ESHQ_update.7z
+a:ESHQ_update.gz
 f:0
 i:MODSHOST/eshq
-u:MODSTORAGE/283116?MOD_REFeshq
-v:14.3.6
-s:49972948
-p:0700B36978782028
+u:MODSTORAGE/283338?MOD_REFeshq
+v:14.4
+s:46988994
+p:079A2293EE37FC64
 
 n:ES: Randomaze
 a:ESRM_setup.7z
