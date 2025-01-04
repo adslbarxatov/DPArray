@@ -512,4 +512,13 @@
 
 Попробовать развернуть доступные обновления?</value>
   </data>
+  <data name="CompressionError" xml:space="preserve">
+    <value>Не удалось выполнить сжатие пакета</value>
+  </data>
+  <data name="CompressingMessage" xml:space="preserve">
+    <value>Сжатие пакета...</value>
+  </data>
+  <data name="DecompressingMessage" xml:space="preserve">
+    <value>Извлечение пакета...</value>
+  </data>
 </root>

@@ -1,5 +1,11 @@
 DPArray: changes log
 
+Version 7.6:
+• DPArray now supports the internal compression algorithm. External 7z utility
+  will no longer be needed for deploying large packages;
+• DPArray itself now uses the DP15 package version;
+• Fixed some interface bugs in the mini-launched
+
 Version 7.5:
 • Upgraded the checker of policy updates;
 • App has been redirected to the Integrated operational policy (IOP);

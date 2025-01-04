@@ -512,4 +512,13 @@ Server sent a new message</value>
 
 Do you want to deploy available updates?</value>
   </data>
+  <data name="CompressionError" xml:space="preserve">
+    <value>Failed to compress the package</value>
+  </data>
+  <data name="CompressingMessage" xml:space="preserve">
+    <value>Compressing the package...</value>
+  </data>
+  <data name="DecompressingMessage" xml:space="preserve">
+    <value>Decompressing the package...</value>
+  </data>
 </root>
