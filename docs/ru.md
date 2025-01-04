@@ -651,13 +651,13 @@ ES: Randomaze – генератор карт для одноимённого м
 
 Также Вы можете поддержать наш новый токен [FreeDevLab](https://tonviewer.com/EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI):
 - на [странице пула Ston.fi](https://app.ston.fi/pools/EQAQfWQLE3PYK-0wio4i5iio5OJ2J33RpFPudm3SCbh0fNaO) в паре с USDT
-- на [странице пула Ston.fi](https://app.ston.fi/pools/EQCh80WBekTtxi1iDrDeXIb9nlM-JRv1rerEj96e35oqhnpp) в паре TON
+- на [странице пула Ston.fi](https://app.ston.fi/pools/EQCh80WBekTtxi1iDrDeXIb9nlM-JRv1rerEj96e35oqhnpp) в паре с TON
 - с помощью [интерфейса обмена Ston.fi](https://app.ston.fi/swap?tt=EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI)
 
 ```
 Название: FreeDevLab (FDL)
 Сеть: TON
-Ликвидность обеспечена в паре с USDT
+Ликвидность обеспечена в паре с USDT и TON
 Дата создания: 22.05.24
 Редактируемый: нет (администраторские права отозваны)
 Майнинг: недоступен (количество зафиксировано на уровне 2³² единиц)
