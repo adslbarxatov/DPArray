@@ -1,5 +1,10 @@
 DPArray: changes log
 
+ToDo:
+- New videoguides
+- Disable resources autoopen at the end of deployment
+- Double the step of runline in the PM
+
 Version 7.6:
 • DPArray now supports the internal compression algorithm. External 7z utility
   will no longer be needed for deploying large packages;

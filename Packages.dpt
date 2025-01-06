@@ -59,8 +59,8 @@ n:KassArray
 a:KassArray.dp
 f:F
 l:r
-v:6.1.1
-p:0014B7A3A2A38805
+v:6.2
+p:001509920644A4FE
 
 n:Make decision
 a:MakeDecision.dp
@@ -153,15 +153,6 @@ p:0064887171AC0D53
 /v:6.0
 /s:31064930
 /p:0298E663FB6BE879
-
-/n:Crazy cheater’s mod
-/a:GTAViceCity.7z
-/f:0
-/i:MODSHOST/ccm
-/u:MODSTORAGE/240088?MOD_REFccm
-/v:1.3
-/s:165319082
-/p:1475B852D4A856DE
 
 
 
@@ -263,7 +254,7 @@ n:KassArray
 f:FVD
 l:r
 i:MS_STORE/9ND98F4C4Q60
-v:6.1.1
+v:6.2
 
 n:Mafia helper
 f:FVD
@@ -330,12 +321,6 @@ n:Make decision
 f:FVD
 i:GP_STOREcom.RD_AAOW.MakeDecision
 v:3.8.6
-
-/n:Tablepedia viewer
-/f:FVD
-/i:GP_STOREcom.RD_AAOW.TablepediaNotifier
-/l:r
-/v:5.5.6
 
 n:TextStats
 f:FVD
