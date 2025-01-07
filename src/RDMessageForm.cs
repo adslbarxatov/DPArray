@@ -207,7 +207,8 @@ namespace RD_AAOW
 		/// <param name="Message">Сообщение для пользователя</param>
 		/// <param name="MaxLength">Максимальная длина вводимого текста</param>
 		/// <param name="Center">Флаг, указывающий на расположение сообщения по центру</param>
-		public RDMessageForm (string Message, bool Center, uint MaxLength)
+		/// <param name="InitialText">Начальный текст, отображаемый в поле ввода</param>
+		public RDMessageForm (string Message, bool Center, uint MaxLength, string InitialText)
 			{
 			uint length = MaxLength;
 			if (length < 1)
@@ -215,11 +216,12 @@ namespace RD_AAOW
 			if (length > 256)
 				length = 256;
 
+			// Начальный текст передаётся как текст третьей кнопки
 			RDMessageFormInit (Center ? RDMessageInternalTypes.Input_Center : RDMessageInternalTypes.Input_Left,
 				Message,
 				RDLocale.GetDefaultText (RDLDefaultTexts.Button_OK),
 				RDLocale.GetDefaultText (RDLDefaultTexts.Button_Cancel),
-				null, RDLanguages.en_us, length);
+				InitialText, RDLanguages.en_us, length);
 			}
 
 		/// <summary>
@@ -432,15 +434,25 @@ namespace RD_AAOW
 
 				if (!string.IsNullOrWhiteSpace (ButtonThreeName))
 					{
-					Button03.Text = ButtonThreeName;
-					if (Button03.Text.EndsWith (RDLocale.TabStopPreventor))
+					switch (windowType)
 						{
-						Button03.TabStop = false;
-						Button03.Text = Button03.Text.Replace (RDLocale.TabStopPreventor, "");
-						}
-					else
-						{
-						CancelButton = Button03;
+						case RDMessageInternalTypes.Input_Center:
+						case RDMessageInternalTypes.Input_Left:
+							InputTextBox.Text = ButtonThreeName;
+							break;
+
+						default:
+							Button03.Text = ButtonThreeName;
+							if (Button03.Text.EndsWith (RDLocale.TabStopPreventor))
+								{
+								Button03.TabStop = false;
+								Button03.Text = Button03.Text.Replace (RDLocale.TabStopPreventor, "");
+								}
+							else
+								{
+								CancelButton = Button03;
+								}
+							break;
 						}
 					}
 				}
