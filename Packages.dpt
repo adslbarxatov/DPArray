@@ -59,8 +59,8 @@ n:KassArray
 a:KassArray.dp
 f:F
 l:r
-v:6.2
-p:001509920644A4FE
+v:6.2.1
+p:00150994D8D706D5
 
 n:Make decision
 a:MakeDecision.dp
@@ -200,8 +200,8 @@ u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
 a:KassArray.apk
 f:FV
 l:r
-v:6.1.1
-s:60136374
+v:6.2.1
+s:60148662
 
 n:Make decision
 u:GIT_LINK/MakeDecision/GIT_PATH/DEFFILE
@@ -315,7 +315,7 @@ n:KassArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextToKKT
 l:r
-v:6.1.1
+v:6.2.1
 
 n:Make decision
 f:FVD
