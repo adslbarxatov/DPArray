@@ -1,8 +1,12 @@
 DPArray: changes log
 
 ToDo:
-- Disable resources autoopen at the end of deployment
-- Double the step of runline in the PM
+- Implement the correct switch between regular and compressed packages
+
+Version 7.6.2:
+• Removed the requirement check for DirectX and DotNet8;
+• Adjusted the deployment algorithm: the app will now open additional URLs only manually; 
+• Fixed some misleading tips
 
 Version 7.6.1:
 • New videoguides have been added
@@ -11,7 +15,7 @@ Version 7.6:
 • DPArray now supports the internal compression algorithm. External 7z utility
   will no longer be needed for deploying large packages;
 • DPArray itself now uses the DP15 package version;
-• Fixed some interface bugs in the mini-launched
+• Fixed some interface bugs in the mini-launcher
 
 Version 7.5:
 • Upgraded the checker of policy updates;

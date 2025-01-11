@@ -18,20 +18,20 @@ namespace RD_AAOW
 		/// </summary>
 		VC_RTL = 1,
 
-		/// <summary>
+		/*/// <summary>
 		/// Microsoft DirectX update
 		/// </summary>
-		DirectX = 2,
+		DirectX = 2,*/
 
 		/// <summary>
 		/// Microsoft .NET Framework 4.8.1 (Windows 10 и новее)
 		/// </summary>
-		DotNETFramework481 = 3,
+		DotNETFramework481 = 2,
 
-		/// <summary>
+		/*/// <summary>
 		/// Microsoft .NET Framework 8.0
 		/// </summary>
-		DotNet80 = 4,
+		DotNet80 = 4,*/
 
 		/// <summary>
 		/// Не является стандартной зависимостью
@@ -258,6 +258,8 @@ namespace RD_AAOW
 
 #endif
 
+#if DOTNET8
+
 				case AppDefaultRequirements.DotNet80:
 					downloadLink = "https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/" +
 						"runtime-desktop-8.0.4-windows-x86-installer";
@@ -278,7 +280,9 @@ namespace RD_AAOW
 					alreadyInstalled = (v >= 8);
 					break;
 
-				case AppDefaultRequirements.DirectX:
+#endif
+
+				/*case AppDefaultRequirements.DirectX:
 					downloadLink = "https://microsoft.com/en-us/download/confirmation.aspx?id=35";
 					description = "Microsoft DirectX 9 updates";
 
@@ -288,7 +292,7 @@ namespace RD_AAOW
 							"\\XAudio2_7.dll");
 						}
 					catch { }
-					break;
+					break;*/
 				}
 			}
 
@@ -323,15 +327,15 @@ namespace RD_AAOW
 					return "";
 
 				// Новые
-				case AppDefaultRequirements.DotNet80:
-					return "NF80+";
+				/*case AppDefaultRequirements.DotNet80:
+					return "NF80+";*/
 
 				case AppDefaultRequirements.DotNETFramework481:
 					return "NF481+";
 
 				// Актуальные
-				case AppDefaultRequirements.DirectX:
-					return "DX+";
+				/*case AppDefaultRequirements.DirectX:
+					return "DX+";*/
 
 				case AppDefaultRequirements.VC_RTL:
 					return "CPP+";
@@ -345,6 +349,6 @@ namespace RD_AAOW
 		/// <summary>
 		/// Возвращает количество доступных стандартных зависимостей
 		/// </summary>
-		public const uint DefaultRequirementsCount = 5;
+		public const uint DefaultRequirementsCount = 3;
 		}
 	}

@@ -304,9 +304,9 @@ Retry the list downloading?</value>
 If this product is already installed, no further action is required. Otherwise, the app may not work properly</value>
   </data>
   <data name="ReqMessageDefault" xml:space="preserve">
-    <value>This app requires the following prerequisites to work:
+    <value>This app uses the following third-party products:
 {0:S}
-If app starts properly, you don’t need to do anything here. Otherwise, press “Go to” button to open their webpages for manual downloading</value>
+Press “Go to” button to open their webpages and get more info</value>
   </data>
   <data name="PackageSelectorForm_ClearCache" xml:space="preserve">
     <value>Clear cac&amp;he</value>
@@ -422,13 +422,6 @@ Updates are highlighted in yellow in the packages list. At the bottom of the win
   <data name="VersionLine" xml:space="preserve">
     <value>•  App version: {0:S}  •  Package version: {1:S}  •</value>
   </data>
-  <data name="ReqMessageFirst" xml:space="preserve">
-    <value>This app requires the following prerequisites to work:
-{0:S}
-If possible, they will be installed automatically in the next step. Otherwise, their web pages will be opened with manual download option.
-
-Note: opened web pages that don’t offer automatic download of installation packages are for informational purposes only</value>
-  </data>
   <data name="PSF_Context00" xml:space="preserve">
     <value>More info</value>
   </data>
@@ -520,5 +513,8 @@ Do you want to deploy available updates?</value>
   </data>
   <data name="DecompressingMessage" xml:space="preserve">
     <value>Decompressing the package...</value>
+  </data>
+  <data name="ReqMessageFirst" xml:space="preserve">
+    <value>This application has some requirements that must be installed for it to work properly. DPArray will attempt to do this in the next step</value>
   </data>
 </root>
