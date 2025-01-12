@@ -63,7 +63,7 @@ Descriptions contain:
 
 :iphone: :package: :envelope_with_arrow: :briefcase: projects releases;
 
-:gb: :ru: set of available interface languages;
+:us: :ru: set of available interface languages;
 
 :film_projector: videoguides;
 
