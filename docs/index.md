@@ -90,7 +90,7 @@ A general list of mods is available [here](https://moddb.com/members/rd-aaow-fdl
 
 
 ### DPArray
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/DPArray) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=Pv1IZIywCrM) &#x3000;
@@ -105,7 +105,7 @@ Now you can enable the “run at system startup” flag to allow the DPArray to 
 
 
 ### ConcurrentDraw
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/ConcurrentDraw) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=UlB0zh3YH3A) &#x3000;
@@ -122,7 +122,7 @@ No additional codecs are required
 
 
 ### UniNotifier
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/UniNotifier) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=0XUqZhOa37Q) &#x3000;
@@ -140,7 +140,7 @@ has specified is loaded – all other objects (including ads) are ignored
 
 
 ### Geomag data drawer
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/GeomagDataDrawer) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=afbtGUPnZ2w) &#x3000;
@@ -155,11 +155,11 @@ Stand-alone tool for building and designing diagrams based on tabular data
 
 
 ### Make decision
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/MakeDecision) &#x3000;
-:film_projector: [Video guide](https://youtube.com/watch?v=gjewz9mQMgI) &#x3000;
+:film_projector: [Video guide](https://youtube.com/watch?v=ISMEm9-F5ZA) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://MakeDecision) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NBKLN7493ZL) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/makedecision/releases/latest) &#x3000;
@@ -176,7 +176,7 @@ As a result, you’ll get the answer for the next question: “what way is the b
 
 
 ### Batch image convertor
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/BatchImageConvertor) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://BatchImageConvertor) &#x3000;
@@ -189,7 +189,7 @@ A tool for batch processing of image files
 
 
 ### Font finder
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/FontFinder) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=x3ImaRYH7_A) &#x3000;
@@ -204,7 +204,7 @@ A tool for finding a font by its image
 
 
 ### ESHQ
-:gb: &#x3000;
+:us: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [Description](https://moddb.com/mods/eshq) &#x3000;
 :tv: [Video demo](https://youtube.com/playlist?list=PLe7qKwHNkZTvsbUZk6lh-IgkCwrQ6yZOL) &#x3000;
@@ -220,7 +220,7 @@ to be a little more complex and long in time and space...
 
 
 ### ES: Randomaze
-:gb: &#x3000;
+:us: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [Description](https://moddb.com/mods/esrm) &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/Randomaze) &#x3000;
@@ -236,7 +236,7 @@ This tool was the part of the ESHQ mod for Half-Life 1. Now it is a stand-alone 
 
 
 ### Xash3D FWGS Engine adaptation for ESHQ
-:gb: &#x3000;
+:us: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [Description](https://adslbarxatov.github.io/Xash3d-FWGS-for-ESHQ)
 
@@ -247,7 +247,7 @@ An adaptation of [Xash3d FWGS engine](https://github.com/FWGS/xash3d-fwgs) for E
 
 
 ### Vice city toolset
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/ViceCityToolset) &#x3000;
 :film_projector: [Video demo](https://youtube.com/watch?v=RdLt-dTz8vU) &#x3000;
@@ -262,7 +262,7 @@ Namely: editing game saves, editing transport parameters, converting models to c
 
 
 ### OS macros executor
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/OSMacrosExecutor) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=UPfBmVmQvZA) &#x3000;
@@ -278,7 +278,7 @@ Application can “use” mouse, keyboard, command line and interrupts as same a
 
 
 ### File associations manager
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/FileAssociationsManager) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://FileAssociationsManager) &#x3000;
@@ -291,7 +291,7 @@ A manager for user-defined file extensions
 
 
 ### Screen shooter
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/ScreenShooter) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ScreenShooter) &#x3000;
@@ -305,7 +305,7 @@ A tool for making screenshots. Supports shooting of screen, windows and elements
 
 
 ### TextStats
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/TextStats) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://TextStats) &#x3000;
@@ -321,7 +321,7 @@ This tool obtains statistics on the specified text
 
 
 ### Dates difference
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/DatesDifference) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://DatesDifference) &#x3000;
@@ -338,7 +338,7 @@ hours, days, weeks, full months and years (with fraction)
 
 
 ### Sudoku solver
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/SudokuSolver) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://SudokuSolver) &#x3000;
@@ -352,7 +352,7 @@ A tool for solving sudoku
 
 
 ### Mafia helper
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/MafiaHelper) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://MafiaHelper) &#x3000;
@@ -366,7 +366,7 @@ A moderator’s assistant for the game “Mafia”
 
 
 ### One hundred and one
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/OneHundredOne) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://OneHundredOne) &#x3000;
@@ -380,7 +380,7 @@ This app imitates the “One hundred and one” game for two players
 
 
 ### Thousand
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/Thousand) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://Thousand) &#x3000;
@@ -398,7 +398,7 @@ This app imitates the “Thousand” game for three players
 &nbsp;
 
 ### Crazy cheater’s mod
-:gb: &#x3000;
+:us: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> :hourglass_flowing_sand: &#x3000;
 :earth_africa: [Summary](https://moddb.com/mods/ccm)
 
@@ -410,7 +410,7 @@ as well as expanding the already great capabilities of Tommy Vercetti
 
 
 ### PA detector (Enchant it)
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And6.png" width="16"> :hourglass_flowing_sand: &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/EnchantIt)
 
@@ -422,7 +422,7 @@ activity. Before starting the experiment take a look at the project presentation
 
 
 ### Races
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF80.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> :hourglass_flowing_sand: &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/Races) &#x3000;
 :envelope_with_arrow: [Get 7z](https://github.com/adslbarxatov/Races/releases/latest/download/Races.2.4.3.7z)
@@ -434,7 +434,7 @@ activity. Before starting the experiment take a look at the project presentation
 
 
 ### Snake
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF80.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> :hourglass_flowing_sand: &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/Snake) &#x3000;
 :envelope_with_arrow: [Get 7z](https://github.com/adslbarxatov/Snake/releases/latest/download/Snake.2.4.3.7z)
@@ -446,7 +446,7 @@ activity. Before starting the experiment take a look at the project presentation
 
 
 ### Turtle
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF80.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> :hourglass_flowing_sand: &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/Turtle) &#x3000;
 :envelope_with_arrow: [Get 7z](https://github.com/adslbarxatov/Turtle/releases/latest/download/Turtle.2.4.3.7z)
@@ -458,7 +458,7 @@ activity. Before starting the experiment take a look at the project presentation
 
 
 ### FullSilence, CodeShow
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> :hourglass_flowing_sand: &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/fullsilence) &#x3000;
 :tv: [FullSilence live](https://youtube.com/playlist?list=PLe7qKwHNkZTsreIEQFedftXv3iQG-5LOA) &#x3000;
@@ -473,7 +473,7 @@ Code fragments used in video projects of the same names in text visualization.
 
 
 ### Keyboard switcher
-:gb: &#x3000;
+:us: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> :no_entry_sign: &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/keyboardswitcher)
 

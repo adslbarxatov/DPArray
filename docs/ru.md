@@ -59,7 +59,7 @@
 
 :iphone: :package: :envelope_with_arrow: :briefcase: релизы проектов;
 
-:gb: :ru: набор доступных языков интерфейса;
+:us: :ru: набор доступных языков интерфейса;
 
 :film_projector: видеоруководства;
 
@@ -79,7 +79,7 @@
 
 
 ### DPArray
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/DPArray) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=BV0O_90DT_M) &#x3000;
@@ -94,7 +94,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 
 ### ConcurrentDraw
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/ConcurrentDraw/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=0_78MtyTAdA) &#x3000;
@@ -111,7 +111,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 
 ### UniNotifier
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/UniNotifier/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=QK5IJPdIir4) &#x3000;
@@ -180,7 +180,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 
 ### Geomag data drawer
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/GeomagDataDrawer/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=QiOMIN4aE-Q) &#x3000;
@@ -195,11 +195,11 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 
 ### Make decision
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/MakeDecision/ru) &#x3000;
-:film_projector: [Видеоруководство](https://youtube.com/watch?v=hU62FlQ5JNk) &#x3000;
+:film_projector: [Видеоруководство](https://youtube.com/watch?v=PHqEliYvioY) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://MakeDecision) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NBKLN7493ZL) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/makedecision/releases/latest) &#x3000;
@@ -216,7 +216,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 
 ### Batch image convertor
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/BatchImageConvertor/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://BatchImageConvertor) &#x3000;
@@ -229,7 +229,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 
 ### Font finder
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/FontFinder/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=n2DNUsWvfpQ) &#x3000;
@@ -244,7 +244,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 
 ### ESHQ
-:gb: &#x3000;
+:us: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [Описание мода](https://moddb.com/mods/eshq) &#x3000;
 :tv: [Демо видео](https://youtube.com/playlist?list=PLe7qKwHNkZTvsbUZk6lh-IgkCwrQ6yZOL) &#x3000;
@@ -260,7 +260,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 
 ### ES: Randomaze
-:gb: &#x3000;
+:us: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [Описание мода](https://moddb.com/mods/esrm) &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/Randomaze) &#x3000;
@@ -276,7 +276,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 ### Xash3D FWGS Engine adaptation for ESHQ
-:gb: &#x3000;
+:us: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [Описание](https://adslbarxatov.github.io/Xash3d-FWGS-for-ESHQ)
 
@@ -287,7 +287,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 ### Vice city toolset
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/ViceCityToolset/ru) &#x3000;
 :film_projector: [Демо видео](https://youtube.com/watch?v=RdLt-dTz8vU) &#x3000;
@@ -302,7 +302,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 ### OS macros executor
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/OSMacrosExecutor/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=gdg-kN8ALyI) &#x3000;
@@ -318,7 +318,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 ### File associations manager
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/FileAssociationsManager/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://FileAssociationsManager) &#x3000;
@@ -331,7 +331,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 ### Screen shooter
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/ScreenShooter/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ScreenShooter) &#x3000;
@@ -345,7 +345,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 ### TextStats
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/TextStats/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://TextStats) &#x3000;
@@ -361,7 +361,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 ### Dates difference
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/DatesDifference/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://DatesDifference) &#x3000;
@@ -378,7 +378,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 ### Sudoku solver
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/SudokuSolver/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://SudokuSolver) &#x3000;
@@ -392,7 +392,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 ### Mafia helper
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/MafiaHelper/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://MafiaHelper) &#x3000;
@@ -406,7 +406,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 ### One hundred and one
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/OneHundredOne/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://OneHundredOne) &#x3000;
@@ -420,7 +420,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 ### Thousand
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/Thousand/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://Thousand) &#x3000;
@@ -440,7 +440,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 ### Crazy cheater’s mod
-:gb: &#x3000;
+:us: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> :hourglass_flowing_sand: &#x3000;
 :earth_africa: [Полное описание](https://moddb.com/mods/ccm)
 
@@ -452,7 +452,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 ### PA detector (Enchant it)
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And6.png" width="16"> :hourglass_flowing_sand: &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/EnchantIt/ru)
 
@@ -465,7 +465,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 ### Races
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF80.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> :hourglass_flowing_sand: &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/Races/ru) &#x3000;
 :envelope_with_arrow: [В виде 7z](https://github.com/adslbarxatov/Races/releases/latest/download/Races.2.4.3.7z)
@@ -477,7 +477,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 ### Snake
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF80.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> :hourglass_flowing_sand: &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/Snake/ru) &#x3000;
 :envelope_with_arrow: [В виде 7z](https://github.com/adslbarxatov/Snake/releases/latest/download/Snake.2.4.3.7z)
@@ -489,7 +489,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 ### Turtle
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF80.png" width="16"> <img src="/DPArray/img/DX.png" width="16"> :hourglass_flowing_sand: &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/Turtle/ru) &#x3000;
 :envelope_with_arrow: [В виде 7z](https://github.com/adslbarxatov/Turtle/releases/latest/download/Turtle.2.4.3.7z)
@@ -513,7 +513,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 ### FullSilence, CodeShow
-:gb: :ru: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> :hourglass_flowing_sand: &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/fullsilence) &#x3000;
 :tv: [FullSilence live](https://youtube.com/playlist?list=PLe7qKwHNkZTsreIEQFedftXv3iQG-5LOA) &#x3000;
@@ -528,7 +528,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 ### Keyboard switcher
-:gb: &#x3000;
+:us: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> :no_entry_sign: &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/keyboardswitcher)
 
