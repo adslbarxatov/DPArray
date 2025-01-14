@@ -14,9 +14,9 @@ g:Windows apps
 n:Batch image convertor
 a:BatchImageConvertor.gz
 f:F
-v:4.0
-s:1914159
-p:0058F15E2A1F54D0
+v:4.0.1
+s:1913979
+p:0058ED60E4BEBE4B
 
 n:ConcurrentDraw
 a:ConcurrentDraw.dp
