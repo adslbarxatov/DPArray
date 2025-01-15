@@ -270,7 +270,7 @@ namespace RD_AAOW
 				RDLanguages.en_us, 0);
 			}
 
-		/// <summary>
+		/*/// <summary>
 		/// Конструктор. Запускает форму сообщения для пользователя с одной кнопкой
 		/// </summary>
 		/// <param name="ButtonOneName">Название кнопки</param>
@@ -280,9 +280,9 @@ namespace RD_AAOW
 			{
 			RDMessageFormInit ((RDMessageInternalTypes)Type, Message,
 				ButtonOneName, null, null, RDLanguages.en_us, 0);
-			}
+			}*/
 
-		/// <summary>
+		/*/// <summary>
 		/// Конструктор. Запускает форму сообщения для пользователя с двумя кнопками
 		/// </summary>
 		/// <param name="ButtonOneName">Название первой кнопки</param>
@@ -293,7 +293,7 @@ namespace RD_AAOW
 			{
 			RDMessageFormInit ((RDMessageInternalTypes)Type, Message,
 				ButtonOneName, ButtonTwoName, null, RDLanguages.en_us, 0);
-			}
+			}*/
 
 		/// <summary>
 		/// Конструктор. Запускает форму сообщения для пользователя с тремя кнопками
@@ -464,59 +464,59 @@ namespace RD_AAOW
 				case RDMessageInternalTypes.Information_Center:
 				default:
 					SystemSounds.Asterisk.Play ();
-					this.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.LightGrey);
+					this.BackColor = RDInterface.GetInterfaceColor (RDInterfaceColors.LightGrey);
 					break;
 
 				case RDMessageInternalTypes.LanguageSelector:
 				case RDMessageInternalTypes.Input_Center:
 				case RDMessageInternalTypes.Input_Left:
-					this.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.LightGrey);
+					this.BackColor = RDInterface.GetInterfaceColor (RDInterfaceColors.LightGrey);
 					break;
 
 				case RDMessageInternalTypes.Question_Left:
 				case RDMessageInternalTypes.Question_Center:
 					SystemSounds.Question.Play ();
-					this.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.QuestionMessage);
+					this.BackColor = RDInterface.GetInterfaceColor (RDInterfaceColors.QuestionMessage);
 					break;
 
 				case RDMessageInternalTypes.Warning_Left:
 				case RDMessageInternalTypes.Warning_Center:
 					SystemSounds.Exclamation.Play ();
-					this.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.WarningMessage);
+					this.BackColor = RDInterface.GetInterfaceColor (RDInterfaceColors.WarningMessage);
 					break;
 
 				case RDMessageInternalTypes.Error_Left:
 				case RDMessageInternalTypes.Error_Center:
 					SystemSounds.Hand.Play ();
-					this.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.ErrorMessage);
+					this.BackColor = RDInterface.GetInterfaceColor (RDInterfaceColors.ErrorMessage);
 					break;
 
 				case RDMessageInternalTypes.Success_Left:
 				case RDMessageInternalTypes.Success_Center:
 					SystemSounds.Asterisk.Play ();
-					this.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.SuccessMessage);
+					this.BackColor = RDInterface.GetInterfaceColor (RDInterfaceColors.SuccessMessage);
 					break;
 
 				case RDMessageInternalTypes.Clipboard_Center:
-					this.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.SuccessMessage);
+					this.BackColor = RDInterface.GetInterfaceColor (RDInterfaceColors.SuccessMessage);
 					break;
 				}
 
 			// Окончательное выравнивание элементов, применение цветовой схемы
 			AlignButtons ();
-			Label01.ForeColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.DefaultText);
+			Label01.ForeColor = RDInterface.GetInterfaceColor (RDInterfaceColors.DefaultText);
 			Label01.BackColor = this.BackColor;
 
 			switch (windowType)
 				{
 				case RDMessageInternalTypes.LanguageSelector:
-					LanguagesCombo.ForeColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.DefaultText);
+					LanguagesCombo.ForeColor = RDInterface.GetInterfaceColor (RDInterfaceColors.DefaultText);
 					LanguagesCombo.BackColor = this.BackColor;
 					break;
 
 				case RDMessageInternalTypes.Input_Left:
 				case RDMessageInternalTypes.Input_Center:
-					InputTextBox.ForeColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.DefaultText);
+					InputTextBox.ForeColor = RDInterface.GetInterfaceColor (RDInterfaceColors.DefaultText);
 					InputTextBox.BackColor = this.BackColor;
 					break;
 
@@ -590,19 +590,19 @@ namespace RD_AAOW
 				{
 				Button01.Enabled = Button01.Visible = true;
 				Button01.BackColor = this.BackColor;
-				Button01.ForeColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.DefaultText);
+				Button01.ForeColor = RDInterface.GetInterfaceColor (RDInterfaceColors.DefaultText);
 				}
 			if (Button01.Enabled && (Button02.Text != "-"))
 				{
 				Button02.Enabled = Button02.Visible = true;
 				Button02.BackColor = this.BackColor;
-				Button02.ForeColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.DefaultText);
+				Button02.ForeColor = RDInterface.GetInterfaceColor (RDInterfaceColors.DefaultText);
 				}
 			if (Button02.Enabled && (Button03.Text != "-"))
 				{
 				Button03.Enabled = Button03.Visible = true;
 				Button03.BackColor = this.BackColor;
-				Button03.ForeColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.DefaultText);
+				Button03.ForeColor = RDInterface.GetInterfaceColor (RDInterfaceColors.DefaultText);
 				}
 
 			// Выравнивание
@@ -661,7 +661,7 @@ namespace RD_AAOW
 
 			if (HeaderHeight > 0)
 				{
-				bre = new SolidBrush (RDGenerics.GetInterfaceColor (RDInterfaceColors.LightEmerald));
+				bre = new SolidBrush (RDInterface.GetInterfaceColor (RDInterfaceColors.LightEmerald));
 				gr.FillRectangle (bre, 0, 0, w, HeaderHeight);
 				}
 

@@ -53,9 +53,9 @@ namespace RD_AAOW
 			{
 			// Настройка контролов
 			InitializeComponent ();
-			this.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.LightGrey);
-			StateLabel.ForeColor = AbortButton.ForeColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.DefaultText);
-			AbortButton.BackColor = RDGenerics.GetInterfaceColor (RDInterfaceColors.DefaultBackground);
+			this.BackColor = RDInterface.GetInterfaceColor (RDInterfaceColors.LightGrey);
+			StateLabel.ForeColor = AbortButton.ForeColor = RDInterface.GetInterfaceColor (RDInterfaceColors.DefaultText);
+			AbortButton.BackColor = RDInterface.GetInterfaceColor (RDInterfaceColors.DefaultBackground);
 
 			// Инициализация
 			progress = new Bitmap (this.Width - 20, 30);
@@ -73,10 +73,10 @@ namespace RD_AAOW
 				};
 
 			// Подготовка дескрипторов
-			SolidBrush green = new SolidBrush (RDGenerics.GetInterfaceColor (RDInterfaceColors.DefaultEmerald)),
-				grey = new SolidBrush (RDGenerics.GetInterfaceColor (RDInterfaceColors.MediumGrey)),
-				back = new SolidBrush (RDGenerics.GetInterfaceColor (RDInterfaceColors.LightGrey)),
-				dark = new SolidBrush (RDGenerics.GetInterfaceColor (RDInterfaceColors.DarkGrey));
+			SolidBrush green = new SolidBrush (RDInterface.GetInterfaceColor (RDInterfaceColors.DefaultEmerald)),
+				grey = new SolidBrush (RDInterface.GetInterfaceColor (RDInterfaceColors.MediumGrey)),
+				back = new SolidBrush (RDInterface.GetInterfaceColor (RDInterfaceColors.LightGrey)),
+				dark = new SolidBrush (RDInterface.GetInterfaceColor (RDInterfaceColors.DarkGrey));
 
 			frameGreenGrey = new Bitmap (10 * this.Width / 4, progress.Height);
 			frameBack = new Bitmap (10 * this.Width / 4, progress.Height);
@@ -220,7 +220,7 @@ namespace RD_AAOW
 					{
 					AbortButton.Text = RDLocale.GetDefaultText (RDLDefaultTexts.Button_Cancel);
 					AbortButton.FlatAppearance.MouseDownBackColor =
-						RDGenerics.GetInterfaceColor (RDInterfaceColors.DefaultEmerald);
+						RDInterface.GetInterfaceColor (RDInterfaceColors.DefaultEmerald);
 					}
 
 				StateLabel.Text = Caption;

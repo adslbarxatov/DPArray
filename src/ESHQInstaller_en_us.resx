@@ -341,7 +341,7 @@ Do you want to save a cache of package descriptions? When deleted, they will be 
     <value>Exit if completed successfully</value>
   </data>
   <data name="dpdfile" xml:space="preserve">
-    <value>Package deinstallation script</value>
+    <value>DPArray package deletion script</value>
   </data>
   <data name="PSF_NewPackage" xml:space="preserve">
     <value>[new]</value>
@@ -385,7 +385,7 @@ Do you want to save a cache of package descriptions? When deleted, they will be 
 The app will use default path for this product. If it’s not correct, use “Restore package’s deployment path” option in tray icon’s menu</value>
   </data>
   <data name="dpfile" xml:space="preserve">
-    <value>Unified deployment package</value>
+    <value>DPArray deployment package</value>
   </data>
   <data name="AdditionalButton" xml:space="preserve">
     <value>&amp;Go to</value>

@@ -341,7 +341,7 @@
     <value>Выйти при успешном завершении</value>
   </data>
   <data name="dpdfile" xml:space="preserve">
-    <value>Скрипт деинсталляции пакета</value>
+    <value>Скрипт удаления пакета DPArray</value>
   </data>
   <data name="PSF_NewPackage" xml:space="preserve">
     <value>[новый]</value>
@@ -385,7 +385,7 @@
 Программа использует стандартный путь для этого продукта. Если он не соответствует действительности, воспользуйтесь пунктом «Восстановить путь установки пакета» из контекстного меню значка в трее</value>
   </data>
   <data name="dpfile" xml:space="preserve">
-    <value>Унифицированный пакет развёртки</value>
+    <value>Пакет развёртки DPArray</value>
   </data>
   <data name="AdditionalButton" xml:space="preserve">
     <value>&amp;Перейти</value>

@@ -82,7 +82,7 @@ namespace RD_AAOW
 				Environment.GetFolderPath (Environment.SpecialFolder.Desktop));
 			}
 
-		/// <summary>
+		/*/// <summary>
 		/// Метод удаляет ярлык к файлу из меню автозапуска
 		/// </summary>
 		/// <param name="ShortcutFileName">Имя файла ярлыка</param>
@@ -91,7 +91,7 @@ namespace RD_AAOW
 			{
 			return DeleteShortcut (ShortcutFileName,
 				Environment.GetFolderPath (Environment.SpecialFolder.CommonStartup));
-			}
+			}*/
 
 		/// <summary>
 		/// Метод создаёт ярлык к файлу

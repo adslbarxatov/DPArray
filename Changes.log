@@ -1,11 +1,12 @@
 DPArray: changes log
 
-ToDo:
-- Implement the correct switch between regular and compressed packages
+Version 7.7:
+• App now supports DP16 packages format. It supports different structures for compressed
+  and regular packages without loosing an achieved compression level
 
 Version 7.6.2:
 • Removed the requirement check for DirectX and DotNet8;
-• Adjusted the deployment algorithm: the app will now open additional URLs only manually; 
+• Adjusted the deployment algorithm: the app will now open additional URLs only manually;
 • Fixed some misleading tips
 
 Version 7.6.1:
