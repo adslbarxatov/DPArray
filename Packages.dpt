@@ -59,8 +59,8 @@ n:KassArray
 a:KassArray.dp
 f:F
 l:r
-v:6.2.5
-p:001513843FAABFD9
+v:6.2.6
+p:00150B8F4228308D
 
 n:Make decision
 a:MakeDecision.dp
@@ -89,8 +89,8 @@ p:0002FA9AA6D1FD3B
 n:TextStats
 a:TextStats.dp
 f:0
-v:1.3.2
-p:0003273A520B558E
+v:1.3.3
+p:00032336D514A43F
 
 n:UniNotifier
 a:UniNotifier.dp
@@ -222,8 +222,8 @@ n:TextStats
 u:GIT_LINK/TextStats/GIT_PATH/DEFFILE
 a:TextStats.apk
 f:FV
-v:1.3.2
-s:60005302
+v:1.3.3
+s:59923382
 
 
 
@@ -325,7 +325,7 @@ v:3.8.7
 n:TextStats
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextStats
-v:1.3.2
+v:1.3.3
 
 
 
