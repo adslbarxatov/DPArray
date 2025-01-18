@@ -108,7 +108,7 @@ Now you can enable the “run at system startup” flag to allow the DPArray to 
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/ConcurrentDraw) &#x3000;
-:film_projector: [Video guide](https://youtube.com/watch?v=UlB0zh3YH3A) &#x3000;
+:film_projector: [Video guide](https://youtube.com/watch?v=2ciCx3QnfgU) &#x3000;
 :tv: [ConcurrentDraw live](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ConcurrentDraw) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/concurrentdraw/releases/latest)
