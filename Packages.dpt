@@ -39,8 +39,8 @@ p:0004B3BFFEB23DE1
 n:Font finder
 a:FontFinder.dp
 f:0
-v:3.6.7
-p:0003FAA0818377F7
+v:3.6.8
+p:0003F49B4BD271C8
 
 n:Geomag data drawer
 a:GeomagDataDrawer.dp
@@ -237,7 +237,7 @@ v:3.7.7
 n:Font finder
 f:FVD
 i:MS_STORE/9MXDR4BXP8R4
-v:3.6.7
+v:3.6.8
 
 n:Geomag data drawer
 f:FVD
