@@ -27,8 +27,8 @@ p:000A1AB04157E76C
 n:Dates difference
 a:DatesDifference.dp
 f:0
-v:3.7.6
-p:0002E6B03A007B8A
+v:3.7.7
+p:0002E2ACB9D3D300
 
 n:File associations manager
 a:FileAssociationsManager.dp
@@ -184,8 +184,8 @@ n:Dates difference
 u:GIT_LINK/DatesDifference/GIT_PATH/DEFFILE
 a:DatesDifference.apk
 f:FV
-v:3.7.6
-s:59935670
+v:3.7.7
+s:59915190
 
 n:Grammar must joy
 u:GIT_LINK/GrammarMustJoy/GIT_PATH/DEFFILE
@@ -232,7 +232,7 @@ g:Microsoft Store
 n:Dates difference
 f:FVD
 i:MS_STORE/9NRQ4LQZNKKG
-v:3.7.6
+v:3.7.7
 
 n:Font finder
 f:FVD
@@ -303,7 +303,7 @@ g:Google play
 n:Dates difference
 f:FVD
 i:GP_STOREcom.RD_AAOW.DatesDifference
-v:3.7.6
+v:3.7.7
 
 n:Grammar must joy
 f:FVD
