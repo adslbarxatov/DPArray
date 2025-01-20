@@ -143,7 +143,7 @@ has specified is loaded – all other objects (including ads) are ignored
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/GeomagDataDrawer) &#x3000;
-:film_projector: [Video guide](https://youtube.com/watch?v=afbtGUPnZ2w) &#x3000;
+:film_projector: [Video guide](https://youtube.com/watch?v=rNMALrRyM0g) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://GeomagDataDrawer) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9PG19ZZ3NH47) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/geomagdatadrawer/releases/latest)
@@ -265,7 +265,7 @@ Namely: editing game saves, editing transport parameters, converting models to c
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/OSMacrosExecutor) &#x3000;
-:film_projector: [Video guide](https://youtube.com/watch?v=UPfBmVmQvZA) &#x3000;
+:film_projector: [Video guide](https://youtube.com/watch?v=AXcqDsLjYN4) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://OSMacrosExecutor) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/osmacrosexecutor/releases/latest)
 

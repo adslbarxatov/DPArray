@@ -45,8 +45,8 @@ p:0003F49B4BD271C8
 n:Geomag data drawer
 a:GeomagDataDrawer.dp
 f:F
-v:5.8.6
-p:0011A2F4DC03CBFE
+v:5.8.8
+p:0011A6F0CD6153A8
 
 n:Grammar must joy
 a:GrammarMustJoy.dp
@@ -71,8 +71,8 @@ p:000327AEE835B64D
 n:OS macros executor
 a:OSMacrosExecutor.dp
 f:F
-v:3.6.6
-p:0004C5E29F671E4B
+v:3.6.7
+p:0004C1D68A9D7211
 
 n:Screen shooter
 a:ScreenShooter.dp
@@ -242,7 +242,7 @@ v:3.6.8
 n:Geomag data drawer
 f:FVD
 i:MS_STORE/9PG19ZZ3NH47
-v:5.8.6
+v:5.8.8
 
 n:Grammar must joy
 f:FVD
