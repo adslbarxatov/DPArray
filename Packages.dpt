@@ -137,13 +137,13 @@ s:73833204
 p:06EBFFCC78C0CEAE
 
 n:ES: Randomaze, actual update
-a:ESRM_update.7z
+a:ESRM_update.gz
 f:0
 i:MODSHOST/esrm
-u:MODSTORAGE/283200?MOD_REFesrm
-v:6.1.5
-s:3574676
-p:0064887171AC0D53
+u:MODSTORAGE/284680?MOD_REFesrm
+v:6.2
+s:9842966
+p:00FD61DCF6D2B9E3
 
 /n:ES: Randomaze, backward compatibility
 /a:ESRM_backward.7z
