@@ -122,10 +122,10 @@ n:ESHQ, actual update
 a:ESHQ_update.gz
 f:0
 i:MODSHOST/eshq
-u:MODSTORAGE/283338?MOD_REFeshq
-v:14.4
-s:46988994
-p:079A2293EE37FC64
+u:MODSTORAGE/284779?MOD_REFeshq
+v:14.4.1
+s:47357243
+p:07A17D71D8668D80
 
 n:ES: Randomaze
 a:ESRM_setup.7z
