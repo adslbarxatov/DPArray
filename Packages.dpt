@@ -59,8 +59,8 @@ n:KassArray
 a:KassArray.dp
 f:F
 l:r
-v:6.2.7
-p:00150B8FBA40A019
+v:6.3
+p:00150D8D3A919C3B
 
 n:Make decision
 a:MakeDecision.dp
@@ -200,7 +200,7 @@ u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
 a:KassArray.apk
 f:FV
 l:r
-v:6.2.7
+v:6.3
 s:60128182
 
 n:Make decision
@@ -254,7 +254,7 @@ n:KassArray
 f:FVD
 l:r
 i:MS_STORE/9ND98F4C4Q60
-v:6.2.7
+v:6.3
 
 n:Mafia helper
 f:FVD
@@ -315,7 +315,7 @@ n:KassArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextToKKT
 l:r
-v:6.2.7
+v:6.3
 
 n:Make decision
 f:FVD
@@ -329,8 +329,8 @@ v:1.3.3
 
 
 
-me:We have merged ADP and SCP into the Integrated operational policy.|
+me:We have released the 3rd revision of the Integrated operational policy.|
 me:Make sure that you still agree with it
 
-mr:Мы объединили ADP и SCP в Интегрированную операционную политику.|
+mr:Мы выпустили третью ревизию Интегрированной операционной политики.|
 mr:Убедитесь, что Вы всё ещё с ней согласны
