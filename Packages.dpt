@@ -33,8 +33,8 @@ p:0002E2ACB9D3D300
 n:File associations manager
 a:FileAssociationsManager.dp
 f:0
-v:3.0.7
-p:0004B3BFFEB23DE1
+v:3.0.8
+p:0004AFBB658BFFC5
 
 n:Font finder
 a:FontFinder.dp
@@ -59,8 +59,8 @@ n:KassArray
 a:KassArray.dp
 f:F
 l:r
-v:6.3
-p:00150D8D3A919C3B
+v:6.3.1
+p:00150D97E454A23F
 
 n:Make decision
 a:MakeDecision.dp
