@@ -128,20 +128,6 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 
 
-### Tablepedia viewer
-:ru: &#x3000;
-<img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
-:page_with_curl: [Руководство](https://adslbarxatov.github.io/TablepediaViewer) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://TablepediaViewer) &#x3000;
-:iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) &#x3000;
-:package: [В виде APK](https://github.com/adslbarxatov/TablepediaViewer/releases/latest/download/TablepediaViewer.apk)
-
-Клиентское приложение для проекта Tablepedia.com (экспериментальная разработка)
-
-&nbsp;
-
-
-
 ### JokesArray
 :ru: &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/JokesArray) &#x3000;
@@ -434,6 +420,17 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 ---
+
+&nbsp;
+
+
+
+### Tablepedia viewer
+:ru: &#x3000;
+<img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> :hourglass_flowing_sand: &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/TablepediaViewer)
+
+Клиентское приложение для проекта Tablepedia.com (экспериментальная разработка)
 
 &nbsp;
 
