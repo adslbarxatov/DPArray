@@ -48,11 +48,11 @@ f:F
 v:5.8.8
 p:0011A6F0CD6153A8
 
-n:Grammar must joy
-a:GrammarMustJoy.dp
+n:JokesArray
+a:JokesArray.dp
 f:0
 l:r
-v:2.1.9
+v:3.0
 p:0003BB218CBF668B
 
 n:KassArray
@@ -187,12 +187,12 @@ f:FV
 v:3.7.7
 s:59915190
 
-n:Grammar must joy
-u:GIT_LINK/GrammarMustJoy/GIT_PATH/DEFFILE
-a:GrammarMustJoy.apk
+n:JokesArray
+u:GIT_LINK/JokesArray/GIT_PATH/DEFFILE
+a:JokesArray.apk
 f:FV
 l:r
-v:2.1.9
+v:3.0
 s:67186030
 
 n:KassArray
@@ -244,11 +244,11 @@ f:FVD
 i:MS_STORE/9PG19ZZ3NH47
 v:5.8.8
 
-n:Grammar must joy
+n:JokesArray
 f:FVD
 l:r
 i:MS_STORE/9NZ7WMRX5SF3
-v:2.1.9
+v:3.0
 
 n:KassArray
 f:FVD
@@ -305,11 +305,11 @@ f:FVD
 i:GP_STOREcom.RD_AAOW.DatesDifference
 v:3.7.7
 
-n:Grammar must joy
+n:JokesArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.GrammarMustJoy
 l:r
-v:2.1.9
+v:3.0
 
 n:KassArray
 f:FVD
@@ -332,5 +332,5 @@ v:1.3.3
 me:We have released the 3rd revision of the Integrated operational policy.|
 me:Make sure that you still agree with it
 
-mr:Мы выпустили третью ревизию Интегрированной операционной политики.|
-mr:Убедитесь, что Вы всё ещё с ней согласны
+mr:Проект Grammar must joy теперь имеет более короткое и понятное название - JokesArray!|
+mr:Оцените продукт, если ещё не успели этого сделать!

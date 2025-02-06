@@ -634,7 +634,7 @@ subsequently be used as a trading asset (we have decentralized this token and do
 [FullSilence](#fullsilence-codeshow) &#x3000;
 [Geomag data drawer](#geomag-data-drawer) &#x3000;
 [GIA tester](https://adslbarxatov.github.io/DPArray/ru#giatester) &#x3000;
-[Grammar must joy](https://adslbarxatov.github.io/DPArray/ru#grammar-must-joy) &#x3000;
+[JokesArray](https://adslbarxatov.github.io/DPArray/ru#jokesarray) &#x3000;
 [KassArray](https://adslbarxatov.github.io/DPArray/ru#kassarray) &#x3000;
 [Keyboard switcher](#keyboard-switcher) &#x3000;
 [Mafia helper](#mafia-helper) &#x3000;

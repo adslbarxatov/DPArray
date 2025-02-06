@@ -142,18 +142,18 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 
 
-### Grammar must joy
+### JokesArray
 :ru: &#x3000;
-:page_with_curl: [Руководство](https://adslbarxatov.github.io/GrammarMustJoy) &#x3000;
-:earth_africa: [Канал ВКонтакте](https://vk.com/grammarmustjoy) &#x3000;
-:earth_asia: [Канал Telegram](https://t.me/grammarmustjoy) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://GrammarMustJoy) &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/JokesArray) &#x3000;
+:earth_africa: [Канал ВКонтакте](https://vk.com/jokesarray) &#x3000;
+:earth_asia: [Канал Telegram](https://t.me/jokesarray) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://JokesArray) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NZ7WMRX5SF3) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/GrammarMustJoy/releases/latest) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/JokesArray/releases/latest) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.GrammarMustJoy) &#x3000;
-:package: [В виде APK](https://github.com/adslbarxatov/GrammarMustJoy/releases/latest/download/GrammarMustJoy.apk)
+:package: [В виде APK](https://github.com/adslbarxatov/JokesArray/releases/latest/download/JokesArray.apk)
 
-Мини-клиент сообщества Grammar must joy с функцией рандомизации и дополнения архива записей
+Мини-клиент канала JokesArray с функцией рандомизации и дополнения архива записей
 
 &nbsp;
 
@@ -684,9 +684,9 @@ ES: Randomaze – генератор карт для одноимённого м
 Кроме того, Вы можете предлагать собственные новости для наших каналов [ВКонтакте](https://vk.com/rd_aaow_fdl)
 (с помощью кнопки `Написать сообществу`) и [Telegram](https://t.me/rd_aaow_fdl) (в комментариях к любому посту).
 
-Наконец, Вы можете пополнить архив шуток и анекдотов в сообществе [GrammarMustJoy](https://adslbarxatov.github.io/UniNotifier/GMJ),
-используя кнопку `Написать сообществу` [ВКонтакте](https://vk.com/grammarmustjoy) и комментарии
-к [этому посту](https://t.me/rd_aaow_fdl/747?comment) в Telegram
+Наконец, Вы можете пополнить архив шуток и анекдотов на канале [JokesArray](https://adslbarxatov.github.io/JokesArray),
+используя кнопку `Написать сообществу` [ВКонтакте](https://vk.com/jokesarray) или кнопку `+`
+[в мини-клиенте канала](#jokesarray)
 
 &nbsp;
 
@@ -713,7 +713,7 @@ ES: Randomaze – генератор карт для одноимённого м
 [FullSilence](#fullsilence-codeshow) &#x3000;
 [Geomag data drawer](#geomag-data-drawer) &#x3000;
 [GIA tester](#giatester) &#x3000;
-[Grammar must joy](#grammar-must-joy) &#x3000;
+[JokesArray](#jokesarray) &#x3000;
 [KassArray](#kassarray) &#x3000;
 [Keyboard switcher](#keyboard-switcher) &#x3000;
 [Mafia helper](#mafia-helper) &#x3000;
