@@ -77,14 +77,14 @@ p:0004C1D68A9D7211
 n:Screen shooter
 a:ScreenShooter.dp
 f:0
-v:3.4.3
-p:00032CF7778AD7F0
+v:3.4.4
+p:000328EBD1EEC009
 
 n:Sudoku solver
 a:SudokuSolver.dp
 f:0
-v:4.3.8
-p:0002FA9AA6D1FD3B
+v:4.3.9
+p:0002F896898E5FB0
 
 n:TextStats
 a:TextStats.dp
@@ -274,12 +274,12 @@ v:2.3.7
 n:Screen shooter
 f:FVD
 i:MS_STORE/9NHVH857DV1S
-v:3.4.3
+v:3.4.4
 
 n:Sudoku solver
 f:FVD
 i:MS_STORE/9NZ1DLGFK0WZ
-v:4.3.8
+v:4.3.9
 
 n:TextStats
 f:FVD
