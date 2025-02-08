@@ -65,8 +65,8 @@ p:00150D97E454A23F
 n:Make decision
 a:MakeDecision.dp
 f:0
-v:3.8.7
-p:000327AEE835B64D
+v:3.8.8
+p:000323B13A302193
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
@@ -207,8 +207,8 @@ n:Make decision
 u:GIT_LINK/MakeDecision/GIT_PATH/DEFFILE
 a:MakeDecision.apk
 f:FV
-v:3.8.7
-s:59968438
+v:3.8.8
+s:59927478
 
 /n:Tablepedia viewer
 /u:GIT_LINK/TablepediaViewer/GIT_PATH/DEFFILE
@@ -264,7 +264,7 @@ v:2.0.1
 n:Make decision
 f:FVD
 i:MS_STORE/9NBKLN7493ZL
-v:3.8.7
+v:3.8.8
 
 n:One hundred and one
 f:FVD
@@ -320,7 +320,7 @@ v:6.3
 n:Make decision
 f:FVD
 i:GP_STOREcom.RD_AAOW.MakeDecision
-v:3.8.7
+v:3.8.8
 
 n:TextStats
 f:FVD
