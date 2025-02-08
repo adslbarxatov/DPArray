@@ -4,8 +4,8 @@ n:DPArray
 a:DPArray.dp
 i:INFOPAGE
 f:fvd
-v:7.7
-p:0008597A15D8D862
+v:7.7.1
+p:00085B7C291F1784
 
 
 
@@ -161,20 +161,20 @@ g:Minigames for Windows
 n:Mafia helper
 a:MafiaHelper.dp
 f:0
-v:2.0
-p:000A2AA895512209
+v:2.0.1
+p:000A26AE40641B48
 
 n:One hundred and one
 a:OneHundredOne.dp
 f:0
-v:2.3.7
-p:000370D8FEC63B83
+v:2.3.8
+p:00036CDC57B2934E
 
 n:Thousand
 a:Thousand.dp
 f:0
-v:2.4.8
-p:000317AEA8594C23
+v:2.4.9
+p:000313AAD80B53CE
 
 
 
@@ -259,7 +259,7 @@ v:6.3
 n:Mafia helper
 f:FVD
 i:MS_STORE/9N4WB06F64TR
-v:2.0
+v:2.0.1
 
 n:Make decision
 f:FVD
@@ -269,7 +269,7 @@ v:3.8.7
 n:One hundred and one
 f:FVD
 i:MS_STORE/9NDGGL3JM0VL
-v:2.3.7
+v:2.3.8
 
 n:Screen shooter
 f:FVD
@@ -289,7 +289,7 @@ v:1.3.2
 n:Thousand
 f:FVD
 i:MS_STORE/9N1JJ1G48BCF
-v:2.4.8
+v:2.4.9
 
 n:UniNotifier
 f:FVD

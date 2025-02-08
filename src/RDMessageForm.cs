@@ -270,31 +270,6 @@ namespace RD_AAOW
 				RDLanguages.en_us, 0);
 			}
 
-		/*/// <summary>
-		/// Конструктор. Запускает форму сообщения для пользователя с одной кнопкой
-		/// </summary>
-		/// <param name="ButtonOneName">Название кнопки</param>
-		/// <param name="Message">Сообщение для пользователя</param>
-		/// <param name="Type">Тип создаваемого окна</param>
-		public RDMessageForm (RDMessageTypes Type, string Message, string ButtonOneName)
-			{
-			RDMessageFormInit ((RDMessageInternalTypes)Type, Message,
-				ButtonOneName, null, null, RDLanguages.en_us, 0);
-			}*/
-
-		/*/// <summary>
-		/// Конструктор. Запускает форму сообщения для пользователя с двумя кнопками
-		/// </summary>
-		/// <param name="ButtonOneName">Название первой кнопки</param>
-		/// <param name="ButtonTwoName">Название второй кнопки</param>
-		/// <param name="Message">Сообщение для пользователя</param>
-		/// <param name="Type">Тип создаваемого окна</param>
-		public RDMessageForm (RDMessageTypes Type, string Message, string ButtonOneName, string ButtonTwoName)
-			{
-			RDMessageFormInit ((RDMessageInternalTypes)Type, Message,
-				ButtonOneName, ButtonTwoName, null, RDLanguages.en_us, 0);
-			}*/
-
 		/// <summary>
 		/// Конструктор. Запускает форму сообщения для пользователя с тремя кнопками
 		/// </summary>

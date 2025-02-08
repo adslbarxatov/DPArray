@@ -1,7 +1,8 @@
 DPArray: changes log
 
-ToDo:
-- Update the list of default apps
+Version 7.7.1:
+• The default colors for apps in the mini-launcher have been updated;
+• Some core assemblies have been updated
 
 Version 7.7:
 • App now supports DP16 packages format. It supports different structures for compressed

@@ -82,17 +82,6 @@ namespace RD_AAOW
 				Environment.GetFolderPath (Environment.SpecialFolder.Desktop));
 			}
 
-		/*/// <summary>
-		/// Метод удаляет ярлык к файлу из меню автозапуска
-		/// </summary>
-		/// <param name="ShortcutFileName">Имя файла ярлыка</param>
-		/// <returns>Возвращает 0 в случае успеха</returns>
-		public static int DeleteStartupShortcut (string ShortcutFileName)
-			{
-			return DeleteShortcut (ShortcutFileName,
-				Environment.GetFolderPath (Environment.SpecialFolder.CommonStartup));
-			}*/
-
 		/// <summary>
 		/// Метод создаёт ярлык к файлу
 		/// </summary>
