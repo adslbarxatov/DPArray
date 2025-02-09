@@ -27,8 +27,8 @@ p:000A18B24C677B71
 n:Dates difference
 a:DatesDifference.dp
 f:0
-v:3.7.7
-p:0002E2ACB9D3D300
+v:3.7.8
+p:0002E2AC3DCDC873
 
 n:File associations manager
 a:FileAssociationsManager.dp
@@ -89,8 +89,8 @@ p:0002F896898E5FB0
 n:TextStats
 a:TextStats.dp
 f:0
-v:1.3.3
-p:00032336D514A43F
+v:1.3.4
+p:0003232ECAEF5ABC
 
 n:UniNotifier
 a:UniNotifier.dp
@@ -184,7 +184,7 @@ n:Dates difference
 u:GIT_LINK/DatesDifference/GIT_PATH/DEFFILE
 a:DatesDifference.apk
 f:FV
-v:3.7.7
+v:3.7.8
 s:59915190
 
 n:JokesArray
@@ -222,7 +222,7 @@ n:TextStats
 u:GIT_LINK/TextStats/GIT_PATH/DEFFILE
 a:TextStats.apk
 f:FV
-v:1.3.3
+v:1.3.4
 s:59923382
 
 
@@ -232,7 +232,7 @@ g:Microsoft Store
 n:Dates difference
 f:FVD
 i:MS_STORE/9NRQ4LQZNKKG
-v:3.7.7
+v:3.7.8
 
 n:Font finder
 f:FVD
@@ -284,7 +284,7 @@ v:4.3.9
 n:TextStats
 f:FVD
 i:MS_STORE/9PJRQFC4F6RK
-v:1.3.2
+v:1.3.4
 
 n:Thousand
 f:FVD
@@ -303,7 +303,7 @@ g:Google play
 n:Dates difference
 f:FVD
 i:GP_STOREcom.RD_AAOW.DatesDifference
-v:3.7.7
+v:3.7.8
 
 n:JokesArray
 f:FVD
@@ -325,7 +325,7 @@ v:3.8.8
 n:TextStats
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextStats
-v:1.3.3
+v:1.3.4
 
 
 
