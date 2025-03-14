@@ -122,10 +122,10 @@ n:ESHQ, actual update
 a:ESHQ_update.gz
 f:0
 i:MODSHOST/eshq
-u:MODSTORAGE/284779?MOD_REFeshq
-v:14.4.1
-s:47357243
-p:07A17D71D8668D80
+u:MODSTORAGE/287229?MOD_REFeshq
+v:14.4.2
+s:47365906
+p:07A1B7582FF55184
 
 n:ES: Randomaze
 a:ESRM_setup.7z
@@ -140,10 +140,10 @@ n:ES: Randomaze, actual update
 a:ESRM_update.gz
 f:0
 i:MODSHOST/esrm
-u:MODSTORAGE/284680?MOD_REFesrm
-v:6.2
-s:9842966
-p:00FD61DCF6D2B9E3
+u:MODSTORAGE/287232?MOD_REFesrm
+v:6.2.1
+s:9848219
+p:00FD97CE88B01C20
 
 /n:ES: Randomaze, backward compatibility
 /a:ESRM_backward.7z
