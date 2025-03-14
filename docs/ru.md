@@ -165,14 +165,14 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 
 
-### Geomag data drawer
+### GraphArray
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
-:page_with_curl: [Руководство](https://adslbarxatov.github.io/GeomagDataDrawer/ru) &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/GraphArray/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=08Z_C6qhEoY) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://GeomagDataDrawer) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://GraphArray) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9PG19ZZ3NH47) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/geomagdatadrawer/releases/latest)
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/grapharray/releases/latest)
 
 Автономный инструмент построения и оформления диаграмм на основе табличных данных
 
@@ -708,7 +708,7 @@ ES: Randomaze – генератор карт для одноимённого м
 [File associations manager](#file-associations-manager) &#x3000;
 [Font finder](#font-finder) &#x3000;
 [FullSilence](#fullsilence-codeshow) &#x3000;
-[Geomag data drawer](#geomag-data-drawer) &#x3000;
+[GraphArray](#grapharray) &#x3000;
 [GIA tester](#giatester) &#x3000;
 [JokesArray](#jokesarray) &#x3000;
 [KassArray](#kassarray) &#x3000;

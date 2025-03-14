@@ -139,14 +139,14 @@ has specified is loaded – all other objects (including ads) are ignored
 
 
 
-### Geomag data drawer
+### GraphArray
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
-:page_with_curl: [User guide](https://adslbarxatov.github.io/GeomagDataDrawer) &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/GraphArray) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=rNMALrRyM0g) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://GeomagDataDrawer) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://GraphArray) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9PG19ZZ3NH47) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/geomagdatadrawer/releases/latest)
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/grapharray/releases/latest)
 
 Stand-alone tool for building and designing diagrams based on tabular data
 
@@ -632,7 +632,7 @@ subsequently be used as a trading asset (we have decentralized this token and do
 [File associations manager](#file-associations-manager) &#x3000;
 [Font finder](#font-finder) &#x3000;
 [FullSilence](#fullsilence-codeshow) &#x3000;
-[Geomag data drawer](#geomag-data-drawer) &#x3000;
+[GraphArray](#grapharray) &#x3000;
 [GIA tester](https://adslbarxatov.github.io/DPArray/ru#giatester) &#x3000;
 [JokesArray](https://adslbarxatov.github.io/DPArray/ru#jokesarray) &#x3000;
 [KassArray](https://adslbarxatov.github.io/DPArray/ru#kassarray) &#x3000;

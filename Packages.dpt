@@ -42,11 +42,11 @@ f:0
 v:3.6.8
 p:0003F49B4BD271C8
 
-n:Geomag data drawer
-a:GeomagDataDrawer.dp
+n:GraphArray
+a:GraphArray.dp
 f:F
-v:5.8.8
-p:0011A6F0CD6153A8
+v:6.0
+p:00119E7A8037CC41
 
 n:JokesArray
 a:JokesArray.dp
@@ -239,10 +239,10 @@ f:FVD
 i:MS_STORE/9MXDR4BXP8R4
 v:3.6.8
 
-n:Geomag data drawer
+n:GraphArray
 f:FVD
 i:MS_STORE/9PG19ZZ3NH47
-v:5.8.8
+v:6.0
 
 n:JokesArray
 f:FVD
