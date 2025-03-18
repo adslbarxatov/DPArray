@@ -52,8 +52,8 @@ n:JokesArray
 a:JokesArray.dp
 f:0
 l:r
-v:3.1.4
-p:000578AF6440F39F
+v:3.1.5
+p:000564A7F3D85460
 
 n:KassArray
 a:KassArray.dp
@@ -192,7 +192,7 @@ u:GIT_LINK/JokesArray/GIT_PATH/DEFFILE
 a:JokesArray.apk
 f:FV
 l:r
-v:3.1.3
+v:3.1.5
 s:68559876
 
 n:KassArray
@@ -248,7 +248,7 @@ n:JokesArray
 f:FVD
 l:r
 i:MS_STORE/9NZ7WMRX5SF3
-v:3.1.4
+v:3.1.5
 
 n:KassArray
 f:FVD
@@ -309,7 +309,7 @@ n:JokesArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.GrammarMustJoy
 l:r
-v:3.1.3
+v:3.1.5
 
 n:KassArray
 f:FVD
@@ -329,8 +329,8 @@ v:1.3.4
 
 
 
-me:We have released the 3rd revision of the Integrated operational policy.|
-me:Make sure that you still agree with it
+me:We have renamed the Geomag data drawer tool to GraphArray.|
+me:Don't miss the actual update!
 
-mr:Приложение JokesArray для Android теперь поддерживает запросы по категориям!|
-mr:Оцените продукт, если ещё не успели этого сделать!
+mr:Мы переименовали инструмент Geomag data drawer в GraphArray.|
+mr:Не пропустите актуальное обновление!
