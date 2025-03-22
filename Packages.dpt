@@ -39,8 +39,8 @@ p:0004AFBB658BFFC5
 n:Font finder
 a:FontFinder.dp
 f:0
-v:3.6.8
-p:0003F49B4BD271C8
+v:3.6.9
+p:0003F493998BF4DC
 
 n:GraphArray
 a:GraphArray.dp
@@ -237,7 +237,7 @@ v:3.7.8
 n:Font finder
 f:FVD
 i:MS_STORE/9MXDR4BXP8R4
-v:3.6.8
+v:3.6.9
 
 n:GraphArray
 f:FVD
