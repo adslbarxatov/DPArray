@@ -145,8 +145,9 @@ namespace RD_AAOW
 		/// <param name="ShortcutFileName">Имя файла ярлыка</param>
 		/// <param name="ShortcutFilePath">Расположение файла ярлыка</param>
 		/// <returns>Возвращает 0 в случае успеха;
-		/// -1, если переданы пустые строки в качестве путей;</returns>
-		/// -2, если удалить файл не удалось
+		/// -1, если переданы пустые строки в качестве путей;
+		/// -2, если удаляемый файл отсутствует;
+		/// -3, если приложение не может получить доступ к указанному файлу</returns>
 		public static int DeleteShortcut (string ShortcutFileName, string ShortcutFilePath)
 			{
 			// Контроль
@@ -156,17 +157,21 @@ namespace RD_AAOW
 			string filePath = ShortcutFilePath.EndsWith ("\\") ? ShortcutFilePath : (ShortcutFilePath + "\\");
 			filePath += (ShortcutFileName + ".lnk");
 
+			int res = 0;
 			try
 				{
-				System.IO.File.Delete (filePath);
+				res = System.IO.File.Exists (filePath) ? 0 : -2;
+
+				if (res == 0)
+					System.IO.File.Delete (filePath);
 				}
 			catch
 				{
-				return -2;
+				return -3;
 				}
 
 			// Успешно
-			return 0;
+			return res;
 			}
 		}
 	}
