@@ -49,11 +49,12 @@ v:6.0
 p:00119E7A8037CC41
 
 n:JokesArray
-a:JokesArray.dp
+a:JokesArray.gz
 f:0
 l:r
-v:3.1.7
-p:000566AFD311DA08
+v:3.2
+s:731170
+p:0022E2ADF179BDF1
 
 n:KassArray
 a:KassArray.dp
@@ -192,8 +193,8 @@ u:GIT_LINK/JokesArray/GIT_PATH/DEFFILE
 a:JokesArray.apk
 f:FV
 l:r
-v:3.1.7
-s:68568068
+v:3.2
+s:69637124
 
 n:KassArray
 u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
@@ -248,7 +249,7 @@ n:JokesArray
 f:FVD
 l:r
 i:MS_STORE/9NZ7WMRX5SF3
-v:3.1.7
+v:3.2
 
 n:KassArray
 f:FVD
@@ -309,7 +310,7 @@ n:JokesArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.GrammarMustJoy
 l:r
-v:3.1.7
+v:3.2
 
 n:KassArray
 f:FVD
@@ -329,8 +330,8 @@ v:1.3.4
 
 
 
-me:We have renamed the Geomag data drawer tool to GraphArray.|
+me:We have renamed the Geomag data drawer tool to GraphArray.||
 me:Don't miss the actual update!
 
-mr:Мы переименовали инструмент Geomag data drawer в GraphArray.|
+mr:Приложение JokesArray теперь поддерживает выборки по категориям и оффлайн-режим (без интернета).||
 mr:Не пропустите актуальное обновление!
