@@ -141,10 +141,10 @@ n:ES: Randomaze, actual update
 a:ESRM_update.gz
 f:0
 i:MODSHOST/esrm
-u:MODSTORAGE/287232?MOD_REFesrm
-v:6.2.1
-s:9848219
-p:00FD97CE88B01C20
+u:MODSTORAGE/288189?MOD_REFesrm
+v:6.2.4
+s:9905680
+p:00FEC004F887F102
 
 /n:ES: Randomaze, backward compatibility
 /a:ESRM_backward.7z
