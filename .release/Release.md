@@ -1,5 +1,3 @@
-_Changes for v 7.7.2_:
-- Fixed some incorrect log entries;
-- The default colors for apps in the mini-launcher have been updated;
-- Some core assemblies have been updated;
-- App now supports `DP16` packages format. It supports different structures for compressed and regular packages without loosing an achieved compression level
+_Changes for v 7.7.3_:
+- The status of updates in the mini-launcher is clickable now. This is the understandable way to run the DPArray and do required updates;
+- Fixed some incorrect log entries

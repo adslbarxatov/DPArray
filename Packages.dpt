@@ -4,8 +4,8 @@ n:DPArray
 a:DPArray.dp
 i:INFOPAGE
 f:fvd
-v:7.7.2
-p:00085B7C1AF0939A
+v:7.7.3
+p:00085B7C20E943D4
 
 
 
@@ -33,8 +33,8 @@ p:0002E2AC3DCDC873
 n:File associations manager
 a:FileAssociationsManager.dp
 f:0
-v:3.0.8
-p:0004AFBB658BFFC5
+v:3.0.9
+p:0004AFBBA2031E58
 
 n:Font finder
 a:FontFinder.dp
@@ -72,8 +72,8 @@ p:000323B13A302193
 n:OS macros executor
 a:OSMacrosExecutor.dp
 f:F
-v:3.6.7
-p:0004C1D68A9D7211
+v:3.6.8
+p:0004C1D6B6EF8434
 
 n:Screen shooter
 a:ScreenShooter.dp
