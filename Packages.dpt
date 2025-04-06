@@ -84,8 +84,8 @@ p:000328EBD1EEC009
 n:Sudoku solver
 a:SudokuSolver.dp
 f:0
-v:4.3.9
-p:0002F896898E5FB0
+v:4.4
+p:0002FD1DD0315A6B
 
 n:TextStats
 a:TextStats.dp
@@ -211,13 +211,12 @@ f:FV
 v:3.8.9
 s:60645964
 
-/n:Tablepedia viewer
-/u:GIT_LINK/TablepediaViewer/GIT_PATH/DEFFILE
-/a:TablepediaViewer.apk
-/f:FV
-/l:r
-/v:5.5.6
-/s:59956150
+n:Sudoku solver
+u:GIT_LINK/SudokuSolver/GIT_PATH/DEFFILE
+a:SudokuSolver.apk
+f:FV
+v:4.4
+s:60641868
 
 n:TextStats
 u:GIT_LINK/TextStats/GIT_PATH/DEFFILE
@@ -280,7 +279,7 @@ v:3.4.4
 n:Sudoku solver
 f:FVD
 i:MS_STORE/9NZ1DLGFK0WZ
-v:4.3.9
+v:4.4
 
 n:TextStats
 f:FVD
@@ -322,6 +321,11 @@ n:Make decision
 f:FVD
 i:GP_STOREcom.RD_AAOW.MakeDecision
 v:3.8.9
+
+n:Sudoku solver
+f:FVD
+i:GP_STOREcom.RD_AAOW.SudokuSolver
+v:4.4
 
 n:TextStats
 f:FVD
