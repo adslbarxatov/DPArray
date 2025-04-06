@@ -312,7 +312,7 @@ A tool for making screenshots. Supports shooting of screen, windows and elements
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9PJRQFC4F6RK) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/sextstats/releases/latest) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextStats) &#x3000;
-:package: [Get APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/TextStats.apk)
+:package: [Get APK](https://github.com/adslbarxatov/TextStats/releases/latest/download/TextStats.apk)
 
 This tool obtains statistics on the specified text
 
@@ -343,7 +343,9 @@ hours, days, weeks, full months and years (with fraction)
 :page_with_curl: [User guide](https://adslbarxatov.github.io/SudokuSolver) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://SudokuSolver) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NZ1DLGFK0WZ) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/sudokusolver/releases/latest)
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/sudokusolver/releases/latest) &#x3000;
+:iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.SudokuSolver) &#x3000;
+:package: [Get APK](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.apk)
 
 A tool for solving sudoku
 
@@ -584,12 +586,13 @@ in our projects. Use the following address of TON Space (Telegram wallet) for it
 Or you can support our new [FreeDevLab](https://tonviewer.com/EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI) token:
 - on [Ston.fi pool page](https://app.ston.fi/pools/EQAQfWQLE3PYK-0wio4i5iio5OJ2J33RpFPudm3SCbh0fNaO) in USDT pair
 - on [Ston.fi pool page](https://app.ston.fi/pools/EQCh80WBekTtxi1iDrDeXIb9nlM-JRv1rerEj96e35oqhnpp) in TON pair
+- on [Ston.fi pool page](https://app.ston.fi/pools/EQDkzcUzECD_7i-GGOVkpxqjbRZAaGtehKE5hLHzui9kIrWs) in STON pair
 - using [Ston.fi swap interface](https://app.ston.fi/swap?tt=EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI)
 
 ```
 Name: FreeDevLab (FDL)
 Network: TON
-Liquidity provided when paired with USDT and TON
+Liquidity provided in pairs: USDT/FDL, TON/FDL, STON/FDL
 Creation date: 05/22/24
 Editable: no (admin rights revoked)
 Mining: not available (quantity fixed at 2³² units)

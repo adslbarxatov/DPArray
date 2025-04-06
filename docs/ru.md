@@ -369,7 +369,9 @@ ES: Randomaze – генератор карт для одноимённого м
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/SudokuSolver/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://SudokuSolver) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NZ1DLGFK0WZ) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/sudokusolver/releases/latest)
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/sudokusolver/releases/latest) &#x3000;
+:iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.SudokuSolver) &#x3000;
+:package: [В виде APK](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.apk)
 
 Инструмент для решения судоку
 
@@ -649,12 +651,13 @@ ES: Randomaze – генератор карт для одноимённого м
 Также Вы можете поддержать наш новый токен [FreeDevLab](https://tonviewer.com/EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI):
 - на [странице пула Ston.fi](https://app.ston.fi/pools/EQAQfWQLE3PYK-0wio4i5iio5OJ2J33RpFPudm3SCbh0fNaO) в паре с USDT
 - на [странице пула Ston.fi](https://app.ston.fi/pools/EQCh80WBekTtxi1iDrDeXIb9nlM-JRv1rerEj96e35oqhnpp) в паре с TON
+- на [странице пула Ston.fi](https://app.ston.fi/pools/EQDkzcUzECD_7i-GGOVkpxqjbRZAaGtehKE5hLHzui9kIrWs) в паре с STON
 - с помощью [интерфейса обмена Ston.fi](https://app.ston.fi/swap?tt=EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI)
 
 ```
 Название: FreeDevLab (FDL)
 Сеть: TON
-Ликвидность обеспечена в паре с USDT и TON
+Ликвидность обеспечена в парах: USDT/FDL, TON/FDL, STON/FDL
 Дата создания: 22.05.24
 Редактируемый: нет (администраторские права отозваны)
 Майнинг: недоступен (количество зафиксировано на уровне 2³² единиц)
