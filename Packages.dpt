@@ -63,6 +63,12 @@ l:r
 v:6.3.4
 p:00150F875263CDD2
 
+n:Mafia helper
+a:MafiaHelper.dp
+f:0
+v:2.0.2
+p:000A26AED255AD88
+
 n:Make decision
 a:MakeDecision.dp
 f:0
@@ -157,28 +163,6 @@ p:00FEC004F887F102
 
 
 
-g:Minigames for Windows
-
-n:Mafia helper
-a:MafiaHelper.dp
-f:0
-v:2.0.2
-p:000A26AED255AD88
-
-n:One hundred and one
-a:OneHundredOne.dp
-f:0
-v:2.3.9
-p:00036CDC5CFCAD6E
-
-n:Thousand
-a:Thousand.dp
-f:0
-v:2.4.10
-p:000313ABC399C2D4
-
-
-
 g:Android apps as APK
 
 n:Dates difference
@@ -266,11 +250,6 @@ f:FVD
 i:MS_STORE/9NBKLN7493ZL
 v:3.8.9
 
-n:One hundred and one
-f:FVD
-i:MS_STORE/9NDGGL3JM0VL
-v:2.3.9
-
 n:Screen shooter
 f:FVD
 i:MS_STORE/9NHVH857DV1S
@@ -285,11 +264,6 @@ n:TextStats
 f:FVD
 i:MS_STORE/9PJRQFC4F6RK
 v:1.3.5
-
-n:Thousand
-f:FVD
-i:MS_STORE/9N1JJ1G48BCF
-v:2.4.10
 
 n:UniNotifier
 f:FVD

@@ -367,12 +367,14 @@ A moderator’s assistant for the game “Mafia”
 
 
 
+---
+
+&nbsp;
+
 ### One hundred and one
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> :hourglass_flowing_sand: &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/OneHundredOne) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://OneHundredOne) &#x3000;
-:briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NDGGL3JM0VL) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/OneHundredOne/releases/latest)
 
 This app imitates the “One hundred and one” game for two players
@@ -383,10 +385,8 @@ This app imitates the “One hundred and one” game for two players
 
 ### Thousand
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> :hourglass_flowing_sand: &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/Thousand) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://Thousand) &#x3000;
-:briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9N1JJ1G48BCF) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/Thousand/releases/latest)
 
 This app imitates the “Thousand” game for three players
@@ -394,10 +394,6 @@ This app imitates the “Thousand” game for three players
 &nbsp;
 
 
-
----
-
-&nbsp;
 
 ### Crazy cheater’s mod
 :us: &#x3000;
