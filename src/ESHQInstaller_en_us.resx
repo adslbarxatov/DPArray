@@ -132,7 +132,7 @@
   <data name="DisclaimerMainText" xml:space="preserve">
     <value>You can get more info about this project $here$.
 
-Also you can try other Lab projects. Use tray icon and “App about” option</value>
+Also you can check other Lab projects. Use tray icon and “App about” option</value>
   </data>
   <data name="FilesAccessError" xml:space="preserve">
     <value>Cannot access one or more source file(s)</value>
