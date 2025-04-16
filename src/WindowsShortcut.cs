@@ -105,7 +105,7 @@ namespace RD_AAOW
 			if (!System.IO.File.Exists (TargetFile))
 				return -2;
 
-			string filePath = ShortcutFilePath.EndsWith ("\\") ? ShortcutFilePath : (ShortcutFilePath + "\\");
+			string filePath = ShortcutFilePath.EndsWith ('\\') ? ShortcutFilePath : (ShortcutFilePath + "\\");
 			filePath += (ShortcutFileName + ".lnk");
 
 			// Удаление старого ярлыка
@@ -154,10 +154,11 @@ namespace RD_AAOW
 			if (string.IsNullOrEmpty (ShortcutFileName) || string.IsNullOrEmpty (ShortcutFilePath))
 				return -1;
 
-			string filePath = ShortcutFilePath.EndsWith ("\\") ? ShortcutFilePath : (ShortcutFilePath + "\\");
+			string filePath = ShortcutFilePath.EndsWith ('\\') ? ShortcutFilePath : (ShortcutFilePath + "\\");
 			filePath += (ShortcutFileName + ".lnk");
 
-			int res = 0;
+			/*int res = 0;*/
+			int res;
 			try
 				{
 				res = System.IO.File.Exists (filePath) ? 0 : -2;

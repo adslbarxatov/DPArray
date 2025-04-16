@@ -1,5 +1,10 @@
 DPArray: changes log
 
+Version 8.0.1:
+• Added support for .NET 9.0 requirement;
+• HypeHelp links have been updated;
+• Applied some code recommendations from .NET standard
+
 Version 8.0:
 • The application has been migrated to NET 9 from .NET Framework 4.8.1;
 • Its settings have been properly moved to corresponding registry branch

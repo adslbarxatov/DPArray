@@ -9,6 +9,11 @@ namespace RD_AAOW
 	public enum AppDefaultRequirements
 		{
 		/// <summary>
+		/// Не является стандартной зависимостью
+		/// </summary>
+		None = -1,
+
+		/// <summary>
 		/// Microsoft .NET Framework 4.8 (Windows XP, 7, 8, 8.1)
 		/// </summary>
 		DotNETFramework480 = 0,
@@ -24,9 +29,14 @@ namespace RD_AAOW
 		DotNETFramework481 = 2,
 
 		/// <summary>
-		/// Не является стандартной зависимостью
+		/// Microsoft NET 9
 		/// </summary>
-		None = -1
+		DotNet90 = 3,
+
+		/// <summary>
+		/// Служебное поле – размер перечисления
+		/// </summary>
+		_Size_
 		}
 
 	/// <summary>
@@ -248,12 +258,10 @@ namespace RD_AAOW
 
 #endif
 
-#if DOTNET8
-
-				case AppDefaultRequirements.DotNet80:
-					downloadLink = "https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/" +
-						"runtime-desktop-8.0.4-windows-x86-installer";
-					description = "Microsoft .NET Framework 8.0 (or newer)";
+				case AppDefaultRequirements.DotNet90:
+					downloadLink = "https://dotnet.microsoft.com/ru-ru/download/dotnet/thank-you/" +
+						"runtime-desktop-9.0.4-windows-x86-installer";
+					description = "Microsoft .NET 9.0";
 
 					s = RDGenerics.GetCustomRegistryValue (
 						"HKEY_LOCAL_MACHINE\\SOFTWARE\\dotnet\\Setup\\InstalledVersions\\x86\\hostfxr",
@@ -267,10 +275,8 @@ namespace RD_AAOW
 						}
 					catch { }
 
-					alreadyInstalled = (v >= 8);
+					alreadyInstalled = (v >= 9);
 					break;
-
-#endif
 
 #if DIRECTX
 					case AppDefaultRequirements.DirectX:
@@ -332,9 +338,9 @@ namespace RD_AAOW
 				}
 			}
 
-		/// <summary>
+		/*/// <summary>
 		/// Возвращает количество доступных стандартных зависимостей
 		/// </summary>
-		public const uint DefaultRequirementsCount = 3;
+		public const uint DefaultRequirementsCount = 3;*/
 		}
 	}
