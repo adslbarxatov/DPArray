@@ -135,11 +135,13 @@ DPArray выполняет установку, деинсталляцию, пр�
 :earth_asia: [Канал Telegram](https://t.me/jokesarray) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://JokesArray) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NZ7WMRX5SF3) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/JokesArray/releases/latest) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/JokesArray/releases/latest/download/JokesArray.exe) &#x3000;
+:envelope_with_arrow: [В виде MSI](https://github.com/adslbarxatov/JokesArray/releases/latest/download/JokesArray.msi) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.GrammarMustJoy) &#x3000;
 :package: [В виде APK](https://github.com/adslbarxatov/JokesArray/releases/latest/download/JokesArray.apk)
 
-Мини-клиент канала JokesArray с функцией рандомизации и дополнения архива записей
+Мини-клиент канала JokesArray с функцией случайной неповторяющейся выборки, дополнения архива записей,
+оффлайн-режимом и разделением записей на категории
 
 &nbsp;
 

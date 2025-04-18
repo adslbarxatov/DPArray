@@ -325,10 +325,13 @@ namespace RD_AAOW
 					return "";
 
 				// Новые
+				case AppDefaultRequirements.DotNet90:
+					return "NF90+";
+
+				// Актуальные
 				case AppDefaultRequirements.DotNETFramework481:
 					return "NF481+";
 
-				// Актуальные
 				case AppDefaultRequirements.VC_RTL:
 					return "CPP+";
 

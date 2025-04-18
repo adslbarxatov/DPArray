@@ -1,4 +1,4 @@
-_Changes for v 8.0.1_:
+_Changes for v 8.0.1_: 
 - Added support for `.NET 9.0` requirement;
 - HypeHelp links have been updated;
 - Applied some code recommendations from .NET standard;
