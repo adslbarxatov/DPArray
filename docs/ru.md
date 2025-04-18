@@ -1,6 +1,6 @@
 # Добро пожаловать в Лабораторию!
 
-[**&#x25CF; DPArray &#x25CF; Прямая ссылка для загрузки &#x25CF; Windows &#x25CF;**](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.sfx.exe)
+[**&#x25CF; DPArray &#x25CF; Прямая ссылка для загрузки &#x25CF; Windows &#x25CF;**](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.msi)
 
 &#x25CF; [Облако ссылок](#section-7) &#x25CF;
 [Контакты](#section-5) &#x25CF;
@@ -83,7 +83,7 @@
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/DPArray) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=BV0O_90DT_M) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/DPArray/releases/latest)
+:envelope_with_arrow: [В виде MSI](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.msi)
 
 DPArray – это инструмент для управления продуктами Лаборатории на вашем ПК.
 DPArray выполняет установку, деинсталляцию, проверку обновлений, загрузку пакетов и их требований. Этот инструмент – единственное, что вам нужно, чтобы начать работать со всеми нашими проектами.
@@ -117,7 +117,8 @@ DPArray выполняет установку, деинсталляцию, пр�
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=QK5IJPdIir4) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://UniNotifier) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NVZ51RL54K4) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/uninotifier/releases/latest)
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.exe) &#x3000;
+:envelope_with_arrow: [В виде MSI](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.msi)
 
 Служба наблюдения за состоянием веб-ресурсов.
 Это приложение предоставляет возможность получать уведомления об изменении состояния указанных пользователем

@@ -1,6 +1,6 @@
 # Welcome to Laboratory!
 
-[**&#x25CF; DPArray &#x25CF; Direct download link &#x25CF; Windows &#x25CF;**](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.sfx.exe)
+[**&#x25CF; DPArray &#x25CF; Direct download link &#x25CF; Windows &#x25CF;**](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.msi)
 
 &#x25CF; [Links cloud](#links-cloud) &#x25CF;
 [Contacts](#contacts) &#x25CF;
@@ -94,7 +94,7 @@ A general list of mods is available [here](https://moddb.com/members/rd-aaow-fdl
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/DPArray) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=Pv1IZIywCrM) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/DPArray/releases/latest)
+:envelope_with_arrow: [Get MSI](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.msi)
 
 DPArray is a tool for managing Laboratory’s products on your PC.
 DPArray performs installation, deinstallation, check for updates, download of packages and their requirements. This tool is the only thing you need to start working with all of our projects.
@@ -128,7 +128,8 @@ No additional codecs are required
 :film_projector: [Video guide](https://youtube.com/watch?v=0XUqZhOa37Q) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://UniNotifier) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NVZ51RL54K4) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/uninotifier/releases/latest)
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.exe) &#x3000;
+:envelope_with_arrow: [Get MSI](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.msi)
 
 The web resources supervisor service.
 This app provides the ability to be notified when the content of user-specified websites changes.
