@@ -358,11 +358,12 @@ A tool for solving sudoku
 
 ### Mafia helper
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/MafiaHelper) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://MafiaHelper) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9N4WB06F64TR) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/MafiaHelper/releases/latest)
+:envelope_with_arrow: [Get MSI](https://github.com/adslbarxatov/MafiaHelper/releases/latest/download/MafiaHelper.msi) &#x3000;
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/MafiaHelper/releases/latest/download/MafiaHelper.exe)
 
 A moderator’s assistant for the game “Mafia”
 
