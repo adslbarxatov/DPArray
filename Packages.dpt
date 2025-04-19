@@ -73,8 +73,8 @@ p:000A26AED255AD88
 n:Make decision
 a:MakeDecision.dp
 f:0
-v:3.8.9
-p:000323B1383AAA8D
+v:3.9
+p:000574217B637315
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
@@ -193,8 +193,8 @@ n:Make decision
 u:GIT_LINK/MakeDecision/GIT_PATH/DEFFILE
 a:MakeDecision.apk
 f:FV
-v:3.8.9
-s:60645964
+v:3.9
+s:60674636
 
 n:Sudoku solver
 u:GIT_LINK/SudokuSolver/GIT_PATH/DEFFILE
@@ -295,7 +295,7 @@ v:6.4
 n:Make decision
 f:FVD
 i:GP_STOREcom.RD_AAOW.MakeDecision
-v:3.8.9
+v:3.9
 
 n:Sudoku solver
 f:FVD
