@@ -91,7 +91,7 @@ A general list of mods is available [here](https://moddb.com/members/rd-aaow-fdl
 
 ### DPArray
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/DPArray) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=Pv1IZIywCrM) &#x3000;
 :envelope_with_arrow: [Get MSI](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.msi)
@@ -106,7 +106,7 @@ Now you can enable the “run at system startup” flag to allow the DPArray to 
 
 ### ConcurrentDraw
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/ConcurrentDraw) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=2ciCx3QnfgU) &#x3000;
 :tv: [ConcurrentDraw live](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc) &#x3000;
@@ -123,7 +123,7 @@ No additional codecs are required
 
 ### UniNotifier
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/UniNotifier) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=0XUqZhOa37Q) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://UniNotifier) &#x3000;
@@ -178,7 +178,7 @@ As a result, you’ll get the answer for the next question: “what way is the b
 
 ### Batch image convertor
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/BatchImageConvertor) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://BatchImageConvertor) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/batchimageconvertor/releases/latest)
@@ -323,11 +323,12 @@ This tool obtains statistics on the specified text
 
 ### Dates difference
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/DatesDifference) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://DatesDifference) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NRQ4LQZNKKG) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/datesdifference/releases/latest) &#x3000;
+:envelope_with_arrow: [Get MSI](https://github.com/adslbarxatov/DatesDifference/releases/latest/download/DatesDifference.msi) &#x3000;
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/DatesDifference/releases/latest/download/DatesDifference.exe) &#x3000;
 :iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.DatesDifference) &#x3000;
 :package: [Get APK](https://github.com/adslbarxatov/DatesDifference/releases/latest/download/DatesDifference.apk)
 
@@ -495,11 +496,11 @@ For apps and products running on Windows (<img src="/DPArray/img/Win.png" width=
 
 <img src="/DPArray/img/NF481.png" width="16"> [Microsoft .NET Framework 4.8.1](https://go.microsoft.com/fwlink/?LinkId=2203304)
 
-<img src="/DPArray/img/VC.png" width="16"> [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
-
-<img src="/DPArray/img/SQL.png" width="16"> [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709)
+<img src="/DPArray/img/NF90.png" width="16"> [Microsoft .NET 9.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-9.0.4-windows-x86-installer)
 
 <img src="/DPArray/img/NF80.png" width="16"> [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.4-windows-x86-installer)
+
+<img src="/DPArray/img/VC.png" width="16"> [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
 
 <img src="/DPArray/img/DX.png" width="16"> [Microsoft DirectX 9 updates](https://microsoft.com/en-us/download/confirmation.aspx?id=35)
 

@@ -27,8 +27,8 @@ p:000C513422852BD1
 n:Dates difference
 a:DatesDifference.dp
 f:0
-v:3.7.9
-p:0002E2AC6CB62B82
+v:3.8
+p:0005332C57485E58
 
 n:File associations manager
 a:FileAssociationsManager.dp
@@ -170,8 +170,8 @@ n:Dates difference
 u:GIT_LINK/DatesDifference/GIT_PATH/DEFFILE
 a:DatesDifference.apk
 f:FV
-v:3.7.9
-s:60629580
+v:3.8
+s:60658252
 
 n:JokesArray
 u:GIT_LINK/JokesArray/GIT_PATH/DEFFILE
@@ -233,13 +233,13 @@ n:JokesArray
 f:FVD
 l:r
 i:MS_STORE/9NZ7WMRX5SF3
-v:3.3
+v:3.2.2
 
 n:KassArray
 f:FVD
 l:r
 i:MS_STORE/9ND98F4C4Q60
-v:6.4
+v:6.3
 
 n:Mafia helper
 f:FVD
@@ -269,7 +269,7 @@ v:1.3.5
 n:UniNotifier
 f:FVD
 i:MS_STORE/9NVZ51RL54K4
-v:8.7
+v:8.6.3
 
 
 
@@ -278,7 +278,7 @@ g:Google play
 n:Dates difference
 f:FVD
 i:GP_STOREcom.RD_AAOW.DatesDifference
-v:3.7.9
+v:3.8
 
 n:JokesArray
 f:FVD

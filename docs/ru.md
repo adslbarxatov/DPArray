@@ -80,7 +80,7 @@
 
 ### DPArray
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/DPArray) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=BV0O_90DT_M) &#x3000;
 :envelope_with_arrow: [В виде MSI](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.msi)
@@ -95,7 +95,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 ### ConcurrentDraw
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/ConcurrentDraw/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=vFKAfOkVs_s) &#x3000;
 :tv: [ConcurrentDraw live](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc) &#x3000;
@@ -112,7 +112,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 ### UniNotifier
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/UniNotifier/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=QK5IJPdIir4) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://UniNotifier) &#x3000;
@@ -131,6 +131,8 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 ### JokesArray
 :ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
+<img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/JokesArray) &#x3000;
 :earth_africa: [Канал ВКонтакте](https://vk.com/jokesarray) &#x3000;
 :earth_asia: [Канал Telegram](https://t.me/jokesarray) &#x3000;
@@ -150,13 +152,13 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 ### KassArray
 :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/KassArray) &#x3000;
 :film_projector: [Видеопрезентация](https://youtube.com/watch?v=9QtqRkkQJSk) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KassArray) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9ND98F4C4Q60) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/KassArray/releases/latest/download/KassArray.exe) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/KassArray/releases/latest) &#x3000;
 :envelope_with_arrow: [В виде MSI](https://github.com/adslbarxatov/KassArray/releases/latest/download/KassArray.msi) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT) &#x3000;
 :package: [В виде APK](https://github.com/adslbarxatov/KassArray/releases/latest/download/KassArray.apk)
@@ -207,7 +209,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 ### Batch image convertor
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/BatchImageConvertor/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://BatchImageConvertor) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/batchimageconvertor/releases/latest)
@@ -352,11 +354,12 @@ ES: Randomaze – генератор карт для одноимённого м
 
 ### Dates difference
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/DatesDifference/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://DatesDifference) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NRQ4LQZNKKG) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/datesdifference/releases/latest) &#x3000;
+:envelope_with_arrow: [В виде MSI](https://github.com/adslbarxatov/DatesDifference/releases/latest/download/DatesDifference.msi) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/DatesDifference/releases/latest/download/DatesDifference.exe) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.DatesDifference) &#x3000;
 :package: [В виде APK](https://github.com/adslbarxatov/DatesDifference/releases/latest/download/DatesDifference.apk)
 
@@ -561,11 +564,13 @@ ES: Randomaze – генератор карт для одноимённого м
 
 <img src="/DPArray/img/NF481.png" width="16"> [Microsoft .NET Framework 4.8.1](https://go.microsoft.com/fwlink/?LinkId=2203304)
 
+<img src="/DPArray/img/NF90.png" width="16"> [Microsoft .NET 9.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-9.0.4-windows-x86-installer)
+
+<img src="/DPArray/img/NF80.png" width="16"> [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.4-windows-x86-installer)
+
 <img src="/DPArray/img/VC.png" width="16"> [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
 
 <img src="/DPArray/img/SQL.png" width="16"> [Microsoft SQL Server Compact 4.0 SP1](https://microsoft.com/en-us/download/details.aspx?id=30709)
-
-<img src="/DPArray/img/NF80.png" width="16"> [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.4-windows-x86-installer)
 
 <img src="/DPArray/img/DX.png" width="16"> [Обновления для Microsoft DirectX 9](https://microsoft.com/en-us/download/confirmation.aspx?id=35)
 
