@@ -97,8 +97,8 @@ p:000370EE0C7C5B06
 n:TextStats
 a:TextStats.dp
 f:0
-v:1.3.5
-p:0003233633A6039F
+v:1.4
+p:000573961EE51DB7
 
 n:UniNotifier
 a:UniNotifier.dp
@@ -207,8 +207,8 @@ n:TextStats
 u:GIT_LINK/TextStats/GIT_PATH/DEFFILE
 a:TextStats.apk
 f:FV
-v:1.3.5
-s:60641868
+v:1.4
+s:60678732
 
 
 
@@ -305,7 +305,7 @@ v:4.9.5
 n:TextStats
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextStats
-v:1.3.5
+v:1.4
 
 
 
