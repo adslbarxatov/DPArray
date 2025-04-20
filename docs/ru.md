@@ -378,7 +378,8 @@ ES: Randomaze – генератор карт для одноимённого м
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/SudokuSolver/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://SudokuSolver) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NZ1DLGFK0WZ) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/sudokusolver/releases/latest) &#x3000;
+:envelope_with_arrow: [В виде MSI](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.msi) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.exe) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.SudokuSolver) &#x3000;
 :package: [В виде APK](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.apk)
 
