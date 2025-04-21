@@ -39,15 +39,15 @@ p:0004AFBBA2031E58
 n:Font finder
 a:FontFinder.dp
 f:0
-v:3.6.9
-p:0003F493998BF4DC
+v:3.7
+p:0006330331849A62
 
 n:GraphArray
 a:GraphArray.dp
 f:F
-v:6.0.1
-s:395971
-p:00119E74E8F5585C
+v:6.1
+s:566431
+p:0016E8344C4B9DB5
 
 n:JokesArray
 a:JokesArray.gz
