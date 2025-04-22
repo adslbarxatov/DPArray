@@ -314,10 +314,10 @@ ES: Randomaze – генератор карт для одноимённого м
 
 ### File associations manager
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/FileAssociationsManager/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://FileAssociationsManager) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/fileassociationsmanager/releases/latest)
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/FileAssociationsManager/releases/latest/download/FileAssociationsManager.exe)
 
 Инструмент управления пользовательскими расширениями файлов
 
@@ -327,7 +327,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 ### Screen shooter
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/ScreenShooter/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ScreenShooter) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NHVH857DV1S) &#x3000;
