@@ -296,11 +296,12 @@ A manager for user-defined file extensions
 
 ### Screen shooter
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/ScreenShooter) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ScreenShooter) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NHVH857DV1S) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/screenshooter/releases/latest)
+:envelope_with_arrow: [Get MSI](https://github.com/adslbarxatov/ScreenShooter/releases/latest/download/ScreenShooter.msi) &#x3000;
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/ScreenShooter/releases/latest/download/ScreenShooter.exe)
 
 A tool for making screenshots. Supports shooting of screen, windows and elements of applications
 

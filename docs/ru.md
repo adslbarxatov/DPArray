@@ -331,7 +331,8 @@ ES: Randomaze – генератор карт для одноимённого м
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/ScreenShooter/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ScreenShooter) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NHVH857DV1S) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/screenshooter/releases/latest)
+:envelope_with_arrow: [В виде MSI](https://github.com/adslbarxatov/ScreenShooter/releases/latest/download/ScreenShooter.msi) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/ScreenShooter/releases/latest/download/ScreenShooter.exe)
 
 Инструмент для создания скриншотов. Поддерживает снимки экрана, окон и элементов приложений
 
