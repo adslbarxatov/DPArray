@@ -283,7 +283,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 ### Vice city toolset
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/ViceCityToolset/ru) &#x3000;
 :film_projector: [Демо видео](https://youtube.com/watch?v=RdLt-dTz8vU) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ViceCityToolset) &#x3000;
@@ -298,7 +298,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 ### OS macros executor
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/OSMacrosExecutor/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=7xXC5cGuGNU) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://OSMacrosExecutor) &#x3000;
