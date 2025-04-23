@@ -225,7 +225,7 @@ to be a little more complex and long in time and space...
 
 ### ES: Randomaze
 :us: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF481.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [Description](https://moddb.com/mods/esrm) &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/Randomaze) &#x3000;
 :tv: [Video demo](https://youtube.com/playlist?list=PLe7qKwHNkZTu8VJPLFEGCFsB4zqiJP7fh) &#x3000;
