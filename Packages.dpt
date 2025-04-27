@@ -39,8 +39,8 @@ p:0006FE6B1119C109
 n:Font finder
 a:FontFinder.dp
 f:0
-v:3.7
-p:0006330331849A62
+v:3.7.1
+p:000632FDCA8C0F74
 
 n:GraphArray
 a:GraphArray.dp
@@ -85,14 +85,14 @@ p:00057776374F95A4
 n:Sudoku solver
 a:SudokuSolver.dp
 f:0
-v:5.0.2
-p:0005CD5823FA5FA9
+v:5.0.3
+p:0005CD603B559E26
 
 n:TextStats
 a:TextStats.dp
 f:0
-v:1.4
-p:000573961EE51DB7
+v:1.4.1
+p:0005739035323732
 
 n:UniNotifier
 a:UniNotifier.dp
@@ -187,14 +187,14 @@ n:Sudoku solver
 u:GIT_LINK/SudokuSolver/GIT_PATH/DEFFILE
 a:SudokuSolver.apk
 f:FV
-v:5.0.2
-s:60707404
+v:5.0.3
+s:60711500
 
 n:TextStats
 u:GIT_LINK/TextStats/GIT_PATH/DEFFILE
 a:TextStats.apk
 f:FV
-v:1.4
+v:1.4.1
 s:60678732
 
 
@@ -277,12 +277,12 @@ v:6.4.2
 n:Sudoku solver
 f:FVD
 i:GP_STOREcom.RD_AAOW.SudokuSolver
-v:5.0.2
+v:5.0.3
 
 n:TextStats
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextStats
-v:1.4
+v:1.4.1
 
 
 
