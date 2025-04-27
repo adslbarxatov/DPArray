@@ -156,28 +156,6 @@ Stand-alone tool for building and designing diagrams based on tabular data
 
 
 
-### Make decision
-:us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
-<img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
-:page_with_curl: [User guide](https://adslbarxatov.github.io/MakeDecision) &#x3000;
-:film_projector: [Video guide](https://youtube.com/watch?v=ISMEm9-F5ZA) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://MakeDecision) &#x3000;
-:briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NBKLN7493ZL) &#x3000;
-:envelope_with_arrow: [Get MSI](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.msi) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.exe) &#x3000;
-:iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) &#x3000;
-:package: [Get APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.apk)
-
-This application illustrates a math method that allows comparing some objects or events based on a set
-of criteria and choosing the most “correct” one. User is invited to independently select variants
-and criteria for their comparison, as well as specify significance of each criterion and each element.
-As a result, you’ll get the answer for the next question: “what way is the best”
-
-&nbsp;
-
-
-
 ### Batch image convertor
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
@@ -379,6 +357,24 @@ A moderator’s assistant for the game “Mafia”
 ---
 
 &nbsp;
+
+### Make decision
+:us: :ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16">
+<img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> :hourglass_flowing_sand: &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/MakeDecision) &#x3000;
+:film_projector: [Video guide](https://youtube.com/watch?v=ISMEm9-F5ZA) &#x3000;
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.exe) &#x3000;
+:package: [Get APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.apk)
+
+This application illustrates a math method that allows comparing some objects or events based on a set
+of criteria and choosing the most “correct” one. User is invited to independently select variants
+and criteria for their comparison, as well as specify significance of each criterion and each element.
+As a result, you’ll get the answer for the next question: “what way is the best”
+
+&nbsp;
+
+
 
 ### One hundred and one
 :us: :ru: &#x3000;

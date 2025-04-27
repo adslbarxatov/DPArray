@@ -27,8 +27,8 @@ p:000C513422852BD1
 n:Dates difference
 a:DatesDifference.dp
 f:0
-v:3.8
-p:0005332C57485E58
+v:3.8.1
+p:00053536F08D4598
 
 n:File associations manager
 a:FileAssociationsManager.dp
@@ -53,28 +53,22 @@ n:JokesArray
 a:JokesArray.gz
 f:0
 l:r
-v:3.3
-s:796785
-p:002548391A4561F3
+v:3.3.1
+s:796955
+p:00254A3A510537EA
 
 n:KassArray
 a:KassArray.dp
 f:F
 l:r
-v:6.4.1
-p:0027F0C9A90A0FCB
+v:6.4.2
+p:0027F0C1B8F91775
 
 n:Mafia helper
 a:MafiaHelper.dp
 f:0
 v:2.1
 p:000C771E0F6EFFBA
-
-n:Make decision
-a:MakeDecision.dp
-f:0
-v:3.9
-p:000574217B637315
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
@@ -170,7 +164,7 @@ n:Dates difference
 u:GIT_LINK/DatesDifference/GIT_PATH/DEFFILE
 a:DatesDifference.apk
 f:FV
-v:3.8
+v:3.8.1
 s:60658252
 
 n:JokesArray
@@ -178,7 +172,7 @@ u:GIT_LINK/JokesArray/GIT_PATH/DEFFILE
 a:JokesArray.apk
 f:FV
 l:r
-v:3.3
+v:3.3.1
 s:69686276
 
 n:KassArray
@@ -186,15 +180,8 @@ u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
 a:KassArray.apk
 f:FV
 l:r
-v:6.4.1
+v:6.4.2
 s:60883532
-
-n:Make decision
-u:GIT_LINK/MakeDecision/GIT_PATH/DEFFILE
-a:MakeDecision.apk
-f:FV
-v:3.9
-s:60674636
 
 n:Sudoku solver
 u:GIT_LINK/SudokuSolver/GIT_PATH/DEFFILE
@@ -246,11 +233,6 @@ f:FVD
 i:MS_STORE/9N4WB06F64TR
 v:2.0.2
 
-n:Make decision
-f:FVD
-i:MS_STORE/9NBKLN7493ZL
-v:3.8.9
-
 n:Screen shooter
 f:FVD
 i:MS_STORE/9NHVH857DV1S
@@ -278,24 +260,19 @@ g:Google play
 n:Dates difference
 f:FVD
 i:GP_STOREcom.RD_AAOW.DatesDifference
-v:3.8
+v:3.8.1
 
 n:JokesArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.GrammarMustJoy
 l:r
-v:3.3
+v:3.3.1
 
 n:KassArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextToKKT
 l:r
-v:6.4.1
-
-n:Make decision
-f:FVD
-i:GP_STOREcom.RD_AAOW.MakeDecision
-v:3.9
+v:6.4.2
 
 n:Sudoku solver
 f:FVD
