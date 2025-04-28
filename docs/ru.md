@@ -175,7 +175,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/GraphArray/ru) &#x3000;
-:film_projector: [Видеоруководство](https://youtube.com/watch?v=08Z_C6qhEoY) &#x3000;
+:film_projector: [Видеоруководство](https://youtube.com/watch?v=w9RlSOwjN4I) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://GraphArray) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9PG19ZZ3NH47) &#x3000;
 :envelope_with_arrow: [В виде MSI](https://github.com/adslbarxatov/GraphArray/releases/latest/download/GraphArray.msi) &#x3000;
@@ -357,6 +357,7 @@ ES: Randomaze – генератор карт для одноимённого м
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/SudokuSolver/ru) &#x3000;
+:film_projector: [Видеоруководство](https://youtube.com/watch?v=aMa0kM3Vjw0) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://SudokuSolver) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NZ1DLGFK0WZ) &#x3000;
 :envelope_with_arrow: [В виде MSI](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.msi) &#x3000;

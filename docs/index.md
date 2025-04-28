@@ -144,7 +144,7 @@ has specified is loaded – all other objects (including ads) are ignored
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/GraphArray) &#x3000;
-:film_projector: [Video guide](https://youtube.com/watch?v=rNMALrRyM0g) &#x3000;
+:film_projector: [Video guide](https://youtube.com/watch?v=2DXfdqaIVF4) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://GraphArray) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9PG19ZZ3NH47) &#x3000;
 :envelope_with_arrow: [Get MSI](https://github.com/adslbarxatov/GraphArray/releases/latest/download/GraphArray.msi) &#x3000;
@@ -326,6 +326,7 @@ hours, days, weeks, full months and years (with fraction)
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/SudokuSolver) &#x3000;
+:film_projector: [Video guide](https://youtube.com/watch?v=UYVmMbiQBDo) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://SudokuSolver) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NZ1DLGFK0WZ) &#x3000;
 :envelope_with_arrow: [Get MSI](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.msi) &#x3000;
