@@ -157,7 +157,6 @@ namespace RD_AAOW
 			string filePath = ShortcutFilePath.EndsWith ('\\') ? ShortcutFilePath : (ShortcutFilePath + "\\");
 			filePath += (ShortcutFileName + ".lnk");
 
-			/*int res = 0;*/
 			int res;
 			try
 				{

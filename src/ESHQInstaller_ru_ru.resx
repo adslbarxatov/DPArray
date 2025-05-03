@@ -517,4 +517,7 @@
   <data name="ReqMessageFirst" xml:space="preserve">
     <value>Это приложение имеет некоторые требования, которые должны быть установлены для его правильной работы. DPArray попытается сделать это на следующем шаге</value>
   </data>
+  <data name="dpzfile" xml:space="preserve">
+    <value>Сжатый пакет развёртки DPArray</value>
+  </data>
 </root>

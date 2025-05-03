@@ -517,4 +517,7 @@ Do you want to deploy available updates?</value>
   <data name="ReqMessageFirst" xml:space="preserve">
     <value>This application has some requirements that must be installed for it to work properly. DPArray will attempt to do this in the next step</value>
   </data>
+  <data name="dpzfile" xml:space="preserve">
+    <value>DPArray compressed deployment package</value>
+  </data>
 </root>

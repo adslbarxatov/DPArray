@@ -340,10 +340,5 @@ namespace RD_AAOW
 					return "CS+";
 				}
 			}
-
-		/*/// <summary>
-		/// Возвращает количество доступных стандартных зависимостей
-		/// </summary>
-		public const uint DefaultRequirementsCount = 3;*/
 		}
 	}

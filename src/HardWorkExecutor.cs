@@ -10,14 +10,19 @@ namespace RD_AAOW
 	/// </summary>
 	public partial class HardWorkExecutor: Form
 		{
-		// Переменные
-		private bool allowClose = false;                        // Запрет выхода из формы до окончания работы
-		private Bitmap progress, frameGreenGrey,
-			frameBack, frameDark;                               // Объекты-отрисовщики
+		// Запрет выхода из формы до окончания работы
+		private bool allowClose = false;
+
+		// Объекты-отрисовщики
+		private Bitmap progress, frameGreenGrey, frameBack, frameDark;
 		private Graphics g, gp;
 		private int currentXOffset = 0, oldPercentage = 0, newPercentage = 0;
-		private object parameters;                              // Параметры инициализации потока
-		private bool alwaysOnTop = false;                       // Флаг принудительного размещения поверх всех окон
+
+		// Параметры инициализации потока
+		private object parameters;
+
+		// Флаг принудительного размещения поверх всех окон
+		private bool alwaysOnTop = false;
 
 		/// <summary>
 		/// Длина шкалы прогресса
@@ -63,14 +68,14 @@ namespace RD_AAOW
 			gp = Graphics.FromImage (progress);
 
 			// Формирование стрелок
-			Point[] frame = new Point[] {
+			Point[] frame = [
 				new Point (0, 0),
 				new Point (this.Width / 4, 0),
 				new Point (this.Width / 4 + progress.Height / 2, progress.Height / 2),
 				new Point (this.Width / 4, progress.Height),
 				new Point (0, progress.Height),
-				new Point (progress.Height / 2, progress.Height / 2)
-				};
+				new Point (progress.Height / 2, progress.Height / 2),
+				];
 
 			// Подготовка дескрипторов
 			SolidBrush green = new SolidBrush (RDInterface.GetInterfaceColor (RDInterfaceColors.DefaultEmerald)),
@@ -137,7 +142,7 @@ namespace RD_AAOW
 		public HardWorkExecutor (DoWorkEventHandler HardWorkProcess, string SetupPath, string PackagePath, uint Flags)
 			{
 			// Инициализация
-			string[] arguments = new string[] { SetupPath, PackagePath, Flags.ToString () };
+			string[] arguments = [SetupPath, PackagePath, Flags.ToString ()];
 			HardWorkExecutor_Init (HardWorkProcess, arguments, " ", false, true);
 			}
 
@@ -187,7 +192,7 @@ namespace RD_AAOW
 			string Length, bool PackagesList)
 			{
 			// Инициализация
-			string[] arguments = new string[] { URL, TargetPath, Length, PackagesList ? "1" : "0" };
+			string[] arguments = [URL, TargetPath, Length, PackagesList ? "1" : "0"];
 			HardWorkExecutor_Init (HardWorkProcess, arguments, " ", true, true);
 			}
 
