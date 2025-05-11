@@ -1,5 +1,8 @@
 DPArray: changes log
 
+ToDo:
+- Shutdown if running flag should be checked by default
+
 Version 8.0.2:
 • Added support for DPZ packages
 
