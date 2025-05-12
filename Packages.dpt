@@ -12,11 +12,11 @@ p:000B19DE0DDD2991
 g:Windows apps
 
 n:Batch image convertor
-a:BatchImageConvertor.gz
+a:BatchImageConvertor.dpz
 f:F
-v:4.2
-s:2083089
-p:005BC20C4DCC9047
+v:5.0
+s:2086427
+p:005BFDB425D70EAB
 
 n:ConcurrentDraw
 a:ConcurrentDraw.dp
