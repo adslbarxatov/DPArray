@@ -1,7 +1,8 @@
 DPArray: changes log
 
-ToDo:
-- Shutdown if running flag should be checked by default
+Version 8.0.3:
+• Added support for new offline help provider;
+• Adjusted the deployment flags for the first start
 
 Version 8.0.2:
 • Added support for DPZ packages
