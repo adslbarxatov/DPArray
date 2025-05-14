@@ -264,6 +264,7 @@ Application can “use” mouse, keyboard, command line and interrupts as same a
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/FileAssociationsManager) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://FileAssociationsManager) &#x3000;
+:envelope_with_arrow: [Get MSI](https://github.com/adslbarxatov/FileAssociationsManager/releases/latest/download/FileAssociationsManager.msi) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/FileAssociationsManager/releases/latest/download/FileAssociationsManager.exe)
 
 A manager for user-defined file extensions
