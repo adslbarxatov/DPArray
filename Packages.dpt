@@ -53,17 +53,17 @@ n:JokesArray
 a:JokesArray.dpz
 f:0
 l:r
-v:3.3.4
-s:800455
-p:002570322B6362FF
+v:3.3.5
+s:798286
+p:00255EC57D60D43B
 
 n:KassArray
 a:KassArray.dpz
 f:F
 l:r
-v:6.7.1
-s:1111495
-p:002D38A967148CA3
+v:6.7.2
+s:958028
+p:002610FAD76E49F9
 
 n:Mafia helper
 a:MafiaHelper.dp
@@ -174,16 +174,16 @@ u:GIT_LINK/JokesArray/GIT_PATH/DEFFILE
 a:JokesArray.apk
 f:FV
 l:r
-v:3.3.4
-s:69678084
+v:3.3.5
+s:69596164
 
 n:KassArray
 u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
 a:KassArray.apk
 f:FV
 l:r
-v:6.4.2
-s:60883532
+v:6.7.2
+s:60793420
 
 n:Sudoku solver
 u:GIT_LINK/SudokuSolver/GIT_PATH/DEFFILE
@@ -201,59 +201,59 @@ s:60678732
 
 
 
-g:Microsoft Store
+/g:Microsoft Store
 
-n:Dates difference
-f:FVD
-i:MS_STORE/9NRQ4LQZNKKG
-v:3.7.9
+/n:Dates difference
+/f:FVD
+/i:MS_STORE/9NRQ4LQZNKKG
+/v:3.7.9
 
-n:Font finder
-f:FVD
-i:MS_STORE/9MXDR4BXP8R4
-v:3.6.9
+/n:Font finder
+/f:FVD
+/i:MS_STORE/9MXDR4BXP8R4
+/v:3.6.9
 
-n:GraphArray
-f:FVD
-i:MS_STORE/9PG19ZZ3NH47
-v:6.0.1
+/n:GraphArray
+/f:FVD
+/i:MS_STORE/9PG19ZZ3NH47
+/v:6.0.1
 
-n:JokesArray
-f:FVD
-l:r
-i:MS_STORE/9NZ7WMRX5SF3
-v:3.2.2
+/n:JokesArray
+/f:FVD
+/l:r
+/i:MS_STORE/9NZ7WMRX5SF3
+/v:3.2.2
 
-n:KassArray
-f:FVD
-l:r
-i:MS_STORE/9ND98F4C4Q60
-v:6.3
+/n:KassArray
+/f:FVD
+/l:r
+/i:MS_STORE/9ND98F4C4Q60
+/v:6.3
 
-n:Mafia helper
-f:FVD
-i:MS_STORE/9N4WB06F64TR
-v:2.0.2
+/n:Mafia helper
+/f:FVD
+/i:MS_STORE/9N4WB06F64TR
+/v:2.0.2
 
-n:Screen shooter
-f:FVD
-i:MS_STORE/9NHVH857DV1S
-v:3.4.5
+/n:Screen shooter
+/f:FVD
+/i:MS_STORE/9NHVH857DV1S
+/v:3.4.5
 
-n:Sudoku solver
-f:FVD
-i:MS_STORE/9NZ1DLGFK0WZ
-v:4.9
+/n:Sudoku solver
+/f:FVD
+/i:MS_STORE/9NZ1DLGFK0WZ
+/v:4.9
 
-n:TextStats
-f:FVD
-i:MS_STORE/9PJRQFC4F6RK
-v:1.3.5
+/n:TextStats
+/f:FVD
+/i:MS_STORE/9PJRQFC4F6RK
+/v:1.3.5
 
-n:UniNotifier
-f:FVD
-i:MS_STORE/9NVZ51RL54K4
-v:8.6.3
+/n:UniNotifier
+/f:FVD
+/i:MS_STORE/9NVZ51RL54K4
+/v:8.6.3
 
 
 
@@ -268,13 +268,13 @@ n:JokesArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.GrammarMustJoy
 l:r
-v:3.3.4
+v:3.3.5
 
 n:KassArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextToKKT
 l:r
-v:6.4.2
+v:6.7.2
 
 n:Sudoku solver
 f:FVD
