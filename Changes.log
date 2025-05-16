@@ -1,5 +1,8 @@
 DPArray: changes log
 
+ToDo:
+- Implement proper app registration after installation
+
 Version 8.0.3:
 • Added support for new offline help provider;
 • Adjusted the deployment flags for the first start

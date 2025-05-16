@@ -39,8 +39,8 @@ p:00070BBF41AC2A3E
 n:Font finder
 a:FontFinder.dp
 f:0
-v:3.7.1
-p:000632FDCA8C0F74
+v:3.7.2
+p:00063D3EBC00F3E8
 
 n:GraphArray
 a:GraphArray.dpz
@@ -68,8 +68,8 @@ p:0026110A3234ECEE
 n:Mafia helper
 a:MafiaHelper.dp
 f:0
-v:2.1
-p:000C771E0F6EFFBA
+v:2.1.1
+p:000C8130AA7515EF
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
