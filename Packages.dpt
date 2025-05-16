@@ -74,8 +74,8 @@ p:000C8130AA7515EF
 n:OS macros executor
 a:OSMacrosExecutor.dp
 f:F
-v:3.7
-p:0007204EA4189A05
+v:3.7.1
+p:00072CAF8CE00F7C
 
 n:Screen shooter
 a:ScreenShooter.dp
