@@ -1,7 +1,9 @@
 DPArray: changes log
 
-ToDo:
-- Implement proper app registration after installation
+Version 8.1:
+• App is now able to register the installation in the Windows control panel.
+  You can now check info, access help or remove deployed projects through
+  the Programs and features interface
 
 Version 8.0.3:
 • Added support for new offline help provider;
