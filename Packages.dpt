@@ -45,9 +45,9 @@ p:00063D3EBC00F3E8
 n:GraphArray
 a:GraphArray.dpz
 f:F
-v:6.1.6
-s:567567
-p:0016F82E8C76D7D4
+v:6.1.7
+s:567509
+p:0017032CF9FDCD76
 
 n:JokesArray
 a:JokesArray.dpz
@@ -80,8 +80,8 @@ p:00072CAF8CE00F7C
 n:Screen shooter
 a:ScreenShooter.dp
 f:0
-v:3.5
-p:00057776374F95A4
+v:3.5.1
+p:00058569D520762B
 
 n:Sudoku solver
 a:SudokuSolver.dp
@@ -98,8 +98,8 @@ p:0005739035323732
 n:UniNotifier
 a:UniNotifier.dp
 f:0
-v:8.7
-p:0007976460C5392B
+v:8.7.1
+p:00079D624F261114
 
 n:Vice city toolset
 a:ViceCityToolset.dpz
