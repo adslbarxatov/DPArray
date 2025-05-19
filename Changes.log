@@ -1,5 +1,8 @@
 DPArray: changes log
 
+Version 8.1.1:
+• Added Modify option for the Programs and features interface
+
 Version 8.1:
 • App is now able to register the installation in the Windows control panel.
   You can now check info, access help or remove deployed projects through
