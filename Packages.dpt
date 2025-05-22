@@ -201,12 +201,12 @@ s:60592716
 
 
 
-/g:Microsoft Store
+g:Microsoft Store
 
-/n:Dates difference
-/f:FVD
-/i:MS_STORE/9NRQ4LQZNKKG
-/v:3.7.9
+n:Dates difference
+f:FVD
+i:MS_STORE/9NRQ4LQZNKKG
+v:3.8.3
 
 /n:Font finder
 /f:FVD
@@ -240,10 +240,10 @@ s:60592716
 /i:MS_STORE/9NHVH857DV1S
 /v:3.4.5
 
-/n:Sudoku solver
-/f:FVD
-/i:MS_STORE/9NZ1DLGFK0WZ
-/v:4.9
+n:Sudoku solver
+f:FVD
+i:MS_STORE/9NZ1DLGFK0WZ
+v:5.1
 
 /n:TextStats
 /f:FVD
