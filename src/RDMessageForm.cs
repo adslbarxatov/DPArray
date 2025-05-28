@@ -691,5 +691,24 @@ namespace RD_AAOW
 			exitAllowed = true;
 			this.Close ();
 			}
+
+		// Подавление дефекта интерфейса с выделением текста в Label01 при попадании фокуса
+		protected override bool ProcessCmdKey (ref Message msg, Keys keyData)
+			{
+			switch (keyData)
+				{
+				case Keys.Up:
+				case Keys.Left:
+					this.SelectNextControl (this.ActiveControl, false, true, false, true);
+					return true;
+
+				case Keys.Down:
+				case Keys.Right:
+					this.SelectNextControl (this.ActiveControl, true, true, false, true);
+					return true;
+				}
+
+			return base.ProcessCmdKey (ref msg, keyData);
+			}
 		}
 	}

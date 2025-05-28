@@ -4,8 +4,8 @@ n:DPArray
 a:DPArray.dp
 i:INFOPAGE
 f:fvd
-v:8.1.1
-p:000B393B05E67F49
+v:8.1.2
+p:000B393BE3EAEC88
 
 
 
@@ -61,9 +61,9 @@ n:KassArray
 a:KassArray.dpz
 f:F
 l:r
-v:6.8.3
-s:822069
-p:001F3BF7B279589C
+v:6.8.4
+s:822713
+p:001F3E0F5FEC74A5
 
 n:Mafia helper
 a:MafiaHelper.dp

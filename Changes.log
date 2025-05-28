@@ -1,5 +1,8 @@
 DPArray: changes log
 
+Version 8.1.2:
+• Updated interfaces of service and informational messages
+
 Version 8.1.1:
 • Added Modify option for the Programs and features interface
 
