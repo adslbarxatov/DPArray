@@ -61,9 +61,9 @@ n:KassArray
 a:KassArray.dpz
 f:F
 l:r
-v:6.9.2
-s:988898
-p:002562888B09352C
+v:6.9.4
+s:989545
+p:00256C88C712CB07
 
 n:Mafia helper
 a:MafiaHelper.dp
@@ -182,8 +182,8 @@ u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
 a:KassArray.apk
 f:FV
 l:r
-v:6.8.8
-s:60797516
+v:6.9.4
+s:60946852
 
 n:Sudoku solver
 u:GIT_LINK/SudokuSolver/GIT_PATH/DEFFILE
@@ -228,7 +228,7 @@ n:KassArray
 f:FVD
 l:r
 i:MS_STORE/9ND98F4C4Q60
-v:6.8.8
+v:6.9.4
 
 n:Mafia helper
 f:FVD
@@ -274,7 +274,7 @@ n:KassArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextToKKT
 l:r
-v:6.8.8
+v:6.9.4
 
 n:Sudoku solver
 f:FVD
