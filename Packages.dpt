@@ -39,15 +39,15 @@ p:00070BBF41AC2A3E
 n:Font finder
 a:FontFinder.dp
 f:0
-v:3.7.2
-p:00063D3EBC00F3E8
+v:3.7.3
+p:0006713ED9EC4842
 
 n:GraphArray
 a:GraphArray.dpz
 f:F
-v:6.1.7
-s:567509
-p:0017032CF9FDCD76
+v:6.1.8
+s:569961
+p:00173324227434CD
 
 n:JokesArray
 a:JokesArray.dpz
@@ -61,9 +61,9 @@ n:KassArray
 a:KassArray.dpz
 f:F
 l:r
-v:6.9.4
-s:989545
-p:00256C88C712CB07
+v:6.9.5
+s:989547
+p:00256B68C67D93F5
 
 n:Mafia helper
 a:MafiaHelper.dp
@@ -211,12 +211,12 @@ v:3.8.4
 n:Font finder
 f:FVD
 i:MS_STORE/9MXDR4BXP8R4
-v:3.7.2
+v:3.7.3
 
 n:GraphArray
 f:FVD
 i:MS_STORE/9PG19ZZ3NH47
-v:6.1.7
+v:6.1.8
 
 n:JokesArray
 f:FVD
@@ -228,7 +228,7 @@ n:KassArray
 f:FVD
 l:r
 i:MS_STORE/9ND98F4C4Q60
-v:6.9.4
+v:6.9.5
 
 n:Mafia helper
 f:FVD
