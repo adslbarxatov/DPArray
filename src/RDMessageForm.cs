@@ -695,6 +695,9 @@ namespace RD_AAOW
 		// Подавление дефекта интерфейса с выделением текста в Label01 при попадании фокуса
 		protected override bool ProcessCmdKey (ref Message msg, Keys keyData)
 			{
+			if (InputTextBox.Focused)
+				return base.ProcessCmdKey (ref msg, keyData);
+
 			switch (keyData)
 				{
 				case Keys.Up:
