@@ -21,8 +21,8 @@ p:005BF1EC753A8E23
 n:ConcurrentDraw
 a:ConcurrentDraw.dp
 f:F
-v:3.7.1
-p:000C62712501458E
+v:3.7.2
+p:000C8271C76F6927
 
 n:Dates difference
 a:DatesDifference.dp
@@ -33,8 +33,8 @@ p:0005619935CDD63E
 n:File associations manager
 a:FileAssociationsManager.dp
 f:0
-v:3.1.1
-p:00070BBF41AC2A3E
+v:3.1.2
+p:00073DBF54F2F89E
 
 n:Font finder
 a:FontFinder.dp
