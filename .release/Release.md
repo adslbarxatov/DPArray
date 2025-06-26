@@ -1,4 +1,4 @@
-_Changes for v 8.1.4_:
+_Changes for v 8.1.4_: 
 - Some core assemblies have been updated;
 - Added the special tray icon for “Has updates” status;
 - Updated interfaces of service and informational messages;
