@@ -86,8 +86,8 @@ p:0005A761F514361E
 n:Sudoku solver
 a:SudokuSolver.dp
 f:0
-v:5.2.1
-p:0006250EC9046854
+v:5.2.3
+p:0006194EE2FDD6AC
 
 n:TextStats
 a:TextStats.dp
@@ -98,8 +98,8 @@ p:0005A17E1735094F
 n:UniNotifier
 a:UniNotifier.dp
 f:0
-v:8.8
-p:0007AF9839894D2B
+v:8.8.1
+p:0007AF9AEA2BF275
 
 n:Vice city toolset
 a:ViceCityToolset.dpz
@@ -189,8 +189,8 @@ n:Sudoku solver
 u:GIT_LINK/SudokuSolver/GIT_PATH/DEFFILE
 a:SudokuSolver.apk
 f:FV
-v:5.2.1
-s:60852932
+v:5.2.3
+s:60869316
 
 n:TextStats
 u:GIT_LINK/TextStats/GIT_PATH/DEFFILE
@@ -249,7 +249,7 @@ v:3.5.2
 n:Sudoku solver
 f:FVD
 i:MS_STORE/9NZ1DLGFK0WZ
-v:5.2.1
+v:5.2.3
 
 n:TextStats
 f:FVD
@@ -259,7 +259,7 @@ v:1.4.3
 n:UniNotifier
 f:FVD
 i:MS_STORE/9NVZ51RL54K4
-v:8.8
+v:8.8.1
 
 
 
@@ -285,7 +285,7 @@ v:7.0.5
 n:Sudoku solver
 f:FVD
 i:GP_STOREcom.RD_AAOW.SudokuSolver
-v:5.2.1
+v:5.2.3
 
 n:TextStats
 f:FVD
