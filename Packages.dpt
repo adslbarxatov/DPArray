@@ -132,31 +132,31 @@ s:53117703
 p:0804DFB8FF18BA96
 
 n:ES: Randomaze
-a:ESRM_setup.7z
+a:ESRM_setup.dpz
 f:FV
 i:MODSHOST/esrm
-u:MODSTORAGE/280748?MOD_REFesrm
-v:6.0
-s:73833204
-p:06EBFFCC78C0CEAE
+u:MODSTORAGE/293806?MOD_REFesrm
+v:7.0
+s:73195854
+p:06F28B774265DA8D
 
 n:ES: Randomaze, actual update
 a:ESRM_update.dpz
 f:0
 i:MODSHOST/esrm
-u:MODSTORAGE/293540?MOD_REFesrm
-v:6.3.3
-s:10211383
-p:010208D990A487ED
+u:MODSTORAGE/293808?MOD_REFesrm
+v:7.0
+s:2940888
+p:0067A4BB3AD48E84
 
-/n:ES: Randomaze, backward compatibility
-/a:ESRM_backward.7z
-/f:FV
-/i:MODSHOST/esrm
-/u:MODSTORAGE/280749?MOD_REFesrm
-/v:6.0
-/s:31064930
-/p:0298E663FB6BE879
+n:ES: Randomaze, backward compatibility
+a:ESRM_bkwd.dpz
+f:FV
+i:MODSHOST/esrm
+u:MODSTORAGE/293805?MOD_REFesrm
+v:7.0
+s:10214211
+p:01021ABA74897902
 
 
 
