@@ -33,8 +33,8 @@ p:0005619935CDD63E
 n:File associations manager
 a:FileAssociationsManager.dp
 f:0
-v:3.1.2
-p:00073DBF54F2F89E
+v:3.1.3
+p:00072BF7E13CFD07
 
 n:Font finder
 a:FontFinder.dp
