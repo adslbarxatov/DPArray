@@ -6,64 +6,54 @@ using System.Windows.Forms;
 namespace RD_AAOW
 	{
 	/// <summary>
-	/// Типы сообщений для пользователя
+	/// Флаги сообщений для пользователя
 	/// </summary>
-	public enum RDMessageTypes
+	public enum RDMessageFlags
 		{
 		/// <summary>
-		/// Информационное (обычное) с текстом слева
+		/// Информационное (обычное) сообщение (по умолчанию)
 		/// </summary>
-		Information_Left = 0,
+		Information = 0x0000,
 
 		/// <summary>
-		/// Вопрос к пользователю с текстом слева
+		/// Сообщение с вопросом к пользователю
 		/// </summary>
-		Question_Left = 1,
+		Question = 0x0001,
 
 		/// <summary>
-		/// Предупреждение с текстом слева
+		/// Сообщение-предупреждение
 		/// </summary>
-		Warning_Left = 2,
+		Warning = 0x0002,
 
 		/// <summary>
-		/// Ошибка с текстом слева
+		/// Сообщение об ошибке
 		/// </summary>
-		Error_Left = 3,
+		Error = 0x0004,
 
 		/// <summary>
-		/// Сообщение об успешном результате с текстом слева
+		/// Сообщение об успешном результате
 		/// </summary>
-		Success_Left = 4,
+		Success = 0x0008,
 
 		/// <summary>
-		/// Информационное (обычное) с текстом по центру
+		/// Текст по левой стороне (по умолчанию)
 		/// </summary>
-		Information_Center = 10,
+		LeftText = 0x0000,
 
 		/// <summary>
-		/// Вопрос к пользователю с текстом по центру
+		/// Текст по центру
 		/// </summary>
-		Question_Center = 11,
+		CenterText = 0x0010,
 
 		/// <summary>
-		/// Предупреждение с текстом по центру
+		/// Сообщение фиксированной малой ширины
 		/// </summary>
-		Warning_Center = 12,
+		LockSmallSize = 0x0020,
 
 		/// <summary>
-		/// Ошибка с текстом по центру
+		/// Сообщение без звука
 		/// </summary>
-		Error_Center = 13,
-
-		/// <summary>
-		/// Сообщение об успешном результате с текстом по центру
-		/// </summary>
-		Success_Center = 14,
-
-		/// <summary>
-		/// Сообщение об успешном результате с текстом по центру без звука
-		/// </summary>
-		Clipboard_Center = 15,
+		NoSound = 0x0040,
 		}
 
 	/// <summary>
@@ -97,85 +87,10 @@ namespace RD_AAOW
 	/// </summary>
 	public partial class RDMessageForm: Form
 		{
-		/// <summary>
-		/// Типы сообщений для пользователя
-		/// </summary>
-		private enum RDMessageInternalTypes
-			{
-			/// <summary>
-			/// Информационное (обычное) с текстом слева
-			/// </summary>
-			Information_Left = 0,
-
-			/// <summary>
-			/// Вопрос к пользователю с текстом слева
-			/// </summary>
-			Question_Left = 1,
-
-			/// <summary>
-			/// Предупреждение с текстом слева
-			/// </summary>
-			Warning_Left = 2,
-
-			/// <summary>
-			/// Ошибка с текстом слева
-			/// </summary>
-			Error_Left = 3,
-
-			/// <summary>
-			/// Сообщение об успешном результате с текстом слева
-			/// </summary>
-			Success_Left = 4,
-
-			/// <summary>
-			/// Окно ввода с текстом слева
-			/// </summary>
-			Input_Left = 20,
-
-			/// <summary>
-			/// Информационное (обычное) с текстом по центру
-			/// </summary>
-			Information_Center = 10,
-
-			/// <summary>
-			/// Вопрос к пользователю с текстом по центру
-			/// </summary>
-			Question_Center = 11,
-
-			/// <summary>
-			/// Предупреждение с текстом по центру
-			/// </summary>
-			Warning_Center = 12,
-
-			/// <summary>
-			/// Ошибка с текстом по центру
-			/// </summary>
-			Error_Center = 13,
-
-			/// <summary>
-			/// Сообщение об успешном результате с текстом по центру
-			/// </summary>
-			Success_Center = 14,
-
-			/// <summary>
-			/// Сообщение об успешном результате с текстом по центру без звука
-			/// </summary>
-			Clipboard_Center = 15,
-
-			/// <summary>
-			/// Окно ввода с текстом по центру
-			/// </summary>
-			Input_Center = 30,
-
-			/// <summary>
-			/// Окно выбора языка интерфейса
-			/// </summary>
-			LanguageSelector = 40,
-			}
-
 		// Прочее
 		private bool exitAllowed = false;
-		private RDMessageInternalTypes windowType = RDMessageInternalTypes.Information_Left;
+		private bool inputBox = false;
+		private bool languageSelector = false;
 
 		/// <summary>
 		/// Возвращает выбранную кнопку в сообщении
@@ -217,7 +132,8 @@ namespace RD_AAOW
 				length = 256;
 
 			// Начальный текст передаётся как текст третьей кнопки
-			RDMessageFormInit (Center ? RDMessageInternalTypes.Input_Center : RDMessageInternalTypes.Input_Left,
+			inputBox = true;
+			RDMessageFormInit (Center ? RDMessageFlags.CenterText : RDMessageFlags.LeftText,
 				Message,
 				RDLocale.GetDefaultText (RDLDefaultTexts.Button_OK),
 				RDLocale.GetDefaultText (RDLDefaultTexts.Button_Cancel),
@@ -228,10 +144,10 @@ namespace RD_AAOW
 		/// Конструктор. Запускает простейшую форму сообщения для пользователя (с таймаутом автозакрытия)
 		/// </summary>
 		/// <param name="Message">Сообщение для пользователя</param>
-		/// <param name="Type">Тип создаваемого окна</param>
+		/// <param name="Flags">Параметры создаваемого окна</param>
 		/// <param name="Timeout">Таймаут (в миллисекундах), по истечении которого
 		/// сообщение автоматически закроется (от 100 до 60000 мс)</param>
-		public RDMessageForm (RDMessageTypes Type, string Message, uint Timeout)
+		public RDMessageForm (RDMessageFlags Flags, string Message, uint Timeout)
 			{
 			uint to = Timeout;
 			if (to < 100)
@@ -239,7 +155,7 @@ namespace RD_AAOW
 			if (to > 60000)
 				to = 60000;
 
-			RDMessageFormInit ((RDMessageInternalTypes)Type, Message, "-", null, null, RDLanguages.en_us, to);
+			RDMessageFormInit (Flags, Message, "-", null, null, RDLanguages.en_us, to);
 			}
 
 		/// <summary>
@@ -248,7 +164,8 @@ namespace RD_AAOW
 		/// <param name="CurrentInterfaceLanguage">Текущий язык интерфейса</param>
 		public RDMessageForm (RDLanguages CurrentInterfaceLanguage)
 			{
-			RDMessageFormInit (RDMessageInternalTypes.LanguageSelector,
+			languageSelector = true;
+			RDMessageFormInit (RDMessageFlags.LeftText,
 				string.Format (RDLocale.GetDefaultText (RDLDefaultTexts.Message_LanguageSelection_Fmt),
 				RDLocale.LanguagesNames[(int)RDLocale.CurrentLanguage]),
 
@@ -262,10 +179,10 @@ namespace RD_AAOW
 		/// Конструктор. Запускает простейшую форму сообщения для пользователя (с одной кнопкой подтверждения)
 		/// </summary>
 		/// <param name="Message">Сообщение для пользователя</param>
-		/// <param name="Type">Тип создаваемого окна</param>
-		public RDMessageForm (RDMessageTypes Type, string Message)
+		/// <param name="Flags">Параметры создаваемого окна</param>
+		public RDMessageForm (RDMessageFlags Flags, string Message)
 			{
-			RDMessageFormInit ((RDMessageInternalTypes)Type, Message,
+			RDMessageFormInit (Flags, Message,
 				RDLocale.GetDefaultText (RDLDefaultTexts.Button_OK), null, null,
 				RDLanguages.en_us, 0);
 			}
@@ -277,16 +194,16 @@ namespace RD_AAOW
 		/// <param name="ButtonTwoName">Название второй кнопки</param>
 		/// <param name="ButtonThreeName">Название третьей кнопки</param>
 		/// <param name="Message">Сообщение для пользователя</param>
-		/// <param name="Type">Тип создаваемого окна</param>
-		public RDMessageForm (RDMessageTypes Type, string Message, string ButtonOneName, string ButtonTwoName,
+		/// <param name="Flags">Параметры создаваемого окна</param>
+		public RDMessageForm (RDMessageFlags Flags, string Message, string ButtonOneName, string ButtonTwoName,
 			string ButtonThreeName)
 			{
-			RDMessageFormInit ((RDMessageInternalTypes)Type, Message,
+			RDMessageFormInit (Flags, Message,
 				ButtonOneName, ButtonTwoName, ButtonThreeName, RDLanguages.en_us, 0);
 			}
 
 		// Основная инициализация формы
-		private void RDMessageFormInit (RDMessageInternalTypes Type, string Message,
+		private void RDMessageFormInit (RDMessageFlags Flags, string Message,
 			string ButtonOneName, string ButtonTwoName, string ButtonThreeName,
 			RDLanguages CurrentInterfaceLanguage, uint Timeout)
 			{
@@ -294,27 +211,23 @@ namespace RD_AAOW
 			InitializeComponent ();
 
 			// Запрет на побочное определение (не через собственный конструктор)
-			windowType = Type;
-			switch (windowType)
+			if (languageSelector)
 				{
-				case RDMessageInternalTypes.LanguageSelector:
-					LanguagesCombo.Visible = true;
-					LanguagesCombo.Items.AddRange (RDLocale.LanguagesNames);
-					try
-						{
-						LanguagesCombo.SelectedIndex = (int)CurrentInterfaceLanguage;
-						}
-					catch
-						{
-						LanguagesCombo.SelectedIndex = 0;
-						}
-					break;
-
-				case RDMessageInternalTypes.Input_Left:
-				case RDMessageInternalTypes.Input_Center:
-					InputTextBox.Visible = true;
-					InputTextBox.MaxLength = (int)Timeout;
-					break;
+				LanguagesCombo.Visible = true;
+				LanguagesCombo.Items.AddRange (RDLocale.LanguagesNames);
+				try
+					{
+					LanguagesCombo.SelectedIndex = (int)CurrentInterfaceLanguage;
+					}
+				catch
+					{
+					LanguagesCombo.SelectedIndex = 0;
+					}
+				}
+			else if (inputBox)
+				{
+				InputTextBox.Visible = true;
+				InputTextBox.MaxLength = (int)Timeout;
 				}
 
 			this.Text = ProgramDescription.AssemblyTitle;
@@ -325,52 +238,37 @@ namespace RD_AAOW
 				Label01.Text = Message.Replace ("\n", RDLocale.RN).Replace ("\r\r", "\r");
 				Label01.SelectionLength = 0;
 
-				switch (windowType)
-					{
-					case RDMessageInternalTypes.Information_Center:
-					case RDMessageInternalTypes.Question_Center:
-					case RDMessageInternalTypes.Success_Center:
-					case RDMessageInternalTypes.Warning_Center:
-					case RDMessageInternalTypes.Error_Center:
-					case RDMessageInternalTypes.Input_Center:
-					case RDMessageInternalTypes.Clipboard_Center:
-						Label01.TextAlign = HorizontalAlignment.Center;
-						break;
-					}
+				if (Flags.HasFlag (RDMessageFlags.CenterText))
+					Label01.TextAlign = HorizontalAlignment.Center;
 
-				switch (windowType)
+				if (!inputBox && !languageSelector)
 					{
-					// Не требуют пересчёта размера
-					case RDMessageInternalTypes.LanguageSelector:
-					case RDMessageInternalTypes.Input_Center:
-					case RDMessageInternalTypes.Input_Left:
-						break;
-
-					default:
-						// Определение ширины
-						if ((Message.Replace ("\n", "").Replace ("\r", "").Length > 150) &&
-							(TextRenderer.MeasureText (Message, Label01.Font).Width > Label01.Width))
+					// Определение ширины
+					if ((Message.Replace ("\n", "").Replace ("\r", "").Length > 150) &&
+						(TextRenderer.MeasureText (Message, Label01.Font).Width > Label01.Width))
+						{
+						if (!Flags.HasFlag (RDMessageFlags.LockSmallSize))
 							{
 							Label01.Width += this.Width;
 							this.Width *= 2;
 							}
+						}
 
-						// Определение высоты
-						Label01.Height = (Label01.GetLineFromCharIndex (int.MaxValue) + 2) *
-							TextRenderer.MeasureText ("X", Label01.Font).Height;
+					// Определение высоты
+					Label01.Height = (Label01.GetLineFromCharIndex (int.MaxValue) + 2) *
+						TextRenderer.MeasureText ("X", Label01.Font).Height;
 
-						this.Height = Label01.Height;
-						if (Timeout > 0)
-							{
-							this.Height += 17;
-							Label01.Top = (this.Height - Label01.Height) / 2 + 8;
-							}
-						else
-							{
-							this.Height += 57;
-							Button01.Top = Button02.Top = Button03.Top = this.Height - 48;
-							}
-						break;
+					this.Height = Label01.Height;
+					if (Timeout > 0)
+						{
+						this.Height += 17;
+						Label01.Top = (this.Height - Label01.Height) / 2 + 8;
+						}
+					else
+						{
+						this.Height += 57;
+						Button01.Top = Button02.Top = Button03.Top = this.Height - 48;
+						}
 					}
 				}
 
@@ -409,72 +307,57 @@ namespace RD_AAOW
 
 				if (!string.IsNullOrWhiteSpace (ButtonThreeName))
 					{
-					switch (windowType)
+					if (inputBox)
 						{
-						case RDMessageInternalTypes.Input_Center:
-						case RDMessageInternalTypes.Input_Left:
-							InputTextBox.Text = ButtonThreeName;
-							break;
-
-						default:
-							Button03.Text = ButtonThreeName;
-							if (Button03.Text.EndsWith (RDLocale.TabStopPreventor))
-								{
-								Button03.TabStop = false;
-								Button03.Text = Button03.Text.Replace (RDLocale.TabStopPreventor, "");
-								}
-							else
-								{
-								CancelButton = Button03;
-								}
-							break;
+						InputTextBox.Text = ButtonThreeName;
+						}
+					else
+						{
+						Button03.Text = ButtonThreeName;
+						if (Button03.Text.EndsWith (RDLocale.TabStopPreventor))
+							{
+							Button03.TabStop = false;
+							Button03.Text = Button03.Text.Replace (RDLocale.TabStopPreventor, "");
+							}
+						else
+							{
+							CancelButton = Button03;
+							}
 						}
 					}
 				}
 
 			// Системный звук и фоновый цвет
-			switch (windowType)
+			bool sound = !Flags.HasFlag (RDMessageFlags.NoSound);
+			if (Flags.HasFlag (RDMessageFlags.Success))
 				{
-				case RDMessageInternalTypes.Information_Left:
-				case RDMessageInternalTypes.Information_Center:
-				default:
+				if (sound)
 					SystemSounds.Asterisk.Play ();
-					this.BackColor = RDInterface.GetInterfaceColor (RDInterfaceColors.LightGrey);
-					break;
-
-				case RDMessageInternalTypes.LanguageSelector:
-				case RDMessageInternalTypes.Input_Center:
-				case RDMessageInternalTypes.Input_Left:
-					this.BackColor = RDInterface.GetInterfaceColor (RDInterfaceColors.LightGrey);
-					break;
-
-				case RDMessageInternalTypes.Question_Left:
-				case RDMessageInternalTypes.Question_Center:
-					SystemSounds.Question.Play ();
-					this.BackColor = RDInterface.GetInterfaceColor (RDInterfaceColors.QuestionMessage);
-					break;
-
-				case RDMessageInternalTypes.Warning_Left:
-				case RDMessageInternalTypes.Warning_Center:
-					SystemSounds.Exclamation.Play ();
-					this.BackColor = RDInterface.GetInterfaceColor (RDInterfaceColors.WarningMessage);
-					break;
-
-				case RDMessageInternalTypes.Error_Left:
-				case RDMessageInternalTypes.Error_Center:
+				this.BackColor = RDInterface.GetInterfaceColor (RDInterfaceColors.SuccessMessage);
+				}
+			else if (Flags.HasFlag (RDMessageFlags.Error))
+				{
+				if (sound)
 					SystemSounds.Hand.Play ();
-					this.BackColor = RDInterface.GetInterfaceColor (RDInterfaceColors.ErrorMessage);
-					break;
-
-				case RDMessageInternalTypes.Success_Left:
-				case RDMessageInternalTypes.Success_Center:
+				this.BackColor = RDInterface.GetInterfaceColor (RDInterfaceColors.ErrorMessage);
+				}
+			else if (Flags.HasFlag (RDMessageFlags.Warning))
+				{
+				if (sound)
+					SystemSounds.Exclamation.Play ();
+				this.BackColor = RDInterface.GetInterfaceColor (RDInterfaceColors.WarningMessage);
+				}
+			else if (Flags.HasFlag (RDMessageFlags.Question))
+				{
+				if (sound)
+					SystemSounds.Question.Play ();
+				this.BackColor = RDInterface.GetInterfaceColor (RDInterfaceColors.QuestionMessage);
+				}
+			else
+				{
+				if (sound && !languageSelector && !inputBox)
 					SystemSounds.Asterisk.Play ();
-					this.BackColor = RDInterface.GetInterfaceColor (RDInterfaceColors.SuccessMessage);
-					break;
-
-				case RDMessageInternalTypes.Clipboard_Center:
-					this.BackColor = RDInterface.GetInterfaceColor (RDInterfaceColors.SuccessMessage);
-					break;
+				this.BackColor = RDInterface.GetInterfaceColor (RDInterfaceColors.LightGrey);
 				}
 
 			// Окончательное выравнивание элементов, применение цветовой схемы
@@ -482,24 +365,21 @@ namespace RD_AAOW
 			Label01.ForeColor = RDInterface.GetInterfaceColor (RDInterfaceColors.DefaultText);
 			Label01.BackColor = this.BackColor;
 
-			switch (windowType)
+			if (languageSelector)
 				{
-				case RDMessageInternalTypes.LanguageSelector:
-					LanguagesCombo.ForeColor = RDInterface.GetInterfaceColor (RDInterfaceColors.DefaultText);
-					LanguagesCombo.BackColor = this.BackColor;
-					break;
-
-				case RDMessageInternalTypes.Input_Left:
-				case RDMessageInternalTypes.Input_Center:
-					InputTextBox.ForeColor = RDInterface.GetInterfaceColor (RDInterfaceColors.DefaultText);
-					InputTextBox.BackColor = this.BackColor;
-					break;
-
-				default:
-					// У двух полей ввода через таймаут передаётся ограничение длины текста
-					if (Timeout > 0)
-						MainTimer.Interval = (int)Timeout;
-					break;
+				LanguagesCombo.ForeColor = RDInterface.GetInterfaceColor (RDInterfaceColors.DefaultText);
+				LanguagesCombo.BackColor = this.BackColor;
+				}
+			else if (inputBox)
+				{
+				InputTextBox.ForeColor = RDInterface.GetInterfaceColor (RDInterfaceColors.DefaultText);
+				InputTextBox.BackColor = this.BackColor;
+				}
+			else
+				{
+				// У двух полей ввода через таймаут передаётся ограничение длины текста
+				if (Timeout > 0)
+					MainTimer.Interval = (int)Timeout;
 				}
 
 			// Запуск
@@ -539,17 +419,10 @@ namespace RD_AAOW
 			// Возврат
 			if (resultButton == RDMessageButtons.ButtonOne)
 				{
-				switch (windowType)
-					{
-					case RDMessageInternalTypes.LanguageSelector:
-						RDLocale.CurrentLanguage = (RDLanguages)LanguagesCombo.SelectedIndex;
-						break;
-
-					case RDMessageInternalTypes.Input_Center:
-					case RDMessageInternalTypes.Input_Left:
-						enteredText = InputTextBox.Text;
-						break;
-					}
+				if (languageSelector)
+					RDLocale.CurrentLanguage = (RDLanguages)LanguagesCombo.SelectedIndex;
+				else if (inputBox)
+					enteredText = InputTextBox.Text;
 				}
 
 			// Завершение

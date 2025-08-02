@@ -4,8 +4,8 @@ n:DPArray
 a:DPArray.dp
 i:INFOPAGE
 f:fvd
-v:8.1.4
-p:000B6D331227E741
+v:8.1.5
+p:000B5D73A55722BB
 
 
 
@@ -14,15 +14,15 @@ g:Windows apps
 n:Batch image convertor
 a:BatchImageConvertor.dpz
 f:F
-v:5.0.2
-s:2086146
-p:005BF1EC753A8E23
+v:5.0.3
+s:2085688
+p:005BF064144B4591
 
 n:ConcurrentDraw
 a:ConcurrentDraw.dp
 f:F
-v:3.7.2
-p:000C8271C76F6927
+v:3.7.3
+p:000C80E17F762E11
 
 n:Dates difference
 a:DatesDifference.dp

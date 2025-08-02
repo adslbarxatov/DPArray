@@ -8,7 +8,7 @@ namespace RD_AAOW
 	/// <summary>
 	/// Класс предоставляет интерфейс визуализации прогресса установки/удаления программы
 	/// </summary>
-	public partial class HardWorkExecutor: Form
+	public partial class RDWorkerForm: Form
 		{
 		// Запрет выхода из формы до окончания работы
 		private bool allowClose = false;
@@ -139,11 +139,11 @@ namespace RD_AAOW
 		///										 b1 = разрешено завершение работающих процессов;</param>
 		///										 b2 = разрешён запуск приложения по завершении
 		/// <param name="PackagePath">Путь к пакету развёртки</param>
-		public HardWorkExecutor (DoWorkEventHandler HardWorkProcess, string SetupPath, string PackagePath, uint Flags)
+		public RDWorkerForm (DoWorkEventHandler HardWorkProcess, string SetupPath, string PackagePath, uint Flags)
 			{
 			// Инициализация
 			string[] arguments = [SetupPath, PackagePath, Flags.ToString ()];
-			HardWorkExecutor_Init (HardWorkProcess, arguments, " ", false, true);
+			RDWorkerForm_Init (HardWorkProcess, arguments, " ", false, true);
 			}
 
 #endif
@@ -155,7 +155,7 @@ namespace RD_AAOW
 		/// <param name="Parameters">Параметры, передаваемые в процесс; может быть null</param>
 		/// <param name="WindowCaption">Строка, отображаемая при инициализации окна прогресса</param>
 		/// <param name="Flags">Параметры работы процесса</param>
-		public HardWorkExecutor (DoWorkEventHandler HardWorkProcess, object Parameters, string WindowCaption,
+		public RDWorkerForm (DoWorkEventHandler HardWorkProcess, object Parameters, string WindowCaption,
 			RDRunWorkFlags Flags)
 			{
 #if DPMODULE
@@ -177,7 +177,7 @@ namespace RD_AAOW
 				abort = false;
 				}
 
-			HardWorkExecutor_Init (HardWorkProcess, Parameters, caption, middle, abort);
+			RDWorkerForm_Init (HardWorkProcess, Parameters, caption, middle, abort);
 			}
 
 		/// <summary>
@@ -188,16 +188,16 @@ namespace RD_AAOW
 		/// <param name="TargetPath">Путь создаваемого файла</param>
 		/// <param name="URL">Ссылка для загрузки</param>
 		/// <param name="PackagesList">Флаг, указывающий на загрузку списка пакетов</param>
-		public HardWorkExecutor (DoWorkEventHandler HardWorkProcess, string URL, string TargetPath,
+		public RDWorkerForm (DoWorkEventHandler HardWorkProcess, string URL, string TargetPath,
 			string Length, bool PackagesList)
 			{
 			// Инициализация
 			string[] arguments = [URL, TargetPath, Length, PackagesList ? "1" : "0"];
-			HardWorkExecutor_Init (HardWorkProcess, arguments, " ", true, true);
+			RDWorkerForm_Init (HardWorkProcess, arguments, " ", true, true);
 			}
 
 		// Общий метод подготовки исполнителя заданий
-		private void HardWorkExecutor_Init (DoWorkEventHandler HWProcess, object Parameters,
+		private void RDWorkerForm_Init (DoWorkEventHandler HWProcess, object Parameters,
 			string Caption, bool CaptionInTheCenter, bool AllowAbort)
 			{
 			// Настройка BackgroundWorker
@@ -239,7 +239,7 @@ namespace RD_AAOW
 			}
 
 		// Метод запускает выполнение процесса
-		private void HardWorkExecutor_Shown (object sender, EventArgs e)
+		private void RDWorkerForm_Shown (object sender, EventArgs e)
 			{
 			// Перекрытие остальных окон
 			if (alwaysOnTop)
@@ -326,7 +326,7 @@ namespace RD_AAOW
 			}
 
 		// Закрытие формы
-		private void HardWorkExecutor_FormClosing (object sender, FormClosingEventArgs e)
+		private void RDWorkerForm_FormClosing (object sender, FormClosingEventArgs e)
 			{
 			e.Cancel = !allowClose;
 			DrawingTimer.Enabled = false;
