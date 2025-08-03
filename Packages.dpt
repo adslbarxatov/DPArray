@@ -61,9 +61,9 @@ n:KassArray
 a:KassArray.dpz
 f:F
 l:r
-v:7.1
-s:1014482
-p:002658869A4344D7
+v:7.1.1
+s:1014645
+p:002658886925DA31
 
 n:Mafia helper
 a:MafiaHelper.dp
@@ -234,7 +234,7 @@ n:KassArrayTB
 f:FVD
 l:r
 i:MS_STORE/9NBKLN7493ZL
-v:7.1
+v:7.1.1
 
 n:Mafia helper
 f:FVD
