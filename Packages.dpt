@@ -45,9 +45,9 @@ p:00065F7E48B67F0A
 n:GraphArray
 a:GraphArray.dpz
 f:F
-v:6.1.8
-s:569961
-p:00173324227434CD
+v:6.1.9
+s:568287
+p:00172364F73F60A7
 
 n:JokesArray
 a:JokesArray.dpz
@@ -68,8 +68,8 @@ p:002658869A4344D7
 n:Mafia helper
 a:MafiaHelper.dp
 f:0
-v:2.1.2
-p:000CA32812C6FEF8
+v:2.1.3
+p:000CA168633B9902
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
@@ -80,8 +80,8 @@ p:00073B272B7DB16B
 n:Screen shooter
 a:ScreenShooter.dp
 f:0
-v:3.5.2
-p:0005A761F514361E
+v:3.5.3
+p:000595A1E885F85D
 
 n:Sudoku solver
 a:SudokuSolver.dp
@@ -98,8 +98,8 @@ p:00059F7E8D188CB8
 n:UniNotifier
 a:UniNotifier.dp
 f:0
-v:8.8.1
-p:0007AF9AEA2BF275
+v:8.8.2
+p:0007AF9AE3F9A822
 
 n:Vice city toolset
 a:ViceCityToolset.dpz
@@ -216,7 +216,7 @@ v:3.7.4
 n:GraphArray
 f:FVD
 i:MS_STORE/9PG19ZZ3NH47
-v:6.1.8
+v:6.1.9
 
 n:JokesArray
 f:FVD
@@ -239,12 +239,12 @@ v:7.1
 n:Mafia helper
 f:FVD
 i:MS_STORE/9N4WB06F64TR
-v:2.1.2
+v:2.1.3
 
 n:Screen shooter
 f:FVD
 i:MS_STORE/9NHVH857DV1S
-v:3.5.2
+v:3.5.3
 
 n:Sudoku solver
 f:FVD
@@ -259,7 +259,7 @@ v:1.4.4
 n:UniNotifier
 f:FVD
 i:MS_STORE/9NVZ51RL54K4
-v:8.8.1
+v:8.8.2
 
 
 
