@@ -590,6 +590,7 @@ Or you can support our new [FreeDevLab](https://tonviewer.com/EQCoyvIz0pAakFaaU5
 - on [Ston.fi pool page](https://app.ston.fi/pools/EQAQfWQLE3PYK-0wio4i5iio5OJ2J33RpFPudm3SCbh0fNaO) in USDT pair
 - on [Ston.fi pool page](https://app.ston.fi/pools/EQCh80WBekTtxi1iDrDeXIb9nlM-JRv1rerEj96e35oqhnpp) in TON pair
 - on [Ston.fi pool page](https://app.ston.fi/pools/EQDkzcUzECD_7i-GGOVkpxqjbRZAaGtehKE5hLHzui9kIrWs) in STON pair
+- on [Ston.fi pool page](https://app.ston.fi/pools/EQADVkCfDkY_WXuszHou_nKXU93paZ5FetTYGkstxhBHfRsu) in DYOR pair
 - using [Ston.fi swap interface](https://app.ston.fi/swap?tt=EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI)
 
 ```

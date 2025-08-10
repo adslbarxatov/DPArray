@@ -661,6 +661,7 @@ ES: Randomaze – генератор карт для одноимённого м
 - на [странице пула Ston.fi](https://app.ston.fi/pools/EQAQfWQLE3PYK-0wio4i5iio5OJ2J33RpFPudm3SCbh0fNaO) в паре с USDT
 - на [странице пула Ston.fi](https://app.ston.fi/pools/EQCh80WBekTtxi1iDrDeXIb9nlM-JRv1rerEj96e35oqhnpp) в паре с TON
 - на [странице пула Ston.fi](https://app.ston.fi/pools/EQDkzcUzECD_7i-GGOVkpxqjbRZAaGtehKE5hLHzui9kIrWs) в паре с STON
+- на [странице пула Ston.fi](https://app.ston.fi/pools/EQADVkCfDkY_WXuszHou_nKXU93paZ5FetTYGkstxhBHfRsu) в паре с DYOR
 - с помощью [интерфейса обмена Ston.fi](https://app.ston.fi/swap?tt=EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI)
 
 ```
