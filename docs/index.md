@@ -596,7 +596,7 @@ Or you can support our new [FreeDevLab](https://tonviewer.com/EQCoyvIz0pAakFaaU5
 ```
 Name: FreeDevLab (FDL)
 Network: TON
-Liquidity provided in pairs: USDT/FDL, TON/FDL, STON/FDL
+Liquidity provided in pairs: USDT/FDL, TON/FDL, STON/FDL, DYOR/FDL
 Creation date: 05/22/24
 Editable: no (admin rights revoked)
 Mining: not available (quantity fixed at 2³² units)
