@@ -373,12 +373,14 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 
+---
+
+&nbsp;
+
 ### Mafia helper
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/MafiaHelper/ru) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://MafiaHelper) &#x3000;
-:briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9N4WB06F64TR) &#x3000;
 :envelope_with_arrow: [В виде MSI](https://github.com/adslbarxatov/MafiaHelper/releases/latest/download/MafiaHelper.msi) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/MafiaHelper/releases/latest/download/MafiaHelper.exe)
 
@@ -388,16 +390,11 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 
----
-
-&nbsp;
-
 ### Make decision
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16">
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> :hourglass_flowing_sand: &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/MakeDecision/ru) &#x3000;
-:film_projector: [Видеоруководство](https://youtube.com/watch?v=PHqEliYvioY) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.exe) &#x3000;
 :package: [В виде APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.apk)
 

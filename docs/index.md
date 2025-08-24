@@ -341,12 +341,14 @@ A tool for solving sudoku
 
 
 
+---
+
+&nbsp;
+
 ### Mafia helper
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/MafiaHelper) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://MafiaHelper) &#x3000;
-:briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9N4WB06F64TR) &#x3000;
 :envelope_with_arrow: [Get MSI](https://github.com/adslbarxatov/MafiaHelper/releases/latest/download/MafiaHelper.msi) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/MafiaHelper/releases/latest/download/MafiaHelper.exe)
 
@@ -356,16 +358,11 @@ A moderator’s assistant for the game “Mafia”
 
 
 
----
-
-&nbsp;
-
 ### Make decision
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16">
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> :hourglass_flowing_sand: &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/MakeDecision) &#x3000;
-:film_projector: [Video guide](https://youtube.com/watch?v=ISMEm9-F5ZA) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.exe) &#x3000;
 :package: [Get APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.apk)
 
