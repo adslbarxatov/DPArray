@@ -1,6 +1,8 @@
 DPArray: changes log
 
-Version 8.1.9:
+Version 8.2:
+• Internal assemblies have been updated;
+• Removed some outdated packages processing;
 • XPUN / IOP update has been applied
 
 Version 8.1.5:
