@@ -80,14 +80,14 @@ p:000595A1E885F85D
 n:Sudoku solver
 a:SudokuSolver.dp
 f:0
-v:5.2.4
-p:0006194E8380E855
+v:5.2.5
+p:00061B71DF20B4BB
 
 n:TextStats
 a:TextStats.dp
 f:0
-v:1.4.4
-p:00059F7E8D188CB8
+v:1.4.5
+p:0005A1A1BB398343
 
 n:UniNotifier
 a:UniNotifier.dp
@@ -190,8 +190,8 @@ n:TextStats
 u:GIT_LINK/TextStats/GIT_PATH/DEFFILE
 a:TextStats.apk
 f:FV
-v:1.4.4
-s:60742052
+v:1.4.5
+s:60733860
 
 
 
@@ -238,12 +238,12 @@ v:3.5.3
 n:Sudoku solver
 f:FVD
 i:MS_STORE/9NZ1DLGFK0WZ
-v:5.2.3
+v:5.2.5
 
 n:TextStats
 f:FVD
 i:MS_STORE/9PJRQFC4F6RK
-v:1.4.4
+v:1.4.5
 
 n:UniNotifier
 f:FVD
@@ -279,12 +279,12 @@ v:5.2.4
 n:TextStats
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextStats
-v:1.4.4
+v:1.4.5
 
 
 
-me:Sudoku solver is now able to generate sudoku tables (work as game)! And you can use it on Android!||
+me:Sudoku solver is now able to generate sudoku tables (works as game)! And you can use it on Android TV too!||
 me:Check the actual update!
 
-mr:Sudoku solver теперь может генерировать таблицы судоку (работать в качестве игры)! А ещё Вы теперь можете использовать его на Android!||
+mr:Sudoku solver теперь может генерировать таблицы судоку (работать в качестве игры)! А ещё Вы теперь можете использовать его на Android TV!||
 mr:Не пропустите актуальное обновление!
