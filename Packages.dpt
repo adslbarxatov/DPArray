@@ -14,15 +14,15 @@ g:Windows apps
 n:Batch image convertor
 a:BatchImageConvertor.dpz
 f:F
-v:5.0.3
-s:2085688
-p:005BF064144B4591
+v:5.0.4
+s:2085717
+p:005BF28746136F9F
 
 n:ConcurrentDraw
 a:ConcurrentDraw.dp
 f:F
-v:3.7.3
-p:000C80E17F762E11
+v:3.7.4
+p:000C83042B481955
 
 n:Dates difference
 a:DatesDifference.dp
@@ -33,8 +33,8 @@ p:000561BCCC8582D1
 n:File associations manager
 a:FileAssociationsManager.dp
 f:0
-v:3.1.4
-p:00072BF79FF5D861
+v:3.1.5
+p:00072E1A8D165AD9
 
 n:Font finder
 a:FontFinder.dp
