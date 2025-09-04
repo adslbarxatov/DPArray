@@ -61,9 +61,9 @@ n:KassArray
 a:KassArray.dpz
 f:F
 l:r
-v:7.1.5
-s:1016299
-p:00266088F6799F4E
+v:7.1.7
+s:1017515
+p:002670A2B7563DE4
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
