@@ -61,9 +61,9 @@ n:KassArray
 a:KassArray.dpz
 f:F
 l:r
-v:7.1.7
-s:1017515
-p:002670A2B7563DE4
+v:7.1.8
+s:1017997
+p:002674A2F55D1969
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
@@ -142,15 +142,6 @@ u:MODSTORAGE/295776?MOD_REFesrm
 v:7.1
 s:10673101
 p:01097ADAF3D8A639
-
-n:ES: Randomaze, backward compatibility
-a:ESRM_bkwd.dpz
-f:FV
-i:MODSHOST/esrm
-u:MODSTORAGE/293805?MOD_REFesrm
-v:7.0
-s:10214211
-p:01021ABA74897902
 
 
 
