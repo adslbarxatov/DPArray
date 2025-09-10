@@ -61,9 +61,9 @@ n:KassArray
 a:KassArray.dpz
 f:F
 l:r
-v:7.1.8
-s:1017997
-p:002674A2F55D1969
+v:7.2
+s:1017854
+p:002672A05FABB64F
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
@@ -167,8 +167,8 @@ u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
 a:KassArray.apk
 f:FV
 l:r
-v:7.1.5
-s:60959140
+v:7.2
+s:60971428
 
 n:Sudoku solver
 u:GIT_LINK/SudokuSolver/GIT_PATH/DEFFILE
@@ -213,13 +213,13 @@ n:KassArray
 f:FVD
 l:r
 i:MS_STORE/9ND98F4C4Q60
-v:7.1.5
+v:7.2
 
 n:KassArrayTB
 f:FVD
 l:r
 i:MS_STORE/9NBKLN7493ZL
-v:7.1.5
+v:7.2
 
 n:Screen shooter
 f:FVD
@@ -260,7 +260,7 @@ n:KassArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextToKKT
 l:r
-v:7.1.5
+v:7.2
 
 n:Sudoku solver
 f:FVD
