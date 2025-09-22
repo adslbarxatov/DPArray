@@ -249,7 +249,7 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 
-### ES: from aside (демо)
+### ES: from aside (demo)
 :us: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [Описание мода](https://moddb.com/mods/esfa) &#x3000;
