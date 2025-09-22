@@ -125,6 +125,15 @@ v:14.5.2
 s:53140747
 p:080DCA9F8F45ECF2
 
+n:ES: from aside (demo)
+a:ESFA_setup.dpz
+f:FV
+i:MODSHOST/esfa
+u:MODSTORAGE/297103?MOD_REFeshq
+v:14.5.2
+s:153611004
+p:0D40BD2A81B9E067
+
 n:ES: Randomaze
 a:ESRM_setup.dpz
 f:FV
@@ -274,8 +283,6 @@ v:1.4.5
 
 
 
-me:Sudoku solver is now able to generate sudoku tables (works as game)! And you can use it on Android TV too!||
-me:Check the actual update!
+me:Check out the ES: from aside demo! The mod is alive again!
 
-mr:Sudoku solver теперь может генерировать таблицы судоку (работать в качестве игры)! А ещё Вы теперь можете использовать его на Android TV!||
-mr:Не пропустите актуальное обновление!
+mr:Оцените демо ES: from aside! Мод снова жив!
