@@ -217,7 +217,7 @@ This tool was the part of the ESHQ mod for Half-Life 1. Now it is a stand-alone 
 
 
 
-### ES: from aside (demo)
+### ES: from aside
 :us: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [Description](https://moddb.com/mods/esfa) &#x3000;
@@ -646,7 +646,7 @@ subsequently be used as a trading asset (we have decentralized this token and do
 [**DPArray**](#dparray) &#x3000;
 [Enchant it](#pa-detector-enchant-it) &#x3000;
 [ESHQ](#eshq) &#x3000;
-[ES: from aside](#es-from-aside-demo) &#x3000;
+[ES: from aside](#es-from-aside) &#x3000;
 [ES: Randomaze](#es-randomaze) &#x3000;
 [File associations manager](#file-associations-manager) &#x3000;
 [Font finder](#font-finder) &#x3000;
