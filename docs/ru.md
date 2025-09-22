@@ -249,6 +249,20 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 
+### ES: from aside (демо)
+:us: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
+:earth_africa: [Описание мода](https://moddb.com/mods/esfa) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ESFA_setup)
+
+Мод для Half-Life 1 с собственной сюжетной линией (не из вселенной Half-Life). Неизвестный правительственный
+шпион должен выкрасть секретные файлы из здания, называемого «Evil scientists headquarters». Но его работа
+окажется немного более сложной, масштабной и длительной... «ES: from aside» – лишь другая точка зрения на события этой истории
+
+&nbsp;
+
+
+
 ### Xash3D FWGS Engine adaptation for ESHQ
 :us: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
@@ -714,6 +728,7 @@ ES: Randomaze – генератор карт для одноимённого м
 [**DPArray**](#dparray) &#x3000;
 [Enchant it](#pa-detector-enchant-it) &#x3000;
 [ESHQ](#eshq) &#x3000;
+[ES: from aside](#es-from-aside-) &#x3000;
 [ES: Randomaze](#es-randomaze) &#x3000;
 [File associations manager](#file-associations-manager) &#x3000;
 [Font finder](#font-finder) &#x3000;
