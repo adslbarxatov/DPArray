@@ -74,14 +74,14 @@ p:00073D4A917457B0
 n:Screen shooter
 a:ScreenShooter.dp
 f:0
-v:3.5.4
-p:000595C459687FC9
+v:3.5.5
+p:0005B7C486C53430
 
 n:Sudoku solver
 a:SudokuSolver.dp
 f:0
-v:5.2.5
-p:00061B71DF20B4BB
+v:5.2.6
+p:000615716EEC640C
 
 n:TextStats
 a:TextStats.dp
@@ -183,8 +183,8 @@ n:Sudoku solver
 u:GIT_LINK/SudokuSolver/GIT_PATH/DEFFILE
 a:SudokuSolver.apk
 f:FV
-v:5.2.4
-s:60844740
+v:5.2.6
+s:60852932
 
 n:TextStats
 u:GIT_LINK/TextStats/GIT_PATH/DEFFILE
@@ -233,12 +233,12 @@ v:7.3.1
 n:Screen shooter
 f:FVD
 i:MS_STORE/9NHVH857DV1S
-v:3.5.4
+v:3.5.5
 
 n:Sudoku solver
 f:FVD
 i:MS_STORE/9NZ1DLGFK0WZ
-v:5.2.5
+v:5.2.6
 
 n:TextStats
 f:FVD
@@ -274,7 +274,7 @@ v:7.3.1
 n:Sudoku solver
 f:FVD
 i:GP_STOREcom.RD_AAOW.SudokuSolver
-v:5.2.4
+v:5.2.6
 
 n:TextStats
 f:FVD
