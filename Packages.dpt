@@ -4,8 +4,8 @@ n:DPArray
 a:DPArray.dp
 i:INFOPAGE
 f:fvd
-v:8.2
-p:000B5D8E80FB47AD
+v:8.2.1
+p:000B5D9085A11BA0
 
 
 
@@ -61,9 +61,9 @@ n:KassArray
 a:KassArray.dpz
 f:F
 l:r
-v:7.3.3
-s:1020107
-p:0026B8A2858C06ED
+v:7.3.4
+s:1020688
+p:0026BAA24BCB346E
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
@@ -176,7 +176,7 @@ u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
 a:KassArray.apk
 f:FV
 l:r
-v:7.3.3
+v:7.3.4
 s:60971428
 
 n:Sudoku solver

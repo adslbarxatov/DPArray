@@ -1,5 +1,8 @@
 DPArray: changes log
 
+Version 8.2.1:
+• Message boxes with auto timeouts can now be closed by [space] key or mouse click
+
 Version 8.2:
 • Internal assemblies have been updated;
 • Removed some outdated packages processing;

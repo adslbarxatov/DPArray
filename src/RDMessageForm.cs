@@ -377,9 +377,16 @@ namespace RD_AAOW
 				}
 			else
 				{
-				// У двух полей ввода через таймаут передаётся ограничение длины текста
 				if (Timeout > 0)
+					{
 					MainTimer.Interval = (int)Timeout;
+
+					// Досрочное закрытие
+					Label01.Click += MainTimer_Tick;
+					this.Click += MainTimer_Tick;
+					Label01.KeyDown += MainTimer_Tick;
+					this.KeyDown += MainTimer_Tick;
+					}
 				}
 
 			// Запуск
