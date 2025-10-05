@@ -1,5 +1,11 @@
 DPArray: changes log
 
+Version 8.2.2:
+• Progress, warnings and errors can now be properly shown in the taskbar;
+• Fixed missing button for ES:FA in the mini-launcher;
+• Fixed possible exception with unexpected window closing during the background
+  processing
+
 Version 8.2.1:
 • Message boxes with auto timeouts can now be closed by [space] key or mouse click
 

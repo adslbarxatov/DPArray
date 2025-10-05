@@ -91,6 +91,7 @@ namespace RD_AAOW
 		private bool exitAllowed = false;
 		private bool inputBox = false;
 		private bool languageSelector = false;
+		private RDTaskbarModes tbMode;
 
 		/// <summary>
 		/// Возвращает выбранную кнопку в сообщении
@@ -333,31 +334,41 @@ namespace RD_AAOW
 				{
 				if (sound)
 					SystemSounds.Asterisk.Play ();
+
 				this.BackColor = RDInterface.GetInterfaceColor (RDInterfaceColors.SuccessMessage);
+				tbMode = RDTaskbarModes.Regular;
 				}
 			else if (Flags.HasFlag (RDMessageFlags.Error))
 				{
 				if (sound)
 					SystemSounds.Hand.Play ();
+
 				this.BackColor = RDInterface.GetInterfaceColor (RDInterfaceColors.ErrorMessage);
+				tbMode = RDTaskbarModes.Error;
 				}
 			else if (Flags.HasFlag (RDMessageFlags.Warning))
 				{
 				if (sound)
 					SystemSounds.Exclamation.Play ();
+
 				this.BackColor = RDInterface.GetInterfaceColor (RDInterfaceColors.WarningMessage);
+				tbMode = RDTaskbarModes.Warning;
 				}
 			else if (Flags.HasFlag (RDMessageFlags.Question))
 				{
 				if (sound)
 					SystemSounds.Question.Play ();
+
 				this.BackColor = RDInterface.GetInterfaceColor (RDInterfaceColors.QuestionMessage);
+				tbMode = RDTaskbarModes.Indeterminate;
 				}
 			else
 				{
 				if (sound && !languageSelector && !inputBox)
 					SystemSounds.Asterisk.Play ();
+
 				this.BackColor = RDInterface.GetInterfaceColor (RDInterfaceColors.LightGrey);
+				tbMode = (RDTaskbarModes)(-1);
 				}
 
 			// Окончательное выравнивание элементов, применение цветовой схемы
@@ -413,6 +424,10 @@ namespace RD_AAOW
 			// Запуск таймера, если предусмотрен
 			if (MainTimer.Interval > 75)
 				MainTimer.Enabled = true;
+
+			// Индикация на панели задач (если предусмотрена)
+			if (tbMode >= 0)
+				RDInterface.SetTaskBarIndication (this, tbMode);
 			}
 
 		// Выбор размера

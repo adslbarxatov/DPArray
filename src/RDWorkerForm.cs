@@ -219,6 +219,7 @@ namespace RD_AAOW
 
 				InitializeProgressBar ();
 				newPercentage = oldPercentage = (int)ProgressBarSize;
+				RDInterface.SetTaskBarIndication (this, RDTaskbarModes.Indeterminate);
 
 				AbortButton.Visible = AbortButton.Enabled = AllowAbort;
 				if (AbortButton.Enabled)
@@ -233,6 +234,7 @@ namespace RD_AAOW
 					StateLabel.TextAlign = ContentAlignment.MiddleCenter;
 
 				// Запуск
+				this.Text = Caption;
 				this.StartPosition = FormStartPosition.CenterParent;
 				this.ShowDialog ();
 				}
@@ -270,9 +272,21 @@ namespace RD_AAOW
 			else
 				newPercentage = e.ProgressPercentage;
 
+			// Обновление вида окна на панели задач
+			if (progress != null)
+				{
+				if (newPercentage != ProgressBarSize)
+					RDInterface.SetProgressForTaskBarIndication (this, (uint)newPercentage);
+				else
+					RDInterface.SetTaskBarIndication (this, RDTaskbarModes.Indeterminate);
+				}
+
 			// Обновление текста над прогрессбаром
 			if (progress != null)
+				{
 				StateLabel.Text = (string)e.UserState;
+				this.Text = StateLabel.Text;
+				}
 			}
 
 		// Метод обрабатывает завершение процесса
@@ -292,7 +306,10 @@ namespace RD_AAOW
 			// Закрытие окна
 			allowClose = true;
 			if (progress != null)
+				{
+				RDInterface.DisableTaskBarIndication (this);
 				this.Close ();
+				}
 			}
 
 		// Кнопка инициирует остановку процесса
@@ -328,7 +345,14 @@ namespace RD_AAOW
 		// Закрытие формы
 		private void RDWorkerForm_FormClosing (object sender, FormClosingEventArgs e)
 			{
-			e.Cancel = !allowClose;
+			// Защита от ручного закрытия
+			if (!allowClose)
+				{
+				e.Cancel = true;
+				return;
+				}
+
+			// Обнуление
 			DrawingTimer.Enabled = false;
 
 			if (progress != null)
