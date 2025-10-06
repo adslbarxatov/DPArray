@@ -80,8 +80,8 @@ p:0005B7C413E98DB2
 n:Sudoku solver
 a:SudokuSolver.dp
 f:0
-v:5.3
-p:0006536F737798A4
+v:5.3.1
+p:00065571F0E5AFB8
 
 n:TextStats
 a:TextStats.dp
@@ -183,7 +183,7 @@ n:Sudoku solver
 u:GIT_LINK/SudokuSolver/GIT_PATH/DEFFILE
 a:SudokuSolver.apk
 f:FV
-v:5.3
+v:5.3.1
 s:60852932
 
 n:TextStats
@@ -274,7 +274,7 @@ v:7.3.5
 n:Sudoku solver
 f:FVD
 i:GP_STOREcom.RD_AAOW.SudokuSolver
-v:5.3
+v:5.3.1
 
 n:TextStats
 f:FVD
