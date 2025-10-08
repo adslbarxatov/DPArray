@@ -155,7 +155,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/KassArray) &#x3000;
-:film_projector: [Видеопрезентация](https://youtube.com/watch?v=6VUar94Prdg) &#x3000;
+:film_projector: [Видеопрезентация](https://youtube.com/watch?v=HN76wbdB-GI) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KassArray) &#x3000;
 :briefcase: [На Microsoft Store (KassArray)](ms-windows-store://pdp/?productid=9ND98F4C4Q60) &#x3000;
 :briefcase: [На Microsoft Store (KassArrayTB)](ms-windows-store://pdp/?productid=9NBKLN7493ZL) &#x3000;
@@ -373,7 +373,7 @@ ES: Randomaze – генератор карт для одноимённого м
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/SudokuSolver/ru) &#x3000;
-:film_projector: [Видеоруководство](https://youtube.com/watch?v=aMa0kM3Vjw0) &#x3000;
+:film_projector: [Видеоруководство](https://youtube.com/watch?v=JB-FBikQ92k) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://SudokuSolver) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NZ1DLGFK0WZ) &#x3000;
 :envelope_with_arrow: [В виде MSI](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.msi) &#x3000;
