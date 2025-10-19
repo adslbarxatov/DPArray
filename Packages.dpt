@@ -27,8 +27,8 @@ p:000C83042B481955
 n:Dates difference
 a:DatesDifference.dp
 f:0
-v:3.8.6
-p:000561BCCC8582D1
+v:3.8.7
+p:000559BCB0687597
 
 n:File associations manager
 a:FileAssociationsManager.dp
@@ -80,14 +80,14 @@ p:0005B7C413E98DB2
 n:Sudoku solver
 a:SudokuSolver.dp
 f:0
-v:5.3.1
-p:00065571F0E5AFB8
+v:5.3.2
+p:000655714A872D29
 
 n:TextStats
 a:TextStats.dp
 f:0
-v:1.4.5
-p:0005A1A1BB398343
+v:1.4.6
+p:000597A137E48DA9
 
 n:UniNotifier
 a:UniNotifier.dp
@@ -160,8 +160,8 @@ n:Dates difference
 u:GIT_LINK/DatesDifference/GIT_PATH/DEFFILE
 a:DatesDifference.apk
 f:FV
-v:3.8.6
-s:60721572
+v:3.8.7
+s:60754340
 
 n:JokesArray
 u:GIT_LINK/JokesArray/GIT_PATH/DEFFILE
@@ -183,15 +183,15 @@ n:Sudoku solver
 u:GIT_LINK/SudokuSolver/GIT_PATH/DEFFILE
 a:SudokuSolver.apk
 f:FV
-v:5.3.1
-s:60852932
+v:5.3.2
+s:60877508
 
 n:TextStats
 u:GIT_LINK/TextStats/GIT_PATH/DEFFILE
 a:TextStats.apk
 f:FV
-v:1.4.5
-s:60733860
+v:1.4.6
+s:60758436
 
 
 
@@ -200,7 +200,7 @@ g:Microsoft Store
 n:Dates difference
 f:FVD
 i:MS_STORE/9NRQ4LQZNKKG
-v:3.8.6
+v:3.8.7
 
 n:Font finder
 f:FVD
@@ -238,12 +238,12 @@ v:3.5.6
 n:Sudoku solver
 f:FVD
 i:MS_STORE/9NZ1DLGFK0WZ
-v:5.3
+v:5.3.2
 
 n:TextStats
 f:FVD
 i:MS_STORE/9PJRQFC4F6RK
-v:1.4.5
+v:1.4.6
 
 n:UniNotifier
 f:FVD
@@ -257,7 +257,7 @@ g:Google play
 n:Dates difference
 f:FVD
 i:GP_STOREcom.RD_AAOW.DatesDifference
-v:3.8.6
+v:3.8.7
 
 n:JokesArray
 f:FVD
@@ -274,12 +274,12 @@ v:7.3.7
 n:Sudoku solver
 f:FVD
 i:GP_STOREcom.RD_AAOW.SudokuSolver
-v:5.3.1
+v:5.3.2
 
 n:TextStats
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextStats
-v:1.4.5
+v:1.4.6
 
 
 
