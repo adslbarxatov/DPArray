@@ -14,15 +14,15 @@ g:Windows apps
 n:Batch image convertor
 a:BatchImageConvertor.dpz
 f:F
-v:5.0.4
-s:2085717
-p:005BF28746136F9F
+v:5.0.5
+s:2085934
+p:005BF8870E80E98C
 
 n:ConcurrentDraw
 a:ConcurrentDraw.dp
 f:F
-v:3.7.4
-p:000C83042B481955
+v:3.7.5
+p:000C890488EDA6E6
 
 n:Dates difference
 a:DatesDifference.dp
@@ -92,8 +92,8 @@ p:000597A137E48DA9
 n:UniNotifier
 a:UniNotifier.dp
 f:0
-v:8.8.3
-p:0007B1BD663E3D97
+v:8.8.4
+p:0007B7BDF3364393
 
 n:Vice city toolset
 a:ViceCityToolset.dpz
@@ -248,7 +248,7 @@ v:1.4.6
 n:UniNotifier
 f:FVD
 i:MS_STORE/9NVZ51RL54K4
-v:8.8.3
+v:8.8.4
 
 
 
