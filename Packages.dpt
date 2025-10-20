@@ -61,9 +61,9 @@ n:KassArray
 a:KassArray.dpz
 f:F
 l:r
-v:7.3.7
-s:1024601
-p:0026DCA25114540A
+v:7.3.8
+s:1024652
+p:0026DCA2D4F52877
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
@@ -176,7 +176,7 @@ u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
 a:KassArray.apk
 f:FV
 l:r
-v:7.3.7
+v:7.3.8
 s:60996004
 
 n:Sudoku solver
