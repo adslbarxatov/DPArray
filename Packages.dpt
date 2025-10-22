@@ -74,8 +74,8 @@ p:0007434A574DDF65
 n:Screen shooter
 a:ScreenShooter.dp
 f:0
-v:3.5.6
-p:0005B7C413E98DB2
+v:3.5.7
+p:0005BDC41E8A19A7
 
 n:Sudoku solver
 a:SudokuSolver.dp
@@ -233,7 +233,7 @@ v:7.3.9
 n:Screen shooter
 f:FVD
 i:MS_STORE/9NHVH857DV1S
-v:3.5.6
+v:3.5.7
 
 n:Sudoku solver
 f:FVD
