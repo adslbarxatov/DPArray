@@ -93,6 +93,24 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 
 
+### Sudoku solver
+:us: :ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/SudokuSolver/ru) &#x3000;
+:film_projector: [Видеоруководство](https://youtube.com/watch?v=JB-FBikQ92k) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://SudokuSolver) &#x3000;
+:briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NZ1DLGFK0WZ) &#x3000;
+:envelope_with_arrow: [В виде MSI](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.msi) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.exe) &#x3000;
+:iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.SudokuSolver) &#x3000;
+:package: [В виде APK](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.apk)
+
+Инструмент для решения судоку
+
+&nbsp;
+
+
+
 ### ConcurrentDraw
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
@@ -369,19 +387,13 @@ ES: Randomaze – генератор карт для одноимённого м
 
 
 
-### Sudoku solver
-:us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
-:page_with_curl: [Руководство](https://adslbarxatov.github.io/SudokuSolver/ru) &#x3000;
-:film_projector: [Видеоруководство](https://youtube.com/watch?v=JB-FBikQ92k) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://SudokuSolver) &#x3000;
-:briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NZ1DLGFK0WZ) &#x3000;
-:envelope_with_arrow: [В виде MSI](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.msi) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.exe) &#x3000;
-:iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.SudokuSolver) &#x3000;
-:package: [В виде APK](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.apk)
+### Crazy cheater’s mod
+:us: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> &#x3000;
+:earth_africa: [Описание и загрузки](https://moddb.com/mods/ccm)
 
-Инструмент для решения судоку
+Модификация для GTA Vice City, сохраняющая оригинальный сюжет и геймплей, но исправляющая ряд известных проблем,
+а также расширяющая и без того большие возможности Томми Версетти
 
 &nbsp;
 
@@ -451,18 +463,6 @@ ES: Randomaze – генератор карт для одноимённого м
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/TablepediaViewer)
 
 Клиентское приложение для проекта Tablepedia.com (экспериментальная разработка)
-
-&nbsp;
-
-
-
-### Crazy cheater’s mod
-:us: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> :hourglass_flowing_sand: &#x3000;
-:earth_africa: [Полное описание](https://moddb.com/mods/ccm)
-
-Модификация для GTA Vice City, сохраняющая оригинальный сюжет и геймплей, но исправляющая ряд известных проблем,
-а также расширяющая и без того большие возможности Томми Версетти
 
 &nbsp;
 

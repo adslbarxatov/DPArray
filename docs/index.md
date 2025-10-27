@@ -104,6 +104,24 @@ Now you can enable the “run at system startup” flag to allow the DPArray to 
 
 
 
+### Sudoku solver
+:us: :ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/SudokuSolver) &#x3000;
+:film_projector: [Video guide](https://youtube.com/watch?v=f1Mt0R3aGl0) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://SudokuSolver) &#x3000;
+:briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NZ1DLGFK0WZ) &#x3000;
+:envelope_with_arrow: [Get MSI](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.msi) &#x3000;
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.exe) &#x3000;
+:iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.SudokuSolver) &#x3000;
+:package: [Get APK](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.apk)
+
+A tool for solving sudoku
+
+&nbsp;
+
+
+
 ### ConcurrentDraw
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
@@ -337,19 +355,13 @@ hours, days, weeks, full months and years (with fraction)
 
 
 
-### Sudoku solver
-:us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
-:page_with_curl: [User guide](https://adslbarxatov.github.io/SudokuSolver) &#x3000;
-:film_projector: [Video guide](https://youtube.com/watch?v=f1Mt0R3aGl0) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://SudokuSolver) &#x3000;
-:briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NZ1DLGFK0WZ) &#x3000;
-:envelope_with_arrow: [Get MSI](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.msi) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.exe) &#x3000;
-:iphone: [Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.SudokuSolver) &#x3000;
-:package: [Get APK](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.apk)
+### Crazy cheater’s mod
+:us: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> &#x3000;
+:earth_africa: [Summary and downloads](https://moddb.com/mods/ccm)
 
-A tool for solving sudoku
+A modification for GTA Vice City, preserving the original plot and gameplay, but fixing a number of known problems,
+as well as expanding the already great capabilities of Tommy Vercetti
 
 &nbsp;
 
@@ -408,18 +420,6 @@ This app imitates the “One hundred and one” game for two players
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/Thousand/releases/latest)
 
 This app imitates the “Thousand” game for three players
-
-&nbsp;
-
-
-
-### Crazy cheater’s mod
-:us: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> :hourglass_flowing_sand: &#x3000;
-:earth_africa: [Summary](https://moddb.com/mods/ccm)
-
-A modification for GTA Vice City, preserving the original plot and gameplay, but fixing a number of known problems,
-as well as expanding the already great capabilities of Tommy Vercetti
 
 &nbsp;
 
