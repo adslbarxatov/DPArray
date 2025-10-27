@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Drawing;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace RD_AAOW
@@ -265,12 +266,11 @@ namespace RD_AAOW
 		private void ProgressChanged (object sender, ProgressChangedEventArgs e)
 			{
 			// Обновление прогрессбара
-			if (e.ProgressPercentage > ProgressBarSize)
+			newPercentage = e.ProgressPercentage;
+			if (newPercentage > ProgressBarSize)
 				newPercentage = (int)ProgressBarSize;
-			else if (e.ProgressPercentage < 0)
+			else if (newPercentage < 0)
 				newPercentage = oldPercentage = 0;  // Скрытие шкалы
-			else
-				newPercentage = e.ProgressPercentage;
 
 			// Обновление вида окна на панели задач
 			if (progress != null)
@@ -282,10 +282,11 @@ namespace RD_AAOW
 				}
 
 			// Обновление текста над прогрессбаром
-			if (progress != null)
+			string s = (string)e.UserState;
+			if ((progress != null) && (s != StateLabel.Text))
 				{
-				StateLabel.Text = (string)e.UserState;
-				this.Text = StateLabel.Text;
+				StateLabel.Text = s;
+				this.Text = s;
 				}
 			}
 
@@ -352,9 +353,19 @@ namespace RD_AAOW
 				return;
 				}
 
-			// Обнуление
+			// Глушение таймера и ожидание его гарантированной остановки,
+			// но с поправкой на возможный сбой дескрипторов g и gp
+			// (требует тестирования; возможно будет упразднена)
 			DrawingTimer.Enabled = false;
 
+			uint i = 0;
+			while (drawing && (i < 40))
+				{
+				Thread.Sleep (50);
+				i++;
+				}
+
+			// Обнуление
 			if (progress != null)
 				progress.Dispose ();
 			if (g != null)
@@ -372,8 +383,17 @@ namespace RD_AAOW
 		// Отрисовка прогресс-бара
 		private void DrawingTimer_Tick (object sender, EventArgs e)
 			{
+			// Дополнительная защита
+			if (allowClose)
+				{
+				drawing = false;
+				return;
+				}
+
 			// Отрисовка текущей позиции
 			int recalcPercentage = (int)(oldPercentage + (newPercentage - oldPercentage) / 4);
+
+			drawing = true;
 
 			gp.DrawImage (frameGreenGrey, currentXOffset, 0);   // Полоса прогресса
 			gp.DrawImage (frameBack, -9 * this.Width / 4, 0);   // Маска
@@ -388,6 +408,9 @@ namespace RD_AAOW
 			// Смещение
 			if (currentXOffset++ >= -2 * this.Width / 4)
 				currentXOffset = -4 * this.Width / 4;
+
+			drawing = false;
 			}
+		private bool drawing = false;
 		}
 	}

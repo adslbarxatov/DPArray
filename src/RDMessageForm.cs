@@ -229,11 +229,18 @@ namespace RD_AAOW
 				{
 				InputTextBox.Visible = true;
 				InputTextBox.MaxLength = (int)Timeout;
+
+				if (InputTextBox.MaxLength > 30)
+					{
+					Label01.Width += this.Width;
+					InputTextBox.Width += this.Width;
+					this.Width *= 2;
+					}
 				}
 
 			this.Text = ProgramDescription.AssemblyTitle;
 
-			// Обработка текста
+			// Обработка текста и подгонка ширины окна
 			if (!string.IsNullOrWhiteSpace (Message))
 				{
 				Label01.Text = Message.Replace ("\n", RDLocale.RN).Replace ("\r\r", "\r");
