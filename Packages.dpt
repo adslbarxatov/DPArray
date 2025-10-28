@@ -4,8 +4,8 @@ n:DPArray
 a:DPArray.dp
 i:INFOPAGE
 f:fvd
-v:8.2.3
-p:000B6598BBC24854
+v:8.2.4
+p:000B6998939F1B1A
 
 
 
@@ -152,7 +152,7 @@ v:7.1.2
 s:10677561
 p:01099B10F0B57C8E
 
-n:Crazy cheater's mod
+n:Crazy cheater’s mod
 a:CCM.z
 f:FV
 i:MODSHOST/ccm

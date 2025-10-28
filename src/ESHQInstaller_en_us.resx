@@ -520,4 +520,7 @@ Do you want to deploy available updates?</value>
   <data name="dpzfile" xml:space="preserve">
     <value>DPArray compressed deployment package</value>
   </data>
+  <data name="NonDeployableMessage" xml:space="preserve">
+    <value>One or more downloaded packages or files could not be unpacked or deployed automatically (due to project specifics or in the current operating system). They were saved to the current user’s desktop</value>
+  </data>
 </root>

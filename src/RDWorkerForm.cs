@@ -282,7 +282,7 @@ namespace RD_AAOW
 				}
 
 			// Обновление текста над прогрессбаром
-			string s = (string)e.UserState;
+			string s = (e.UserState != null) ? (string)e.UserState : "";
 			if ((progress != null) && (s != StateLabel.Text))
 				{
 				StateLabel.Text = s;
