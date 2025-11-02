@@ -1,5 +1,8 @@
 DPArray: changes log
 
+Version 8.2.5:
+! Add color indication for the deployment result
+
 Version 8.2.4:
 • Added special tip for non-deployable files and archives
 
