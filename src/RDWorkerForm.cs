@@ -220,7 +220,6 @@ namespace RD_AAOW
 
 				InitializeProgressBar ();
 				newPercentage = oldPercentage = (int)ProgressBarSize;
-				RDInterface.SetTaskBarIndication (this, RDTaskbarModes.Indeterminate);
 
 				AbortButton.Visible = AbortButton.Enabled = AllowAbort;
 				if (AbortButton.Enabled)
@@ -257,6 +256,7 @@ namespace RD_AAOW
 
 			// Запуск отрисовки
 			RDMessageForm.CreateBackground (this);
+			RDInterface.SetTaskBarIndication (this, RDTaskbarModes.Indeterminate);
 
 			// Запуск
 			bw.RunWorkerAsync (parameters);

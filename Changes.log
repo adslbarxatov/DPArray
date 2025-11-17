@@ -1,5 +1,8 @@
 DPArray: changes log
 
+Version 8.2.6:
+• Adjusted the interface behavior
+
 Version 8.2.5:
 • Add color indication for the deployment result;
 • Fixed possible multiple threads over the same web downloading cache
