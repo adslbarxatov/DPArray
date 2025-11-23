@@ -533,6 +533,7 @@ namespace RD_AAOW
 			SolidBrush bre = null;
 			SolidBrush brk = new SolidBrush (DialogForm.TransparencyKey);
 			SolidBrush brb = new SolidBrush (DialogForm.BackColor);
+			SolidBrush bra = null;
 			int w = DialogForm.Width;
 			int h = DialogForm.Height;
 
@@ -540,6 +541,10 @@ namespace RD_AAOW
 				{
 				bre = new SolidBrush (RDInterface.GetInterfaceColor (RDInterfaceColors.LightEmerald));
 				gr.FillRectangle (bre, 0, 0, w, HeaderHeight);
+
+				bra = new SolidBrush (RDInterface.GetInterfaceColor (RDInterfaceColors.DefaultText));
+				gr.FillRectangle (bra, 0, HeaderHeight - 1, w, 2);
+				bra.Dispose ();
 				}
 
 			gr.FillRectangle (brk, 0, 0, roundingSize / 2, roundingSize / 2);

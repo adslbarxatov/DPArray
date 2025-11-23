@@ -1,10 +1,14 @@
 DPArray: changes log
 
+Version 8.2.7:
+• Added the automated updates re-check when DPArray has been called from the mini-launcher;
+• Internal assemblies have been updated
+
 Version 8.2.6:
 • Adjusted the interface behavior
 
 Version 8.2.5:
-• Add color indication for the deployment result;
+• Added the color indication for the deployment result in the taskbar;
 • Fixed possible multiple threads over the same web downloading cache
 
 Version 8.2.4:
