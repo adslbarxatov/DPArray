@@ -130,9 +130,9 @@
     <value>Your deployment package is correct and up to date</value>
   </data>
   <data name="DisclaimerMainText" xml:space="preserve">
-    <value>You can get more info about this project $here$.
+    <value>To continue the deployment click “Next” button. More info about this project you can find $here$.
 
-Also you can check other Lab projects. Use tray icon and “App about” option</value>
+Also you can check ^other projects^ of the Laboratory</value>
   </data>
   <data name="FilesAccessError" xml:space="preserve">
     <value>Cannot access one or more source file(s)</value>
@@ -321,9 +321,6 @@ Do you want to save a cache of package descriptions? When deleted, they will be 
   </data>
   <data name="PackageSelectorForm_UpdateLists" xml:space="preserve">
     <value>Upd&amp;ate lists</value>
-  </data>
-  <data name="DisclaimerMainTextPre" xml:space="preserve">
-    <value>Right-click tray icon for details and package info. For continue deployment press “Next” button.</value>
   </data>
   <data name="AppIsNotClosed" xml:space="preserve">
     <value>The application being updated / deleted is running. Finish this app and try again</value>

@@ -1,5 +1,8 @@
 DPArray: changes log
 
+Version 8.2.8:
+• The deployment interface has been updated
+
 Version 8.2.7:
 • Added the automated updates re-check when DPArray has been called from the mini-launcher;
 • Internal assemblies have been updated

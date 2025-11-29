@@ -1,6 +1,4 @@
-_Changes for v 8.2.7_:
+_Changes for v 8.2.8_:
+- The deployment interface has been updated;
 - Added the automated updates re-check when DPArray has been called from the mini-launcher;
-- Internal assemblies have been updated;
-- Adjusted the interface behavior;
-- Added the color indication for the deployment result in the taskbar;
-- Fixed possible multiple threads over the same web downloading cache
+- Internal assemblies have been updated
