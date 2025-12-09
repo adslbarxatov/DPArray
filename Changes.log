@@ -1,5 +1,9 @@
 DPArray: changes log
 
+Version 8.3:
+• App has been migrated to .NET 10;
+• Support for .NET Framework has been removed from the requirements checker
+
 Version 8.2.9:
 • Groups of packages in the list have been properly localized
 

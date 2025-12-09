@@ -1,37 +1,42 @@
-﻿using System;
-using System.IO;
+﻿/*using System;
+using System.IO;*/
 
 namespace RD_AAOW
 	{
 	/// <summary>
 	/// Варианты стандартных зависимостей для пакетов
 	/// </summary>
-	public enum AppDefaultRequirements
+	public enum AppDefaultRequirements2
 		{
 		/// <summary>
 		/// Не является стандартной зависимостью
 		/// </summary>
 		None = -1,
 
-		/// <summary>
+		/*/// <summary>
 		/// Microsoft .NET Framework 4.8 (Windows XP, 7, 8, 8.1)
 		/// </summary>
-		DotNETFramework480 = 0,
+		DotNETFramework480 = 0,*/
 
 		/// <summary>
 		/// Microsoft Visual C++ Runtime Libraries
 		/// </summary>
-		VC_RTL = 1,
+		VC_RTL = 0,
 
-		/// <summary>
+		/*/// <summary>
 		/// Microsoft .NET Framework 4.8.1 (Windows 10 и новее)
 		/// </summary>
-		DotNETFramework481 = 2,
+		DotNETFramework481 = 2,*/
 
 		/// <summary>
-		/// Microsoft NET 9
+		/// Microsoft .NET 9
 		/// </summary>
-		DotNet90 = 3,
+		DotNet90 = 1,
+
+		/// <summary>
+		/// Microsoft .NET 10
+		/// </summary>
+		DotNet100 = 2,
 
 		/// <summary>
 		/// Служебное поле – размер перечисления
@@ -109,14 +114,14 @@ namespace RD_AAOW
 		/// <summary>
 		/// Возвращает тип стандартной зависимости, если она является таковой
 		/// </summary>
-		public AppDefaultRequirements DefaultType
+		public AppDefaultRequirements2 DefaultType
 			{
 			get
 				{
 				return defaultType;
 				}
 			}
-		private AppDefaultRequirements defaultType = AppDefaultRequirements.None;
+		private AppDefaultRequirements2 defaultType = AppDefaultRequirements2.None;
 
 		// Вторичные
 
@@ -127,7 +132,7 @@ namespace RD_AAOW
 			{
 			get
 				{
-				return defaultType != AppDefaultRequirements.None;
+				return defaultType != AppDefaultRequirements2.None;
 				}
 			}
 
@@ -147,30 +152,30 @@ namespace RD_AAOW
 		/// с поддержкой автозагрузки
 		/// </summary>
 		/// <param name="ReqType">Тип зависимости</param>
-		public AppRequirement (AppDefaultRequirements ReqType)
+		public AppRequirement (AppDefaultRequirements2 ReqType)
 			{
 			uint v;
 			string s;
 			defaultType = ReqType;
 
-			// Переопределение некоторых зависимостей для Win8.1 и ниже
+			/*// Переопределение некоторых зависимостей для Win8.1 и ниже
 			if (Environment.OSVersion.Version.Major < 10)
 				{
 				// Эта взаимозаменяемость подтверждена
 				if (defaultType == AppDefaultRequirements.DotNETFramework481)
 					defaultType = AppDefaultRequirements.DotNETFramework480;
-				}
+				}*/
 
 			switch (defaultType)
 				{
-				case AppDefaultRequirements.DotNETFramework481:
+				/*case AppDefaultRequirements2.DotNETFramework481:
 				default:
 					downloadLink = "https://go.microsoft.com/fwlink/?LinkId=2203304";
 					description = "Microsoft .NET Framework 4.8.1";
 					fileName = "DotNETFramework481.exe";    // Автозагрузка
 					fileSize = "1466664";
 
-					defaultType = AppDefaultRequirements.DotNETFramework481;
+					defaultType = AppDefaultRequirements2.DotNETFramework481;
 
 					s = RDGenerics.GetCustomRegistryValue (
 						"HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\NET Framework Setup\\NDP\\v4\\Full",
@@ -185,9 +190,9 @@ namespace RD_AAOW
 						}
 
 					alreadyInstalled = (v >= 533320);
-					break;
+					break;*/
 
-				case AppDefaultRequirements.DotNETFramework480:
+				/*case AppDefaultRequirements2.DotNETFramework480:
 					downloadLink = "https://go.microsoft.com/fwlink/?linkid=2088631";
 					description = "Microsoft .NET Framework 4.8";
 					fileName = "DotNETFramework48.exe";    // Автозагрузка
@@ -206,9 +211,9 @@ namespace RD_AAOW
 						}
 
 					alreadyInstalled = (v >= 528040);
-					break;
+					break;*/
 
-				case AppDefaultRequirements.VC_RTL:
+				case AppDefaultRequirements2.VC_RTL:
 					downloadLink = "https://aka.ms/vs/17/release/vc_redist.x86.exe";
 					description = "Microsoft Visual C++ 2015 – 2022 redistributable";
 					fileName = "VCRedistributables143.exe";
@@ -258,7 +263,8 @@ namespace RD_AAOW
 
 #endif
 
-				case AppDefaultRequirements.DotNet90:
+				default:
+				case AppDefaultRequirements2.DotNet90:
 					downloadLink = "https://dotnet.microsoft.com/ru-ru/download/dotnet/thank-you/" +
 						"runtime-desktop-9.0.4-windows-x86-installer";
 					description = "Microsoft .NET 9.0";
@@ -276,6 +282,26 @@ namespace RD_AAOW
 					catch { }
 
 					alreadyInstalled = (v >= 9);
+					break;
+
+				case AppDefaultRequirements2.DotNet100:
+					downloadLink = "https://dotnet.microsoft.com/ru-ru/download/dotnet/thank-you/" +
+						"runtime-desktop-10.0.0-windows-x86-installer";
+					description = "Microsoft .NET 10.0";
+
+					s = RDGenerics.GetCustomRegistryValue (
+						"HKEY_LOCAL_MACHINE\\SOFTWARE\\dotnet\\Setup\\InstalledVersions\\x86\\hostfxr",
+						"Version"
+						);
+					v = 0;
+
+					try
+						{
+						v = uint.Parse (s.Substring (0, 2));
+						}
+					catch { }
+
+					alreadyInstalled = (v >= 10);
 					break;
 
 #if DIRECTX
@@ -316,7 +342,7 @@ namespace RD_AAOW
 		/// Метод возвращает псевдоним зависимости для скрипта развёртки
 		/// </summary>
 		/// <param name="ReqType">Тип зависимости</param>
-		public static string GetRequirementAlias (AppDefaultRequirements ReqType)
+		public static string GetRequirementAlias (AppDefaultRequirements2 ReqType)
 			{
 			switch (ReqType)
 				{
@@ -325,19 +351,22 @@ namespace RD_AAOW
 					return "";
 
 				// Новые
-				case AppDefaultRequirements.DotNet90:
+				case AppDefaultRequirements2.DotNet90:
 					return "NF90+";
 
-				// Актуальные
-				case AppDefaultRequirements.DotNETFramework481:
-					return "NF481+";
+				case AppDefaultRequirements2.DotNet100:
+					return "NF10+";
 
-				case AppDefaultRequirements.VC_RTL:
+				/*// Актуальные
+				case AppDefaultRequirements2.DotNETFramework481:
+					return "NF481+";*/
+
+				case AppDefaultRequirements2.VC_RTL:
 					return "CPP+";
 
-				// Устаревшие
-				case AppDefaultRequirements.DotNETFramework480:
-					return "CS+";
+				/*// Устаревшие
+				case AppDefaultRequirements2.DotNETFramework480:
+					return "CS+";*/
 				}
 			}
 		}
