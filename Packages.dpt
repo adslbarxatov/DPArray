@@ -80,14 +80,14 @@ p:0005BDC41E8A19A7
 n:Sudoku solver
 a:SudokuSolver.dp
 f:0
-v:5.4.1
-p:00066F816AC4618C
+v:5.5
+p:00067DBF0CF61749
 
 n:TextStats
 a:TextStats.dp
 f:0
-v:1.4.6
-p:000597A137E48DA9
+v:1.5
+p:0005B5EF04028BAF
 
 n:UniNotifier
 a:UniNotifier.dp
@@ -191,15 +191,15 @@ n:Sudoku solver
 u:GIT_LINK/SudokuSolver/GIT_PATH/DEFFILE
 a:SudokuSolver.apk
 f:FV
-v:5.4.1
-s:60832452
+v:5.5
+s:63977414
 
 n:TextStats
 u:GIT_LINK/TextStats/GIT_PATH/DEFFILE
 a:TextStats.apk
 f:FV
-v:1.4.6
-s:60758436
+v:1.5
+s:63866534
 
 
 g:4
@@ -246,12 +246,12 @@ v:3.5.7
 n:Sudoku solver
 f:FVD
 i:MS_STORE/9NZ1DLGFK0WZ
-v:5.4.1
+v:5.5
 
 n:TextStats
 f:FVD
 i:MS_STORE/9PJRQFC4F6RK
-v:1.4.6
+v:1.5
 
 n:UniNotifier
 f:FVD
@@ -282,12 +282,12 @@ v:7.5.6
 n:Sudoku solver
 f:FVD
 i:GP_STOREcom.RD_AAOW.SudokuSolver
-v:5.4.1
+v:5.5
 
 n:TextStats
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextStats
-v:1.4.6
+v:1.5
 
 
 
