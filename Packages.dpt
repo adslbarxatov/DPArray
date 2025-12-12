@@ -39,15 +39,15 @@ p:0007426858E0F37D
 n:Font finder
 a:FontFinder.dp
 f:0
-v:3.9
-p:0006759FA47CA76A
+v:3.10
+p:000693F073FF6002
 
 n:GraphArray
 a:GraphArray.dpz
 f:F
-v:6.2.1
-s:568749
-p:0017238731DCA858
+v:6.3
+s:586034
+p:001771E5034D97A1
 
 n:JokesArray
 a:JokesArray.dpz
@@ -74,8 +74,8 @@ p:00076198A73D8CD7
 n:Screen shooter
 a:ScreenShooter.dp
 f:0
-v:3.5.7
-p:0005BDC41E8A19A7
+v:3.6
+p:0005DC128891AECB
 
 n:Sudoku solver
 a:SudokuSolver.dp
@@ -92,8 +92,8 @@ p:0005B5EF04028BAF
 n:UniNotifier
 a:UniNotifier.dp
 f:0
-v:8.8.6
-p:0007B9C5C1309AFF
+v:8.9
+p:0007D80B66F8E2AC
 
 n:Vice city toolset
 a:ViceCityToolset.dpz
@@ -213,12 +213,12 @@ v:3.9
 n:Font finder
 f:FVD
 i:MS_STORE/9MXDR4BXP8R4
-v:3.9
+v:3.10
 
 n:GraphArray
 f:FVD
 i:MS_STORE/9PG19ZZ3NH47
-v:6.2.1
+v:6.3
 
 n:JokesArray
 f:FVD
@@ -241,7 +241,7 @@ v:7.6
 n:Screen shooter
 f:FVD
 i:MS_STORE/9NHVH857DV1S
-v:3.5.7
+v:3.6
 
 n:Sudoku solver
 f:FVD
@@ -256,7 +256,7 @@ v:1.5
 n:UniNotifier
 f:FVD
 i:MS_STORE/9NVZ51RL54K4
-v:8.8.6
+v:8.9
 
 
 g:5
