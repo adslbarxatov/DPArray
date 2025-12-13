@@ -1,7 +1,4 @@
-﻿/*using System;
-using System.IO;*/
-
-namespace RD_AAOW
+﻿namespace RD_AAOW
 	{
 	/// <summary>
 	/// Варианты стандартных зависимостей для пакетов
