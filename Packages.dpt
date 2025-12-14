@@ -107,23 +107,31 @@ g:2
 ## 2 ##
 
 n:ESHQ
-a:ESHQ_setup.7z
+a:ESHQ_setup.dpz
 f:FV
 i:MODSHOST/eshq
-u:MODSTORAGE/266888?MOD_REFeshq
-v:14.0
-s:240551182
-p:16E3127A7D1FD049
-o:ESHQ_setup.14.dp
+u:MODSTORAGE/301191?MOD_REFeshq
+v:14.6
+s:236614767
+p:1705323773A7036D
 
 n:ESHQ, actual update
 a:ESHQ_update.dpz
 f:0
 i:MODSHOST/eshq
-u:MODSTORAGE/297339?MOD_REFeshq
-v:14.5.3
-s:53147017
-p:080ECFABC5565F7D
+u:MODSTORAGE/301193?MOD_REFeshq
+v:14.6.1
+s:2365406
+p:0054927347C7198A
+
+n:ESHQ, backward compat.
+a:ESHQ_backward.dpz
+f:0
+i:MODSHOST/eshq
+u:MODSTORAGE/301189?MOD_REFeshq
+v:14.6
+s:53163414
+p:080EF04C714B82B8
 
 n:ES: from aside
 a:ESFA_setup.dpz
