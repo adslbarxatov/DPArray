@@ -1,4 +1,6 @@
-_Changes for v 8.3.2_:
+_Changes for v 8.3.3_:
+- Removed support for `DP15` packages version (outdated, not presented anymore);
+- Removed support for external unzipping applications (no need anymore);
 - Removed support for `DP14` packages version (outdated, not presented anymore);
 - Removed some extraneous definitions from the app code;
 - Implemented the `17th` version of DP packages (supports internal info URLs);
