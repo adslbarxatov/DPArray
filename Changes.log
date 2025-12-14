@@ -1,5 +1,9 @@
 DPArray: changes log
 
+Version 8.3.2:
+• Removed support for DP14 packages version (outdated, not presented anymore);
+• Removed some extraneous definitions from the app code
+
 Version 8.3.1:
 • Implemented the 17th version of DP packages (supports internal info URLs);
 • DPArray itself now uses 16th version

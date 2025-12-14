@@ -238,7 +238,8 @@ namespace RD_AAOW
 					}
 				}
 
-			this.Text = ProgramDescription.AssemblyTitle;
+			/*this.Text = ProgramDescription.AssemblyTitle;*/
+			this.Text = RDGenerics.DefaultAssemblyVisibleName;
 
 			// Обработка текста и подгонка ширины окна
 			if (!string.IsNullOrWhiteSpace (Message))
