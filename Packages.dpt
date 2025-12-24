@@ -27,8 +27,8 @@ p:000C998DD2EF5114
 n:Dates difference
 a:DatesDifference.dp
 f:0
-v:3.9
-p:0005760A4F37B4A8
+v:3.9.1
+p:00057645D87B0BE1
 
 n:File associations manager
 a:FileAssociationsManager.dp
@@ -61,9 +61,9 @@ n:KassArray
 a:KassArray.dpz
 f:F
 l:r
-v:7.6.4
-s:1111447
-p:0029BA7D1D50076A
+v:7.6.6
+s:1112554
+p:0029BE7DEDD3A60C
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
@@ -176,8 +176,8 @@ n:Dates difference
 u:GIT_LINK/DatesDifference/GIT_PATH/DEFFILE
 a:DatesDifference.apk
 f:FV
-v:3.9
-s:63850150
+v:3.9.1
+s:63846054
 
 n:JokesArray
 u:GIT_LINK/JokesArray/GIT_PATH/DEFFILE
@@ -216,7 +216,7 @@ g:4
 n:Dates difference
 f:FVD
 i:MS_STORE/9NRQ4LQZNKKG
-v:3.9
+v:3.9.1
 
 n:Font finder
 f:FVD
@@ -238,13 +238,13 @@ n:KassArray
 f:FVD
 l:r
 i:MS_STORE/9ND98F4C4Q60
-v:7.6.2
+v:7.6.4
 
 n:KassArrayTB
 f:FVD
 l:r
 i:MS_STORE/9NBKLN7493ZL
-v:7.6
+v:7.6.4
 
 n:Screen shooter
 f:FVD
@@ -273,7 +273,7 @@ g:5
 n:Dates difference
 f:FVD
 i:GP_STOREcom.RD_AAOW.DatesDifference
-v:3.9
+v:3.9.1
 
 n:JokesArray
 f:FVD
