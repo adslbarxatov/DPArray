@@ -61,9 +61,9 @@ n:KassArray
 a:KassArray.dpz
 f:F
 l:r
-v:7.6.8
-s:1113083
-p:0029CE7DDF8AFD9A
+v:7.6.9
+s:1113170
+p:0029D07DF24D2C05
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
@@ -80,8 +80,8 @@ p:0005DC128891AECB
 n:Sudoku solver
 a:SudokuSolver.dp
 f:0
-v:5.5.1
-p:00067DF7188CF93D
+v:5.5.2
+p:00067DF709112109
 
 n:TextStats
 a:TextStats.dp
@@ -192,14 +192,14 @@ u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
 a:KassArray.apk
 f:FV
 l:r
-v:7.6.4
+v:7.6.9
 s:64087718
 
 n:Sudoku solver
 u:GIT_LINK/SudokuSolver/GIT_PATH/DEFFILE
 a:SudokuSolver.apk
 f:FV
-v:5.5.1
+v:5.5.2
 s:63965126
 
 n:TextStats
@@ -238,13 +238,13 @@ n:KassArray
 f:FVD
 l:r
 i:MS_STORE/9ND98F4C4Q60
-v:7.6.4
+v:7.6.9
 
 n:KassArrayTB
 f:FVD
 l:r
 i:MS_STORE/9NBKLN7493ZL
-v:7.6.4
+v:7.6.9
 
 n:Screen shooter
 f:FVD
@@ -254,7 +254,7 @@ v:3.6
 n:Sudoku solver
 f:FVD
 i:MS_STORE/9NZ1DLGFK0WZ
-v:5.5.1
+v:5.5.2
 
 n:TextStats
 f:FVD
@@ -285,12 +285,12 @@ n:KassArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextToKKT
 l:r
-v:7.6.4
+v:7.6.9
 
 n:Sudoku solver
 f:FVD
 i:GP_STOREcom.RD_AAOW.SudokuSolver
-v:5.5.1
+v:5.5.2
 
 n:TextStats
 f:FVD
