@@ -91,7 +91,7 @@ A general list of mods is available [here](https://moddb.com/members/rd-aaow-fdl
 
 ### DPArray
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/DPArray) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=Pv1IZIywCrM) &#x3000;
 :envelope_with_arrow: [Get MSI](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.msi)
@@ -106,7 +106,8 @@ Now you can enable the “run at system startup” flag to allow the DPArray to 
 
 ### Sudoku solver
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
+<img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/SudokuSolver) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=f1Mt0R3aGl0) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://SudokuSolver) &#x3000;
@@ -124,7 +125,7 @@ A tool for solving sudoku
 
 ### ConcurrentDraw
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/ConcurrentDraw) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=2ciCx3QnfgU) &#x3000;
 :tv: [ConcurrentDraw live](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc) &#x3000;
@@ -141,7 +142,7 @@ No additional codecs are required
 
 ### UniNotifier
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/UniNotifier) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=0XUqZhOa37Q) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://UniNotifier) &#x3000;
@@ -160,7 +161,7 @@ has specified is loaded – all other objects (including ads) are ignored
 
 ### GraphArray
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/GraphArray) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=2DXfdqaIVF4) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://GraphArray) &#x3000;
@@ -176,7 +177,7 @@ Stand-alone tool for building and designing diagrams based on tabular data
 
 ### Batch image convertor
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/BatchImageConvertor) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://BatchImageConvertor) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/batchimageconvertor/releases/latest)
@@ -189,7 +190,7 @@ A tool for batch processing of image files
 
 ### Font finder
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/FontFinder) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=x8pfSqAAGa0) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://FontFinder) &#x3000;
@@ -221,7 +222,7 @@ to be a little more complex and long in time and space...
 
 ### ES: Randomaze
 :us: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :earth_africa: [Description](https://moddb.com/mods/esrm) &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/Randomaze) &#x3000;
 :tv: [Video demo](https://youtube.com/playlist?list=PLe7qKwHNkZTu8VJPLFEGCFsB4zqiJP7fh) &#x3000;
@@ -262,7 +263,7 @@ An adaptation of [Xash3d FWGS engine](https://github.com/FWGS/xash3d-fwgs) for E
 
 ### Vice city toolset
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/ViceCityToolset) &#x3000;
 :film_projector: [Video demo](https://youtube.com/watch?v=RdLt-dTz8vU) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ViceCityToolset) &#x3000;
@@ -277,7 +278,7 @@ Namely: editing game saves, editing transport parameters, converting models to c
 
 ### OS macros executor
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/OSMacrosExecutor) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=AXcqDsLjYN4) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://OSMacrosExecutor) &#x3000;
@@ -293,7 +294,7 @@ Application can “use” mouse, keyboard, command line and interrupts as same a
 
 ### File associations manager
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/FileAssociationsManager) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://FileAssociationsManager) &#x3000;
 :envelope_with_arrow: [Get MSI](https://github.com/adslbarxatov/FileAssociationsManager/releases/latest/download/FileAssociationsManager.msi) &#x3000;
@@ -307,7 +308,7 @@ A manager for user-defined file extensions
 
 ### Screen shooter
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/ScreenShooter) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ScreenShooter) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NHVH857DV1S) &#x3000;
@@ -322,7 +323,8 @@ A tool for making screenshots. Supports shooting of screen, windows and elements
 
 ### TextStats
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
+<img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/TextStats) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://TextStats) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9PJRQFC4F6RK) &#x3000;
@@ -339,7 +341,8 @@ This tool obtains statistics on the specified text
 
 ### Dates difference
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
+<img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/DatesDifference) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://DatesDifference) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NRQ4LQZNKKG) &#x3000;
@@ -510,11 +513,13 @@ If any product doesn’t work or doesn’t start correctly, check this list of r
 
 For apps and products running on Windows (<img src="/DPArray/img/Win.png" width="16">):
 
-<img src="/DPArray/img/NF481.png" width="16"> [Microsoft .NET Framework 4.8.1](https://go.microsoft.com/fwlink/?LinkId=2203304)
+<img src="/DPArray/img/NF10.png" width="16"> [Microsoft .NET 10.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-10.0.0-windows-x86-installer)
 
 <img src="/DPArray/img/NF90.png" width="16"> [Microsoft .NET 9.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-9.0.4-windows-x86-installer)
 
 <img src="/DPArray/img/NF80.png" width="16"> [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.4-windows-x86-installer)
+
+<img src="/DPArray/img/NF481.png" width="16"> [Microsoft .NET Framework 4.8.1](https://go.microsoft.com/fwlink/?LinkId=2203304)
 
 <img src="/DPArray/img/VC.png" width="16"> [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe)
 
@@ -522,11 +527,9 @@ For apps and products running on Windows (<img src="/DPArray/img/Win.png" width=
 
 For applications and products running on Android (<img src="/DPArray/img/And.png" width="16">):
 
-<img src="/DPArray/img/And4.png" width="16"> Android 4.2 or newer
+<img src="/DPArray/img/And5.png" width="16"> Android 5.0 (API 21) or newer
 
-<img src="/DPArray/img/And5.png" width="16"> Android 5.0 or newer
-
-<img src="/DPArray/img/And6.png" width="16"> Android 6.0 or newer
+<img src="/DPArray/img/And6.png" width="16"> Android 6.0 (API 23) or newer
 
 &nbsp;
 
