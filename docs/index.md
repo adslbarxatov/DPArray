@@ -601,16 +601,16 @@ in our projects. Use the following address of TON Space (Telegram wallet) for it
 
 
 Or you can support our new [FreeDevLab](https://tonviewer.com/EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI) token:
-- on [Ston.fi pool page](https://app.ston.fi/pools/EQAQfWQLE3PYK-0wio4i5iio5OJ2J33RpFPudm3SCbh0fNaO) in USDT pair
-- on [Ston.fi pool page](https://app.ston.fi/pools/EQCh80WBekTtxi1iDrDeXIb9nlM-JRv1rerEj96e35oqhnpp) in TON pair
-- on [Ston.fi pool page](https://app.ston.fi/pools/EQDkzcUzECD_7i-GGOVkpxqjbRZAaGtehKE5hLHzui9kIrWs) in STON pair
-- on [Ston.fi pool page](https://app.ston.fi/pools/EQADVkCfDkY_WXuszHou_nKXU93paZ5FetTYGkstxhBHfRsu) in DYOR pair
-- using [Ston.fi swap interface](https://app.ston.fi/swap?tt=EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI)
+- on [Ston.fi pool page](https://app.ston.fi/pools/EQAQfWQLE3PYK-0wio4i5iio5OJ2J33RpFPudm3SCbh0fNaO) by providing liquidity in USDT pair
+- on [Ston.fi pool page](https://app.ston.fi/pools/EQCh80WBekTtxi1iDrDeXIb9nlM-JRv1rerEj96e35oqhnpp) by providing liquidity in TON pair
+- on [Ston.fi pool page](https://app.ston.fi/pools/EQDkzcUzECD_7i-GGOVkpxqjbRZAaGtehKE5hLHzui9kIrWs) by providing liquidity in STON pair
+- ~~on [Ston.fi pool page](https://app.ston.fi/pools/EQADVkCfDkY_WXuszHou_nKXU93paZ5FetTYGkstxhBHfRsu) by providing liquidity in DYOR pair~~ (disabled)
+- using [Ston.fi swap interface](https://app.ston.fi/swap?tt=EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI) for buying the token
 
 ```
 Name: FreeDevLab (FDL)
 Network: TON
-Liquidity provided in pairs: USDT/FDL, TON/FDL, STON/FDL, DYOR/FDL
+Liquidity provided in pairs: USDT/FDL, TON/FDL, STON/FDL
 Creation date: 05/22/24
 Editable: no (admin rights revoked)
 Mining: not available (quantity fixed at 2³² units)
