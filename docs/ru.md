@@ -675,7 +675,7 @@ ES: Randomaze – генератор карт для одноимённого м
 - на [странице пула Ston.fi](https://app.ston.fi/pools/EQAQfWQLE3PYK-0wio4i5iio5OJ2J33RpFPudm3SCbh0fNaO) для добавления ликвидности в паре с USDT
 - на [странице пула Ston.fi](https://app.ston.fi/pools/EQCh80WBekTtxi1iDrDeXIb9nlM-JRv1rerEj96e35oqhnpp) для добавления ликвидности в паре с TON
 - на [странице пула Ston.fi](https://app.ston.fi/pools/EQDkzcUzECD_7i-GGOVkpxqjbRZAaGtehKE5hLHzui9kIrWs) для добавления ликвидности в паре с STON
-~~- на [странице пула Ston.fi](https://app.ston.fi/pools/EQADVkCfDkY_WXuszHou_nKXU93paZ5FetTYGkstxhBHfRsu) для добавления ликвидности в паре с DYOR~~ (неактивен)
+- ~~на [странице пула Ston.fi](https://app.ston.fi/pools/EQADVkCfDkY_WXuszHou_nKXU93paZ5FetTYGkstxhBHfRsu) для добавления ликвидности в паре с DYOR~~ (неактивен)
 - с помощью [интерфейса обмена Ston.fi](https://app.ston.fi/swap?tt=EQCoyvIz0pAakFaaU5AfKwKl-L8dKuKO6Q9WUhz-IzRBRiEI) для приобретения токена
 
 ```
