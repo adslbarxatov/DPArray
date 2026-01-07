@@ -1,5 +1,8 @@
 DPArray: changes log
 
+Version 8.3.4:
+• Added support for new names of the Lab projects
+
 Version 8.3.3:
 • Removed support for DP15 packages version (outdated, not presented anymore);
 • Removed support for external unzipping applications (no need anymore)

@@ -1,4 +1,5 @@
-_Changes for v 8.3.3_:
+_Changes for v 8.3.4_:
+- Added support for new names of the Lab projects;
 - Removed support for `DP15` packages version (outdated, not presented anymore);
 - Removed support for external unzipping applications (no need anymore);
 - Removed support for `DP14` packages version (outdated, not presented anymore);
@@ -6,5 +7,4 @@ _Changes for v 8.3.3_:
 - Implemented the `17th` version of DP packages (supports internal info URLs);
 - DPArray itself now uses `16th` version;
 - App has been migrated to `.NET 10`;
-- Support for `.NET Framework` has been removed from the requirements checker;
-- Groups of packages in the list have been properly localized
+- Support for `.NET Framework` has been removed from the requirements checker

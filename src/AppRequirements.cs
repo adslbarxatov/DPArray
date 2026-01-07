@@ -3,27 +3,17 @@
 	/// <summary>
 	/// Варианты стандартных зависимостей для пакетов
 	/// </summary>
-	public enum AppDefaultRequirements2
+	public enum AppDefaultRequirements
 		{
 		/// <summary>
 		/// Не является стандартной зависимостью
 		/// </summary>
 		None = -1,
 
-		/*/// <summary>
-		/// Microsoft .NET Framework 4.8 (Windows XP, 7, 8, 8.1)
-		/// </summary>
-		DotNETFramework480 = 0,*/
-
 		/// <summary>
 		/// Microsoft Visual C++ Runtime Libraries
 		/// </summary>
 		VC_RTL = 0,
-
-		/*/// <summary>
-		/// Microsoft .NET Framework 4.8.1 (Windows 10 и новее)
-		/// </summary>
-		DotNETFramework481 = 2,*/
 
 		/// <summary>
 		/// Microsoft .NET 9
@@ -111,14 +101,14 @@
 		/// <summary>
 		/// Возвращает тип стандартной зависимости, если она является таковой
 		/// </summary>
-		public AppDefaultRequirements2 DefaultType
+		public AppDefaultRequirements DefaultType
 			{
 			get
 				{
 				return defaultType;
 				}
 			}
-		private AppDefaultRequirements2 defaultType = AppDefaultRequirements2.None;
+		private AppDefaultRequirements defaultType = AppDefaultRequirements.None;
 
 		// Вторичные
 
@@ -129,7 +119,7 @@
 			{
 			get
 				{
-				return defaultType != AppDefaultRequirements2.None;
+				return defaultType != AppDefaultRequirements.None;
 				}
 			}
 
@@ -149,68 +139,15 @@
 		/// с поддержкой автозагрузки
 		/// </summary>
 		/// <param name="ReqType">Тип зависимости</param>
-		public AppRequirement (AppDefaultRequirements2 ReqType)
+		public AppRequirement (AppDefaultRequirements ReqType)
 			{
 			uint v;
 			string s;
 			defaultType = ReqType;
 
-			/*// Переопределение некоторых зависимостей для Win8.1 и ниже
-			if (Environment.OSVersion.Version.Major < 10)
-				{
-				// Эта взаимозаменяемость подтверждена
-				if (defaultType == AppDefaultRequirements.DotNETFramework481)
-					defaultType = AppDefaultRequirements.DotNETFramework480;
-				}*/
-
 			switch (defaultType)
 				{
-				/*case AppDefaultRequirements2.DotNETFramework481:
-				default:
-					downloadLink = "https://go.microsoft.com/fwlink/?LinkId=2203304";
-					description = "Microsoft .NET Framework 4.8.1";
-					fileName = "DotNETFramework481.exe";    // Автозагрузка
-					fileSize = "1466664";
-
-					defaultType = AppDefaultRequirements2.DotNETFramework481;
-
-					s = RDGenerics.GetCustomRegistryValue (
-						"HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\NET Framework Setup\\NDP\\v4\\Full",
-						"Release");
-					try
-						{
-						v = uint.Parse (s);
-						}
-					catch
-						{
-						break;
-						}
-
-					alreadyInstalled = (v >= 533320);
-					break;*/
-
-				/*case AppDefaultRequirements2.DotNETFramework480:
-					downloadLink = "https://go.microsoft.com/fwlink/?linkid=2088631";
-					description = "Microsoft .NET Framework 4.8";
-					fileName = "DotNETFramework48.exe";    // Автозагрузка
-					fileSize = "121307088";
-
-					s = RDGenerics.GetCustomRegistryValue (
-						"HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\NET Framework Setup\\NDP\\v4\\Full",
-						"Release");
-					try
-						{
-						v = uint.Parse (s);
-						}
-					catch
-						{
-						break;
-						}
-
-					alreadyInstalled = (v >= 528040);
-					break;*/
-
-				case AppDefaultRequirements2.VC_RTL:
+				case AppDefaultRequirements.VC_RTL:
 					downloadLink = "https://aka.ms/vs/17/release/vc_redist.x86.exe";
 					description = "Microsoft Visual C++ 2015 – 2022 redistributable";
 					fileName = "VCRedistributables143.exe";
@@ -221,7 +158,7 @@
 						"Microsoft.VS.VC_RuntimeAdditionalVSU_x86,v14",
 						"Version");
 
-					alreadyInstalled = s.StartsWith ("14.3") || s.StartsWith ("14.4");
+					alreadyInstalled = s.StartsWith ("14.3") || s.StartsWith ("14.4") || s.StartsWith ("14.5");
 					break;
 
 #if SQL_NET60
@@ -261,7 +198,7 @@
 #endif
 
 				default:
-				case AppDefaultRequirements2.DotNet90:
+				case AppDefaultRequirements.DotNet90:
 					downloadLink = "https://dotnet.microsoft.com/ru-ru/download/dotnet/thank-you/" +
 						"runtime-desktop-9.0.4-windows-x86-installer";
 					description = "Microsoft .NET 9.0";
@@ -281,7 +218,7 @@
 					alreadyInstalled = (v >= 9);
 					break;
 
-				case AppDefaultRequirements2.DotNet100:
+				case AppDefaultRequirements.DotNet100:
 					downloadLink = "https://dotnet.microsoft.com/ru-ru/download/dotnet/thank-you/" +
 						"runtime-desktop-10.0.0-windows-x86-installer";
 					description = "Microsoft .NET 10.0";
@@ -339,7 +276,7 @@
 		/// Метод возвращает псевдоним зависимости для скрипта развёртки
 		/// </summary>
 		/// <param name="ReqType">Тип зависимости</param>
-		public static string GetRequirementAlias (AppDefaultRequirements2 ReqType)
+		public static string GetRequirementAlias (AppDefaultRequirements ReqType)
 			{
 			switch (ReqType)
 				{
@@ -347,23 +284,15 @@
 				default:
 					return "";
 
-				// Новые
-				case AppDefaultRequirements2.DotNet90:
-					return "NF90+";
-
-				case AppDefaultRequirements2.DotNet100:
-					return "NF10+";
-
-				/*// Актуальные
-				case AppDefaultRequirements2.DotNETFramework481:
-					return "NF481+";*/
-
-				case AppDefaultRequirements2.VC_RTL:
+				case AppDefaultRequirements.VC_RTL:
 					return "CPP+";
 
-				/*// Устаревшие
-				case AppDefaultRequirements2.DotNETFramework480:
-					return "CS+";*/
+				// Новые
+				case AppDefaultRequirements.DotNet90:
+					return "NF90+";
+
+				case AppDefaultRequirements.DotNet100:
+					return "NF10+";
 				}
 			}
 		}
