@@ -61,9 +61,9 @@ n:KassArray
 a:KassArray.dpz
 f:F
 l:r
-v:7.8.1
-s:1302818
-p:00304CCDA1BC3CB6
+v:7.8.2
+s:1303948
+p:0030538D197F4BA5
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
@@ -250,7 +250,7 @@ n:KassArrayEC
 f:FVD
 l:r
 i:MS_STORE/9NGH9JN9KS2P
-v:7.8.1
+v:7.8.2
 
 n:Screen shooter
 f:FVD
