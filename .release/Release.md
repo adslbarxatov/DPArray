@@ -1,10 +1,10 @@
-_Changes for v 8.3.4_:
+_Changes for v 8.4_:
+- Added the ability to specify the “remove only” commands in the deployment script;
+- Added the ability to directly load the DPZ package format;
+- Probably, fixed the inability to remove all directories in the product tree;
+- Added the ability to disable the autostart records in the registry;
+- Fixed some minor interface bugs;
 - Added support for new names of the Lab projects;
 - Removed support for `DP15` packages version (outdated, not presented anymore);
 - Removed support for external unzipping applications (no need anymore);
-- Removed support for `DP14` packages version (outdated, not presented anymore);
-- Removed some extraneous definitions from the app code;
-- Implemented the `17th` version of DP packages (supports internal info URLs);
-- DPArray itself now uses `16th` version;
-- App has been migrated to `.NET 10`;
-- Support for `.NET Framework` has been removed from the requirements checker
+- Removed support for `DP14` packages version (outdated, not presented anymore)
