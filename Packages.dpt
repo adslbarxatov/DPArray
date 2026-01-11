@@ -68,14 +68,14 @@ p:0030538D197F4BA5
 n:OS macros executor
 a:OSMacrosExecutor.dp
 f:F
-v:3.8
-p:00076198A73D8CD7
+v:3.8.2
+p:000761D4EFF0FC56
 
 n:Screen shooter
 a:ScreenShooter.dp
 f:0
-v:3.6
-p:0005DC128891AECB
+v:3.6.1
+p:0005DC4B33C04581
 
 n:Sudoku solver
 a:SudokuSolver.dp
@@ -255,7 +255,7 @@ v:7.8.2
 n:Screen shooter
 f:FVD
 i:MS_STORE/9NHVH857DV1S
-v:3.6
+v:3.6.1
 
 n:Sudoku solver
 f:FVD
