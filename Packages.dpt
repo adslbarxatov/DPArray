@@ -39,15 +39,15 @@ p:000746A9F2D27C95
 n:Font finder
 a:FontFinder.dp
 f:0
-v:3.10
-p:000693F073FF6002
+v:3.10.1
+p:000694260C655CCC
 
 n:GraphArray
 a:GraphArray.dpz
 f:F
-v:6.3
-s:586034
-p:001771E5034D97A1
+v:6.3.2
+s:586354
+p:0017721BD85A8CC3
 
 n:JokesArray
 a:JokesArray.dpz
@@ -221,12 +221,12 @@ v:3.9.1
 n:Font finder
 f:FVD
 i:MS_STORE/9MXDR4BXP8R4
-v:3.10
+v:3.10.1
 
 n:GraphArray
 f:FVD
 i:MS_STORE/9PG19ZZ3NH47
-v:6.3
+v:6.3.2
 
 n:JokesArray
 f:FVD
