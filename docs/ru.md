@@ -174,7 +174,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/KassArray) &#x3000;
-:film_projector: [Видеопрезентация](https://youtube.com/watch?v=HN76wbdB-GI) &#x3000;
+:film_projector: [Видеопрезентация](https://youtube.com/watch?v=JthL3l7vy6E) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KassArray) &#x3000;
 :briefcase: [На Microsoft Store (KassArray)](ms-windows-store://pdp/?productid=9ND98F4C4Q60) &#x3000;
 :briefcase: [На Microsoft Store (KassArrayTB)](ms-windows-store://pdp/?productid=9NBKLN7493ZL) &#x3000;
