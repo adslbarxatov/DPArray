@@ -176,16 +176,20 @@ DPArray выполняет установку, деинсталляцию, пр�
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/KassArray) &#x3000;
 :film_projector: [Видеопрезентация](https://youtube.com/watch?v=JthL3l7vy6E) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KassArray) &#x3000;
-:briefcase: [На Microsoft Store (KassArray)](ms-windows-store://pdp/?productid=9ND98F4C4Q60) &#x3000;
-:briefcase: [На Microsoft Store (KassArrayTB)](ms-windows-store://pdp/?productid=9NBKLN7493ZL) &#x3000;
+:briefcase: [KassArrayHC на Microsoft Store](ms-windows-store://pdp/?productid=9ND98F4C4Q60) &#x3000;
+:briefcase: [KassArrayPR на Microsoft Store](ms-windows-store://pdp/?productid=9NBKLN7493ZL) &#x3000;
+:briefcase: [KassArrayEC на Microsoft Store](ms-windows-store://pdp/?productid=9NGH9JN9KS2P) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/KassArray/releases/latest) &#x3000;
 :envelope_with_arrow: [В виде MSI](https://github.com/adslbarxatov/KassArray/releases/latest/download/KassArray.msi) &#x3000;
-:iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT) &#x3000;
-:package: [В виде APK](https://github.com/adslbarxatov/KassArray/releases/latest/download/KassArray.apk)
+:iphone: [KassArrayHC на Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT) &#x3000;
+:iphone: [KassArrayPR на Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.KassArrayPR) &#x3000;
+:package: [KassArrayHC в виде APK](https://github.com/adslbarxatov/KassArray/releases/latest/download/KassArrayHC.apk) &#x3000;
+:package: [KassArrayPR в виде APK](https://github.com/adslbarxatov/KassArray/releases/latest/download/KassArrayPR.apk)
 
-Инструмент сервис-инженера контрольно-кассовой техники (54-ФЗ). Первый проект Лаборатории, доступный одновременно
-на платформах Windows и Android. Реализует справочный функционал, обеспечивает
-чтение и обработку данных фискальных накопителей, а также позволяет формировать бумажные заявления для ФНС
+Пакет инструментов сервис-инженера контрольно-кассовой техники (54-ФЗ). Первый проект Лаборатории, доступный одновременно
+на платформах Windows и Android. Модуль KassArrayHC (help center) реализует справочный функционал; KassArrayFS (fiscal storage) обеспечивает
+чтение и обработку данных фискальных накопителей; KassArrayPR (paper registration) позволяет формировать бумажные заявления для ФНС,
+а KassArrayEC (expiration control) упрощает контроль сроков замены ФН и продления тарифов ОФД
 
 &nbsp;
 
