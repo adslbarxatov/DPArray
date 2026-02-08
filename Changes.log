@@ -1,5 +1,8 @@
 DPArray: changes log
 
+Version 8.4.1:
+• Offline help files have been deprecated for this app
+
 Version 8.4:
 • Added the ability to specify the “remove only” commands in the deployment script;
 • Added the ability to directly load the DPZ package format;
