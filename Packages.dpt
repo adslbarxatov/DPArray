@@ -68,8 +68,8 @@ p:0039C65F074FAD47
 n:OS macros executor
 a:OSMacrosExecutor.dp
 f:F
-v:3.8.2
-p:000761D4EFF0FC56
+v:3.8.3
+p:000CD2A12ACD71A0
 
 n:Screen shooter
 a:ScreenShooter.dp
@@ -98,9 +98,9 @@ p:0007D842D02C9A48
 n:Vice city toolset
 a:ViceCityToolset.dpz
 f:F
-v:4.10.1
-s:1515408
-p:00225A83FF298CC5
+v:4.10.2
+s:1513344
+p:002246BD23483CA7
 
 
 g:2
