@@ -1,5 +1,9 @@
 DPArray: changes log
 
+Version 8.5.1:
+• Adjusted the deployment script for DPArray (for better compatibility with older versions);
+• Fixed some missing lines in the deployment log
+
 Version 8.5:
 • Implemented support for different deployment aliases and stand-alone remove-only
   sections in DP18 packages version

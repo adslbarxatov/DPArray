@@ -4,8 +4,8 @@ n:DPArray
 a:DPArray.dp
 i:INFOPAGE
 f:fvd
-v:8.5
-p:000B723AE57A580A
+v:8.5.1
+p:000B748701A8258A
 
 
 g:1
@@ -250,6 +250,12 @@ l:r
 i:MS_STORE/9NZ7WMRX5SF3
 v:3.7.9
 
+n:KassArrayEC
+f:FVD
+l:r
+i:MS_STORE/9NGH9JN9KS2P
+v:7.12
+
 n:KassArrayHC
 f:FVD
 l:r
@@ -260,12 +266,6 @@ n:KassArrayPR
 f:FVD
 l:r
 i:MS_STORE/9NBKLN7493ZL
-v:7.12
-
-n:KassArrayEC
-f:FVD
-l:r
-i:MS_STORE/9NGH9JN9KS2P
 v:7.12
 
 n:Screen shooter
