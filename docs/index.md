@@ -657,7 +657,10 @@ subsequently be used as a trading asset (we have decentralized this token and do
 [GraphArray](#grapharray) &#x3000;
 [GIA tester](https://adslbarxatov.github.io/DPArray/ru#giatester) &#x3000;
 [JokesArray](https://adslbarxatov.github.io/DPArray/ru#jokesarray) &#x3000;
-[KassArray](https://adslbarxatov.github.io/DPArray/ru#kassarray) &#x3000;
+[KassArrayEC](https://adslbarxatov.github.io/DPArray/ru#kassarrayec) &#x3000;
+[KassArrayFS](https://adslbarxatov.github.io/DPArray/ru#kassarrayfs) &#x3000;
+[KassArrayHC](https://adslbarxatov.github.io/DPArray/ru#kassarrayhc) &#x3000;
+[KassArrayPR](https://adslbarxatov.github.io/DPArray/ru#kassarraypr) &#x3000;
 [Keyboard switcher](#keyboard-switcher) &#x3000;
 [Mafia helper](#mafia-helper) &#x3000;
 [Make decision](#make-decision) &#x3000;

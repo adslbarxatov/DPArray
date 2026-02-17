@@ -169,27 +169,74 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 
 
-### KassArray
+### KassArrayHC
+:ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
+<img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/KassArrayHC) &#x3000;
+:film_projector: [Видеопрезентация](https://youtube.com/watch?v=JthL3l7vy6E) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KassArrayHC) &#x3000;
+:briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9ND98F4C4Q60) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/KassArrayHC/releases/latest) &#x3000;
+:envelope_with_arrow: [Полный пакет в виде MSI](https://github.com/adslbarxatov/KassArrayHC/releases/latest/download/KassArray.msi) &#x3000;
+:iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT) &#x3000;
+:package: [В виде APK](https://github.com/adslbarxatov/KassArrayHC/releases/latest/download/KassArrayHC.apk)
+
+Справочный центр сервис-инженера ККТ в составе пакета инструментов сервис-инженера контрольно-кассовой техники (54-ФЗ).
+Первый проект Лаборатории, доступный одновременно на платформах Windows и Android
+
+&nbsp;
+
+
+
+### KassArrayFS
 :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
-<img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
-:page_with_curl: [Руководство](https://adslbarxatov.github.io/KassArray) &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/KassArrayFS) &#x3000;
 :film_projector: [Видеопрезентация](https://youtube.com/watch?v=JthL3l7vy6E) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KassArray) &#x3000;
-:briefcase: [KassArrayHC на Microsoft Store](ms-windows-store://pdp/?productid=9ND98F4C4Q60) &#x3000;
-:briefcase: [KassArrayPR на Microsoft Store](ms-windows-store://pdp/?productid=9NBKLN7493ZL) &#x3000;
-:briefcase: [KassArrayEC на Microsoft Store](ms-windows-store://pdp/?productid=9NGH9JN9KS2P) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/KassArray/releases/latest) &#x3000;
-:envelope_with_arrow: [В виде MSI](https://github.com/adslbarxatov/KassArray/releases/latest/download/KassArray.msi) &#x3000;
-:iphone: [KassArrayHC на Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT) &#x3000;
-:iphone: [KassArrayPR на Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.KassArrayPR) &#x3000;
-:package: [KassArrayHC в виде APK](https://github.com/adslbarxatov/KassArray/releases/latest/download/KassArrayHC.apk) &#x3000;
-:package: [KassArrayPR в виде APK](https://github.com/adslbarxatov/KassArray/releases/latest/download/KassArrayPR.apk)
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KassArrayFS) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/KassArrayFS/releases/latest)
 
-Пакет инструментов сервис-инженера контрольно-кассовой техники (54-ФЗ). Первый проект Лаборатории, доступный одновременно
-на платформах Windows и Android. Модуль KassArrayHC (help center) реализует справочный функционал; KassArrayFS (fiscal storage) обеспечивает
-чтение и обработку данных фискальных накопителей; KassArrayPR (paper registration) позволяет формировать бумажные заявления для ФНС,
-а KassArrayEC (expiration control) упрощает контроль сроков замены ФН и продления тарифов ОФД
+Модуль чтения и обработки данных ФН в составе пакета инструментов сервис-инженера контрольно-кассовой техники (54-ФЗ).
+Приложение обеспечивает чтение и обработку данных фискальных накопителей, а также файловых выгрузок
+
+&nbsp;
+
+
+
+### KassArrayPR
+:ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
+<img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/KassArrayPR) &#x3000;
+:film_projector: [Видеопрезентация](https://youtube.com/watch?v=JthL3l7vy6E) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KassArrayPR) &#x3000;
+:briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NBKLN7493ZL) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/KassArrayPR/releases/latest) &#x3000;
+:iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.KassArrayPR) &#x3000;
+:package: [В виде APK](https://github.com/adslbarxatov/KassArrayPR/releases/latest/download/KassArrayPR.apk)
+
+Конструктор заявлений для ФНС в составе пакета инструментов сервис-инженера контрольно-кассовой техники (54-ФЗ).
+Приложение позволяет формировать бумажные заявления для (пере)регистрации ККТ в ФНС и снятия ККТ с учёта
+
+&nbsp;
+
+
+
+### KassArrayEC
+:ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
+<img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/KassArrayEC) &#x3000;
+:film_projector: [Видеопрезентация](https://youtube.com/watch?v=JthL3l7vy6E) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KassArrayEC) &#x3000;
+:briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NGH9JN9KS2P) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/KassArrayEC/releases/latest) &#x3000;
+:iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.KassArrayEC) &#x3000;
+:package: [В виде APK](https://github.com/adslbarxatov/KassArrayEC/releases/latest/download/KassArrayEC.apk)
+
+Контроллер сроков действия ФН в составе пакета инструментов сервис-инженера контрольно-кассовой техники (54-ФЗ).
+Приложение упрощает контроль сроков замены ФН и продления тарифов ОФД
 
 &nbsp;
 
@@ -743,7 +790,10 @@ ES: Randomaze – генератор карт для одноимённого м
 [GraphArray](#grapharray) &#x3000;
 [GIA tester](#giatester) &#x3000;
 [JokesArray](#jokesarray) &#x3000;
-[KassArray](#kassarray) &#x3000;
+[KassArrayEC](#kassarrayec) &#x3000;
+[KassArrayFS](#kassarrayfs) &#x3000;
+[KassArrayHC](#kassarrayhc) &#x3000;
+[KassArrayPR](#kassarraypr) &#x3000;
 [Keyboard switcher](#keyboard-switcher) &#x3000;
 [Mafia helper](#mafia-helper) &#x3000;
 [Make decision](#make-decision) &#x3000;
