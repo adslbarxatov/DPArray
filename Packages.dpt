@@ -57,6 +57,21 @@ v:3.7.9
 s:1888191
 p:003811A43BCCC07B
 
+n:KassArrayHC
+a:KassArrayHC.dpz
+f:F
+l:r
+v:8.0
+s:511383
+p:00113C85CA2EE980
+
+n:KassArrayEC
+a:KassArrayEC.dp
+f:F
+l:r
+v:8.0
+p:0008A3F17D1F53FB
+
 n:KassArrayFS
 a:KassArrayFS.dpz
 f:F
@@ -65,13 +80,12 @@ v:8.0
 s:1146232
 p:0022EE4D94A47BE8
 
-n:KassArrayHC
-a:KassArrayHC.dpz
+n:KassArrayPR
+a:KassArrayPR.dp
 f:F
 l:r
 v:8.0
-s:511383
-p:00113C85CA2EE980
+p:000B287E870D06DE
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
