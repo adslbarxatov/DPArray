@@ -1,5 +1,10 @@
 DPArray: changes log
 
+Version 8.5.4:
+• Fixed the missing start command for newly deployed applications;
+• Adjusted the behavior of the interface with deployment flags;
+• New aliases added to the mini-launcher
+
 Version 8.5.3:
 • Implemented support for different lists for processes to start after deployment and kill
   before deployment in DP19 packages version;
