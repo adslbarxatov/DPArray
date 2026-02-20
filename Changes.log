@@ -1,5 +1,10 @@
 DPArray: changes log
 
+ToDo:
+- remove support for DP16
+- remove tray icon for deployment interface
+- remove the override for the info link
+
 Version 8.5.4:
 • Fixed the missing start command for newly deployed applications;
 • Adjusted the behavior of the interface with deployment flags;
