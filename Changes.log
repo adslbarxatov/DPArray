@@ -1,9 +1,10 @@
 DPArray: changes log
 
-ToDo:
-- remove support for DP16
-- remove tray icon for deployment interface
-- remove the override for the info link
+Version 8.5.6:
+• DP16 packages version has been deprecated (no need anymore);
+• Implemented the additional integrity check in DP20 packages version;
+• Removed the tray icon from the deployment interface;
+• Adjusted the behavior of path restoration method
 
 Version 8.5.4:
 • Fixed the missing start command for newly deployed applications;

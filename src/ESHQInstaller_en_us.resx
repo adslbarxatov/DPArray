@@ -217,7 +217,7 @@ Press “Next” to continue</value>
   <data name="RegistryKeyNotFound" xml:space="preserve">
     <value>The app deployment path not found in registry.
 
-Most likely this product has not been installed on this PC before. If this is not the case, use “Restore package’s deployment path” option in tray icon’s menu</value>
+Most likely this product has not been installed on this PC before. If this is not the case, click “Edit” button to change the deployment path</value>
   </data>
   <data name="SpecifyModPath" xml:space="preserve">
     <value>Specify the deployment path:</value>
@@ -379,7 +379,7 @@ Do you want to save a cache of package descriptions? When deleted, they will be 
   <data name="RegistryKeyNotFoundAllow" xml:space="preserve">
     <value>The app deployment path not found in registry.
 
-The app will use default path for this product. If it’s not correct, use “Restore package’s deployment path” option in tray icon’s menu</value>
+The app will use default path for this product. If it’s not correct, click “Edit” button to change the deployment path</value>
   </data>
   <data name="dpfile" xml:space="preserve">
     <value>DPArray deployment package</value>
