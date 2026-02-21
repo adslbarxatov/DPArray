@@ -1,4 +1,4 @@
-_Changes for v 8.5.6_:
+_Changes for v 8.5.6_: 
 - `DP16` packages version has been deprecated (no need anymore);
 - Implemented the additional integrity check in `DP20` packages version;
 - Removed the tray icon from the deployment interface;
