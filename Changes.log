@@ -1,5 +1,8 @@
 DPArray: changes log
 
+ToDo:
+- remove tray icon from the packahe selector
+
 Version 8.5.7:
 • Adjusted the behavior of the running line;
 • The support for settings migrator has been discontinued
