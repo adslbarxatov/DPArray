@@ -1,4 +1,5 @@
-_Changes for v 8.5.7_:
+_Changes for v 8.5.8_:
+- Removed the tray icon from the packages management interface;
 - Adjusted the behavior of the running line;
 - The support for settings migrator has been discontinued;
 - Support of `DP16` packages version has been discontinued (no longer needed);
@@ -6,7 +7,4 @@ _Changes for v 8.5.7_:
 - Removed the tray icon from the deployment interface;
 - Adjusted the behavior of path restoration method;
 - Fixed the missing start command for newly deployed applications;
-- Adjusted the behavior of the interface with deployment flags;
-- New aliases added to the mini-launcher;
-- Implemented support for different lists for processes to start after deployment and kill before deployment in `DP19` packages version;
-- Fixed some minor bugs
+- Adjusted the behavior of the interface with deployment flags
