@@ -28,8 +28,8 @@ p:000C84189D17B385
 n:Dates difference
 a:DatesDifference.dp
 f:0
-v:3.9.2
-p:000994D191496F2A
+v:3.9.3
+p:000995203A41B1B9
 
 n:File associations manager
 a:FileAssociationsManager.dp
@@ -201,8 +201,8 @@ n:Dates difference
 u:GIT_LINK/DatesDifference/GIT_PATH/DEFFILE
 a:DatesDifference.apk
 f:FV
-v:3.9.2
-s:64329382
+v:3.9.3
+s:64362150
 
 n:JokesArray
 u:GIT_LINK/JokesArray/GIT_PATH/DEFFILE
@@ -258,7 +258,7 @@ g:4
 n:Dates difference
 f:FVD
 i:MS_STORE/9NRQ4LQZNKKG
-v:3.9.2
+v:3.9.3
 
 n:Font finder
 f:FVD
@@ -322,7 +322,7 @@ g:5
 n:Dates difference
 f:FVD
 i:GP_STOREcom.RD_AAOW.DatesDifference
-v:3.9.2
+v:3.9.3
 
 n:JokesArray
 f:FVD
