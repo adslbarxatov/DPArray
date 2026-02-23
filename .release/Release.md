@@ -1,5 +1,7 @@
-_Changes for v 8.5.6_: 
-- `DP16` packages version has been deprecated (no need anymore);
+_Changes for v 8.5.7_:
+- Adjusted the behavior of the running line;
+- The support for settings migrator has been discontinued;
+- Support of `DP16` packages version has been discontinued (no longer needed);
 - Implemented the additional integrity check in `DP20` packages version;
 - Removed the tray icon from the deployment interface;
 - Adjusted the behavior of path restoration method;
@@ -7,7 +9,4 @@ _Changes for v 8.5.6_:
 - Adjusted the behavior of the interface with deployment flags;
 - New aliases added to the mini-launcher;
 - Implemented support for different lists for processes to start after deployment and kill before deployment in `DP19` packages version;
-- Fixed some minor bugs;
-- Adjusted the deployment script for DPArray (for better compatibility with older versions);
-- Fixed some missing lines in the deployment log;
-- Implemented support for different deployment aliases and stand-alone remove-only sections in `DP18` packages version
+- Fixed some minor bugs

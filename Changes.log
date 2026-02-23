@@ -1,7 +1,12 @@
 DPArray: changes log
 
+Version 8.5.7:
+• Adjusted the behavior of the running line;
+• The support for settings migrator has been discontinued
+
 Version 8.5.6:
-• DP16 packages version has been deprecated (no need anymore);
+• Support for DP16 packages version has been discontinued (no longer needed), DPArray
+  itself now uses DP17 package version;
 • Implemented the additional integrity check in DP20 packages version;
 • Removed the tray icon from the deployment interface;
 • Adjusted the behavior of path restoration method
@@ -21,11 +26,11 @@ Version 8.5.1:
 • Fixed some missing lines in the deployment log
 
 Version 8.5:
-• Implemented support for different deployment aliases and stand-alone remove-only
-  sections in DP18 packages version
+• DP18 packages version now support various deployment aliases and a separate section
+containing remove-only files
 
 Version 8.4.1:
-• Offline help files have been deprecated for this app
+• Offline help files have been discontinued for this app
 
 Version 8.4:
 • Added the ability to specify the “remove only” commands in the deployment script;
@@ -47,7 +52,7 @@ Version 8.3.2:
 
 Version 8.3.1:
 • Implemented the 17th version of DP packages (supports internal info URLs);
-• DPArray itself now uses 16th version
+• DPArray itself now uses DP16 package version
 
 Version 8.3:
 • App has been migrated to .NET 10;
