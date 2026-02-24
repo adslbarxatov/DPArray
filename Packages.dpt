@@ -34,8 +34,8 @@ p:000995203A41B1B9
 n:File associations manager
 a:FileAssociationsManager.dp
 f:0
-v:3.3.1
-p:000B44F7A5E36486
+v:3.3.2
+p:000B455C7EAEA486
 
 n:Font finder
 a:FontFinder.dp
@@ -91,8 +91,8 @@ p:000B2A9B3219458A
 n:OS macros executor
 a:OSMacrosExecutor.dp
 f:F
-v:3.8.3
-p:000CD2A12ACD71A0
+v:3.8.4
+p:000CD319B0C0D5B2
 
 n:Screen shooter
 a:ScreenShooter.dp
