@@ -1,5 +1,8 @@
 DPArray: changes log
 
+Version 8.5.9:
+• Adjusted the behavior of the self-restart algorithm
+
 Version 8.5.8:
 • Removed the tray icon from the packages management interface
 
