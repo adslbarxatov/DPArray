@@ -1,5 +1,9 @@
 DPArray: changes log
 
+Version 8.6:
+• Fixed some bugs in packages building method;
+• Fixed some bugs in the deployment sequence
+
 Version 8.5.9:
 • Adjusted the behavior of the self-restart algorithm
 
