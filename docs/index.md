@@ -93,8 +93,8 @@ A general list of mods is available [here](https://moddb.com/members/rd-aaow-fdl
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 :earth_africa:&nbsp;[About](https://github.com/adslbarxatov/DPArray) &#x3000;
-:film_projector:&nbsp;[Video guide](https://youtube.com/watch?v=Pv1IZIywCrM) &#x3000;
-:envelope_with_arrow:&nbsp;[Get MSI](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.msi)
+:film_projector:&nbsp;[Video&nbsp;guide](https://youtube.com/watch?v=Pv1IZIywCrM) &#x3000;
+:envelope_with_arrow:&nbsp;[Get&nbsp;MSI](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.msi)
 
 DPArray is a tool for managing Laboratory’s products on your PC.
 DPArray performs installation, deinstallation, check for updates, download of packages and their requirements. This tool is the only thing you need to start working with all of our projects.
@@ -108,14 +108,14 @@ Now you can enable the “run at system startup” flag to allow the DPArray to 
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
-:page_with_curl:&nbsp;[User guide](https://adslbarxatov.github.io/SudokuSolver) &#x3000;
-:film_projector:&nbsp;[Video guide](https://youtube.com/watch?v=f1Mt0R3aGl0) &#x3000;
-<img src="/DPArray/img/DP.png" width="16">&nbsp;[Get on DPArray](dp://SudokuSolver) &#x3000;
-:briefcase:&nbsp;[Get on Microsoft Store](ms-windows-store://pdp/?productid=9NZ1DLGFK0WZ) &#x3000;
-:envelope_with_arrow:&nbsp;[Get MSI](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.msi) &#x3000;
-:envelope_with_arrow:&nbsp;[Get EXE](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.exe) &#x3000;
-:iphone:&nbsp;[Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.SudokuSolver) &#x3000;
-:package:&nbsp;[Get APK](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.apk)
+:page_with_curl:&nbsp;[User&nbsp;guide](https://adslbarxatov.github.io/SudokuSolver) &#x3000;
+:film_projector:&nbsp;[Video&nbsp;guide](https://youtube.com/watch?v=f1Mt0R3aGl0) &#x3000;
+<img src="/DPArray/img/DP.png" width="16">&nbsp;[Get&nbsp;on&nbsp;DPArray](dp://SudokuSolver) &#x3000;
+:briefcase:&nbsp;[Get&nbsp;on&nbsp;Microsoft&nbsp;Store](ms-windows-store://pdp/?productid=9NZ1DLGFK0WZ) &#x3000;
+:envelope_with_arrow:&nbsp;[Get&nbsp;MSI](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.msi) &#x3000;
+:envelope_with_arrow:&nbsp;[Get&nbsp;EXE](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.exe) &#x3000;
+:iphone:&nbsp;[Get&nbsp;on&nbsp;Google&nbsp;play](https://play.google.com/store/apps/details?id=com.RD_AAOW.SudokuSolver) &#x3000;
+:package:&nbsp;[Get&nbsp;APK](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.apk)
 
 A tool for solving sudoku
 
