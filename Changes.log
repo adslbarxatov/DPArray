@@ -1,5 +1,9 @@
 DPArray: changes log
 
+ToDo:
+- wrong 'ru_ru only' suffix in the help URL in the system uninstallation list
+- incorrect comment localization in the same section
+
 Version 8.6:
 • Fixed some bugs in packages building method;
 • Fixed some bugs in the deployment sequence
