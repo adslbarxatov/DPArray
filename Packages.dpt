@@ -28,14 +28,14 @@ p:000C84183AD99CD5
 n:Dates difference
 a:DatesDifference.dp
 f:0
-v:3.9.3
-p:000995203A41B1B9
+v:3.9.4
+p:00099520CBE93724
 
 n:File associations manager
 a:FileAssociationsManager.dp
 f:0
-v:3.3.2
-p:000B455C7EAEA486
+v:3.3.3
+p:000B475CA5D154F3
 
 n:Font finder
 a:FontFinder.dp
@@ -260,7 +260,7 @@ g:4
 n:Dates difference
 f:FVD
 i:MS_STORE/9NRQ4LQZNKKG
-v:3.9.3
+v:3.9.4
 
 n:Font finder
 f:FVD
