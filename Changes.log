@@ -1,8 +1,9 @@
 DPArray: changes log
 
-ToDo:
-- wrong 'ru_ru only' suffix in the help URL in the system uninstallation list
-- incorrect comment localization in the same section
+Version 8.6.1:
+• Upgraded the method that retrieves the changelog;
+• Fixed non-multilanguage URLs in product descriptions in the system uninstallation interface;
+• Fixed non-multilanguage comments in the same place
 
 Version 8.6:
 • Fixed some bugs in packages building method;
