@@ -93,39 +93,39 @@ p:00135A6445981816
 n:OS macros executor
 a:OSMacrosExecutor.dp
 f:F
-v:3.8.4
-p:000CD319B0C0D5B2
+v:3.8.5
+p:000CD319ABC27A95
 
 n:Screen shooter
 a:ScreenShooter.dp
 f:0
-v:3.6.2
-p:000A26F3C376FAE9
+v:3.6.3
+p:000A2946200BC547
 
 n:Sudoku solver
 a:SudokuSolver.dp
 f:0
-v:5.5.3
-p:000B7339096475E8
+v:5.5.4
+p:000B75829A600B14
 
 n:TextStats
 a:TextStats.dp
 f:0
-v:1.5.2
-p:000A311CE529187D
+v:1.5.5
+p:000A316AE31D15C5
 
 n:UniNotifier
 a:UniNotifier.dp
 f:0
-v:8.9.3
-p:0007C674EB9CA1B2
+v:8.9.4
+p:0007C6C866DD614B
 
 n:Vice city toolset
 a:ViceCityToolset.dpz
 f:F
-v:4.10.3
-s:1513418
-p:00224718D5C0BCA0
+v:4.10.4
+s:1513441
+p:0022491881D81168
 
 
 
@@ -242,15 +242,15 @@ n:Sudoku solver
 u:GIT_LINK/SudokuSolver/GIT_PATH/DEFFILE
 a:SudokuSolver.apk
 f:FV
-v:5.5.3
-s:64522182
+v:5.5.4
+s:64554950
 
 n:TextStats
 u:GIT_LINK/TextStats/GIT_PATH/DEFFILE
 a:TextStats.apk
 f:FV
-v:1.5.2
-s:64378534
+v:1.5.5
+s:64407206
 
 
 
@@ -299,22 +299,22 @@ v:8.0.1
 n:Screen shooter
 f:FVD
 i:MS_STORE/9NHVH857DV1S
-v:3.6.2
+v:3.6.3
 
 n:Sudoku solver
 f:FVD
 i:MS_STORE/9NZ1DLGFK0WZ
-v:5.5.3
+v:5.5.4
 
 n:TextStats
 f:FVD
 i:MS_STORE/9PJRQFC4F6RK
-v:1.5.2
+v:1.5.5
 
 n:UniNotifier
 f:FVD
 i:MS_STORE/9NVZ51RL54K4
-v:8.9.3
+v:8.9.4
 
 
 
@@ -353,12 +353,12 @@ v:8.0.1
 n:Sudoku solver
 f:FVD
 i:GP_STOREcom.RD_AAOW.SudokuSolver
-v:5.5.3
+v:5.5.4
 
 n:TextStats
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextStats
-v:1.5.2
+v:1.5.5
 
 
 
