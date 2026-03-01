@@ -1,5 +1,8 @@
 DPArray: changes log
 
+ToDo:
+- На шаге принудительного завершения процессов отсутствует индикация в окне прогресса
+
 Version 8.6.1:
 • Upgraded the method that retrieves the changelog;
 • Fixed non-multilanguage URLs in product descriptions in the system uninstallation interface;
