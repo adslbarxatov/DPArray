@@ -70,17 +70,17 @@ n:KassArrayEC
 a:KassArrayEC.dpz
 f:F
 l:r
-v:8.0.5
-s:470598
-p:0010E9BA07490EC7
+v:8.0.6
+s:470958
+p:0010EDBA100E88C5
 
 n:KassArrayFS
 a:KassArrayFS.dpz
 f:F
 l:r
-v:8.0.4
-s:1150744
-p:00236C9855BDF98D
+v:8.0.6
+s:1406167
+p:002C7243EFA2EE49
 
 n:KassArrayPR
 a:KassArrayPR.dpz
@@ -282,7 +282,7 @@ n:KassArrayEC
 f:FVD
 l:r
 i:MS_STORE/9NGH9JN9KS2P
-v:8.0.4
+v:8.0.6
 
 n:KassArrayHC
 f:FVD
