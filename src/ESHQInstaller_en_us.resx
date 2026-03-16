@@ -523,4 +523,7 @@ Do you want to deploy available updates?</value>
   <data name="SUSComment_Fmt" xml:space="preserve">
     <value>{0:S} project, registered by {1:S}</value>
   </data>
+  <data name="FinishingProcesses" xml:space="preserve">
+    <value>Terminating the app being updated...</value>
+  </data>
 </root>

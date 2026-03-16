@@ -1,7 +1,7 @@
 DPArray: changes log
 
-ToDo:
-- На шаге принудительного завершения процессов отсутствует индикация в окне прогресса
+Version 8.6.2:
+• Added the missing message about terminating the app being updated;
 
 Version 8.6.1:
 • Upgraded the method that retrieves the changelog;

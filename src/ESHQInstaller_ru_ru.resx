@@ -523,4 +523,7 @@
   <data name="SUSComment_Fmt" xml:space="preserve">
     <value>Проект {0:S}, зарегистрирован через {1:S}</value>
   </data>
+  <data name="FinishingProcesses" xml:space="preserve">
+    <value>Завершение работы обновляемого приложения...</value>
+  </data>
 </root>

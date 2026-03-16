@@ -4,8 +4,8 @@ n:DPArray
 a:DPArray.dp
 i:INFOPAGE
 f:fvd
-v:8.6.1
-p:000B767A12AB452C
+v:8.6.2
+p:000B767A0C3087A1
 
 
 
@@ -54,9 +54,9 @@ n:JokesArray
 a:JokesArray.dpz
 f:0
 l:r
-v:3.8.1
-s:1889930
-p:00382BD31C9C406C
+v:3.8.2
+s:1890472
+p:00382FD30395086B
 
 n:KassArrayHC
 a:KassArrayHC.dpz
@@ -211,8 +211,8 @@ u:GIT_LINK/JokesArray/GIT_PATH/DEFFILE
 a:JokesArray.apk
 f:FV
 l:r
-v:3.8.1
-s:75044958
+v:3.8.2
+s:75012166
 
 n:KassArrayEC
 u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
@@ -276,7 +276,7 @@ n:JokesArray
 f:FVD
 l:r
 i:MS_STORE/9NZ7WMRX5SF3
-v:3.8.1
+v:3.8.2
 
 n:KassArrayEC
 f:FVD
@@ -330,7 +330,7 @@ n:JokesArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.GrammarMustJoy
 l:r
-v:3.8.1
+v:3.8.2
 
 n:KassArrayEC
 f:FVD
