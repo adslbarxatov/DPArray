@@ -62,9 +62,9 @@ n:KassArrayHC
 a:KassArrayHC.dpz
 f:F
 l:r
-v:8.0.7
-s:514822
-p:00116CC5FCFE98AE
+v:8.0.8
+s:514800
+p:00116CC51EB8F67E
 
 n:KassArrayEC
 a:KassArrayEC.dpz
@@ -86,9 +86,9 @@ n:KassArrayPR
 a:KassArrayPR.dpz
 f:F
 l:r
-v:8.0.7
-s:556467
-p:00135E648167BD30
+v:8.0.8
+s:556558
+p:00135E64FEC5B4EB
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
@@ -227,16 +227,16 @@ u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
 a:KassArrayHC.apk
 f:FV
 l:r
-v:8.0.7
-s:64394894
+v:8.0.8
+s:64423566
 
 n:KassArrayPR
 u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
 a:KassArrayPR.apk
 f:FV
 l:r
-v:8.0.7
-s:64267918
+v:8.0.8
+s:64296590
 
 n:Sudoku solver
 u:GIT_LINK/SudokuSolver/GIT_PATH/DEFFILE
@@ -288,13 +288,13 @@ n:KassArrayHC
 f:FVD
 l:r
 i:MS_STORE/9ND98F4C4Q60
-v:8.0.7
+v:8.0.8
 
 n:KassArrayPR
 f:FVD
 l:r
 i:MS_STORE/9NBKLN7493ZL
-v:8.0.7
+v:8.0.8
 
 n:Screen shooter
 f:FVD
@@ -342,13 +342,13 @@ n:KassArrayHC
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextToKKT
 l:r
-v:8.0.7
+v:8.0.8
 
 n:KassArrayPR
 f:FVD
 i:GP_STOREcom.RD_AAOW.KassArrayPR
 l:r
-v:8.0.7
+v:8.0.8
 
 n:Sudoku solver
 f:FVD
@@ -364,5 +364,8 @@ v:1.5.5
 
 me:Do you remember the ConcurrentDraw? Try to watch the music with it!
 
-mr:В составе пакета инструментов KassArray появилась служба наблюдения 
-mr:за сроками действия ФН и тарифов ОФД (для Windows и Android)
+mr:Вниманию пользователей. В связи с деструктивной активностью надзорного ведомства 
+mr:в сфере коммуникаций в отношении инфраструктуры Лаборатории онлайн-архив проекта 
+mr:JokesArray может оказаться недоступным в Российской Федерации. В этом случае 
+mr:приложение может быть переведено в оффлайн-режим и продолжить работу с ограниченной 
+mr:локальной копией архива. Остальной функционал проекта при этом полностью сохранится
