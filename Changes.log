@@ -1,5 +1,8 @@
 DPArray: changes log
 
+Version 8.6.3:
+• Removed the .NET 9.0 dependency check
+
 Version 8.6.2:
 • Added the missing message about terminating the app being updated
 

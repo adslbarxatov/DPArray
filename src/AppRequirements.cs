@@ -15,15 +15,20 @@
 		/// </summary>
 		VC_RTL = 0,
 
-		/// <summary>
+		/*/// <summary>
 		/// Microsoft .NET 9
 		/// </summary>
-		DotNet90 = 1,
+		DotNet90 = 1,*/
 
 		/// <summary>
 		/// Microsoft .NET 10
 		/// </summary>
-		DotNet100 = 2,
+		DotNet100 = 1,
+
+		/// <summary>
+		/// Зависимость по умолчанию для текущей сборки
+		/// </summary>
+		Default = DotNet100,
 
 		/// <summary>
 		/// Служебное поле – размер перечисления
@@ -198,7 +203,7 @@
 #endif
 
 				default:
-				case AppDefaultRequirements.DotNet90:
+				/*case AppDefaultRequirements.DotNet90:
 					downloadLink = "https://dotnet.microsoft.com/ru-ru/download/dotnet/thank-you/" +
 						"runtime-desktop-9.0.4-windows-x86-installer";
 					description = "Microsoft .NET 9.0";
@@ -216,7 +221,7 @@
 					catch { }
 
 					alreadyInstalled = (v >= 9);
-					break;
+					break;*/
 
 				case AppDefaultRequirements.DotNet100:
 					downloadLink = "https://dotnet.microsoft.com/ru-ru/download/dotnet/thank-you/" +
@@ -288,8 +293,8 @@
 					return "CPP+";
 
 				// Новые
-				case AppDefaultRequirements.DotNet90:
-					return "NF90+";
+				/*case AppDefaultRequirements.DotNet90:
+					return "NF90+";*/
 
 				case AppDefaultRequirements.DotNet100:
 					return "NF10+";
