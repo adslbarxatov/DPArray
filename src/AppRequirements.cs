@@ -15,11 +15,6 @@
 		/// </summary>
 		VC_RTL = 0,
 
-		/*/// <summary>
-		/// Microsoft .NET 9
-		/// </summary>
-		DotNet90 = 1,*/
-
 		/// <summary>
 		/// Microsoft .NET 10
 		/// </summary>
@@ -203,26 +198,6 @@
 #endif
 
 				default:
-				/*case AppDefaultRequirements.DotNet90:
-					downloadLink = "https://dotnet.microsoft.com/ru-ru/download/dotnet/thank-you/" +
-						"runtime-desktop-9.0.4-windows-x86-installer";
-					description = "Microsoft .NET 9.0";
-
-					s = RDGenerics.GetCustomRegistryValue (
-						"HKEY_LOCAL_MACHINE\\SOFTWARE\\dotnet\\Setup\\InstalledVersions\\x86\\hostfxr",
-						"Version"
-						);
-					v = 0;
-
-					try
-						{
-						v = uint.Parse (s.Substring (0, 1));
-						}
-					catch { }
-
-					alreadyInstalled = (v >= 9);
-					break;*/
-
 				case AppDefaultRequirements.DotNet100:
 					downloadLink = "https://dotnet.microsoft.com/ru-ru/download/dotnet/thank-you/" +
 						"runtime-desktop-10.0.0-windows-x86-installer";
@@ -293,9 +268,6 @@
 					return "CPP+";
 
 				// Новые
-				/*case AppDefaultRequirements.DotNet90:
-					return "NF90+";*/
-
 				case AppDefaultRequirements.DotNet100:
 					return "NF10+";
 				}

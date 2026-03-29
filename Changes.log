@@ -1,5 +1,8 @@
 DPArray: changes log
 
+Version 8.6.4:
+• Added support for the deployment order
+
 Version 8.6.3:
 • Removed the .NET 9.0 dependency check
 

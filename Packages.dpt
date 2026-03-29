@@ -3,9 +3,9 @@
 n:DPArray
 a:DPArray.dp
 i:INFOPAGE
-f:fvd
-v:8.6.3
-p:000B747A43A395D5
+f:0
+v:8.6.4
+p:000B767A43E785A2
 
 
 
@@ -58,14 +58,6 @@ v:3.8.2
 s:1890472
 p:00382FD30395086B
 
-n:KassArrayHC
-a:KassArrayHC.dpz
-f:FL
-l:r
-v:8.0.8
-s:514800
-p:00116CC51EB8F67E
-
 n:KassArrayEC
 a:KassArrayEC.dpz
 f:F
@@ -81,6 +73,14 @@ l:r
 v:8.0.7
 s:1406398
 p:002C704366196BEC
+
+n:KassArrayHC
+a:KassArrayHC.dpz
+f:FL
+l:r
+v:8.0.8
+s:514800
+p:00116CC51EB8F67E
 
 n:KassArrayPR
 a:KassArrayPR.dpz
