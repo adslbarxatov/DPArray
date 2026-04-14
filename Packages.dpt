@@ -60,27 +60,27 @@ p:00384BD39C451685
 
 n:KassArrayEC
 a:KassArrayEC.dpz
-f:F
+f:FL
 l:r
-v:8.0.8
-s:471132
-p:0010EBBA0515380B
+v:8.1
+s:471633
+p:0010EFBA40C110EE
 
 n:KassArrayFS
 a:KassArrayFS.dpz
 f:FL
 l:r
-v:8.0.9
-s:1406453
-p:002C72435DB7E48C
+v:8.1
+s:1408675
+p:002C92301F8243E9
 
 n:KassArrayHC
 a:KassArrayHC.dpz
 f:FL
 l:r
-v:8.0.9
-s:514953
-p:00116EC5DC4766BC
+v:8.1
+s:514961
+p:00116EC5270D5E73
 
 n:KassArrayPR
 a:KassArrayPR.dpz
@@ -219,15 +219,15 @@ u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
 a:KassArrayEC.apk
 f:FV
 l:r
-v:8.0.8
-s:64145038
+v:8.1
+s:64153230
 
 n:KassArrayHC
 u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
 a:KassArrayHC.apk
 f:FV
 l:r
-v:8.0.9
+v:8.1
 s:64431758
 
 n:KassArrayPR
@@ -282,13 +282,13 @@ n:KassArrayEC
 f:FVD
 l:r
 i:MS_STORE/9NGH9JN9KS2P
-v:8.0.8
+v:8.1
 
 n:KassArrayHC
 f:FVD
 l:r
 i:MS_STORE/9ND98F4C4Q60
-v:8.0.9
+v:8.1
 
 n:KassArrayPR
 f:FVD
@@ -336,13 +336,13 @@ n:KassArrayEC
 f:FVD
 i:GP_STOREcom.RD_AAOW.KassArrayEC
 l:r
-v:8.0.8
+v:8.1
 
 n:KassArrayHC
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextToKKT
 l:r
-v:8.0.9
+v:8.1
 
 n:KassArrayPR
 f:FVD
