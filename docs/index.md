@@ -189,7 +189,7 @@ A tool for batch processing of image files
 
 
 ### Font finder
-:us: :ru: &#x3000;
+:us: :ru: :br: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/FontFinder) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=x8pfSqAAGa0) &#x3000;
