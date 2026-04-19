@@ -1,5 +1,10 @@
 DPArray: changes log
 
+Version 8.6.5:
+• Implemented new localization support subsystem;
+• Updated the XPUN list;
+• Internal assemblies have been updated
+
 Version 8.6.4:
 • Added support for the deployment order
 

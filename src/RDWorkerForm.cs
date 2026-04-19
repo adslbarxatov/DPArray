@@ -224,7 +224,7 @@ namespace RD_AAOW
 				AbortButton.Visible = AbortButton.Enabled = AllowAbort;
 				if (AbortButton.Enabled)
 					{
-					AbortButton.Text = RDLocale.GetDefaultText (RDLDefaultTexts.Button_Cancel);
+					AbortButton.Text = RDLocale.GetDefaultText (RDLDefaultTexts.Button_Discontinue);
 					AbortButton.FlatAppearance.MouseDownBackColor =
 						RDInterface.GetInterfaceColor (RDInterfaceColors.DefaultEmerald);
 					}

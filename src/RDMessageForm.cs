@@ -167,13 +167,13 @@ namespace RD_AAOW
 			{
 			languageSelector = true;
 			RDMessageFormInit (RDMessageFlags.LeftText,
-				string.Format (RDLocale.GetDefaultText (RDLDefaultTexts.Message_LanguageSelection_Fmt),
-				RDLocale.LanguagesNames[(int)RDLocale.CurrentLanguage]),
+				RDLocale.GetDefaultText (RDLDefaultTexts.Message_LanguageSelection),
 
 				RDLocale.GetDefaultText (RDLDefaultTexts.Button_Apply),
 				RDLocale.GetDefaultText (RDLDefaultTexts.Button_Cancel),
-
-				null, CurrentInterfaceLanguage, 0);
+				null,
+				
+				CurrentInterfaceLanguage, 0);
 			}
 
 		/// <summary>
@@ -215,10 +215,12 @@ namespace RD_AAOW
 			if (languageSelector)
 				{
 				LanguagesCombo.Visible = true;
-				LanguagesCombo.Items.AddRange (RDLocale.LanguagesNames);
+				for (int i = 0; i < ProgramDescription.AssemblyLanguages.Length; i++)
+					LanguagesCombo.Items.Add (RDLocale.LanguagesNames[(byte)ProgramDescription.AssemblyLanguages[i]]);
+
 				try
 					{
-					LanguagesCombo.SelectedIndex = (int)CurrentInterfaceLanguage;
+					LanguagesCombo.Text = RDLocale.LanguagesNames[(byte)CurrentInterfaceLanguage];
 					}
 				catch
 					{
@@ -284,10 +286,10 @@ namespace RD_AAOW
 			if (!string.IsNullOrWhiteSpace (ButtonOneName))
 				{
 				Button01.Text = ButtonOneName;
-				if (Button01.Text.EndsWith (RDLocale.TabStopPreventor))
+				if (Button01.Text.EndsWith (RDLocale.TabStopPreventor2))
 					{
 					Button01.TabStop = false;
-					Button01.Text = Button01.Text.Replace (RDLocale.TabStopPreventor, "");
+					Button01.Text = Button01.Text.Replace (RDLocale.TabStopPreventor2, "");
 					}
 				else
 					{
@@ -303,10 +305,10 @@ namespace RD_AAOW
 			if (!string.IsNullOrWhiteSpace (ButtonTwoName))
 				{
 				Button02.Text = ButtonTwoName;
-				if (Button02.Text.EndsWith (RDLocale.TabStopPreventor))
+				if (Button02.Text.EndsWith (RDLocale.TabStopPreventor2))
 					{
 					Button02.TabStop = false;
-					Button02.Text = Button02.Text.Replace (RDLocale.TabStopPreventor, "");
+					Button02.Text = Button02.Text.Replace (RDLocale.TabStopPreventor2, "");
 					}
 				else
 					{
@@ -322,10 +324,10 @@ namespace RD_AAOW
 					else
 						{
 						Button03.Text = ButtonThreeName;
-						if (Button03.Text.EndsWith (RDLocale.TabStopPreventor))
+						if (Button03.Text.EndsWith (RDLocale.TabStopPreventor2))
 							{
 							Button03.TabStop = false;
-							Button03.Text = Button03.Text.Replace (RDLocale.TabStopPreventor, "");
+							Button03.Text = Button03.Text.Replace (RDLocale.TabStopPreventor2, "");
 							}
 						else
 							{
@@ -449,7 +451,7 @@ namespace RD_AAOW
 			if (resultButton == RDMessageButtons.ButtonOne)
 				{
 				if (languageSelector)
-					RDLocale.CurrentLanguage = (RDLanguages)LanguagesCombo.SelectedIndex;
+					RDLocale.CurrentLanguage = (RDLanguages)RDLocale.LanguagesNames.IndexOf (LanguagesCombo.Text);
 				else if (inputBox)
 					enteredText = InputTextBox.Text;
 				}
