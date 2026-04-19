@@ -172,19 +172,28 @@ n:ES: Randomaze
 a:ESRM_setup.dpz
 f:FV
 i:MODSHOST/esrm
-u:MODSTORAGE/293806?MOD_REFesrm
-v:7.0
-s:73901956
-p:06FE73103403C310
+u:MODSTORAGE/308007?MOD_REFesrm
+v:7.3
+s:91370429
+p:0814320E8495FF92
 
 n:ES: Randomaze, actual update
 a:ESRM_update.dpz
+f:L
+i:MODSHOST/esrm
+u:MODSTORAGE/308008?MOD_REFesrm
+v:7.3.1
+s:2945626
+p:00680297859D30C1
+
+n:ES: Randomaze, backward compat.
+a:ESRM_backward.dpz
 f:0
 i:MODSHOST/esrm
-u:MODSTORAGE/301138?MOD_REFesrm
-v:7.2.2
-s:10817935
-p:010CA1933F9337A9
+u:MODSTORAGE/308005?MOD_REFesrm
+v:7.3
+s:70473035
+p:052325AB73BC2C43
 
 n:Crazy cheater’s mod
 a:CCM.7z
