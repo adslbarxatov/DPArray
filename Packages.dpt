@@ -15,15 +15,15 @@ g:1
 n:Batch image convertor
 a:BatchImageConvertor.dpz
 f:F
-v:5.2.5
-s:2387759
-p:0061F1BD358840BF
+v:5.2.6
+s:2393582
+p:006237BDEA27814E
 
 n:ConcurrentDraw
 a:ConcurrentDraw.dp
 f:F
-v:3.8.4
-p:000C84183AD99CD5
+v:3.8.5
+p:000C5618566DB1A3
 
 n:Dates difference
 a:DatesDifference.dp
