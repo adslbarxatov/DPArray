@@ -34,14 +34,14 @@ p:0009DB20C1F93D9A
 n:File associations manager
 a:FileAssociationsManager.dp
 f:0
-v:3.3.3
-p:000B475CA5D154F3
+v:3.3.4
+p:000B8D5C14423F59
 
 n:Font finder
 a:FontFinder.dp
 f:0
-v:4.0.3
-p:000E060EF6D8E6D0
+v:4.0.4
+p:000E060EFABCBCCD
 
 n:GraphArray
 a:GraphArray.dpz
@@ -274,7 +274,7 @@ v:3.9.5
 n:Font finder
 f:FVD
 i:MS_STORE/9MXDR4BXP8R4
-v:4.0.3
+v:4.0.4
 
 n:GraphArray
 f:FVD
