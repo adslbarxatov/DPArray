@@ -93,20 +93,20 @@ p:0013806495BA22E1
 n:OS macros executor
 a:OSMacrosExecutor.dp
 f:F
-v:3.10
-p:000D311951E0B970
+v:3.10.1
+p:000D79190DF3A891
 
 n:Screen shooter
 a:ScreenShooter.dp
 f:0
-v:3.6.3
-p:000A2946200BC547
+v:3.6.4
+p:000A6F4680EF8125
 
 n:Sudoku solver
 a:SudokuSolver.dp
 f:0
-v:5.6.1
-p:000BBD82D1E02A80
+v:5.6.2
+p:000C03824D913027
 
 n:TextStats
 a:TextStats.dp
@@ -251,8 +251,8 @@ n:Sudoku solver
 u:GIT_LINK/SudokuSolver/GIT_PATH/DEFFILE
 a:SudokuSolver.apk
 f:FV
-v:5.6.1
-s:64563118
+v:5.6.2
+s:64579502
 
 n:TextStats
 u:GIT_LINK/TextStats/GIT_PATH/DEFFILE
@@ -308,12 +308,12 @@ v:8.1.1
 n:Screen shooter
 f:FVD
 i:MS_STORE/9NHVH857DV1S
-v:3.6.3
+v:3.6.4
 
 n:Sudoku solver
 f:FVD
 i:MS_STORE/9NZ1DLGFK0WZ
-v:5.6.1
+v:5.6.2
 
 n:TextStats
 f:FVD
@@ -362,7 +362,7 @@ v:8.1.1
 n:Sudoku solver
 f:FVD
 i:GP_STOREcom.RD_AAOW.SudokuSolver
-v:5.6.1
+v:5.6.2
 
 n:TextStats
 f:FVD
