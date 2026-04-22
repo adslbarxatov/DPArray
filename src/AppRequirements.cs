@@ -158,7 +158,8 @@
 						"Microsoft.VS.VC_RuntimeAdditionalVSU_x86,v14",
 						"Version");
 
-					alreadyInstalled = s.StartsWith ("14.3") || s.StartsWith ("14.4") || s.StartsWith ("14.5");
+					alreadyInstalled = s.StartsWith ("14.0") || s.StartsWith ("14.1") || s.StartsWith ("14.2") ||
+						s.StartsWith ("14.3") || s.StartsWith ("14.4") || s.StartsWith ("14.5");
 					break;
 
 #if SQL_NET60

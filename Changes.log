@@ -1,7 +1,12 @@
 DPArray: changes log
 
+Version 8.6.6:
+• Removed support for DP17 packages version (no need anymore);
+• Removed support for outdated script markers;
+• Fixed the detection of the VCRedist installed version
+
 Version 8.6.5:
-• Implemented new localization support subsystem;
+• Implemented the new localization support subsystem;
 • Updated the XPUN list;
 • Internal assemblies have been updated
 

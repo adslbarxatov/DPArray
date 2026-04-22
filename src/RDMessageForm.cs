@@ -216,11 +216,11 @@ namespace RD_AAOW
 				{
 				LanguagesCombo.Visible = true;
 				for (int i = 0; i < ProgramDescription.AssemblyLanguages.Length; i++)
-					LanguagesCombo.Items.Add (RDLocale.LanguagesNames[(byte)ProgramDescription.AssemblyLanguages[i]]);
+					LanguagesCombo.Items.Add (RDLocale.LanguagesNamesList[(byte)ProgramDescription.AssemblyLanguages[i]]);
 
 				try
 					{
-					LanguagesCombo.Text = RDLocale.LanguagesNames[(byte)CurrentInterfaceLanguage];
+					LanguagesCombo.Text = RDLocale.LanguagesNamesList[(byte)CurrentInterfaceLanguage];
 					}
 				catch
 					{
@@ -451,7 +451,7 @@ namespace RD_AAOW
 			if (resultButton == RDMessageButtons.ButtonOne)
 				{
 				if (languageSelector)
-					RDLocale.CurrentLanguage = (RDLanguages)RDLocale.LanguagesNames.IndexOf (LanguagesCombo.Text);
+					RDLocale.CurrentLanguage = ProgramDescription.AssemblyLanguages[LanguagesCombo.SelectedIndex];
 				else if (inputBox)
 					enteredText = InputTextBox.Text;
 				}
