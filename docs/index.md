@@ -613,7 +613,10 @@ Network: TON
 Liquidity provided in pairs: USDT/FDL, TON/FDL, STON/FDL
 Creation date: 05/22/24
 Editable: no (admin rights revoked)
-Mining: not available (quantity fixed at 2³² units)
+Mining: not available
+- Initial volume: 2³²
+- Burned volume: 5 × 2²⁸
+- Current volume: 11 × 2²⁸
 Decimal places: 4
 ```
 
