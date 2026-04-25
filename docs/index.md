@@ -204,6 +204,20 @@ A tool for finding a font by its image
 
 
 
+### Name updater
+:us: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/NameUpdater) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://NameUpdater) &#x3000;
+:envelope_with_arrow: [Get MSI](https://github.com/adslbarxatov/NameUpdater/releases/latest/download/NameUpdater.msi) &#x3000;
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/NameUpdater/releases/latest/download/NameUpdater.exe)
+
+Tool for updating file names according to complex rules
+
+&nbsp;
+
+
+
 ### ESHQ
 :us: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
@@ -667,6 +681,7 @@ subsequently be used as a trading asset (we have decentralized this token and do
 [Keyboard switcher](#keyboard-switcher) &#x3000;
 [Mafia helper](#mafia-helper) &#x3000;
 [Make decision](#make-decision) &#x3000;
+[Name updater](#name-updater) &#x3000;
 [One hundred and one](#one-hundred-and-one) &#x3000;
 [OS macros executor](#os-macros-executor) &#x3000;
 [Races](#races) &#x3000;
