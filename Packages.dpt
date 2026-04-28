@@ -93,8 +93,8 @@ p:0013806495BA22E1
 n:Name updater
 a:NameUpdater.dp
 f:0
-v:0.9
-p:00096110B1CA3BAB
+v:1.0
+p:000A2110D375D400
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
@@ -314,7 +314,7 @@ v:8.1.1
 n:Name updater
 f:FVD
 i:MS_STORE/9MZ32VGK6SF2
-v:0.9
+v:1.0
 
 n:Screen shooter
 f:FVD
