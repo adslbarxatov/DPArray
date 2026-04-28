@@ -205,7 +205,7 @@ A tool for finding a font by its image
 
 
 ### Name updater
-:us: &#x3000;
+:us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/NameUpdater) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://NameUpdater) &#x3000;
