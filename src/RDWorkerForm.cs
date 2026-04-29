@@ -328,7 +328,7 @@ namespace RD_AAOW
 			// Собственно, выполняемый процесс
 			for (int i = 0; i < ProgressBarSize; i++)
 				{
-				System.Threading.Thread.Sleep (500);
+				Thread.Sleep (500);
 				bw.ReportProgress (i);  // Возврат прогресса
 
 				// Завершение работы, если получено требование от диалога

@@ -286,10 +286,10 @@ namespace RD_AAOW
 			if (!string.IsNullOrWhiteSpace (ButtonOneName))
 				{
 				Button01.Text = ButtonOneName;
-				if (Button01.Text.EndsWith (RDLocale.TabStopPreventor2))
+				if (Button01.Text.EndsWith (RDLocale.TabStopPreventor))
 					{
 					Button01.TabStop = false;
-					Button01.Text = Button01.Text.Replace (RDLocale.TabStopPreventor2, "");
+					Button01.Text = Button01.Text.Replace (RDLocale.TabStopPreventor, "");
 					}
 				else
 					{
@@ -305,10 +305,10 @@ namespace RD_AAOW
 			if (!string.IsNullOrWhiteSpace (ButtonTwoName))
 				{
 				Button02.Text = ButtonTwoName;
-				if (Button02.Text.EndsWith (RDLocale.TabStopPreventor2))
+				if (Button02.Text.EndsWith (RDLocale.TabStopPreventor))
 					{
 					Button02.TabStop = false;
-					Button02.Text = Button02.Text.Replace (RDLocale.TabStopPreventor2, "");
+					Button02.Text = Button02.Text.Replace (RDLocale.TabStopPreventor, "");
 					}
 				else
 					{
@@ -324,10 +324,10 @@ namespace RD_AAOW
 					else
 						{
 						Button03.Text = ButtonThreeName;
-						if (Button03.Text.EndsWith (RDLocale.TabStopPreventor2))
+						if (Button03.Text.EndsWith (RDLocale.TabStopPreventor))
 							{
 							Button03.TabStop = false;
-							Button03.Text = Button03.Text.Replace (RDLocale.TabStopPreventor2, "");
+							Button03.Text = Button03.Text.Replace (RDLocale.TabStopPreventor, "");
 							}
 						else
 							{

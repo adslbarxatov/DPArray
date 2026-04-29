@@ -1,5 +1,10 @@
 DPArray: changes log
 
+Version 8.6.7:
+• Added labels for new apps to the mini-launcher;
+• Removed support for DP18 packages version (no need anymore);
+• Localization support methods have been updated
+
 Version 8.6.6:
 • Removed support for DP17 packages version (no need anymore);
 • Removed support for outdated script markers;
