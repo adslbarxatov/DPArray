@@ -84,11 +84,11 @@ p:00118EC5D2205BAA
 
 n:KassArrayPR
 a:KassArrayPR.dpz
-f:F
+f:FL
 l:r
-v:8.1.1
-s:565764
-p:0013806495BA22E1
+v:8.1.2
+s:565923
+p:00138464A3EDA612
 
 n:Name updater
 a:NameUpdater.dp
@@ -250,8 +250,8 @@ u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
 a:KassArrayPR.apk
 f:FV
 l:r
-v:8.1.1
-s:64312974
+v:8.1.2
+s:64333454
 
 n:Sudoku solver
 u:GIT_LINK/SudokuSolver/GIT_PATH/DEFFILE
@@ -309,7 +309,7 @@ n:KassArrayPR
 f:FVD
 l:r
 i:MS_STORE/9NBKLN7493ZL
-v:8.1.1
+v:8.1.2
 
 n:Name updater
 f:FVD
@@ -368,7 +368,7 @@ n:KassArrayPR
 f:FVD
 i:GP_STOREcom.RD_AAOW.KassArrayPR
 l:r
-v:8.1.1
+v:8.1.2
 
 n:Sudoku solver
 f:FVD
