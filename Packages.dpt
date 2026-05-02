@@ -93,8 +93,8 @@ p:00138464A3EDA612
 n:Name updater
 a:NameUpdater.dp
 f:0
-v:1.0
-p:000A2110D375D400
+v:1.1
+p:000A2D100FFF555E
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
@@ -117,8 +117,8 @@ p:000C03824D913027
 n:TextStats
 a:TextStats.dp
 f:0
-v:1.5.6
-p:000A796A12E937DE
+v:1.5.7
+p:000A7B6AEE13F40E
 
 n:UniNotifier
 a:UniNotifier.dp
@@ -264,8 +264,8 @@ n:TextStats
 u:GIT_LINK/TextStats/GIT_PATH/DEFFILE
 a:TextStats.apk
 f:FV
-v:1.5.6
-s:64431758
+v:1.5.7
+s:64448142
 
 
 
@@ -314,7 +314,7 @@ v:8.1.2
 n:Name updater
 f:FVD
 i:MS_STORE/9MZ32VGK6SF2
-v:1.0
+v:1.1
 
 n:Screen shooter
 f:FVD
@@ -329,7 +329,7 @@ v:5.6.2
 n:TextStats
 f:FVD
 i:MS_STORE/9PJRQFC4F6RK
-v:1.5.6
+v:1.5.7
 
 n:UniNotifier
 f:FVD
@@ -378,7 +378,7 @@ v:5.6.2
 n:TextStats
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextStats
-v:1.5.6
+v:1.5.7
 
 
 
