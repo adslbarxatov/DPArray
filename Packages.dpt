@@ -4,8 +4,8 @@ n:DPArray
 a:DPArray.dp
 i:INFOPAGE
 f:0
-v:8.6.7
-p:000BBA3271B4044F
+v:8.6.8
+p:000BB832DD30C83E
 
 
 
@@ -15,21 +15,21 @@ g:1
 n:Batch image convertor
 a:BatchImageConvertor.dpz
 f:F
-v:5.2.7
-s:2393527
-p:006235BDA235B8C6
+v:5.2.8
+s:2393374
+p:006231BD9D94FF55
 
 n:ConcurrentDraw
 a:ConcurrentDraw.dp
 f:F
-v:3.8.6
-p:000C5618EBF00C27
+v:3.8.7
+p:000C581815C1DFEB
 
 n:Dates difference
 a:DatesDifference.dp
 f:0
-v:3.9.5
-p:0009DB20C1F93D9A
+v:3.9.6
+p:0009DB20B128453A
 
 n:File associations manager
 a:FileAssociationsManager.dp
@@ -218,8 +218,8 @@ n:Dates difference
 u:GIT_LINK/DatesDifference/GIT_PATH/DEFFILE
 a:DatesDifference.apk
 f:FV
-v:3.9.5
-s:64386702
+v:3.9.6
+s:64321166
 
 n:JokesArray
 u:GIT_LINK/JokesArray/GIT_PATH/DEFFILE
@@ -275,7 +275,7 @@ g:4
 n:Dates difference
 f:FVD
 i:MS_STORE/9NRQ4LQZNKKG
-v:3.9.5
+v:3.9.6
 
 n:Font finder
 f:FVD
@@ -344,7 +344,7 @@ g:5
 n:Dates difference
 f:FVD
 i:GP_STOREcom.RD_AAOW.DatesDifference
-v:3.9.5
+v:3.9.6
 
 n:JokesArray
 f:FVD
@@ -386,6 +386,8 @@ me:New results interface in Sudoku solver! Achievements are fair now!
 
 mr:Вниманию пользователей. В связи с деструктивной активностью надзорного ведомства 
 mr:в сфере коммуникаций в отношении инфраструктуры Лаборатории онлайн-архив проекта 
-mr:JokesArray может оказаться недоступным в Российской Федерации. В этом случае 
-mr:приложение может быть переведено в оффлайн-режим и продолжить работу с ограниченной 
-mr:локальной копией архива. Остальной функционал проекта при этом полностью сохранится
+mr:JokesArray может оказаться недоступным в Российской Федерации. Это же касается загрузки 
+mr:игровых модов через DPArray. В этом случае приложение JokesArray 
+mr:может быть переведено в оффлайн-режим и продолжить работу с ограниченной 
+mr:локальной копией архива. Остальной функционал проекта при этом полностью сохранится.
+mr:Загрузка же модов окажется возможной только напрямую с сайта moddb.com

@@ -222,7 +222,7 @@
   <data name="SpecifyModPath" xml:space="preserve">
     <value>Укажите путь развёртки:</value>
   </data>
-  <data name="UninstallRadioText" xml:space="preserve">
+  <data name="UninstallRadio" xml:space="preserve">
     <value>Удаление: деинсталляция программы</value>
   </data>
   <data name="UpdateMessage1_Update" xml:space="preserve">
@@ -325,16 +325,16 @@
   <data name="AppIsNotClosed" xml:space="preserve">
     <value>Обновляемое / удаляемое приложение активно. Завершите работу с ним и повторите попытку</value>
   </data>
-  <data name="KillProcessFlagText" xml:space="preserve">
+  <data name="KillProcessFlag" xml:space="preserve">
     <value>Остановить приложение, если оно запущено</value>
   </data>
-  <data name="StartProcessFlagText" xml:space="preserve">
+  <data name="StartProcessFlag" xml:space="preserve">
     <value>Запустить приложение после завершения</value>
   </data>
   <data name="PackageSelectorForm_BAbout" xml:space="preserve">
     <value>&amp;О приложении</value>
   </data>
-  <data name="CloseOnSuccessFlagText" xml:space="preserve">
+  <data name="CloseOnSuccessFlag" xml:space="preserve">
     <value>Выйти при успешном завершении</value>
   </data>
   <data name="dpdfile" xml:space="preserve">
@@ -361,7 +361,7 @@
   <data name="PSF_TableHeader04" xml:space="preserve">
     <value>Описание</value>
   </data>
-  <data name="AllowDesktopShortcutsFlagText" xml:space="preserve">
+  <data name="AllowDesktopShortcutsFlag" xml:space="preserve">
     <value>Требуются ярлыки на рабочем столе</value>
   </data>
   <data name="RequiredUpdate" xml:space="preserve">
@@ -413,7 +413,7 @@
 
 В списке пакетов обновления выделены жёлтым цветом. В нижней части окна также доступна фильтрация по признаку «только обновления»</value>
   </data>
-  <data name="AllowMenuShortcutsFlagText" xml:space="preserve">
+  <data name="AllowMenuShortcutsFlag" xml:space="preserve">
     <value>Требуются ярлыки в меню Пуск</value>
   </data>
   <data name="VersionLine" xml:space="preserve">
@@ -451,7 +451,7 @@
   <data name="dptfile" xml:space="preserve">
     <value>Вспомогательный скрипт DPArray</value>
   </data>
-  <data name="AllowStartupShortcutsFlagText" xml:space="preserve">
+  <data name="AllowStartupShortcutsFlag" xml:space="preserve">
     <value>Запускать при старте системы</value>
   </data>
   <data name="WelcomeMessage" xml:space="preserve">

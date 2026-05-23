@@ -222,7 +222,7 @@ Most likely this product has not been installed on this PC before. If this is no
   <data name="SpecifyModPath" xml:space="preserve">
     <value>Specify the deployment path:</value>
   </data>
-  <data name="UninstallRadioText" xml:space="preserve">
+  <data name="UninstallRadio" xml:space="preserve">
     <value>Uninstall: the app uninstallation</value>
   </data>
   <data name="UpdateMessage1_Update" xml:space="preserve">
@@ -325,16 +325,16 @@ Do you want to save a cache of package descriptions? When deleted, they will be 
   <data name="AppIsNotClosed" xml:space="preserve">
     <value>The application being updated / deleted is running. Finish this app and try again</value>
   </data>
-  <data name="KillProcessFlagText" xml:space="preserve">
+  <data name="KillProcessFlag" xml:space="preserve">
     <value>Stop application if it’s running</value>
   </data>
-  <data name="StartProcessFlagText" xml:space="preserve">
+  <data name="StartProcessFlag" xml:space="preserve">
     <value>Start application after completion</value>
   </data>
   <data name="PackageSelectorForm_BAbout" xml:space="preserve">
     <value>A&amp;bout the app</value>
   </data>
-  <data name="CloseOnSuccessFlagText" xml:space="preserve">
+  <data name="CloseOnSuccessFlag" xml:space="preserve">
     <value>Exit if completed successfully</value>
   </data>
   <data name="dpdfile" xml:space="preserve">
@@ -361,7 +361,7 @@ Do you want to save a cache of package descriptions? When deleted, they will be 
   <data name="PSF_TableHeader04" xml:space="preserve">
     <value>Description</value>
   </data>
-  <data name="AllowDesktopShortcutsFlagText" xml:space="preserve">
+  <data name="AllowDesktopShortcutsFlag" xml:space="preserve">
     <value>Need shortcuts on the desktop</value>
   </data>
   <data name="RequiredUpdate" xml:space="preserve">
@@ -413,7 +413,7 @@ The app will use default path for this product. If it’s not correct, click “
 
 Updates are highlighted in yellow in the packages list. At the bottom of the window, filtering is also available on the basis of “updates only”</value>
   </data>
-  <data name="AllowMenuShortcutsFlagText" xml:space="preserve">
+  <data name="AllowMenuShortcutsFlag" xml:space="preserve">
     <value>Need shortcuts in the Start menu</value>
   </data>
   <data name="VersionLine" xml:space="preserve">
@@ -451,7 +451,7 @@ Do you want to open the webpage with additional project info?</value>
   <data name="dptfile" xml:space="preserve">
     <value>DPArray auxiliary script</value>
   </data>
-  <data name="AllowStartupShortcutsFlagText" xml:space="preserve">
+  <data name="AllowStartupShortcutsFlag" xml:space="preserve">
     <value>Run at system startup</value>
   </data>
   <data name="WelcomeMessage" xml:space="preserve">
