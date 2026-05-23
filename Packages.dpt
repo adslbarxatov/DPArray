@@ -151,10 +151,10 @@ n:ESHQ, actual update
 a:ESHQ_update.dpz
 f:L
 i:MODSHOST/eshq
-u:MODSTORAGE/307712?MOD_REFeshq
-v:14.7.1
-s:2361394
-p:0054989044CD77C5
+u:MODSTORAGE/309780?MOD_REFeshq
+v:14.7.2
+s:17063348
+p:02DFE218EDC669B2
 
 n:ESHQ, backward compat.
 a:ESHQ_backward.dpz
@@ -187,10 +187,10 @@ n:ES: Randomaze, actual update
 a:ESRM_update.dpz
 f:L
 i:MODSHOST/esrm
-u:MODSTORAGE/308008?MOD_REFesrm
-v:7.3.1
-s:2945626
-p:00680297859D30C1
+u:MODSTORAGE/309782?MOD_REFesrm
+v:7.3.2
+s:2942386
+p:00685E9765D93058
 
 n:ES: Randomaze, backward compat.
 a:ESRM_backward.dpz
