@@ -58,37 +58,45 @@ v:3.9.1
 s:1903070
 p:0038FDD3F1B09187
 
+n:KassArrayDA
+a:KassArrayDA.dpz
+f:F
+l:r
+v:8.2
+s:542924
+p:001319791301ADD4
+
 n:KassArrayEC
 a:KassArrayEC.dpz
 f:F
 l:r
-v:8.1.5
-s:481426
-p:001113BAA8DD53C6
+v:8.2
+s:481374
+p:001113CD5D030D00
 
 n:KassArrayFS
 a:KassArrayFS.dpz
 f:F
 l:r
-v:8.1.5
-s:1419394
-p:002CB243C286A9EA
+v:8.2
+s:1419429
+p:002CB24347A07EF3
 
 n:KassArrayHC
 a:KassArrayHC.dpz
 f:F
 l:r
-v:8.1.5
-s:520411
-p:00118D11B06C2EB3
+v:8.2
+s:520379
+p:00118B24233930A0
 
 n:KassArrayPR
 a:KassArrayPR.dpz
 f:F
 l:r
-v:8.1.5
-s:566762
-p:001382647128AD3A
+v:8.2
+s:566796
+p:00138264F00680A0
 
 n:Name updater
 a:NameUpdater.dp
