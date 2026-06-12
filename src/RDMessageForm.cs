@@ -220,7 +220,7 @@ namespace RD_AAOW
 
 				try
 					{
-					LanguagesCombo.Text = RDLocale.LanguagesNamesList[(byte)CurrentInterfaceLanguage];
+					LanguagesCombo.Text =  RDLocale.LanguagesNamesList[(byte)CurrentInterfaceLanguage];
 					}
 				catch
 					{
@@ -298,7 +298,7 @@ namespace RD_AAOW
 				}
 			else
 				{
-				Button01.Text = RDLocale.GetDefaultText (RDLDefaultTexts.Button_OK);
+				RDLocale.SetDefaultControlText (Button01, RDLDefaultTexts.Button_OK);
 				AcceptButton = Button01;
 				}
 

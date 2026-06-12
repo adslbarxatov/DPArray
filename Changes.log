@@ -1,5 +1,8 @@
 DPArray: changes log
 
+Version 8.6.9:
+• Added support for new tools in the mini-launcher
+
 Version 8.6.8:
 • Removed support for DP19 packages version (no need anymore);
 • Internal assemblies have been updated
