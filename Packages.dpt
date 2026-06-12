@@ -70,9 +70,9 @@ n:KassArrayEC
 a:KassArrayEC.dpz
 f:F
 l:r
-v:8.2
-s:481374
-p:001113CD5D030D00
+v:8.2.1
+s:481422
+p:001113CD893D6E48
 
 n:KassArrayFS
 a:KassArrayFS.dpz
@@ -242,8 +242,8 @@ u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
 a:KassArrayEC.apk
 f:FV
 l:r
-v:8.1.5
-s:64095886
+v:8.2.1
+s:64108174
 
 n:KassArrayHC
 u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
@@ -311,7 +311,7 @@ n:KassArrayEC
 f:FVD
 l:r
 i:MS_STORE/9NGH9JN9KS2P
-v:8.1.5
+v:8.2.1
 
 n:KassArrayHC
 f:FVD
@@ -370,7 +370,7 @@ n:KassArrayEC
 f:FVD
 i:GP_STOREcom.RD_AAOW.KassArrayEC
 l:r
-v:8.1.5
+v:8.2.1
 
 n:KassArrayHC
 f:FVD
