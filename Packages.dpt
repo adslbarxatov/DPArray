@@ -60,11 +60,11 @@ p:003907D39D0E1B81
 
 n:KassArrayDA
 a:KassArrayDA.dpz
-f:F
+f:FL
 l:r
-v:8.3.1
-s:546169
-p:001349790F615421
+v:8.3.2
+s:548378
+p:00135979E6E5E613
 
 n:KassArrayEC
 a:KassArrayEC.dpz
@@ -305,7 +305,7 @@ n:KassArrayDA
 f:FVD
 l:r
 i:MS_STORE/9P5JHTR36SDS
-v:8.3
+v:8.3.2
 
 n:KassArrayEC
 f:FVD
