@@ -34,8 +34,8 @@ p:0009DB20B128453A
 n:File associations manager
 a:FileAssociationsManager.dp
 f:0
-v:3.3.5
-p:000B8D5C6E751DFE
+v:3.3.6
+p:000B8D5CE0CB62A7
 
 n:Font finder
 a:FontFinder.dp
@@ -107,8 +107,8 @@ p:000A2F1041AA160D
 n:OS macros executor
 a:OSMacrosExecutor.dp
 f:F
-v:3.10.2
-p:000D7119C7B8627E
+v:4.0
+p:000D7119092C5A16
 
 n:Screen shooter
 a:ScreenShooter.dp
