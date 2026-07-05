@@ -125,8 +125,8 @@ p:000C018205C48AD2
 n:TextStats
 a:TextStats.dp
 f:0
-v:1.5.8
-p:000A7B6A9C7E1F61
+v:1.5.9
+p:000A7B6AB3425A8E
 
 n:UniNotifier
 a:UniNotifier.dp
@@ -137,9 +137,9 @@ p:00080EC8BCB6ADD2
 n:Vice city toolset
 a:ViceCityToolset.dpz
 f:F
-v:4.10.6
-s:1523627
-p:00229918BEF19C7F
+v:4.11
+s:1523642
+p:0022991856275AB8
 
 
 
@@ -272,8 +272,8 @@ n:TextStats
 u:GIT_LINK/TextStats/GIT_PATH/DEFFILE
 a:TextStats.apk
 f:FV
-v:1.5.8
-s:64366222
+v:1.5.9
+s:64288398
 
 
 
@@ -343,7 +343,7 @@ v:5.6.4
 n:TextStats
 f:FVD
 i:MS_STORE/9PJRQFC4F6RK
-v:1.5.8
+v:1.5.9
 
 n:UniNotifier
 f:FVD
@@ -392,7 +392,7 @@ v:5.6.4
 n:TextStats
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextStats
-v:1.5.8
+v:1.5.9
 
 
 
