@@ -174,7 +174,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/KassArrayHC) &#x3000;
-:film_projector: [Видеопрезентация](https://youtube.com/watch?v=JthL3l7vy6E) &#x3000;
+:film_projector: [Видеопрезентация](https://youtube.com/watch?v=KYvMss1DWs4) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KassArrayHC) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9ND98F4C4Q60) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/KassArrayHC/releases/latest) &#x3000;
@@ -193,7 +193,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/KassArrayFS) &#x3000;
-:film_projector: [Видеопрезентация](https://youtube.com/watch?v=JthL3l7vy6E) &#x3000;
+:film_projector: [Видеопрезентация](https://youtube.com/watch?v=KYvMss1DWs4) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KassArrayFS) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/KassArrayFS/releases/latest)
 
@@ -209,7 +209,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/KassArrayPR) &#x3000;
-:film_projector: [Видеопрезентация](https://youtube.com/watch?v=JthL3l7vy6E) &#x3000;
+:film_projector: [Видеопрезентация](https://youtube.com/watch?v=KYvMss1DWs4) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KassArrayPR) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NBKLN7493ZL) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/KassArrayPR/releases/latest) &#x3000;
@@ -228,7 +228,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/KassArrayEC) &#x3000;
-:film_projector: [Видеопрезентация](https://youtube.com/watch?v=JthL3l7vy6E) &#x3000;
+:film_projector: [Видеопрезентация](https://youtube.com/watch?v=KYvMss1DWs4) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KassArrayEC) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NGH9JN9KS2P) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/KassArrayEC/releases/latest) &#x3000;
@@ -246,12 +246,13 @@ DPArray выполняет установку, деинсталляцию, пр�
 :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/KassArrayDA) &#x3000;
+:film_projector: [Видеопрезентация](https://youtube.com/watch?v=KYvMss1DWs4) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KassArrayDA) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9P5JHTR36SDS) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/KassArrayDA/releases/latest)
 
 Приложение позволяет обрабатывать выгрузки фискальных документов из личных
-кабинетов операторов фискальных данных. Является альтернативой платным опциям
+кабинетов операторов фискальных данных и физических ФН. Является альтернативой платным опциям
 ОФД, реализующим тот же функционал, а также неисправным обработчикам данных,
 встечающимся у некоторых поставщиков услуг
 
