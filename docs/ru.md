@@ -93,18 +93,18 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 
 
-### Sudoku solver
+### SudokuArray
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
-:page_with_curl: [Руководство](https://adslbarxatov.github.io/SudokuSolver/ru) &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/SudokuArray/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=JB-FBikQ92k) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://SudokuSolver) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://SudokuArray) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NZ1DLGFK0WZ) &#x3000;
-:envelope_with_arrow: [В виде MSI](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.msi) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.exe) &#x3000;
+:envelope_with_arrow: [В виде MSI](https://github.com/adslbarxatov/SudokuArray/releases/latest/download/SudokuArray.msi) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/SudokuArray/releases/latest/download/SudokuArray.exe) &#x3000;
 :iphone: [На Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.SudokuSolver) &#x3000;
-:package: [В виде APK](https://github.com/adslbarxatov/SudokuSolver/releases/latest/download/SudokuSolver.apk)
+:package: [В виде APK](https://github.com/adslbarxatov/SudokuArray/releases/latest/download/SudokuArray.apk)
 
 Инструмент для решения судоку
 
@@ -840,7 +840,7 @@ ES: Randomaze – генератор карт для одноимённого м
 [Races](#races) &#x3000;
 [Screen shooter](#screen-shooter) &#x3000;
 [Snake](#snake) &#x3000;
-[Sudoku solver](#sudoku-solver) &#x3000;
+[SudokuArray](#sudokuarray) &#x3000;
 [Turtle](#turtle) &#x3000;
 [Tablepedia notifier](#tablepedia-viewer) &#x3000;
 [TextStats](#textstats) &#x3000;
