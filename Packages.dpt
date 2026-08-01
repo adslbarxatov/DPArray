@@ -116,11 +116,11 @@ f:0
 v:3.6.6
 p:000A6F460AA5F500
 
-n:Sudoku solver
+n:SudokuArray
 a:SudokuSolver.dp
 f:0
-v:5.6.6
-p:000C038209E78C57
+v:6.0
+p:000C9F16308C6208
 
 n:TextStats
 a:TextStats.dp
@@ -261,12 +261,12 @@ l:r
 v:8.3.5
 s:64194207
 
-n:Sudoku solver
+n:SudokuArray
 u:GIT_LINK/SudokuSolver/GIT_PATH/DEFFILE
 a:SudokuSolver.apk
 f:FV
-v:5.6.6
-s:64599999
+v:6.0
+s:64616383
 
 n:TextStats
 u:GIT_LINK/TextStats/GIT_PATH/DEFFILE
@@ -335,10 +335,10 @@ f:FVD
 i:MS_STORE/9NHVH857DV1S
 v:3.6.6
 
-n:Sudoku solver
+n:SudokuArray
 f:FVD
 i:MS_STORE/9NZ1DLGFK0WZ
-v:5.6.6
+v:6.0
 
 n:TextStats
 f:FVD
@@ -384,10 +384,10 @@ i:GP_STOREcom.RD_AAOW.KassArrayPR
 l:r
 v:8.3.5
 
-n:Sudoku solver
+n:SudokuArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.SudokuSolver
-v:5.6.6
+v:6.0
 
 n:TextStats
 f:FVD
@@ -396,12 +396,14 @@ v:1.6.1
 
 
 
-me:New results interface in Sudoku solver! Achievements are fair now!
+me:Sudoku solver is now SudokuArray! Check our its new features!
 
-mr:Вниманию пользователей. В связи с деструктивной активностью надзорного ведомства 
-mr:в сфере коммуникаций в отношении инфраструктуры Лаборатории онлайн-архив проекта 
-mr:JokesArray может оказаться недоступным в Российской Федерации. Это же касается загрузки 
-mr:игровых модов через DPArray.||В этом случае приложение JokesArray 
-mr:может быть переведено в оффлайн-режим и продолжить работу с ограниченной 
-mr:локальной копией архива. Остальной функционал проекта при этом полностью сохранится. 
-mr:Загрузка же модов окажется возможной только напрямую с сайта moddb.com
+mr:Проект Sudoku solver преобразован в SudokuArray! Оцените его новые функции!
+
+mu:Вниманию пользователей. В связи с деструктивной активностью надзорного ведомства 
+mu:в сфере коммуникаций в отношении инфраструктуры Лаборатории онлайн-архив проекта 
+mu:JokesArray может оказаться недоступным в Российской Федерации. Это же касается загрузки 
+mu:игровых модов через DPArray.||В этом случае приложение JokesArray 
+mu:может быть переведено в оффлайн-режим и продолжить работу с ограниченной 
+mu:локальной копией архива. Остальной функционал проекта при этом полностью сохранится. 
+mu:Загрузка же модов окажется возможной только напрямую с сайта moddb.com
