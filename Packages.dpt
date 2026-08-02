@@ -117,7 +117,7 @@ v:3.6.6
 p:000A6F460AA5F500
 
 n:SudokuArray
-a:SudokuSolver.dp
+a:SudokuArray.dp
 f:0
 v:6.0
 p:000C9F16308C6208
@@ -238,7 +238,7 @@ v:4.0
 s:75110487
 
 n:KassArrayEC
-u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
+u:GIT_LINK/KassArrayEC/GIT_PATH/DEFFILE
 a:KassArrayEC.apk
 f:FV
 l:r
@@ -246,7 +246,7 @@ v:8.3.6
 s:64198303
 
 n:KassArrayHC
-u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
+u:GIT_LINK/KassArrayHC/GIT_PATH/DEFFILE
 a:KassArrayHC.apk
 f:FV
 l:r
@@ -254,7 +254,7 @@ v:8.3.6
 s:64456351
 
 n:KassArrayPR
-u:GIT_LINK/KassArray/GIT_PATH/DEFFILE
+u:GIT_LINK/KassArrayPR/GIT_PATH/DEFFILE
 a:KassArrayPR.apk
 f:FV
 l:r
@@ -262,8 +262,8 @@ v:8.3.5
 s:64194207
 
 n:SudokuArray
-u:GIT_LINK/SudokuSolver/GIT_PATH/DEFFILE
-a:SudokuSolver.apk
+u:GIT_LINK/SudokuArray/GIT_PATH/DEFFILE
+a:SudokuArray.apk
 f:FV
 v:6.0
 s:64616383

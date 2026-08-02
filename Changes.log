@@ -1,5 +1,9 @@
 DPArray: changes log
 
+Version 8.7.1:
+• Updated the default path checker;
+• Removed support for outdated formats for internal scripts
+
 Version 8.7:
 • Applied the updated GitHub markup for version numbers
 
