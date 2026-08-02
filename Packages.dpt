@@ -34,8 +34,8 @@ p:0009DB20F0009BAE
 n:File associations manager
 a:FileAssociationsManager.dp
 f:0
-v:3.3.6
-p:000B8D5CE0CB62A7
+v:3.4
+p:000B935C388B1247
 
 n:Font finder
 a:FontFinder.dp
