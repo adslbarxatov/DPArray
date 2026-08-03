@@ -15,9 +15,9 @@ g:1
 n:Batch image convertor
 a:BatchImageConvertor.dpz
 f:F
-v:5.3.2
-s:2394521
-p:00623FBDEA8915D2
+v:5.3.3
+s:2394557
+p:00623FBD23EE1A1A
 
 n:ConcurrentDraw
 a:ConcurrentDraw.dp
