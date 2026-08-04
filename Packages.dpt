@@ -62,41 +62,41 @@ n:KassArrayDA
 a:KassArrayDA.dpz
 f:F
 l:r
-v:8.3.7
-s:556189
-p:0013997931C19AB6
+v:8.3.8
+s:558268
+p:0013AF79D1242C11
 
 n:KassArrayEC
 a:KassArrayEC.dpz
 f:F
 l:r
-v:8.3.6
-s:482334
-p:001115CDC81FAF30
+v:8.3.8
+s:483576
+p:00111FCD2C04BD73
 
 n:KassArrayFS
 a:KassArrayFS.dpz
 f:F
 l:r
-v:8.3.7
-s:1425902
-p:002CD7010F2E6B8E
+v:8.3.8
+s:1426332
+p:002CDD01B1DD18E5
 
 n:KassArrayHC
 a:KassArrayHC.dpz
-f:FL
+f:F
 l:r
-v:8.3.6
-s:521785
-p:00119324226C6C2A
+v:8.3.8
+s:522520
+p:00119D24ACA068FC
 
 n:KassArrayPR
 a:KassArrayPR.dpz
 f:F
 l:r
-v:8.3.5
-s:567289
-p:00138664B4EC5420
+v:8.3.8
+s:569167
+p:0013926413C78B3D
 
 n:Name updater
 a:NameUpdater.dp
@@ -305,25 +305,25 @@ n:KassArrayDA
 f:FVD
 l:r
 i:MS_STORE/9P5JHTR36SDS
-v:8.3.7
+v:8.3.8
 
 n:KassArrayEC
 f:FVD
 l:r
 i:MS_STORE/9NGH9JN9KS2P
-v:8.3.6
+v:8.3.8
 
 n:KassArrayHC
 f:FVD
 l:r
 i:MS_STORE/9ND98F4C4Q60
-v:8.3.6
+v:8.3.8
 
 n:KassArrayPR
 f:FVD
 l:r
 i:MS_STORE/9NBKLN7493ZL
-v:8.3.5
+v:8.3.8
 
 n:Name updater
 f:FVD
