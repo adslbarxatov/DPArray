@@ -101,8 +101,8 @@ p:000A371098185A9E
 n:OS macros executor
 a:OSMacrosExecutor.dp
 f:F
-v:4.0
-p:000D7119092C5A16
+v:4.0.2
+p:000D7919C9D27635
 
 n:Screen shooter
 a:ScreenShooter.dp
