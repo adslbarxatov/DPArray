@@ -112,23 +112,6 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 
 
-### ConcurrentDraw
-:us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
-:page_with_curl: [Руководство](https://adslbarxatov.github.io/ConcurrentDraw/ru) &#x3000;
-:film_projector: [Видеоруководство](https://youtube.com/watch?v=vFKAfOkVs_s) &#x3000;
-:tv: [ConcurrentDraw live](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ConcurrentDraw) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/concurrentdraw/releases/latest)
-
-Утилита визуализации звука и музыки. Этот инструмент позволяет визуализировать аудиоданные из системного выхода
-(микшера или динамиков). Любой звук, который можно воспроизвести на Вашем ПК,
-может быть нарисован. Никаких дополнительных кодеков при этом не требуется
-
-&nbsp;
-
-
-
 ### UniNotifier
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
@@ -490,9 +473,26 @@ ES: Randomaze – генератор карт для одноимённого м
 
 &nbsp;
 
+### ConcurrentDraw
+:us: :ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16">
+<img src="/DPArray/img/VC.png" width="16"> :hourglass_flowing_sand: &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/ConcurrentDraw/ru) &#x3000;
+:film_projector: [Видеоруководство](https://youtube.com/watch?v=vFKAfOkVs_s) &#x3000;
+:tv: [ConcurrentDraw live](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/concurrentdraw/releases/latest)
+
+Утилита визуализации звука и музыки. Этот инструмент позволяет визуализировать аудиоданные из системного выхода
+(микшера или динамиков). Любой звук, который можно воспроизвести на Вашем ПК,
+может быть нарисован. Никаких дополнительных кодеков при этом не требуется
+
+&nbsp;
+
+
+
 ### Mafia helper
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> :hourglass_flowing_sand: &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/MafiaHelper/ru) &#x3000;
 :envelope_with_arrow: [В виде MSI](https://github.com/adslbarxatov/MafiaHelper/releases/latest/download/MafiaHelper.msi) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/MafiaHelper/releases/latest/download/MafiaHelper.exe)

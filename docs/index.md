@@ -123,23 +123,6 @@ A tool for solving sudoku
 
 
 
-### ConcurrentDraw
-:us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
-:page_with_curl: [User guide](https://adslbarxatov.github.io/ConcurrentDraw) &#x3000;
-:film_projector: [Video guide](https://youtube.com/watch?v=2ciCx3QnfgU) &#x3000;
-:tv: [ConcurrentDraw live](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ConcurrentDraw) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/concurrentdraw/releases/latest)
-
-The sound and music visualization tool. The app allows you to visualize audio data that comes from system’s output
-(system mixer or speakers). All sound that you can play on your PC can be drawn.
-No additional codecs are required
-
-&nbsp;
-
-
-
 ### UniNotifier
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
@@ -389,9 +372,26 @@ as well as expanding the already great capabilities of Tommy Vercetti
 
 &nbsp;
 
+### ConcurrentDraw
+:us: :ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16">
+<img src="/DPArray/img/VC.png" width="16"> :hourglass_flowing_sand: &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/ConcurrentDraw) &#x3000;
+:film_projector: [Video guide](https://youtube.com/watch?v=2ciCx3QnfgU) &#x3000;
+:tv: [ConcurrentDraw live](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc) &#x3000;
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/concurrentdraw/releases/latest)
+
+The sound and music visualization tool. The app allows you to visualize audio data that comes from system’s output
+(system mixer or speakers). All sound that you can play on your PC can be drawn.
+No additional codecs are required
+
+&nbsp;
+
+
+
 ### Mafia helper
 :us: :ru: &#x3000;
-<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF90.png" width="16"> :hourglass_flowing_sand: &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/MafiaHelper) &#x3000;
 :envelope_with_arrow: [Get MSI](https://github.com/adslbarxatov/MafiaHelper/releases/latest/download/MafiaHelper.msi) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/MafiaHelper/releases/latest/download/MafiaHelper.exe)
