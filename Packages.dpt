@@ -19,12 +19,6 @@ v:5.3.3
 s:2394557
 p:00623FBD23EE1A1A
 
-n:ConcurrentDraw
-a:ConcurrentDraw.dp
-f:F
-v:3.9.3
-p:000BBA184F336E09
-
 n:Dates difference
 a:DatesDifference.dp
 f:0
