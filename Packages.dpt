@@ -231,28 +231,34 @@ s:64267935
 /v:4.0.3
 /s:75135063
 
-/n:KassArrayEC
+n:KassArrayEC
 /u:GIT_LINK/KassArrayEC/GIT_PATH/DEFFILE
 /a:KassArrayEC.apk
 /f:FV
+f:FVD
 /l:r
-/v:8.4
+i:https://t.me/rd_aaow_fdl/1396
+v:8.4
 /s:64198303
 
-/n:KassArrayHC
+n:KassArrayHC
 /u:GIT_LINK/KassArrayHC/GIT_PATH/DEFFILE
 /a:KassArrayHC.apk
 /f:FV
+f:FVD
 /l:r
-/v:8.4
+i:https://t.me/rd_aaow_fdl/1396
+v:8.4
 /s:64456351
 
-/n:KassArrayPR
+n:KassArrayPR
 /u:GIT_LINK/KassArrayPR/GIT_PATH/DEFFILE
 /a:KassArrayPR.apk
 /f:FV
+f:FVD
 /l:r
-/v:8.4
+i:https://t.me/rd_aaow_fdl/1396
+v:8.4
 /s:64345759
 
 n:SudokuArray
