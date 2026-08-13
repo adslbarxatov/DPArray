@@ -223,12 +223,14 @@ f:FV
 v:4.0.1
 s:64267935
 
-/n:JokesArray
+n:JokesArray
 /u:GIT_LINK/JokesArray/GIT_PATH/DEFFILE
 /a:JokesArray.apk
 /f:FV
+f:FVD
 /l:r
-/v:4.0.3
+i:https://t.me/rd_aaow_fdl/1399
+v:4.0.3
 /s:75135063
 
 n:KassArrayEC
