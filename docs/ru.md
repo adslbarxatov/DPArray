@@ -98,7 +98,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/SudokuArray/ru) &#x3000;
-:film_projector: [Видеоруководство](https://youtube.com/watch?v=JB-FBikQ92k) &#x3000;
+:film_projector: [Видеоруководство](https://youtube.com/watch?v=WmrmnQHVwzI) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://SudokuArray) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NZ1DLGFK0WZ) &#x3000;
 :envelope_with_arrow: [В виде MSI](https://github.com/adslbarxatov/SudokuArray/releases/latest/download/SudokuArray.msi) &#x3000;
