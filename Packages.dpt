@@ -48,9 +48,9 @@ n:JokesArray
 a:JokesArray.dpz
 f:0
 l:r
-v:4.0.3
-s:1908504
-p:00395DD3504E634F
+v:4.0.4
+s:1912953
+p:003999D342C2651B
 
 n:KassArrayDA
 a:KassArrayDA.dpz
@@ -224,14 +224,14 @@ v:4.0.1
 s:64267935
 
 n:JokesArray
-/u:GIT_LINK/JokesArray/GIT_PATH/DEFFILE
-/a:JokesArray.apk
-/f:FV
-f:FVD
-/l:r
-i:https://t.me/rd_aaow_fdl/1399
-v:4.0.3
-/s:75135063
+u:GIT_LINK/JokesArray/GIT_PATH/DEFFILE
+a:JokesArray.apk
+f:FV
+/f:FVD
+l:r
+/i:https://t.me/rd_aaow_fdl/1399
+v:4.0.4
+s:75167831
 
 n:KassArrayEC
 /u:GIT_LINK/KassArrayEC/GIT_PATH/DEFFILE
@@ -301,7 +301,7 @@ n:JokesArray
 f:FVD
 l:r
 i:MS_STORE/9NZ7WMRX5SF3
-v:4.0.3
+v:4.0.4
 
 n:KassArrayDA
 f:FVD
@@ -366,7 +366,7 @@ n:JokesArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.GrammarMustJoy
 l:r
-v:4.0.3
+v:4.0.4
 
 n:KassArrayEC
 f:FVD
@@ -404,7 +404,7 @@ mr:Проект Sudoku solver преобразован в SudokuArray! Оцен�
 
 mu:Вниманию пользователей. В связи с деструктивной активностью надзорного ведомства 
 mu:в сфере коммуникаций в отношении инфраструктуры Лаборатории онлайн-архив проекта 
-mu:JokesArray может оказаться недоступным в Российской Федерации. Это же касается загрузки 
+mu:Array может оказаться недоступным в Российской Федерации. Это же касается загрузки 
 mu:игровых модов через DPArray.||В этом случае приложение JokesArray 
 mu:может быть переведено в оффлайн-режим и продолжить работу с ограниченной 
 mu:локальной копией архива. Остальной функционал проекта при этом полностью сохранится. 
