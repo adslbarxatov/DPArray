@@ -113,8 +113,8 @@ p:000A6F460AA5F500
 n:SudokuArray
 a:SudokuArray.dp
 f:0
-v:6.0
-p:000C9F16308C6208
+v:6.0.1
+p:000CA116020CD3F3
 
 n:TextStats
 a:TextStats.dp
@@ -267,8 +267,8 @@ n:SudokuArray
 u:GIT_LINK/SudokuArray/GIT_PATH/DEFFILE
 a:SudokuArray.apk
 f:FV
-v:6.0
-s:64616383
+v:6.0.1
+s:64640959
 
 n:TextStats
 u:GIT_LINK/TextStats/GIT_PATH/DEFFILE
@@ -340,7 +340,7 @@ v:3.6.6
 n:SudokuArray
 f:FVD
 i:MS_STORE/9NZ1DLGFK0WZ
-v:6.0
+v:6.0.1
 
 n:TextStats
 f:FVD
@@ -389,7 +389,7 @@ v:8.4
 n:SudokuArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.SudokuSolver
-v:6.0
+v:6.0.1
 
 n:TextStats
 f:FVD
