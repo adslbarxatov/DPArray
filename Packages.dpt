@@ -4,8 +4,8 @@ n:DPArray
 a:DPArray.dp
 i:INFOPAGE
 f:0
-v:8.7.1
-p:000BC032875A7DEC
+v:8.7.5
+p:000BC4322DF5F8F9
 
 
 
@@ -73,8 +73,8 @@ a:KassArrayFS.dpz
 f:FL
 l:r
 v:8.5.2
-s:1435232
-p:002D4101F698FFFB
+s:1435100
+p:002D40437659D209
 
 n:KassArrayHC
 a:KassArrayHC.dpz

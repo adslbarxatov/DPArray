@@ -1,5 +1,14 @@
 DPArray: changes log
 
+Version 8.7.5:
+• Updated the basic version of IOP;
+• Isolated a potential issue where an incorrectly loaded package list
+  could penetrate the parsing algorithm, causing the application
+  to crash;
+• Implemented an alternative method for loading the package list. This
+  doesn't solve the problem with downloading packages in Russia, but
+  it does allow you to check for updates for deployed products
+
 Version 8.7.1:
 • Updated the default path checker;
 • Removed support for outdated formats for internal scripts
