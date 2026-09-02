@@ -325,8 +325,8 @@ Do you want to save a cache of package descriptions? When deleted, they will be 
   <data name="AppIsNotClosed" xml:space="preserve">
     <value>The application being updated / deleted is running. Finish this app and try again</value>
   </data>
-  <data name="KillProcessFlag" xml:space="preserve">
-    <value>Stop application if it’s running</value>
+  <data name="AutoUpdateFlag" xml:space="preserve">
+    <value>Allow autoupdate with DPArray</value>
   </data>
   <data name="StartProcessFlag" xml:space="preserve">
     <value>Start application after completion</value>
@@ -525,5 +525,10 @@ Do you want to deploy available updates?</value>
   </data>
   <data name="FinishingProcesses" xml:space="preserve">
     <value>Terminating the app being updated...</value>
+  </data>
+  <data name="AppWillBeStoppedMessage" xml:space="preserve">
+    <value>.
+
+WARNING! The currently running instance of {0:S} will be forcibly stopped!</value>
   </data>
 </root>

@@ -325,8 +325,8 @@
   <data name="AppIsNotClosed" xml:space="preserve">
     <value>Обновляемое / удаляемое приложение активно. Завершите работу с ним и повторите попытку</value>
   </data>
-  <data name="KillProcessFlag" xml:space="preserve">
-    <value>Остановить приложение, если оно запущено</value>
+  <data name="AutoUpdateFlag" xml:space="preserve">
+    <value>Разрешить автообновление через DPArray</value>
   </data>
   <data name="StartProcessFlag" xml:space="preserve">
     <value>Запустить приложение после завершения</value>
@@ -525,5 +525,10 @@
   </data>
   <data name="FinishingProcesses" xml:space="preserve">
     <value>Завершение работы обновляемого приложения...</value>
+  </data>
+  <data name="AppWillBeStoppedMessage" xml:space="preserve">
+    <value>.
+
+ВНИМАНИЕ! Уже запущенный экземпляр {0:S} будет принудительно остановлен!</value>
   </data>
 </root>

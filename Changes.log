@@ -1,5 +1,14 @@
 DPArray: changes log
 
+Version 8.8:
+• Automated update option is now available for all supported products.
+  The corresponding flag can be set in the deployment window (disabled
+  by default). If set, the autoupdate sequence starts when the mini-launcher
+  successfully gets the actual list of packages;
+• The process termination flag has been removed from the deployment sequence.
+  If necessary, the app will be forcibly stopped for an update, but the user
+  will be warned about this in advance
+
 Version 8.7.5:
 • Updated the basic version of IOP;
 • Isolated a potential issue where an incorrectly loaded package list
