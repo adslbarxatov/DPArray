@@ -1,6 +1,6 @@
 DPArray: changes log
 
-Version 8.8:
+Version 8.8.1:
 • Automated update option is now available for all supported products.
   The corresponding flag can be set in the deployment window (disabled
   by default). If set, the autoupdate sequence starts when the mini-launcher
