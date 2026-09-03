@@ -1,6 +1,11 @@
 DPArray: changes log
 
-Version 8.8.1:
+Version 8.8.5:
+• The alternative download method has been implemented. DPArray will automatically
+  enable it when GitHub 'raw' URLs (user content storage) becomes unavailable
+  but 'blob' pages (master interface) is still accesible
+
+Version 8.8.2:
 • Automated update option is now available for all supported products.
   The corresponding flag can be set in the deployment window (disabled
   by default). If set, the autoupdate sequence starts when the mini-launcher
