@@ -1,6 +1,6 @@
 _en_us_
 
-- An automatic update option is now available for all related products. This flag can be set in the deployment window (disabled by default). If set, the update is initiated when the mini launcher successfully receives the actual list of packages; 
+- An automatic update option is now available for all related products. This flag can be set in the deployment window (disabled by default). If set, the update is initiated when the mini launcher successfully receives the actual list of packages;
 - The process termination flag has been removed from the deployment sequence. If necessary, the app will be forcibly stopped for an update, but the user will be warned about this in advance;
 - Updated the basic version of `IOP`;
 - Isolated a potential issue where an incorrectly loaded package list could penetrate the parsing algorithm, causing the application to crash;
