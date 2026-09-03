@@ -3,7 +3,7 @@
 n:DPArray
 a:DPArray.dp
 i:INFOPAGE
-f:0
+f:A
 v:8.8.2
 p:000BC83215AC9DFC
 
@@ -21,7 +21,7 @@ p:00623FBD2AB73AA8
 
 n:Dates difference
 a:DatesDifference.dp
-f:0
+f:0A
 v:4.0.1
 p:0009DB20F0009BAE
 
