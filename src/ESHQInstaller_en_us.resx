@@ -492,7 +492,7 @@ Server sent a new message</value>
     <value>Creating the deinstallation script...</value>
   </data>
   <data name="AutostartParameters" xml:space="preserve">
-    <value>Autostart parameters</value>
+    <value>Shortcuts and automation</value>
   </data>
   <data name="AddAppsForm_ColorLabel" xml:space="preserve">
     <value>Color:</value>
@@ -530,5 +530,10 @@ Do you want to deploy available updates?</value>
     <value>.
 
 WARNING! The currently running instance of {0:S} will be forcibly stopped!</value>
+  </data>
+  <data name="AutostartParametersError" xml:space="preserve">
+    <value>Scripts for managing shortcut parameters and automation were not found for any of the products.
+
+This feature requires that at least one product be deployed via DPArray using the standard deployment method</value>
   </data>
 </root>

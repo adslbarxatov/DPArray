@@ -492,7 +492,7 @@
     <value>Создание скрипта деинсталляции...</value>
   </data>
   <data name="AutostartParameters" xml:space="preserve">
-    <value>Параметры автозапуска</value>
+    <value>Ярлыки и автоматизация</value>
   </data>
   <data name="AddAppsForm_ColorLabel" xml:space="preserve">
     <value>Цвет:</value>
@@ -530,5 +530,10 @@
     <value>.
 
 ВНИМАНИЕ! Уже запущенный экземпляр {0:S} будет принудительно остановлен!</value>
+  </data>
+  <data name="AutostartParametersError" xml:space="preserve">
+    <value>Скрипты управления параметрами ярлыков и автоматизации не найдены ни для одного из продуктов.
+
+Для работы с этой функцией требуется, чтобы хотя бы один продукт был развёрнут через DPArray штатным путём</value>
   </data>
 </root>

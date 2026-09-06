@@ -1,9 +1,14 @@
 DPArray: changes log
 
+Version 8.8.6:
+• Added the ability to set up shortcuts, autostart and autoupdate parameters
+  for previously deployed products without their re-installation. The
+  corresponding button can be found in the packages list interface
+
 Version 8.8.5:
 • The alternative download method has been implemented. DPArray will automatically
   enable it when GitHub 'raw' URLs (user content storage) becomes unavailable
-  but 'blob' pages (master interface) is still accesible
+  but 'blob' pages (master interface) is still accessible
 
 Version 8.8.2:
 • Automated update option is now available for all supported products.
