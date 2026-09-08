@@ -1,5 +1,8 @@
 DPArray: changes log
 
+Version 8.8.7:
+• Fixed missing DPArray option in shortcuts setup mode
+
 Version 8.8.6:
 • Added the ability to set up shortcuts, autostart and autoupdate parameters
   for previously deployed products without their re-installation. The
