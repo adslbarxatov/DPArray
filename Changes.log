@@ -1,5 +1,9 @@
 DPArray: changes log
 
+Version 8.8.9:
+• Fixed a potential issue where incorrect or outdated deployment scripts
+  were passed to the app's internal algorithms
+
 Version 8.8.7:
 • Fixed missing DPArray option in shortcuts setup mode
 
