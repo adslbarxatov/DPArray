@@ -1,5 +1,8 @@
 DPArray: changes log
 
+Version 8.9:
+• Fixed an incorrect flags processing for some packages
+
 Version 8.8.9:
 • Fixed a potential issue where incorrect or outdated deployment scripts
   were passed to the app's internal algorithms
