@@ -288,6 +288,20 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 
 
+### Image finder
+:us: :ru: &#x3000;
+<img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/ImageFinder/ru) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ImageFinder) &#x3000;
+:envelope_with_arrow: [В виде MSI](https://github.com/adslbarxatov/ImageFinder/releases/latest/download/ImageFinder.msi) &#x3000;
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/ImageFinder/releases/latest/download/ImageFinder.exe)
+
+Приложение позволяет находить дубликаты и почти полные копии изображений по образцам, используя сортировку по степени совпадения
+
+&nbsp;
+
+
+
 ### Name updater
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
@@ -825,6 +839,7 @@ ES: Randomaze – генератор карт для одноимённого м
 [FullSilence](#fullsilence-codeshow) &#x3000;
 [GraphArray](#grapharray) &#x3000;
 [GIA tester](#giatester) &#x3000;
+[Image finder](#image-finder) &#x3000;
 [JokesArray](#jokesarray) &#x3000;
 [KassArrayDA](#kassarrayda) &#x3000;
 [KassArrayEC](#kassarrayec) &#x3000;
