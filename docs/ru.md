@@ -293,6 +293,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/ImageFinder/ru) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://ImageFinder) &#x3000;
+:briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9N6SRC1T8BHK) &#x3000;
 :envelope_with_arrow: [В виде MSI](https://github.com/adslbarxatov/ImageFinder/releases/latest/download/ImageFinder.msi) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/ImageFinder/releases/latest/download/ImageFinder.exe)
 
