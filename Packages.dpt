@@ -47,8 +47,8 @@ p:00337B29945DE16B
 n:Image finder
 a:ImageFinder.dp
 f:0
-v:1.1
-p:00081FA59EDCBFAF
+v:1.2
+p:00082FA5716F3684
 
 n:JokesArray
 a:JokesArray.dpz
@@ -298,7 +298,7 @@ v:6.4
 n:Image finder
 f:FVD
 i:MS_STORE/9N6SRC1T8BHK
-v:1.1
+v:1.2
 
 n:JokesArray
 f:FVD
@@ -401,16 +401,8 @@ v:1.6.2
 
 
 
-me:Sudoku solver is now SudokuArray! Check our its new features!
+me:Brand new tool - ImageFinder! Find similar pictures in large directories! Fast and simple!
 
-mr:Проект Sudoku solver преобразован в SudokuArray! Оцените его новые функции!
-
-mu:Вниманию пользователей. В связи с деструктивной активностью надзорного ведомства 
-mu:в сфере коммуникаций в отношении инфраструктуры Лаборатории онлайн-архив проекта 
-mu:Array может оказаться недоступным в Российской Федерации. Это же касается загрузки 
-mu:игровых модов через DPArray.||В этом случае приложение JokesArray 
-mu:может быть переведено в оффлайн-режим и продолжить работу с ограниченной 
-mu:локальной копией архива. Остальной функционал проекта при этом полностью сохранится. 
-mu:Загрузка же модов окажется возможной только напрямую с сайта moddb.com
+mr:Встречайте новый инструмент - ImageFinder! Находите похожие картинки в больших папках! Быстро и просто!
 
 /Packages list
