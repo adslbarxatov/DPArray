@@ -1,5 +1,8 @@
 DPArray: changes log
 
+Version 8.9.2:
+• Fixed the incorrect triggering of the autoupdate
+
 Version 8.9.1:
 • Updated the set of default deployment flags;
 • Updated the set of default colors in the mini-launcher
