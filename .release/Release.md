@@ -1,6 +1,6 @@
 _en_us_
 
-- Fixed the incorrect triggering of the autoupdate;
+- Fixed the incorrect triggering of the autoupdate; 
 - Updated the set of default deployment flags;
 - Updated the set of default colors in the mini-launcher
 - Fixed an incorrect flags processing for some packages;
