@@ -304,7 +304,8 @@ Retry the list downloading?</value>
 If this product is already installed, no further action is required. Otherwise, the app may not work properly</value>
   </data>
   <data name="ReqMessageDefault" xml:space="preserve">
-    <value>This app uses the following third-party products: {0:S}
+    <value>This app uses the following third-party products: {0:S}.
+
 Press “Go to” button to open their webpages and get more info</value>
   </data>
   <data name="PackageSelectorForm_ClearCache" xml:space="preserve">
