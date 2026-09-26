@@ -92,11 +92,11 @@ p:0011A1244B411615
 
 n:KassArrayPR
 a:KassArrayPR.dpz
-f:FA
+f:FAL
 l:r
-v:8.5.5
-s:570544
-p:00139E6489C46E4B
+v:8.5.6
+s:571027
+p:0013A2646D5B16CB
 
 n:Name updater
 a:NameUpdater.dp
@@ -328,7 +328,7 @@ n:KassArrayPR
 f:FVD
 l:r
 i:MS_STORE/9NBKLN7493ZL
-v:8.5.5
+v:8.5.6
 
 n:Name updater
 f:FVD
