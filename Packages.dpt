@@ -76,11 +76,11 @@ p:001123CD8D87B347
 
 n:KassArrayFS
 a:KassArrayFS.dpz
-f:FA
+f:FAL
 l:r
-v:8.5.5
-s:1435356
-p:002D4243722B2846
+v:8.5.6
+s:1435614
+p:002D44435696EEEB
 
 n:KassArrayHC
 a:KassArrayHC.dpz
