@@ -123,17 +123,17 @@ A tool for solving sudoku
 
 
 
-### UniNotifier
+### UniObserver
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
-:page_with_curl: [User guide](https://adslbarxatov.github.io/UniNotifier) &#x3000;
+:page_with_curl: [User guide](https://adslbarxatov.github.io/UniObserver) &#x3000;
 :film_projector: [Video guide](https://youtube.com/watch?v=0XUqZhOa37Q) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://UniNotifier) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://UniObserver) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9NVZ51RL54K4) &#x3000;
-:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.exe) &#x3000;
-:envelope_with_arrow: [Get MSI](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.msi)
+:envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/UniObserver/releases/latest/download/UniObserver.exe) &#x3000;
+:envelope_with_arrow: [Get MSI](https://github.com/adslbarxatov/UniObserver/releases/latest/download/UniObserver.msi)
 
-The web resources supervisor service.
+The website observation service.
 This app provides the ability to be notified when the content of user-specified websites changes.
 In other words, about updates on them, which will be presented in the form of a text log. Only what the user
 has specified is loaded – all other objects (including ads) are ignored
@@ -710,6 +710,6 @@ subsequently be used as a trading asset (we have decentralized this token and do
 [TextStats](#textstats) &#x3000;
 [Thousand](#thousand) &#x3000;
 [Turtle](#turtle) &#x3000;
-[UniNotifier](#uninotifier) &#x3000;
+[UniObserver](#uniobserver) &#x3000;
 [Vice city toolset](#vice-city-toolset) &#x3000;
 [Xash3D FWGS for ESHQ](#xash3d-fwgs-engine-adaptation-for-eshq)

@@ -128,10 +128,10 @@ f:0
 v:1.6.2
 p:000A876A64E68A8B
 
-n:UniNotifier
-a:UniNotifier.dp
+n:UniObserver
+a:UniObserver.dp
 f:0
-v:9.1
+v:1.0
 p:000816C8C089F3BB
 
 n:Vice city toolset
@@ -350,10 +350,10 @@ f:FVD
 i:MS_STORE/9PJRQFC4F6RK
 v:1.6.2
 
-n:UniNotifier
+n:UniObserver
 f:FVD
 i:MS_STORE/9NVZ51RL54K4
-v:9.1
+v:1.0
 
 
 

@@ -112,17 +112,17 @@ DPArray выполняет установку, деинсталляцию, пр�
 
 
 
-### UniNotifier
+### UniObserver
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
-:page_with_curl: [Руководство](https://adslbarxatov.github.io/UniNotifier/ru) &#x3000;
+:page_with_curl: [Руководство](https://adslbarxatov.github.io/UniObserver/ru) &#x3000;
 :film_projector: [Видеоруководство](https://youtube.com/watch?v=QK5IJPdIir4) &#x3000;
-<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://UniNotifier) &#x3000;
+<img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://UniObserver) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NVZ51RL54K4) &#x3000;
-:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.exe) &#x3000;
-:envelope_with_arrow: [В виде MSI](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.msi)
+:envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/UniObserver/releases/latest/download/UniObserver.exe) &#x3000;
+:envelope_with_arrow: [В виде MSI](https://github.com/adslbarxatov/UniObserver/releases/latest/download/UniObserver.msi)
 
-Служба наблюдения за состоянием веб-ресурсов.
+Служба наблюдения за веб-сайтами.
 Это приложение предоставляет возможность получать уведомления об изменении состояния указанных пользователем
 веб-сайтов. Другими словами, об обновлениях, происходящих на них, которые представляются в виде текстового журнала.
 Загружается только то, что указал пользователь – все остальные объекты (включая рекламу) игнорируются
@@ -861,6 +861,6 @@ ES: Randomaze – генератор карт для одноимённого м
 [Tablepedia notifier](#tablepedia-viewer) &#x3000;
 [TextStats](#textstats) &#x3000;
 [Thousand](#thousand) &#x3000;
-[UniNotifier](#uninotifier) &#x3000;
+[UniObserver](#uniobserver) &#x3000;
 [Vice city toolset](#vice-city-toolset) &#x3000;
 [Xash3D FWGS for ESHQ](#xash3d-fwgs-engine-adaptation-for-eshq)
