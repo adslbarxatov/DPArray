@@ -131,8 +131,8 @@ p:000A8F6A7AF430B8
 n:UniObserver
 a:UniObserver.dp
 f:0
-v:1.0.1
-p:0008224A65001BE7
+v:1.0.3
+p:0008224A1221B69F
 
 n:Vice city toolset
 a:ViceCityToolset.dpz
@@ -353,7 +353,7 @@ v:1.7
 n:UniObserver
 f:FVD
 i:MS_STORE/9NVZ51RL54K4
-v:1.0.1
+v:1.0.3
 
 
 

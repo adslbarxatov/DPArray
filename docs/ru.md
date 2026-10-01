@@ -116,7 +116,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/UniObserver/ru) &#x3000;
-:film_projector: [Видеоруководство](https://youtube.com/watch?v=QK5IJPdIir4) &#x3000;
+:film_projector: [Видеоруководство](https://youtube.com/watch?v=Y8Qd3Sil23U) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://UniObserver) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NVZ51RL54K4) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/UniObserver/releases/latest/download/UniObserver.exe) &#x3000;
