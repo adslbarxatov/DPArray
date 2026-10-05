@@ -40,9 +40,9 @@ p:000E0E0E0C1B698E
 n:GraphArray
 a:GraphArray.dpz
 f:F
-v:6.4
-s:1887483
-p:00337B29945DE16B
+v:6.4.1
+s:1888199
+p:00337B29C1034B4A
 
 n:Image finder
 a:ImageFinder.dp
@@ -101,8 +101,8 @@ p:0013A2646D5B16CB
 n:Name updater
 a:NameUpdater.dp
 f:0
-v:1.1.3
-p:000A371098185A9E
+v:1.1.4
+p:000A3D10F236CE6A
 
 n:OS macros executor
 a:OSMacrosExecutor.dp
@@ -293,7 +293,7 @@ v:4.1.2
 n:GraphArray
 f:FVD
 i:MS_STORE/9PG19ZZ3NH47
-v:6.4
+v:6.4.1
 
 n:Image finder
 f:FVD
@@ -333,7 +333,7 @@ v:8.5.6
 n:Name updater
 f:FVD
 i:MS_STORE/9MZ32VGK6SF2
-v:1.1.3
+v:1.1.4
 
 n:Screen shooter
 f:FVD
