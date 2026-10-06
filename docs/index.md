@@ -339,6 +339,7 @@ A tool for making screenshots. Supports shooting of screen, windows and elements
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/TextStats) &#x3000;
+:film_projector: [Video guide](https://youtube.com/watch?v=Z8HRc3TSY34) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://TextStats) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9PJRQFC4F6RK) &#x3000;
 :envelope_with_arrow: [Get MSI](https://github.com/adslbarxatov/TextStats/releases/latest/download/TextStats.msi) &#x3000;
