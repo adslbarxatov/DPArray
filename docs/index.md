@@ -191,12 +191,13 @@ A tool for finding a font by its image
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/ImageFinder) &#x3000;
+:film_projector: [Video guide](https://youtube.com/watch?v=GQBPOmPTBwg) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://ImageFinder) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9N6SRC1T8BHK) &#x3000;
 :envelope_with_arrow: [Get MSI](https://github.com/adslbarxatov/ImageFinder/releases/latest/download/ImageFinder.msi) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/ImageFinder/releases/latest/download/ImageFinder.exe)
 
-The app allows you to find duplicates and near-exact copies of images based on samples, sorting them by the degree of similarity
+The app allows you to find duplicates and near-exact copies of images in large sets of files
 
 &nbsp;
 
