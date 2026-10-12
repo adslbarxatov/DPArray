@@ -22,8 +22,8 @@ p:006243BD1E4C3605
 n:Dates difference
 a:DatesDifference.dp
 f:0
-v:4.0.2
-p:0009E7204A4881EF
+v:4.0.3
+p:0009E920C6FA2DAC
 
 n:File associations manager
 a:FileAssociationsManager.dp
@@ -119,8 +119,8 @@ p:000A79469FF2BA2B
 n:SudokuArray
 a:SudokuArray.dp
 f:A
-v:6.0.2
-p:000CA316BF78E582
+v:6.0.3
+p:000CA5165451B92F
 
 n:TextStats
 a:TextStats.dp
@@ -226,8 +226,8 @@ n:Dates difference
 u:GIT_LINK/DatesDifference/GIT_PATH/DEFFILE
 a:DatesDifference.apk
 f:FV
-v:4.0.2
-s:18949733
+v:4.0.3
+s:18966117
 
 n:JokesArray
 u:GIT_LINK/JokesArray/GIT_PATH/DEFFILE
@@ -265,8 +265,8 @@ n:SudokuArray
 u:GIT_LINK/SudokuArray/GIT_PATH/DEFFILE
 a:SudokuArray.apk
 f:FV
-v:6.0.2
-s:19150725
+v:6.0.3
+s:19163013
 
 n:TextStats
 u:GIT_LINK/TextStats/GIT_PATH/DEFFILE
@@ -283,7 +283,7 @@ g:4
 n:Dates difference
 f:FVD
 i:MS_STORE/9NRQ4LQZNKKG
-v:4.0.2
+v:4.0.3
 
 n:Font finder
 f:FVD
@@ -343,7 +343,7 @@ v:3.6.7
 n:SudokuArray
 f:FVD
 i:MS_STORE/9NZ1DLGFK0WZ
-v:6.0.2
+v:6.0.3
 
 n:TextStats
 f:FVD
@@ -363,7 +363,7 @@ g:5
 n:Dates difference
 f:FVD
 i:GP_STOREcom.RD_AAOW.DatesDifference
-v:4.0.2
+v:4.0.3
 
 n:JokesArray
 f:FVD
@@ -392,7 +392,7 @@ v:8.5.3
 n:SudokuArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.SudokuSolver
-v:6.0.2
+v:6.0.3
 
 n:TextStats
 f:FVD

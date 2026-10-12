@@ -82,7 +82,7 @@
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 :earth_africa: [О продукте](https://github.com/adslbarxatov/DPArray) &#x3000;
-:film_projector: [Видеоруководство](https://youtube.com/watch?v=BV0O_90DT_M) &#x3000;
+:film_projector: [Видеоруководство](https://youtube.com/watch?v=1HTuonnJYss) &#x3000;
 :envelope_with_arrow: [В виде MSI](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.msi)
 
 DPArray – это инструмент для управления продуктами Лаборатории на вашем ПК.
@@ -136,6 +136,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/JokesArray) &#x3000;
+:film_projector: [Видеопрезентация](https://youtube.com/watch?v=m_GR4HULVms) &#x3000;
 :earth_africa: [Канал ВКонтакте](https://vk.com/jokesarray) &#x3000;
 :earth_asia: [Канал Telegram](https://t.me/jokesarray) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://JokesArray) &#x3000;
@@ -157,7 +158,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/KassArrayHC) &#x3000;
-:film_projector: [Видеопрезентация](https://youtube.com/watch?v=KYvMss1DWs4) &#x3000;
+:film_projector: [Видеоруководство](https://youtube.com/watch?v=KYvMss1DWs4) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KassArrayHC) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9ND98F4C4Q60) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/KassArrayHC/releases/latest) &#x3000;
@@ -176,7 +177,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/KassArrayFS) &#x3000;
-:film_projector: [Видеопрезентация](https://youtube.com/watch?v=KYvMss1DWs4) &#x3000;
+:film_projector: [Видеоруководство](https://youtube.com/watch?v=KYvMss1DWs4) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KassArrayFS) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/KassArrayFS/releases/latest)
 
@@ -192,7 +193,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/KassArrayPR) &#x3000;
-:film_projector: [Видеопрезентация](https://youtube.com/watch?v=KYvMss1DWs4) &#x3000;
+:film_projector: [Видеоруководство](https://youtube.com/watch?v=KYvMss1DWs4) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KassArrayPR) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NBKLN7493ZL) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/KassArrayPR/releases/latest) &#x3000;
@@ -211,7 +212,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 <img src="/DPArray/img/And.png" width="16"> <img src="/DPArray/img/And5.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/KassArrayEC) &#x3000;
-:film_projector: [Видеопрезентация](https://youtube.com/watch?v=KYvMss1DWs4) &#x3000;
+:film_projector: [Видеоруководство](https://youtube.com/watch?v=KYvMss1DWs4) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KassArrayEC) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9NGH9JN9KS2P) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/KassArrayEC/releases/latest) &#x3000;
@@ -229,7 +230,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/KassArrayDA) &#x3000;
-:film_projector: [Видеопрезентация](https://youtube.com/watch?v=KYvMss1DWs4) &#x3000;
+:film_projector: [Видеоруководство](https://youtube.com/watch?v=KYvMss1DWs4) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://KassArrayDA) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9P5JHTR36SDS) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/KassArrayDA/releases/latest)
@@ -277,7 +278,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 :brazil: :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/FontFinder/ru) &#x3000;
-:film_projector: [Видеоруководство](https://youtube.com/watch?v=S_zIDLUCoXM) &#x3000;
+:film_projector: [Видеоруководство](https://youtube.com/watch?v=qYyM56Mbi0o) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://FontFinder) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9MXDR4BXP8R4) &#x3000;
 :envelope_with_arrow: [В виде MSI](https://github.com/adslbarxatov/FontFinder/releases/latest/download/FontFinder.msi) &#x3000;
@@ -396,7 +397,7 @@ ES: Randomaze – генератор карт для одноимённого м
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/OSMacrosExecutor/ru) &#x3000;
-:film_projector: [Видеоруководство](https://youtube.com/watch?v=7xXC5cGuGNU) &#x3000;
+:film_projector: [Видеоруководство](https://youtube.com/watch?v=z5MNiFgrOFw) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://OSMacrosExecutor) &#x3000;
 :envelope_with_arrow: [В виде EXE](https://github.com/adslbarxatov/osmacrosexecutor/releases/latest)
 

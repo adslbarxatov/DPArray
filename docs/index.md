@@ -93,7 +93,7 @@ A general list of mods is available [here](https://moddb.com/members/rd-aaow-fdl
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 :earth_africa: [About](https://github.com/adslbarxatov/DPArray) &#x3000;
-:film_projector: [Video guide](https://youtube.com/watch?v=Pv1IZIywCrM) &#x3000;
+:film_projector: [Video guide](https://youtube.com/watch?v=asIyGLcYQb4) &#x3000;
 :envelope_with_arrow: [Get MSI](https://github.com/adslbarxatov/DPArray/releases/latest/download/DPArray.msi)
 
 DPArray is a tool for managing Laboratory’s products on your PC.
@@ -176,7 +176,7 @@ A tool for batch processing of image files
 :brazil: :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/FontFinder) &#x3000;
-:film_projector: [Video guide](https://youtube.com/watch?v=x8pfSqAAGa0) &#x3000;
+:film_projector: [Video guide](https://youtube.com/watch?v=LKMVZ536onI) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://FontFinder) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9MXDR4BXP8R4) &#x3000;
 :envelope_with_arrow: [Get MSI](https://github.com/adslbarxatov/FontFinder/releases/latest/download/FontFinder.msi) &#x3000;
@@ -295,7 +295,7 @@ Namely: editing game saves, editing transport parameters, converting models to c
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> <img src="/DPArray/img/VC.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/OSMacrosExecutor) &#x3000;
-:film_projector: [Video guide](https://youtube.com/watch?v=AXcqDsLjYN4) &#x3000;
+:film_projector: [Video guide](https://youtube.com/watch?v=NSbYL0u3nLc) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://OSMacrosExecutor) &#x3000;
 :envelope_with_arrow: [Get EXE](https://github.com/adslbarxatov/osmacrosexecutor/releases/latest)
 
