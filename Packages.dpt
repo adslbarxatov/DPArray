@@ -28,8 +28,8 @@ p:0009E920C6FA2DAC
 n:File associations manager
 a:FileAssociationsManager.dp
 f:0
-v:3.4.2
-p:000B955CB2FAFC9F
+v:3.4.3
+p:000B995CDD4EE68B
 
 n:Font finder
 a:FontFinder.dp
@@ -113,8 +113,8 @@ p:000D7F195652FF12
 n:Screen shooter
 a:ScreenShooter.dp
 f:0
-v:3.6.7
-p:000A79469FF2BA2B
+v:3.6.8
+p:000A7B466049AC51
 
 n:SudokuArray
 a:SudokuArray.dp
@@ -338,7 +338,7 @@ v:1.1.4
 n:Screen shooter
 f:FVD
 i:MS_STORE/9NHVH857DV1S
-v:3.6.7
+v:3.6.8
 
 n:SudokuArray
 f:FVD
