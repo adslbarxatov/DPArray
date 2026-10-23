@@ -208,6 +208,7 @@ The app allows you to find duplicates and near-exact copies of images in large s
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 :page_with_curl: [User guide](https://adslbarxatov.github.io/NameUpdater) &#x3000;
+:film_projector: [Video guide](https://youtube.com/watch?v=46-gWGTbe_A) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [Get on DPArray](dp://NameUpdater) &#x3000;
 :briefcase: [Get on Microsoft Store](ms-windows-store://pdp/?productid=9MZ32VGK6SF2) &#x3000;
 :envelope_with_arrow: [Get MSI](https://github.com/adslbarxatov/NameUpdater/releases/latest/download/NameUpdater.msi) &#x3000;

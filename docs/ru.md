@@ -310,6 +310,7 @@ DPArray выполняет установку, деинсталляцию, пр�
 :us: :ru: &#x3000;
 <img src="/DPArray/img/Win.png" width="16"> <img src="/DPArray/img/NF10.png" width="16"> &#x3000;
 :page_with_curl: [Руководство](https://adslbarxatov.github.io/NameUpdater/ru) &#x3000;
+:film_projector: [Видеоруководство](https://youtube.com/watch?v=bKUG3zPp_CA) &#x3000;
 <img src="/DPArray/img/DP.png" width="16"> [На DPArray](dp://NameUpdater) &#x3000;
 :briefcase: [На Microsoft Store](ms-windows-store://pdp/?productid=9MZ32VGK6SF2) &#x3000;
 :envelope_with_arrow: [В виде MSI](https://github.com/adslbarxatov/NameUpdater/releases/latest/download/NameUpdater.msi) &#x3000;
