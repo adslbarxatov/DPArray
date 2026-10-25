@@ -159,19 +159,10 @@ n:ESHQ, actual update
 a:ESHQ_update.dpz
 f:L
 i:MODSHOST/eshq
-u:MODSTORAGE/309780?MOD_REFeshq
-v:14.7.2
-s:17063348
-p:02DFE218EDC669B2
-
-n:ESHQ, backward compat.
-a:ESHQ_backward.dpz
-f:0
-i:MODSHOST/eshq
-u:MODSTORAGE/307708?MOD_REFeshq
-v:14.7
-s:131396347
-p:099D300A27F94C67
+u:MODSTORAGE/319809?MOD_REFeshq
+v:14.7.3
+s:19695907
+p:0349ED7C67DE4434
 
 n:ES: from aside
 a:ESFA_setup.dpz
@@ -199,15 +190,6 @@ u:MODSTORAGE/309782?MOD_REFesrm
 v:7.3.2
 s:2942386
 p:00685E9765D93058
-
-n:ES: Randomaze, backward compat.
-a:ESRM_backward.dpz
-f:0
-i:MODSHOST/esrm
-u:MODSTORAGE/308005?MOD_REFesrm
-v:7.3
-s:70473035
-p:052325AB73BC2C43
 
 n:Crazy cheater’s mod
 a:CCM.7z
