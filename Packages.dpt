@@ -132,7 +132,7 @@ n:UniObserver
 a:UniObserver.dp
 f:0
 v:1.0.4
-p:0008224ABCC4FE6C
+p:0008224A5777606A
 
 n:Vice city toolset
 a:ViceCityToolset.dpz
@@ -159,10 +159,10 @@ n:ESHQ, actual update
 a:ESHQ_update.dpz
 f:L
 i:MODSHOST/eshq
-u:MODSTORAGE/319809?MOD_REFeshq
-v:14.7.3
-s:19695907
-p:0349ED7C67DE4434
+u:MODSTORAGE/321121?MOD_REFeshq
+v:14.8.1
+s:33176098
+p:054D3C9D741956F3
 
 n:ES: from aside
 a:ESFA_setup.dpz
