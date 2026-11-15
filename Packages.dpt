@@ -86,9 +86,9 @@ n:KassArrayHC
 a:KassArrayHC.dpz
 f:FA
 l:r
-v:8.6
-s:524332
-p:0011AD245D0BBFDC
+v:8.6.1
+s:524322
+p:0011AF24BDC46F8A
 
 n:KassArrayPR
 a:KassArrayPR.dpz
@@ -150,19 +150,19 @@ n:ESHQ
 a:ESHQ_setup.dpz
 f:FV
 i:MODSHOST/eshq
-u:MODSTORAGE/307711?MOD_REFeshq
-v:14.7
-s:247865547
-p:17933F2B1A58E09E
+u:MODSTORAGE/321763?MOD_REFeshq
+v:15.0
+s:249776645
+p:17C312A7FEA224A1
 
 n:ESHQ, actual update
 a:ESHQ_update.dpz
 f:L
 i:MODSHOST/eshq
-u:MODSTORAGE/321121?MOD_REFeshq
-v:14.8.1
-s:33176098
-p:054D3C9D741956F3
+u:MODSTORAGE/321759?MOD_REFeshq
+v:15.0
+s:49682088
+p:07577445E80D4894
 
 n:ES: from aside
 a:ESFA_setup.dpz
@@ -232,8 +232,8 @@ u:GIT_LINK/KassArrayHC/GIT_PATH/DEFFILE
 a:KassArrayHC.apk
 f:FV
 l:r
-v:8.6
-s:18863717
+v:8.6.1
+s:25683957
 
 n:KassArrayPR
 u:GIT_LINK/KassArrayPR/GIT_PATH/DEFFILE
@@ -304,7 +304,7 @@ n:KassArrayHC
 f:FVD
 l:r
 i:MS_STORE/9ND98F4C4Q60
-v:8.6
+v:8.6.1
 
 n:KassArrayPR
 f:FVD
@@ -363,7 +363,7 @@ n:KassArrayHC
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextToKKT
 l:r
-v:8.6
+v:8.6.1
 
 n:KassArrayPR
 f:FVD
