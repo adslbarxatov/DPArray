@@ -159,6 +159,24 @@ n:ESHQ, actual update
 a:ESHQ_update.dpz
 f:L
 i:MODSHOST/eshq
+u:MODSTORAGE/322382?MOD_REFeshq
+v:15.0.5
+s:2658676
+p:006FFE6B1DE937D8
+
+n:ESHQ, russian localization
+a:ESHQ_ru.dpz
+f:V
+i:MODSHOST/eshq
+u:MODSTORAGE/322383?MOD_REFeshq
+v:15.0.5
+s:370355
+p:001E08C2D23ACAF0
+
+n:ESHQ, backward compat. package
+a:ESHQ_backward.dpz
+f:V
+i:MODSHOST/eshq
 u:MODSTORAGE/321759?MOD_REFeshq
 v:15.0
 s:49682088
