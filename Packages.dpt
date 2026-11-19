@@ -150,7 +150,7 @@ n:ESHQ
 a:ESHQ_setup.dpz
 f:FV
 i:MODSHOST/eshq
-u:MODSTORAGE/321763?MOD_REFeshq
+u:https://moddb.com/downloads/mirror/321763/130/a14c62dd44ae3e4a36f6758f5b8102dd/?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq%2Fdownloads
 v:15.0
 s:249776645
 p:17C312A7FEA224A1
@@ -159,7 +159,7 @@ n:ESHQ, actual update
 a:ESHQ_update.dpz
 f:L
 i:MODSHOST/eshq
-u:https://moddb.com/downloads/mirror/322382/134/eaf05bc8050990f769dbc0f6bdef2149
+u:https://moddb.com/downloads/mirror/322382/136/eaf05bc8050990f769dbc0f6bdef2149
 v:15.0.5
 s:2658676
 p:006FFE6B1DE937D8
