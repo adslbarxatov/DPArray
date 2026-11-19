@@ -62,25 +62,25 @@ n:KassArrayDA
 a:KassArrayDA.dpz
 f:FA
 l:r
-v:8.6
-s:560356
-p:0013BF79224D703B
+v:8.6.2
+s:560834
+p:0013C1E940EB06C0
 
 n:KassArrayEC
 a:KassArrayEC.dpz
 f:FA
 l:r
-v:8.6
-s:485166
-p:001131CD3A6802FB
+v:8.6.2
+s:485893
+p:00113BCD67367052
 
 n:KassArrayFS
 a:KassArrayFS.dpz
 f:FA
 l:r
-v:8.6
-s:1436036
-p:002D4E43AF5B2736
+v:8.6.2
+s:1436275
+p:002D50DBA3DDD2EA
 
 n:KassArrayHC
 a:KassArrayHC.dpz
@@ -94,9 +94,9 @@ n:KassArrayPR
 a:KassArrayPR.dpz
 f:FA
 l:r
-v:8.6
-s:571477
-p:0013AC64CEDC8A53
+v:8.6.2
+s:571513
+p:0013AE645C296AC8
 
 n:Name updater
 a:NameUpdater.dp
@@ -242,8 +242,8 @@ u:GIT_LINK/KassArrayEC/GIT_PATH/DEFFILE
 a:KassArrayEC.apk
 f:FV
 l:r
-v:8.5.9
-s:18572901
+v:8.6.2
+s:25188341
 
 n:KassArrayHC
 u:GIT_LINK/KassArrayHC/GIT_PATH/DEFFILE
@@ -258,8 +258,8 @@ u:GIT_LINK/KassArrayPR/GIT_PATH/DEFFILE
 a:KassArrayPR.apk
 f:FV
 l:r
-v:8.5.9
-s:18716261
+v:8.6.2
+s:25364469
 
 n:SudokuArray
 u:GIT_LINK/SudokuArray/GIT_PATH/DEFFILE
@@ -310,13 +310,13 @@ n:KassArrayDA
 f:FVD
 l:r
 i:MS_STORE/9P5JHTR36SDS
-v:8.5.9
+v:8.6.2
 
 n:KassArrayEC
 f:FVD
 l:r
 i:MS_STORE/9NGH9JN9KS2P
-v:8.5.9
+v:8.6.2
 
 n:KassArrayHC
 f:FVD
@@ -328,7 +328,7 @@ n:KassArrayPR
 f:FVD
 l:r
 i:MS_STORE/9NBKLN7493ZL
-v:8.5.9
+v:8.6.2
 
 n:Name updater
 f:FVD
@@ -375,7 +375,7 @@ n:KassArrayEC
 f:FVD
 i:GP_STOREcom.RD_AAOW.KassArrayEC
 l:r
-v:8.5.9
+v:8.6.2
 
 n:KassArrayHC
 f:FVD
@@ -387,7 +387,7 @@ n:KassArrayPR
 f:FVD
 i:GP_STOREcom.RD_AAOW.KassArrayPR
 l:r
-v:8.5.9
+v:8.6.2
 
 n:SudokuArray
 f:FVD
