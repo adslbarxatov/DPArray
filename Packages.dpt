@@ -22,8 +22,8 @@ p:006243BD1E4C3605
 n:Dates difference
 a:DatesDifference.dp
 f:0
-v:4.0.3
-p:0009E920C6FA2DAC
+v:4.0.4
+p:0009E920374541FD
 
 n:File associations manager
 a:FileAssociationsManager.dp
@@ -54,9 +54,9 @@ n:JokesArray
 a:JokesArray.dpz
 f:A
 l:r
-v:4.1
-s:1913074
-p:0039B9D37F417911
+v:4.1.1
+s:1913218
+p:0039BDD380595E6B
 
 n:KassArrayDA
 a:KassArrayDA.dpz
@@ -226,16 +226,16 @@ n:Dates difference
 u:GIT_LINK/DatesDifference/GIT_PATH/DEFFILE
 a:DatesDifference.apk
 f:FV
-v:4.0.3
-s:18966117
+v:4.0.4
+s:25282549
 
 n:JokesArray
 u:GIT_LINK/JokesArray/GIT_PATH/DEFFILE
 a:JokesArray.apk
 f:FV
 l:r
-v:4.1
-s:29583389
+v:4.1.1
+s:36272557
 
 n:KassArrayEC
 u:GIT_LINK/KassArrayEC/GIT_PATH/DEFFILE
@@ -283,7 +283,7 @@ g:4
 n:Dates difference
 f:FVD
 i:MS_STORE/9NRQ4LQZNKKG
-v:4.0.3
+v:4.0.4
 
 n:Font finder
 f:FVD
@@ -304,7 +304,7 @@ n:JokesArray
 f:FVD
 l:r
 i:MS_STORE/9NZ7WMRX5SF3
-v:4.1
+v:4.1.1
 
 n:KassArrayDA
 f:FVD
@@ -363,13 +363,13 @@ g:5
 n:Dates difference
 f:FVD
 i:GP_STOREcom.RD_AAOW.DatesDifference
-v:4.0.3
+v:4.0.4
 
 n:JokesArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.GrammarMustJoy
 l:r
-v:4.1
+v:4.1.1
 
 n:KassArrayEC
 f:FVD
