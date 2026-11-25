@@ -16,12 +16,12 @@ jobs:
 # Константы, используемые далее по тексту
     env:
       PROJ: ${{ github.event.repository.name }}
-      TAG: '8.9.7'
+      TAG: '8.9.8'
 
     steps:
 # Проверка состава репозитория (без анализа, как может показаться)
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
   
 # Формирование релиза
       - name: Create release
@@ -39,7 +39,7 @@ jobs:
 # Загрузка бинарных файлов в релиз
       - name: Upload release asset
         id: upload-release-asset
-        uses: actions/github-script@v4
+        uses: actions/github-script@v9
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
@@ -48,7 +48,7 @@ jobs:
 
             await fs.unlink (`./.release/Release.md`);
             for (let file of await fs.readdir('./.release')){
-              await github.repos.uploadReleaseAsset({
+              await github.rest.repos.uploadReleaseAsset({
                 owner, repo,
                 release_id: ${{ steps.create_release.outputs.id }},
                 name: file,

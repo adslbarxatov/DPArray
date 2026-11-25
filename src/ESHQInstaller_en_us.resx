@@ -160,9 +160,6 @@ Please, start this manager again and download the original package</value>
   <data name="LogCreationError" xml:space="preserve">
     <value>Failed to create installation log</value>
   </data>
-  <data name="ModDBIsNotFullyAvailable" xml:space="preserve">
-    <value>The updates server is busy now. Try again later</value>
-  </data>
   <data name="ModDBIsUnavailable" xml:space="preserve">
     <value>The updates server is unavailable now. Try again later</value>
   </data>
@@ -535,5 +532,10 @@ WARNING! The currently running instance of {0:S} will be forcibly stopped!</valu
     <value>Scripts for managing shortcut parameters and automation were not found for any of the products.
 
 This feature requires that at least one product be deployed via DPArray using the standard deployment method</value>
+  </data>
+  <data name="PackageIsUnsupported" xml:space="preserve">
+    <value>Your deployment package is not supported anymore.
+
+Try to replace it with some of our actual products or continue the deployment if it is impossible</value>
   </data>
 </root>
