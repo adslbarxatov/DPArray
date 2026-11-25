@@ -119,14 +119,14 @@ p:000A7B466049AC51
 n:SudokuArray
 a:SudokuArray.dp
 f:A
-v:6.0.3
-p:000CA5165451B92F
+v:6.0.4
+p:000CA5165782F57B
 
 n:TextStats
 a:TextStats.dp
 f:0
-v:2.0
-p:000AD36AF4EE5B56
+v:2.0.1
+p:000AD56A5005407A
 
 n:UniObserver
 a:UniObserver.dp
@@ -265,15 +265,15 @@ n:SudokuArray
 u:GIT_LINK/SudokuArray/GIT_PATH/DEFFILE
 a:SudokuArray.apk
 f:FV
-v:6.0.3
-s:19163013
+v:6.0.4
+s:25544981
 
 n:TextStats
 u:GIT_LINK/TextStats/GIT_PATH/DEFFILE
 a:TextStats.apk
 f:FV
-v:2.0
-s:19015269
+v:2.0.1
+s:25311221
 
 
 
@@ -343,12 +343,12 @@ v:3.6.8
 n:SudokuArray
 f:FVD
 i:MS_STORE/9NZ1DLGFK0WZ
-v:6.0.3
+v:6.0.4
 
 n:TextStats
 f:FVD
 i:MS_STORE/9PJRQFC4F6RK
-v:2.0
+v:2.0.1
 
 n:UniObserver
 f:FVD
@@ -392,12 +392,12 @@ v:8.6.2
 n:SudokuArray
 f:FVD
 i:GP_STOREcom.RD_AAOW.SudokuSolver
-v:6.0.3
+v:6.0.4
 
 n:TextStats
 f:FVD
 i:GP_STOREcom.RD_AAOW.TextStats
-v:2.0
+v:2.0.1
 
 
 
